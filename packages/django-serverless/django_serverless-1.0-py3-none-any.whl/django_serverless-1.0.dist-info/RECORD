@@ -1,0 +1,7 @@
+tasks/__init__.py,sha256=DTuzbazuzM06M5kIB_DLsM7azejoLhHNwIQQW3PDTDM,40
+tasks/async_task.py,sha256=2lEvnUIScXh3jr4fLtTVc8tqMc4eOuo0iX9IHIVadTQ,52
+django_serverless-1.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+django_serverless-1.0.dist-info/METADATA,sha256=Rap0e2F-S1WaFqlNk1Gjjavq43Ij8tCZt3BdPw0YChY,646
+django_serverless-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_serverless-1.0.dist-info/top_level.txt,sha256=pmoOA8PX_0fqDNJOqBhUzZrBxf7VnayEQtBYI66Xiro,6
+django_serverless-1.0.dist-info/RECORD,,
