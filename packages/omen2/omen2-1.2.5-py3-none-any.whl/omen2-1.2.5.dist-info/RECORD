@@ -1,0 +1,16 @@
+omen2/__init__.py,sha256=-u6JSQNwBtOybhb10rjsj7nZ90NasPEYRuqKupK23p8,207
+omen2/codegen.py,sha256=Ec2sOsfAdIWFVqt6iYmOkgkad1KULCY-DhVAew1fYWQ,9447
+omen2/errors.py,sha256=46ElMEW1rP_QECsg0luhbupy1vfJvs1BLPvxesmY7Hc,994
+omen2/m2mhelper.py,sha256=Zg3vuphA0HsvI0VhSpV6vtVACxWU6VLfOBGduUEQvZ0,10197
+omen2/object.py,sha256=REyUCmRhFybWxGzozXKhgKUU9WP9CKLCFl4CzrWHBoI,15785
+omen2/omen.py,sha256=W13C7beDx_Ba_VoXIV-B04j80RbLnkqdhtqnHzu8ANc,7018
+omen2/relation.py,sha256=goynrvc06QFbvSGDLH-9bCcqjZOthlFwECtIe56HeqA,3820
+omen2/selectable.py,sha256=nkI1JrqUUa72rnpwKJiPPb1kCYvg5dIlfp8h32rPA0I,2762
+omen2/table.py,sha256=_JkhiuC6sFEBM7yvTnv7JkXWJH6uq-ytQniWXKSyg6M,5421
+omen2/types.py,sha256=EMmF5mNJmL5hmkImBAfbmDslta-oVehB23xA00VMpfU,1465
+omen2-1.2.5.dist-info/LICENSE,sha256=bkVNQdsXkFoCxMqeOri1_rddCGfbKM-Rv5VmOPuKrCc,8015
+omen2-1.2.5.dist-info/METADATA,sha256=yKM8Ct3mmCdt5ZVHqafK4pEr8K20eM9MYSr4hK32dcU,3828
+omen2-1.2.5.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+omen2-1.2.5.dist-info/entry_points.txt,sha256=_0msBH4ZZObB7a0WcD6Pe-Jk-Z-J2UvhEzlTY2qozxo,54
+omen2-1.2.5.dist-info/top_level.txt,sha256=CGUrUAfwAkze2YNi3hYKnIP-ZPBd2_Fe3jzQT1yAtzU,6
+omen2-1.2.5.dist-info/RECORD,,
