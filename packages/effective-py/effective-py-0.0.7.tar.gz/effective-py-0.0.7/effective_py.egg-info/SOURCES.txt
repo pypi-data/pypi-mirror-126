@@ -1,0 +1,16 @@
+CHANGES
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+./effective_py/__init__.py
+./effective_py/improve/__init__.py
+./effective_py/improve/enum.py
+./tests/__init__.py
+effective_py.egg-info/PKG-INFO
+effective_py.egg-info/SOURCES.txt
+effective_py.egg-info/dependency_links.txt
+effective_py.egg-info/not-zip-safe
+effective_py.egg-info/requires.txt
+effective_py.egg-info/top_level.txt
