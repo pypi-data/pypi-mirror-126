@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hello-sahaj-raj-malla
+Version: 0.0.1
+Summary: Say Hello
+Home-page: https://github.com/sahajrajmalla/my-first-python-package
+Author: Sahaj Raj Malla
+Author-email: mallasahajraj@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
