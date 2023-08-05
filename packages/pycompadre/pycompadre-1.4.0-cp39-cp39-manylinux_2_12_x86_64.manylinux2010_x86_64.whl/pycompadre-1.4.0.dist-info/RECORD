@@ -1,0 +1,13 @@
+libkokkoscore.so.3.0.0,sha256=Ou8pOL7SofUIYwN3kNbTYyOxkHGZIlNfvaoCWY8mi5o,322640
+libkokkoscontainers.so.3.0.0,sha256=gj4775qr--rmdipGyMGL6aNUJyAYZNM2SjWRf-nuMm0,17504
+libcompadre.so,sha256=yQb9ranZXyaEFj6_9e6FsPoI-jH9jIq3WgeJmHzRypI,647496
+libkokkoscontainers.so,sha256=gj4775qr--rmdipGyMGL6aNUJyAYZNM2SjWRf-nuMm0,17504
+pycompadre.cpython-39-x86_64-linux-gnu.so,sha256=dIC09ADH493NoEJsRxPTckIslaBVkfn9yr4r-PO0Jj4,623384
+libkokkoskernels.so,sha256=uNeAwRut1jcHLorzhlvAuW9Z2Vv9yRxT-jWwfhmoKkU,13336
+libkokkoscore.so,sha256=Ou8pOL7SofUIYwN3kNbTYyOxkHGZIlNfvaoCWY8mi5o,322640
+pycompadre-1.4.0.dist-info/METADATA,sha256=_UoKa0SdH-Tm39nG9v7IS1HKlXis6ExZUstAwBlzxxc,4917
+pycompadre-1.4.0.dist-info/LICENSE.md,sha256=_xXLQ_jfoYsHHL-pQQqhJoKrQceUoFP-27YoyryGe8c,1870
+pycompadre-1.4.0.dist-info/RECORD,,
+pycompadre-1.4.0.dist-info/WHEEL,sha256=0JUwTucFjv30CIZQTRPZxOSiL7ZsZ_T-19WLKFnAX_I,148
+pycompadre-1.4.0.dist-info/top_level.txt,sha256=PS0MpZz5kfkWcFR1F27InbyhL1ya-p04rqsIw6EkI5k,11
+pycompadre.libs/libgomp-f7e03b3e.so.1.0.0,sha256=GzmXB1qluHXQUhlsmNKuWncNm8Jezfq1jt5rKrV_8kQ,93080
