@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+gecoauth.egg-info/PKG-INFO
+gecoauth.egg-info/SOURCES.txt
+gecoauth.egg-info/dependency_links.txt
+gecoauth.egg-info/requires.txt
+gecoauth.egg-info/top_level.txt
