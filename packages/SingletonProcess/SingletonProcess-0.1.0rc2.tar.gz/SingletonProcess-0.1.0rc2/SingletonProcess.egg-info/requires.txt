@@ -1,0 +1,4 @@
+pathos
+
+[:python_version < "3.7"]
+dataclasses
