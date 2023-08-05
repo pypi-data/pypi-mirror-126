@@ -1,0 +1,7 @@
+LICENSES..txt
+README.txt
+setup.py
+shawqi_ali.egg-info/PKG-INFO
+shawqi_ali.egg-info/SOURCES.txt
+shawqi_ali.egg-info/dependency_links.txt
+shawqi_ali.egg-info/top_level.txt
