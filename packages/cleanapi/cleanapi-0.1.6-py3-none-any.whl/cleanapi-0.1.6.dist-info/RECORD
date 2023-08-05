@@ -1,0 +1,14 @@
+cleanapi/__init__.py,sha256=JqVPzDOcSQhUyBX398nct8QfRdn8PtXwtny2s2T1sPQ,72
+cleanapi/server.py,sha256=D_1a8e7geYbpBeR60V556uHDLm5rN2hMu4ODusT6PNw,7769
+cleanapi/logger/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cleanapi/logger/server_logger.py,sha256=FYCvXUjQ2sEhq7YDceXlyfV6HVp3hgiA1BioQ6NLr0A,2028
+cleanapi/third_party_libs/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cleanapi/third_party_libs/importdir.py,sha256=fBGdAA_vbQhNO1fBr9tKLaO-zb2JDttN688IEY7D25s,1931
+handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+handlers/pydantic_handler.py,sha256=iJyy7VxpgDygmU30JMnWYpdZizLGMeyUSid05r-4yfU,1639
+handlers/simple_handler.py,sha256=jrZ70jixgT9fvvWNkPpKSDfJmqWMsIjXcnZ35HPQH-M,270
+cleanapi-0.1.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cleanapi-0.1.6.dist-info/METADATA,sha256=9t8Pzbfrm8eoR9ZlzBlGWzCyh09y-lHWBTagzgZdhEQ,4981
+cleanapi-0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cleanapi-0.1.6.dist-info/top_level.txt,sha256=xDXvx6Yb-gaxZSYB21osf1GnlbuLbiP4ZHOPfEefSNo,18
+cleanapi-0.1.6.dist-info/RECORD,,
