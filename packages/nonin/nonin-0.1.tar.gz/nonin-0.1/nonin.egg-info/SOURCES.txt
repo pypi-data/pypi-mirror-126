@@ -1,0 +1,7 @@
+setup.py
+nonin.egg-info/PKG-INFO
+nonin.egg-info/SOURCES.txt
+nonin.egg-info/dependency_links.txt
+nonin.egg-info/entry_points.txt
+nonin.egg-info/requires.txt
+nonin.egg-info/top_level.txt
