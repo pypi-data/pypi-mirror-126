@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+django_serverless/django_serverless.egg-info/PKG-INFO
+django_serverless/django_serverless.egg-info/SOURCES.txt
+django_serverless/django_serverless.egg-info/dependency_links.txt
+django_serverless/django_serverless.egg-info/top_level.txt
+django_serverless/tasks/__init__.py
+django_serverless/tasks/async_task.py
