@@ -1,0 +1,14 @@
+matplotlib
+pandas
+numpy
+progressbar
+lxml
+cryptography
+slackclient>=2.0
+slack
+slacker
+optuna
+tensorflow
+keras
+torch
+cornac
