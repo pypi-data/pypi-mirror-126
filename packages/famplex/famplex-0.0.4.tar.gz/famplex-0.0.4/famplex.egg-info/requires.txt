@@ -1,0 +1,10 @@
+
+[html]
+requests
+tqdm
+pandas
+click
+jinja2
+
+[test]
+pytest
