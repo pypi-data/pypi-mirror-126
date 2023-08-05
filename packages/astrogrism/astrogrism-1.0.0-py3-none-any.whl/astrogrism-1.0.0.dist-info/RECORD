@@ -1,0 +1,17 @@
+astrogrism/__init__.py,sha256=dy2AIUcP-Ca2r4FkP5zzBsnurIKTkQrO0d2tP7uNiEE,249
+astrogrism/grism_observation.py,sha256=_QQ7FIx6aIWmyshZuwX1Ds5tYSuxyWxL1mbTtyAb5Uo,10416
+astrogrism/version.py,sha256=YDhpFAXgv37cmY1pZn8kQNcYAOwj883BhWAtoaziSG4,142
+astrogrism/HST/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+astrogrism/HST/dispersion_models.py,sha256=C_skyhOsT-aacG1TdcvX_UCQw-hJySnf0Vi2VGfWQ4c,2700
+astrogrism/HST/transform_models.py,sha256=UfiBuqKYxal_aUqOhAL9NpBaBPU5LE2FmFfX75UHylY,9385
+astrogrism/data/README.rst,sha256=S7522e6pGsbIG92Qc1812c4rjBVfmpjZb7CsF1hvDUU,369
+astrogrism/tests/__init__.py,sha256=1D-l3TVbwIZHY78A-sB7kc4ldldX8ZaEq-Ntph51WVw,108
+astrogrism/tests/test_acs_g800l.py,sha256=PpQ6JSq1zsR--m_cFmdABOkRmrYONYNAqBjhvCOiud4,2470
+astrogrism/tests/test_image2grism.py,sha256=3CxNFBP7JFhVNgaAO1ge-9MEBLw-WTXuO7RZr_lmfOw,4050
+astrogrism/tests/test_image2world.py,sha256=KhtOySdkom1_UEvz3ysA5MFtdgLjnjW6cwfIfmPfvCc,1883
+astrogrism/tests/test_wfc3_g280.py,sha256=ig---1XD0Z3qQTi-YPy6WJso93HUS-Hwsi8ejPZKsfs,2552
+astrogrism-1.0.0.dist-info/LICENSE.rst,sha256=8YqC7z-FbHy3MdmM3GEAom6_HChe8G6VRUyz1fEZ9lI,1554
+astrogrism-1.0.0.dist-info/METADATA,sha256=bpNyOq6nymQZ-fHoyDx5Yv4r8cfBtRVPAV8Dmp0l1kA,1178
+astrogrism-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+astrogrism-1.0.0.dist-info/top_level.txt,sha256=4YGKscGtzrUuxB0fgUXf1aU8ZupIx87FnM3SGZ_nIS4,11
+astrogrism-1.0.0.dist-info/RECORD,,
