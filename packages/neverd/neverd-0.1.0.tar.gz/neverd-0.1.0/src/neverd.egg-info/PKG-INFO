@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: neverd
+Version: 0.1.0
+Summary: A 2D reverse engineering tool
+Home-page: https://github.com/lpereira95/neverd
+Author: L. F. Pereira
+Author-email: luisfgpereira95@gmail.com
+License: UNKNOWN
+Project-URL: Homepage, https://github.com/lpereira95/neverd
+Project-URL: Bug Tracker, https://github.com/lpereira95/neverd/issues
+Keywords: gui,tkinter,reverse engineering,2D dialog,geometry
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+2D REVerse ENginnering dialog
+=============================
+
+
+`neverd` is a 2D reverse engineering tool built on top of `tkinter`. It provides a set of geometric objects (points, lines and sliders) that can be used in conjunction with an image and a calibration rectangle to extract relevant geometric information.
+
+
+
+## Installation
+
+Install with
+
+```bash
+pip install neverd
+```
+
+
+## Usage
+
+`neverd` can be used both as a normal package or as a CLI tool.
+
+
+For CLI tool usage, do:
+
+```bash
+neverd --help
+```
+
+
+
+
