@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: scatrex
+Version: 0.0.2
+Summary: Mapping single-cell transcriptomes to copy number evolutionary trees
+Home-page: https://github.com/cbg-ethz/SCATrEx
+Author: Pedro F. Ferreira
+Author-email: pedro.miguel.ferreira.pf@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/cbg-ethz/SCATrEx/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align="left">
+  <img src="https://github.com/cbg-ethz/SCATrEx/raw/main/figures/scatrex.png", width="300px">
+</div>
+
+[![pypi](https://img.shields.io/pypi/v/scatrex.svg)](https://pypi.python.org/pypi/scatrex)
+
+Map single-cell transcriptomes to copy number evolutionary trees. Check out the [tutorial](https://github.com/cbg-ethz/SCATrEx/blob/main/notebooks/tutorial.ipynb) for more information.
+
+## Installation
+```
+$ pip install scatrex
+```
+
+SCATrEx uses [JAX](https://github.com/google/jax) to perform automatic differentiation. By default, SCATrEx installs the CPU-only version of JAX, but we strongly recommend the use of GPU acceleration. Please follow the instructions in https://github.com/google/jax#pip-installation-gpu-cuda to install the GPU version of JAX.
+
+
