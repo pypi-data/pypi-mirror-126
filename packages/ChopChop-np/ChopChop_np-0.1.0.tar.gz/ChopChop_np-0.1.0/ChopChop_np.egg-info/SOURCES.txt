@@ -1,0 +1,9 @@
+setup.py
+ChopChop_np/__init__.py
+ChopChop_np/lagrange_interpolation.py
+ChopChop_np.egg-info/PKG-INFO
+ChopChop_np.egg-info/SOURCES.txt
+ChopChop_np.egg-info/dependency_links.txt
+ChopChop_np.egg-info/not-zip-safe
+ChopChop_np.egg-info/requires.txt
+ChopChop_np.egg-info/top_level.txt
