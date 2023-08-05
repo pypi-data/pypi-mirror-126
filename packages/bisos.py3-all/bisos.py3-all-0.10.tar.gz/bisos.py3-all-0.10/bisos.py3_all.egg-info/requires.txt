@@ -1,0 +1,12 @@
+bisos.provision
+bisos.core
+bisos.lcnt
+bisos.things
+bisos.gossonot
+bisos.icm
+bisos.basics
+bisos.bpo
+bisos.cntnr
+bisos.coreDist
+bisos.currents
+bisos.pals
