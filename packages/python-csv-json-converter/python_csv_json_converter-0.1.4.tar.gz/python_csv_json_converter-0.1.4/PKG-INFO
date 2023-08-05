@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: python-csv-json-converter
+Version: 0.1.4
+Summary: Convert csv to Json. For learning purposes
+Author: Felipe França
+Author-email: felipejonataoliveira@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: pandas (>=1.3.4,<2.0.0)
+Description-Content-Type: text/markdown
+
+**CSV TO JSON in Python
+
+Project is written in Python to read a CSV file and export a JSON file. All options to conversion are passed by prompt commands options.
+This project makes part of the course Artificial Intelligence, specifically the discipline "Python for data science"
+
