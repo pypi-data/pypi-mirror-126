@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: vaby
+Version: 0.0.2.post15
+Summary: Core code for implementation of Variational Bayes for timeseries model fitting
+Home-page: UNKNOWN
+Author: Martin Craig
+Author-email: martin.craig@eng.ox.ac.uk
+License: Apache 2
+Description: VABY - Core classes for Variational Bayesian inference for timeseries model fitting
+        ===================================================================================
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
