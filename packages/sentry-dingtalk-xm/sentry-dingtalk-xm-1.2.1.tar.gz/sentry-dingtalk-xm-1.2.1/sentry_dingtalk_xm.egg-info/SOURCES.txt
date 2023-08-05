@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sentry_dingtalk_notify/__init__.py
+sentry_dingtalk_notify/plugin.py
+sentry_dingtalk_xm.egg-info/PKG-INFO
+sentry_dingtalk_xm.egg-info/SOURCES.txt
+sentry_dingtalk_xm.egg-info/dependency_links.txt
+sentry_dingtalk_xm.egg-info/entry_points.txt
+sentry_dingtalk_xm.egg-info/requires.txt
+sentry_dingtalk_xm.egg-info/top_level.txt
