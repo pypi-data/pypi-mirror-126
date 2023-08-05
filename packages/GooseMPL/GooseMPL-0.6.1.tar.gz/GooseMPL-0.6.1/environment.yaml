@@ -1,0 +1,9 @@
+channels:
+- conda-forge
+dependencies:
+- deprecation
+- h5py
+- matplotlib
+- numpy
+- python
+- scipy
