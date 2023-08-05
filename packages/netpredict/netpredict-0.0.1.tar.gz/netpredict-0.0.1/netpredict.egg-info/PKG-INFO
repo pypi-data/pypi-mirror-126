@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: netpredict
+Version: 0.0.1
+Summary: Real-time Deep Learning Predictions for TrafficForecasting
+Home-page: https://github.com/esnet/netpredict
+Author: mariam kiran
+Author-email: mkrian@es.net
+License: Lawrence Berkeley National Laboratory
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning

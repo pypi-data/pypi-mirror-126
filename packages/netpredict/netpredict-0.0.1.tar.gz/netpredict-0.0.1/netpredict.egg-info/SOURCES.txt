@@ -1,0 +1,5 @@
+setup.py
+netpredict.egg-info/PKG-INFO
+netpredict.egg-info/SOURCES.txt
+netpredict.egg-info/dependency_links.txt
+netpredict.egg-info/top_level.txt
