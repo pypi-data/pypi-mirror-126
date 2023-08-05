@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+linealabs.egg-info/PKG-INFO
+linealabs.egg-info/SOURCES.txt
+linealabs.egg-info/dependency_links.txt
+linealabs.egg-info/top_level.txt
