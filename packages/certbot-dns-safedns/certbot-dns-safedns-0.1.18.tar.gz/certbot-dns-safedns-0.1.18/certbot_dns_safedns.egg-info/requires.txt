@@ -1,0 +1,6 @@
+acme[dev]==1.21.0
+certbot[dev]==1.21.0
+
+[docs]
+Sphinx>=1.0
+sphinx_rtd_theme
