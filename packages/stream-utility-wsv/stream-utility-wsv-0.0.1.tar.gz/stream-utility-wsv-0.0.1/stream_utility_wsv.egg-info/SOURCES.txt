@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+stream/__init__.py
+stream/record.py
+stream_utility_wsv.egg-info/PKG-INFO
+stream_utility_wsv.egg-info/SOURCES.txt
+stream_utility_wsv.egg-info/dependency_links.txt
+stream_utility_wsv.egg-info/top_level.txt
