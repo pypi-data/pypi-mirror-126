@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/vru/__init__.py
+src/vru/example.py
+src/vru.egg-info/PKG-INFO
+src/vru.egg-info/SOURCES.txt
+src/vru.egg-info/dependency_links.txt
+src/vru.egg-info/top_level.txt
