@@ -1,0 +1,11 @@
+SingletonProcess/__init__.py,sha256=Sr2Tr7kmQIhXCZcw4Y8bonNXpATtQk9sw8u4MOp1qso,3914
+SingletonProcess/examples/basic.py,sha256=D6eI4QovsBuFnfdlMfi9NjS4Fnm9TdvipZ9-BFncyqM,644
+SingletonProcess/examples/custompids.py,sha256=u9EsycTTNXbe9vx-ZS7mKmdwbZhmH5NShwwqatO5lwg,609
+SingletonProcess/examples/poolgroups.py,sha256=kSZUlNkBc8OqGOwComjvkzHCLMYLJC2C6SC3AKH09W4,656
+SingletonProcess/examples/returnval.py,sha256=U8HyJBdvDzU0kYlPxKGNAYeQKwuXTIrNAq3QQw653aA,356
+SingletonProcess/examples/verbose.py,sha256=8Qwte8LNiWbJH9mEJyYan-DbHysYLyw0N3StZ2hv_Fc,695
+SingletonProcess-0.1.0rc1.dist-info/LICENSE,sha256=szU-Ro5TrFuh7AeXPfO24djY3hOqEwEe_sKgbUaSBho,1054
+SingletonProcess-0.1.0rc1.dist-info/METADATA,sha256=3NxDJH4DCECis-SSBVEZsWqrHPnyMD5SlIFabztMtKo,4428
+SingletonProcess-0.1.0rc1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+SingletonProcess-0.1.0rc1.dist-info/top_level.txt,sha256=fJfSoBoSKC211dOrXWiRFXN5SSy7v5TI2QddNUNkli4,17
+SingletonProcess-0.1.0rc1.dist-info/RECORD,,
