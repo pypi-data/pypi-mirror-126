@@ -1,0 +1,23 @@
+slack_discovery_sdk/__init__.py,sha256=Om1U4cGlB9Fhoj77oKsNAQgYk9Fg7aNGNC1FcffSAPw,326
+slack_discovery_sdk/base_client.py,sha256=xvOZGz7e-HtLNSg3Hh0rX8pxOOW3c90MAWW91AVaz8Q,18003
+slack_discovery_sdk/client.py,sha256=OybGYPeY-xUWpTze8MYm-5IH7HeDtaoHGvQrL3OkhQY,25310
+slack_discovery_sdk/errors.py,sha256=pk50O_ylaOBjOIUhpYyvO-YEaeYqHyKtv-JXIATunEs,980
+slack_discovery_sdk/internal_utils.py,sha256=yeBOIjAJQpNj5cWvuc0jHwpiT_FV7lQSb_ehJ-ECKlo,3382
+slack_discovery_sdk/oauth.py,sha256=U1dzchnmDaGe-Bs64J-nUq7FOfQbtG7mCDAPP48qmpw,5009
+slack_discovery_sdk/proxy_support.py,sha256=ESrtpVPYhSOR-ezhvz--fmxqUCfrPLEQ9P3P015a0a8,664
+slack_discovery_sdk/rate_limit_support.py,sha256=qidfxPn6ooWnzrk4Np99ZWyAvIx7iLLlW78AVDyr21U,7643
+slack_discovery_sdk/response.py,sha256=c79X1JKd6ACfvzr4lf1CXlhJ9BbS_ISM3gWIA6YbMa8,5867
+slack_discovery_sdk/version.py,sha256=g8Bf_IAzMRrMNWu1-Ir5aiIorarXd6b6Ea1C6i5w69k,87
+slack_discovery_sdk/examples/DLP_call_pattern copy.py,sha256=cBOtHGEY62SDMRPb8o4_92ReYNqbIV2d8_JV7XQVwCU,2126
+slack_discovery_sdk/examples/DLP_call_pattern.py,sha256=cBOtHGEY62SDMRPb8o4_92ReYNqbIV2d8_JV7XQVwCU,2126
+slack_discovery_sdk/examples/__init__.py,sha256=uNnEQd5qHCqFbipgiCyRbPievg4agYXxP0Goc_SHN7s,310
+slack_discovery_sdk/examples/audit_logs_pattern.py,sha256=SrKtVmDoQaYrg9ALB3ulalees4oQUbcBbXHEyTlUPJA,1991
+slack_discovery_sdk/examples/get_enterprise_info.py,sha256=q1GK7J5pRttSvtq_enVtnumKPljnM_1-K55At492hrI,553
+slack_discovery_sdk/examples/user_based_eDiscovery_pattern copy.py,sha256=xCuSVa0DIhENB3027KVu172D_CAbKey8ptz-Cpufqrw,2098
+slack_discovery_sdk/examples/user_based_eDiscovery_with_edits.py,sha256=Qvn86dCcIqEhAQuPBWm4u7wS1v0vOYWviDgGSZURGC8,3002
+slack_discovery_sdk/examples/utils.py,sha256=r2wNR_yjjVq0Ok-N1EHyOWUWMBzYL-UFejrIod1jmqw,2531
+slack_discovery_sdk-1.0.0.dist-info/LICENSE.md,sha256=SuIAfFUWSrTvsFgjdvIDYdGLBu__DEfj9d4APTQ02zM,18298
+slack_discovery_sdk-1.0.0.dist-info/METADATA,sha256=XX9oTemg0U2mL1aFDFQb1sjX-R7kcUiY4Vj60hjmX2I,10490
+slack_discovery_sdk-1.0.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+slack_discovery_sdk-1.0.0.dist-info/top_level.txt,sha256=i4xXwtLshX3kyOJhMjdDnua3-x2ITCdcJXHL208-hZY,20
+slack_discovery_sdk-1.0.0.dist-info/RECORD,,
