@@ -1,0 +1,3 @@
+[console_scripts]
+mdbook-CodeChat = CodeChat.mdbook_CodeChat:main
+
