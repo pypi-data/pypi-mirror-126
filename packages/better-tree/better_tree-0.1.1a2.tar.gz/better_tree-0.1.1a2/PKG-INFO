@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: better-tree
+Version: 0.1.1a2
+Summary: A better tree utility in Python
+Home-page: https://github.com/antoniouaa/better-tree
+License: MIT
+Author: antoniouaa
+Author-email: antoniouaa@hotmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: rich (>=10.12.0,<11.0.0)
+Project-URL: Repository, https://github.com/antoniouaa/better-tree
+Description-Content-Type: text/markdown
+
+# better-tree
+
+~~Cause regular tree is weak and no alternative (that works) exists.~~
+
+Cause I'm bored out of my mind.
+
+## Usage
+
+![Usage](assets/tree_usage.png)
+
