@@ -1,0 +1,13 @@
+knowledgehub/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knowledgehub/api.py,sha256=kD3ldGqykvSkZUubRe96XDkdgC3-1S4A5TxFkEGTQDQ,5747
+knowledgehub/chemistryservice.py,sha256=fT0vP9flfAoinI_rwWipd0bt8VagnqmzwzcWCvjO4Ls,2764
+knowledgehub/constants.py,sha256=vuKXM4ZepOl56wN2M8-tq-BrjWwxa2TnrfqAV4NftMI,51
+knowledgehub/primitiveadapter.py,sha256=rFkQmDEiylKRykaUqY03O4ykkCoMBpWWp88xI-1H4nA,30311
+knowledgehub/semanticservice.py,sha256=USla7xEKTm-D7ZDw-Hyqqxe9vVkq1LPHqVPHBLcaivA,9496
+knowledgehub/services.py,sha256=f8p0GmEMQF3ZLjRMBSjDieks4FrqLPNeCQ2yWGpWvKI,1982
+knowledgehub/similarityservice.py,sha256=bsfgQcDInmzZ8XTHd5WffZjdAdLJ-XzYLU4OAfUoIgU,2554
+knowledgehub-1.2.8.dist-info/LICENSE,sha256=07Uz3UcCqJQU6fOECsY0hNKzKK5L7itf4Vu8MhnTVbE,1076
+knowledgehub-1.2.8.dist-info/METADATA,sha256=e1l5q28d9XUCNcIny3wuS2voZQ6aOu4py3QZa-TXDSw,896
+knowledgehub-1.2.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+knowledgehub-1.2.8.dist-info/top_level.txt,sha256=BtCaNrXeJnMbl1OIjdKGE5ZyUv5FNP_1zGWaJXUVcGw,13
+knowledgehub-1.2.8.dist-info/RECORD,,
