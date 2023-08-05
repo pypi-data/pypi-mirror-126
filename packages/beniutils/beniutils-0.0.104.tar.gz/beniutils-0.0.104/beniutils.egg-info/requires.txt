@@ -1,0 +1,13 @@
+aiohttp
+aiofiles
+python-dateutil
+twine
+pyinstaller
+openpyxl
+pytest
+pytest-asyncio
+pyecharts
+chardet
+playwright
+ipython
+autopep8
