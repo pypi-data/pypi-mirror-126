@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+test/test.py
+test/test_download.py
+zippyshare/__init__.py
+zippyshare/core.py
+zippyshare/utils.py
+zippyshare.egg-info/PKG-INFO
+zippyshare.egg-info/SOURCES.txt
+zippyshare.egg-info/dependency_links.txt
+zippyshare.egg-info/requires.txt
+zippyshare.egg-info/top_level.txt
+zippyshare/../.gitignore
+zippyshare/../LICENSE
+zippyshare/../README.md
+zippyshare/../requirements.txt

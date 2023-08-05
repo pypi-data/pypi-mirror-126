@@ -1,0 +1,4 @@
+lxml>=0.0.1
+requests>=0.0.1
+vpncmd>=0.0.1
+netifaces>=0.0.1
