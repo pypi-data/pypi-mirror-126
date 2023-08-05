@@ -1,0 +1,7 @@
+README.md
+setup2.py
+echidna2022/__init__.py
+echidna2022.egg-info/PKG-INFO
+echidna2022.egg-info/SOURCES.txt
+echidna2022.egg-info/dependency_links.txt
+echidna2022.egg-info/top_level.txt
