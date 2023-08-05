@@ -1,0 +1,14 @@
+tictactai/__init__.py,sha256=XvlX0GFQGY5mHGwldKUa2xC3KkAVJXacBKk4mJxSmgg,16
+tictactai/ai_player.py,sha256=3F2x5b1VjoCv-xEcBTANgXZ-AJYXRwiXgRCGpTJZCyo,409
+tictactai/board.py,sha256=OE68h4fSYz9_zOXUfJl9ZxK1_oOugRSbUOmxFTmiWck,788
+tictactai/evaluator.py,sha256=xSVNI9NEMcay5ZpfEGVC2Xwym1Uuh36Qrc7XIcAXoBM,5243
+tictactai/game.py,sha256=PIztPdcpzItc-QZyd0pJkK_XnbFaysAphjOEYccQqlM,1776
+tictactai/output.py,sha256=_e9ssy_iwmpzGCkhybKQGeKkZCAX0ybmfU2eEF4mOUI,5210
+tictactai/player.py,sha256=2tE4ufLA1IePut1Vi6k14745_crDwqTSf29u6Vl2GLs,283
+tictactai/tictactai.py,sha256=-NBaEi5bYj_KWlKuAtGtonioDLQPmLjqA7DB7714F8E,206
+tictactai-1.0.8.dist-info/LICENSE,sha256=hxnDT624cAoKdmgkL2UmxHRZJedpRYiR1rYFwuwb_Is,1066
+tictactai-1.0.8.dist-info/METADATA,sha256=L9_HgZuLfkKVZov-TNgqdtlilQ_uxtt7j77Z6vcs4ak,1728
+tictactai-1.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tictactai-1.0.8.dist-info/entry_points.txt,sha256=Lfzd0QMFfUtRk5GiriptqeqIs7s7Py_a30hvBHMdghE,73
+tictactai-1.0.8.dist-info/top_level.txt,sha256=Z1YhnBuiLYElcR28uJpAVJ94nggKWbVtiWv2INH59qk,16
+tictactai-1.0.8.dist-info/RECORD,,
