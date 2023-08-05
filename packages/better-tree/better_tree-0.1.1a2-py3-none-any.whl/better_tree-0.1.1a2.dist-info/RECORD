@@ -1,0 +1,10 @@
+better_tree/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+better_tree/console.py,sha256=fhcVvGkVO2jSXW72jMr9KF2x8Khc0BTK9dooVoYK1P4,268
+better_tree/main.py,sha256=PLgSUkU7bHoqIKzPxWEYtNpzQS-XsmeGs5mnNpXFMBI,1851
+better_tree/parser.py,sha256=-eNfcPGd7cQqzuFTvmdFOOMjA2gSKRGS08-tRaxG1yA,876
+LICENSE,sha256=eh2iPqnXfcuQosXtFmfF7lKSxOW9cUJxqMgWhfAZ5_E,1091
+better_tree-0.1.1a2.dist-info/entry_points.txt,sha256=FrNFBJCO2dHllj0ckHXJcHKQRPPLWoCL7b21YQEFNn0,52
+better_tree-0.1.1a2.dist-info/LICENSE,sha256=eh2iPqnXfcuQosXtFmfF7lKSxOW9cUJxqMgWhfAZ5_E,1091
+better_tree-0.1.1a2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+better_tree-0.1.1a2.dist-info/METADATA,sha256=JC446_Vc4bwzfXXQy8I9f__c7xPe7K8BZD91npAkk-s,759
+better_tree-0.1.1a2.dist-info/RECORD,,
