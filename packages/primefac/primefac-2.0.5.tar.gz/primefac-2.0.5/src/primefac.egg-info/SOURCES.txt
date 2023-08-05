@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/primefac/__init__.py
+src/primefac/__main__.py
+src/primefac/primefac.py
+src/primefac.egg-info/PKG-INFO
+src/primefac.egg-info/SOURCES.txt
+src/primefac.egg-info/dependency_links.txt
+src/primefac.egg-info/top_level.txt
