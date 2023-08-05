@@ -1,0 +1,3 @@
+[console_scripts]
+anonymize=us2anonymize.anonymize:main
+
