@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: vandal
+Version: 2.2.3
+Summary: Archived predecessor of duality package.
+Home-page: http://github.com/dkundih/duality
+Author: David Kundih
+Author-email: kundihdavid@gmail.com
+License: Apache Software License
+Description: ![vandal-header](https://raw.githubusercontent.com/dkundih/vandal/main/.logistics/visforvandalpy.jpg)
+        
+        **vandal is currently an archived package, while all the functionality has been merged into duality package**
+        
+        ![duality-header](https://raw.githubusercontent.com/dkundih/duality/main/.logistics/duality.jpg)
+        
+        **visit https://pypi.org/project/duality/ or https://github.com/dkundih/duality for more details**
+        
+        
+Keywords: data science,machine learning,data manipulation,artificial intelligence,AI,duality,duality-py
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: Education
+Classifier: Topic :: Office/Business
+Description-Content-Type: text/markdown
