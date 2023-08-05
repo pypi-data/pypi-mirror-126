@@ -1,0 +1,11 @@
+ioLabs.py,sha256=5uCpf_MMsg_CNHeeFNC6nBB-4VwWjc612uCtsU78DBc,38929
+psyscopex.py,sha256=uafJNkrtvA3Y0tv94iOA5DNRUb1NjQl2bBdhO2EU7Bw,18694
+hid/__init__.py,sha256=cTpz_e5jMz4iDMO66DRKg9CvifEauNwZ_7Ay22L7THU,3240
+hid/cparser.py,sha256=yhvTZtOnkxoTpmd0ATAZNf8HKmnawJR_E0LniqtGva0,6378
+hid/osx.py,sha256=pPnPNRWCf2YRa2CXQTjn_xe_poY3wEK_-8PvIKCCfd8,19784
+hid/win32.py,sha256=-6WOWZ6HRpgTgrhOPIiD4z_RVjyVEw_Cp04AKdfvC2k,9888
+ioLabs-3.2.dist-info/LICENSE,sha256=r5Hz4gYUODPTGVQH_XPtlsLUbnQWx9oI8tTgnEToXV0,1519
+ioLabs-3.2.dist-info/METADATA,sha256=ESMMvmLd7328oDKoVSMbAB-WAci0HPmgbIE95o1uTLU,397
+ioLabs-3.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ioLabs-3.2.dist-info/top_level.txt,sha256=AV6lf46aRx8ncfJYSdYX82ze4ivrVjQSrfG3cUQge3c,21
+ioLabs-3.2.dist-info/RECORD,,
