@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+moscow_test/__init__.py
+moscow_test/db_manager.py
+moscow_test.egg-info/PKG-INFO
+moscow_test.egg-info/SOURCES.txt
+moscow_test.egg-info/dependency_links.txt
+moscow_test.egg-info/not-zip-safe
+moscow_test.egg-info/top_level.txt
