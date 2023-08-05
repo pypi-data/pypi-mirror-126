@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+*.sublime-*
+.idea/
+*.log
+*.pass
+.project
+*/.coverage
+__pycache__
+*.pyc
