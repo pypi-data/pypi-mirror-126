@@ -1,0 +1,22 @@
+scipy
+paramiko
+pandas
+pytz
+astropy
+astroplan
+PyYAML
+numpy
+sleekxmpp
+py_expression_eval
+requests
+ccdproc
+photutils
+lmfit
+tornado
+python-telegram-bot
+typing_extensions
+
+[:platform_system == "Linux"]
+sep
+pyinotify
+python-daemon
