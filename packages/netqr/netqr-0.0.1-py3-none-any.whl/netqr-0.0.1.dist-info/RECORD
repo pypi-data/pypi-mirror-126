@@ -1,0 +1,9 @@
+netqr/__init__.py,sha256=oVojdZdxNasrrtPKAwyBMeNdvXz9AXSWxg9AXY7rhAQ,119
+netqr/netqr.py,sha256=4eEjljsrUYOx181daydpQqUgEktWNvP3jSt90SIqWV4,6975
+netqr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netqr/util_log.py,sha256=PF_ONrsxGcTV4Pf7W3rH5nAS6dRWVrPTt_tdHKtubW0,467
+netqr-0.0.1.data/scripts/qr.py,sha256=1wrjy174SAwft7CzalSU_XimvagfYbWKWZxIYP8q3hs,1554
+netqr-0.0.1.dist-info/METADATA,sha256=VRdS-1SxzsNHkgA0eFFTtqNUYWuMhAzH19W7NP2fabk,1260
+netqr-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+netqr-0.0.1.dist-info/top_level.txt,sha256=CVmdlAJyoTGd77qzdAL7U55G_pfG0VqFruw0sxcvJIk,6
+netqr-0.0.1.dist-info/RECORD,,
