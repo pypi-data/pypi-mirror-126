@@ -1,0 +1,15 @@
+disgames/__init__.py,sha256=fK0DxnTDh4Cpm0KSNFJr1E0XVCQeZKrNtBGgml8UC8o,266
+disgames/cog.py,sha256=60ON5URNBdOwfyKPPCE-L2wuFQw6PUNFwuZFS66IN_M,432
+disgames/mixins/__init__.py,sha256=NHZAGtkhbowRL53aaFrXBBwr-XJEtY3rSOqqWwzoNNU,192
+disgames/mixins/chess.py,sha256=PVx3SybSV1J2eBw_mkMEhFaZunKssHG9jgSRx5C56mA,8011
+disgames/mixins/hangman.py,sha256=AYWZ3cMdbrWV-eI2OzBbsT_9nVgJrAiZgD6Zvln3zPc,5124
+disgames/mixins/madlib.py,sha256=VPiLDgqMSfH02DHFFt0ql1zQ7cg8PlkzwH4_F19zIpk,1425
+disgames/mixins/ttt.py,sha256=MSOBmIy0lMVrxz5fHgWrneWsIL5SNkuE8IGS6SPQJ_E,6798
+disgames/utils/__init__.py,sha256=z8Y0F4MVqiKJuE1U3thqaRWNUBw56p_vA_HR4wajBCE,44
+disgames/utils/board.py,sha256=Cxh6sML7BN7drhBo6UaxyU0UChTbAACbJhG_VDrS5dE,1325
+disgames/utils/utils.py,sha256=pclhA_S3sBUDYXR2Bm1QOv-BvKNcqLl3PkQT7j9H6-Q,1019
+disgames-1.2.0.dist-info/LICENSE,sha256=vrnN-6cD8h70snC8xfYPIcg5U0O6JTFCLmwdczsVSZ4,11559
+disgames-1.2.0.dist-info/METADATA,sha256=HbzZotbcqRL3BFNHTuQ9oxzR3P7jDx6LCHgQKY9rN6E,2050
+disgames-1.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+disgames-1.2.0.dist-info/top_level.txt,sha256=3-raDTd_Ac1s-TumNAQ7rzRRVlQnZ3ZvR9BDTIyeQCM,9
+disgames-1.2.0.dist-info/RECORD,,
