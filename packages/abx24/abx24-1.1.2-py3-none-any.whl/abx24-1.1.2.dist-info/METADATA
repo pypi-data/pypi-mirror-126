@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: abx24
+Version: 1.1.2
+Summary: Bitrix24 REST API wrapper provides easy way to communicate with bitrix24 portal over REST without OAuth
+Home-page: https://github.com/paperdevil/bitrix24-python-rest
+Author: Niel (Ketov) Gorev <ketov-x@yandex.ru>
+Author-email: ketov-x@yandex.ru
+License: MIT
+Keywords: bitrix24 async api rest
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Russian
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+
+# Async Bitrix24 client for Python 3.6+
+ 
+Клиент разработан на основе синхронного клиента Bitrix24-rest - https://pypi.org/project/bitrix24-rest/
+
+## Usage
+```python
+from aiohttp import ClientSession
+from abx24 import Bitrix24
+bx24 = Bitrix24('')
+await bx24.call_method('crm.customer.add', ClientSession(), fields={
+    "NAME": 'Niel',
+    "SECOND_NAME": 'Ketov'
+})
+```
+
