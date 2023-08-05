@@ -1,0 +1,8 @@
+README.rst
+muninn_generic_products.py
+setup.py
+muninn_generic_products.egg-info/PKG-INFO
+muninn_generic_products.egg-info/SOURCES.txt
+muninn_generic_products.egg-info/dependency_links.txt
+muninn_generic_products.egg-info/requires.txt
+muninn_generic_products.egg-info/top_level.txt
