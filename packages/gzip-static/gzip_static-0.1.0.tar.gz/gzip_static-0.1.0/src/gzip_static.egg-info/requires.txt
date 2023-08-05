@@ -1,0 +1,12 @@
+
+[full]
+zopfli
+xxhash>=2.0.0
+isal
+
+[performance]
+xxhash>=2.0.0
+isal
+
+[zopfli]
+zopfli
