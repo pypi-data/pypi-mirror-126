@@ -1,0 +1,12 @@
+seaborn_analyzer/__init__.py,sha256=d6CXJdn3OCy_rHB6dQENk3QipHnpQVtLbhw8mZoRK8o,155
+seaborn_analyzer/_cv_eval_set.py,sha256=V8N7uBU4tnI4PSoSTHfS17QzkEAF3BVb5MRIhrU3U0E,53954
+seaborn_analyzer/custom_class_plot.py,sha256=wWvBGtHbFfcqcR8r_JMdBFdTc8BKzS9vVju3JqLvUeU,83867
+seaborn_analyzer/custom_hist_plot.py,sha256=g9uCM9B6OPMxtgKCheqDPNEABazEGkY7Tu932YKBkKg,22617
+seaborn_analyzer/custom_pair_plot.py,sha256=V_8wQLSl7clc2j5oypmuTmOsztO8FtOgP0d6J59RTkU,12386
+seaborn_analyzer/custom_reg_plot.py,sha256=IItwxegMzfGVDTwCwj8G-3GmAhPBbI_koapdYurOPqM,99453
+seaborn_analyzer/multiclass_fitparams.py,sha256=xacGRIaU0BsGr5Q8aEzgvO-JWuWlbL0_hJLEeaEAJ4c,1675
+seaborn_analyzer-0.2.3.dist-info/LICENSE,sha256=tMEqV1g6BNMWoL_yOTlT7IycOa-4C1i86AnWBDkfKG0,1551
+seaborn_analyzer-0.2.3.dist-info/METADATA,sha256=W9YKvt1qGYeMnqEhRkW24IWwwb7A7dEkhoVsX6G1XCU,15799
+seaborn_analyzer-0.2.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+seaborn_analyzer-0.2.3.dist-info/top_level.txt,sha256=h4PUFZzS_BqUCNN6-A08b_TvlxB5VqXn60RKDsE5t3o,17
+seaborn_analyzer-0.2.3.dist-info/RECORD,,
