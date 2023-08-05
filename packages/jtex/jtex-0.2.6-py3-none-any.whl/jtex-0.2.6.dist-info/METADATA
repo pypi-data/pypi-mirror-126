@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: jtex
+Version: 0.2.6
+Summary: Jinja-style templating for LaTeX documents by Curvenote
+Home-page: http://curvenote.com
+Author: iooxa inc.
+Author-email: hi@curvenote.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Financial and Insurance Industry
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: typer
+Requires-Dist: jinja2
+Requires-Dist: pykwalify
+Requires-Dist: pyyaml
+
+# jtek cli
+
+By Curvenote
+
+
