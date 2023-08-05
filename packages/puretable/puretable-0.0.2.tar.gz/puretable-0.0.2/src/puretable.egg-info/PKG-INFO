@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: puretable
+Version: 0.0.2
+Summary: A collection of objects in memory with index search and aggregating functions
+Home-page: https://github.com/alistratov/puretable
+Author: Oleh Alistratov
+Author-email: zero@cpan.org
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/alistratov/puretable/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# puretable
+A collection of objects in memory with index search and aggregating functions.
+
+

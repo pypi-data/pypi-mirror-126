@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/puretable/__init__.py
+src/puretable/table.py
+src/puretable.egg-info/PKG-INFO
+src/puretable.egg-info/SOURCES.txt
+src/puretable.egg-info/dependency_links.txt
+src/puretable.egg-info/top_level.txt
