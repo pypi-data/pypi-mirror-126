@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tsapp
+Version: 0.0.1
+Summary: Placeholder for tsapp
+Home-page: https://github.com/techsmartkids/tsapp/
+Author: TechSmart
+Author-email: eli.sheldon@techsmart.codes
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/techsmartkids/tsapp/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tsapp
+
+This is a placeholder for tsapp.
+

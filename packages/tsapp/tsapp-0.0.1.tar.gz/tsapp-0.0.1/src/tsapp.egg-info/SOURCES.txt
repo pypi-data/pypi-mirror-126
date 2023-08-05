@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tsapp/__init__.py
+src/tsapp/tsapp.py
+src/tsapp.egg-info/PKG-INFO
+src/tsapp.egg-info/SOURCES.txt
+src/tsapp.egg-info/dependency_links.txt
+src/tsapp.egg-info/top_level.txt
