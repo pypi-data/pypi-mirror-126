@@ -1,0 +1,16 @@
+new_face/__init__.py,sha256=BzphEDZnUJozIVQDCKj8zVbCl24C5QV3BQnbayarE6Q,1513
+new_face/kernel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+new_face/kernel/alignment.py,sha256=8qdg7fq7dLGz4eFdA5XPR2ss7BFuNpcXxQEm9IdJUd8,14618
+new_face/kernel/config.py,sha256=Kp6_C-flqwJmie7NCUnBzH9JhxwLnPUXMzAfS_UdKzo,1165
+new_face/kernel/detection.py,sha256=5Z3YJhuY8-Ejs7Zs5Q9RnPX7-14zXraq7OuTUG2XrV4,17072
+new_face/kernel/download.py,sha256=t-PtMa0F40yEreDGiuTb92cesRU2wAfr6ByDy9ERM0A,2130
+new_face/kernel/landmark.py,sha256=yfG2H2X62AyM-EMLol7sQgNVyNF1IoUdF-Hk__WOT6A,9014
+new_face/kernel/lbpcnn.py,sha256=WG8nXN6rb7YA_fVR---CFb2s8ZegGgHjhGDIrp0C2yc,9953
+new_face/kernel/lbph.py,sha256=GU5zTqeJiwdYY19Z1Mw8a8rUgKl6y2wcRM27JFArHNw,5692
+new_face/kernel/models.py,sha256=s_PS2Om0ofz2KdGcx-868Ginp7HrFz-7YAYfxtfDHmE,2329
+new_face/kernel/openface.py,sha256=uX7iSX1tza1LmqlUfd2-TJkM9NqJq9LuOXN3GYMQwuU,7344
+new_face-0.0.3.dist-info/LICENSE,sha256=MOS4G78CdEK-gxHsbBKCh5ZObvQXDHJMKk_33MaSqow,1087
+new_face-0.0.3.dist-info/METADATA,sha256=rhXQru3v6TGsyIidS_OAExSyG8T_Ahkh1rGxZbVJopg,4971
+new_face-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+new_face-0.0.3.dist-info/top_level.txt,sha256=m60Xe0a-48ZAw2jJsthZhakX5yRIiKHhXF3zOb9Db10,9
+new_face-0.0.3.dist-info/RECORD,,
