@@ -1,0 +1,3 @@
+[console_scripts]
+tree=better_tree:main
+
