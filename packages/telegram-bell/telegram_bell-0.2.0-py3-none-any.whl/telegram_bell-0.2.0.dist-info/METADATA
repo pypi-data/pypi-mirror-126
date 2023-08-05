@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: telegram-bell
+Version: 0.2.0
+Summary: Notify you when something is mentioned in a telegram channel
+License: MIT
+Author: Pablo Cabezas
+Author-email: headsrooms@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: 12factor-configclasses (>=1.0.0,<2.0.0)
+Requires-Dist: anyio (>=3.3.4,<4.0.0)
+Requires-Dist: asyncclick (>=8.0.1,<9.0.0)
+Requires-Dist: python-dotenv (>=0.19.1,<0.20.0)
+Requires-Dist: rich (>=10.12.0,<11.0.0)
+Requires-Dist: telethon (>=1.23,<2.0)
