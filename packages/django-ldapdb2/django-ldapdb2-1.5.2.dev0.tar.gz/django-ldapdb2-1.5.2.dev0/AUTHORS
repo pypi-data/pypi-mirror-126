@@ -1,0 +1,12 @@
+Maintainers
+-----------
+
+The ``django-ldapdb2`` is fork from ``django-ldapdb`` project is operated and maintained by:
+
+* Diego Saraiva <diegosaraiva@gmail.com> (https://github.com/jdiego), primary author
+
+
+The ``django-ldapdb`` project is operated and maintained by:
+
+* Jeremy Lainé <jeremy.laine@m4x.org> (https://github.com/jlaine), primary author
+* Raphaël Barrois <raphael.barrois+django-ldapdb@polytechnique.org> (https://github.com/rbarrois)
