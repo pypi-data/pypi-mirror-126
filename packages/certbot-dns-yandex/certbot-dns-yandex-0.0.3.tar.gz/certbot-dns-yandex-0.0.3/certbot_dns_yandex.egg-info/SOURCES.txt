@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+certbot_dns_yandex/__init__.py
+certbot_dns_yandex/dns_yandex.py
+certbot_dns_yandex/dns_yandex_test.py
+certbot_dns_yandex.egg-info/PKG-INFO
+certbot_dns_yandex.egg-info/SOURCES.txt
+certbot_dns_yandex.egg-info/dependency_links.txt
+certbot_dns_yandex.egg-info/entry_points.txt
+certbot_dns_yandex.egg-info/requires.txt
+certbot_dns_yandex.egg-info/top_level.txt
