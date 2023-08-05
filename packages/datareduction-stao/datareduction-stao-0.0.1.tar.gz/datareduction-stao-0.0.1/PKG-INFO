@@ -1,0 +1,31 @@
+Metadata-Version: 1.2
+Name: datareduction-stao
+Version: 0.0.1
+Summary: Data reduction from databroker to xarray.
+Home-page: https://github.com/st3107/datareduction
+Author: Songsheng Tao
+Author-email: st3107@columbia.edu
+License: BSD (3-clause)
+Description: =============
+        DataReduction
+        =============
+        
+        .. image:: https://img.shields.io/pypi/v/datareduction.svg
+                :target: https://pypi.python.org/pypi/datareduction
+        
+        
+        Data reduction from databroker to xarray.
+        
+        * Free software: 3-clause BSD license
+        * Documentation: (COMING SOON!) https://st3107.github.io/datareduction.
+        
+        Features
+        --------
+        
+        * TODO
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
