@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: posterior
+Version: 0.1.0
+Summary: A lightweight framework for Bayes's inference
+License: MIT
+Author: Roman Glushko
+Author-email: roman.glushko.m@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.21.3,<2.0.0)
+Requires-Dist: tabulate (>=0.8.9,<0.9.0)
