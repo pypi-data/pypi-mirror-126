@@ -1,0 +1,3 @@
+[console_scripts]
+hifive_filler = hifive_filler:main
+
