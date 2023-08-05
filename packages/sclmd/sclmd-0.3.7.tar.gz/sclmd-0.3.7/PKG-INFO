@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sclmd
+Version: 0.3.7
+Summary: Semi-classical Langevin molecular dynamics
+Home-page: UNKNOWN
+License: GNU General Public License v3.0
+Keywords: md molecular dynamics quantum Langevin
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+Molecular dynamics script using a semi-classical generalized Langevin equation
+
