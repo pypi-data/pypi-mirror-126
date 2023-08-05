@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: redis_cache_deco
+Version: 1.0.0
+Summary: A decorator that memoized into redis
+Home-page: https://github.com/snuids/redis_cache_deco
+Author: snuids
+Author-email: snuids@mannekentech.com
+License: UNKNOWN
+Download-URL: https://github.com/snuids/redis_cache_deco/archive/1.0.0.tar.gz
+Description: # Redis Cache Deco
+        
+Keywords: Python,memoize,decorator,redis
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
