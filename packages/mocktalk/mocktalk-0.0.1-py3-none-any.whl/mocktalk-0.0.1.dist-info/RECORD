@@ -1,0 +1,11 @@
+mocktalk/__init__.py,sha256=xNer9Umf0fomwg6gJ1-dTrFsVPtqqO9-clv1gKzH8JA,121
+mocktalk/__main__.py,sha256=mh5WqHicDnTNgcjF1YtTptcdWgp9KS4aWNZRcUDfAxw,68
+mocktalk/cli.py,sha256=9K7YcNm5gWj_eeNGv90KLiuNpAbbQvXNohebe2UVAYk,436
+mocktalk/ssh_server.py,sha256=RbSrR4tCqhhdP6n9E50PRO6luvBkkDJiQrrHZWwTTfg,2872
+mocktalk/telnet_server.py,sha256=4LwgMXJ-153_HI2hyjujuhttYiLcbRsp7OFSk84BKwA,1536
+mocktalk-0.0.1.dist-info/LICENSE,sha256=HL5SKNZmUKy_AWu_8mgpNhucjTVPpPuWMjrK-vbsj1Q,1071
+mocktalk-0.0.1.dist-info/METADATA,sha256=thU9DtummtW5KAjZfySOZK3sFoQQ8dLRA3gamjS5nEk,305
+mocktalk-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mocktalk-0.0.1.dist-info/entry_points.txt,sha256=WWdQdpFzKM4qq788vIqMrAd-hapapNZN_BhI9ufE2Gc,48
+mocktalk-0.0.1.dist-info/top_level.txt,sha256=dw_PXzHF-msR_f9Y04cNLjVLtXHzdZtt1bBWlSNzMFg,9
+mocktalk-0.0.1.dist-info/RECORD,,
