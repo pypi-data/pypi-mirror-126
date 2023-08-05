@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+dietlinearalgebra.egg-info/PKG-INFO
+dietlinearalgebra.egg-info/SOURCES.txt
+dietlinearalgebra.egg-info/dependency_links.txt
+dietlinearalgebra.egg-info/top_level.txt
+linalg/__exception_handler__.py
+linalg/__init__.py
+linalg/test.py
