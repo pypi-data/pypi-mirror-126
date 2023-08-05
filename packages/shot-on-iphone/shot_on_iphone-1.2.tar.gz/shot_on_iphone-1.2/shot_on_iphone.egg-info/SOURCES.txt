@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+shot_on_iphone/__init__.py
+shot_on_iphone.egg-info/PKG-INFO
+shot_on_iphone.egg-info/SOURCES.txt
+shot_on_iphone.egg-info/dependency_links.txt
+shot_on_iphone.egg-info/requires.txt
+shot_on_iphone.egg-info/top_level.txt
