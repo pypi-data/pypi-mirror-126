@@ -1,0 +1,6 @@
+package_name/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_name/some_file.py,sha256=f_mshD5GYJK28M2pqcBjvn9qiwibsz8N4i7EH4XGp1s,95
+python_repo_structure-0.1.1.dist-info/LICENSE,sha256=dYAqWzSr0Bx4-oP0LfMRHty2djooukQvyudIk3yn67I,1095
+python_repo_structure-0.1.1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+python_repo_structure-0.1.1.dist-info/METADATA,sha256=2tI-s5HvUOHEANJizmVZjrrqoXQNahNij0UV5Y9oxto,2515
+python_repo_structure-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: python-repo-structure
+Version: 0.1.1
+Summary: Show how to structure small Python package using CI (Codecov) and Poetry to upload to PyPi.
+Home-page: https://github.com/dimitryzub/python-repo-structure
+License: MIT
+Author: Dimitry Zub
+Author-email: dimitryzub@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# python-repo-structure
+
+This repository shows how to structure small Python project using CI (Codecov) and Poetry to upload to PyPi.
+
+____
+
+## Badges
+
+[![codecov](https://codecov.io/gh/dimitryzub/python-repo-structure/branch/main/graph/badge.svg?token=SW9AAPJFVJ)](https://codecov.io/gh/dimitryzub/python-repo-structure)
+![CI Github Actions](https://github.com/dimitryzub/python-repo-structure/actions/workflows/ci.yml/badge.svg)
+
+Find [other badges](https://shields.io/) you want to see in your repository.
+
+# Usage
+
+```python
+from package_name.some_file import ModernWarfare
+
+print(ModernWarfare().call_of_duty())
+# "Press F to pay respects"
+```
+
+Testing on replit.com
+
+![img.png](images/img.png)
+
+![img_2.png](images/img_2.png)
+
+![img_1.png](images/img_1.png)
+
+# Install
+
+```
+pip install python-repo-structure
+```
+
+```
+git clone https://github.com/dimitryzub/python-repo-structure.git
+```
+
+
+
+## Upload to Pypi
+
+When running `poetry publish` you will be prompted to add your PyPi username and password. 
+You won't the password while typing, it's intentional.
+
+```
+1. $ poetry build --format wheel
+2. $ poetry publish
+```
+
+Building package:
+
+```
+$ poetry build --format wheel
+Building python-repo-structure (0.1.0)
+  - Building wheel
+  - Built python_repo_structure-0.1.0-py3-none-any.whl
+```
+
+Once start uploading process, you'll see something like this in the terminal:
+```
+$ poetry publish
+
+Username: dimitryzub
+Password:
+Publishing python-repo-structure (0.1.0) to PyPI
+ - Uploading python_repo_structure-0.1.0-py3-none-any.whl 0%
+ - Uploading python_repo_structure-0.1.0-py3-none-any.whl 100%
+ - Uploading python_repo_structure-0.1.0-py3-none-any.whl 100%
+
+```
