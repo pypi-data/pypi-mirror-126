@@ -1,0 +1,13 @@
+ms_collect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ms_collect/collection.py,sha256=gxMf5RzRDwYZ5lXXtENDRy4NETHWveFPLggo6vJDZnA,3650
+ms_collect/envelope.py,sha256=eIeaPRXp8kKHi0LtWMIPfwPkoz0tofjRK0tkRqUFyfw,757
+ms_collect/math.py,sha256=aM37D0ETxr5baB988MOVOPQ7jf5GbNVeSokM4LOLbZg,1510
+ms_collect/point.py,sha256=X6ar_-mhg00TUH7WvxcGqTQTNSYEEV6scu03kuzev30,1067
+ms_collect/scope.py,sha256=yArYrW7Z0bGEVAiBcbBxZmpxvGoaZnxFf3BovjMQIJ8,840
+ms_collect/trace.py,sha256=ltNjE6jiCNIG6sh1gq5mEOlgddt4DD1cfBRMpSQkfV0,508
+ms_collect/utils.py,sha256=i4cAQ-N4xOpNLG-fwmX0MkO2PfIbTktegAgkPE5YeJw,1500
+ms_collect-0.0.1.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+ms_collect-0.0.1.dist-info/METADATA,sha256=rReULXe9le4nzI9mqssJdi6h0FIVA1HUUYXQbeo4TFM,1156
+ms_collect-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ms_collect-0.0.1.dist-info/top_level.txt,sha256=MEUo6sukphBRy8LWXNHYG7a01BTGrKnUJ_uC65fy9yk,11
+ms_collect-0.0.1.dist-info/RECORD,,

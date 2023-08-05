@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: ms-collect
+Version: 0.0.1
+Summary: A series of modules that provide easy storage/accesss to Mass Spec related Raw Data/Groupings of Data.
+Home-page: https://github.com/jakuzo/ms-collect
+Author: jakuzo
+Author-email: jackcampanella@protonmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jakuzo/ms-collect/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ms-collect
+A series of modules that provide easy storage/accesss to Mass Spec related Raw Data / Groupings of Data.
+
+from ms.collection import Collection
+
+### Local Development
+As you make changes, In repository:
+pip install .
+
+Then in tests/ directory, you can run all the tests, test out development versions and so on
+
+### Upcoming features
+Automated testing using unittest
+
+
+### Publishing a new version of ms-collect
+Note, if you are not marked as a collaborator in the package registry, you will not be allowed to
+publish a new version.
+
