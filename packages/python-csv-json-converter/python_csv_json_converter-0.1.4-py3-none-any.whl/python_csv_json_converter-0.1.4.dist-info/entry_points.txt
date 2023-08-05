@@ -1,0 +1,3 @@
+[console_scripts]
+csv_converter=python_csv_json_converter.converter:converter
+
