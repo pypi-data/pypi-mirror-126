@@ -1,0 +1,1 @@
+Esta librería contiene las funciones de SparkService que se usan en los extractores.

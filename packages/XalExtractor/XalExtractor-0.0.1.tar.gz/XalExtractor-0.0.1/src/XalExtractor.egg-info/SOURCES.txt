@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/XalExtractor/SparkService.py
+src/XalExtractor/__init__.py
+src/XalExtractor.egg-info/PKG-INFO
+src/XalExtractor.egg-info/SOURCES.txt
+src/XalExtractor.egg-info/dependency_links.txt
+src/XalExtractor.egg-info/requires.txt
+src/XalExtractor.egg-info/top_level.txt
