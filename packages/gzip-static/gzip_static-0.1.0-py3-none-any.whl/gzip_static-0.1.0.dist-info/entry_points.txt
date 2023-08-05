@@ -1,0 +1,4 @@
+[console_scripts]
+gzip-static = gzip_static:main
+gzip-static-find-orphans = gzip_static:find_orphans_main
+
