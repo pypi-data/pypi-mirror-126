@@ -1,0 +1,11 @@
+README.md
+setup.py
+Depi.egg-info/PKG-INFO
+Depi.egg-info/SOURCES.txt
+Depi.egg-info/dependency_links.txt
+Depi.egg-info/not-zip-safe
+Depi.egg-info/requires.txt
+Depi.egg-info/top_level.txt
+depi/__init__.py
+tests/__init__.py
+tests/test_depi.py
