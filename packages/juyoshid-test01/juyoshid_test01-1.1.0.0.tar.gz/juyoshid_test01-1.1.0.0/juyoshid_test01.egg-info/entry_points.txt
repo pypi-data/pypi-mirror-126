@@ -1,0 +1,3 @@
+[console_scripts]
+juyoshid_test01 = juyoshid_test1.scripts.main:main
+

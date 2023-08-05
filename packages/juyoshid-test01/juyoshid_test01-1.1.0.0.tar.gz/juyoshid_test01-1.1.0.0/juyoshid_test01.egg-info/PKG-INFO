@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: juyoshid-test01
+Version: 1.1.0.0
+Summary: Just test for PyPI.
+Home-page: https://www.google.com/
+Author: juyoshid
+Author-email: *******@gmail.com
+License: UNKNOWN
+Keywords: test
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/plain
+
+just for test for pyPI
+
+
