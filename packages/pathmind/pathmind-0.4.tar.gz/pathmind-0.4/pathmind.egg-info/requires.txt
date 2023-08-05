@@ -1,0 +1,13 @@
+pyyaml
+tensorflow
+requests
+prettytable
+gym
+or-gym
+
+[tests]
+pytest
+flake8
+flake8-debugger
+pre-commit
+pandas
