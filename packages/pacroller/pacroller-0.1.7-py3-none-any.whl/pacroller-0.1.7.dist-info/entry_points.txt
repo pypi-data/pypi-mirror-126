@@ -1,0 +1,4 @@
+[console_scripts]
+pacroller = pacroller.main:main
+pacroller-analyze = pacroller.analyze:main
+
