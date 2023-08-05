@@ -1,0 +1,15 @@
+pettobids/Pipfile,sha256=UCq1fB0guWF0PZUIjj07-K7x6JlHmRtxeQjpFsD9nOw,428
+pettobids/README.md,sha256=g_RBMJR-vPBv-9_hDSSHxEcvdr5i6ROIG-B2ClCnKBM,5281
+pettobids/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pettobids/cli.py,sha256=-UnPT2aSKjw064wTmjkCYvR5KdxGeJ7JOHXjmKvinrw,5137
+pettobids/ecat.py,sha256=6COrKLkNxLNUD3OauViEjAMAIFULYu6NXGBFXEB7EK8,10272
+pettobids/ecat2nii.py,sha256=FRgVDeMyWWEx3EQgyiiqJUKCx5vaTYtWG73mGQMcVJE,9548
+pettobids/ecat_headers.json,sha256=iPb1qDwTxU-8I9BR2wVY2LkBvBuhbrh5IJAeGpI3WaY,109186
+pettobids/helper_functions.py,sha256=DGB1KPe4TTA_TPlWO944_J0fdZNNNY6ml1BSg8UzC1c,2022
+pettobids/read_ecat.py,sha256=XZATyHu24Tb57EXszprLeHlUdQff9ESkD0YxbtSSYV0,16044
+pettobids/sidecar.py,sha256=lrC57Bq_aVfk59B5MDzcEcbLx6iTN2xW_jEaH0ZKJhk,3078
+pettobids/template.env,sha256=Ge5V4p9wnLPMD_TfuIenazT8CuAoc8qFp7tl6S9aw0c,95
+pettobids-0.0.0.dist-info/entry_points.txt,sha256=DTIFaI43yLtYV9ssz_ObMvAzSZXuSbaaiFN4W8-jpD0,48
+pettobids-0.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pettobids-0.0.0.dist-info/METADATA,sha256=49Pj0U5u1uWFZJAIntnHkthsFwhN_kPKyxLMNER3MtM,784
+pettobids-0.0.0.dist-info/RECORD,,
