@@ -1,0 +1,4 @@
+Click
+paho
+pyproj
+requests
