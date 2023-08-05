@@ -1,0 +1,7 @@
+setup.py
+mysvm.egg-info/PKG-INFO
+mysvm.egg-info/SOURCES.txt
+mysvm.egg-info/dependency_links.txt
+mysvm.egg-info/entry_points.txt
+mysvm.egg-info/requires.txt
+mysvm.egg-info/top_level.txt
