@@ -1,0 +1,80 @@
+##KCMiddleware
+
+A keycloak middleware
+
+____
+
+Quick start
+
+
+1. Add the middleware to your MIDDLEWARE setting below the `XFrameOptionsMiddleware`:
+
+
+```
+    MIDDLEWARE = [
+        ...
+        'KCMiddleware.KC_middleware.KeycloakMiddleware',
+    ]
+```
+
+
+2. Add the following to your setting in order to obtain the needed variables:
+
+```
+    import os
+    
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    CONFIG_DIR = os.path.join(os.path.dirname(__file__), os.pardir)
+
+    KEYCLOAK_REALM_KEY = f"""-----BEGIN PUBLIC KEY-----
+    {os.environ.get('KEYCLOAK_PUBLIC_KEY')}
+    -----END PUBLIC KEY-----"""
+
+    KEYCLOAK_CONFIG = {
+        'KEYCLOAK_REALM': os.environ.get('KEYCLOAK_REALM_NAME'),
+        'KEYCLOAK_CLIENT_AUTHENTICATION_ID': os.environ.get('KEYCLOAK_CLIENT_AUTHENTICATION_ID'),
+        'KEYCLOAK_CLIENT_AUTHENTICATION_SECRET': os.environ.get('KEYCLOAK_CLIENT_AUTHENTICATION_SECRET'),
+        'KEYCLOAK_CLIENT_AUTHENTICATION_INTERNAL_ID': os.environ.get('KEYCLOAK_CLIENT_AUTHENTICATION_INTERNAL_ID'),
+        'KEYCLOAK_DEFAULT_ACCESS': 'ALLOW',  # DENY or ALLOW
+        'KEYCLOAK_AUTHORIZATION_CONFIG': os.path.join(BASE_DIR, 'authorization-config-keycloak.json'),
+        'KEYCLOAK_METHOD_VALIDATE_TOKEN': 'DECODE',
+        'KEYCLOAK_SERVER_URL': os.environ.get('KEYCLOAK_URL', default='http://localhost') + 'auth/',
+        'KEYCLOAK_REALM_KEY': KEYCLOAK_REALM_KEY,
+        'KEYCLOAK_ADMIN_USERNAME': os.environ.get('KEYCLOAK_ADMIN_USERNAME'),
+        'KEYCLOAK_ADMIN_PASSWORD': os.environ.get('KEYCLOAK_ADMIN_PASSWORD'),
+        'KEYCLOAK_APPLICATION_ID': env.str('KEYCLOAK_APPLICATION_ID'),
+        'KEYCLOAK_INTROSPECT_OFFLINE': os.environ.get('KEYCLOAK_INTROSPECT_OFFLINE')
+    }
+```
+
+3. Add your Keycloak Authorization config to the root of your project and rename it to `authorization-config-keycloak.json`
+
+    > You can find the configuration by logging into your keycloak application -> Clients -> "Your client name" -> Authorization -> Export Setting
+
+4. To be able to authenticate a view, you have to add the `keycloak_scopes` into your view before all the functions:
+
+```
+    class SomeRandomViewSet(viewsets.ModelViewSet):
+
+        keycloak_scopes = {
+            'GET': 'somerandom_scope:view',
+            'POST': 'somerandom_scope:create',
+            'PUT': 'somerandom_scope:update',
+            'DELETE': 'somerandom_scope:delete',
+        }
+
+        def retrieve(self, request, *args, **kwargs):
+            ...
+```
+
+7. If you need to check for client scopes (or service scopes), use the following:
+
+```
+    keycloak_scopes = {
+        'GET': {'scope': 'somerandom_scope:view',
+                'service_scope': 'somerandom_client_scope:view'},
+        'POST': {...},
+        'PUT': {...},
+        'DELETE': {...},
+    }
+```
