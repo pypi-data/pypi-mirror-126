@@ -1,0 +1,10 @@
+sensirion-shdlc-sensorbridge~=0.1.1
+
+[:python_version < "3.4"]
+enum34
+
+[test]
+flake8~=3.9.2
+pytest~=4.6.11
+pytest-cov~=2.12.1
+mock~=3.0.0
