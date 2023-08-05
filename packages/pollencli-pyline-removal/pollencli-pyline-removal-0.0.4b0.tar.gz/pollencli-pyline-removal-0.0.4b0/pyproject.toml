@@ -1,0 +1,43 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+
+[tool.poetry]
+name = "pollencli-pyline-removal"
+version = "0.0.4b0"
+description = "Remove lines from python file"
+readme = "README.md"
+authors = ["pollenjp <polleninjp@gmail.com>"]
+license = "MIT"
+# homepage =
+repository = "https://github.com/pollenjp/pollencli-pyline-removal"
+# documentation =
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+packages = [
+    { include = "pollencli", from = "src" },
+]
+
+[tool.poetry.scripts]
+rm-pyline = "pollencli.pyline_removal.cli:main"
+
+[tool.poetry.urls]
+# "Bug Tracker" = "hoge"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.10b0"
+flake8 = "^4.0.1"
+isort = "^5.9.3"
+mypy = "^0.910"
