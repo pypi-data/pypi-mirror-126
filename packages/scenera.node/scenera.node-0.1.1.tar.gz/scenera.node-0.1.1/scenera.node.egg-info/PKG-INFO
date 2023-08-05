@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: scenera.node
+Version: 0.1.1
+Summary: Scenera Node SDK
+Home-page: https://medium-multiply.readthedocs.io/
+Author: Dirk Meulenbelt
+Author-email: dirkmeulenbelt@gmail.com
+License: MIT
+Description: # Scenera Node SDK Library
+        
+        A small library made designed to create AI Nodes in the Scenera Ecosystem.
+        
+        # Installation
+        
+        ```pip install scenera.node```
+        
+        # Get started
+        
+        Sees https://docs.scenera.live
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
