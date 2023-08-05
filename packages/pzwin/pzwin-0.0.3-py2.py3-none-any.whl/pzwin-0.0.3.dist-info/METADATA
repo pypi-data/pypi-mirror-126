@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pzwin
+Version: 0.0.3
+Summary: A simple window framework based on pgzero and pygame
+Home-page: https://github.com/SeaOceanLiu/pzwin
+Author: SeaOceanLiu
+Author-email: seaocean.liu@163.com
+Maintainer: SeaOceanLiu
+Maintainer-email: seaocean.liu@163.com
+License: GNU General Public License v3.0
+Keywords: pygame,pgzero,win,frame
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pygame (>=2.0.2)
+Requires-Dist: pgzero (>=1.2.1)
+
+A simple window framework based on pgzero and pygame
+
