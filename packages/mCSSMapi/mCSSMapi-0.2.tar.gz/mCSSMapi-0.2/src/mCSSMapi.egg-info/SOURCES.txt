@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/mCSSMapi.egg-info/PKG-INFO
+src/mCSSMapi.egg-info/SOURCES.txt
+src/mCSSMapi.egg-info/dependency_links.txt
+src/mCSSMapi.egg-info/top_level.txt
+src/mcssmapi/__init__.py
+src/mcssmapi/licensing.py
