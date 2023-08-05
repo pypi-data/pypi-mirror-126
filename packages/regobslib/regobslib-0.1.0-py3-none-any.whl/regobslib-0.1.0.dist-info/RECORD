@@ -1,0 +1,9 @@
+regobslib/__init__.py,sha256=Ifqxc6RBii6slFQEntPgjtmgq7ZD_CuKBbKYbcCFQoE,394
+regobslib/connection.py,sha256=9Cwmy7jSPH4CPWSQdukIhZQMo0ma_wPXPadeOlIGcf4,13886
+regobslib/misc.py,sha256=dc45HYfcOXscNp1cOLNBvVKNcAM5t-QOSftBhXgwPZc,929
+regobslib/submit.py,sha256=gRA4H1h12USXe_slCw93CgmCtWtTDHvAwxm210DBcQ8,78681
+regobslib-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+regobslib-0.1.0.dist-info/METADATA,sha256=SkwTTJ5DiPdOxKnAkTQfuQXgcAy9pzq_nUohsrs1RHY,3935
+regobslib-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+regobslib-0.1.0.dist-info/top_level.txt,sha256=tB_6WdbJh8mA94lZK5kX-q3AYSA4CE-_dKKSfpnqYQo,10
+regobslib-0.1.0.dist-info/RECORD,,
