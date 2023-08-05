@@ -1,0 +1,80 @@
+[package]
+authors = ["dmitry.dygalo <dadygalo@gmail.com>"]
+description = "A crate for performing JSON schema validation"
+edition = "2018"
+exclude = ["tests", "python", "benches/data/*.json", ".github", ".yamllint", ".pre-commit-config.yaml", ".gitignore", ".gitmodules", "*.md"]
+keywords = ["jsonschema", "validation"]
+license = "MIT"
+name = "jsonschema"
+readme = "../README.md"
+repository = "https://github.com/Stranger6667/jsonschema-rs"
+version = "0.13.2"
+
+categories = ["web-programming"]
+
+[[bin]]
+name = "jsonschema"
+
+[features]
+cli = ["structopt"]
+default = ["reqwest", "cli"]
+draft201909 = []
+draft202012 = []
+reqwest-native-tls = ["reqwest/native-tls"]
+reqwest-native-tls-alpn = ["reqwest/native-tls-alpn"]
+reqwest-native-tls-vendored = ["reqwest/native-tls-vendored"]
+reqwest-rustls-tls = ["reqwest/rustls-tls"]
+reqwest-rustls-tls-manual-roots = ["reqwest/rustls-tls-manual-roots"]
+reqwest-rustls-tls-native-roots = ["reqwest/rustls-tls-native-roots"]
+reqwest-rustls-tls-webpki-roots = ["reqwest/rustls-tls-webpki-roots"]
+
+[dependencies]
+ahash = {version = "0.7", features = ["serde"]}
+base64 = ">= 0.2"
+bytecount = {version = "0.6", features = ["runtime-dispatch-simd"]}
+fancy-regex = "^0.7.1"
+fraction = {version = "0.9", default-features = false, features = ["with-bigint"]}
+iso8601 = "0.4"
+itoa = "0.4"
+lazy_static = "1"
+num-cmp = ">= 0.1"
+parking_lot = ">= 0.1"
+percent-encoding = "2"
+regex = "1"
+reqwest = {version = ">= 0.10", features = ["blocking", "json"], optional = true}
+serde = {version = "1", features = ["derive"]}
+serde_json = "1"
+structopt = {version = ">= 0.3", optional = true}
+time = {version = ">= 0.3.3", features = ["parsing", "macros"]}
+url = "2"
+uuid = "0.8"
+
+[dev-dependencies]
+bench_helpers = {path = "../bench_helpers"}
+criterion = ">= 0.1"
+json_schema_test_suite = {version = ">= 0.3", path = "../jsonschema-test-suite"}
+jsonschema-valid = "0.4.0"
+mockito = ">= 0"
+paste = ">= 0.1"
+reqwest = {version = ">= 0.10", features = ["blocking", "json"]}
+test-case = "1"
+valico = "3.6.0"
+
+# Benchmarks for `jsonschema`
+[[bench]]
+harness = false
+name = "jsonschema"
+
+# Benchmarks for `valico`
+[[bench]]
+harness = false
+name = "valico"
+
+# Benchmarks for `jsonschema_valid`
+[[bench]]
+harness = false
+name = "jsonschema_valid"
+
+[profile.release]
+codegen-units = 1
+lto = "on"
