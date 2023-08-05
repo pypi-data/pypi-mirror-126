@@ -1,0 +1,12 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+colorconverters/__init__.py
+colorconverters/hexconverter.py
+colorconverters/utilities.py
+colorconverters.egg-info/PKG-INFO
+colorconverters.egg-info/SOURCES.txt
+colorconverters.egg-info/dependency_links.txt
+colorconverters.egg-info/top_level.txt
