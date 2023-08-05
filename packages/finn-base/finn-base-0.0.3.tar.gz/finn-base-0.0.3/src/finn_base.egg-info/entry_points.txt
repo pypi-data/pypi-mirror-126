@@ -1,0 +1,3 @@
+[console_scripts]
+inference_cost = finn.util.inference_cost:main
+
