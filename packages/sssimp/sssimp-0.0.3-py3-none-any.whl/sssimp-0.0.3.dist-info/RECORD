@@ -1,0 +1,10 @@
+sssimp/__init__.py,sha256=3wYpwUUuPbAUu50mAnbdZJynDKB5he26K24EgqKG1a8,661
+sssimp/__main__.py,sha256=A3iTBf0hN0eAGBl0kDgRP7I4H8MEZ8huTA36oEX4voo,1737
+sssimp/config.py,sha256=i0r6W-uLWLnfYhx8xhM1waPL0ACCHmLUZl-8Ghpwp14,476
+sssimp/filters.py,sha256=XEFAzlGEE-nGnVIRDIVYE245cBzldydHymKjHcg4IWw,409
+sssimp/utils.py,sha256=uHr-GFqPSjMmpW_7_S89prApV4zCRbwsmTomueaF9Lc,497
+sssimp-0.0.3.dist-info/LICENSE,sha256=NCAYxTvPh_0-dBvEYqY4I5DNq8xblGUqvqz2PIk4V9k,1061
+sssimp-0.0.3.dist-info/METADATA,sha256=ua8ah0cJ_H-RM9kaJuF20vv1j_cOjGh47gmZshR3RMw,1244
+sssimp-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sssimp-0.0.3.dist-info/top_level.txt,sha256=llkxzg5_iKauuOiLYi6l4kFlB-fQ_7tuiEDBNfGtCZg,7
+sssimp-0.0.3.dist-info/RECORD,,
