@@ -1,0 +1,14 @@
+bob.extension
+matplotlib
+numpy
+scipy
+pandas
+h5py
+pillow
+psutil
+setuptools
+tabulate
+torch
+torchvision
+tqdm
+scikit-image
