@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "kontr-api"
+version = "0.2.0"
+description = "Kontr Portal REST Api Client"
+authors = [
+    "Peter Stanko <stanko@mail.muni.cz>"
+]
+readme = 'README.md'
+license = 'Apache-2.0'
+repository = 'https://gitlab.fi.muni.cz/grp-kontr2/kontr-api'
+homepage = 'https://gitlab.fi.muni.cz/grp-kontr2/kontr-api'
+documentation = 'https://gitlab.fi.muni.cz/grp-kontr2/kontr-api'
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "*"
+pyjwt = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6"
+pytest-cov = "^2.12.1"
+coverage = "^6.0.2"
+mock = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
