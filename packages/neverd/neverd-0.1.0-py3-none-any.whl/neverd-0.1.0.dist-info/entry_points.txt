@@ -1,0 +1,3 @@
+[console_scripts]
+neverd = neverd.cli:main_cli
+
