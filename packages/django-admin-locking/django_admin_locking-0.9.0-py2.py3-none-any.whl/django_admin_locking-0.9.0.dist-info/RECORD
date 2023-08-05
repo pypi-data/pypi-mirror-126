@@ -1,0 +1,10 @@
+admin_locking/__init__.py,sha256=7oXYSO-5BHGtB0fDH9e0OEAmNH8uChHHlk4e0h_a_BU,37
+admin_locking/admin.py,sha256=IwFdxX5FwKdR_CbsX1qHUvhRf88Q07UXSa4H62bokEE,2167
+admin_locking/locale/de/LC_MESSAGES/django.mo,sha256=et5fCuuYEhJKXtiysh99sEkiv-_20gJYezHhbYEvd0k,820
+admin_locking/locale/de/LC_MESSAGES/django.po,sha256=x819-L0F2k_dle9KWaDrDJnvFlbYT7YOELpLXyPR1dE,1072
+admin_locking/static/admin_locking/admin_locking.js,sha256=wke8GK9kFdX7JPro8U1rzE6zkvmnFN-mCB8iTq1FPZU,2720
+django_admin_locking-0.9.0.dist-info/LICENSE.txt,sha256=57Hhn16GVVv5Um4Pe4Y7pZtP_dfgVvIWORW5JQZMblU,1538
+django_admin_locking-0.9.0.dist-info/METADATA,sha256=F1jQectL8ycQ4qB3TDiBhzhkwZsIrYmspUJ2m2d1sgU,2064
+django_admin_locking-0.9.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_admin_locking-0.9.0.dist-info/top_level.txt,sha256=SHwO0o9gM5poQy5ERSGblbkTG0lDzksHtbFl3iBqQjw,14
+django_admin_locking-0.9.0.dist-info/RECORD,,
