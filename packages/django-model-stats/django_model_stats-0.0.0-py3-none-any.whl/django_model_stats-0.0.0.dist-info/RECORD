@@ -1,0 +1,8 @@
+model_stats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_stats/urls.py,sha256=W1pZnhr8m9eQEZcjYZD-3fgzjEvwXygfYnSsAwuYuV4,125
+model_stats/views.py,sha256=N5KV3aBtXuZfffyQp1kKiPHGhPIVPsCfK5gZ3Z-1Q2E,1437
+django_model_stats-0.0.0.dist-info/LICENSE,sha256=EkquIKss4DZm4qkc_GjBTxvoWZBLC4T2mBkTaZgpSFI,1072
+django_model_stats-0.0.0.dist-info/METADATA,sha256=457LecTYCgoQ1qsZjZS8LtAT7lMV1MuLMu4nDbO5epQ,1304
+django_model_stats-0.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_model_stats-0.0.0.dist-info/top_level.txt,sha256=SwOHlux_K_MN7RH1ONF4d4jckROK786wPtHdZgapUYQ,12
+django_model_stats-0.0.0.dist-info/RECORD,,
