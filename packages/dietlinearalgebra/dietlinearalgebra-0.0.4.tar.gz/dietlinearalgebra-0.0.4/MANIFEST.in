@@ -1,0 +1,1 @@
+global-include *.txt ./diet_linear_algebra/__init__.py 
