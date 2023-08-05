@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pytest-message
+Version: 0.1.0b3
+Summary: Pytest plugin for sending report message of marked tests execution
+Home-page: https://github.com/VStoilovskyi/pytest-message
+Author-email: vadym.stoilovskyi@gmail.com
+License: Apache 2.0
+Keywords: notify,pytest,message
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+UNKNOWN
+
