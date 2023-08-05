@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pygifconvert_test_mrvko/__init__.py
+pygifconvert_test_mrvko/converter.py
+pygifconvert_test_mrvko.egg-info/PKG-INFO
+pygifconvert_test_mrvko.egg-info/SOURCES.txt
+pygifconvert_test_mrvko.egg-info/dependency_links.txt
+pygifconvert_test_mrvko.egg-info/not-zip-safe
+pygifconvert_test_mrvko.egg-info/requires.txt
+pygifconvert_test_mrvko.egg-info/top_level.txt
