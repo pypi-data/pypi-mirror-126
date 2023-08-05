@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: keywindinstaller
+Version: 0.0.1
+Summary: Installing this package will allow you to install keywind packages.
+Home-page: https://github.com/keywind1207/keywindinstaller
+Author: Keywind
+Author-email: keywind127@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/keywind1207/keywindinstaller/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: markdown
+Requires-Dist: keywind-packagebuilder
+
+Installing this package will allow you to install packages.
+
