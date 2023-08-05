@@ -1,0 +1,8 @@
+README.md
+setup.py
+dsomit/__init__.py
+dsomit/dsomit.py
+dsomit.egg-info/PKG-INFO
+dsomit.egg-info/SOURCES.txt
+dsomit.egg-info/dependency_links.txt
+dsomit.egg-info/top_level.txt
