@@ -1,0 +1,12 @@
+diglett/__init__.py,sha256=GhL4kYzwWsQDlWki3_K6bi4pMEi9phou5Ta_o-yqlOo,53
+diglett/eda.py,sha256=fDQANBWP5khYnWMSOFJVTaCGaMTDEWtnuaKXs1JL6VU,6124
+diglett/group.py,sha256=UguvPDeAwqNZQ1GLxGSLkl6Ux6_fls-PYU5e1YvkrnA,1980
+diglett/insist.py,sha256=xudX3oRjJsN-FWkf5Oe47QPJSTZCeGqnyE6SHtgJw4I,3350
+diglett/join.py,sha256=fG_4zYnINyC_SY9Lk-H3OTSUI8RRYz1MzY_ihxe7l98,1999
+diglett/output.py,sha256=lac49ye0rHV313fN0jm5jxyrzlEM3_vcRq_UgorpiIY,2490
+diglett/transform.py,sha256=37cwiYPTlMBI-Ahtw4-lalNoCXufbItgriJ8g0Q9hqo,3054
+diglett/utils.py,sha256=U_y_SoTosLKlvbUhhPfKw18BlWexjZ4y_lDFtfl24OE,1734
+diglett-0.2.0.dist-info/LICENSE,sha256=06VOjVPJVNav4VgAgIRGIBcfhafwlgiiFGdzLGixUtE,1070
+diglett-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+diglett-0.2.0.dist-info/METADATA,sha256=Qe8EHQ8p5sePIuqAb5GzFiVu6KylROuppTmxPg6p_Y8,1642
+diglett-0.2.0.dist-info/RECORD,,
