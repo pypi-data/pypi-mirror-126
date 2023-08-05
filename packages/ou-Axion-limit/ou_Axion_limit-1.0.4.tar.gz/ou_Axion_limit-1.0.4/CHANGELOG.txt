@@ -1,0 +1,10 @@
+Change log
+===========
+
+1.0.4 (06/10/2021)
+-------------------
+- New function:
+	to_g_a_gamma
+	
+- Fix bugs
+
