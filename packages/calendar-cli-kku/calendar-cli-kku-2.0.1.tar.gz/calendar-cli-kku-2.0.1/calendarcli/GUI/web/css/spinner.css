@@ -1,0 +1,37 @@
+.spinner-container{
+    left: 0;
+    right: 0;
+    height: 0px;
+    background-color: rgba(255, 255, 255, 0.568);
+    position: fixed;
+}
+.spinner{
+    animation : spinnerAnimation 2s;
+    animation-iteration-count: infinite;
+    width: 30%;
+    height: 100%;
+    background-color: turquoise;
+    box-shadow: 0 4px 15px 0 rgba(0, 255, 179, 0.568), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.loading{
+    top: 0;
+    height: 5px;
+    display: block;
+}
+
+@keyframes spinnerAnimation {
+    from {
+        margin-left:0%;
+    }
+    25%{
+    }
+    50%{
+        margin-left:70%;
+    }
+    75%{
+    }
+    to{
+        margin-left:0%;
+    }
+}

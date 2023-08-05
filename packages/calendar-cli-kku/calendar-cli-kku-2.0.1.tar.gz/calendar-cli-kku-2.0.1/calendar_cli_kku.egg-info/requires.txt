@@ -1,0 +1,10 @@
+rich
+typer
+inquirer
+eel
+julian
+tzlocal
+monthdelta
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
