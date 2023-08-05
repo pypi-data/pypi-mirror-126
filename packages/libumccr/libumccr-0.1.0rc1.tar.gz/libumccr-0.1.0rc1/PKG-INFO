@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: libumccr
+Version: 0.1.0rc1
+Summary: UMCCR Reusable Python modules
+Home-page: https://github.com/umccr/libumccr
+Author: UMCCR and Contributors
+Author-email: services@umccr.org
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+Provides-Extra: all
+License-File: LICENSE
+
+# libumccr
+
+UMCCR Reusable Python modules
+
+## Usage
+
+- Install through ``pip`` like so
+```commandline
+pip install libumccr
+```
+
+- Somewhere in your Python code
+```python
+from libumccr.aws import libssm
+
+ssm_value = libssm.get_ssm_param("my_param_name")
+```
+
+## Development
+
+- Create Python virtual environment
+```
+git clone https://github.com/umccr/libumccr.git
+cd libumccr
+make install
+make test
+```
+
+
