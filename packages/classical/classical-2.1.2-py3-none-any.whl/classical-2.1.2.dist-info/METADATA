@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: classical
+Version: 2.1.2
+Summary: Class Tools for Python
+Home-page: https://github.com/altvod/classical
+Author: Grigory Statsenko
+License: MIT
+Keywords: class,utilities,descriptors,properties,factories,dataclasses,attrs,fields,schematics,sqlalchemy
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: build
+Requires-Dist: build ; extra == 'build'
+Requires-Dist: twine ; extra == 'build'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: fielded
+Requires-Dist: attr ; extra == 'fielded'
+Requires-Dist: schematics ; extra == 'fielded'
+Requires-Dist: sqlalchemy ; extra == 'fielded'
+Provides-Extra: testing
+Requires-Dist: pylama ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-html ; extra == 'testing'
+
+=========
+classical
+=========
+
+Convenience tools for working with Python classes.
+
+Simplified subclassing:
+
+.. code-block:: python
+
+    class MyClass:
+        def __init__(self, *args, **kwargs):
+            pass  # do whatever
+
+    # subclass with presets
+    MySubClass = argumented_subclass(MyClass, 'MySubClass', arg1='value', arg2=4)
+
+Various descriptors:
+
+.. code-block:: python
+
+    class Thing:
+        Red = ArgumentedSubclass(color='red')
+        book = AutoProperty(has='pages')
+        def __init__(self, color=None, has=None):
+            self.color = color
+            self.has = has
+
+    Thing.Red  # is a subclass of Thing and is 'red'
+    Thing.Red.book  # is an instance of Thing (and Thing.Red), is 'red' and has 'pages'
+
+
+See the full documentation at http://classical.readthedocs.io/en/latest/
+
+
+Installation
+~~~~~~~~~~~~
+
+.. code-block:: bash
+
+    pip install classical
+
+
+Testing
+~~~~~~~
+
+.. code-block:: bash
+
+    make test
+
+You may need to install ``[fielded,testing]`` extras to run tests
+
+
+Generating docs
+~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+    make docs
+
+You may need to install ``[fielded,docs]`` extras to generate docs
+
+
