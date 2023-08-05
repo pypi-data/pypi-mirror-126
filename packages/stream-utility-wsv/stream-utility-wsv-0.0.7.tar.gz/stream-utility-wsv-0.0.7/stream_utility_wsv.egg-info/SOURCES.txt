@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+stream/Camera.py
+stream/__init__.py
+stream/info.py
+stream/record.py
+stream/timestamped.py
+stream_utility_wsv.egg-info/PKG-INFO
+stream_utility_wsv.egg-info/SOURCES.txt
+stream_utility_wsv.egg-info/dependency_links.txt
+stream_utility_wsv.egg-info/top_level.txt
