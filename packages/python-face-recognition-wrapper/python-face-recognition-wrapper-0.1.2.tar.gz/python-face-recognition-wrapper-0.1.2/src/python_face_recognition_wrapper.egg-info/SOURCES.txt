@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/frw/__init__.py
+src/frw/compare_faces.py
+src/python_face_recognition_wrapper.egg-info/PKG-INFO
+src/python_face_recognition_wrapper.egg-info/SOURCES.txt
+src/python_face_recognition_wrapper.egg-info/dependency_links.txt
+src/python_face_recognition_wrapper.egg-info/requires.txt
+src/python_face_recognition_wrapper.egg-info/top_level.txt
