@@ -1,0 +1,111 @@
+CHANGES
+=======
+
+v0.1.0
+------
+
+* fix pypi and rework dockerfiles
+* Update dependency pbr to v5.7.0
+* Update dependency pytype to v2021.11.2
+* Update dependency pytype to v2021.10.25
+* add frequency and sample rate to recording
+* prepend history
+* call remote collectors
+* actually try converting
+* add option for sample\_rate
+* better split for buildx
+* breakup buildx for gha timeout
+* redundant downloader
+* update for bladerf capture
+* Add recorder scheduling
+* Update dependency numpy to v1.21.3
+* Add UHD images
+* nproc
+* use gnuradio fork with tags
+* Update python Docker tag to v3.10
+* Update dependency pytest-cov to v3
+* Update dependency pytest-cov to v2.12.1
+* Pin dependency pbr to ==5.6.0
+* don't call api yet
+* don't install package
+* tweaks
+* tweak
+* only cover package
+* add pytest-cov
+* breakup docker build and tests
+* pytype
+* ignore attribute error for pytype
+* tweaks for pytype
+* use directory
+* improve coverage
+* deps for tests in gha
+* codacy cleanup
+* build api docker image; fix other dockerfiles
+* add dockerfile and fix tests
+* remove record
+* resolve
+* move rest api to falcon/bjoern
+* more lint
+* an -> a; linting
+* rename to scan, add bladerf support (bladerf requires gnuradio fork w/stream tags)
+* Update dependency pytype to v2021.10.18
+* =
+* Add flask
+* minimal post API
+* Update dependency pandas to v1.3.4
+* Add library functions to record from Ettus and BladeRF, and convert recordings to gnuradio/gqrx type standard (I/Q as float)
+* Add low signal filter
+* Move to chunk reader from be-spoke re-seek in big file (faster), Workaround pybind11-dev mismatch
+* Update dependency pytype to v2021.10.11
+* Add min filter
+* Update dependency pytype to v2021.10.4
+* move log rotate suffix
+* sanity checks in UDP data, append to existing log
+* include .env
+* make frequency range configurable with compose
+* be able to override log volume path
+* initial docker-compose
+* common db calculation
+* log peak dB of detected signal
+* typo
+* prototype sigfinder
+* test with noisy spectrum, allow frame limits/dumping
+* fix data path
+* forgot to move sigwindows
+* make into a package
+* relative imports
+* lower pylint score needed
+* fix requirements references
+* remove arm v7 build and move test requirements file
+* remove arm v7
+* force add csv file for tests
+* restructure
+* set minimum score for pylint; set image names
+* remove unused import
+* don't fail on error for pylint
+* Create codeql-analysis.yml
+* suppress pytype; add GHA for pushing docker images
+* linting
+* testdata
+* test can find wifi
+* write out frames faster, better xtics
+* logic backwards
+* allow setting igain, range check freq\_start/end
+* Update dependency pytype to v2021.9.27
+* allow tmproot override
+* Update dependency pylint to v2.11.1
+* don't ignore any paths
+* incremental log parsing, scan2mp4 args, tests
+* add derivative note
+* plot rolling diff
+* numpy
+* better spread of retuning interval (even multiple caused "walking peaks") attempt to enable realtime scheduling if possible
+* Move graph/video generator to dB
+* cleanup
+* remove the container upon exit
+* add dockerfile for generating graph video
+* add faq
+* Add renovate.json
+* init
+* update copyright
+* Initial commit
