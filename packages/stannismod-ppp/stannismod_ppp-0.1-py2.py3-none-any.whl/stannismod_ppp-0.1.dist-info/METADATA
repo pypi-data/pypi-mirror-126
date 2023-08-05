@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: stannismod-ppp
+Version: 0.1
+Summary: The test package
+Home-page: https://github.com/StannisMod/stannismod_ppp
+Author: Stanislav Batalenkov
+Author-email: stas.batalenkov@mail.ru
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: numpy
+
+UNKNOWN
+
