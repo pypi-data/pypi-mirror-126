@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: redun
+Version: 0.8.0
+Summary: The redundant workflow engine.
+Home-page: UNKNOWN
+Author: Matt Rasmussen
+Author-email: rasmus@insitro.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: postgres
+Provides-Extra: glue
