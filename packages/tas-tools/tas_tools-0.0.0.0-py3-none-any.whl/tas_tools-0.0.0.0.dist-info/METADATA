@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tas-tools
+Version: 0.0.0.0
+Summary: TaS tools, post-boot config files, and Axiom scripts
+Home-page: https://review-tbs.qualcomm.com/cgit/tbs/tas/tools
+Author: Ryan Heifferon
+Author-email: rheiffer@qti.qualcomm.com
+License: proprietary, confidential, all rights reserved.
+Platform: UNKNOWN
+Requires-Dist: paramiko
+Requires-Dist: pandas
+Requires-Dist: platformutil
+Requires-Dist: requests
+
+Description
+===========
+This package contains scripts used in TaS-Axiom content and station field-tools
+
+
