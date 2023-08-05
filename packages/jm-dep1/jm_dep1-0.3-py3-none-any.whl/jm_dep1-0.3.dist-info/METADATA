@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: jm-dep1
+Version: 0.3
+Summary: 
+Author: Jean-Mark Wright
+Author-email: jeanmark.wright@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: protobuf (==3.17.2)
