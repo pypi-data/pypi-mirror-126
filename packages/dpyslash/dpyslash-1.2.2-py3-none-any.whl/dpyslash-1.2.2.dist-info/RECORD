@@ -1,0 +1,10 @@
+pyslash/__init__.py,sha256=bdej8sQw5ZmhkwgFw6-rhbDQF2jyzK09ZdnyM31sT_c,346
+pyslash/client.py,sha256=VCc6CW0Fx2SuvNZUZoWRD3Ovxkz6Wn0YwXWIP4XAd5o,2661
+pyslash/converters.py,sha256=YEQCZlIA9s4LoieDmdf0zXxn4hvhXOTvMMHPCQNyBRw,4484
+pyslash/decorators.py,sha256=WJGcsitLrYHe_Dw1CUeJzSvGZp2gWQTcYylS2zm3LxE,2027
+pyslash/utils.py,sha256=pBM3kJzN-Fj7fGA00r5X8Vo3M8G0HtvPgulgrHbJMNE,6988
+dpyslash-1.2.2.dist-info/LICENSE,sha256=bb-j0NvVRW62HUAYubU9gp551MIdGsXlN5aRxgTZkkU,1062
+dpyslash-1.2.2.dist-info/METADATA,sha256=ZlYIfi_HlwT0LJtgzEm8R0ufkOauEapYrcoySqOAeJM,4238
+dpyslash-1.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dpyslash-1.2.2.dist-info/top_level.txt,sha256=SxbzbgQXuNQ5ddIenJU7LZJjQ9PEgQxC-e2QCQGEsgU,8
+dpyslash-1.2.2.dist-info/RECORD,,
