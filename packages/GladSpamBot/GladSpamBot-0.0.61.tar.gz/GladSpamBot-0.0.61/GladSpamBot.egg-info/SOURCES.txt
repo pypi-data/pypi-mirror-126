@@ -1,0 +1,9 @@
+Licence.txt
+setup.py
+GladSpamBot/__init__.py
+GladSpamBot/__main__.py
+GladSpamBot.egg-info/PKG-INFO
+GladSpamBot.egg-info/SOURCES.txt
+GladSpamBot.egg-info/dependency_links.txt
+GladSpamBot.egg-info/requires.txt
+GladSpamBot.egg-info/top_level.txt

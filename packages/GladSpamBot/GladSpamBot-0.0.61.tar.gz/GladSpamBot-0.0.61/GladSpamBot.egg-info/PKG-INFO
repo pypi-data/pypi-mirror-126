@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: GladSpamBot
+Version: 0.0.61
+Summary: Module to log into 20 bots with bot token no memory lock issue!
+Home-page: https://github.com/Gladiators-Projects
+Author: Gladiators-Projects
+Author-email: gladiatorsprojects@gmail.com
+License: UNKNOWN
+Keywords: Gladiators,SpamBot,spammerbots,GladSpamBot,Gladiators-Projects,SpamBot
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+License-File: Licence.txt
+
+Module to log into 20 bots without any memory lock...
+
