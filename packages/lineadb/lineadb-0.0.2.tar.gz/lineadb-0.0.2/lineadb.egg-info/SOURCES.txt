@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+lineadb.egg-info/PKG-INFO
+lineadb.egg-info/SOURCES.txt
+lineadb.egg-info/dependency_links.txt
+lineadb.egg-info/top_level.txt
