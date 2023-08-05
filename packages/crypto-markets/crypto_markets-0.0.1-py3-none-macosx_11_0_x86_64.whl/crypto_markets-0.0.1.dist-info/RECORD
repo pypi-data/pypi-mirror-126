@@ -1,0 +1,9 @@
+crypto_markets/__init__.py,sha256=Up-NJEC1jFJfTGp99AGMtN4c2NFXcdFTL7EI2cTH_AM,1026
+crypto_markets/_lowlevel.py,sha256=L0k9Sr51lBd3HvBnaNy84I1ovbveu1LLcJwUFaDf87s,196
+crypto_markets/_lowlevel__ffi.py,sha256=7KlbAKVilIJ48yWJDUvDmuf6p_shSes_tWq-cSp3KCQ,1005
+crypto_markets/_lowlevel__lib.so,sha256=KyFxLSK_BlGIYZLjul4ylHpU55X_FGO6pEfx9G7V0c0,5060016
+crypto_markets-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+crypto_markets-0.0.1.dist-info/METADATA,sha256=a_TglQq0HVhzmdeL0S-UmXZt6Ug6r5JvltfhlShcFtk,1839
+crypto_markets-0.0.1.dist-info/WHEEL,sha256=s-M7yQGGODCx-LyLoneZpi0EzraSUqtpB6LrLD6HY8Q,108
+crypto_markets-0.0.1.dist-info/top_level.txt,sha256=fVXZgRMlVGXM3HgqDUJAd-BQpu04T5vR13YUrH2_9fY,15
+crypto_markets-0.0.1.dist-info/RECORD,,
