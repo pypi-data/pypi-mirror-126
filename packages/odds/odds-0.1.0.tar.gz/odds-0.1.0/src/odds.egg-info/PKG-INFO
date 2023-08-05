@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: odds
+Version: 0.1.0
+Summary: outlier_detection, detects outliers. 
+Home-page: https://github.com/jogrundy/od_dist
+Author: Jo Grundy
+Author-email: j.grundy@soton.ac.uk
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/jogrundy/od_dist/issues
+Project-URL: Source, https://github.com/jogrundy/od_dist
+Keywords: machine learning anomaly outlier novelty detection ranking
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Outlier Detection Package
+
+# For paper "Simple Models are Effective in Anomaly Detection in Multi-variate Time Series"
+
+INSTRUCTIONS TO FOLLOW
+
+
