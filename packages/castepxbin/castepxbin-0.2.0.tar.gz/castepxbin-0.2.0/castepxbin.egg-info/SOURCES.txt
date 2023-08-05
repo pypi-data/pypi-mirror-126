@@ -1,0 +1,14 @@
+README.md
+setup.py
+castepxbin/__init__.py
+castepxbin/castep_bin.py
+castepxbin/cst_esp.py
+castepxbin/elf.py
+castepxbin/ome_bin.py
+castepxbin/pdos.py
+castepxbin/test_reader.py
+castepxbin.egg-info/PKG-INFO
+castepxbin.egg-info/SOURCES.txt
+castepxbin.egg-info/dependency_links.txt
+castepxbin.egg-info/requires.txt
+castepxbin.egg-info/top_level.txt

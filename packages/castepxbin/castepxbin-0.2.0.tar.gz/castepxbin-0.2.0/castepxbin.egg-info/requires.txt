@@ -1,0 +1,15 @@
+numpy<2,>=1
+scipy<2,>=1
+
+[pmg]
+pymatgen
+
+[pre-commit]
+pre-commit~=2.2
+pylint-pytest
+
+[pre-commit:python_version >= "3.0"]
+pylint~=2.4.4
+
+[testing]
+pytest
