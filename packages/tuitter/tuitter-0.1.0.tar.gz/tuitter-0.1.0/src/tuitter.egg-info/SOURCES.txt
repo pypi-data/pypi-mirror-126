@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/tuitter.egg-info/PKG-INFO
+src/tuitter.egg-info/SOURCES.txt
+src/tuitter.egg-info/dependency_links.txt
+src/tuitter.egg-info/requires.txt
+src/tuitter.egg-info/top_level.txt
