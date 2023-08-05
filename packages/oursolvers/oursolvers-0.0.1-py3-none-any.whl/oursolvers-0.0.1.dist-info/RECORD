@@ -1,0 +1,11 @@
+solvers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solvers/wcvxopt.py,sha256=wMnM94-gbocFiHiDpS7UmQZMGb9IPxS-0KWytDbL-JQ,3429
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cvxopt_ilp.py,sha256=z8VePN1hESIuBKIkg09S0WoDeZTArO2GDK1K4KQxWnU,362
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/redirector.py,sha256=aF4WGHqC3pcvv3zOiwsZdefdvkcuJj18CdCkTyzMeQs,1200
+oursolvers-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+oursolvers-0.0.1.dist-info/METADATA,sha256=oT4m45yuLJqQm1KaSWgJw9G5qU-S_xBarZMBH5S0xV0,301
+oursolvers-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+oursolvers-0.0.1.dist-info/top_level.txt,sha256=OAbS-keIaHGzy85XUPDEYMMUincMibrwRhiqxknd_sQ,20
+oursolvers-0.0.1.dist-info/RECORD,,

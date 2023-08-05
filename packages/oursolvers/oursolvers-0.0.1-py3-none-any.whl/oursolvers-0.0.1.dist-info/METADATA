@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: oursolvers
+Version: 0.0.1
+Summary: Wrapper of optimization solvers
+Home-page: UNKNOWN
+Author: Rikard Olsson
+Author-email: rikard@ourstudio.se
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: cvxopt (==1.2.5)
+
+UNKNOWN
+
