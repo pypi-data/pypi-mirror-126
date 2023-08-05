@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ecgai-logging
+Version: 0.0.4
+Summary: Decorator function for function level logging
+Home-page: https://github.com/Ecg-Ai-com/ecgai-logging
+Author: Rob Clapham
+Author-email: 
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Ecg-Ai-com/ecgai-logging/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Logging
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ecgai-logging
+
+Logging decorator for both sync and async functions. Logging is carried out at logging levels DEBUG and INFO.
+
+INFO logs Module name, Method name, Variables, Returns, Elapsed time
+
+DEBUG logs Module name, Method name, Variables, Returns, Elapsed time, Synchronous or Asynchronous function type,
+Working directory, Start time, End time
+All times recorded in UTC
+
+Exceptions are logged if the exception is not handled in code or the exception is handled and raised. If the exception
+is handled in code and not raised it is not logged by this decorator
+
+
