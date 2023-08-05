@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pip_venv_sure.py
+setup.cfg
+setup.py
+pip_venv_sure.egg-info/PKG-INFO
+pip_venv_sure.egg-info/SOURCES.txt
+pip_venv_sure.egg-info/dependency_links.txt
+pip_venv_sure.egg-info/entry_points.txt
+pip_venv_sure.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+pip-venv-sure = pip_venv_sure:main
+
