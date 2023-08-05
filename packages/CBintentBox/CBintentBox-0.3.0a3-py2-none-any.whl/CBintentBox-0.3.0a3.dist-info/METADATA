@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: CBintentBox
+Version: 0.3.0a3
+Summary: chatterbox intent parser, extract multiple intents from a single utterance 
+Home-page: https://github.com/HelloChatterbox/intentBox
+Author: hellochatterbox
+Author-email: jarbasai@mailfence.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: adapt-parser (>=0.3.3)
+Requires-Dist: padacioso
+Requires-Dist: auto-regex
+Requires-Dist: quebra-frases (>=0.3.1)
+Requires-Dist: nebulento (>=0.1.0)
+Provides-Extra: extras
+Requires-Dist: requests ; extra == 'extras'
+Requires-Dist: padaos (>=0.1.9) ; extra == 'extras'
+Requires-Dist: padatious (>=0.4.6) ; extra == 'extras'
+Requires-Dist: palavreado (>=0.2.0) ; extra == 'extras'
+Requires-Dist: fann2 (>=1.0.7) ; extra == 'extras'
+Requires-Dist: pronomial (>=0.0.8) ; extra == 'extras'
+Requires-Dist: RAKEkeywords ; extra == 'extras'
+
+UNKNOWN
+
+
