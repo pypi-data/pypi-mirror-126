@@ -1,0 +1,8 @@
+predata/__init__.py,sha256=xsjUrLKWChUqq6C4uD56AdxSE3QwtIzsNvKvuDtc-hQ,66
+predata/coerce.py,sha256=zRBxGK3bs_Imvk5yC9nScdIFwhWNC-EaWH4kQNCdbWk,5777
+predata/string.py,sha256=UkmJBwTY4bIr0Csw25E-tlJKXOyDw-V1mN6me0Z0jMc,1763
+predata/typing.py,sha256=JvRB0Sdkzk9EtWyRpVAtDUDQPnDwdY5-IKflbcsQB04,350
+predata-2.0.0b1.dist-info/LICENSE.txt,sha256=O-KjXMLTREcGJB9Z5bSGC5lfb_5SnRatOxWRJesqicg,1069
+predata-2.0.0b1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+predata-2.0.0b1.dist-info/METADATA,sha256=5si9pSaxno6yvuSI7ZESInrY4oCIhhNVTbo_4kDZu3A,981
+predata-2.0.0b1.dist-info/RECORD,,
