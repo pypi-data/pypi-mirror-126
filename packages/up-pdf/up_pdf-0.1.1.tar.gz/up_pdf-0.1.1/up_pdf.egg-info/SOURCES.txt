@@ -1,0 +1,7 @@
+setup.py
+up_pdf/up_pdf.py
+up_pdf.egg-info/PKG-INFO
+up_pdf.egg-info/SOURCES.txt
+up_pdf.egg-info/dependency_links.txt
+up_pdf.egg-info/requires.txt
+up_pdf.egg-info/top_level.txt
