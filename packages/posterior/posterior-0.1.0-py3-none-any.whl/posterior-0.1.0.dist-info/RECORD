@@ -1,0 +1,7 @@
+posterior/__init__.py,sha256=rM3GfeqY6AfqTp79ilOd_8_EM544Jg0saEPOrgAoZRI,145
+posterior/distributions.py,sha256=Opx7EmBgB7NHdrabLGBpJnTjWF8YwZiJeE8BsDPg8vQ,2004
+posterior/hypotheses.py,sha256=Fi7yded1PNTlPNWVf76IYsO3mBzggHoE9sM8fz5wyDc,2738
+posterior/random_variables.py,sha256=zXSTVyRKqO2Xzjh8ifpsZYMMGw3sRlJg2-STWTTQSvg,3681
+posterior-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+posterior-0.1.0.dist-info/METADATA,sha256=Y3ZAoigAUpF-s_0pQEhDkBaf9gcL9nnLnNJRDXE9D5s,491
+posterior-0.1.0.dist-info/RECORD,,
