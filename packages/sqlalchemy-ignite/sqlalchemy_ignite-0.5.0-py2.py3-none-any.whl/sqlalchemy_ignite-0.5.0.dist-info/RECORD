@@ -1,0 +1,17 @@
+igniteworks/__init__.py,sha256=BDXZDORhqweLOmI6FSb0WDtUfp8D_BrJqtgmCuzhTzk,705
+igniteworks/client/__init__.py,sha256=DmqmCLEkFHI8fjS5ixcTjy-QAzhLLkk_X3LsAF9WE3s,949
+igniteworks/client/connection.py,sha256=0NIW1q5-swGkTBBiIy6xWOxvz--evZGeHcJcCIKnk1s,4985
+igniteworks/client/cursor.py,sha256=Rd1zxj6pUfsfFXrvXFBLg3tHLu66EEBPIsz9pSfguQw,6784
+igniteworks/client/exceptions.py,sha256=2ssuYPKUZZmVIrrkzecbievXOD3BNUFHDD3fA3CZMoM,1571
+igniteworks/client/ignite.py,sha256=0YxzbANstYGedvROl_EFb0utUrkF9bVGFMEWf_50vhA,17953
+igniteworks/client/sql_test.py,sha256=2MIP8Xuus6SHCzwnyYouzdelMmwwFsOb11g2Klqb7o4,1808
+igniteworks/sqlalchemy/__init__.py,sha256=_bjt4nY0AkJQpXXJm159rdVjYR0eHmz1gcXNONipHo4,775
+igniteworks/sqlalchemy/dialect.py,sha256=RHpRstqsEbLZKEPpBx-n1YTrZCCn8mBR3lLkEUHOdpY,5966
+igniteworks/sqlalchemy/example.py,sha256=06N945jfeKEfXDWY-Xcski3l7eAZ3N2GsOUh_OiEffA,954
+igniteworks/sqlalchemy/types.py,sha256=FjXjdLKJZPWAVOrV2vcIpj6rRbdPfAQHyN1IZ1pqfzI,866
+sqlalchemy_ignite-0.5.0.dist-info/LICENSE.txt,sha256=2WF4MFybEINxjikJmMu1ueQyauoPM1g_gUh6Pu1J2tM,11354
+sqlalchemy_ignite-0.5.0.dist-info/METADATA,sha256=MEWs5bKUEWJpZF_SIRUml4o3BM9tXq4a66sYZ_Fq700,1163
+sqlalchemy_ignite-0.5.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+sqlalchemy_ignite-0.5.0.dist-info/entry_points.txt,sha256=f5atkGx01Pk6SdgyRLTA5MoveSZjvIXnt2YpHApQUWw,82
+sqlalchemy_ignite-0.5.0.dist-info/top_level.txt,sha256=nhQC4fWkxLxUOaw3nLaumJBL2f9lA2BQNzRyWhTaIEk,12
+sqlalchemy_ignite-0.5.0.dist-info/RECORD,,
