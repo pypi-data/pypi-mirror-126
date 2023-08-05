@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: hifive-filler
+Version: 0.2.26
+Summary: 
+Author: yusata
+Requires-Python: >=3.9,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
