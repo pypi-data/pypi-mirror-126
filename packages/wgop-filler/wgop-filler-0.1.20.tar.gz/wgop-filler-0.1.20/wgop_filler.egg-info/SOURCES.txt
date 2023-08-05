@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+wgop_filler/__init__.py
+wgop_filler/main.py
+wgop_filler.egg-info/PKG-INFO
+wgop_filler.egg-info/SOURCES.txt
+wgop_filler.egg-info/dependency_links.txt
+wgop_filler.egg-info/entry_points.txt
+wgop_filler.egg-info/top_level.txt
+wgop_filler/src/__init__.py
+wgop_filler/src/author
+wgop_filler/src/filler.py
