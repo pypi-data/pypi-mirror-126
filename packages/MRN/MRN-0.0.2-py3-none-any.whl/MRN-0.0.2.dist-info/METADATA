@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: MRN
+Version: 0.0.2
+Summary: Library used to Normalize numerical time-series data
+Home-page: UNKNOWN
+Author: Philip Pankaj
+Author-email: <philip.pankaj@gmail.com>
+License: UNKNOWN
+Keywords: python,normalization,standardization,long term memory,LTM,LTM Normalization
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+A package that allows to efficiently normalize numerical timeseries data without lossing long term memory dependency and to retain information from the data as possible.
+
+
