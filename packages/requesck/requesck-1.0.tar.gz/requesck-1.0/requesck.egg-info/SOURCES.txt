@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+requesck/SidraTools.py
+requesck/__init__.py
+requesck.egg-info/PKG-INFO
+requesck.egg-info/SOURCES.txt
+requesck.egg-info/dependency_links.txt
+requesck.egg-info/requires.txt
+requesck.egg-info/top_level.txt

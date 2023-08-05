@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: requesck
+Version: 1.0
+Summary: Tools
+Home-page: https://github.com/SidraELEzz/EmailChecker
+Author: Tools
+Author-email: 
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Keywords: Tools
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+## Installation :
+```
+pip install requesck
+```
+
+
