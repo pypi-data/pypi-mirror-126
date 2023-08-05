@@ -1,0 +1,16 @@
+riscos_toolbox/__init__.py,sha256=GUXZ2eeXH0qoDc3nA0-I929zEUD0DfXUh0ENLScyifU,5618
+riscos_toolbox/gadgets/__init__.py,sha256=tRZqR4sRwNAHuc3Vrgxx8mjC8YXo-PE07sbBLQ4A8us,3332
+riscos_toolbox/gadgets/button.py,sha256=awdgYN2lGyrGrk-AALsqB6S9HvLUTNmBq1lF_r0mIUc,4105
+riscos_toolbox/gadgets/field.py,sha256=F5QupVO4CxbUqJFBNCQRzwLYQCQNlTfrnPN6bzltYPA,865
+riscos_toolbox/gadgets/text.py,sha256=2RDunzD99xaJB-PA-gK6slGbMPPo7LR9WkPGgkQ0eR8,1222
+riscos_toolbox/objects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+riscos_toolbox/objects/iconbar.py,sha256=iDjA4D3vCwTMYbA-FpWQdHt1kMq6iV4L0xdECSF0P5g,783
+riscos_toolbox/objects/menu.py,sha256=O-83yTuzmL72qWDucmaX4X80_F8Md_OVwaBxjMnGcnc,1075
+riscos_toolbox/objects/proginfo.py,sha256=jKOzeEcOc1UnrzHzzE5yM4CNg5znGe3k2qaML6qmvP4,159
+riscos_toolbox/objects/saveas.py,sha256=H_gDzGzqtiGg_BzlNzkKEmMfXp4ikPrdz3NnqNpcF-0,3279
+riscos_toolbox/objects/window.py,sha256=FSLLDD-gWWJH2dyOeAfaG1iB-PbjkgmNk96UB5AwMDY,1904
+riscos_toolbox-0.2.0.dist-info/LICENSE,sha256=37tCq6k24ErE9W6PoH06Kd9iMVLap41Ns5UDeY9lFG0,1065
+riscos_toolbox-0.2.0.dist-info/METADATA,sha256=_mmqlv-Rzk-xwy4MsLWtBkJMs9ppw7pYH6HEB66hiO0,479
+riscos_toolbox-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+riscos_toolbox-0.2.0.dist-info/top_level.txt,sha256=s9CFJYgivSp_EXt6acvEMDSfCwhE5pKqMaZrH7ejXDw,15
+riscos_toolbox-0.2.0.dist-info/RECORD,,
