@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/uxarray/__init__.py
+src/uxarray.egg-info/PKG-INFO
+src/uxarray.egg-info/SOURCES.txt
+src/uxarray.egg-info/dependency_links.txt
+src/uxarray.egg-info/not-zip-safe
+src/uxarray.egg-info/requires.txt
+src/uxarray.egg-info/top_level.txt
+test/test_placeholder.py
