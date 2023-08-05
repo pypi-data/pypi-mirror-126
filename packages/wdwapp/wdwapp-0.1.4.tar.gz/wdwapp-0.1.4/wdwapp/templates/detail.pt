@@ -1,0 +1,39 @@
+                <div metal:use-macro="load: layout.pt">
+                    <div metal:fill-slot="content">
+                        <div class="content">
+                            <h3>
+                                <div class="d-flex justify-content-between mb-3">
+                                    <a class="btn btn-primary bi bi-arrow-left-square-fill"
+                                        role="button"
+                                        href="${request.route_path('detail', lid=nav.prev_id)}"
+                                        data-bs-toggle="tooltip"
+                                        title="${nav.prev_name}">
+                                    </a>
+                                    <div class="">Détail ${lname}</div>
+                                    <a class="btn btn-primary bi bi-arrow-right-square-fill"
+                                        role="button"
+                                        href="${request.route_path('detail', lid=nav.next_id)}"
+                                        data-bs-toggle="tooltip"
+                                        title="${nav.next_name}">
+                                    </a>
+                                </div>
+                            </h3>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Quand</th>
+                                        <th>Température</th>
+                                        <th>Humidité</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr tal:repeat="data datas">
+                                        <td>${data.timestp.strftime('%d %b %y %H:%M')}</td>
+                                        <td>${round(data.temperature, 1)} ${tunit}</td>
+                                        <td>${data.humidity} %</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>

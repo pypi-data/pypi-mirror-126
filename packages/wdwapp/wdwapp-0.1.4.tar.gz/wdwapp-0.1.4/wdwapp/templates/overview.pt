@@ -1,0 +1,83 @@
+<div metal:use-macro="load: layout.pt">
+            <div metal:fill-slot="content">
+                <div class="content">
+                    <h3>Données du ${ltime}</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Lieux</th>
+                                <th scope="col" class="text-center">Température</th>
+                                <th scope="col" class="text-center">Humidité</th>
+                                <th scope="col">Indics</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr tal:repeat="data datas">
+                                <th class="align-middle" scope="row">
+                                    <a href="${request.route_path('detail', lid=data.id)}">
+                                        ${data.name} 
+                                    </a>
+                                </th>
+                                <td class="text-center align-middle">
+                                    ${data.temperature} ${data.tunit}</td>
+                                <td class="text-center align-middle">
+                                    ${data.humidity} %</td>
+                                <td>
+                                    <div class='d-inline' tal:switch="data.bat_level" onclick="ConfChgBat('${request.route_path('chgbat', sid=data.sns_id)}')"
+                                            data-bs-toggle="tooltip"
+                                            data-bs-html="true"
+                                            title="<div class='text-start'>Batterie ${data.bat_level}<br>Dern chg: ${data.last_chg}<br>Nbr chg: ${data.numb_chg}<br>Click pour changer</div>">
+                                        <button tal:case="'OK'" type="button" class="btn btn-light">
+                                            <span class="bi-battery-full" style="color: green;"></span>
+                                        </button>
+                                        <button tal:case="'vide'" type="button" class="btn btn-light">
+                                            <span class="bi-battery" style="color: red;" ></span>
+                                        </button>
+                                    </div>
+                                    <div class="d-inline align-middle" tal:switch="data.uptodate">
+                                        <span tal:case="'OK'" class="bi-clock" style="color: green;" data-bs-toggle="tooltip" data-bs-html="true"
+                                            title="Dern vue: ${data.last_seen}"></span>
+                                        <span tal:case="'KO'" class="bi-clock-fill" style="color: red;" data-bs-toggle="tooltip" data-bs-html="true"
+                                            title="Dern vue: ${data.last_seen}"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- Modal -->
+                    <div class="modal fade" id="ChangeBatteryModal" tabindex="-1" aria-labelledby="ChangeBatteryModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="ChangeBatteryModalLabel">Changement Batterie</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Annuler"></button>
+                          </div>
+                          <div class="modal-body">
+                            Êtes-vous sûr de vouloir changer la batterie ?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                            <a type="button" class="btn btn-primary" id="modalyes">Changer la batterie</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <script>
+                        
+                        // Traitement du changement de batterie
+                        function ConfChgBat(chgbaturl) {
+                            
+                            // Changer le lien sur le bouton du modal
+                            //~ document.getElementById('modalyes').setAttribute('href', 'chgbat/' + sensor_id);
+                            document.getElementById('modalyes').setAttribute('href', chgbaturl);
+                            
+                            // Afficher la fenêtre de confirmation
+                            var myModal = new bootstrap.Modal(document.getElementById('ChangeBatteryModal'));
+                            myModal.show();
+                        }
+
+                    </script>
+                    <!-- Modal -->
+                </div>
+            </div>
+</div>
