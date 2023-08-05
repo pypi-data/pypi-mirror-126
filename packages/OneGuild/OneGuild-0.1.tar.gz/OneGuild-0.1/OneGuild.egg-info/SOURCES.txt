@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+OneGuild/__init__.py
+OneGuild/__main__.py
+OneGuild/message.py
+OneGuild.egg-info/PKG-INFO
+OneGuild.egg-info/SOURCES.txt
+OneGuild.egg-info/dependency_links.txt
+OneGuild.egg-info/requires.txt
+OneGuild.egg-info/top_level.txt
