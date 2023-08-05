@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: wrapc
+Version: 0.0.2
+Summary: Wrapper script for starting a command line tool with bash completion
+License: GPL-3
+Author: Dick Marinus
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: argcomplete (>=1.12.3,<2.0.0)
+Requires-Dist: argparse (>=1.4.0,<2.0.0)
