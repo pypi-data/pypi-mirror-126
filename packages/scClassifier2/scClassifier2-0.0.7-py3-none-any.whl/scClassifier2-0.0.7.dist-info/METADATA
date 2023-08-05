@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: scClassifier2
+Version: 0.0.7
+Summary: a tool for single cell data
+Home-page: UNKNOWN
+Author: zengBio
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyro-ppl
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+
+# A Classifier For Single Cell Data
+the sorce code of "Seeing cells as bags-of-genes: a simple deep generative model for platform-independent single cell classification"
+
