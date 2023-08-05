@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: cognite-transformations-cli
+Version: 0.1.0
+Summary: A CLI for the Transformations service in CDF
+Home-page: https://github.com/cognitedata/transformations-cli
+License: Apache-2.0
+Author: Mathias Lohne
+Author-email: mathias.lohne@cognite.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: cognite-extractor-utils (>=1.5.2,<2.0.0)
+Requires-Dist: cognite-sdk-experimental (==0.60.22)
+Requires-Dist: sqlparse (>=0.4.2,<0.5.0)
+Requires-Dist: tabulate (>=0.8.9,<0.9.0)
+Requires-Dist: types-retry (>=0.1.5,<0.2.0)
+Requires-Dist: types-tabulate (>=0.8.3,<0.9.0)
+Project-URL: Repository, https://github.com/cognitedata/transformations-cli
+Description-Content-Type: text/markdown
+
+# Transformations CLI
+
+The Transormations CLI is a replacement for [jetfire-cli](https://github.com/cognitedata/jetfire-cli) rewritten on top
+of the new Python SDK for Transformations.
+
+
+
