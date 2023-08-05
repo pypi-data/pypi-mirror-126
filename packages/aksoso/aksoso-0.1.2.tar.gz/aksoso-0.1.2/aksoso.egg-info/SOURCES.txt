@@ -1,0 +1,7 @@
+setup.py
+aksoso/__init__.py
+aksoso/aksoso.py
+aksoso.egg-info/PKG-INFO
+aksoso.egg-info/SOURCES.txt
+aksoso.egg-info/dependency_links.txt
+aksoso.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: aksoso
+Version: 0.1.2
+Summary: transform python file to .so file
+Home-page: https://github.com/AustinKuture/AKso.git
+Author: Kuture
+Author-email: kuture@163.com
+License: MIT Licence
+Description: 将python项目批量编译成.so 文件
+Keywords: pip,aksoso,.so,cython,kuture,transform so
+Platform: any
