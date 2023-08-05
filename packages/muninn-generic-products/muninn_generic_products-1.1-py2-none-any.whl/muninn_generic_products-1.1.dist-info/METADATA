@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: muninn-generic-products
+Version: 1.1
+Summary: Generic Muninn product type extension
+Home-page: https://github.com/stcorp/muninn-generic-products
+Author: S[&]T
+Author-email: UNKNOWN
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Environment :: Plugins
+Requires-Dist: muninn
+
+UNKNOWN
+
+
