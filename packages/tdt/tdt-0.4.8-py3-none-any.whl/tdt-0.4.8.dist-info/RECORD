@@ -1,0 +1,11 @@
+tdt/BH32.py,sha256=gPAR-QuFaO2X-_lI0AwCMfdwhB0cF4cdVABpv0Y1tpc,9386
+tdt/SynapseAPI.py,sha256=0sdJvhSHOpG7W8GwevR74b2H3gkNlt_Jw2TtqC7Vr5M,31609
+tdt/TDTUDP.py,sha256=NWfALk7atZE8PeWQmIQIEE1mSHqOFkxPBl4r3Vbn5Z4,4989
+tdt/TDTbin2py.py,sha256=ThMqq6jc1HT_SCZkxDhH0rU1SmMFUWJigT8D4uU3xMA,109460
+tdt/TDTfilter.py,sha256=bc74GVM7WglKcCc1sQGo6VtmWA3zXbdW102bsa042cE,18957
+tdt/__init__.py,sha256=CVB2KfesL8ZOzNnf-hjP8Z6U6RiVLhP5nm6zosbo-tY,4309
+tdt-0.4.8.dist-info/LICENSE,sha256=LoV48WtuomVBIWbotLHaBF_MEfKNsD1mSQhBASSi8B4,35801
+tdt-0.4.8.dist-info/METADATA,sha256=iWyIYLuMmj30anca0WAN-VTv_DtNz-SzN7nqwqQlPbs,1030
+tdt-0.4.8.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+tdt-0.4.8.dist-info/top_level.txt,sha256=UKa9PJi2rj1bJuETYymjEZJC5c310oLx941k9H8mRW8,4
+tdt-0.4.8.dist-info/RECORD,,
