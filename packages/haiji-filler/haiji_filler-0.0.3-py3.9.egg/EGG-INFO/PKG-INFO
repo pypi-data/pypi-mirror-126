@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: haiji-filler
+Version: 0.0.3
+Summary: Just for test
+Home-page: https://www.google.co.jp
+Author: example
+Author-email: example@example.jp
+License: UNKNOWN
+Description: Just for test
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9

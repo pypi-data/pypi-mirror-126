@@ -1,0 +1,3 @@
+[console_scripts]
+haiji_filler = test_filler.test:main
+

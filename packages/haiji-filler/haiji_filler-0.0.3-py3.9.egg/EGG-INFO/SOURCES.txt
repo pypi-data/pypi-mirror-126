@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+haiji_filler.egg-info/PKG-INFO
+haiji_filler.egg-info/SOURCES.txt
+haiji_filler.egg-info/dependency_links.txt
+haiji_filler.egg-info/entry_points.txt
+haiji_filler.egg-info/not-zip-safe
+haiji_filler.egg-info/top_level.txt
+test_filler/test.py
