@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "fast-oad_notebooks"
+version = "0.2.0"
+description = "Tutorial notebooks for FAST-OAD"
+authors =  [
+    "Scott DELBECQ <Scott.DELBECQ@isae-supaero.fr>",
+    "Martin DELAVENNE <Martin.DELAVENNE@isae-supaero.fr>",
+    "Christophe DAVID <christophe.david@onera.fr>",
+]
+packages = [
+    { include = "fastoad_notebooks" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fast-oad = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+nbval = "^0.9.6"
+pre-commit = "^2.14.1"
+black = { version = "21.10b0", extras = ["jupyter"], allow-prereleases = true }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--verbose"
+#testpaths = ["fastoad_notebooks"]
+norecursedirs = ["dist", "build", ".tox"]
+
+[tool.coverage.run]
+branch = true
+source = ["fastoad"]
+omit = ["*/test/*", "*/tests/*"]
+[tool.coverage.paths]
+source = ["src/", "*/site-packages/"]
+[tool.coverage.report]
+# Regexes for lines to exclude from consideration
+exclude_lines = [
+    # Have to re-enable the standard pragma
+    "pragma: no cover",
+    # Don't complain about missing debug-only code:
+    "def __repr__",
+    "if self.debug",
+    # Don't complain if tests don't hit defensive assertion code:
+    "raise AssertionError",
+    "raise NotImplementedError",
+    # Don't complain if non-runnable code isn't run:
+    "if 0:",
+    "if __name__ = = .__main__.:"
+]
