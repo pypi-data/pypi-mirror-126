@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pypi-changes
+Version: 1.0.0
+Summary: check out when packages changed
+Home-page: http://pypi_changes.readthedocs.org
+Author: Bernát Gábor
+Author-email: gaborjbernat@gmail.com
+Maintainer: Bernát Gábor
+Maintainer-email: gaborbernat@python.org
+License: MIT
+Project-URL: Source, https://github.com/gaborbernat/pypi_changes
+Project-URL: Tracker, https://github.com/gaborbernat/pypi_changes/issues
+Keywords: virtual,environments,isolated,testing
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: tox
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: testing
+License-File: LICENSE
+
+# pypi_changes
+
+[![check](https://github.com/gaborbernat/pypi_changes/actions/workflows/check.yml/badge.svg)](https://github.com/gaborbernat/pypi_changes/actions/workflows/check.yml)
+[![codecov](https://codecov.io/gh/gaborbernat/pypi_changes/branch/main/graph/badge.svg)](https://codecov.io/gh/gaborbernat/pypi_changes/branch/main)
+[![Code style:
+black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+[![asciicast](https://asciinema.org/a/446966.svg)](https://asciinema.org/a/446966)
+
+
