@@ -1,0 +1,7 @@
+README.rst
+setup.py
+bingodb/__init__.py
+bingodb.egg-info/PKG-INFO
+bingodb.egg-info/SOURCES.txt
+bingodb.egg-info/dependency_links.txt
+bingodb.egg-info/top_level.txt
