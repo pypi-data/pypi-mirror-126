@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/halfplane.egg-info/PKG-INFO
+src/halfplane.egg-info/SOURCES.txt
+src/halfplane.egg-info/dependency_links.txt
+src/halfplane.egg-info/requires.txt
+src/halfplane.egg-info/top_level.txt

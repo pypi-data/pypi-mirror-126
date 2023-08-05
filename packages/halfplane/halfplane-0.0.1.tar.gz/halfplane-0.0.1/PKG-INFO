@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: halfplane
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Alexander Juda
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# halfplane
+
+# Dev set up
+
+```
+pyenv virtualenv $(basename $PWD)
+pyenv local $(basename $PWD)
+pip install --upgrade pip
+pip install -e .[dev]
+```
+
+# Release
+
+```
+pip install build twine
+```
+
+
