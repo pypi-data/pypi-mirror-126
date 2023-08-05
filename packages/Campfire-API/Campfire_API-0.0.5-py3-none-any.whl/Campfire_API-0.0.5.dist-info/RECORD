@@ -1,0 +1,9 @@
+campfire_api/__init__.py,sha256=NRjt-5rpi3kGfBboVEtgOJm1cuBtB9qPiQvsnojFnjc,129
+campfire_api/api.py,sha256=j3zyZm-F76kr63acC4Rkga2eWqI9RawaeBEjl3q6bQE,11040
+campfire_api/errors.py,sha256=SXVJwKiuGqMc2kUscp3pZAQeZyYocmo6jMGElZveaC0,284
+campfire_api/tools.py,sha256=9tSr4xpentPpzlbLsbQ55f3DRN-3a6MdMcgxXQAQ1Ag,503
+Campfire_API-0.0.5.dist-info/LICENSE,sha256=SiYrFxWAypFE8KFyddRN1UMReAgSTJaAcyiQz7r8RDg,1091
+Campfire_API-0.0.5.dist-info/METADATA,sha256=N6o0e-_lXQ23dtA7tuOK1Ka7nzSKuv0HP9ZfKz_wUe8,876
+Campfire_API-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Campfire_API-0.0.5.dist-info/top_level.txt,sha256=rOJycOeHQ3omLp3qFEWo83ulA-jzkXa8HI9h-x2DKlY,13
+Campfire_API-0.0.5.dist-info/RECORD,,
