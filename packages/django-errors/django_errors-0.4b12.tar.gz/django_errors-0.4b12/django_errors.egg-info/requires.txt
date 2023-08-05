@@ -1,0 +1,10 @@
+django<3
+
+[linting]
+flake8
+pylint
+bandit<1.7
+
+[testing]
+codecov
+django_nose
