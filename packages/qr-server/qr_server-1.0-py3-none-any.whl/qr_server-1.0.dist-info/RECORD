@@ -1,0 +1,16 @@
+qr_server/FileManager.py,sha256=5TFuPxDCg97LYWas0_MAw8AwVtCvH_WWYHl5Ro_bAzQ,719
+qr_server/FlaskServer.py,sha256=JJLqmO6hmwV_Z--Vg6BhKzuoNaG9iDhQMtobyKsozpw,2549
+qr_server/IQRRepository.py,sha256=iAp6ev_9kcKOzpbe2exXI9G5WP-TPw8D3iwaP5T486o,1539
+qr_server/IQRServer.py,sha256=9hfW_LP9JGEKSpPRJPXaMAz4nizbfjJX4-Qn2iBYxPc,2772
+qr_server/QRConfig.py,sha256=9m0JbrfrbsVz6KR86ucaPiAUSfGXEFYYB7GLsZnf03c,1816
+qr_server/QRLogger.py,sha256=ZxRpmIhqmgVKdZk6Hs_XP8Gu11D5_FnYlLxxO6jzRDY,2843
+qr_server/RoleManager.py,sha256=Hd8GlzBjKGjrORa-iLk-CyKCm06wRZ6d-W0Igb5ssBY,474
+qr_server/TokenManager.py,sha256=BHk6IP4eJXH2nd_KLfRGCY46pm-zRXZpbuB7xHuS0rc,3563
+qr_server/__init__.py,sha256=tofL2Iod0dlQHPp8iTgBFsbh0OL-rUaRqn4M3Q3y_9w,169
+qr_server/dict_parsing.py,sha256=qxRJtyUC3lq3oQ_yMoQxoPPm2YV_d3MalWOyniQjZQc,867
+qr_server/dto_converter.py,sha256=qj35ar116vISbWX1wjQHV0w47ovFnS0t4EEKqpcq1GE,2403
+qr_server-1.0.dist-info/LICENSE,sha256=VSGuhcgdgZQBEUrb0jyvnf9_ttMoq3lHQaalobJlDtc,1075
+qr_server-1.0.dist-info/METADATA,sha256=UXV_T4vODab_iEZoMbSRSRfWuzkzVv9GhHuaO-zzDng,2569
+qr_server-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+qr_server-1.0.dist-info/top_level.txt,sha256=gZRf1EbmWvr9F3jOSxyJlEmL6QTgP8vH9NisGLRsaN4,10
+qr_server-1.0.dist-info/RECORD,,
