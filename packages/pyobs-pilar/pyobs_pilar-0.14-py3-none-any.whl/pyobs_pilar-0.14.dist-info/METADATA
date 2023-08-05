@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyobs-pilar
+Version: 0.14
+Summary: pyobs component for the Pilar TCS
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: astropy
+
+UNKNOWN
+
