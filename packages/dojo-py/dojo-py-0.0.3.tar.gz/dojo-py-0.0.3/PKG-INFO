@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dojo-py
+Version: 0.0.3
+Summary: Python helper package for interacting with your Samourai Dojo instance
+Home-page: https://gitlab.com/streets/dojo-py
+Author: Streets
+Author-email: streets@lofi.tools
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+UNKNOWN
+
