@@ -1,0 +1,3 @@
+[console_scripts]
+kak-rope=kak_rope:main
+
