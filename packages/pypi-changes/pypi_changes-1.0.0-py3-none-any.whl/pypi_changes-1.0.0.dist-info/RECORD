@@ -1,0 +1,15 @@
+pypi_changes/__init__.py,sha256=Pyqu1DSOn7G4TXLilSXpD3RYPTahR_x2uBPjPGsmxjo,581
+pypi_changes/__main__.py,sha256=Jfvk-CLeH7dmmHk7MkM4AQHRcR_HXc1XnsFlGPVQlpQ,123
+pypi_changes/_cli.py,sha256=icCD8IS_VdwVMp361mv0y2PlrP5TxoA2ryMNipOWLDw,2359
+pypi_changes/_distributions.py,sha256=SXWFUMPDZxzhrdGn5j0I9uwdhDVch4TQU1GfKAtCUqc,1931
+pypi_changes/_info.py,sha256=B3C4PD6nQlVe7tnR3-jao-3DB96hL48FNTVnkQZ6gNQ,5680
+pypi_changes/_pkg.py,sha256=La807saF7y4btskHcBOhyUe7cz2t-KXjfruxUJeXTVk,1785
+pypi_changes/_print.py,sha256=fGXwdgh2AMzoyidsKwDIefZsg_0tjM13yt3DleZrgE8,1673
+pypi_changes/_version.py,sha256=YDhpFAXgv37cmY1pZn8kQNcYAOwj883BhWAtoaziSG4,142
+pypi_changes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypi_changes-1.0.0.dist-info/LICENSE,sha256=kOJeH68qSq6o2V7o5_VziwUqGswMnFgGgQH5Mahr1Yg,1023
+pypi_changes-1.0.0.dist-info/METADATA,sha256=cshF6pA0tZGlKvSsJLOftwRCjtUEwkiD-nfQNmiGqx4,2983
+pypi_changes-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pypi_changes-1.0.0.dist-info/entry_points.txt,sha256=Q4KYAz3cL5x2hIGTcSZt6rIBTtPdizXV6fxAx9id26g,61
+pypi_changes-1.0.0.dist-info/top_level.txt,sha256=cUXfQ-cXDq_N2ynrgKVyDPfKC-xTWSWOIQ0tVG6c_fE,13
+pypi_changes-1.0.0.dist-info/RECORD,,
