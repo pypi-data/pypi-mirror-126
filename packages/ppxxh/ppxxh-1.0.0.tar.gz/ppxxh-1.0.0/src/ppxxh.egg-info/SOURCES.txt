@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/ppxxh/__init__.py
+src/ppxxh/_top.py
+src/ppxxh/_xxh32.py
+src/ppxxh/_xxh3_128.py
+src/ppxxh/_xxh3_64.py
+src/ppxxh/_xxh64.py
+src/ppxxh.egg-info/PKG-INFO
+src/ppxxh.egg-info/SOURCES.txt
+src/ppxxh.egg-info/dependency_links.txt
+src/ppxxh.egg-info/top_level.txt
