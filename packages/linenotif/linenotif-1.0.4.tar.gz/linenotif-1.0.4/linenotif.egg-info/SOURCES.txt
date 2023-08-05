@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+linenotif/Notify.py
+linenotif/__init__.py
+linenotif.egg-info/PKG-INFO
+linenotif.egg-info/SOURCES.txt
+linenotif.egg-info/dependency_links.txt
+linenotif.egg-info/requires.txt
+linenotif.egg-info/top_level.txt
