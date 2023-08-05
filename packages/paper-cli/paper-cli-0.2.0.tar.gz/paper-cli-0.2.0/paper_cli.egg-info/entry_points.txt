@@ -1,0 +1,3 @@
+[console_scripts]
+paper-cli = papercli.papercli:cli_main
+
