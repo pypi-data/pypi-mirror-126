@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+helloworld/__init__.py
+helloworld/config.py
+helloworld/hello.py
+helloworld/images.py
+helloworld/data/config/config.json
+helloworld/data/images/logo.jpg
+helloworld_for_pip.egg-info/PKG-INFO
+helloworld_for_pip.egg-info/SOURCES.txt
+helloworld_for_pip.egg-info/dependency_links.txt
+helloworld_for_pip.egg-info/requires.txt
+helloworld_for_pip.egg-info/top_level.txt
