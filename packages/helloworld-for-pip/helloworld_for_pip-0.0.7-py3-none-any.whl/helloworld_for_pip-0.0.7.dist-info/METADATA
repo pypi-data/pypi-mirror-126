@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: helloworld-for-pip
+Version: 0.0.7
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: SimoneGasperini
+Author-email: simone.gasperini2@studio.unibo.it
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
