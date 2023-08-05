@@ -1,0 +1,6 @@
+wheel
+beautifulsoup4
+lxml
+pandas
+datetime
+requests
