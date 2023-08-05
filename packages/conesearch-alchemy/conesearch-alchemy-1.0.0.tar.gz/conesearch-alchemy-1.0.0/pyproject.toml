@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "conesearch-alchemy"
+version = "1.0.0"
+description = "SQLAlchemy extension for indexed cone searches in astronomical catalogs"
+readme = "README.md"
+authors = ["Leo Singer <leo.singer@ligo.org>"]
+license = "BSD-3-clause"
+repository = "https://github.com/skyportal/conesearch-alchemy"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Database",
+    "Topic :: Scientific/Engineering :: Astronomy"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+sqlalchemy = "*"
+
+[tool.poetry.dev-dependencies]
+astropy = "*"
+numpy = "*"
+psycopg2-binary = "*"
+pytest = "*"
+pytest-benchmark = "*"
+pytest-postgresql = "*"
+scipy = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
