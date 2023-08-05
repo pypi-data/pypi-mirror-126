@@ -1,0 +1,13 @@
+README.md
+README.rst
+pyproject.toml
+setup.py
+edaSQL/src/edaSQL.egg-info/PKG-INFO
+edaSQL/src/edaSQL.egg-info/SOURCES.txt
+edaSQL/src/edaSQL.egg-info/dependency_links.txt
+edaSQL/src/edaSQL.egg-info/top_level.txt
+edaSQL/src/edaSQL.py
+edaSQL/src/edaSQL.egg-info/PKG-INFO
+edaSQL/src/edaSQL.egg-info/SOURCES.txt
+edaSQL/src/edaSQL.egg-info/dependency_links.txt
+edaSQL/src/edaSQL.egg-info/top_level.txt
