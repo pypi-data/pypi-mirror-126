@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "os2datasynth"
+version = "0.0.1"
+description = "A package to generate synthethic files and sources, incoming+norsker-final-project-synthethic-data-source-498-issue-@git.magenta.dk"
+authors = ["Norsker <egn@magenta-aps.dk>"]
+
+[tool.poetry.dependencies]
+
+[tool.poetry.dev-dependencies]
+
+[tool.autopub]
+git-username = "MagentaBot"
+git-email = "info@magenta.dk"
+build-system = "poetry"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
