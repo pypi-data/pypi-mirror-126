@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: OneGuild
+Version: 0.1
+Summary: An Asynchronous, Pythonic API Wrapper For The Guilded API
+Home-page: https://github.com/VincentRPS/OneGuild
+Author: VincentRPS
+License: Apache-2.0
+Project-URL: Documentation, https://nextcord.readthedocs.io/en/latest/
+Project-URL: Issue tracker, https://github.com/nextcord/nextcord/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinxcontrib-trio ; extra == 'docs'
+Requires-Dist: sphinx-book-theme ; extra == 'docs'
+
+.. image:: assets/better.png
+   :alt: OneGuild
+
+OneGuild
+----------
+An Asynchronous API Wrapper For The Guilded API
+
+Installing 
+-----------
+
+.. code:: sh
+
+    python3 -m pip install -U OneGuild
+
+       
+To install the development version, do the following:
+
+.. code:: sh
+
+    $ git clone https://github.com/VincentRPS/OneGuild/
+    $ cd OneGuild
+    $ python3 -m pip install -U 
+
+
+Links
+------
+
+- `Documentation(Coming Soon) <https://OneGuild.rtfd.io/en/latest/>`_
+- `Official Guilded Server <https://guilded.gg/OneGuild>`_
+- `Guilded API Server <https://guilded.gg/guilded-api>`_
+
+
