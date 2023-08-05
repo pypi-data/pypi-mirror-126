@@ -1,0 +1,5 @@
+PyJWT>=2.3.0
+django>=3.2.9
+djangorestframework==3.11.0
+sc4py>=0.1.4
+sc4net>=0.1.2
