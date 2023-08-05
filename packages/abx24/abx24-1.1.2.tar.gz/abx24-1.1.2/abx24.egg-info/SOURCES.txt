@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+abx24/__init__.py
+abx24/bitrix24.py
+abx24/exceptions.py
+abx24.egg-info/PKG-INFO
+abx24.egg-info/SOURCES.txt
+abx24.egg-info/dependency_links.txt
+abx24.egg-info/requires.txt
+abx24.egg-info/top_level.txt
+tests/__init__.py
+tests/test_bitrix24.py
