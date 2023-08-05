@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/redivis/__init__.py
+src/redivis/_version.py
+src/redivis.egg-info/PKG-INFO
+src/redivis.egg-info/SOURCES.txt
+src/redivis.egg-info/dependency_links.txt
+src/redivis.egg-info/requires.txt
+src/redivis.egg-info/top_level.txt
