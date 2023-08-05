@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+eddy_mc_wrapper.egg-info/PKG-INFO
+eddy_mc_wrapper.egg-info/SOURCES.txt
+eddy_mc_wrapper.egg-info/dependency_links.txt
+eddy_mc_wrapper.egg-info/requires.txt
+eddy_mc_wrapper.egg-info/top_level.txt
