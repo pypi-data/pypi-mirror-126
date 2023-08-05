@@ -1,0 +1,3 @@
+[console_scripts]
+workplanner=workplanner.__main__:cli
+
