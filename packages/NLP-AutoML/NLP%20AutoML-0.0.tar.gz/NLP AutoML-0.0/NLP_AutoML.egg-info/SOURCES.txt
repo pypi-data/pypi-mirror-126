@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+NLP_AutoML.egg-info/PKG-INFO
+NLP_AutoML.egg-info/SOURCES.txt
+NLP_AutoML.egg-info/dependency_links.txt
+NLP_AutoML.egg-info/not-zip-safe
+NLP_AutoML.egg-info/requires.txt
+NLP_AutoML.egg-info/top_level.txt
+nlp_automl/__init__.py
+nlp_automl/auto_ml_pipeline.py
+nlp_automl/base.py
+nlp_automl/datatypes.py
