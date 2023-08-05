@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: raspberry-epaper
+Version: 0.3.0
+Summary: 
+Author: yskoht
+Author-email: ysk.oht@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.4.0,<9.0.0)
+Requires-Dist: python-box (>=5.4.1,<6.0.0)
+Requires-Dist: qrcode (>=7.3.1,<8.0.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Requires-Dist: waveshare-epaper (>=1.0.3,<2.0.0)
