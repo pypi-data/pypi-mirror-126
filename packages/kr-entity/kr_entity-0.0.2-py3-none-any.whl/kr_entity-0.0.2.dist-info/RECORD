@@ -1,0 +1,12 @@
+entity/entities.py,sha256=cd5iWLQ0dLO8rDU7oCBSumUg4YgtKP42XqM874inG2c,2674
+entity/entity.py,sha256=yMkJUdlVSM_L8KC_RMEdd039JCUNO0FGS1T8BOl4bpU,4636
+entity/infer_id.py,sha256=ujgRntv0o2vGbiomp2HsAh6SVcTOiWrpcOtPMTBdUMk,2181
+entity/kraken_json.py,sha256=WO8NAPinGNMACL9y_9WSzyirgK1UV3hELdu5v9sy3VE,3528
+entity/observation.py,sha256=6Py60uoPVIH7moIjCe01nvdNtzt_z7xGpiCB1MO8kno,7659
+entity/observations.py,sha256=ninP3Kwn_QaSJPWTL_QqnYb3xWgMyD3lXv8lNXgYrlI,13652
+entity/schema_cleanup.py,sha256=rVoCZoE0rfVEeBN0U307jq5-PR8pZSybQQWg2VovrGc,896
+kr_entity-0.0.2.dist-info/LICENSE.txt,sha256=19687GCOw_xFJ3a4PT_c0CEYELI99YeZKxJRG5cgyoI,1059
+kr_entity-0.0.2.dist-info/METADATA,sha256=-CiIVHV_l7xRM7L3a0-yOeKATXfXrrUP4b1Sz9qRto0,450
+kr_entity-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+kr_entity-0.0.2.dist-info/top_level.txt,sha256=y71mf7jBIUNevdd8hvpxUHygM4eSNux8vWCZFYU0OsE,7
+kr_entity-0.0.2.dist-info/RECORD,,
