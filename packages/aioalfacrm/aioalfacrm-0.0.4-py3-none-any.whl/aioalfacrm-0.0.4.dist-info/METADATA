@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: aioalfacrm
+Version: 0.0.4
+Summary: Is an asynchronous implementation for AlfaCRM API
+Home-page: https://github.com/stas12312/aioalfacrm
+Author: Stanislav Rush
+Author-email: 911rush@gmail.com
+License: MIT license
+Platform: UNKNOWN
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (<4.0.0,>=3.7.2)
+Requires-Dist: Babel (>=2.8.0)
+Requires-Dist: certifi (>=2020.6.20)
+
+AIOAlfacrm
+==========
+
+**aioalfacrm** - is an asynchronous implementation for the [AlfaCRM API](http://www.python.org/)
+
+
