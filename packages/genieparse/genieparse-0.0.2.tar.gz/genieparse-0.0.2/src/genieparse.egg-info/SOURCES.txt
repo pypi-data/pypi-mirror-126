@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/genieparse/__init__.py
+src/genieparse/genieparse.py
+src/genieparse.egg-info/PKG-INFO
+src/genieparse.egg-info/SOURCES.txt
+src/genieparse.egg-info/dependency_links.txt
+src/genieparse.egg-info/top_level.txt
