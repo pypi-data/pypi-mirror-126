@@ -1,0 +1,6 @@
+matplotlib
+pandas
+psutil
+resource
+urllib3
+validators
