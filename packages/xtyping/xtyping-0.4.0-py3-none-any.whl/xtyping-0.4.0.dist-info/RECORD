@@ -1,0 +1,10 @@
+xtyping/__init__.py,sha256=CB4iNm8AAivmzZ8K0nNXbm56eZtraZWmClKfxrn9Zuk,6437
+xtyping/_meta.py,sha256=z3PZkY2BUvtQPerf0KnfRsXPgfXa8OaTP6aiIfQg94A,153
+xtyping/_typing.py,sha256=E7DyVYoSONertvL5Mb-zadlEFnXP9AuY3JYPvNRMceM,2084
+xtyping/_typing_extensions.py,sha256=3cKZnXVlgWOK1ZCRm8C4HbL3sQX8M8dkjhR4ys4khEU,1444
+xtyping/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xtyping/shed.py,sha256=lUKtSDLYlywENlHq6dcx4UuLdeosT7RT5ha1zcoQvQs,6310
+xtyping-0.4.0.dist-info/LICENSE,sha256=PufEtkm3g2iPEYbJqg2lDjMQJ1FMm_oUPyeYPiN4PHE,1056
+xtyping-0.4.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+xtyping-0.4.0.dist-info/METADATA,sha256=jbvVBlwlvh6PuS0__wct8iiPLS8kmfn7fF_N2QHEJaM,906
+xtyping-0.4.0.dist-info/RECORD,,
