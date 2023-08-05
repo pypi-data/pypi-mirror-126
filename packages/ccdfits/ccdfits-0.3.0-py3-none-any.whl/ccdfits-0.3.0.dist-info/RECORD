@@ -1,0 +1,8 @@
+ccdfits/__init__.py,sha256=wdI8_JwY2lZxIMNJqp7Gklp56jTg3AbvxvTG7k8tRnQ,14307
+ccdfits/_auxiliary.py,sha256=qoDcwdK9niha2e5RW9mtWc3OEo4lOqnpblicNjbe62Y,733
+ccdfits/processing.py,sha256=1ijCfrmFHnfOyInIxAo3O1TKNwtAAObfYIU4c0-PLjI,33114
+ccdfits-0.3.0.dist-info/LICENSE,sha256=XChsDEVIp9R9OFviS7W4sXtvknv2Fi10xWU49MjFe2g,1093
+ccdfits-0.3.0.dist-info/METADATA,sha256=I7dGcEjSjFRx0udTwObeL-EMeBKn01p0-Q4t3_cgmQg,2730
+ccdfits-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ccdfits-0.3.0.dist-info/top_level.txt,sha256=iL7Zp9BueYHeldKHOJZR-j_jJPIzFRV_qSLQ8g-S_xs,8
+ccdfits-0.3.0.dist-info/RECORD,,
