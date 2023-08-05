@@ -1,0 +1,439 @@
+@import url('base.css');
+
+:root {
+  --julynter-font-size1: var(--jp-ui-font-size1);
+  --julynter-title-font-size: var(--jp-ui-font-size0);
+  
+}
+
+.julynter-main-icon, .julynter-main-new-icon {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 20px;
+}
+
+.jp-Julynter-content {
+  flex: 1 1 auto;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: auto;
+  background-color: var(--jp-layout-color1);
+}
+
+.jp-Julynter-content .julynter-list-item {
+  display: flex;
+  flex-direction: row;
+  padding: 4px 12px;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.jp-Julynter-content .julynter-list-item:hover {
+  background: var(--jp-layout-color2);
+}
+
+.jp-Julynter {
+  display: flex;
+  flex-direction: column;
+  background: var(--jp-layout-color1);
+  color: var(--jp-ui-font-color1);
+  font-size: var(--julynter-title-font-size);
+  height: 100%;
+}
+
+.jp-Julynter header {
+  border-bottom: var(--jp-border-width) solid var(--jp-border-color2);
+  flex: 0 0 auto;
+  font-size: var(--julynter-title-font-size);
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0px;
+  padding: 12px 0 4px 12px;
+  text-transform: uppercase;
+}
+
+.julynter-title {
+  display: inline-block;
+}
+
+.julynter-title:hover {
+  cursor: pointer;
+}
+
+.jp-Julynter-kernel {
+  float: right;
+}
+
+.jp-Julynter-kernel span {
+  float: left;
+  margin: 0 3px;
+}
+
+.julynter-toolbar-icon,
+.julynter-toolbar-icon-selected {
+  float: left;
+  padding: 0px;
+  margin: 4px;
+  /*background-repeat: no-repeat;
+  background-color: none;
+  background-size: 100%;
+  background-position: center;*/
+  height: 24px;
+  width: 24px;
+  margin: 4px;
+  border-radius: 2px;
+}
+
+.julynter-icon {
+  float: left;
+  /*background-repeat: no-repeat;
+  background-color: none;
+  background-size: 100%;
+  background-position: center;*/
+  height: 12px;
+  width: 12px;
+  margin-right: 8px;
+}
+
+[data-jp-theme-light='true'] .julynter-toolbar-icon:hover {
+  background-color: var(--jp-input-background);
+}
+
+[data-jp-theme-light='false'] .julynter-toolbar-icon:hover {
+  background-color: #3a3a3a;
+}
+
+[data-jp-theme-light='true'] .julynter-toolbar-icon-selected {
+  background-color: var(--jp-layout-color2);
+}
+
+[data-jp-theme-light='false'] .julynter-toolbar-icon-selected {
+  background-color: #565656;
+}
+
+.julynter-toolbar-icon-selected:hover, .julynter-toolbar-icon:hover {
+  cursor: pointer;
+}
+
+.julynter-toolbar-icon-selected:hover, .julynter-toolbar-icon-with-text:hover {
+  cursor: pointer;
+}
+
+.julynter-toolbar-icon-with-text {
+  position: relative;
+}
+
+.julynter-toolbar-icon-text {
+  position: absolute;
+  right: 5px;
+  font-size: 8px;
+  bottom: -28px;
+}
+
+
+
+.julynter-toolbar {
+  position: relative;
+  width: 100%;
+  margin: 0px;
+  padding: 2px 0;
+  user-select: none;
+  border-bottom: var(--jp-border-width) solid var(--jp-border-color2);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.julynter-entry-holder {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+.julynter-collapse-button {
+  padding-left: 3px;
+  cursor: default;
+  min-width: 11px;
+  position: absolute;
+}
+
+.julynter-arrow-img {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.julynter-downarrow-img {
+  width: 12px;
+  height: 6px;
+}
+
+.julynter-rightarrow-img {
+  width: 7px;
+  height: 12px;
+}
+
+.julynter-twist-placeholder {
+  max-width: 10px;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.julynter-report-div {
+  display: inline-flex;
+  width: 100%;
+}
+
+.julynter-has-parent {
+  padding-left: 24px;
+}
+
+.julynter-normal-size {
+  font-size: var(--julynter-font-size1);
+}
+
+.julynter-title-size {
+  font-size: var(--julynter-font-size1);
+  font-weight: bold;
+}
+
+.julynter-report-prompt {
+  width: 100%;
+}
+
+
+.julynter-feedback {
+  display: none;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.julynter-report-prompt:hover .julynter-feedback {
+  display: flex;
+}
+
+.julynter-feedback-text {
+  flex: 1;
+  padding: 7px 0;
+}
+
+.julynter-feedback-buttons {
+  flex: 1;
+  display: flex;
+}
+
+.julynter-feedback-icon,
+.julynter-feedback-icon-selected {
+  float: left;
+  padding: 0px;
+  margin: 4px;
+  /*background-repeat: no-repeat;
+  background-color: none;
+  background-size: 100%;
+  background-position: center;*/
+  height: 24px;
+  width: 24px;
+  margin: 4px;
+  border-radius: 2px;
+}
+
+[data-jp-theme-light='true'] .julynter-feedback-icon:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+[data-jp-theme-light='false'] .julynter-feedback-icon:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+[data-jp-theme-light='true'] .julynter-feedback-icon-selected {
+  background-color: white !important
+}
+
+[data-jp-theme-light='false'] .julynter-feedback-icon-selected {
+  background-color: black !important;
+}
+
+.julynter-feedback-ul {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.julynter-feedback-textarea {
+  min-width: 400px;
+  width: 99%;
+  min-height: 200px;
+}
+
+
+.julynter-config {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  padding: 15px;
+  background: var(--jp-layout-color1);
+  color: var(--jp-ui-font-color1);
+  font-size: var(--julynter-font-size0);
+}
+
+.julynter-config-inner h1 {
+  margin: 0;
+}
+
+.julynter-config-notice {
+  margin-bottom: 15px;
+}
+
+.julynter-config-inner table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+.julynter-config-inner table td {
+  border: none;
+  vertical-align: middle;
+  padding: 0.5em 0.5em;
+  line-height: normal;
+  white-space: normal;
+}
+
+.julynter-config-inner table th {
+  border: none;
+  text-align: left;
+}
+
+.julynter-config-inner table tr {
+  border: none;
+  text-align: left;
+}
+
+
+.julynter-config-inner table, .julynter-config-inner tr {
+  width: 100%;
+}
+
+.julynter-config-inner tr td:nth-child(1), .julynter-config-inner tr th:nth-child(1) {
+  width: 5%;
+  text-align: center;
+}
+
+.julynter-config-inner tr td:nth-child(2), .julynter-config-inner tr th:nth-child(2) {
+  width: 5%;
+  text-align: center;
+}
+
+.julynter-config-inner tr td:nth-child(3) {
+  width: 40%;
+}
+
+.julynter-config-inner tr td:nth-child(4) {
+  width: 50%;
+}
+
+.julynter-config-inner thead {
+  border-bottom: var(--jp-border-width) solid var(--jp-border-color1);
+  vertical-align: bottom;
+}
+
+.julynter-config-inner tbody tr:nth-child(2n) {
+  background: var(--jp-rendermime-table-row-background);
+}
+
+.julynter-config-inner tbody tr:hover {
+  background: var(--jp-rendermime-table-row-hover-background);
+  cursor: pointer;
+}
+
+.julynter-config-select {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 1px;
+  background-color: var(--jp-layout-color1);
+  height: 28px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  width: 189px !important;
+
+}
+
+.julynter-config-select select {
+  color: var(--jp-ui-font-color0) !important;
+  border: var(--jp-border-width) solid var(--jp-border-color1) !important;
+
+  flex: 1 1 auto !important;
+  height: 32px !important;
+  width: 100% !important;
+  background: var(--jp-input-background) !important;
+  padding: 0 25px 0 8px !important;
+  border: var(--jp-border-width) solid var(--jp-input-border-color) !important;
+  border-radius: 0px !important;
+  outline: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  
+}
+
+.julynter-config-select select:hover {
+  background-color: var(--jp-layout-color1) !important;
+  cursor: pointer !important;
+  color: var(--jp-ui-font-color0) !important;
+  background-color: var(--jp-input-hover-background) !important;
+  box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.5) !important;
+}
+
+.julynter-config-group-head {
+  display: inline;
+}
+
+.julynter-config-group-head span {
+  margin-left: 20px;
+}
+
+.julynter-error-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 10px 0;
+}
+
+.julynter-context-info {
+  font-weight: bold;
+}
+
+.julynter-error-display:hover {
+  cursor: pointer !important;
+}
+
+.julynter-error-text {
+  min-width: 400px;
+  width: 99%;
+  min-height: 200px;
+}
+
+.julynter-cell-mod {
+  position: absolute;
+  left: 17px;
+  top: 12px;
+  z-index: 10;
+}
+
+.julynter-cell-mod:hover {
+  cursor: pointer !important;
+}
+
+.julynter-header-widget, .julynter-toolbar-widget {
+  overflow: initial !important;
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" height="14" width="14">
+  <g transform="matrix(0.62624337,0,0,0.58706846,-1.8325914,-0.9044806)" fill="#616161" class="jp-icon3">
+    <rect transform="matrix(0.22401213,0,0,0.94173272,4.4915057,4.077517)" y="5.0442429" x="4.392499" height="2.200757" width="19.215002" stroke-width="0.79880279"/>
+    <path d="M 5.4754788,10.259487 V 21.962493 H 7.5480036 V 10.259487 Z" stroke-width="0.60806131" />
+    <path d="m 17.591457,10.259487 v 11.703006 h 2.072526 V 10.259487 Z" stroke-width="0.60806131"/>
+    <rect transform="matrix(0.22401213,0,0,0.94173272,14.375617,4.077517)" y="5.0442429" x="4.392499" height="2.200757" width="19.215002" stroke-width="0.79880279"/>
+    <rect transform="matrix(0.7239584,0,0,0.94173272,2.3133063,15.139639)" y="5.0442429" x="4.392499" height="2.200757" width="19.215002" stroke-width="0.79880279" />
+    <rect transform="matrix(0.2442412,0,0,0.51108724,7.1795002,11.917483)" y="5.0442429" x="4.392499" height="2.200757" width="19.215002" stroke-width="0.79880279" />
+    <rect transform="matrix(0.2442412,0,0,0.51108724,7.1795002,13.612075)" y="5.0442429" x="4.392499" height="2.200757" width="19.215002" stroke-width="0.79880279" />
+    <rect transform="matrix(0.2442412,0,0,0.51108724,7.1795002,15.389099)" y="5.0442429" x="4.392499" height="2.200757" width="19.215002" stroke-width="0.79880279" />
+    <text x="17.478132" y="11.602592" font-family="sans-serif" font-weight="bold" font-size="12px" stroke-width="1.50995505" transform="scale(0.96821721,1.0328261)">
+      *
+    </text>
+    <rect transform="matrix(0.89158181,0,0,0.61650316,1.5259327,19.677232)" y="5.0442429" x="4.392499" height="2.200757" width="19.215002" stroke-width="0.79880279" />
+  </g>
+</svg>
