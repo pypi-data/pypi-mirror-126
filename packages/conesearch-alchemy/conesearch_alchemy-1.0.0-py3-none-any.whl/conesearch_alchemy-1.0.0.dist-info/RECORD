@@ -1,0 +1,13 @@
+conesearch_alchemy/__init__.py,sha256=6EG0KDxwirZS7mqsTjfexLfp0SllTXhWEsj0-Vophn4,47
+conesearch_alchemy/math.py,sha256=KWNKgjEAWaSm117K8ingBY7XdntxruFubtWaQwwIkQA,1088
+conesearch_alchemy/point.py,sha256=VlPdndTFhVsJDox4zP9S4MIfpcCrdnKuaIRZkADXfiM,2050
+conesearch_alchemy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conesearch_alchemy/tests/conftest.py,sha256=ZdElX_b114c-meRA5m-ZlCvMSYFg5oCGXV5bDa3WCeM,1465
+conesearch_alchemy/tests/test_math.py,sha256=7OvrsOqQExa0Q5xgKWhsaWBkPpQFSYonPJXR7EXGwuQ,878
+conesearch_alchemy/tests/test_point.py,sha256=3-voKSudH7NHnV2pLbI1lTpU9q661nOkqmSPAXUxh7c,5914
+conesearch_alchemy/tests/test_util.py,sha256=MbIXpMvOGE-aldxighvD2FHm7K_S_CU6M0BsIc52SPU,874
+conesearch_alchemy/util.py,sha256=ju0kD6GgpM6ipAnoDEBF3x7afatQC16mMJVJRQpgHe8,1485
+conesearch_alchemy-1.0.0.dist-info/LICENSE,sha256=NjKnfqkYs0NK-m1C-zR5uJMYKO-SrCs7vRfS_n2b6H4,1526
+conesearch_alchemy-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+conesearch_alchemy-1.0.0.dist-info/METADATA,sha256=k4gkgFKZ9EneADRcn-iwnK9ZHOxNzT_RiIQrCLP_RUE,2561
+conesearch_alchemy-1.0.0.dist-info/RECORD,,
