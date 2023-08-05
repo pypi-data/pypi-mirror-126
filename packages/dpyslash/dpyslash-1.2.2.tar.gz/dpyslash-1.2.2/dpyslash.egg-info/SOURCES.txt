@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+./pyslash/__init__.py
+./pyslash/client.py
+./pyslash/converters.py
+./pyslash/decorators.py
+./pyslash/utils.py
+dpyslash.egg-info/PKG-INFO
+dpyslash.egg-info/SOURCES.txt
+dpyslash.egg-info/dependency_links.txt
+dpyslash.egg-info/requires.txt
+dpyslash.egg-info/top_level.txt
