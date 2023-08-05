@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+oursolvers.egg-info/PKG-INFO
+oursolvers.egg-info/SOURCES.txt
+oursolvers.egg-info/dependency_links.txt
+oursolvers.egg-info/requires.txt
+oursolvers.egg-info/top_level.txt
+solvers/__init__.py
+solvers/wcvxopt.py
+tests/__init__.py
+tests/test_cvxopt_ilp.py
+utils/__init__.py
+utils/redirector.py
