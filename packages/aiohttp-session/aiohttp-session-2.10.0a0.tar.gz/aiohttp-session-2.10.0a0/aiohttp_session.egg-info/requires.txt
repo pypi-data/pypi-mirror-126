@@ -1,0 +1,19 @@
+aiohttp>=3.0.1
+
+[:python_version < "3.8"]
+typing_extensions>=3.7.4
+
+[aiomcache]
+aiomcache>=0.5.2
+
+[aioredis]
+aioredis>=1.0.0
+
+[pycrypto]
+cryptography
+
+[pynacl]
+pynacl
+
+[secure]
+cryptography
