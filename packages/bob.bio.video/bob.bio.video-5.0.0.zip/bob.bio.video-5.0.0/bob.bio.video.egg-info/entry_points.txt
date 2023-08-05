@@ -1,0 +1,10 @@
+[bob.bio.config]
+mobio = bob.bio.video.config.database.mobio
+video-wrapper = bob.bio.video.config.video_wrapper
+youtube = bob.bio.video.config.database.youtube
+
+[bob.bio.database]
+dummy-video = bob.bio.video.test.dummy.database:database
+mobio = bob.bio.video.config.database.mobio:database
+youtube = bob.bio.video.config.database.youtube:database
+
