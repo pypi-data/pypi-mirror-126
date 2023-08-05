@@ -1,0 +1,17 @@
+tpcp/__init__.py,sha256=iEXeE3frHFlvjmdhHcGx-5uN_cagAe6JThostuS8F-c,181
+tpcp/_base.py,sha256=HFp6wFxaxCEq4s3gK8DMxDRHMYwtiRJb5785Vga0fvk,11518
+tpcp/_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tpcp/_utils/_exceptions.py,sha256=4gzVgcqECorK7FDkbxo_tsRhthMLKshAkIVRszUH-b8,166
+tpcp/_utils/_general.py,sha256=CV_nzOorXTq3evJO8VUSfHfN4gDJ0hz_tUvQ0G-eo5M,5342
+tpcp/_utils/_score.py,sha256=UjWrGEmFgQeJs0-8ezw-d0NYmJ6p6NibXQtLcNvNwDM,11072
+tpcp/dataset.py,sha256=FvzuuUQxQHAIO6IxO4JqybSzOReQkXyr1gUB_v6MwEc,18999
+tpcp/optimize/__init__.py,sha256=qdzJ9ta7hNQgLyC6VgfBO38R91JIS3Y59ML8jvo1ri0,125
+tpcp/optimize/_optimize.py,sha256=62sVBSGWJ8SSvdxby-caCukStwUA1Fz-VkzLZmVoot8,33650
+tpcp/pipelines.py,sha256=oJ_vnhWcVtEqP5F_g_Xl5bMKLY6_-yuZk3rEkpdQSHo,5119
+tpcp/validation/__init__.py,sha256=BzvsOp7fdARnUkfc2vr8fnVUBpumjZ1f4E6fO3Ep7NI,138
+tpcp/validation/_scorer.py,sha256=pDpXdIt01Ed6DMZpOccSZ8eOK8c6Jh_FV5VNSs5fgj0,5308
+tpcp/validation/_validation.py,sha256=YUwk0NEFNLfuX6EwUSkHv2xAbh0SMpJTtNSyk8Q2Np8,6941
+tpcp-0.2.0a0.dist-info/LICENSE,sha256=gqFeHwRtfRHNWqYCpbBRB4uBH7J3bduvFMZ6PuYIQgM,1073
+tpcp-0.2.0a0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+tpcp-0.2.0a0.dist-info/METADATA,sha256=eFl07C7EXIkY31K89mA0xMdx-6i3B7WnazIEcNnOn0Y,520
+tpcp-0.2.0a0.dist-info/RECORD,,
