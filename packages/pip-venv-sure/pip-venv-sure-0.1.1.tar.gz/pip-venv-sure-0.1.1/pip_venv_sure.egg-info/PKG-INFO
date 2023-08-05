@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pip-venv-sure
+Version: 0.1.1
+Summary: A quick and easy way to make sure that you always install packages to virtualenv.
+Home-page: https://github.com/Adwaith-Rajesh/pip-venv-sure
+Author: Adwaith-Rajesh
+Author-email: adwaithrajesh3180@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pip Venv Sure
+
+Prevents the installation of packages into you base installation of python
+
+## usage and setup
+
+```commandline
+pip3 install pip-venv-sure
+alias pip3=pip-venv-sure
+```
+
+## motivation
+
+I don't like installing packages directly into my base installation. But as a mere human being I sometimes forget to activate my venv, so this prevent these kinds to accidents from happening.
+
+### installing packages to base installation.
+
+Some times there is a need to install package directly to the base installation of python in that case you can use the following command.
+
+```commandline
+pip3 install any-template --allow-no-venv
+```
+
+
