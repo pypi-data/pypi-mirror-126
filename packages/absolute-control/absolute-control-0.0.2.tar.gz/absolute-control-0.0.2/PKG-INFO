@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: absolute-control
+Version: 0.0.2
+Summary: Controls system processes
+Home-page: https://github.com/Absolute-Control/Absolute-Control
+Author: Johnathan Irvin
+Author-email: irvinjohnathan@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Absolute-Control/Absolute-Control/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Absolute Control
+
+A library for assisting with control of computer processes using python.
+
+
+
