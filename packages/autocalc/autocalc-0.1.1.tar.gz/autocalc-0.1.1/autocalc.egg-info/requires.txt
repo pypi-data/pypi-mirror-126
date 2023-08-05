@@ -1,0 +1,9 @@
+IPython
+ipywidgets
+
+[doc_build]
+sphinx
+sphinx-rtd-theme
+nbsphinx
+
+[test]
