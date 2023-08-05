@@ -1,0 +1,13 @@
+health_azure/__init__.py,sha256=Jyr3lWS7kWyOEqAMK1HgRdnm_OZ06-JQG1u5AZLVkLM,1453
+health_azure/datasets.py,sha256=sJchfAsbRHqqOTuXWozeVNXL8kCQu4l40q1kFQifwcY,9494
+health_azure/himl.py,sha256=xnrsNiZ9xJ1mWwKLMk1_osM-NnHwKfUjq6NMJeWBQYc,32093
+health_azure/himl_download.py,sha256=aslzMLCLu4UMxHt4PdvEKLAdI9keoKdnxViWP4RlOeg,4184
+health_azure/himl_tensorboard.py,sha256=a0o-SLE3aur1rApPZuz0klHJpOq7m7ti07YA3iEnFKY,5546
+health_azure/utils.py,sha256=KFN-_LZmcv2WamWkDUcZBg9e6vFOCS35sbQ_X9frbBM,60164
+health_azure/examples/elevate_this.py,sha256=G0D5NnoJWSu-lMHMW1pYN5hIewFDKd-pKFUAiTCb4So,1606
+hi_ml_azure-0.1.10.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+hi_ml_azure-0.1.10.dist-info/METADATA,sha256=rv9VVD_d2LfOaX8SykCU53Nm_u131ruZQRqeujpT_kI,1832
+hi_ml_azure-0.1.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hi_ml_azure-0.1.10.dist-info/entry_points.txt,sha256=_7V2ELVU8q2tc97c4uLmtlTnXg2qbBJAWybZZrwlRHY,112
+hi_ml_azure-0.1.10.dist-info/top_level.txt,sha256=6BGfK9ZMfGLB4LwYBbo_sYjPyfWgn4-OysKST87E3qM,13
+hi_ml_azure-0.1.10.dist-info/RECORD,,
