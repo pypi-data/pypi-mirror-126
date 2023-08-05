@@ -1,0 +1,166 @@
+Metadata-Version: 2.1
+Name: TSP-Framework
+Version: 0.74
+Summary: Framework para resolver el problema del vendedor viajero aplicando metaheristicas como Simulated Annealing y Genetic Algorithm
+Home-page: https://github.com/Javernaver/TSP-Framework
+Author: Javier del Canto, Jorge Polanco
+Author-email: javier.delcanto.m@mail.pucv.cl, jorge.polanco.sanmartin@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: Freeware
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >= 3.7
+
+# Framework para resolver TSP
+Framework para resolver el problema del vendedor viajero aplicando algoritmos metaheuristicos como el Simulated Annealing o Genetic Algorithm.
+
+**Ejecutar python (python3 en Linux) tspf.py + los argumentos a utilizar definidos**
+## Contenido
+* <b>cÃ³digo</b>: codigo en lenguaje Python en la carpeta src/ para ser preparado y distribuido como paquete Python
+
+* <b>instancias</b>: instancias en formato TSPlib en la carpeta instances/
+
+## DescripciÃ³n
+
+General
+
+* **TSPlibReader.py:** Modulo con la clase que implementa funciones para leer las instancias de TSP en el formato de la librerÃ­a de instancias TSPlib.
+
+* **TSP.py:** Modulo con la clase que representa la instancia de TSP. Contiene los siguientes mÃ©todos:
+
+	* **compute_tour_length:** Calcula el costo de un tour
+
+	* **tsp_check_tour:** Revisa si un tour es correcto
+
+	* **random_tour:** Genera un tour aleatorio
+
+	* **greedy_nearest_n:** Genera un tour utilizando la heurÃ­stica del vecino mÃ¡s cercano
+
+* **Tour.py:** Modulo con la clase que implementa una soluciÃ³n del TSP. El constructor de clase permite definir si la soluciÃ³n inicial es construÃ­da aleatoriamente, utilizando la heurÃ­stica del vecino mÃ¡s cercano o una soluciÃ³n secuencial. Contiene las siguientes variables y mÃ©todos:
+
+	* **current:** SoluciÃ³n del TSP que se representa con un arreglo de enteros de tamaÃ±o n+1, donde n son los nodos (ciudades) y la Ãºltima ciudad del tour corresponde siempre a la primera ciudad. 
+
+	* **cost:** Costo del tour de la soluciÃ³n
+
+	* **swap**: MÃ©todo que aplica el movimiento swap a dos nodos en el tour actual
+
+	* **twoOptSwap:** MÃ©todo que aplica el movimiento 2-opt a dos nodos en el tour actual
+
+	* **randomNeighbor:** MÃ©todo que aplica aleatoriamente a dos nodos el movimiento definido en move_type (TSPMove.TWO_OPT o TSPMove.SWAP)
+
+  
+* **Main.py:** Modulo principal que ejecuta el software
+ 
+
+* **AlgorithmsOptions.py:** Modulo con la clase que configura y lee todos los argumentos que puedan tener uno de los algoritmos a aplicar
+
+Algoritmos
+
+* **SimulatedAnnealing.py:** Modulo con la clase que implementa el mÃ©todo de bÃºsqueda de Simulated Annealing
+
+	* **search:** MÃ©todo que inicia la bÃºsqueda de Simulated Annealing comenzando de una soluciÃ³n inicial
+
+	* **terminationCondition:** MÃ©todo que revisa si la condiciÃ³n de tÃ©rmino (temperatura mÃ­nima, nÃºmero de evaluaciones o tiempo de ejecucion) se ha cumplido
+
+	* **getAcceptanceProbability:** MÃ©todo que calcula la probabilidad de aceptar una soluciÃ³n
+
+	* **reduceTemperature:** MÃ©todo que reduce el valor de la temperatura siguiendo un esquema de enfriamiento seleccionado
+
+* **GeneticAlgorithm.py:** Modulo con la clase que implementa el mÃ©todo de bÃºsqueda de Algoritmo Genetico
+
+	* **search:** MÃ©todo que inicia la bÃºsqueda comenzando de una poblacion inicial generada aleatoriamente
+
+	* **terminationCondition:** MÃ©todo que revisa si la condiciÃ³n de tÃ©rmino (nÃºmero de evaluaciones, iteraciones o tiempo de ejecucion) se ha cumplido
+
+* **Population.py:** Modulo con la clase que implementa todos los mÃ©todos para manipular las soluciones de la poblaciÃ³n de algoritmo genÃ©tico
+
+	* **mutation:** MÃ©todo que aplica un operador de mutaciÃ³n a la poblaciÃ³n
+
+	* **crossover:** MÃ©todo que aplica un operador de crossover a los padres proporcionados
+
+	* **selectParents:** MÃ©todo que selecciona dos padres aplicando un operador de selecciÃ³n
+
+	* **selectPopulation:** MÃ©todo que selecciona la poblaciÃ³n reduciendo su tamaÃ±o en base a un operador de selecciÃ³n
+  
+
+## Argumentos
+
+Las opciones de los algoritmos se pueden cambiar en la clase AlgorithmsOptions.py, sin embargo, al crear la clase se le pueden entregar definiciones de las variables a definir, como por ejemplo: "options = AlgorithmsOptions(seed=98849,...)". O bien, si se es ejecutado directamente desde la lÃ­nea de comando se le pueden pasar los siguientes argumentos:
+
+Argumentos Generales:
+  
+* **Metaheuristica:** Tipo de Metaherisitica a usar. Por defecto SA
+	* **SA:** Simulated Annealing 
+	* **GA:** Genetic Algorithm.
+	*  (-mh o --metaheuristic). **Ejemplo:** python tspf.py -mh SA
+
+* **Instancia:** Ruta al archivo de la instancia de TSP a resolver. Por defecto instances/burma14.tsp.
+	*  (-i o --instance **ruta**). **Ejemplo:** python tspf.py -i hola.tsp
+  
+* **Semilla**: Semilla para el generador de nÃºmeros aleatorios y todo los relacionado al modulo random de Python.
+	*  (-s o --seed **entero**). **Ejemplo:** python tspf.py -s 4854
+
+* **Movimiento:** Tipo de movimiento en formato TSPMove que se utilizarÃ¡ para la ejecuciÃ³n. Los valores posibles son TSPMove.SWAP y TSPMove.TWO_OPT. Por defecto se utiliza swap. 
+	* (-mhm o --move **[ swap | 2opt ]**). **Ejemplo:** python tspf.py --move 2opt
+	
+* **Evaluaciones:** NÃºmero mÃ¡ximo de funciones de evaluaciÃ³n calculadas. Por defecto se utiliza 1000
+	 * (-e o --evaluations **entero**). **Ejemplo:** python tspf.py -e 2000
+
+* **Iteraciones:** NÃºmero mÃ¡ximo de iteraciones para el ciclo principal de un algoritmo. Por defecto se utiliza 20
+	 * (-e o --evaluations **entero**). **Ejemplo:** python tspf.py -it 500
+	 
+Argumentos para Simulated Annealing:
+
+* **SoluciÃ³n Inicial:** Tipo de soluciÃ³n inicial en formato InitialSolution que se utilizarÃ¡. Los valores posibles son: InitialSolution.RANDOM, InitialSolution.NEAREST_N y InitialSolution.DETERMINISTIC. Por defecto se utiliza random. 
+	* (-is o --insol **[ random | nearest_n | deterministic ]**). **Ejemplo:** python tspf.py --insol deterministic
+
+* **Enfriamiento:** Variable del tipo CoolingType que indica el tipo de esquema de enfriamiento que se utilizarÃ¡ para la ejecuciÃ³n de Simulated Annealing. Los valores posibles son: CoolingType.GEOMETRIC, CoolingType.LOG y CoolingType.LINEAR. Por defecto se utiliza geometric.
+
+	* (-c o --cooling **[ linear | geometric | log ]**). **Ejemplo:** python tspf.py -c linear
+
+* **Alfa:** Valor del parÃ¡metro alpha para el enfriamiento lineal. Por defecto 0.98.
+
+	* (-a o --alpha **]0,1]**). **Ejemplo:** python tspf.py -a 0.3
+  
+
+* **Temperatura Inicial:** Valor de la temperatura inicial t0. Por defecto 1000.0. 
+	* (-t0 o --tini **]0,FLOAT_MAX]**). **Ejemplo:** python tspf.py -t0 956.45
+
+* **Temperatura MÃ­nima:** Valor de la temperatura mÃ­nima. Por defecto 900.0.
+	*  (-tmin o --tmin **]0,FLOAT_MAX]**). **Ejemplo:** python tspf.py -tmin 800.87
+
+Argumentos para Algoritmo GenÃ©tico:
+
+* **TamaÃ±o de la poblacion:** TamaÃ±o de la poblacion. Por defecto 10
+
+	* (-p o --psize **]0,INT_MAX]**). **Ejemplo:** python tspf.py -p 20
+
+* **Cantidad de hijos:** Cantidad de hijos a generar. Por defecto 20
+
+	* (-o o --osize **]0,INT_MAX]**). **Ejemplo:** python tspf.py -o 40
+
+* **SelecciÃ³n de padres:** Los valores posibles son: SelectionType.BEST, SelectionType.RANDOM, SelectionType.ROULETTE y SelectionType.TOURNAMENT. Por defecto random
+
+	* (-ps o --pselection **[ random | best | roulette | tournament ]**). **Ejemplo:** python tspf.py --pselection tournament
+
+* **Operador de cruzamiento:** Los valores posibles son: CrossoverType.OX, CrossoverType.PMX y CrossoverType.OPX. Por defecto ox
+
+	* (-cr o --crossover **[ ox | opx | pmx ]**). **Ejemplo:** python tspf.py --crossover opx
+
+* **Operador de mutaciÃ³n:** Los valores posibles son: MutationType.SWAP y MutationType.TWO_OPT. Por defecto swap 
+
+	* (-mu o --mutation **[ swap | 2opt ]**). **Ejemplo:** python tspf.py -mu 2opt
+
+* **Probabilidad de mutaciÃ³n:** Valor de probabilidad de mutaciÃ³n de los individuos. Por defecto 0.2.
+
+	* (-mp o --mprobability **[0,1]**). **Ejemplo:** python tspf.py -mp 0.3
+  
+* **SelecciÃ³n de poblaciÃ³n:** Los valores posibles son: SelectionType.BEST, SelectionType.RANDOM, SelectionType.ROULETTE y SelectionType.TOURNAMENT. Por defecto random
+
+	* (-gs o --gselection **[ random | best | roulette | tournament ]**). **Ejemplo:** python tspf.py --gselection tournament
+
+* **Estrategia de selecciÃ³n de poblaciÃ³n:** Los valores posibles son: SelectionStrategy.MULAMBDA y SelectionStrategy.MUPLUSLAMBDA.(-g [ mu,lambda | mu+lambda])
+
+	* (-g o --gstrategy **[ mu,lambda | mu+lambda ]**). **Ejemplo:** python tspf.py --gstrategy mu,lambda
+
+
