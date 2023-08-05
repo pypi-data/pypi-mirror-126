@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: tictactai
+Version: 1.0.8
+Summary: Play tic tac toe with an AI
+Home-page: https://github.com/donutboy929/tictactAI
+Author: Daniel Ng
+Author-email: dndanielng@gmail.com
+License: MIT
+Download-URL: https://github.com/donutboy929/tictactAI/archive/refs/tags/v1.0.tar.gz
+Keywords: tui,tictactoe,minimax
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tictactAI
+
+Play against a tic tac toe AI in the shell, implemented with the minimax algorithm.
+
+## Installation
+
+```
+pip install tictactai
+```
+
+## How to play
+
+Open a new terminal or cmd and run:
+```
+tictactai
+```
+
+Alternatively, to play against a friend:
+```
+tictactai --pvp
+```
+
+Start the game and make subsequent moves by clicking on an empty position on the board.
+
+Expanding the terminal/cmd window may be needed for optimal performance.
+
