@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+django_vite_simple.egg-info/PKG-INFO
+django_vite_simple.egg-info/SOURCES.txt
+django_vite_simple.egg-info/dependency_links.txt
+django_vite_simple.egg-info/requires.txt
+django_vite_simple.egg-info/top_level.txt
+vitejs/__init__.py
+vitejs/apps.py
+vitejs/templatetags/__init__.py
+vitejs/templatetags/vite.py
+vitejs/templatetags/__pycache__/__init__.cpython-39.pyc
+vitejs/templatetags/__pycache__/vite.cpython-39.pyc
