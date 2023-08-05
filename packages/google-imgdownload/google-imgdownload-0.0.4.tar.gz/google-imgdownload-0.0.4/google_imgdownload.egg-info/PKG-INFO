@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: google-imgdownload
+Version: 0.0.4
+Summary: Download Google image as Bulk.
+Home-page: https://github.com/srivas91/google-imgdownload.git
+Author: Srinivasan
+Author-email: srini.pit21@gmail.com
+License: MIT
+Description: this project about downloading google image
+Keywords: google image
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
