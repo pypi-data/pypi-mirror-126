@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vevestaX
+Version: 0.2.3
+Summary: Track failed and successful experiments as well as features
+Home-page: UNKNOWN
+Author: Priyanka
+Author-email: UNKNOWN
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: ipynbname
+Requires-Dist: datetime
+Requires-Dist: openpyxl
+Requires-Dist: xlrd
+
+UNKNOWN
+
+
