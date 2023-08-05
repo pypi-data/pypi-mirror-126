@@ -1,0 +1,17 @@
+stockwell/_version.py,sha256=6ZThrM4pHpWU9dnXHPmSXmO9TyrqeT3pqiiojrNAcLs,497
+stockwell/__init__.py,sha256=ADWx8rcRu6xxy1vL9aC2NgAI7YSVjNfi-lQ2jTVcfSU,207
+stockwell/tests/test_stockwell.py,sha256=v0C_cL_OVubAFjhmRC1RuS336oOsCQ2W-_64U7fX1Wo,665
+stockwell/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockwell/.dylibs/libfftw3.3.dylib,sha256=NKhCQhJ7rf9Ua8j_tfeQBsV8wX5N29FdoLVr1twV5TY,2852432
+stockwell/.dylibs/libgcc_s.1.dylib,sha256=H8ACNsDPxg9joWlorsWWtD1yzwuDv0y9BfWq0FH1Tss,188720
+stockwell/c_libs/stmodule.c,sha256=x6bsl5rnhJ37NseCVuoj1WVhO3hGfuXBFQOfKJdWaP4,4194
+stockwell/c_libs/st.c,sha256=931M7J1rfX0CforXjkfFv7u2OODGfqFTKeCTTzeEc4M,8194
+stockwell/c_libs/sinemodule.c,sha256=xAvVc6u4n7xu_BaLup6VJVh3ckHvxBgdGncNhl7UGVQ,2463
+stockwell/lib/st.cpython-38-darwin.so,sha256=mI7FehV78sgfnlY2Bpwbfm7-ml-X2MqsXdZ5_SdGAJc,57136
+stockwell/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockwell/lib/sine.cpython-38-darwin.so,sha256=qGc4QXwXo9axLiSGqjmk1yn3P80IEI3_JxaLWNicO9w,35264
+stockwell-1.0.4.dist-info/RECORD,,
+stockwell-1.0.4.dist-info/WHEEL,sha256=m4Wk6eOy92yJY87gVAkQnn-qnRb0vl_v2zsmx0hgXfo,109
+stockwell-1.0.4.dist-info/top_level.txt,sha256=3gtl9vn5edrQB9mJMSrf868Bc1ng57oQSw6LZwD6HKU,18
+stockwell-1.0.4.dist-info/LICENSE.txt,sha256=rWJoZt3vach8ZNdLq-Ee5djzCMFnJ1gIfBeJU5RIop4,21782
+stockwell-1.0.4.dist-info/METADATA,sha256=1R6VSaGAT-vg5b0Z3lBM0nHZi6gNIUiEIP4gTaNCET0,4433
