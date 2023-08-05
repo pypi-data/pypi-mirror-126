@@ -1,0 +1,23 @@
+routes:
+  # A route is the “name” you use to access endpoints, used in the URL:
+  # www.some_api.com/my_model/
+  my_model:
+    # Catalog reference to .pickle model
+    predictor: MLPredictor
+    # allowed types int, float, str, bool and enum
+    # parameters are used to create a single row pandas df
+    # make sure to declare in the same order as your model needs.
+    parameters:
+      feature_1:
+        # enum type requires options(numbers as options doenst work)
+        type: enum
+        options:
+          - some
+          - options
+          - here
+      feature_2:
+        type: int
+      feature_3:
+        type: float
+      feature_4:
+        type: bool
