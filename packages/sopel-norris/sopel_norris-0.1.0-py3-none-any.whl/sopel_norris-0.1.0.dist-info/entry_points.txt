@@ -1,0 +1,3 @@
+[sopel.plugins]
+norris = sopel_norris
+
