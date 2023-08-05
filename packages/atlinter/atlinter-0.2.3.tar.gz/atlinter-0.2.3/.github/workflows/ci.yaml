@@ -1,0 +1,64 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest commit
+        uses: actions/checkout@v2
+      - name: Set up python
+        uses: actions/setup-python@v2
+      - name: Set up pip cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: lint-${{ runner.os }}-${{ hashFiles('tox.ini') }}
+      - name: Install tox
+        run: python -m pip install tox
+      - name: Run linting
+        run: tox -e lint
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest commit
+        uses: actions/checkout@v2
+        with: {"fetch-depth": 0}  # fetch all history with version tags
+      - name: Set up python
+        uses: actions/setup-python@v2
+        with: {"python-version": "3.7"}
+      - name: Set up pip cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: unit-${{ runner.os }}-${{ hashFiles('setup.py') }}
+      - name: Set up the environment
+        run: |
+          # sudo apt-get update && sudo apt-get install -y python3-opencv
+          pip install -U pip setuptools wheel
+          pip install pytest pytest-cov
+      - name: Install atlinter
+        run: pip install ".[optical]"
+      - name: Run unit tests
+        run: pytest --color=yes --durations=5 -v -m "" --cov
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest commit
+        uses: actions/checkout@v2
+      - name: Set up python
+        uses: actions/setup-python@v2
+        with: {"python-version": "3.7"}
+      - name: Set up pip cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: docs-${{ runner.os }}-${{ hashFiles('setup.py') }}
+      - name: Install tox
+        run: pip install tox
+      - name: Check the API docs
+        run: tox -e apidoc-check
+      - name: Build and check the docs
+        run: tox -e docs
