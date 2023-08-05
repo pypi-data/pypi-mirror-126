@@ -1,0 +1,12 @@
+.gitignore,sha256=y4OnrjuOuhhyLpsafUd3HLgHi4kM1muEZqhLtiwHjUI,54
+LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+README.md,sha256=tCeLt_s0XSWMofL9zmBi-LCWBuba4HW0jQ3Naj2AsiQ,1041
+requirements.txt,sha256=XULE_soMHHb0PdBAJKDTTmG4vfwGxN7tdijUMjXart8,165
+sneaky/__init__.py,sha256=sjnxJox-Y1TFS4D3PRgSqgb1fFwJRlKuBjdNNCvdmm4,525
+sneaky/core.py,sha256=oB3x4quPzRDU4-EbOowFePubx0Qw1tNdcsjLoqxmZV0,6059
+sneaky/helper.py,sha256=K2Kad0cZrwW0exB4aQFC7APm55XjIZmOp9nL8ii-d3U,9608
+sneaky-0.1.0.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+sneaky-0.1.0.dist-info/METADATA,sha256=75d9oYmu7J-f0HkWQeNtUMhDFbZuAgvYtBT0NnZelSc,2394
+sneaky-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sneaky-0.1.0.dist-info/top_level.txt,sha256=Jzq5VlE8ZBD-JKLbtjYMBJ79IQ6NLyOFvXpKkHxFXUY,7
+sneaky-0.1.0.dist-info/RECORD,,
