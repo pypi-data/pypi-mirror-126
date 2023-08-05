@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: proces
+Version: 0.1.0
+Summary: text preprocess.
+Home-page: https://github.com/Ailln/proces
+Author: Ailln
+Author-email: kinggreenhall@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools (>=40.6.3)
+Requires-Dist: zhconv (==1.4.3)
+
+# Proces
+
+🐨 文本预处理。
+
+## 1 安装
+
+```bash
+pip install proces
+```
+
+## 2 使用
+
+```python
+from proces import preprocess
+
+result = preprocess("HI", ["uppercase_to_lowercase"])
+# hi
+```
+
+## 3 TODO
+
+- [ ] preprocess test
+
+## 4 许可
+
+[![](https://award.dovolopor.com?lt=License&rt=MIT&rbc=green)](./LICENSE)
+
+
