@@ -1,0 +1,7 @@
+numpy
+gastimator
+astropy
+matplotlib
+scipy
+jampy
+kinms
