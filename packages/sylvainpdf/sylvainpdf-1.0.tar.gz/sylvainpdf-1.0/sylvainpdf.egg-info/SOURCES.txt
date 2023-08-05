@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+SylvainPDF/__init__.py
+SylvainPDF/pdf2image.py
+SylvainPDF/pdf2text.py
+sylvainpdf.egg-info/PKG-INFO
+sylvainpdf.egg-info/SOURCES.txt
+sylvainpdf.egg-info/dependency_links.txt
+sylvainpdf.egg-info/top_level.txt
