@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+bin/qr.py
+src/netqr/__init__.py
+src/netqr/netqr.py
+src/netqr/py.typed
+src/netqr/util_log.py
+src/netqr.egg-info/PKG-INFO
+src/netqr.egg-info/SOURCES.txt
+src/netqr.egg-info/dependency_links.txt
+src/netqr.egg-info/top_level.txt
