@@ -1,0 +1,2 @@
+include helloworld/data/config/*
+include helloworld/data/images/*
