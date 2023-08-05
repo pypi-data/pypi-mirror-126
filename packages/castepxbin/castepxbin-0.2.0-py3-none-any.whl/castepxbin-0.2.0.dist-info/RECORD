@@ -1,0 +1,12 @@
+castepxbin/__init__.py,sha256=PIBJPxrSWRIVgLSWmuMaiq0j0NgF5UYBgm3PCEfC9gk,145
+castepxbin/castep_bin.py,sha256=OdE2zAfuxaZaoSb9bgPu9FVp_GeOXzfTGVVWcJ_Sx1c,27681
+castepxbin/cst_esp.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+castepxbin/elf.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+castepxbin/ome_bin.py,sha256=zcXC23mPWmtv9LibS-v016ssZVWe27ASt-0MKFFtymQ,4976
+castepxbin/pdos.py,sha256=2bLYdrE3ueThI0YAOlqiK0ThOfTJnyy3zUnlhhWDrok,10810
+castepxbin/test_reader.py,sha256=lqjLTG7q7WwqhZRlHVXd2ol6JuoTyGqZ2m6Kq0mRGnA,7312
+castepxbin-0.2.0.dist-info/LICENSE,sha256=zi--ZTqTk9-YfqDtfACapX1FECCZa6LJDifb1rS3WzA,1066
+castepxbin-0.2.0.dist-info/METADATA,sha256=8KsWJ1ZtZkWHyZyI4Ve9lJphzcDF0ATrcPmmA3AWsy0,5496
+castepxbin-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+castepxbin-0.2.0.dist-info/top_level.txt,sha256=Hh3SNiipiKUVYWDIHkGv8V29qhgoTUGylqkTgkYwFC4,11
+castepxbin-0.2.0.dist-info/RECORD,,
