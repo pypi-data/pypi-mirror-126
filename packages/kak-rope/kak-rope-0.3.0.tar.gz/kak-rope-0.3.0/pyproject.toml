@@ -1,0 +1,48 @@
+[tool.isort]
+profile = "black"
+
+[tool.poetry]
+name = "kak-rope"
+version = "0.3.0"
+description = "Python refactoring actions for kakoune"
+authors = ["Dimitri Merejkowsky <dimitri@dmerej.info>"]
+readme = "README.md"
+license = "BSD-3-Clause"
+repository = "https://git.sr.ht/~dmerej/kak-rope"
+
+[tool.poetry.urls]
+Issues = "https://todo.sr.ht/~dmerej/kak-rope"
+Changelog = "https://git.sr.ht/~dmerej/kak-rope/tree/main/item/CHANGELOG.md"
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+
+rope = "^0.19.0"
+
+[tool.poetry.dev-dependencies]
+# Task runner
+invoke = "^1.5.0"
+
+# Linters
+black = "21.5b0"
+flake8 = "3.9.2"
+flake8-comprehensions = "^3.4.0"
+flake8-bugbear = "^21.4.3"
+pep8-naming = "^0.11.1"
+isort = "^5.6.4"
+mypy = "^0.910"
+
+# Tests
+pytest = "^6.2"
+pytest-xdist = "^2.3.0"
+
+# Deps scanning
+safety = "^1.9.0"
+
+[tool.poetry.scripts]
+
+kak-rope = "kak_rope:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
