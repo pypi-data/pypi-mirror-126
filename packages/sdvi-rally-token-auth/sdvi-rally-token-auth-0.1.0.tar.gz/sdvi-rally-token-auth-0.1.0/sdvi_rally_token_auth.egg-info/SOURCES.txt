@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+rally_token_auth/__init__.py
+rally_token_auth/token_auth.py
+sdvi_rally_token_auth.egg-info/PKG-INFO
+sdvi_rally_token_auth.egg-info/SOURCES.txt
+sdvi_rally_token_auth.egg-info/dependency_links.txt
+sdvi_rally_token_auth.egg-info/requires.txt
+sdvi_rally_token_auth.egg-info/top_level.txt

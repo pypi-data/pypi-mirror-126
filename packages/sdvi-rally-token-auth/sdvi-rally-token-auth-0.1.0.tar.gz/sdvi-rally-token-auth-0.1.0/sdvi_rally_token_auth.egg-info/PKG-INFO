@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: sdvi-rally-token-auth
+Version: 0.1.0
+Summary: The Rally Token Auth Library
+Home-page: UNKNOWN
+Author: SDVI Corp
+License: Proprietary
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SDVI Decision Engine Rally Request Auth Module
+
+A collection of classes and functions for interacting with SDVI REST API.
+
+Refer to documentation found in your Rally Silo.
+
+## v0.1.0 -- to release 26 Oct 2021
+
+### Initial Release
+
+- `RallyRequestAuth` class provides an auth object that can be used by a 
+[Requests library](https://docs.python-requests.org/en/latest/) `request`.
+
+
