@@ -1,0 +1,3 @@
+[console_scripts]
+mock-talk = mocktalk.cli:cli
+

@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+mocktalk/__init__.py
+mocktalk/__main__.py
+mocktalk/cli.py
+mocktalk/ssh_server.py
+mocktalk/telnet_server.py
+mocktalk.egg-info/PKG-INFO
+mocktalk.egg-info/SOURCES.txt
+mocktalk.egg-info/dependency_links.txt
+mocktalk.egg-info/entry_points.txt
+mocktalk.egg-info/requires.txt
+mocktalk.egg-info/top_level.txt
