@@ -1,0 +1,15 @@
+reisen.py,sha256=GqVXvw1Q9vwKE2OujX5bOed2AWBrD3xTo3hMWgoIugU,599
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/newAnimeEpisodes.py,sha256=Y3iX25pLMOqmz_pYOg7oSxDZsgfW1fmirKWCV9kyC7w,6676
+generate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generate/commands.py,sha256=JKyeZBjImSAG3P-eJiBvZcQowsA3Rsyk09ArK1zVGwc,3300
+generate/reisen_exec.py,sha256=gAh3o167zEOKUGP_Bg_z_YQZ5o2eh5nOcaOAXQ_rdtQ,3416
+organize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+organize/commands.py,sha256=YSWKEorWAqW0BRAt56pa5bDPAVrMRbbK-l_d3YW4dRc,4865
+Reisen-0.3.8.dist-info/LICENSE,sha256=BcZMy7Y05Arlijxit6YA5EUYV0c0LrNNi_Yqc5Li6oU,1085
+Reisen-0.3.8.dist-info/METADATA,sha256=rqYZ94Y-Iad03bO0W9iFbqBauxDqpil3F3n1gkRrzXw,620
+Reisen-0.3.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Reisen-0.3.8.dist-info/entry_points.txt,sha256=j7zp0eAGpsVZL6ylE9h_b8pbbjkiWtJlAWqmdHSlxTE,39
+Reisen-0.3.8.dist-info/top_level.txt,sha256=vX-bW2tXfHUGljbIklAjAnJIzMz7a7-JZvn9erVfsA0,29
+Reisen-0.3.8.dist-info/RECORD,,
