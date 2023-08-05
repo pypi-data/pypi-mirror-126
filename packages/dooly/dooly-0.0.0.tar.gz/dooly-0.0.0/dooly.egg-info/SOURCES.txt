@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dooly/__init__.py
+dooly/__version__.py
+dooly/loopy.py
+dooly.egg-info/PKG-INFO
+dooly.egg-info/SOURCES.txt
+dooly.egg-info/dependency_links.txt
+dooly.egg-info/not-zip-safe
+dooly.egg-info/requires.txt
+dooly.egg-info/top_level.txt
+dooly/tasks/__init__.py
