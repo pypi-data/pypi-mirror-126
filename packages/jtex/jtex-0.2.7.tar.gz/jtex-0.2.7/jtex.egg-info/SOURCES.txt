@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+jtek/__init__.py
+jtek/version.py
+jtex.egg-info/PKG-INFO
+jtex.egg-info/SOURCES.txt
+jtex.egg-info/dependency_links.txt
+jtex.egg-info/entry_points.txt
+jtex.egg-info/requires.txt
+jtex.egg-info/top_level.txt
