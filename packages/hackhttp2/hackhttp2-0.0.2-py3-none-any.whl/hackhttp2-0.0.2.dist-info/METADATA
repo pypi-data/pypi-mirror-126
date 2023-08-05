@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hackhttp2
+Version: 0.0.2
+Summary: A small example package
+Home-page: https://www.baidu.com
+Author: ybw
+Author-email: 2756456886@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# hello it's hackhttp
+
+
