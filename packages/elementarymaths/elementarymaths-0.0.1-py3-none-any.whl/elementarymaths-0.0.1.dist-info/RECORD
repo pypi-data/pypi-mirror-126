@@ -1,0 +1,10 @@
+elementarymaths/__init__.py,sha256=45YiLbBHs_xJmkub7BsUAot5LDF5dTAm4hXWkcAaiCs,56
+elementarymaths/add.py,sha256=Zpdw6hbeyJeCDonsok74ajhIxTl_3AtKxg4vgPYda7E,31
+elementarymaths/subtract.py,sha256=BobH8csRoKV8AOBkATpPpOxOG5SsqwBMhopxI1xFFfY,36
+elementarymaths/extras/__init__.py,sha256=zPS2b2-6MrY9asSroqGchrVW3EzfRpp5XUlwyWTNxAM,62
+elementarymaths/extras/divide.py,sha256=Ip8jsg3G-MbS71b_gruJa0_uBxFKEMkqSdktGp2gJP8,34
+elementarymaths/extras/multiply.py,sha256=83JvwGLdLAyFHva4wURViCoLb0pZbYyAsKL-orNTrB8,36
+elementarymaths-0.0.1.dist-info/METADATA,sha256=au49Iwuo4MczOst7d2HqEnySYgmn6LYzXh7qROcML8E,588
+elementarymaths-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+elementarymaths-0.0.1.dist-info/top_level.txt,sha256=5BCALS1InS_9P1HxG-OODt2_DRJ71Cp4ILs7o-2Gk3I,16
+elementarymaths-0.0.1.dist-info/RECORD,,
