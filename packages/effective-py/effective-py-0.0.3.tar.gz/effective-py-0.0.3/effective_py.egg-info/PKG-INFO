@@ -1,0 +1,28 @@
+Metadata-Version: 1.2
+Name: effective-py
+Version: 0.0.3
+Summary: Extension for Python simulate other program language
+Home-page: https://github.com/mikezone/effective-py
+Author: mike_chang
+Author-email: 82643885@qq.com
+Maintainer: mike_chang
+Maintainer-email: 82643885@qq.com
+License: MIT
+Project-URL: Documentation, https://github.com/mikezone/effective-py
+Project-URL: Code, https://github.com/mikezone/effective-py
+Project-URL: Issue tracker, https://github.com/mikezone/effective-py/issues
+Description: effective-py
+        ====================
+        
+        effective-py is an extension for Python simulate other program language.
+        
+        * development version: https://github.com/mikezone/effective-py
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7,>=3.7
