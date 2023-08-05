@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: amino.fix-async
+Version: 1.0.0
+Summary: Amino 2.0.3 fix lib. Discord - https://discord.gg/Bf3dpBRJHj
+Home-page: https://github.com/Minori100/Amino.fix-async
+Author: Minori
+Author-email: 
+License: MIT
+Description: ### Discord
+        `https://discord.gg/Bf3dpBRJHj`
+        ### About lib
+        `Fix Amino.py 2.0.3`
+        ### How to install?
+        `pip install amino.fix-async`
+        
+Keywords: aminoapps,amino.fix-async,amino,amino-bot,narvii,api,python,python3,python3.x,minori
+Platform: UNKNOWN
+Requires-Python: >=3.6
