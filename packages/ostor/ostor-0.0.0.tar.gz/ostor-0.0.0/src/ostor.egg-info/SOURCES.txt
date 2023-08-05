@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/ostor.egg-info/PKG-INFO
+src/ostor.egg-info/SOURCES.txt
+src/ostor.egg-info/dependency_links.txt
+src/ostor.egg-info/not-zip-safe
+src/ostor.egg-info/requires.txt
+src/ostor.egg-info/top_level.txt
