@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/gbt_rfi_gui.egg-info/PKG-INFO
+src/gbt_rfi_gui.egg-info/SOURCES.txt
+src/gbt_rfi_gui.egg-info/dependency_links.txt
+src/gbt_rfi_gui.egg-info/entry_points.txt
+src/gbt_rfi_gui.egg-info/requires.txt
+src/gbt_rfi_gui.egg-info/top_level.txt
