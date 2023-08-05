@@ -1,0 +1,12 @@
+cratergan/__init__.py,sha256=4M3uFYHHpX7eHh7Jd7edcZthB9fER2L8WxywTaUT6uQ,93
+cratergan/__main__.py,sha256=gI2vjhQEfrWl4-SH-vy2nDaTxsrBSHvI5Q5pUCYEmGo,998
+cratergan/gan.py,sha256=ZU8x7JcHxDKxPL6gIoxss7Qm8N9xbuJSbHrfeCNhmac,3764
+cratergan/module/__init__.py,sha256=ICGpBZI5AtxHPRb0d-WQJgsuv7pLfEa84uuAEP0pwJE,85
+cratergan/module/crater.py,sha256=iZpqABj5Hz8Az1KodKnzGycNHTEzv2LtvUfFDGVWBmw,2233
+cratergan/module/discriminator.py,sha256=uEkcrQ3M0lJ16HdNNM4jaURqb3NSjG0QqP9Ee_7f3Qg,555
+cratergan/module/generator.py,sha256=RgD5B7UBLhPqvU7y6d5E9IPCtq29f-0r_YuFrWAZEG0,854
+cratergan-0.1.1.dist-info/LICENSE,sha256=k6qRLGykRqIoBpVDeEu6BhSyA0apxdaUrIuMMCKXUn8,1071
+cratergan-0.1.1.dist-info/METADATA,sha256=8tXCyICAkeKF98XuO4iMsr7rO7a8J8YcaLJ-7wywHP4,582
+cratergan-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cratergan-0.1.1.dist-info/top_level.txt,sha256=poNmkOj_l0T_cvDmqclRXCRAmF3jFXlWw7hSvE8DGX4,10
+cratergan-0.1.1.dist-info/RECORD,,
