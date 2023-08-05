@@ -1,0 +1,9 @@
+fast_overlap/__init__.py,sha256=mITykWDqQtTVeIPmJXdZcLCQb_x2b0k9haI0QBt_R90,214
+fast_overlap/_engine.cp39-win_amd64.pyd,sha256=1gEadsAVdTTRm2hiZtBKx_3R13wwi3vUX8Yn05pOvAg,269312
+fast_overlap/_version.py,sha256=5p46TCmLYaEZKQRfRQGEziIQdGY_HroyhGgjKFIb6Xk,147
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_overlap.py,sha256=xGtN9QfKm9FD3-Og6_GZcLII3fYi6ZcfOwKJSiLGJQg,731
+fast_overlap-0.4.1.dist-info/METADATA,sha256=VnGFwEtLXNSKN1_MLBqCNEdjSJ9V9NV6pZ6_sU4rBHY,1254
+fast_overlap-0.4.1.dist-info/WHEEL,sha256=MRZ_p7RU4olp1XL4U2EYLkuYikriaVRqXBoKVLH_OSE,100
+fast_overlap-0.4.1.dist-info/top_level.txt,sha256=IQuQQc3wzN2F5Dt_EIKFVmLk7ASvM1T27AQU58rt5cs,19
+fast_overlap-0.4.1.dist-info/RECORD,,
