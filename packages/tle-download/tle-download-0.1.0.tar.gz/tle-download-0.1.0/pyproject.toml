@@ -1,0 +1,30 @@
+[project]
+name = "tle-download"
+version = "0.1.0"
+description = "A small utility to download TLEs from Space Track."
+dependencies = [ "httpx~=0.20", "typer~=0.4",]
+requires-python = ">=3.7"
+dynamic = [ "classifiers", "version",]
+readme = "README.md"
+[[project.authors]]
+name = "Cognitive Space"
+email = "paul@cognitivespace.com"
+
+[build-system]
+requires = [ "pdm-pep517",]
+build-backend = "pdm.pep517.api"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/cognitive-space/tle-download"
+
+[project.scripts]
+tledl = "tle_download.main:cli"
+
+[tool.pdm.scripts]
+publish = "pdm publish --username pizzapanther"
+
+[tool.pdm.scripts._]
+env_file = ".env"
