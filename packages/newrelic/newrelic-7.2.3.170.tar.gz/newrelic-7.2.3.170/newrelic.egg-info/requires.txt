@@ -1,0 +1,4 @@
+
+[infinite-tracing]
+grpcio<1.40
+protobuf<4
