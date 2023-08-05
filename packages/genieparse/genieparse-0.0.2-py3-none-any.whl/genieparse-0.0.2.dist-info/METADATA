@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: genieparse
+Version: 0.0.2
+Summary: A wrapper to the genie parsers
+Home-page: https://github.com/maercu/genieparse
+Author: Marcel Zehnder
+Author-email: me@maercu.ch
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/maercu/genieparse/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## genieparse
+
+### About
+A simple wrapper to the [genie parsers](https://pubhub.devnetcloud.com/media/genie-feature-browser/docs/#/parsers), based on the code from [ckay584](https://github.com/clay584/parse_genie).
+
+
+
