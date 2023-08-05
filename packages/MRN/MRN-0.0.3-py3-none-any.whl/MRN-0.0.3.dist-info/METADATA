@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: MRN
+Version: 0.0.3
+Summary: Library used to Normalize numerical time-series data
+Home-page: UNKNOWN
+Author: Philip Pankaj
+Author-email: <philip.pankaj@gmail.com>
+License: UNKNOWN
+Requires-Dist: numpy
+
+
+# Memory Retention Normalization - MRN
+
