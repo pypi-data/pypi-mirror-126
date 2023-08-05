@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pymarketwatch
+Version: 1.0.1
+Summary: API to interact with MarketWatch's Stock Market Game API
+Home-page: https://github.com/bwees/pymarketwatch
+Author: bwees
+Author-email: brandonwees@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pymarketwatch
+A Python libary to interact with the MarketWatch Stock Market Game
+Based on code from https://github.com/kevindong/MarketWatch_API/
+
+### Example
+See `example.py` for usage of the library. Make a `creds.txt` file with the following structure to use the example. The game name can be found in the game URL: `https://www.marketwatch.com/game/<game name>`
+
+```
+email=<email address>
+password=<password>
+game=<game name>
+```
+
+
