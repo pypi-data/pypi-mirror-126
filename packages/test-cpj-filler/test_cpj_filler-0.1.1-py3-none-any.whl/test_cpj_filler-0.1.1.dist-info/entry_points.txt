@@ -1,0 +1,3 @@
+[console_scripts]
+test-cpj-filler = src.filler:main
+
