@@ -1,0 +1,10 @@
+fastclasses_json/__init__.py,sha256=qouyW3lL9xuYZS2zvQp49p39-So2L4ZG2AqRye1bczg,103
+fastclasses_json/api.py,sha256=2VtsrBxw4UX6bmQ20NsBRTaxFEMTB6ZVv_vetWbnVJM,477
+fastclasses_json/core.py,sha256=G4g4kapHS7x6hyeKZAhKK-OPMC8W8DH0LqU5z7KA4w0,12386
+fastclasses_json/mypy_plugin.py,sha256=gu0Pj7fVRmO9m5EfFbSMcGiVUjVNy6BqiTqe6DEgyB8,4716
+fastclasses_json/utils.py,sha256=LZWms_MkYktqadEHlL8Llk823qdFcMRH0BDoKNGoSKk,142
+fastclasses_json-0.2.2.dist-info/LICENSE.txt,sha256=Lf3IKOotscgyzFp-Y9nlCJBX8CAoj-fq-L7e4P6eKBg,1071
+fastclasses_json-0.2.2.dist-info/METADATA,sha256=5d9Kx_GaTqWOSKjKR2vOIAypUGwOk8omiYgDrE9s_QU,7900
+fastclasses_json-0.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fastclasses_json-0.2.2.dist-info/top_level.txt,sha256=sBAZ7gnRxSHytUsbwqBlqdGqVo_lj6GXGwIvNrRGvmc,17
+fastclasses_json-0.2.2.dist-info/RECORD,,
