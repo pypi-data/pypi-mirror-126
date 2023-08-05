@@ -1,0 +1,8 @@
+msteams/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msteams/plugin.py,sha256=Vp7Ny_PPrC0RpU0MHxni60wNmtlDS1gJxccnrJ6u7FQ,5136
+sentry_msteams_plugin-0.1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+sentry_msteams_plugin-0.1.0.dist-info/METADATA,sha256=h6xTQQTvXKCWKPDsl-D37KL116TJ7r5t2JWvKc5stts,2461
+sentry_msteams_plugin-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sentry_msteams_plugin-0.1.0.dist-info/entry_points.txt,sha256=gfebax7J3hbLoQc8DCnYX7IDK_29UOqg1Wn77hde_Rg,88
+sentry_msteams_plugin-0.1.0.dist-info/top_level.txt,sha256=Del1pQiMykGwblwkJEmk36MWFYZTVsDKT3lgOaaqvh8,8
+sentry_msteams_plugin-0.1.0.dist-info/RECORD,,
