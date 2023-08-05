@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: helloworldreadfromfile
+Version: 0.0.1
+Summary: Simple library that knows how to read a txt given a file path
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Freeware
+License-File: LICENSE.txt
+
+UNKNOWN
+

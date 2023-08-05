@@ -1,0 +1,6 @@
+LICENSE.txt
+setup.py
+src/helloworldreadfromfile.egg-info/PKG-INFO
+src/helloworldreadfromfile.egg-info/SOURCES.txt
+src/helloworldreadfromfile.egg-info/dependency_links.txt
+src/helloworldreadfromfile.egg-info/top_level.txt
