@@ -1,0 +1,3 @@
+[console_scripts]
+palom-svs=palom.cli.svs:main
+
