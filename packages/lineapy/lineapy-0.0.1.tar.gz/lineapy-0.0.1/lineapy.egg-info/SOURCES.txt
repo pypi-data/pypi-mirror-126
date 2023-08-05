@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+lineapy.egg-info/PKG-INFO
+lineapy.egg-info/SOURCES.txt
+lineapy.egg-info/dependency_links.txt
+lineapy.egg-info/top_level.txt
