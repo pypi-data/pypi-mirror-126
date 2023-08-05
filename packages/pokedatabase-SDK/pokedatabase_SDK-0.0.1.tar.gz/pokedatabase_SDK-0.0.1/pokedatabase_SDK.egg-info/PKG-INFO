@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: pokedatabase-SDK
+Version: 0.0.1
+Summary: Pokemon information SDK
+Home-page: https://github.com/AlonsoMartinToledano/pokedatabase_sdk
+Author: Alonso Martin-Toledano
+Author-email: alonsomtgm@gmail.com
+License: MIT
+Keywords: pokemon,APIRest,SDK
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# pokedatabase_sdk
+
+
+Acquisition of data from Pokemon games through asynchronous requests to [PokeAPI](https://pokeapi.co/).
+
+Library with three options:
+- Request for pokemon names: shows all the pokemon names and store them in a list
+- Request for pokemon games names: shows all the pokemon game names and store them in a list
+- Check requests lists: checks if there is data in the two different lists
+
+Can be used as follows:
+
+```py
+import pokeDatabaseSDK as pdb
+```
+
+Being able to access its functions in the following way:
+
+```py
+pdb.pokemonNames()
+```
+
+```py
+pdb.gameNames()
+```
+
+```py
+pdb.requestsList()
+```
+
+Copyright 2021 Alonso Martin-Toledano
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Change Log
+==================
+
+0.0.1 (04/11/2021)
+------------------
+- First Release
+
