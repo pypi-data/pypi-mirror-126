@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sigbox
+Version: 0.1a0
+Summary: Signal/slot pattern implementation
+Home-page: https://github.com/ok65/sigbox
+Author: Oliver
+Author-email: mail.ok65@googlemail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sigbox
+### Introduction
+Yet another simple, pythonic signal/slot pattern implementation.
+
+### Usage
+...
+

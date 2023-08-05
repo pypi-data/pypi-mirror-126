@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+sigbox/__init__.py
+sigbox/global_signal_box.py
+sigbox/sigbox.py
+sigbox/signal.py
+sigbox/signal_box.py
+sigbox/signal_data.py
+sigbox/signal_decorator.py
+sigbox.egg-info/PKG-INFO
+sigbox.egg-info/SOURCES.txt
+sigbox.egg-info/dependency_links.txt
+sigbox.egg-info/top_level.txt
