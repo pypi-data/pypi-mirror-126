@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: PythonDebuggerTools
+Version: 0.0.14
+Summary: A collection of useful debugging tools
+Home-page: https://github.com/Luna-Cake/Logger
+Author: Aakash Haran
+Author-email: aakash.haran01@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Luna-Cake/Logger
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PythonDebuggerTools
+
+This is a collection of useful debugging tools to make your python development process faster.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install PythonDebuggerTools-0.0.13
+
+```bash
+python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps PythonDebuggerTools==[latest-version]
+```
+
+## Usage
+
+```py
+from PythonDebuggerTools.logger import logger
+
+@logger(important_params=['x', 'y'])
+def add(x, y):
+    return x + y
+```
+
+## Key-word arguments
+* **important_params**
+  * a python list of paramaters to print in the standard output
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
