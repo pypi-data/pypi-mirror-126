@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: mltrics
+Version: 0.1.0
+Summary: Monitor ML models in production
+Home-page: https://github.com/mltrics-ai/mltrics
+Author: Deshraj Yadav
+Author-email: deshraj.yadav@mltrics.ai
+License: UNKNOWN
+Description: =======
+        Mltrics
+        =======
+        
+        .. image:: https://pyup.io/repos/github/deshraj/mltrics/shield.svg
+             :target: https://pyup.io/repos/github/deshraj/mltrics/
+             :alt: Updates
+        
+        
+        
+        Monitor ML models in production
+        
+        
+        Installation
+        --------
+        
+        1. Install ruby on mac:
+        ```bash
+        brew install ruby
+        ```
+        
+        2. Check installation using the command:
+        ```bash
+        ruby -v
+        ```
+        
+        3. Install travis for deployment:
+        ```bash
+        gem install travis --no-document
+        ```
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+Keywords: mltrics
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
