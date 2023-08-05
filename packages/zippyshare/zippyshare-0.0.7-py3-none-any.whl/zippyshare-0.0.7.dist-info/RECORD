@@ -1,0 +1,12 @@
+.gitignore,sha256=y4OnrjuOuhhyLpsafUd3HLgHi4kM1muEZqhLtiwHjUI,54
+LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+README.md,sha256=kE4QZjgwNar6GXTNm8WFZhjCFwPJj3oGSe2CJ29aOIM,730
+requirements.txt,sha256=mxIIK6txEfEF9LyS91Fer4CpO2z7k3yyEh8CkLJalms,63
+zippyshare/__init__.py,sha256=MFUjxFwde89Pzmz-Cs_DrQh0x660-skPNQxzmqE-urI,392
+zippyshare/core.py,sha256=JySEmVsBGPfvAM1V0Jfo0Z-lyZM25kTmVY-C80HMJtk,4070
+zippyshare/utils.py,sha256=w5T3Zprznzx4rvHU7CMFy3FRSljgNCwthV917L0I1Ek,4015
+zippyshare-0.0.7.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+zippyshare-0.0.7.dist-info/METADATA,sha256=LXmtP2GM9qlxP84evq55Npgo_GX17N8vAwchfbWhCKM,1537
+zippyshare-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zippyshare-0.0.7.dist-info/top_level.txt,sha256=ZRqXbLsa0vCUt8uIpyjv_dicIWCvcjZMYSpIOPfE978,11
+zippyshare-0.0.7.dist-info/RECORD,,
