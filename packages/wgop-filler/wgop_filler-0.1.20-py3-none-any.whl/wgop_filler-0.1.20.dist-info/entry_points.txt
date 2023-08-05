@@ -1,0 +1,3 @@
+[console_scripts]
+wgop_filler = wgop_filler.main:main
+
