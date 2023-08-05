@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/hyperplane.egg-info/PKG-INFO
+src/hyperplane.egg-info/SOURCES.txt
+src/hyperplane.egg-info/dependency_links.txt
+src/hyperplane.egg-info/requires.txt
+src/hyperplane.egg-info/top_level.txt
