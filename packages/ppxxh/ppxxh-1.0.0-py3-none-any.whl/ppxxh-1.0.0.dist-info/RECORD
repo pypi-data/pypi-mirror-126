@@ -1,0 +1,11 @@
+ppxxh/__init__.py,sha256=0AXhbw8uUHy30BDMS7ASLn39sskj46x9jKGIZIaLBKc,2032
+ppxxh/_top.py,sha256=BvR3CABSAYP_s4n6CaGaHfDuwPWltkKXk6CBOsPlaRE,2356
+ppxxh/_xxh32.py,sha256=BfDjsHJrSnqp3MAG0TDzeSD5YmmjOYMfcr9sDxMmliI,7484
+ppxxh/_xxh3_128.py,sha256=rEYwUivhFows-IiS3Q_T2YRU1ygSulKovnvylKBOc8s,14403
+ppxxh/_xxh3_64.py,sha256=QdQMtS_fh8A9nN2D7evKufaN6epsfubpQctWq0WirfI,23268
+ppxxh/_xxh64.py,sha256=RhRWFQn70iPSfpPq3W2ZAejRHllb6eoKISFcoGBFtP8,8311
+ppxxh-1.0.0.dist-info/LICENSE,sha256=vTiF1ndue7nzLCqKM8RiEFfUw5yTIcE1FlkV8iYSig4,1085
+ppxxh-1.0.0.dist-info/METADATA,sha256=PMdwHLPAohegrtH4iXHmQGg9FwsafXyLwTag59LCAQw,4773
+ppxxh-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ppxxh-1.0.0.dist-info/top_level.txt,sha256=tHxsDHkdn1fAtj9O6JLUY_pTLmpJ5r1MvQ0l_URdw4g,6
+ppxxh-1.0.0.dist-info/RECORD,,
