@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+genbank/__init__.py
+genbank/get_genomes.py
+genbank/parse_genomes.py
+saintBioutils.egg-info/PKG-INFO
+saintBioutils.egg-info/SOURCES.txt
+saintBioutils.egg-info/dependency_links.txt
+saintBioutils.egg-info/requires.txt
+saintBioutils.egg-info/top_level.txt
+utilities/__init__.py
+utilities/file_io/__init__.py
+utilities/file_io/get_paths.py
+utilities/logger/__init__.py
