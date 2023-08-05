@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+BSS_WORKPLACE_API.egg-info/PKG-INFO
+BSS_WORKPLACE_API.egg-info/SOURCES.txt
+BSS_WORKPLACE_API.egg-info/dependency_links.txt
+BSS_WORKPLACE_API.egg-info/top_level.txt
