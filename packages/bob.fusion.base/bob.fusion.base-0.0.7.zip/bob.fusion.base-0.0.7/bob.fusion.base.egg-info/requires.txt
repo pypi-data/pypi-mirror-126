@@ -1,0 +1,9 @@
+setuptools
+numpy
+bob.extension
+bob.core
+bob.measure
+bob.learn.linear
+bob.bio.base
+scikit-learn
+matplotlib
