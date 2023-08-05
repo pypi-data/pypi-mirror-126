@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: itle
+Version: 0.1.0
+Summary: B端工程staking的api接口包装库
+Home-page: https://gitee.com/coz2021/itle
+Author: cozz
+Author-email: 364247556@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
+UNKNOWN
+
