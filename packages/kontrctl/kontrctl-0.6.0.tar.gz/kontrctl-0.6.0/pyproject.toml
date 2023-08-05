@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "kontrctl"
+version = "0.6.0"
+description = "Kontr portal CLI"
+authors = [
+    "Peter Stanko <stanko@mail.muni.cz>"
+]
+readme = 'README.md'
+license = 'Apache-2.0'
+repository = 'https://gitlab.fi.muni.cz/grp-kontr2/kontrctl'
+homepage = 'https://gitlab.fi.muni.cz/grp-kontr2/kontrctl'
+documentation = 'https://gitlab.fi.muni.cz/grp-kontr2/kontrctl'
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = "*"
+kontr-api = "*"
+tabulate = "*"
+coloredlogs = "*"
+pyyaml = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6"
+pytest-cov = "^2.12.1"
+pytest-mock = "*"
+pylint = "*"
+rope = "*"
+autopep8 = "*"
+coverage = "^6.0.2"
+mock = "*"
+
+[tool.poetry.scripts]
+kontrctl = "kontrctl.cli:cli_main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
