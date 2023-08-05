@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+FeatureSelector/__init__.py
+FeatureSelector/feature_selection.py
+FeatureSelector/testing_feature_selection.py
+FeatureSelector.egg-info/PKG-INFO
+FeatureSelector.egg-info/SOURCES.txt
+FeatureSelector.egg-info/dependency_links.txt
+FeatureSelector.egg-info/not-zip-safe
+FeatureSelector.egg-info/top_level.txt
