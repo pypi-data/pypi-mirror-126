@@ -1,0 +1,8 @@
+bottle_elastic_apm/__init__.py,sha256=xKg-ff1qo3VwxQGe6AN3tmfjdKdNR47t7cH7gVlybwc,93
+bottle_elastic_apm/tracer.py,sha256=auJJKdmE7HsEuNcDIMe3aCC-45YBAdl1KEZjqRey6ds,3100
+bottle_elastic_apm/utils.py,sha256=M0JEBzyJIhEasUQS79n-yQhww91wXg_iS1tU5AQDUeE,1944
+bottle_elastic_apm-0.1.0.dist-info/LICENSE,sha256=rTHVZ0USzPqFCQhN43DBBr0X_rABn-nJsV4cKQTxEP4,1072
+bottle_elastic_apm-0.1.0.dist-info/METADATA,sha256=Sa0YGSbiIEcxcv0ANYjCSOMQuGzYMSaKUf-cAYlpDTI,2182
+bottle_elastic_apm-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bottle_elastic_apm-0.1.0.dist-info/top_level.txt,sha256=OTI-5vKwS2RllsOwZwfGE4ImQ-0bzC-G-DHG06L3KBc,19
+bottle_elastic_apm-0.1.0.dist-info/RECORD,,
