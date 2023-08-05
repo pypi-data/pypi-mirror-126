@@ -1,0 +1,7 @@
+README.md
+main.py
+setup.py
+say_hello_mauro.egg-info/PKG-INFO
+say_hello_mauro.egg-info/SOURCES.txt
+say_hello_mauro.egg-info/dependency_links.txt
+say_hello_mauro.egg-info/top_level.txt
