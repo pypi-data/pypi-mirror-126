@@ -1,0 +1,58 @@
+# ShurjoPay
+
+shurjopay python integration steps
+## Prerequisite
+To integrate ShurjoPay you need few credentials to access shurjopay:
+```
+        :param prefix: Any string not more than 5 characters. It distinguishes the stores of a merchant.
+        :param currency: ISO format,(only BDT and USD are allowed).
+        :param return_url: Merchant should provide a GET Method return url to verify users initiated transaction status. 
+        :param cancel_url: Merchant should provide a cancel url to redirect the user if he/she cancels the transaction in midway. 
+        :param client_ip: User's ip
+        :param username: Merchant Username provided by shurjopay.
+        :param password: Merchant Password provided by shurjopay.
+        :param post_address: Live shurjopay version 2 URL.
+```
+
+---
+> 📝 **NOTE** For shurjoPay version 2 live engine integration all necessary credential will be given to merchant after subscription completed on shurjoPay gateway.
+```
+prefix="SP" 
+currency="BDT"
+``` 
+---
+
+## Installation
+
+Use the package manager ```pip``` to install Shuropay python package
+```
+pip install -i https://test.pypi.org/simple/ shurjopay-pkg-tareq
+```
+## Usage
+```
+from shurjopay import shurjoPay
+
+#initialize with the test credentials
+
+testpay = shurjoPay.ShurjoPay(MERCHANT_USERNAME, MERCHANT_PASSWORD, SHURJOPAY_URL, DECRYPT_URL, MERCHANT_PREFIX)
+
+```
+now the payment transaction can be initiated and 
+send ```client_ip```, ```transaction_id``` (note: transaction id should be an unique id with the given prefix for each request. For test environment you may use "NOK".), ```transaction_amount```, ```return_url``` with the ```send_request``` method
+```
+spform = testpay.send_request('127.0.0.1', 'NOK151545452', 50, "http://127.0.0.1:8000/return_url/")
+```
+note*
+
+This ```testpay.send_request()``` will return an HTML shurjopay form you need to render this in your application for your users to complete the transaction.
+
+![spform](spform.png)
+
+After success/faild transaction; Transaction information will be sent to your rutrun URL in encrypted format. You should be able to access those from ```spdata```
+
+To decrypt the transaction data from return url use ```get_decrypt()``` method
+
+```
+xml = testpay.get_decrypt(spdata)
+```
+note* this data will be in ```xml``` format; to convert it in ```json``` you can use any conversion method to parse.
