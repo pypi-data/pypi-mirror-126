@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aws-sns-message-validator
+Version: 0.0.3
+Summary: Validator for SNS messages.
+Home-page: https://github.com/wlwg/sns-message-validator
+Author: https://github.com/wlwg
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: requests (>=2.24.0)
+Requires-Dist: cryptography (>=3.3.2)
+
+UNKNOWN
+
+
