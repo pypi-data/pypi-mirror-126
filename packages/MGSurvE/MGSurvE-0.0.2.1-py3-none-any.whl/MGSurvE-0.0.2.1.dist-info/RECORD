@@ -1,0 +1,14 @@
+MGSurvE/__init__.py,sha256=ROyVr9uybx-f4ErWBQIqqW_F6BGEVtZDHXongghQrpQ,165
+MGSurvE/_version.py,sha256=i8glF7573YKJaxuptr00fs5EpOr9r3l43GO8VxEbwJY,23
+MGSurvE/auxiliary.py,sha256=_hpI1ToDeICNjVn299PXr4_0JKdbpPb074SBmvoNPEQ,1378
+MGSurvE/colors.py,sha256=MpzQgLAd3JkfKYgOySyCkDAWegft5GnFk8DDnmrh80w,549
+MGSurvE/constants.py,sha256=mvY9jBRtEQu1p73bEvUszPTAu5Ga7SFSgqjAFRku9k0,778
+MGSurvE/kernels.py,sha256=DPASZnruzc1-IIGyhn4MIwcSZ9bWZgZUX9DOAzmsQgA,2520
+MGSurvE/landscape.py,sha256=3T_-egcQkblYio2oTy2gmVwEvERa1-ClsIOkFQDG72k,5893
+MGSurvE/matrices.py,sha256=aTgRut7wSAHNCiBmSCQsDscMPrQ7idGJ26y0EAcs-Zc,963
+MGSurvE/trap.py,sha256=RcYIVTnymHr60KLK7P3kXgZhznGS4RKCUS24Mm06Si8,231
+MGSurvE-0.0.2.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+MGSurvE-0.0.2.1.dist-info/METADATA,sha256=rKJsReMs49ls-vLE_mJ5OEIz4HD6vf4A9GLUIjGw_8g,1890
+MGSurvE-0.0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+MGSurvE-0.0.2.1.dist-info/top_level.txt,sha256=wNb56FWF1IHswKNcVyWTphU-qixMhoox8BVI-FCkz9w,8
+MGSurvE-0.0.2.1.dist-info/RECORD,,
