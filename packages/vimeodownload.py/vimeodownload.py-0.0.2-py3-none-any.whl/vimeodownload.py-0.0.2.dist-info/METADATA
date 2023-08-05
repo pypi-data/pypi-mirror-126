@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: vimeodownload.py
+Version: 0.0.2
+Summary: Download videos from Vimeo
+Home-page: https://github.com/jamiegyoung/vimeodownload.py
+Author: jamiegyoung
+License: UNKNOWN
+Keywords: python,video,vimeo,download
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: requests (<3,>=2)
+
+[![](https://img.shields.io/pypi/status/vimeodownload.py)](https://pypi.org/project/vimeodownload.py/) [![](https://img.shields.io/pypi/v/vimeodownload.py)](https://pypi.org/project/vimeodownload.py/)  [![](https://img.shields.io/pypi/pyversions/vimeodownload.py)](https://pypi.org/project/vimeodownload.py/) [![](https://img.shields.io/pypi/l/vimeodownload.py)](https://pypi.org/project/vimeodownload.py/)
+
+
+# [vimeodownload.py](https://pypi.org/project/vimeodownload.py/)
+A simple package that downloads public and private Vimeo videos.
+
+***NOTE:*** *This module is not extensively tested so use at your own risk. If you do find an issue, please report it on the [GitHub repository](https://github.com/jamiegyoung/vimeodownload.py)*
+
+## Usage
+```py
+vimeodownload.get_video(url, destination, replace=False, quiet=False)
+```
+
+The `quiet` argument will make the script not print any output.
+The `replace` argument will overwrite existing files.
+
+## Example
+```py
+import vimeodownload
+
+vimeodownload.get_video("https://vimeo.com/148751763", "./vid.mp4")
+vimeodownload.get_video("https://vimeo.com/148751763", "./other/vid.mp4", replace=True, quiet=True)
+```
+The above example will download a video to `./vid.mp4` with output and `./other/vid.mp4` without any output.
+
+
