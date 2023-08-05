@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/hplib.egg-info/PKG-INFO
+src/hplib.egg-info/SOURCES.txt
+src/hplib.egg-info/dependency_links.txt
+src/hplib.egg-info/requires.txt
+src/hplib.egg-info/top_level.txt
