@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/keywind_packagebuilder.egg-info/PKG-INFO
+src/keywind_packagebuilder.egg-info/SOURCES.txt
+src/keywind_packagebuilder.egg-info/dependency_links.txt
+src/keywind_packagebuilder.egg-info/requires.txt
+src/keywind_packagebuilder.egg-info/top_level.txt
+src/packagebuilder/__init__.py
+src/packagebuilder/__main__.py
+src/packagebuilder/packagebuilder.py
