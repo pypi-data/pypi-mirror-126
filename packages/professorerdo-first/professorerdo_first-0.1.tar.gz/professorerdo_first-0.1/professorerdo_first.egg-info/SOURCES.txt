@@ -1,0 +1,10 @@
+setup.py
+professorerdo_first/Binomialdistribution.py
+professorerdo_first/Gaussiandistribution.py
+professorerdo_first/Generaldistribution.py
+professorerdo_first/__init__.py
+professorerdo_first.egg-info/PKG-INFO
+professorerdo_first.egg-info/SOURCES.txt
+professorerdo_first.egg-info/dependency_links.txt
+professorerdo_first.egg-info/not-zip-safe
+professorerdo_first.egg-info/top_level.txt
