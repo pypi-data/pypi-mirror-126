@@ -1,0 +1,12 @@
+ind_ticker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ind_ticker/ind_ticker.py,sha256=XR-XGeKg7SnCIohUyisAk1zbjBR9R2c65q1z0Qs-Dvw,3373
+ind_ticker/mutual_funds.py,sha256=YPPFRQWMkPDCrwdO_iXfpIcZGzo2KkukBLXOV9-wDSc,3852
+ind_ticker/nifty_50.py,sha256=yG-NRwEo5EubD-QjwHpaVr4xVtEMmLDfa_zNJ8yadok,2115
+ind_ticker/stocks.py,sha256=S8ElozvPxe7FUA8Yu4EhUFTnI6F62sq3V9A9FWrZJEQ,13289
+ind_ticker/values.py,sha256=XCtVqHMyI5CsUAgkIkDDtv782sWeOWou3cqCxtcxtCw,1568
+ind_ticker-0.0.4.dist-info/METADATA,sha256=J0K73BSuGqJJ-KcUjDnFfIYLB4Vu6pvUK0mIaXMp6C0,2220
+ind_ticker-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ind_ticker-0.0.4.dist-info/dependency_links.txt,sha256=umbeI5a9m2brSGof-7o7w-tAbm8XIx9sG8uUO92Mo0g,37
+ind_ticker-0.0.4.dist-info/entry_points.txt,sha256=sHXURJYWeKWNWH0C63oJolkOZW6gK1J19WCHzVc8Iwo,77
+ind_ticker-0.0.4.dist-info/top_level.txt,sha256=-PFbVN9IeA1-COruVmkpKdEP5Kur-B8uf2YfAn_5a-w,11
+ind_ticker-0.0.4.dist-info/RECORD,,

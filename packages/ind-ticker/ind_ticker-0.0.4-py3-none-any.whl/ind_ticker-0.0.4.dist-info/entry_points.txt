@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        ind-ticker=ind_ticker.ind_ticker:main
+    
