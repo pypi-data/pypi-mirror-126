@@ -1,0 +1,16 @@
+<form class="row" method="POST">
+    {% csrf_token %}
+    {% for field in form %}
+    <div class="col-12{% if field.errors %} has-error{% endif %}">
+        {{ field.label_tag }} 
+        {{ field }}
+        {% if field.help_text %}
+        <span class="valid-feedback">{{ field.help_text|safe }}</span>
+        {% endif %}
+        {{ field.errors }}
+    </div>
+    {% endfor %}
+    <div class="col-12 mb-3">
+        <input type="submit" value="Submit" class="btn btn-primary"/>
+    </div>
+</form>
