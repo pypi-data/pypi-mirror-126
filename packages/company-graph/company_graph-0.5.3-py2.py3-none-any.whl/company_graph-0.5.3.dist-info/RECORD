@@ -1,0 +1,12 @@
+company_graph/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+company_graph/cg.py,sha256=oTIR3KHDXlfD3lTgtHS84_GcEvYzRGc4M0wbNKI1jVI,2846
+company_graph/func.py,sha256=ytRG3QnXQp16JyGjA4xn8207hypORlxeF15OEjnQ41Y,5428
+company_graph/normalizer.py,sha256=qESB4PsBepGZ-lugJhzryuZO5RGDGUfFFtojl1n_nwI,2007
+company_graph/rules.py,sha256=3OERQBSgCHMs4albKUT2XGIOXnuiuvB4ldIxFkFafpI,670
+company_graph/data/graph.pkl,sha256=HqQSn1HUER535-XEuDW0DmrLqwuY0Cdvqy3mJEXP4Io,9196739
+company_graph-0.5.3.data/data/data/graph.pkl,sha256=HqQSn1HUER535-XEuDW0DmrLqwuY0Cdvqy3mJEXP4Io,9196739
+company_graph-0.5.3.dist-info/LICENSE,sha256=ASLTeyom3c8dYRYQ9DbBLs244xfe2tLrwRV9JcfX8rc,1095
+company_graph-0.5.3.dist-info/METADATA,sha256=9gamO4zPW2H8fUtedvOwsSFOAh-dkvK3u-fpPN9ER20,1141
+company_graph-0.5.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+company_graph-0.5.3.dist-info/top_level.txt,sha256=Iqq4SYMzzkcy8eJaw_xzKtxOTTsYrq-Kj0DsUj1dB0k,14
+company_graph-0.5.3.dist-info/RECORD,,
