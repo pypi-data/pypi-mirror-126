@@ -1,0 +1,3 @@
+[console_scripts]
+rm-pyline=pollencli.pyline_removal.cli:main
+
