@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=57.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+target-version = ["py38"]
+
+[tool.pytest.ini_options]
+addopts = """\
+    --mypy-ini-file=setup.cfg \
+    --doctest-modules \
+    --ignore=examples \
+    """
