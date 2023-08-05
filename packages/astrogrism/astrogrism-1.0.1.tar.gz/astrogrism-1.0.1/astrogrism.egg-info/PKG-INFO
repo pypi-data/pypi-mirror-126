@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: astrogrism
+Version: 1.0.1
+Summary: HST & JWST Grism Data Analysis
+Home-page: https://github.com/spacetelescope/astrogrism
+Author: STScI
+Author-email: help@stsci.edu
+License: BSD
+Keywords: astronomy,astrophysics
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Description-Content-Type: text/plain
+Provides-Extra: test
+Provides-Extra: docs
+License-File: LICENSE.rst
+
+MOS Data Analysis package for HST and JWST Grism Observations
+
