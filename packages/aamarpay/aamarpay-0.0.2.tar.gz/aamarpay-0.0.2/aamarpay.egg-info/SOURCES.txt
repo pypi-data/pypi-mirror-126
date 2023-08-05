@@ -1,0 +1,7 @@
+README.txt
+setup.py
+aamarpay.egg-info/PKG-INFO
+aamarpay.egg-info/SOURCES.txt
+aamarpay.egg-info/dependency_links.txt
+aamarpay.egg-info/requires.txt
+aamarpay.egg-info/top_level.txt
