@@ -1,0 +1,10 @@
+mapchete_xarray/__init__.py,sha256=AdYXSfNi39X541igdErSsolv3h3ZMqauuo3TyDiWDGI,195
+mapchete_xarray/_xarray.py,sha256=ziRGPrhPeydeNXF9P51PLyEZXP2NzM_a7wxHF1PFn8c,12771
+mapchete_xarray/processes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mapchete_xarray/processes/convert_to_xarray.py,sha256=PxUAZQwaudnucqd1Ur2SDnZZFJYTt9m8bp4vrjhtBvY,1236
+mapchete_xarray-2021.11.0.dist-info/LICENSE,sha256=0kVDaB-8lJL91gnLCPdxpN4q5jxmMrGIXUHYjqLiDog,1077
+mapchete_xarray-2021.11.0.dist-info/METADATA,sha256=uN4JXlB6m1DclvUbDE6GN0_zk-5IvJqMhxXLTo-rpLU,3001
+mapchete_xarray-2021.11.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mapchete_xarray-2021.11.0.dist-info/entry_points.txt,sha256=uHE7EWg6nDrauC3Qq_sMf0Ijkqf5VLcwvdoOtSH4U9Y,139
+mapchete_xarray-2021.11.0.dist-info/top_level.txt,sha256=mMdgLvQXzBhPQRrVFBSw36b77HRpQHTg6OLVjxMMCS4,16
+mapchete_xarray-2021.11.0.dist-info/RECORD,,
