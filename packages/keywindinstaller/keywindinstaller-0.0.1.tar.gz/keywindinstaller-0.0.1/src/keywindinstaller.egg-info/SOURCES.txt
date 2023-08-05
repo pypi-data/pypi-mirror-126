@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/keywindinstaller/__init__.py
+src/keywindinstaller/__main__.py
+src/keywindinstaller/keywindinstaller.py
+src/keywindinstaller.egg-info/PKG-INFO
+src/keywindinstaller.egg-info/SOURCES.txt
+src/keywindinstaller.egg-info/dependency_links.txt
+src/keywindinstaller.egg-info/requires.txt
+src/keywindinstaller.egg-info/top_level.txt
