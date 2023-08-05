@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+scd4x/__init__.py
+scd4x.egg-info/PKG-INFO
+scd4x.egg-info/SOURCES.txt
+scd4x.egg-info/dependency_links.txt
+scd4x.egg-info/requires.txt
+scd4x.egg-info/top_level.txt
