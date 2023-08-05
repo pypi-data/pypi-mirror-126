@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "jm-dep1"
+version = "0.2"
+description = ""
+authors = ["Jean-Mark Wright <jeanmark.wright@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+protobuf = "3.17.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
