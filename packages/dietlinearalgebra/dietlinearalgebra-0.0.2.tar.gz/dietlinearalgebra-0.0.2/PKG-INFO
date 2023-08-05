@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: dietlinearalgebra
+Version: 0.0.2
+Summary: Fast and lightweight linear algebra library
+Home-page: UNKNOWN
+Author: Sol Zilberman
+Author-email: sol.zilberman@gmail.com
+License: MIT
+Description: Fast and lightweight linear algebra library.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (11-03-2021)
+        -------------------
+        - First Release
+Keywords: algebra,linalg,linear algebra
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
