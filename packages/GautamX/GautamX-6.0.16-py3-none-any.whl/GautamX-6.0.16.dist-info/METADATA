@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: GautamX
+Version: 6.0.16
+Summary: Telegram Mirror Bot
+Home-page: https://github.com/gautam1834/mirrorx
+Author: 
+Author-email: 
+License: GPL3.0
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: appdirs (==1.4.4)
+Requires-Dist: aria2p (==0.10.4)
+Requires-Dist: progress (==1.6)
+Requires-Dist: psutil (==5.8.0)
+Requires-Dist: python-telegram-bot (==13.7)
+Requires-Dist: google-api-python-client (==2.11.0)
+Requires-Dist: google-auth-httplib2 (==0.1.0)
+Requires-Dist: google-auth-oauthlib (==0.4.5)
+Requires-Dist: js2py (==0.71)
+Requires-Dist: python-dotenv (==0.19.0)
+Requires-Dist: tenacity (==8.0.1)
+Requires-Dist: python-magic (==0.4.24)
+Requires-Dist: beautifulsoup4 (==4.9.3)
+Requires-Dist: Pyrogram
+Requires-Dist: TgCrypto
+Requires-Dist: yt-dlp
+Requires-Dist: lxml (==4.6.3)
+Requires-Dist: telegraph (==1.4.1)
+Requires-Dist: speedtest-cli (==2.1.3)
+Requires-Dist: messages (==0.5.0)
+Requires-Dist: pybase64 (==1.1.4)
+Requires-Dist: lk21 (==1.6.0)
+Requires-Dist: cloudscrape
+Requires-Dist: pyshorteners
+Requires-Dist: psycopg2-binary
+Requires-Dist: megasdkrestclient
+
+For Details Contact :- https://github.com/Gautam1834
+Telegram :- https://t.me/Gautam1834
+
+
