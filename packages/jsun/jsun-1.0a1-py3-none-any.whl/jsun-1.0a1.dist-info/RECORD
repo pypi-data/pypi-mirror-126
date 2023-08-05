@@ -1,0 +1,15 @@
+CHANGELOG.md,sha256=rr_HFrGaJ58vH__nIla0bQDsLpHNZ5dvPIVfcT6BQAc,206
+LICENSE,sha256=xSEvKhvA1OKHewou1-Ethfpo0ZLAOJftg2RHdIW_ESk,1110
+README.md,sha256=j2yeA5_wIDNv6B4uxtB0ynEEMUageRZhuDNYwCXGWHQ,3922
+jsun/__init__.py,sha256=zLiCYojjnUzro_Ff0nMivGX7hTw1bwvVFRMg4uQPtt8,425
+jsun/__main__.py,sha256=hIxwT5jvhw8j-aJzbBr6YyBcmv-r7uTQDR_w2io6hoY,1613
+jsun/decoder.py,sha256=rztIipggi4DfD5OPapOgzUByGs5gaUTBI31De_WHAyQ,11595
+jsun/encoder.py,sha256=UhfE1ExX9HW1yM_prasrVNJIzk0J5AV7I1jnNcOiLI8,2570
+jsun/exc.py,sha256=J7ZrCZazuK6pp7pMUSIdfe_8muYtdrN0ZhMdeaK0ZlQ,2922
+jsun/obj.py,sha256=R41IkhMbbH1_YTUhRV6kiE5R5MhspzMqQKbFgQG2nxk,1001
+jsun/scanner.py,sha256=AS4UqFNHT6M8iH8L15J1DbWhIgKaLFHEXfXR8jmJnWc,15209
+jsun-1.0a1.dist-info/entry_points.txt,sha256=AM_bHXpp_ntFXAQqVXxdyvQH6oTylVrakjTsOynBnGQ,43
+jsun-1.0a1.dist-info/LICENSE,sha256=xSEvKhvA1OKHewou1-Ethfpo0ZLAOJftg2RHdIW_ESk,1110
+jsun-1.0a1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+jsun-1.0a1.dist-info/METADATA,sha256=Hz2ncpN5ccZSGx9gn0HDrX3wjt-z6UZ1Bawy6JKIwnc,4614
+jsun-1.0a1.dist-info/RECORD,,
