@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: gug-libpythonpro
+Version: 0.2
+Summary: Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/pythonprobr/libpythonpro
+Author: Gustavo Lima
+Author-email: gugaraujo01@gmail.com
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# libpythonpro
+Pytools - python pro
+
+Para instalar:
+
+```console
+python -m venv .venv
+source .venv/bin/activate
+pip instal -r requirements.txt
+```
+Para conferir qualidade do codigo:
+```console
+flake8
+```
+[![Build Status](https://app.travis-ci.com/Gugarauj07/libpythonpro.svg?branch=main)](https://app.travis-ci.com/Gugarauj07/libpythonpro)
+
