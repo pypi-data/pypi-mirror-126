@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: CBintentBox
+Version: 0.3.0a3
+Summary: chatterbox intent parser, extract multiple intents from a single utterance 
+Home-page: https://github.com/HelloChatterbox/intentBox
+Author: hellochatterbox
+Author-email: jarbasai@mailfence.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: extras
