@@ -1,0 +1,8 @@
+[build-system]
+requires = [
+    "setuptools>=57",
+    "wheel",
+    "cryptography>=35.0.0",
+    "fire"
+]
+build-backend = "setuptools.build_meta"

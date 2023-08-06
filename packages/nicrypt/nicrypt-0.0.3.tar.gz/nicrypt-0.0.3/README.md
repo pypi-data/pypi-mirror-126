@@ -1,0 +1,32 @@
+# Nicrypt basic encryption algorithm
+
+This is a simple package used to encrypt and decrypt both brief and long texts. The texts can be some secrets, e.g.  
+api keys and secrets, cryptocurrency wallet keys, wallet recovery phrases etc. All you have to remember is it uses the same keys in decryption for for what was used for encryption and therefore you have to record and keep them in a safer place.  
+  
+
+# Usage
+
+## In scripts
+In your python script simply import the module and use as follows  
+`from nicrypt.encrypt import ficha`
+
+`encrypted_text = ficha('text to encrypt', 'enc')`. This will encrypt the suplied text.  
+
+You can reverse the process by decrypting the text by keying in the following  
+
+`decrypted_ext = ficha(f'{encrypted_text}', 'dec')` # notice the usage of f-strings and thus python3.7+ is needed.
+
+NOTE: The above methods uses a specific set of encryption key and salt that you must provide. These are required to be saved as environment variables and stored as 'env_vars' dictionary like so:  
+
+```
+env_vars = {
+	'key': os.environ.get('ENC_KEY'),
+	'salt': os.environ.get('ENC_SALT')
+}
+```
+NB: ficha means 'hide' in Kiswahili  
+
+
+
+
+

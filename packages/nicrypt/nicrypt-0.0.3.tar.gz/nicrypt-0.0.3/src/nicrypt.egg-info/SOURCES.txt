@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/nicrypt/__init__.py
+src/nicrypt/encrypt.py
+src/nicrypt.egg-info/PKG-INFO
+src/nicrypt.egg-info/SOURCES.txt
+src/nicrypt.egg-info/dependency_links.txt
+src/nicrypt.egg-info/requires.txt
+src/nicrypt.egg-info/top_level.txt
