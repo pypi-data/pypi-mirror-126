@@ -1,0 +1,6 @@
+fc_Oct_shit.py
+setup.py
+nq_fir.egg-info/PKG-INFO
+nq_fir.egg-info/SOURCES.txt
+nq_fir.egg-info/dependency_links.txt
+nq_fir.egg-info/top_level.txt
