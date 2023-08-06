@@ -1,0 +1,9 @@
+trs_cli/__init__.py,sha256=0PaI2eSOCp5kkNcpKpUSbLHf66rL9xQzFpYyLGpEtyM,22
+trs_cli/client.py,sha256=G0NiDe6LWIRSPWWK7WZ57YwyBZxpJMgQuRtQ0D7reUc,65381
+trs_cli/errors.py,sha256=Dxkk2BXE7YoUnW5lnRJFRpn0bIKyFpGLq_7WZxt8AC8,938
+trs_cli/models.py,sha256=96HBPtlu4usHl_iqDdsUH7yr30x12cz-RnfETwgEQTI,26020
+trs_cli-0.5.0.dist-info/LICENCE,sha256=Hrb_j1frvgz7kJ-LQWHGciXZsJgOwUXyzVca5FaFq04,11348
+trs_cli-0.5.0.dist-info/METADATA,sha256=9WoYqu0_mWONgTNgyeUqCP-XQmCWaJcme02NIO1K_xw,8226
+trs_cli-0.5.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+trs_cli-0.5.0.dist-info/top_level.txt,sha256=YB7TUancesS8ZkiH584RatE9bbvCod1rU7TwET_ygL8,8
+trs_cli-0.5.0.dist-info/RECORD,,
