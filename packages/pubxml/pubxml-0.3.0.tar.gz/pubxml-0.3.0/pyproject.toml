@@ -1,0 +1,4 @@
+[tool.black]
+skip-string-normalization = true
+include = "/(src|test)/.*py$"
+line-length = 88
