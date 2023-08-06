@@ -1,0 +1,17 @@
+[tool.pkm.prj]
+name = "pkm--test-project"
+version = "0.1.0"
+description = ""
+authors = [ "bennyl <bennyl@voyagerlabs.co>"]
+license = "MIT License"
+readme = "README.md"
+
+
+[tool.pkm.prj.deps]
+python = "^3.6"
+
+[tool.pkm.prj.scripts]
+
+[build-system]
+requires = [ "pkm_buildsys>=0.2.2"]
+build-backend = "pkm_buildsys.masonry.api"
