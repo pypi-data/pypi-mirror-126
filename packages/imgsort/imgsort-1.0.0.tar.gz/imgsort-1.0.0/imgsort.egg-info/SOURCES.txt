@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+bin/imgsort
+imgsort.egg-info/PKG-INFO
+imgsort.egg-info/SOURCES.txt
+imgsort.egg-info/dependency_links.txt
+imgsort.egg-info/not-zip-safe
+imgsort.egg-info/requires.txt
+imgsort.egg-info/top_level.txt
