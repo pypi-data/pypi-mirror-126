@@ -1,0 +1,9 @@
+bvx_env
+bvx_es
+bvx_oop
+elasticsearch
+elasticsearch-dbapi
+six
+sqlalchemy
+bvx_pytest
+pytest~=6.2.5
