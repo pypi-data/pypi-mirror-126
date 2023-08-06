@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+C3l3br1t1es_B1rth5_123142143523415.egg-info/PKG-INFO
+C3l3br1t1es_B1rth5_123142143523415.egg-info/SOURCES.txt
+C3l3br1t1es_B1rth5_123142143523415.egg-info/dependency_links.txt
+C3l3br1t1es_B1rth5_123142143523415.egg-info/requires.txt
+C3l3br1t1es_B1rth5_123142143523415.egg-info/top_level.txt
+project/__init__.py
+project/__main__.py
+project/date.py
+project/scraper.py
+test/test_date.py
+test/test_integration.py
+test/test_scraper.py
