@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sectool.egg-info/PKG-INFO
+src/sectool.egg-info/SOURCES.txt
+src/sectool.egg-info/dependency_links.txt
+src/sectool.egg-info/top_level.txt
