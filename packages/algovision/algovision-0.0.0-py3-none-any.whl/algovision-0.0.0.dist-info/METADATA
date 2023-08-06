@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: algovision
+Version: 0.0.0
+Summary: AlgoVision: Learning with Algorithmic Supervision
+Home-page: UNKNOWN
+Author: Felix Petersen
+Author-email: ads0361@felix-petersen.de
+License: MIT License
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+
+UNKNOWN
+
