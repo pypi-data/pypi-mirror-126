@@ -1,0 +1,10 @@
+README.md
+setup.py
+deepquantumNeuralNetwork/__init__.py
+deepquantumNeuralNetwork.egg-info/PKG-INFO
+deepquantumNeuralNetwork.egg-info/SOURCES.txt
+deepquantumNeuralNetwork.egg-info/dependency_links.txt
+deepquantumNeuralNetwork.egg-info/requires.txt
+deepquantumNeuralNetwork.egg-info/top_level.txt
+deepquantumNeuralNetwork/utils/__init__.py
+deepquantumNeuralNetwork/utils/circuit.py
