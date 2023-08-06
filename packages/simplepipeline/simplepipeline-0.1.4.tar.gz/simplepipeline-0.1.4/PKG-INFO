@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: simplepipeline
+Version: 0.1.4
+Summary: UNKNOWN
+Home-page: https://github.com/lucasfbn/SimplePipeline
+Author: Lucas Fobian
+License: MIT
+Download-URL: https://github.com/lucasfbn/SimplePipeline/archive/refs/tags/v0.1.4.tar.gz
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+UNKNOWN
+
