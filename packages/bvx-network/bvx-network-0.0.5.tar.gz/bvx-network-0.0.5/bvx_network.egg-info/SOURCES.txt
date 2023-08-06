@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+test-requirements.txt
+bvx_network.egg-info/PKG-INFO
+bvx_network.egg-info/SOURCES.txt
+bvx_network.egg-info/dependency_links.txt
+bvx_network.egg-info/top_level.txt
