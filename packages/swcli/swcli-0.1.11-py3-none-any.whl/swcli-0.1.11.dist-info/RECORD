@@ -1,0 +1,9 @@
+swcli/__init__.py,sha256=yP-wy35SD5kp6bcuL3RHoFQ1xvY_ShUiuwHGreFNydM,98
+swcli/exceptions.py,sha256=Cavn6iAWbfM7CfSlaNIBhJvwoRYnUmdv8LGlB6cFd6E,101
+swcli/render.py,sha256=Uy07k6bKxLotr6M_XSmiyw5yfHXTscuBlWabO8u7Sv8,2152
+swcli/swcli.py,sha256=1Icf1cvTS_PuOREqMtOA4c6jd8MhbK_TvLx9vmaV1vA,1451
+swcli/utils.py,sha256=1juyAkU-oSivHC9uNDEO4ga1E_xWuCrIsn4IH1qbpCg,1085
+swcli-0.1.11.dist-info/entry_points.txt,sha256=dIXlMBpv_lY52gVTZBjrEEFSIcDkWN5MeWgmiPRzvlw,42
+swcli-0.1.11.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+swcli-0.1.11.dist-info/METADATA,sha256=N5YH8_2c5xg00dujjebemA-UWM5A9evg93RMfApGjvA,543
+swcli-0.1.11.dist-info/RECORD,,
