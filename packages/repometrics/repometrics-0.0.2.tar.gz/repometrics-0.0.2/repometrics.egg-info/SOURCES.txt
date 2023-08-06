@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+RepoMetrics/RepoMetrics.py
+RepoMetrics/__init__.py
+repometrics.egg-info/PKG-INFO
+repometrics.egg-info/SOURCES.txt
+repometrics.egg-info/dependency_links.txt
+repometrics.egg-info/entry_points.txt
+repometrics.egg-info/requires.txt
+repometrics.egg-info/top_level.txt
