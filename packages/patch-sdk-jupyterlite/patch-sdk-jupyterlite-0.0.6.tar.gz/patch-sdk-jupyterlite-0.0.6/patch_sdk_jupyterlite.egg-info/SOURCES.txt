@@ -1,0 +1,7 @@
+README.md
+setup.py
+cognite/jupyterlitepatch/__init__.py
+patch_sdk_jupyterlite.egg-info/PKG-INFO
+patch_sdk_jupyterlite.egg-info/SOURCES.txt
+patch_sdk_jupyterlite.egg-info/dependency_links.txt
+patch_sdk_jupyterlite.egg-info/top_level.txt
