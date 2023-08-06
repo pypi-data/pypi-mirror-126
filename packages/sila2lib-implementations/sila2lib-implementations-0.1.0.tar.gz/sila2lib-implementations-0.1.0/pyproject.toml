@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "sila2lib-implementations"
+version = "0.1.0"
+description = "A package of SiLA drivers for various devices at TUM-BVT"
+license = "GPL-3.0-only"  # "GPL-3.0-or-later"? passt das?
+authors = ["Lukas Bromig <lukas.bromig@tum.de>"]
+# maintainers = [name <email>]  # optional & shall be distinct to authors
+readme = 'README.md'
+repository = "https://gitlab.com/lukas.bromig/sila2lib_implementations"
+# homepage = "https://sila-standard.com/"
+# documentation = "URL"  # An URL to the documentation of the project. Optional
+# keywords = ['packaging', 'poetry']  # A list of keywords (max: 5) that the package is related to. Optional
+classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ]
+packages = [{include = "sila2lib_implementations"}]
+# include = ["CHANGELOG.md"]
+
+[tool.poetry.dependencies]
+python = "==3.8.10"
+sila2lib = "==0.2.5"
+pyserial = "==3.5"
+# serial = "==0.0.97"  # conflicts with pyserial -> do not use
+psycopg2-binary = "==2.9.1"
+python-dotenv = "==0.19.1"
+pydantic = "==1.8.2"
+# setuptools = "^58.2.0"
+# setuptools = { version = "^58.2.0", optional = true }
+# wheel = "^0.37.0"
+
+
+[tool.poetry.dev-dependencies]
+poetry = "==1.2.0a2"
+pytest-cov = "==3.0.0"
+pytest = "==6.2.5"
+commitizen = "==2.20.0"
+black = "^21.9b0"
+flake8 = "^4.0.1"
+pylint = "^2.11.1"
+tox = "^3.24.4"
+tox-poetry-installer = {extras = ["poetry"], version = "^0.8.1"}
+pre-commit = "^2.15.0"
+
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "2.0.0"
+tag_format = "$version"
+
+
+[build-system]
+requires = ["poetry==1.2.0a2", "poetry_core>=1.0"]
+build-backend = "poetry.core.masonry.api"
+# backwards compability issue in poetry 1.2.0a2 -> setuptools is needed for poetry version 1.1.11
+# requires = ["setuptools", "poetry_core>=1.0"]  # use with poetry version 1.1.11 + setuptools in dependencies
+# build-backend = "setuptools.build_meta"
