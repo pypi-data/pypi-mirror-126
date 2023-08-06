@@ -1,0 +1,4 @@
+python-dotenv~=0.19.1
+python-box~=5.4.1
+
+# EOF

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+test-requirements.txt
+bvx_env/__init__.py
+bvx_env/values.py
+bvx_env.egg-info/PKG-INFO
+bvx_env.egg-info/SOURCES.txt
+bvx_env.egg-info/dependency_links.txt
+bvx_env.egg-info/requires.txt
+bvx_env.egg-info/top_level.txt
