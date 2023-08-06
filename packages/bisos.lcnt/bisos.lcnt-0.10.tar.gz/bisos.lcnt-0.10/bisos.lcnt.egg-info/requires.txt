@@ -1,0 +1,4 @@
+unisos.icm
+pexpect
+PyPDF4
+requests
