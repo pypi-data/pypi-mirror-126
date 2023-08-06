@@ -1,0 +1,13 @@
+pgrest/__init__.py,sha256=WWwv-tUIMAjaow86I8BVdusF2nIuNQN05V2rIynwhAA,91
+pgrest/__version__.py,sha256=RaANGbRu5e-vehwXI1-Qe2ggPPfs1TQaZj072JdbLk4,22
+pgrest/_sync_client.py,sha256=FRmlpkz9Y3jOt_3Rvd8gQzimWFr3Ird2_gpLyzG-iB4,1087
+pgrest/async_client.py,sha256=25KwXGoICQDu8auA4t8bam2I4qNBb8oXH0p5Ql5yDVk,1571
+pgrest/base_client.py,sha256=ce3KPBr9uhESfuiQ17m9igOzV95o1monvxUSMuL6X4w,2568
+pgrest/constants.py,sha256=Jv8XYI9KawMvO1s6-BtWNF44wiOV4o4lYmRtZOYsSQw,113
+pgrest/query.py,sha256=ZqCbZSjfeanAmZock4pJivvVSI05NSr5bqWgqKLuIF4,9767
+pgrest/request_builder.py,sha256=GyTHG-sH5ggo0R1qLcWa2ftouq1kmujJb8GuKdPlqjY,17140
+pgrest/utils.py,sha256=zcS1dGRzRKfiN8BpTvNDzYNFzkTG7Pij59mOiRzYr3A,382
+pgrest-0.7.0.dist-info/LICENSE,sha256=aY0aZxpunWIhq7CBYKBI4J5SCg8RUA1Rx_IzlvJKWW0,1078
+pgrest-0.7.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pgrest-0.7.0.dist-info/METADATA,sha256=O4ZHzjx0Fw6aZrtyD6DO-3Zbm7EmY2WFvOzjukyIzcY,1173
+pgrest-0.7.0.dist-info/RECORD,,

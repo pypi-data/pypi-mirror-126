@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pgrest
+Version: 0.7.0
+Summary: A Python client library for PostgREST APIs. 
+Home-page: https://github.com/anand2312/pgrest
+License: MIT
+Author: Anand Krishna
+Author-email: anandkrishna2312@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.20.0,<0.21.0)
+Requires-Dist: multidict (>=5.2.0,<6.0.0)
+Project-URL: Documentation, https://anand2312.github.io/pgrest
+Project-URL: Repository, https://github.com/anand2312/pgrest
+Description-Content-Type: text/markdown
+
+# pgrest
+
+PostgREST client for Python. This library provides an ORM interface to PostgREST.
+
+Fork of the supabase community Postgrest Client library for Python.
+
+[Documentation](https://anand2312.github.io/pgrest)
+
+## TODOS:
+
+[] upsert methods
+[x] AND/OR filtering (v0.6.0)
+[] allow users to pass response models?
+[] add configuration parameter to text-search functions
+
