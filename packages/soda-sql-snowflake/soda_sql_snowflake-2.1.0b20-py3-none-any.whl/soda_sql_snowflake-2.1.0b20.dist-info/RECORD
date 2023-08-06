@@ -1,0 +1,5 @@
+sodasql/dialects/snowflake_dialect.py,sha256=LSL2TuKBGrbtWVzDlxCqKjkVObokGFGpmkY7jo1JMy0,8674
+soda_sql_snowflake-2.1.0b20.dist-info/METADATA,sha256=WB16TevtxVNq10_IzKGYtPbYxO9nKs5AAM0nHApR7EU,240
+soda_sql_snowflake-2.1.0b20.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+soda_sql_snowflake-2.1.0b20.dist-info/top_level.txt,sha256=iWRgaTzdfqDF5qGyrChKrnJh7tIweOrFM4J4_Lun_Xc,8
+soda_sql_snowflake-2.1.0b20.dist-info/RECORD,,
