@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: werkzeug_graphql
+Version: 1.2.1
+Summary: Adapter to respond to Werkzeug web requests with a GraphQL schema.
+Home-page: https://gitlab.com/kiwi-ninja/werkzeug-graphql
+Author: Robert Parker
+Author-email: rob@parob.com
+License: MIT
+Download-URL: https://gitlab.com/kiwi-ninja/werkzeug-graphql/-/archive/v1.2.1/werkzeug-graphql-v1.2.1.tar.gz
+Keywords: GraphQL,ObjectQL,Server,werkzeug
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Werkzeug GraphQL
+
+Minimal adapter to respond to Werkzeug web requests with a GraphQL schema (also can build a GraphQL schema from an ObjectQL type).
+
