@@ -1,0 +1,8 @@
+odoo/addons/project_task_internal_user/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/project_task_internal_user/__manifest__.py,sha256=403KebU3eF2-qQl2pN_OtihhJcxccpJuLBHQpdgd1iQ,571
+odoo/addons/project_task_internal_user/models/__init__.py,sha256=QljBamIjwrNvPPJB5ngFhBV9v1oMWKP4XBKs33SH9VQ,22
+odoo/addons/project_task_internal_user/models/project.py,sha256=c_xhACRz1ryAkzN-n81qKrVm_wbh7WibuGwNaY6vlfk,182
+odoo12_addon_project_task_internal_user-12.0.1.0.0.dist-info/METADATA,sha256=qrKHMmaojr8L5NSg6l8VeSxBZF5F0IBxuFVBlM5Qqo4,474
+odoo12_addon_project_task_internal_user-12.0.1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_project_task_internal_user-12.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_project_task_internal_user-12.0.1.0.0.dist-info/RECORD,,
