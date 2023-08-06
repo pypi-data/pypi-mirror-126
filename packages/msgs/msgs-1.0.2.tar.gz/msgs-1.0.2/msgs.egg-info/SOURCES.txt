@@ -1,0 +1,9 @@
+setup.py
+updata.py
+msgs/__init__.py
+msgs/networkmsgs.py
+msgs.egg-info/PKG-INFO
+msgs.egg-info/SOURCES.txt
+msgs.egg-info/dependency_links.txt
+msgs.egg-info/entry_points.txt
+msgs.egg-info/top_level.txt
