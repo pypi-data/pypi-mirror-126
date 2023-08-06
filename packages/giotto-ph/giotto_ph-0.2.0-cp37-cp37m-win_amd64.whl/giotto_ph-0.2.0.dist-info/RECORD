@@ -1,0 +1,12 @@
+gph/__init__.py,sha256=HmQTSsXVNzn_4uZdkKn8zJc9X7tVzuBbtwM4FIBoUTY,149
+gph/_version.py,sha256=WH9m9AsipXpwhqwxiON3EtwS6-Bh3RvPLkKYaQCgjOo,620
+gph/modules/gph_collapser.cp37-win_amd64.pyd,sha256=crtmMeGH1T71rLhzKsCsd5dkgYXp0a9dKfmol4oW1ak,128512
+gph/modules/gph_ripser.cp37-win_amd64.pyd,sha256=1QR_9jSRM1vj8mQeFbsKcZv19UOpPVylwNO_3Y42LL0,314880
+gph/modules/gph_ripser_coeff.cp37-win_amd64.pyd,sha256=txTs1cKBMYMSYyGml_sVmgW9udIs8Ps38S9ffKLcDEM,321024
+gph/python/__init__.py,sha256=WtwHCYEMYScWKy4oHKM8euZr76_DLGCazX6ayf9n9tg,89
+gph/python/ripser_interface.py,sha256=B2a346AMgH2Qw25y07PPs_B-ZXoFF1d1w88sGy-fzHI,24197
+giotto_ph-0.2.0.dist-info/LICENSE,sha256=K2mHDYGGPDF90WsUydGOBt1SVUHUJRX3U460v8e5HnM,35868
+giotto_ph-0.2.0.dist-info/METADATA,sha256=6OC5P8TzkiNxqQ3dowb3wiZ4-GI98Hq9VBD9pd-Ienk,2904
+giotto_ph-0.2.0.dist-info/WHEEL,sha256=OmDKD3JmZjhMu_YdpkiJDfFL1rf8n9nexhWCGhSBGVE,101
+giotto_ph-0.2.0.dist-info/top_level.txt,sha256=VY7JNFK1ziu4gNFeDEd7UqJthhMsYdylwSXFxf4CX6U,4
+giotto_ph-0.2.0.dist-info/RECORD,,
