@@ -1,0 +1,6 @@
+librosa>=0.8.1
+matplotlib
+torch>=1.7.0
+progressbar
+torchlibrosa==0.0.7
+GitPython
