@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mlreflect
+Version: 0.20.0
+Summary: mlreflect is a Python package for training and using artificial neural networks to analyze specular X-ray and neutron reflectivity data. The training and usage of the neural network models is done via Keras as an API for TensorFlow.
+Home-page: UNKNOWN
+Author: Alessandro Greco
+Author-email: alessandro.greco@uni-tuebingen.de
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: tensorflow (~=2.1.0)
+Requires-Dist: scipy (~=1.5.4)
+Requires-Dist: pandas (~=1.1.5)
+Requires-Dist: tqdm (~=4.36.1)
+Requires-Dist: h5py (~=2.10.0)
+Requires-Dist: numpy (~=1.18.0)
+Requires-Dist: typing (~=3.7.4.1)
+Requires-Dist: matplotlib (~=3.3.4)
+Requires-Dist: packaging (~=20.9.0)
+Requires-Dist: fabio (~=0.11.0)
+
+UNKNOWN
+
+
