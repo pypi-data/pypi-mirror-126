@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nofnof-filler
+Version: 1.0.4
+Summary: Assignment program using python in 42rush
+License: free
+Author: kegoshi, rsato, kkamioka, omotoki
+Requires-Python: >=3.9.0,<4.0.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9

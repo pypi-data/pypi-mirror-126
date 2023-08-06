@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "nofnof_filler"
+version = "1.0.4"
+description = "Assignment program using python in 42rush"
+authors = ["kegoshi, rsato, kkamioka, omotoki"]
+license = "free"
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
