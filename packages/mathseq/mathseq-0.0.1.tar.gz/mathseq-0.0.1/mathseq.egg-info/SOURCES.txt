@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mathseq/__init__.py
+mathseq/funcs.py
+mathseq/seq.py
+mathseq.egg-info/PKG-INFO
+mathseq.egg-info/SOURCES.txt
+mathseq.egg-info/dependency_links.txt
+mathseq.egg-info/top_level.txt
