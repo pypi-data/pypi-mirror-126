@@ -1,0 +1,12 @@
+from . import datetime
+from . import FlaskForm
+from . import BooleanField, StringField, TextAreaField, \
+                    IntegerField, SelectMultipleField, PasswordField, \
+                    validators, SubmitField, DateTimeField
+
+class {{_NAME_}}Form(FlaskForm):
+    id = IntegerField(default=0)
+    {% for field in _FORM_.fields -%}
+    {{ field ~ ' = StringField(\'' ~ field|capitalize ~ '\')' }}
+    {% endfor %}
+    submit = SubmitField('Submit')

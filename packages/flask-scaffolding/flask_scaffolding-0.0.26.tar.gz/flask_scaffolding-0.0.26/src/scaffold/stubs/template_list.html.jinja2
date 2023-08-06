@@ -1,0 +1,37 @@
+{{ '{% extends "_layout.html" %}' }}
+{{ '{% block content %}' }}
+<div class="container">
+    <div class="p-5 bg-light rounded">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>{{ _NAME_ }} List</h1>
+            </div>
+            <div class="col-sm-6">
+                <div class="float-right">
+                    {{ '<a href="{{ url_for(\'' ~ _FORM_.name ~'\', id = 0) }}" class="text-danger">' }}
+                        <span class="fa fa-plus-circle mr-1"></span>
+                        Add a New {{ _NAME_  }}
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Button Widget -->
+        {{ '{% from "_form_element_vertical.html" import render_button %}' }}
+        <!-- Table Records Widget -->
+        {{ '{% from \'_table_records.html\' import render_tableRecords %}' }}
+            {{ '{% call(loop, record) render_tableRecords(record_list, record_header, 
+                                            record_count, min_page, max_page, destination, search_key) %}' }}
+                <!-- Create Table Content -->
+                {{ '<td>{{ loop.index + record_list.per_page*(record_list.page - 1)}}</td>' }}
+                {{ '<td><a href="{{ url_for(\'' ~ _FORM_.name ~ '\', id = record.id) }}">' }}
+                    {{ '{{ record.' ~ _FORM_.main_field ~ ' }}' }}
+                    </a>
+                </td>
+                {% for field in _FORM_.fields[1:] -%}
+                {{'<td>{{ record.' ~ field ~ ' }}</td>' }}
+                {% endfor %}
+            {{ '{% endcall %}' }}
+    </div>
+</div>
+{{ '{% endblock %}' }}
+
