@@ -1,0 +1,7 @@
+setup.py
+crispr_tools/__init__.py
+crispr_tools.egg-info/PKG-INFO
+crispr_tools.egg-info/SOURCES.txt
+crispr_tools.egg-info/dependency_links.txt
+crispr_tools.egg-info/requires.txt
+crispr_tools.egg-info/top_level.txt
