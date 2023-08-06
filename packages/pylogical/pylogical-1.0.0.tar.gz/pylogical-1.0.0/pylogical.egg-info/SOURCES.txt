@@ -1,0 +1,9 @@
+README.md
+setup.py
+logical/__init__.py
+logical/expression.py
+pylogical.egg-info/PKG-INFO
+pylogical.egg-info/SOURCES.txt
+pylogical.egg-info/dependency_links.txt
+pylogical.egg-info/top_level.txt
+src/__init__.py
