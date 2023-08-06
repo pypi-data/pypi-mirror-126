@@ -1,0 +1,7 @@
+README.md
+setup.py
+glfw_preview/__init__.py
+glfw_preview.egg-info/PKG-INFO
+glfw_preview.egg-info/SOURCES.txt
+glfw_preview.egg-info/dependency_links.txt
+glfw_preview.egg-info/top_level.txt
