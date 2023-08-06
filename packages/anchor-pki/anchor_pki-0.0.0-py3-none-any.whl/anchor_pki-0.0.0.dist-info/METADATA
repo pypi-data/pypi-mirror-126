@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: anchor-pki
+Version: 0.0.0
+Summary: Anchor is a hosted PKI platform for your internal organization.
+Home-page: https://anchor.dev/
+Author: Anchor
+Author-email: support@anchor.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Python client for Anchor PKI. See https://anchor.dev/ for details.
+
