@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+flytorch.egg-info/PKG-INFO
+flytorch.egg-info/SOURCES.txt
+flytorch.egg-info/dependency_links.txt
+flytorch.egg-info/top_level.txt
