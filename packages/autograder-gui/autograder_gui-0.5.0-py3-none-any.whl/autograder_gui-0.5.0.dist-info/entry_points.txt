@@ -1,0 +1,3 @@
+[console_scripts]
+autograder=autograder_gui.__main__:run
+
