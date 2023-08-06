@@ -1,0 +1,17 @@
+armadillin/__init__.py,sha256=ZH4S1laOQH0plRfHPfj1oPvcg3PKrnr0thlx3A9Dbdk,25
+armadillin/__main__.py,sha256=5ITHrUTmaz59CVu2GDS7pRdPsCXedMXQwcSw_KvX3P8,5076
+armadillin/_version.py,sha256=y85RoorXwpOg9A5LQe64DGqTMdDZfq3s0nVA_ul_CvU,144
+armadillin/cov2_genome.py,sha256=7whqC1GwoyEc4HsQByOqmtUGKT5SXR-I-MzHH35AHoM,30270
+armadillin/helpers_compiled.cp310-win_amd64.pyd,sha256=UY6gF-2MTHlgR0OYNBMICTAquY0vXcRsnVbBYefry_4,144896
+armadillin/helpers_compiled.pyx,sha256=g9ELhLO2dqa2riGoOMVlThKRJomsF_Fblwofv9FrKVw,407
+armadillin/input.py,sha256=dN9mEjUiz98wi-v4K6147GOBYjA9Gz6Lf1Grvgy3uoc,6811
+armadillin/modelling.py,sha256=1-aCdtY7H41d6ixqK3DHgBH_uxr6BolGh8vN-9L1jqs,6463
+armadillin/train.py,sha256=td1weCNJ5bxOu34JKC-GmDhDkeOv7Vm7oBRTeQ2Avss,4530
+armadillin/training_create_small_model.py,sha256=WswliKrSQM8oW1mEG3oF5b9PsNTQMzooZeyoGT5-k7M,1630
+armadillin/training_input.py,sha256=p-51N0A_m5_Fjn9XkmfKj_BvysAhm13ETyOnDWT8efg,3395
+armadillin/training_make_input.py,sha256=Pk8QxBvxsu2Fc2ZTUzEBCfb166YzjOY84T0SOHLYq4U,7005
+armadillin-0.49.dist-info/METADATA,sha256=JJrDRHYVD9y95uLL9ZFabkyLp28DWSCBIqz8EBQyg6Q,2860
+armadillin-0.49.dist-info/WHEEL,sha256=C6CHup2HLC2Rld8AL5u9w89MYULjdaP5k0k7SG83CcI,102
+armadillin-0.49.dist-info/entry_points.txt,sha256=9pcdD59HjTnsN0KL5f_NSWc3gx64-pv_9K9GErd1rEw,57
+armadillin-0.49.dist-info/top_level.txt,sha256=uHG5RUAsr8vd7l6QwQo9o-sqjqvbg_JGPZEIb0gSHto,11
+armadillin-0.49.dist-info/RECORD,,
