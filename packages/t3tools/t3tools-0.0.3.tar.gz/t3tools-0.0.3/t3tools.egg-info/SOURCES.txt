@@ -1,0 +1,6 @@
+README.rst
+setup.py
+t3tools.egg-info/PKG-INFO
+t3tools.egg-info/SOURCES.txt
+t3tools.egg-info/dependency_links.txt
+t3tools.egg-info/top_level.txt
