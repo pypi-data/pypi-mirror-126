@@ -1,0 +1,8 @@
+setup.py
+DEndings.egg-info/PKG-INFO
+DEndings.egg-info/SOURCES.txt
+DEndings.egg-info/dependency_links.txt
+DEndings.egg-info/top_level.txt
+dending/__init__.py
+dending/bin.py
+dending/setup.py
