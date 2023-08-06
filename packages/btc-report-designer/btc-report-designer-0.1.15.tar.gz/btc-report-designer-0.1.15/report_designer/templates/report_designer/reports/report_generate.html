@@ -1,0 +1,28 @@
+{% extends 'report_designer/base.html' %}
+
+
+{% load report_designer.templates %}
+{% load report_designer.fields %}
+
+
+{% block content %}
+    <div id="report-designer">
+        <form action="{{ submit_url|default:request.path }}">
+            {% csrf_token %}
+            {% include 'report_designer/form_errors.html' with errors=form.non_field_errors only %}
+            {% for hidden in form.hidden_fields %}
+                {{ hidden }}
+            {% endfor %}
+            {% panelheader %}
+                <div class="col-md-4 col-xs-12 padding-top-12">
+                    <ul class="list">
+                        {% field_wrapper form.report %}
+                    </ul>
+                </div>
+                <div class="col-md-2 col-xs-12 padding-top-12" style="display: flex; align-items: flex-end; margin-bottom: 15px;">
+                    {{ report_generate_action_group }}
+                </div>
+            {% endpanelheader %}
+        </form>
+    </div>
+{% endblock content %}
