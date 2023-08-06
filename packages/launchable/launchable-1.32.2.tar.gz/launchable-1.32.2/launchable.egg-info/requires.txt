@@ -1,0 +1,15 @@
+click~=7.0
+requests
+junitparser>=2.0.0
+setuptools
+python-dateutil
+tabulate
+
+[:platform_system == "Windows"]
+wmi
+
+[:python_version < "3.6"]
+more_itertools<8.6,>=7.1.0
+
+[:python_version >= "3.6"]
+more_itertools>=7.1.0
