@@ -1,0 +1,12 @@
+simplify_rest_framework/__init__.py,sha256=JAcy57qsIFsJqtRnd9JKeMkMTUx-0taiwv0_jqruz1U,91
+simplify_rest_framework/apps.py,sha256=ntZNHBUxbAvvT2iraD6f3jjalhvdHN7v-FN84yBX_1o,176
+simplify_rest_framework/model_factory.py,sha256=a34uGJ-vsQdZWkyldVJPUWorUwn0tLhZJTn-CpQjFJ8,9788
+simplify_rest_framework/permissions.py,sha256=kRP_Vr7EciKSMdOIXEwQj_e50Iksjwy090QBTjG36ZY,1872
+simplify_rest_framework/serializer.py,sha256=4UwQkfyYe6Y8nmt3XPwqe9tx2mfDWK6GkdEtxrlZR94,2257
+simplify_rest_framework/view_set.py,sha256=isEixmB13z9asSBpcZVF9WdKe21nkU3zUzeb-92C7sY,3017
+simplify_rest_framework/views.py,sha256=CjjvBKAwfPomRYiTOTB4XbNlS2TGFKf7mYSVMBjQWnw,4122
+simplify_rest_framework-0.11.0.dist-info/LICENSE,sha256=WpkerqslI04vKQsYTIXUP2U2mIZeQ9KTPrZEFdU-xtE,1052
+simplify_rest_framework-0.11.0.dist-info/METADATA,sha256=z8-LpWSEPU65f9yMnBHC4Jbp5QemTadww0WBxkQ0oAU,768
+simplify_rest_framework-0.11.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+simplify_rest_framework-0.11.0.dist-info/top_level.txt,sha256=ESMBMu3AzbByZNtFQ3vgu9IgomRKaDp_pi2ZSqfVBMs,24
+simplify_rest_framework-0.11.0.dist-info/RECORD,,
