@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyclockme
+Version: 1.0.0
+Summary: A python clock
+Home-page: UNKNOWN
+Author: TEnLOcODE
+Author-email: tantan.bil.2012@gmail.com
+License: UNKNOWN
+Keywords: pyclock,python clock,clockx,pyclockx
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+
+A advanced python clock configuration & page
+
