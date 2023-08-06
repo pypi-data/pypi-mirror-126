@@ -1,0 +1,6 @@
+cognite/jupyterlitepatch/__init__.py,sha256=rJLMJir8BeUjaOgnWxSp_bzgiHxgap2n4lexH_WhwmA,4648
+patch-sdk-jupyterlite/__init__.py,sha256=6sqwDtJG6mW8b5Iwc_527M_lFMAth5FfiK-zinA4cQ8,4651
+patch_sdk_jupyterlite-0.0.9.dist-info/METADATA,sha256=l56iPGMo5gHFjRcbtF7ga8xTlj6YprfA1lTGuXQELuA,356
+patch_sdk_jupyterlite-0.0.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+patch_sdk_jupyterlite-0.0.9.dist-info/top_level.txt,sha256=64aV5H6IpuuyXlucP73BqEoQyR9A6JP1qTY380b6MpQ,8
+patch_sdk_jupyterlite-0.0.9.dist-info/RECORD,,
