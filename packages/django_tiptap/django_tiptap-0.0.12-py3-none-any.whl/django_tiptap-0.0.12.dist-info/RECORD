@@ -1,0 +1,11 @@
+django_tiptap/__init__.py,sha256=d87nKB2RJBBJs6Xb9EUwy_8TrLsxYxuxwYJ7U7pSnbs,59
+django_tiptap/apps.py,sha256=WpgF9x5Yzu9g9jN8P37KdZzHH_dzFLcPZViSXWH9Uqg,94
+django_tiptap/config.py,sha256=suWvxe9hZKlTQqLLtJYqNGhmD3no0TSFuxq9sLRjwek,5581
+django_tiptap/fields.py,sha256=qPNuU-1K0avWTa_Heh1mxqeL4eXmaRwamNjdaj0F81Y,429
+django_tiptap/widgets.py,sha256=bwm0tI7oqhy6Y4AWf57Ft5PXb9gcw0zDa6WXLoIlyhU,1183
+django_tiptap/static/django_tiptap/css/styles.css,sha256=JG0ObWPGjWxQnvKy7EDPKBjOUD7896NEBDLQY0XJTdc,9895
+django_tiptap/templates/forms/tiptap_textarea.html,sha256=P7-pTBEM_TNGbq5TBg67mi5RKy85tjkyhDm5nqKr9KI,58908
+django_tiptap-0.0.12.dist-info/LICENSE,sha256=sj173KnvaP95H5OG4MnFSF5XH_D5J9BMZrrh-55Tvnc,1072
+django_tiptap-0.0.12.dist-info/WHEEL,sha256=pVNS5wRGlMB8qzi0M1coslDk7i694hS7VxZqRXRntY4,81
+django_tiptap-0.0.12.dist-info/METADATA,sha256=hnSdjC-5T52wb__qmGmd36as2cP0B-E_cy-OvWSK5WA,6768
+django_tiptap-0.0.12.dist-info/RECORD,,
