@@ -1,0 +1,10 @@
+fstream/__init__.py,sha256=cXjPI-I1TIfWwEOu7ivgynrW3-OqJ64912PRoJSnLzY,2398
+fstream/protocol/__init__.py,sha256=RUM8_R8bqgHuKCHeDaOiZQVp4RkhLxbALuVfaMEHYl4,197
+fstream/protocol/base.py,sha256=FX33vx7nZozj77OO0RmTU-PBYgBwhIv5P8ZPIUZj4OA,9025
+fstream/protocol/buffered.py,sha256=o-6K8ep68qJa3UfOoUpATfAo3n27pu5sDlaIiSeJbHY,1084
+fstream/protocol/chunked.py,sha256=DFtaXRyA9alfM8TG77rb103i55tryNlkraqHKDnhBtg,547
+fstream-0.0.6.dist-info/LICENSE,sha256=UX3_jmxxpMSq4x7kUm8HRTSQGV7OL8YFNgX3ceN8TI4,1082
+fstream-0.0.6.dist-info/METADATA,sha256=Hj7xJBF2PpcSvCanuwEeMUWDFv-cz3Mtu03Ayp27K20,554
+fstream-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fstream-0.0.6.dist-info/top_level.txt,sha256=i4C08-kOPiXAlFVbagUBiniC1wucdW_C6uO3pHgQTu0,8
+fstream-0.0.6.dist-info/RECORD,,
