@@ -1,0 +1,9 @@
+It scrapes the cities of the jammu and kashmir state
+
+
+### Run Scraper
+```sh
+from google_scraper_dk import *
+link="https://www.google.com/search?q=gulmarg&sxsrf=AOaemvIicejw7VKgxoU621evbbfFgltrHg%3A1633101464052&source=hp&ei=lyZXYdHqPNGTr7wPjMOF4Ag&iflsig=ALs-wAMAAAAAYVc0qCoMYl7y9-lMnkZgA5PnNEovKB-e&gs_ssp=eJzj4tTP1TcwNaksNjBg9GJPL83JTSxKBwA5ugYF&oq=gulmarg&gs_lcp=Cgdnd3Mtd2l6EAEYADILCC4QgAQQsQMQkwIyCAgAEIAEELEDMgUIABCRAjIOCC4QgAQQsQMQxwEQrwEyCAgAEIAEELEDMgsIABCABBCxAxCDATIICAAQgAQQsQMyCwgAEIAEELEDEMkDMgUIABCABDIFCAAQgAQ6BwgjEOoCECc6DQguEMcBEK8BEOoCECc6BAgjECc6CwgAELEDEIMBEJECOhEILhCABBCxAxCDARDHARDRAzoFCC4QgAQ6CAguELEDEIMBOggILhCABBCxAzoICAAQsQMQgwE6CwguEIAEEMcBEK8BUIItWP84YPpKaAFwAHgAgAHUA4gBnQuSAQcyLTMuMS4xmAEAoAEBsAEK&sclient=gws-wiz" "
+data=run_pypi_scraper(link)
+```
