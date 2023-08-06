@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: galleries-qt
+Version: 0.2.3
+Summary: Qt implementation to manage galleries.
+Home-page: https://github.com/mnicolas94/galleries_qt
+Author: Miguel Nicolás-Díaz
+Author-email: miguelcok27@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: galleries (>=0.2.1)
+Requires-Dist: mnd-utils
+Requires-Dist: mnd-qtutils
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: propsettings-qt (>=0.2.1)
+Requires-Dist: pyrulo-qt (>=0.3.1)
+Requires-Dist: PySide2
+
+# Galleries-Qt
+
