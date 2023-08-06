@@ -1,0 +1,13 @@
+aiohttp-client-cache>=0.5.1
+aiohttp[speedups]
+aiosqlite
+cytoolz
+nest-asyncio
+ujson
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[test]
+pytest-cov
+pytest-xdist[psutil]
