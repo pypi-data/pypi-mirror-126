@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: mlfileopener
+Version: 1.0
+Summary: A file opener with benefits
+Home-page: UNKNOWN
+Author: Sohaab Naeem
+Author-email: sohaabalt0987@gmail.com
+License: MIT
+Description: simple file opener checkout on github search mlfile opener
+        
+        Change Log
+        ----------
+        
+        1.0 (11/9,21)
+        
+        -First Release
+        
+        
+Keywords: file opener
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

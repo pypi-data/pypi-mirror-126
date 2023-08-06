@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+mlfileopener.egg-info/PKG-INFO
+mlfileopener.egg-info/SOURCES.txt
+mlfileopener.egg-info/dependency_links.txt
+mlfileopener.egg-info/top_level.txt
