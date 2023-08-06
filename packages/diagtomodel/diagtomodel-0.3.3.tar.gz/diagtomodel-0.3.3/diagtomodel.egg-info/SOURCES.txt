@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+diagtomodel.egg-info/PKG-INFO
+diagtomodel.egg-info/SOURCES.txt
+diagtomodel.egg-info/dependency_links.txt
+diagtomodel.egg-info/requires.txt
+diagtomodel.egg-info/top_level.txt
