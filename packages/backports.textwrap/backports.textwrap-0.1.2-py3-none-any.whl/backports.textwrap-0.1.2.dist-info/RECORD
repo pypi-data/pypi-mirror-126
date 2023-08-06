@@ -1,0 +1,5 @@
+backports/__init__.py,sha256=h8oZqZIzaDyqxcxlr0FgXETlJ6vEGaE2HmRO8xISa3Q,120
+backports/textwrap.py,sha256=i3Lt2AnAaSBlpy8vLDSRESxbKWG9vaXs3cznuriBNlY,20747
+backports.textwrap-0.1.2.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+backports.textwrap-0.1.2.dist-info/METADATA,sha256=bnLjENeYk1k__yhQy93tc5gTtnwYJQ0COyDWpXrXoMo,897
+backports.textwrap-0.1.2.dist-info/RECORD,,
