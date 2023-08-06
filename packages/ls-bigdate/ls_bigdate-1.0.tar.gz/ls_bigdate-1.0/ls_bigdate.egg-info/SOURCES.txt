@@ -1,0 +1,5 @@
+setup.py
+ls_bigdate.egg-info/PKG-INFO
+ls_bigdate.egg-info/SOURCES.txt
+ls_bigdate.egg-info/dependency_links.txt
+ls_bigdate.egg-info/top_level.txt
