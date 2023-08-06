@@ -1,0 +1,12 @@
+flexcluster/__init__.py,sha256=pvV0fG3M1f3XWYijm8yQ8s5joPLbEGoIHU46VhqPTzA,920
+flexcluster/impl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flexcluster/impl/cluster_impl.py,sha256=YSIpE1FQqhlAlyYt6wvLBIQmWMFo3gdFUidC5UzO9UE,3557
+flexcluster/impl/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flexcluster/impl/tests/cluster_impl_test.py,sha256=Q75KTwwnfhmOTfITVWeDGsYigBw6rX3byxS9xRU14UA,4655
+flexcluster/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flexcluster/tests/cluster_test.py,sha256=fS26hc15Qzf4L0ujBc8mH8nZygGUEZtLfdEGSgHT4_s,2111
+flexcluster-0.0.4.dist-info/LICENSE,sha256=TLzrXYFH-V9w-hVQpHKWN8jcfBXA-Kkrm8sTttIE0ew,1527
+flexcluster-0.0.4.dist-info/METADATA,sha256=NFHWy4xMhV4qe_zdQQMTYwy1RJ0zcpDCpt2VZivy1io,1966
+flexcluster-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+flexcluster-0.0.4.dist-info/top_level.txt,sha256=JD0P89MSaQIWIiWWCkw1siYCMTXFQuZH5VP1eqYgENQ,12
+flexcluster-0.0.4.dist-info/RECORD,,
