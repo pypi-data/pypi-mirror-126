@@ -1,0 +1,35 @@
+---
+name: esmvaltool
+channels:
+  - conda-forge/label/esmvalcore_rc
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - pip!=21.3
+  # Python packages that cannot be installed from PyPI:
+  - cartopy
+  - compilers
+  - gdal
+  - esmpy
+  - esmvalcore
+  - matplotlib-base
+  # Non-Python dependencies
+  - cdo
+  - imagemagick
+  - julia
+  - nco
+  - ruamel.yaml
+  - scikit-learn  # may hit hw-specific issue if from pypi https://github.com/scikit-learn/scikit-learn/issues/14485
+  - xgboost
+
+  # Multi language support:
+  - ncl
+  - r-base
+  # R packages needed for development
+  - r-docopt
+  - r-git2r  # dependency of lintr
+  - r-lintr
+  - r-styler
+  - r-yaml
+  - r-udunits2  # needed by the docker build
