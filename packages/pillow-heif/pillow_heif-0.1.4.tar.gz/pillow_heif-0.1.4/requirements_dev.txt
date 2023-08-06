@@ -1,0 +1,5 @@
+piexif
+pytest
+pympler
+Pillow
+setuptools>=41.2.0
