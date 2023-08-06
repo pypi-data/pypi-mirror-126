@@ -1,0 +1,10 @@
+lazyxml/__init__.py,sha256=WW5nXSwIiqm3RU83Ata3nM1uaolIvTnc6-UwhswLTU8,8978
+lazyxml/builder.py,sha256=8qB0VQjqApZtMSG3rhreP8mL8j31Nb-1mXZ7Ab15dMQ,7430
+lazyxml/consts.py,sha256=S71pg0iQROqX9uYE79ibihojPkCggDYcq3QwQu_Wg1k,480
+lazyxml/parser.py,sha256=TWgYfGwpMKIhF6tVVNyf8qyDPtVquqYbk-yFvtwnAjI,5467
+lazyxml/utils.py,sha256=PaNYrwkDJJUv55hwwK-st5fFPG0hVQbqXhO2CjHTB8s,635
+lazyxml-1.3.2.dist-info/LICENSE,sha256=l5elX_wwOBpWeV3vZNU0eqcQ5E2gRNeAjrfY6ihdkys,1079
+lazyxml-1.3.2.dist-info/METADATA,sha256=I4SaKrhu0cZCKVNwrtSTVTXZ9QkV04Fhtmw_p52AXmI,2093
+lazyxml-1.3.2.dist-info/WHEEL,sha256=bK8TJl-oUKFDa18qkB68zwTZhIBCifqi4qjS_NS4aFQ,92
+lazyxml-1.3.2.dist-info/top_level.txt,sha256=nAaPh62Hppnt3ENpbJdHXXuSu0ycEL_tP9I5L3lkijE,8
+lazyxml-1.3.2.dist-info/RECORD,,
