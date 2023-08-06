@@ -1,0 +1,3 @@
+[console_scripts]
+haiji_filler = habe_filler.main:main
+
