@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+google_scraper_dk.egg-info/PKG-INFO
+google_scraper_dk.egg-info/SOURCES.txt
+google_scraper_dk.egg-info/dependency_links.txt
+google_scraper_dk.egg-info/requires.txt
+google_scraper_dk.egg-info/top_level.txt
+pypi_scraper/__init__.py
