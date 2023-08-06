@@ -1,0 +1,13 @@
+nonutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonutils/__version__.py,sha256=3-bEpKhHUob2jNrDr_F0Oq1ZOnxxyLcXfk5EteTZVno,21
+nonutils/command.py,sha256=o46xafpW5MViqom_jTXt0xPXoDeKCJi_IShn6xdEy4g,5646
+nonutils/persistent.py,sha256=rxtWHFNwoyc_40w2kyiJZArTU3nOsNc1KXz0AB62lkk,1372
+nonutils/service.py,sha256=ZOhcYW7tskByyXfzRXiNwrP3BkCzNKSURZ7VjHy3guw,5991
+nonutils/stringres.py,sha256=bvoxqKbk_QVnYMb-wODT8067Zm6RGhzE7XY8iOmkoXs,2361
+nonutils/internal_services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonutils/internal_services/usage.py,sha256=-IHrIOMHkeb3S1TmUaBqICRX_5s-spxIV2JR4j9x5VA,1375
+nonutils-0.1a0.dist-info/LICENSE,sha256=aSIpG9IU7_jFWdRXIVz-q9lQsVGqHnhzdC4RgxDuKlk,1066
+nonutils-0.1a0.dist-info/METADATA,sha256=gpeGuDIYAMdr07SsrXwo1KoJHP7OoX6rubac0Wmzq5s,2082
+nonutils-0.1a0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+nonutils-0.1a0.dist-info/top_level.txt,sha256=U6UX_nglRs1QClMZycyBaT5VHorJXTeOBwFnSRgX_Cw,9
+nonutils-0.1a0.dist-info/RECORD,,
