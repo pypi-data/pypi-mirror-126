@@ -1,0 +1,3 @@
+[console_scripts]
+nextrad = nextrad_client.__main__:main
+
