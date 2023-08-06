@@ -1,0 +1,14 @@
+aiohttp
+attrs
+beautifulsoup4
+requests
+yarl
+
+[build]
+build
+twine
+
+[testing]
+mypy
+pytest
+types-requests
