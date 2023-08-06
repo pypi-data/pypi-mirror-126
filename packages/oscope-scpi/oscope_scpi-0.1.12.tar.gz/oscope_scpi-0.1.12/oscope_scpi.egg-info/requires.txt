@@ -1,0 +1,5 @@
+pyvisa>=1.11.3
+pyvisa-py>=0.5.1
+argparse
+QuantiPhy>=2.3.0
+numpy==1.19.5
