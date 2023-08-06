@@ -1,0 +1,10 @@
+setup.py
+mukund_distributions/Binomialdistribution.py
+mukund_distributions/Gaussiandistribution.py
+mukund_distributions/Generaldistribution.py
+mukund_distributions/__init__.py
+mukund_distributions.egg-info/PKG-INFO
+mukund_distributions.egg-info/SOURCES.txt
+mukund_distributions.egg-info/dependency_links.txt
+mukund_distributions.egg-info/not-zip-safe
+mukund_distributions.egg-info/top_level.txt
