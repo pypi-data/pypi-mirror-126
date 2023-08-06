@@ -1,0 +1,12 @@
+ngoto/__init__.py,sha256=vTQ4YJ0-qheHHTzcxtb2EC-fEg18RlhaKnkjVRPeWVo,95
+ngoto/main.py,sha256=_hhj3YbMyNKaorqYAFzEnPH_ASslPLGV7jb-AfhwdaA,8269
+ngoto/utilities/__init__.py,sha256=TCx7UPeDS7DNlqt8VRHq7bP9e6sOWlLddEvf09XWqjI,182
+ngoto/utilities/interface.py,sha256=MwHhQCHASA7lZDqcko_V_uvj2waD3CQmRMEhr3z6HG8,2306
+ngoto/utilities/plugin.py,sha256=2aiTrrwDlaXnmsP-4MWr73vfUsMti7AHwsOspKohqRw,649
+ngoto/utilities/tables.py,sha256=8VeFgldQRBkbTGlUiGoqT-V1xWbGy3Kfvub-RbZy0V8,3003
+ngoto/utilities/workplace.py,sha256=5fzK26Uz-jGnks68-AXD8KGfsXy4NH8TzbFNbJOVsEI,4817
+Ngoto-0.0.16.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+Ngoto-0.0.16.dist-info/METADATA,sha256=ec2KK9SisRduSLdLwLFDHsE6t5XrgybK64MY-C5ttic,578
+Ngoto-0.0.16.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+Ngoto-0.0.16.dist-info/top_level.txt,sha256=zjdhZEsWmE0ZcEXoI2WSWMn3VXkIGVODEXfvzAKOBDU,6
+Ngoto-0.0.16.dist-info/RECORD,,
