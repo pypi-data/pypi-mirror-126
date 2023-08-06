@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sphericalrht
+Version: 1.0.1
+Summary: Spherical implementation of the Rolling Hough Transform
+Home-page: https://github.com/georgehalal/sphericalrht
+Author: George Halal
+Author-email: halalgeorge@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/georgehalal/sphericalrht/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+UNKNOWN
+
