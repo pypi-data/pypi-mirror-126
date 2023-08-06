@@ -1,0 +1,2 @@
+ray[serve]>=1.7.0
+mlflow>=1.12.0
