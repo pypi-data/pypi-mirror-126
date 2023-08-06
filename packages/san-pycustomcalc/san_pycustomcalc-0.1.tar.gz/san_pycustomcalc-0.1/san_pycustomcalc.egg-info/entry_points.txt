@@ -1,0 +1,3 @@
+[console_scripts]
+calcc = pycustomcalculator.app:start_app
+
