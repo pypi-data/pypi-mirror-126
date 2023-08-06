@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bvx-pytest
+Version: 0.0.4
+Summary: pytest helpers.
+Home-page: https://github.com/kotsutsumi/bvx-pytest
+Author: Kazuhiro Kotsutsumi
+License: The MIT License
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: bvx-docker
+Requires-Dist: bvx-network
+Requires-Dist: docker
+Requires-Dist: elasticsearch
+
+UNKNOWN
+
