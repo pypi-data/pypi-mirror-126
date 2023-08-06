@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="ASCII" ?>
+<OUT>
+  <IN>
+    <SIMULATION EPSGinput="0" affectation="statique" affectation_alpha="0.05" affectation_angle_tout_droit="30" affectation_astar_beta="1.3" affectation_beta="20" affectation_calculKSP="Dijkstra" affectation_commonality_alpha="0" affectation_commonality_beta="0.5" affectation_commonality_filter="false" affectation_commonality_gamma="1" affectation_equilibre="NE" affectation_estimation_attente_feux="true" affectation_facteur_penalite_tourne_a_droite="1.1" affectation_facteur_penalite_tourne_a_gauche="1.5" affectation_gamma="20" affectation_heuristique="aucune" affectation_heuristique_gamma="5" affectation_mode="logit" affectation_nb_connexion_amont="1" affectation_nb_it_max="100" affectation_penalite_non_prioritaire="5" affectation_penalite_tourne_a_droite="1" affectation_reroutage="false" affectation_reroutage_dstmax="0" affectation_seuil_convergence="0.1" affectation_seuil_tempsdeparcours="0.1" affectation_teta_logit="0.01" affectation_type_temps_de_parcours="R" affectation_variation_temps_de_parcours="1" affectation_wardrop_tolerance="0.01" calcul_tq_convergent="false" comportementflux="iti" date="1985-01-17" debut="00:00:00" extension_barycentre_sirane="false" fin="00:00:30" id="simID" loipoursuite="exacte" longueur_cell_acoustique="0" min_longueur_cell_sirane="10" nb_cell_acoustique="0" nb_cell_sirane="3" nombre_pluscourtchemin="1" offre_aval_convergent_deltaN="false" pasdetemps="1" periode_affectation="900" periode_agregation_sirane="300" proc_dec_taux="3" proc_deceleration="false" resolution="H" seed="1" simulation_acoustique="false" simulation_atmospherique="false" simulation_sirane="false" simulation_trafic="true" titre="" type_sortieacoustique="C" zone_distance_terminaison_max="INF">
+      <RESTITUTION EPSGoutput="0" affectation_sortie="false" chgt_voie_debug="false" csv="false" csv_type="tout" debug="false" debug_SAS="false" debug_matrice_OD="false" sortie="normal" sortie_gml="false" sortie_logs="true" sortie_logs_light="false" sortie_temps_parcours="false" sortie_temps_parcours_periode="900" trace_regime="false" trace_route="false" trace_stocks="false" trajectoires="true" vehicules_capteur_extraction="true" vgp_debug="0"/>
+    </SIMULATION>
+    <TRAFIC Beta="0.5" BetaInt="0.3" Gamma="1" Mu="1" PeriodeAgregationCapteurs="30" accbornee="true" agressivite="false" chgtvoie="true" chgtvoie_discr_ordre="GD" chgtvoie_dstfin="50" chgtvoie_dstfin_force_phi="1" chgtvoie_ghost="false" chgtvoie_ghost_durationMax="8" chgtvoie_ghost_durationMin="0" chgtvoie_ghost_lenghtBevel="20" chgtvoie_mandatory_falpha="0.5" chgtvoie_mandatory_mode="S" chgtvoie_mandatory_probabilite="U" coeffrelax="0.55" depassement="false" distance_depassement_chgt_direction="20" id="trafID" meso_nb_vehicules_chgt_voie="1" mode_depassement_chgt_direction="false" pos_cpt_Av="20" ti="0" traversees="true" tt="0">
+      <TRONCONS>
+        <TRONCON agressivite="false" id="Zone_001" penalisation="1"/>
+      </TRONCONS>
+      <TYPES_DE_VEHICULE>
+        <TYPE_DE_VEHICULE agressivite="1" ax="0.5" chgtvoie_tau="4" citygml_type="car" deceleration_ecart_type="0" depassement_tau="0.1" epsylon_0="0.055" epsylon_1="0.055" espacement_arret="1" eta_T_agressif="1.1" eta_T_timide="0.9" id="VL" kx="0.17" pi_rabattement="0.2" proportion_agressive="0.1" proportion_timide="0.1" vitesse_laterale="10" vx="25" w="-5.8823">
+          <ACCELERATION_PLAGES>
+            <ACCELERATION_PLAGE ax="1.5" vit_sup="5.8"/>
+            <ACCELERATION_PLAGE ax="1" vit_sup="8"/>
+            <ACCELERATION_PLAGE ax="0.5" vit_sup="infini"/>
+          </ACCELERATION_PLAGES>
+        </TYPE_DE_VEHICULE>
+        <TYPE_DE_VEHICULE agressivite="1" ax="0.5" chgtvoie_tau="4" citygml_type="car" deceleration_ecart_type="0" depassement_tau="0.1" epsylon_0="0.055" epsylon_1="0.055" espacement_arret="1" eta_T_agressif="1.1" eta_T_timide="0.9" id="VL2" kx="0.17" pi_rabattement="0.2" proportion_agressive="0.1" proportion_timide="0.1" vitesse_laterale="10" vx="25" w="-5.8823">
+          <ACCELERATION_PLAGES>
+            <ACCELERATION_PLAGE ax="1.5" vit_sup="5.8"/>
+            <ACCELERATION_PLAGE ax="1" vit_sup="8"/>
+            <ACCELERATION_PLAGE ax="0.5" vit_sup="infini"/>
+          </ACCELERATION_PLAGES>
+        </TYPE_DE_VEHICULE>
+      </TYPES_DE_VEHICULE>
+      <EXTREMITES>
+        <EXTREMITE id="Ext_In" typeCreationVehicule="listeVehicules">
+          <CREATION_VEHICULES>
+            <CREATION_VEHICULE destination="Ext_Out" instant="1.00" num_voie="1" typeVehicule="VL"/>
+          </CREATION_VEHICULES>
+        </EXTREMITE>
+        <EXTREMITE id="Ext_Out" typeCreationVehicule="demande"/>
+      </EXTREMITES>
+    </TRAFIC>
+    <RESEAU id="resID">
+      <TRONCONS>
+        <TRONCON chgt_voie_droite="true" extremite_amont="0 0" extremite_aval="800 0" id="Zone_001" id_eltamont="Ext_In" id_eltaval="Ext_Out" largeur_voie="3" longueur="0" nb_voie="1"/>
+      </TRONCONS>
+      <CONNEXIONS>
+        <EXTREMITES>
+          <EXTREMITE id="Ext_In"/>
+          <EXTREMITE id="Ext_Out"/>
+        </EXTREMITES>
+        <REPARTITEURS/>
+        <GIRATOIRES/>
+        <CARREFOURSAFEUX/>
+      </CONNEXIONS>
+      <PARAMETRAGE_VEHICULES_GUIDES/>
+    </RESEAU>
+  </IN>
+  <SIMULATION time="2021/11/05 18:39:59" version="Symubruit 9.0.0.0" debut="00:00:00" fin="00:00:30" seed="1">
+    <SYM_TRONCONS>
+      <SYM_TRONCON extremite_amont="0.00 0.00 0.00" extremite_aval="800.00 0.00 0.00" largeur_voie="3.00" lib="Zone_001" longueur="800.00" nb_voie="1"/>
+    </SYM_TRONCONS>
+    <SYM_CONNEXIONS>
+      <SYM_ENTREES>
+        <SYM_ENTREE coordonnees="0.00 0.00 0.00" lib="Ext_In"/>
+      </SYM_ENTREES>
+      <SYM_SORTIES>
+        <SYM_SORTIE coordonnees="800.00 0.00 0.00" lib="Ext_Out"/>
+      </SYM_SORTIES>
+    </SYM_CONNEXIONS>
+    <SYM_CAPTEURS/>
+    <ARRETS/>
+    <INSTANTS>
+      <INST nbVeh="0" val="1.00">
+        <CREATIONS>
+          <CREATION entree="Ext_In" id="0" sortie="Ext_Out" type="VL"/>
+        </CREATIONS>
+        <SORTIES/>
+        <TRAJS/>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="1"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="2.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="25.00" acc="0.00" dst="25.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="3.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="50.00" acc="0.00" dst="50.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="4.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="75.00" acc="0.00" dst="75.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="5.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="100.00" acc="0.00" dst="100.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="6.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="125.00" acc="0.00" dst="125.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="7.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="150.00" acc="0.00" dst="150.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="8.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="175.00" acc="0.00" dst="175.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="9.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="200.00" acc="0.00" dst="200.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="10.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="225.00" acc="0.00" dst="225.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="11.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="250.00" acc="0.00" dst="250.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="12.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="275.00" acc="0.00" dst="275.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="13.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="300.00" acc="0.00" dst="300.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="14.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="325.00" acc="0.00" dst="325.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="15.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="350.00" acc="0.00" dst="350.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="16.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="375.00" acc="0.00" dst="375.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="17.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="400.00" acc="0.00" dst="400.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="18.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="425.00" acc="0.00" dst="425.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="19.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="450.00" acc="0.00" dst="450.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="20.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="475.00" acc="0.00" dst="475.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="21.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="500.00" acc="0.00" dst="500.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="22.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="525.00" acc="0.00" dst="525.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="23.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="550.00" acc="0.00" dst="550.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="24.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="575.00" acc="0.00" dst="575.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="25.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="600.00" acc="0.00" dst="600.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="26.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="625.00" acc="0.00" dst="625.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="27.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="650.00" acc="0.00" dst="650.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="28.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="675.00" acc="0.00" dst="675.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="29.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="700.00" acc="0.00" dst="700.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+      <INST nbVeh="1" val="30.00">
+        <CREATIONS/>
+        <SORTIES/>
+        <TRAJS>
+          <TRAJ abs="725.00" acc="0.00" dst="725.00" id="0" ord="0.00" tron="Zone_001" type="VL" vit="25.00" voie="1" z="0.00"/>
+        </TRAJS>
+        <STREAMS/>
+        <LINKS/>
+        <SGTS/>
+        <FEUX/>
+        <ENTREES>
+          <ENTREE id="Ext_In" nb_veh_en_attente="0"/>
+        </ENTREES>
+        <REGULATIONS/>
+      </INST>
+    </INSTANTS>
+    <VEHS>
+      <VEH agressif="false" dstParcourue="725.00" entree="Ext_In" id="0" instC="1.000" instE="1.000" instS="-1.00" itineraire="Zone_001" kx="0.170" lib="" sortie="Ext_Out" type="VL" vx="25.000" w="-5.882"/>
+    </VEHS>
+    <SGTS/>
+    <GESTION_CAPTEUR>
+      <CAPTEUR_GLOBAL/>
+      <CAPTEURS_PONCTUELS/>
+      <CAPTEURS_EDIE/>
+      <CAPTEURS_LONGITUDINAUX/>
+      <CAPTEURS_MFD/>
+      <CAPTEURS_BLUETOOTH/>
+      <CAPTEURS_RESERVOIRS/>
+    </GESTION_CAPTEUR>
+  </SIMULATION>
+</OUT>

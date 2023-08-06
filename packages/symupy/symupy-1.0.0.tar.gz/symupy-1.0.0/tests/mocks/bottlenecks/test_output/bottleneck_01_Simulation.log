@@ -1,0 +1,70 @@
+5/11/2021
+18:39:59
+
+seed : 1 ok
+Writing .txt files
+
+---- Realized travel time for every itinerary ---
+ Vehicle type : VL
+ Origin : Ext_In
+ Vehicle type : VL2
+ Origin : Ext_In
+
+Studied vehicle type : VL
+
+Computing shortest paths from Ext_In to every destination : 
+Destination Ext_Out
+
+1 path(s) found ( 0 predefined )
+
+Itinerary 1 - Zone_001  - predicted cost : 32 - penalized cost : 32 - prev. assignment coeff. : 0 - new assignment coeff. : 0 - assignment coeff. : 1
+
+Studied vehicle type : VL2
+
+Vehicle type ignored.
+Assignment computation duration : 0.000127 s
+
+Running traffic simulation...
+
+Instant : 1
+Instant : 2
+Instant : 3
+Instant : 4
+Instant : 5
+Instant : 6
+Instant : 7
+Instant : 8
+Instant : 9
+Instant : 10
+Instant : 11
+Instant : 12
+Instant : 13
+Instant : 14
+Instant : 15
+Instant : 16
+Instant : 17
+Instant : 18
+Instant : 19
+Instant : 20
+Instant : 21
+Instant : 22
+Instant : 23
+Instant : 24
+Instant : 25
+Instant : 26
+Instant : 27
+Instant : 28
+Instant : 29
+Instant : 30
+
+Traffic simulation termination...
+
+
+Cumulated number of vehicles on the network for all time steps 30
+18:39:59
+
+Traffic flow computation duration : 0.002107 s
+
+Execution finished
+18:39:59
+
