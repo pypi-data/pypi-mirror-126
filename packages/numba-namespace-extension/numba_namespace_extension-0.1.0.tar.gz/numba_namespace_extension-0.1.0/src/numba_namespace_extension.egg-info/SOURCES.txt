@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/numba_namespace_extension/__init__.py
+src/numba_namespace_extension/registry.py
+src/numba_namespace_extension.egg-info/PKG-INFO
+src/numba_namespace_extension.egg-info/SOURCES.txt
+src/numba_namespace_extension.egg-info/dependency_links.txt
+src/numba_namespace_extension.egg-info/requires.txt
+src/numba_namespace_extension.egg-info/top_level.txt
