@@ -1,0 +1,11 @@
+breathe
+lcov_cobertura
+m2r2
+nbsphinx
+nbsphinx-link
+nbval
+pre-commit
+pytest
+pytest-cov
+sphinx
+sphinx_rtd_theme
