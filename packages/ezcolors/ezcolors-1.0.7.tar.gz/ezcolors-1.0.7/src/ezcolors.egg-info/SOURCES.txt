@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/ezcolors/Colors.py
+src/ezcolors/__init__.py
+src/ezcolors/names.json
+src/ezcolors/palettes.py
+src/ezcolors/utilities.py
+src/ezcolors/web.json
+src/ezcolors.egg-info/PKG-INFO
+src/ezcolors.egg-info/SOURCES.txt
+src/ezcolors.egg-info/dependency_links.txt
+src/ezcolors.egg-info/requires.txt
+src/ezcolors.egg-info/top_level.txt
