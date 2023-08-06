@@ -1,0 +1,6 @@
+setup.py
+PyClockQe.egg-info/PKG-INFO
+PyClockQe.egg-info/SOURCES.txt
+PyClockQe.egg-info/dependency_links.txt
+PyClockQe.egg-info/top_level.txt
+PyClockQe2/__init__.py
