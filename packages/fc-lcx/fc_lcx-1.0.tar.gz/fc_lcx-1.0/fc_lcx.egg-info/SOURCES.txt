@@ -1,0 +1,5 @@
+setup.py
+fc_lcx.egg-info/PKG-INFO
+fc_lcx.egg-info/SOURCES.txt
+fc_lcx.egg-info/dependency_links.txt
+fc_lcx.egg-info/top_level.txt
