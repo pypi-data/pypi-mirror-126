@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hexea
+Version: 0.1.0.dev0
+Summary: Python library for the games of Hex and Y
+Home-page: https://git.cholling.com/cholling/hexea
+License: MIT
+Author: Chip Hollingsworth
+Author-email: cholling@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://git.cholling.com/cholling/hexea
+Description-Content-Type: text/markdown
+
+This is a simple library for working with the closely related connection games of Y and Hex.  This is not meant to be a standalone, playable game, but rather a set of tools one could use to implement such a game, train a machine learning model to play a game, and so forth.
+
