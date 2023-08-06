@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: oguzun-hesap-makinasi
+Version: 2.0.0
+Summary: muratin hesap makinasi
+Home-page: https://github.com/muratcabuk/muratin-hesap-makinasi
+Author: murat cabuk
+Author-email: mcabuk@gmail.com
+License: MIT
+Description: Bu paket ÅŸu iÅŸe yarar ÅŸunlarÄ± yapar vs vs gibi birÅŸeyler yazmasÄ± gerekiyor.
+        
+        
+        paketi sÄ±fÄ±rdan kurup pypi.org a atmak iÃ§in lattaki komutlar kullanÄ±nÄ±z
+        
+        
+        ```shell
+        python3 setup.py sdist bdist_wheel
+        
+        # paketimiz hazÄ±r ÅŸimdi paketimizi doÄŸrulayalÄ±m
+        twine check dist/*
+        
+        # upload iÃ§in doÄŸrulama. pypi.org domaini deÄŸl test.pypi.org sitesine ayrÄ±ca Ã¼ye olmak gerekiyor.
+        twine upload -r testpypi dist/*
+        # eÄŸer buraya publish yapabildiyseniz artÄ±k gerÃ§ek yere publish yapÄ±labilir
+        
+        twine upload dist/*
+        ```
+        
+        Kurumu yaptÄ±ktan sonra kullanÄ±m
+        
+        ```python
+        from muratin_hesap_makinasi import HesapMakinasi
+        
+        hm = HesapMakinasi()
+        
+        hm.topla(3,2)
+        # sonuc 5
+        ```
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

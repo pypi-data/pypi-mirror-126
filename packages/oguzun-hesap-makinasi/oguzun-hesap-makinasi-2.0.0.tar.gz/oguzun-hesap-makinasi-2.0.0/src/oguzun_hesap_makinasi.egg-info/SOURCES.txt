@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/oguzun_hesap_makinasi/__init__.py
+src/oguzun_hesap_makinasi/__main__.py
+src/oguzun_hesap_makinasi/hesap_makinasi.py
+src/oguzun_hesap_makinasi.egg-info/PKG-INFO
+src/oguzun_hesap_makinasi.egg-info/SOURCES.txt
+src/oguzun_hesap_makinasi.egg-info/dependency_links.txt
+src/oguzun_hesap_makinasi.egg-info/entry_points.txt
+src/oguzun_hesap_makinasi.egg-info/requires.txt
+src/oguzun_hesap_makinasi.egg-info/top_level.txt
