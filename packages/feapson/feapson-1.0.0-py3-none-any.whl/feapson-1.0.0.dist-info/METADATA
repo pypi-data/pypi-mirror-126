@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: feapson
+Version: 1.0.0
+Summary: Same as json.dumps or json.loads, feapson supprot feapson.dumps and feapson.loads
+Home-page: https://github.com/Boris-code/feapson.git
+Author: Boris
+Author-email: boris_liu@foxmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# feapson
+
+Same as json.dumps or json.loads, feapson support feapson.dumps and feapson.loads
+
+Example:
+
+```python
+>>> import feapson
+>>> feapson.dumps({"a": True, "b": False, "c": [1, 2, 3]})
+'{"a": True, "b": False, "c": [1, 2, 3]}'
+
+>>> feapson.dumps({"a": True, "b": False, "c": [1, 2, 3]}, indent=4, ensure_ascii=False)
+'''{
+    "a": True,
+    "b": False,
+    "c": [
+        1,
+        2,
+        3
+    ]
+}'''
+
+>>> feapson.loads('{"a": True, "b": False, "c": [1, 2, 3]}')
+{'a': True, 'b': False, 'c': [1, 2, 3]}
+
+>>> feapson.loads('{"a": true, "b": false, "c": [1, 2, 3]}')
+{'a': True, 'b': False, 'c': [1, 2, 3]}
+```
+
