@@ -1,0 +1,2 @@
+SQLAlchemy>=1.2
+libscrc<2.0,>=1.5
