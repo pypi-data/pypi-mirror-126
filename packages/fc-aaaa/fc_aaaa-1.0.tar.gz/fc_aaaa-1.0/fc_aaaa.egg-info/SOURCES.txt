@@ -1,0 +1,6 @@
+fc_xd_aaaa.py
+setup.py
+fc_aaaa.egg-info/PKG-INFO
+fc_aaaa.egg-info/SOURCES.txt
+fc_aaaa.egg-info/dependency_links.txt
+fc_aaaa.egg-info/top_level.txt
