@@ -1,0 +1,2 @@
+include doc2map/src/*.js
+include doc2map/src/*.html
