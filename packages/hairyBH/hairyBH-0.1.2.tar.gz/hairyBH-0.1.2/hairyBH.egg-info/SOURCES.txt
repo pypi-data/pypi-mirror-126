@@ -1,0 +1,9 @@
+README.md
+setup.py
+hairyBH/BlackHole.py
+hairyBH/__init__.py
+hairyBH.egg-info/PKG-INFO
+hairyBH.egg-info/SOURCES.txt
+hairyBH.egg-info/dependency_links.txt
+hairyBH.egg-info/requires.txt
+hairyBH.egg-info/top_level.txt
