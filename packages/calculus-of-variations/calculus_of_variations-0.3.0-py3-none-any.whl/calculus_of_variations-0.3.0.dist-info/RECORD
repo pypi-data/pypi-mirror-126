@@ -1,0 +1,13 @@
+calculus_of_variations/__init__.py,sha256=dhsvtDg62uqjfoLWVo7KjHsh8dn_53ZWueBOKcqhalQ,431
+calculus_of_variations/abstract_problem.py,sha256=TIFFcaI_NlDlqMv0VyyFNi3E8QfdAURKpfqY8Bsx4KQ,1482
+calculus_of_variations/boltz_problem.py,sha256=I3iYzIZ8lo7o7zcOqrZD8DqCE-mYqo-dxsJ_d5-bymk,3724
+calculus_of_variations/higher_derivatives_problem.py,sha256=j5sIDGmE5_8KKLGLj6fOzNLpCau-8LR5PS7wb0uWgrI,5917
+calculus_of_variations/isoperimetric_problem.py,sha256=s9DldQ9M36Zl2Crc8CfoBGuXSJAJlqCaZxqVsWEbM00,5485
+calculus_of_variations/multidimensional_problem.py,sha256=DNLyHcxhtIRo_g5yQZxMr4iZflru4zJfrfticgucBGo,7238
+calculus_of_variations/simplest_problem.py,sha256=CmZv2v9nvmWBwE2pgMoE5X0kAk-9p-_hAn10tShL5Pg,3266
+calculus_of_variations/utils.py,sha256=XFEcGcoeSbB97S6w7_H_vrq0NcL7NUG7hDtn0N_uQoE,2099
+calculus_of_variations-0.3.0.dist-info/LICENSE,sha256=UTO8B5JAGoD8oqf96ZayDSm05U9AiFyHQLTdfgBXJLQ,1071
+calculus_of_variations-0.3.0.dist-info/METADATA,sha256=TjfUCv66HVeXgKg3SNMoXhr0VWR5kYdad6HVKhu4ufU,10298
+calculus_of_variations-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+calculus_of_variations-0.3.0.dist-info/top_level.txt,sha256=gPpdWwWgdYEBqPhqqv499PtEn6iCQTOQcUA_7HaYyOc,23
+calculus_of_variations-0.3.0.dist-info/RECORD,,
