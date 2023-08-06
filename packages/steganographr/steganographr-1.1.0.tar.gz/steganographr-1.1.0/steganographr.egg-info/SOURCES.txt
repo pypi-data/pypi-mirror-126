@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+steganographr/__init__.py
+steganographr/__main__.py
+steganographr.egg-info/PKG-INFO
+steganographr.egg-info/SOURCES.txt
+steganographr.egg-info/dependency_links.txt
+steganographr.egg-info/entry_points.txt
+steganographr.egg-info/top_level.txt

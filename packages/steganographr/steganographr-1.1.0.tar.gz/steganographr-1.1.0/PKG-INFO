@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: steganographr
+Version: 1.1.0
+Summary: Hide text in plain sight using invisible zero-width characters.
+Home-page: https://github.com/JMcB17/steganographr-python
+Author: JMcB
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Security
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# steganographr-python
+Port of neatnik/steganographr into a usable language
+
+https://github.com/neatnik/steganographr
+
+Install:
+
+```bash
+pip install steganographr
+```
+
+Primary functions:
+- steganographr.encode
+- steganographr.decode
+
+As a command line program
+`python3 -m steganographr -h` or `steganographr -h` or `stegnr -h`
+
+
