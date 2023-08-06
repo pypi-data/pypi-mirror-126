@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: GSMEncoding
+Version: 0.0.1
+Summary:  This file implements encode/decode functions for GSM (SMS). 
+Home-page: https://github.com/mauricelambert/GSMEncoding
+Author: Maurice Lambert
+Author-email: mauricelambert434@gmail.com
+Maintainer: Maurice Lambert
+Maintainer-email: mauricelambert434@gmail.com
+License: GPL-3.0 License
+Project-URL: Documentation, https://mauricelambert.github.io/info/python/security/GSMEncoding.html
+Keywords: GSM,SMS,Encoding
+Platform: Windows
+Platform: Linux
+Platform: MacOS
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Communications
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+![GSMEncoding logo](https://mauricelambert.github.io/info/python/code/gsm_small_background.png "GSMEncoding logo")
+
+# GSMEncoding
+
+## Description
+
+This file implements encode/decode functions for GSM (Global System for Mobile Communications - SMS - 2G).
+
+## Requirements
+
+This package require :
+ - python3
+ - python3 Standard Library
+
+## Installation
+```bash
+pip install GSMEncoding
+```
+
+## Usages
+
+```python
+from GSMEncoding import gsm7bitencode, gsm7bitdecode
+
+assert gsm7bitencode("Unit Test") == "55779A0EA296E774"
+assert gsm7bitdecode("55779A0EA296E774").rstrip("\x00") == "Unit Test"
+assert gsm7bitdecode(gsm7bitencode(b'Unit Test')).rstrip(b"\x00") == b"Unit Test"
+```
+
+## Links
+
+ - [Github Page](https://github.com/mauricelambert/GSMEncoding/)
+ - [Documentation](https://mauricelambert.github.io/info/python/code/GSMEncoding.html)
+ - [Pypi package](https://pypi.org/project/GSMEncoding/)
+
+## Licence
+
+Licensed under the [GPL, version 3](https://www.gnu.org/licenses/).
+
+
