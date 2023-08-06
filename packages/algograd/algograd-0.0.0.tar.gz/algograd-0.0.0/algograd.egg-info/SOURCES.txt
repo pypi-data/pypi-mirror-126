@@ -1,0 +1,6 @@
+setup.py
+algograd.egg-info/PKG-INFO
+algograd.egg-info/SOURCES.txt
+algograd.egg-info/dependency_links.txt
+algograd.egg-info/requires.txt
+algograd.egg-info/top_level.txt
