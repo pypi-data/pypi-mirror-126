@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/zeroslib.egg-info/PKG-INFO
+src/zeroslib.egg-info/SOURCES.txt
+src/zeroslib.egg-info/dependency_links.txt
+src/zeroslib.egg-info/top_level.txt
+src/zeroslib_package/__init__.py
+src/zeroslib_package/zeroslib.py
