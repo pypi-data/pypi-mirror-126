@@ -1,0 +1,4 @@
+fireinfluxdb
+pantilthat
+pyserial_asyncio
+threading
