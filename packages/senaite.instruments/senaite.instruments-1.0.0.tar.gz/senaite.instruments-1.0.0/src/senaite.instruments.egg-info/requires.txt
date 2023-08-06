@@ -1,0 +1,11 @@
+setuptools
+senaite.api
+senaite.core
+xlrd
+openpyxl==2.6.4
+
+[test]
+Products.PloneTestCase
+plone.app.testing
+robotsuite
+unittest2
