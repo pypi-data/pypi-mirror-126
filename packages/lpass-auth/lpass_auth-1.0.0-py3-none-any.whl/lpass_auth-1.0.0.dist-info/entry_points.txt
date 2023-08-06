@@ -1,0 +1,3 @@
+[console_scripts]
+lpass-auth=lpass_auth.cli:main
+

@@ -1,0 +1,8 @@
+lpass_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lpass_auth/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+lpass_auth/api.py,sha256=CiXZMP_XmYvLtC1w1odzdyINatzTfhNwitoQwE_tYfM,2998
+lpass_auth/cli.py,sha256=KS64gC4XCc0p9Aig_F2ZqlKnT-2QRfb_s3cUGPl_oDM,2290
+lpass_auth-1.0.0.dist-info/entry_points.txt,sha256=fZ4qemsvpKKuM7BirIC9-X2b3aEJmhss9o9X-hTAy-o,50
+lpass_auth-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+lpass_auth-1.0.0.dist-info/METADATA,sha256=l6Zu46r_2cWUzYDCIDE8JSQhnhfcVT5hfLSppllXJLY,2716
+lpass_auth-1.0.0.dist-info/RECORD,,
