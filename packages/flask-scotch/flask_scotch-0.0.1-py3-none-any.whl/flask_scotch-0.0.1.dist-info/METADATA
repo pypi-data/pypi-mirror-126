@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: flask-scotch
+Version: 0.0.1
+Summary: Tape a REST API with a local database
+Home-page: https://github.com/AzariasB/flask-scotch
+Author: AzariasB
+Maintainer: AzariasB
+License: MIT
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development
+Classifier: Topic :: Database
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Flask (>=2.0.1)
+Requires-Dist: SQLAlchemy (>=1.4.18)
+Requires-Dist: pydantic (>=1.8.2)
+Requires-Dist: aiohttp (>=3.8.0)
+
+# Flask Scotch
+
+Tape a REST API with a local database
+
+## Key Features
+
+- Represent remote model in the form of a python class to be able to manipuldate easily
+- Fetch objects from the database or from the remote API using the attributes of the declared models
+- Update/delete/create object on the remote API using the declared models
+
+## Install
+
+TODO
+
+## Getting started
+
+Firs, you need to register the extension in flask
+
+```python
+from flask_scotch import FlaskScotch
+from flask import Flask
+
+# Configure the URL of the remote API with the configuration
+# SCOTCH_API_URL='https://mysite.com/api/v1'
+
+# Register the sqlAlchemy engine with flask-sqlalchemy, or provide it directly
+# in the constructor
+
+scotch = FlaskScotch()
+
+app = Flask()
+
+scotch.init_app(app)
+```
+
+Then, you can declare the "remote model", that is, the model present on the remote server.
+
+```python
+from flask_scotch import RemoteModel
+
+
+class Item(RemoteModel):
+    __remote_directory__ = 'items'
+
+    id: int
+    name: str
+    description: str
+
+
+# You can then use this model to fetch data from the remote api:
+all_items = await Item.api.all()
+
+nw_item = Item(name='pen', description='a green pen to write things')
+
+final_item = await Item.api.create(nw_item)
+
+final_item.name = 'green pen'
+await final_item.update()
+await final_item.delete()
+```
+
+
