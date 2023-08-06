@@ -1,0 +1,4 @@
+pyyaml
+
+[make_html_report]
+codereport
