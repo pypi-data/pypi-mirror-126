@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+aproc/__init__.py
+aproc/_version.py
+aproc/worker.py
+aproc.egg-info/PKG-INFO
+aproc.egg-info/SOURCES.txt
+aproc.egg-info/dependency_links.txt
+aproc.egg-info/top_level.txt
