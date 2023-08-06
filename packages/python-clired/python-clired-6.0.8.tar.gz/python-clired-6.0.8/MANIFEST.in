@@ -1,0 +1,9 @@
+include blocks/mine/*.py 
+include blocks/mine/*.xml
+include blocks/mine/*.xsl
+include blocks/mine/*.txt
+include blocks/mine/grako/*.py
+include blocks/work/*.py 
+include CHANGELOG
+include LICENSE 
+include MANIFEST.in
