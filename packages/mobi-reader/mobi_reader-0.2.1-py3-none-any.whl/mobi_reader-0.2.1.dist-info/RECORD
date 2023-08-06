@@ -1,0 +1,9 @@
+mobi/__init__.py,sha256=5D5Nf4qPjyQItkR44EjzPnwP2Z9JT2JwETXiMjZC2nM,43
+mobi/lz77.py,sha256=c2ivLc3IjejRUPPPM0u8u17KRF5BT66uiYsP2Gtym9M,923
+mobi/mobi.py,sha256=x6AzcAoE9erPXXS7IwoARNBjr31vZhwOoL8PojikHtI,9251
+mobi/type.py,sha256=jxbTO9X4JiROS4JclLga55naeBr1cZk4o1vjlOGRzhE,107
+mobi_reader-0.2.1.dist-info/LICENSE,sha256=bb-NSgaRW7H5aH42jLmqLYcT4ObKnGNw-h0xo5xHPhw,1064
+mobi_reader-0.2.1.dist-info/METADATA,sha256=DhtO6mx0BlyCBQC5BVA9RIxfWYo-h4f0Yit37iWEVk8,1430
+mobi_reader-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mobi_reader-0.2.1.dist-info/top_level.txt,sha256=4_kfggrdpNITXB18hgD-RbQ4dzWkQqVpE7ztCplb7yY,5
+mobi_reader-0.2.1.dist-info/RECORD,,
