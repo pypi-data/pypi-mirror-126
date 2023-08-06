@@ -1,0 +1,8 @@
+Setup.py
+build_proj.egg-info/PKG-INFO
+build_proj.egg-info/SOURCES.txt
+build_proj.egg-info/dependency_links.txt
+build_proj.egg-info/entry_points.txt
+build_proj.egg-info/not-zip-safe
+build_proj.egg-info/requires.txt
+build_proj.egg-info/top_level.txt
