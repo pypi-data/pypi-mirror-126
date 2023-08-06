@@ -1,0 +1,16 @@
+absl-py
+dataclasses
+flax
+gym
+grpcio
+jax
+jaxlib
+numpy
+optax
+Pillow
+pytinyrenderer
+tensorboardX
+
+[develop]
+pytest
+transforms3d
