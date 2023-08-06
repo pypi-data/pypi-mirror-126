@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.cfg
+setup.py
+fit.pyt.translator.egg-info/PKG-INFO
+fit.pyt.translator.egg-info/SOURCES.txt
+fit.pyt.translator.egg-info/dependency_links.txt
+fit.pyt.translator.egg-info/top_level.txt
