@@ -1,0 +1,11 @@
+setup.py
+vsmmath/__init__.py
+vsmmath/add.py
+vsmmath/subtract.py
+vsmmath.egg-info/PKG-INFO
+vsmmath.egg-info/SOURCES.txt
+vsmmath.egg-info/dependency_links.txt
+vsmmath.egg-info/top_level.txt
+vsmmath/extras/__init__.py
+vsmmath/extras/divide.py
+vsmmath/extras/multiply.py

@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: vsmmath
+Version: 0.0.1
+Summary: Very simple module to add, subtract, multiply and divide two numbers
+Home-page: UNKNOWN
+Author: Shrikant Adhikarla
+Author-email: shrikant.adhikarla7@gmail.com
+License: UNKNOWN
+Description: Very simple module to add, subtract, multiply and divide two numbers
+Keywords: python,firstpackage
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Education
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
