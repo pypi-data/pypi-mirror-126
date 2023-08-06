@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/PracticePackage/__init__.py
+src/PracticePackage/perceptron.py
+src/PyPi_SutirthaSahu.egg-info/PKG-INFO
+src/PyPi_SutirthaSahu.egg-info/SOURCES.txt
+src/PyPi_SutirthaSahu.egg-info/dependency_links.txt
+src/PyPi_SutirthaSahu.egg-info/requires.txt
+src/PyPi_SutirthaSahu.egg-info/top_level.txt
