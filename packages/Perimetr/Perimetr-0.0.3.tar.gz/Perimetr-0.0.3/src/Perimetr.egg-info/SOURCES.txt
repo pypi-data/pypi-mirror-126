@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Perimetr/__init__.py
+src/Perimetr/monitor.py
+src/Perimetr.egg-info/PKG-INFO
+src/Perimetr.egg-info/SOURCES.txt
+src/Perimetr.egg-info/dependency_links.txt
+src/Perimetr.egg-info/top_level.txt
