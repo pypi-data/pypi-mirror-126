@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.cfg
+setup.py
+simplepipeline/simplepipeline.egg-info/PKG-INFO
+simplepipeline/simplepipeline.egg-info/SOURCES.txt
+simplepipeline/simplepipeline.egg-info/dependency_links.txt
+simplepipeline/simplepipeline.egg-info/requires.txt
+simplepipeline/simplepipeline.egg-info/top_level.txt
