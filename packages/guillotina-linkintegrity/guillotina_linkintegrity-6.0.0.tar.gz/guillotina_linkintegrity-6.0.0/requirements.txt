@@ -1,0 +1,4 @@
+guillotina>=6.3.0
+aioredis
+pypika
+lxml
