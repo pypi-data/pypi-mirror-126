@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mockingpy
+Version: 1.0.0
+Summary: Create galaxy mock spectra (and more) using Python.
+Home-page: https://github.com/Chia-vie/mockingpy
+Author: Christine Ackerl, based on work by Alina Boecker
+Author-email: christine.ackerl@univie.ac.at
+License: BSD
+Keywords: astronomy,astrophysics,galaxies,spectra,...
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: BSD License
+License-File: LICENCE
+
+This package is currently under development. Stay tuned for updates.
+
