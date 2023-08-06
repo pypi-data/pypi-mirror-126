@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: brain-games-by-ms
+Version: 0.1.0
+Summary: Brain-games, project on hexlet
+Home-page: https://github.com/mickysmt/python-project-lvl1
+Author: Mikhail Smotrin
+Author-email: iseeuqq@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Education
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
+Requires-Dist: prompt (>=0.4.1,<0.5.0)
+Project-URL: Repository, https://github.com/mickysmt/python-project-lvl1
