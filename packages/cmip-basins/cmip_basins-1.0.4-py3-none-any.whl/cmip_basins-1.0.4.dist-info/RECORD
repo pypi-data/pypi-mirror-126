@@ -1,0 +1,9 @@
+cmip_basins/__init__.py,sha256=O2ThBMmi5td3m9hnWAweAU8AzWk0LoSKbmaRYom51Uc,66
+cmip_basins/basins.py,sha256=QvrtvRI8ROFio7Vpj039OOlJfqXuJg_HoRIEc7jvPd0,3627
+cmip_basins/cmip6.py,sha256=VVoEMHLH8lMj0aNr8DE53pY35ehJPGeW9xR5H_Sz7Hg,9345
+cmip_basins/gfdl.py,sha256=Jbl2VozHLVWLgzPP28yWj-j4M5sVu72B-f9L8dv3T5Q,15839
+cmip_basins-1.0.4.data/scripts/basins.py,sha256=RysRWuOthChjaNT53JdBZBeKUQr_mIoxgNtuuA7YXnM,3614
+cmip_basins-1.0.4.dist-info/METADATA,sha256=jv7N2sFGFB3BwWvDjetj-lWmaHznPQt45Cag0ltZVDc,1213
+cmip_basins-1.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cmip_basins-1.0.4.dist-info/top_level.txt,sha256=ybrvmNNUw2jkuDG27CeSgA7IDL5yHgyUxup3iNOy8Oc,12
+cmip_basins-1.0.4.dist-info/RECORD,,
