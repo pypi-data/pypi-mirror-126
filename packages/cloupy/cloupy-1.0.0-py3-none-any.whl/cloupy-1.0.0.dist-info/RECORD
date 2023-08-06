@@ -1,0 +1,17 @@
+cloupy/__init__.py,sha256=5Yr7WBxvZZqNIeyMnhnDU1ONJFLiTElVn2ECviAQsQQ,7202
+cloupy/diagrams/walter_lieth.py,sha256=likNXonq4z0axcBNtu6ukhT7fN-7gmmAioyl5q7rWao,50138
+cloupy/scraping/imgw.py,sha256=mlVhYsqft7TUitrCQ5X4TJmiygtNgp53xnWq-oc-mzQ,34696
+cloupy/scraping/imgw_coordinates.csv,sha256=4_4Qq0YB3JFJuy8AaZwGsosRDpA5twGxyEZtXXpSu9g,55861
+cloupy/scraping/wmo.py,sha256=DtlRUI96XlcUtAwQ400e_kciqJnwwXYbgkXUfR-vEvU,16626
+cloupy/scraping/wmo_ids_and_coords.csv,sha256=-yjQ0qc5Y4MzGSIsrhYvEr98aKoRamUP6Jo6IxWc5JQ,401939
+cloupy/test/test_integration/test_integration_imgw.py,sha256=q5IfAhT-jDE89kkHcfAnn5rieEuFjEZvrWFnOvlcAg4,4823
+cloupy/test/test_integration/test_integration_walter_lieth.py,sha256=BMBHq66fUiu4pQ6H5OfmNw7axJiKiDI22VGgaYRo9RQ,1664
+cloupy/test/test_integration/test_integration_wmo.py,sha256=bfJKWH_GBnPxgwpcUA0orQJPsNibz-UWzBsvcFIlxaM,4891
+cloupy/test/test_unit/test_unittest_imgw.py,sha256=8cHUBpBgIuGsHaQv-nXhKuYMRZTYdfrA54c5IByyArU,4410
+cloupy/test/test_unit/test_unittest_walter_lieth.py,sha256=ACawxL1bwmSpCqKauSvcHmjsqvUbMJeI-4EhKVX6_Hg,4235
+cloupy/test/test_unit/test_unittest_wmo.py,sha256=OKJRR-b4uApIjdSj1ucrYA2LRzCj5k3USkFrzriRhUc,11355
+cloupy-1.0.0.dist-info/LICENSE.md,sha256=_LCv830vv7CuCbH2VwgRgKCZYNcOKA7xC3SjSwQqXEw,1089
+cloupy-1.0.0.dist-info/METADATA,sha256=FvTWRvpxumAQH90-Q-BfpeHUKBbKZ-QPBscVCEUKTfw,11051
+cloupy-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cloupy-1.0.0.dist-info/top_level.txt,sha256=7aqKXRsLXqllvqyGb5CQZK91y1ONFLDzxRuwySAEV1o,7
+cloupy-1.0.0.dist-info/RECORD,,
