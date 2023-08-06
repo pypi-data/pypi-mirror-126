@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: AutoQuant
+Version: 0.0.2
+Summary: Auto Quant
+Home-page: https://github.com/marcnuth/AutoQuant
+Author: NAUTIDEA
+Author-email: xian@nautidea.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/marcnuth/AutoQuant/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AutoQuant
+Auto Quant
+
+
