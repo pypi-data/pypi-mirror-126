@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: personal_knowledge_library
+Version: 0.1.0
+Summary: Library to access Wacom's Personal Knowledge graph.
+Home-page: https://bitbucket.org/wacompa/personal-knowledge-lib/
+Author: Markus Weber
+Author-email: markus.weber@wacom.com
+License: Apache 2.0 License
+Keywords: semantic-knowledge;knowledge-graph
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
