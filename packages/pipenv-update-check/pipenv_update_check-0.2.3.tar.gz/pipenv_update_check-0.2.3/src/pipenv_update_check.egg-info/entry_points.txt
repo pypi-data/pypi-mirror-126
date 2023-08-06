@@ -1,0 +1,3 @@
+[console_scripts]
+pipenv-update-check = pipenv_update_check:main
+
