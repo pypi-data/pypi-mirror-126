@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ferrischat-cli
+Version: 0.0.0.post1
+Summary: This is a mirror package of terris, please install that instead.
+Home-page: https://github.com/FerrisChat/terris
+Author: Cryptex
+License: EUPL v1.2
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: terris
+
+# ferrischat-cli
+A CLI Client for @FerrisChat using FerrisWheel
+
+
