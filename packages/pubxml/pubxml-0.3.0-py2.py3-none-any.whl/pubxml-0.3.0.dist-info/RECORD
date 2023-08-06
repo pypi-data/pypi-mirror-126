@@ -1,0 +1,14 @@
+pubxml/__init__.py,sha256=s-swzcWaosdbqFnfyXUSSaEGRbEDzCVLEeG4PopgwvA,1367
+pubxml/builder.py,sha256=K7-JkTjoWTwXS47QL9WMDoVElQHI5C-WIYiz1kEfeRI,1560
+pubxml/element_maker.py,sha256=Q-JS65hDIiCm0DXCprKhCkSeCzI-n8CIG5p-3nf9YN8,584
+pubxml/file.py,sha256=eXpbvPCAcO9Avsl2goWbHLYfxjkITQGXGfbMvO-VK5I,910
+pubxml/image.py,sha256=zs8Sn0KaVy4IlCvNaFwVNael2jvH46eYfpGLfWwi458,919
+pubxml/schema.py,sha256=tS3Wkc5b5QAtyzpIeHlZInN7cpcX7VU2hFRQEqd0Hug,6668
+pubxml/xml.py,sha256=i-V412Arw0wZ2UqxdhX0a7SUWcO6xTOAQ1X_MKxksAk,3776
+pubxml/xslt.py,sha256=W83zJUlQ4Yj0Wm7B62pwVwMu-H43MGHvyJuKM1_BVs0,12105
+pubxml/xt.py,sha256=xlih3kCUX1XTrSG9BnQU5CQD8zEFZffRlVamXTuH53U,2663
+pubxml-0.3.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+pubxml-0.3.0.dist-info/METADATA,sha256=U-m_r4Wvs_p1dtfmiRU_6VHDM1CcwimWCiyUriYLfn4,667
+pubxml-0.3.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pubxml-0.3.0.dist-info/top_level.txt,sha256=AbcbThMm7FSWAeTiUDcVbPOje6e76M7jXD8eX-l_KYM,7
+pubxml-0.3.0.dist-info/RECORD,,
