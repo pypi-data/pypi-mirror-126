@@ -1,0 +1,4 @@
+[console_scripts]
+exli = exli.main:main
+xi = exli.main:main
+
