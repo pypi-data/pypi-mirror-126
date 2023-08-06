@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: wisdom-sdk
+Version: 0.0.5
+Summary: Wisdom SDK
+Home-page: https://nexstem.ai
+Author: CortexBCI Inc.
+Author-email: support@cortexbci.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://support.nexstem.ai
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NEXSTEM WISDOM SDK - PYTHON BINDING
+
+## Modules
+
+- DEVICE
+- STREAM
+- PREPROCESSING
+- VISUALIZATION (VIZ) - In Development
+- TRAINING - In Development
+  - EXPERIMENT
+  - MODELS
+    - MI 
+    - MI2
+    - SSVEP
+    - P300
+    - FACE
+    - EMOTION
+    - FOCUS
+- DEPLOY
+
+
