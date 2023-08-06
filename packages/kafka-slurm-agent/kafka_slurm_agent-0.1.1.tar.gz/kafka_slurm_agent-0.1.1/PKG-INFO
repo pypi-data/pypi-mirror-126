@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: kafka_slurm_agent
+Version: 0.1.1
+Summary: The Kafka Slurm Agent is a tool for submitting computing tasks to the Slurm queues on multiple clusters. It uses Kafka to asynchronously communicate with an agent installed on the cluster.It contains a monitoring tooland This package provides a set of tools for accessing protein databases and manipulating PDB/CIF files.
+Home-page: https://github.com/prubach/kafka-slurm-agent
+Author: Paweł Rubach
+Author-email: pawel.rubach@gmail.com
+License: UNKNOWN
+Description: # Kafka Slurm Agent
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
