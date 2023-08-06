@@ -1,0 +1,7 @@
+scaffold/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scaffold/web.py,sha256=ofOvWXXqn9SEQQkvSOlPTdKfPJY-Q1Zt0zglEcklFI4,1409
+flask_scaffolding-0.0.12.dist-info/LICENSE,sha256=UpsWl2S9E6mc-3xFqiT-FrVVWjtUUqehdGD42CD9Hbs,1091
+flask_scaffolding-0.0.12.dist-info/METADATA,sha256=ywTagOQOa6esi0oyCAHbww05cnVne1aQI58ClfUMLDk,652
+flask_scaffolding-0.0.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+flask_scaffolding-0.0.12.dist-info/top_level.txt,sha256=aLfYcjRWwVHB73DR9jvLh71eUnfVb37BudybADkmaSM,9
+flask_scaffolding-0.0.12.dist-info/RECORD,,
