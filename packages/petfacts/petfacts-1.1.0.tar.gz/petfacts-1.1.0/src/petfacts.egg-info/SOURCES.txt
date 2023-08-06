@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/petfacts/__init__.py
+src/petfacts/petfacts.py
+src/petfacts.egg-info/PKG-INFO
+src/petfacts.egg-info/SOURCES.txt
+src/petfacts.egg-info/dependency_links.txt
+src/petfacts.egg-info/entry_points.txt
+src/petfacts.egg-info/top_level.txt
