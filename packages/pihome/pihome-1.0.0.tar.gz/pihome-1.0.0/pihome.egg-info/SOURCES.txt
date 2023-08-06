@@ -1,0 +1,8 @@
+README.md
+server.py
+setup.py
+pihome.egg-info/PKG-INFO
+pihome.egg-info/SOURCES.txt
+pihome.egg-info/dependency_links.txt
+pihome.egg-info/requires.txt
+pihome.egg-info/top_level.txt
