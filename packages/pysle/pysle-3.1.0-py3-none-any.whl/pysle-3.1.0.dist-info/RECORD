@@ -1,0 +1,13 @@
+pysle/__init__.py,sha256=n6bugOP3pGyUAigEWnLCPN0CCKrlQEidLzwdgU84vmg,1279
+pysle/constants.py,sha256=52ZYWG3EMlBsh5b1_3mKZRwMIbApjiTeaLPQuUoQ5cc,716
+pysle/errors.py,sha256=9z62hELAWVrYDDba9Rfa2k3FssmuHsNRbGAGHMrhzTA,4823
+pysle/isletool.py,sha256=ma00mU28eIUkct4SwSJEoNIAJHzKfxN-ozbG-rUUZ74,18950
+pysle/praattools.py,sha256=bDLRcVdG0UqUpw1sBas9te_8Zeg7XoUHNVkWrLRjcAc,14558
+pysle/pronunciationtools.py,sha256=G8KuTeGi0TIg6cjcVZfGd_Rm1Z7LaLNZQDybki2FUJE,14082
+pysle/utils.py,sha256=29GlXWihyz0ZCaQU0QG5IL6GksxJPnTkaCJLffGVNro,226
+pysle/data/ISLEdict.txt,sha256=2Wiy_XU01oFzcutHbjltTCTlVROa1T4nevjPpyfHXEM,13662140
+pysle-3.1.0.dist-info/LICENSE,sha256=tdLvH51Y778f5xxJYxLcMH56dc6f1CEO8bLJ3m-rRbU,1366
+pysle-3.1.0.dist-info/METADATA,sha256=Is_upoJNqjC_QXjcMumooy77ivwV7XkmvMMHQhYOvzw,5988
+pysle-3.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pysle-3.1.0.dist-info/top_level.txt,sha256=XMVSceua-krNirDmDnyvnxx2PVueEjp4RNuWg_jJ-VA,6
+pysle-3.1.0.dist-info/RECORD,,
