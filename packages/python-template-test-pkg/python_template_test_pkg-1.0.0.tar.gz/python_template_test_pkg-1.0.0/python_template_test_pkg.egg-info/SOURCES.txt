@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+python_template_test_pkg/__init__.py
+python_template_test_pkg.egg-info/PKG-INFO
+python_template_test_pkg.egg-info/SOURCES.txt
+python_template_test_pkg.egg-info/dependency_links.txt
+python_template_test_pkg.egg-info/top_level.txt
