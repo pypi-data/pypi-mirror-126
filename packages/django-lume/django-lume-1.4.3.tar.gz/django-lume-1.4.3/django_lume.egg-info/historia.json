@@ -1,0 +1,32 @@
+[
+  {
+    "tyyppi": "muutos",
+    "tunnus": "5fc8ad8ad7cdfee75c6a712db90500e82c62bdf3",
+    "versio": "1.4.3",
+    "kuvaus": "PEP 517 -paketointi"
+  },
+  {
+    "tyyppi": "muutos",
+    "tunnus": "8ac87cb60ecfab738cdae2931d61690733227b13",
+    "versio": "1.4.2",
+    "kuvaus": "Valmius `prefetch_related`-aineiston hy\u00f6dynt\u00e4miseen lumeviittauksen laskennassa\n\n* oma saateluokkansa viittauskentt\u00e4\u00e4n liittyv\u00e4n m\u00e4\u00e4reen periytt\u00e4miseen\n* mahdollisuus palauttaa `EI_ASETETTU` laskentafunktiolta: rivikohtainen haku"
+  },
+  {
+    "tyyppi": "muutos",
+    "tunnus": "2cad32c0d00739b5097fc4a039fe9afc900b8160",
+    "versio": "1.4.1",
+    "kuvaus": "Nollataan lomakekent\u00e4n `EI_ASETETTU`-oletusarvo"
+  },
+  {
+    "tyyppi": "julkaisu",
+    "tunnus": "7abd2e225ac34cb2d55938235ec8e75a185e9ef7",
+    "versio": "1.4",
+    "kuvaus": "Versio 1.4"
+  },
+  {
+    "tyyppi": "muutos",
+    "tunnus": "03b1eaddc3885661acf37b0927f7b46d5fab0622",
+    "versio": "1.4",
+    "kuvaus": "Julkaisu"
+  }
+]
