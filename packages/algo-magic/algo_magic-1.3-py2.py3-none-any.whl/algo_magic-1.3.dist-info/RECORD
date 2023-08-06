@@ -1,0 +1,11 @@
+algo_magic/__init__.py,sha256=tQh9HXiORyACSclwj8zrUJPy9MBQF3RbDEQOLqDozZE,165
+algo_magic/algo_magic.py,sha256=zYs4t2faUebeE2ooruDOUsfWfLcVr-1btRVD97lVia4,358
+algo_magic/dis.py,sha256=JZM95WJ2Gh8LVdYgYwUGMzDSnFpDqDonY-L9f3AL3oY,502
+algo_magic/pep8.py,sha256=_6XQENCG3T84nxH6fJiVsxeYMkPldCn0u7pVGq1IUdc,718
+algo_magic/truth.py,sha256=zA8xuJapmaf3_kGvxCBryl4Ya6IPigSO5zPgphiPX1g,2827
+algo_magic/tutor.py,sha256=1ZR5nX3qDkNmnJ1d4XI_Ff1HFhLqdV3ktBkrL5Lij5E,1187
+algo_magic-1.3.dist-info/LICENSE,sha256=dzymBVBJmudJ22M1-z-628O8Hxh5aM1QW7pdpvZiwn0,1067
+algo_magic-1.3.dist-info/METADATA,sha256=Oimk0Wuf2kw4Zob3q9a5homq-hda6H3fIvDx7GjFhdI,1271
+algo_magic-1.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+algo_magic-1.3.dist-info/top_level.txt,sha256=0jqK9tX-LyntJJGufeWTammT7BPzeXjkfnrXooEgI70,11
+algo_magic-1.3.dist-info/RECORD,,
