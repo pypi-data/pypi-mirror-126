@@ -1,0 +1,19 @@
+digraph Example3_Network {
+	subgraph cluster_region1 {
+		color="#444444" fontcolor="#444444"
+		label=region1
+		node [color="#00cc00" fontcolor="#000000" shape=ellipse style=filled]
+		pop0 [label=<pop0<br/><i>5 cells</i>>]
+	}
+	subgraph cluster_region2 {
+		color="#444444" fontcolor="#444444"
+		label=region2
+		node [color="#0000cc" fontcolor="#ffffff" shape=ellipse style=filled]
+		pop1 [label=<pop1<br/><i>10 cells</i>>]
+	}
+	node [color="#444444" fontcolor="#444444" style=""]
+	stim_pop0 [label=<stim_pop0<br/><i>5 inputs</i>>]
+	stim_pop0 -> pop0 [arrowhead=empty]
+	edge [arrowhead=normal arrowsize=1 color="#00cc00" fontcolor="#00cc00" penwidth=1 style=solid]
+	pop0 -> pop1
+}
