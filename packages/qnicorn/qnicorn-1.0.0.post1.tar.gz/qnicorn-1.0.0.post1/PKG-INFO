@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: qnicorn
+Version: 1.0.0.post1
+Summary: Qnicorn Enmulation Engine
+Home-page: http://www.qnicorn.org
+Author: Lazymio
+Author-email: mio@lazym.io
+License: UNKNOWN
+Description: 
+        Qnicorn is a cutting edge and community-driven version of unicorn-engine.
+        
+        Qnicorn offers the features below:
+        
+        - All features that Unicorn2 has.
+        - Drop-in replacement for Unicorn but offers more features.
+        - Fast-ring development and maintaince.
+        
+        Further information is available at http://www.qnicorn.org
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires: ctypes
+Provides: qnicorn
+Description-Content-Type: text/markdown
