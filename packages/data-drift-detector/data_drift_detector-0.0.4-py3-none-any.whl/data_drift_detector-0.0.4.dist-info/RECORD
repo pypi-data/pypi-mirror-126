@@ -1,0 +1,7 @@
+data_drift_detector/__init__.py,sha256=p9NBzyrvX-Hu3_gw-JhMclXEmsNkbvPHOJTVga76HvY,51
+data_drift_detector/data_drift_detector.py,sha256=PgMLIR6gVRnBvmTV9lXiwnArAj2DGhJ9ZOWDhEI8oko,31015
+data_drift_detector-0.0.4.dist-info/LICENSE,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+data_drift_detector-0.0.4.dist-info/METADATA,sha256=vWJr9f0eYjnJO0n32dt-eP6KKiqunSUNnApPlR6silg,1827
+data_drift_detector-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+data_drift_detector-0.0.4.dist-info/top_level.txt,sha256=zm6a84Q30zrFtFhJWMdcuoqpLUcHomF3oh_4wdMzh9M,20
+data_drift_detector-0.0.4.dist-info/RECORD,,
