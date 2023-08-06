@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+es_configly/__init__.py
+es_configly/configly.py
+es_configly.egg-info/PKG-INFO
+es_configly.egg-info/SOURCES.txt
+es_configly.egg-info/dependency_links.txt
+es_configly.egg-info/requires.txt
+es_configly.egg-info/top_level.txt
