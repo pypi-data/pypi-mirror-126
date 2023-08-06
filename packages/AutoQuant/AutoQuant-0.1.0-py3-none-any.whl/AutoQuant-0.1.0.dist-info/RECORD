@@ -1,0 +1,13 @@
+collector/__init__.py,sha256=u-iB6CtzL3IkwZdvI0UcY3PMK00hWtu_UFlDWZ_07jg,1240
+interface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mixin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mixin/data.py,sha256=JhUDDWvqLsT05wXzbzN0EDPxGkJu06yqCETA-X-dCdg,347
+provider/__init__.py,sha256=8E2iLg0oHPdYoO7FFzseUAWqUQKhoq52SmTkjVQmtvU,53
+provider/baostock.py,sha256=ua5ntcb0_rRQr_BCpg0C0PKUQAylK-eb5mTghH1XslQ,1524
+provider/tushare.py,sha256=LCorqEqdTEJlmoWdyFyNcVg5wMrdtfG2D4F8jBAu4n8,1484
+workflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AutoQuant-0.1.0.dist-info/LICENSE,sha256=iZrJq87plt-Vr0NzxnT3fITqWP8x_-w9ZY2607k8UWM,1071
+AutoQuant-0.1.0.dist-info/METADATA,sha256=0ONo1_9v_fO5Yd3kpBivR8aUEOpEg3bOGFPd02vyAyM,2061
+AutoQuant-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+AutoQuant-0.1.0.dist-info/top_level.txt,sha256=XpTLD2mac0eYUbqRRSHGWQ1joRItUs1GWWjkM-1v5hc,44
+AutoQuant-0.1.0.dist-info/RECORD,,
