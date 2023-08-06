@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: file-converter-fgsm
+Version: 0.1.0
+Summary: Class project to convert files from CSV to JSON and vice-versa
+Home-page: https://github.com/fillipe-gsm/file-converter-puc-ia
+License: BSD 3
+Author: Fillipe Goulart
+Author-email: fillipe.gsm@tutanota.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Project-URL: Repository, https://github.com/fillipe-gsm/file-converter-puc-ia
