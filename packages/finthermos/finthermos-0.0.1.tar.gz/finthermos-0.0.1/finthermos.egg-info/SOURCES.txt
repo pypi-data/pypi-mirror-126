@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+finthermos.egg-info/PKG-INFO
+finthermos.egg-info/SOURCES.txt
+finthermos.egg-info/dependency_links.txt
+finthermos.egg-info/not-zip-safe
+finthermos.egg-info/requires.txt
+finthermos.egg-info/top_level.txt
+src/pymain.cc
