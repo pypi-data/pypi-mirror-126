@@ -1,0 +1,48 @@
+{% load report_designer.fields %}
+{% load report_designer.utils %}
+
+
+<ul class="tree-content js-tree-content{% if is_subtree %} subtree{% endif %}"
+    {% if action_url %} data-action-url="{{ action_url }}"{% endif %}>
+    {% for tree_branch in tree_branches %}
+        <li>
+            <div class="tree-branch js-tree-branch"
+                    {% if is_subtree %} data-field-pk="{{ tree_branch.pk }}"{% endif %}
+                    {% if tree_branch.report_table_relation_lookup %}data-report-table-relation-lookup="{{ tree_branch.report_table_relation_lookup }}"{% endif %}
+                    {% if tree_branch.expression_field_value %}data-expression-field-value="{{ tree_branch.expression_field_value }}"{% endif %}>
+                <div class="subtree-data js-subtree-data">
+                    {% if tree_branch.is_relation %}
+                        {% if tree_branch.related_table_pk %}
+                            {% url 'report_designer:reports:fields-list' report_pk=report.pk pk=tree_branch.related_table_pk as fields_list_url %}
+                            <span class="subtree-btn js-rd-subtree-btn" data-url="{{ fields_list_url|default:'' }}{% if is_expression %}?is_expression{% elif is_processed %}?is_processed{% endif %}"></span>
+                            <span class="subtree-title{% if not is_expression %} rd-draggable js-rd-draggable{% endif %}"
+                                  data-related-table-pk="{{ tree_branch.related_table_pk }}"
+                                  {% if not is_expression %}data-helper="clone"{% endif %}>
+                                {{ tree_branch.title }}{% if tree_branch.report_table_relation_name %} ({{ tree_branch.report_table_relation_name }}){% endif %}
+                            </span>
+                        {% else %}
+                            <span class="subtree-btn subtree-not-relation"></span>
+                            <span class="subtree-title">{{ tree_branch.title }}</span>
+                        {% endif %}
+                    {% else %}
+                        {% if is_processed and not is_expression %}
+                            {% template_string 'tree_branch_field_%s' tree_branch.pk as tree_branch_name %}
+                            {% input_free_checkbox title=tree_branch.title name=tree_branch_name input_classes="js-rd-field-to-report" label_classes='default-text' checked=tree_branch.is_exists_in_report disabled=tree_branch.is_exists_in_report %}
+                        {% else %}
+                            <span class="subtree-title{% if is_expression %} tree-branch-click-add js-tree-function-btn{% endif %}"
+                                {% if is_expression %}
+                                    data-name="{{ tree_branch.expression_field_name }}"
+                                    data-display-name="{{ tree_branch.expression_field_display_name }}"
+                                    data-value="{{ tree_branch.expression_field_value }}"
+                                    data-display-value="{{ tree_branch.title }}"
+                                    data-is-editable="{{ expression_field_is_editable }}"
+                                {% endif %}>
+                                {{ tree_branch.title }}
+                            </span>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+        </li>
+    {% endfor %}
+</ul>
