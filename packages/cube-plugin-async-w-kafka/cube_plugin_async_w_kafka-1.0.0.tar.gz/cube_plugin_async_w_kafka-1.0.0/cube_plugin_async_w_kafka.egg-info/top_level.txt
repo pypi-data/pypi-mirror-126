@@ -1,0 +1,1 @@
+cube_plugin_async_w_kafka

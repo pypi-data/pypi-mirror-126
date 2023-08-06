@@ -1,0 +1,30 @@
+{
+  "version": "0.1",
+
+  "provider": {
+
+      "name": "kafka",
+      "check_reachable": false
+
+  },
+
+  "networkplane": {
+
+      "io_policy":"outbound" ,
+      "type": "async",
+      "compression_codec": "",
+      "enable_stats": true,
+      "connection_timeout": 10000,
+      "allow_data_loss": 0,
+      "allow_data_duplication": false,
+      "buffer_max_records": 10000,
+      "buffer_max_size": 1048576,
+      "burst_buffer_max_records": 1000,
+      "batch_build_delay": 5,
+      "batch_max_records": 10000,
+      "batch_max_size": 1000000,
+      "per_request_max_batches": 10
+
+  }
+
+}
