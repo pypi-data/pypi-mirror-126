@@ -1,0 +1,12 @@
+niphlem/__init__.py,sha256=Iw_L0ecBXAUlR6PsV4Q1U3iNJCoBVFLBGvNn1EsTsQI,565
+niphlem/clean.py,sha256=49prLrzGecO3MibUEDLDoH8_aMJ6T5uVhbBRr8a9YXI,5325
+niphlem/events.py,sha256=RW5NrwNAvCLjK1LndlVcF5siczmvAw2BQ3MaT5XbqXs,2146
+niphlem/input_data.py,sha256=XpUKbeY8kP7qqBIB1risRjT8ebCcaBZX1dhuK-nl-Cs,9716
+niphlem/models.py,sha256=k05XbiJqyb79a24oq6CliGiSumurcFxO_dj0OHg2kKs,27702
+niphlem/output.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+niphlem/utils.py,sha256=y1XqH-UA5YcoI1MpW5qNLPjOPRUqIpdjDvGVQDaAEfE,370
+niphlem-0.0.1b1.dist-info/LICENSE,sha256=JESiBHRW9McbUk8eloNllCxX9cibAXyAji08AUB73ow,1530
+niphlem-0.0.1b1.dist-info/METADATA,sha256=HuqJkQSZolQfJo2usPP13CeBqyEkx_Q3_f_jJmfLwe0,2632
+niphlem-0.0.1b1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+niphlem-0.0.1b1.dist-info/top_level.txt,sha256=kVa7-dYgr1-MGMkOonAOQbXNmHj8yLBRBbY65nXjyr0,8
+niphlem-0.0.1b1.dist-info/RECORD,,
