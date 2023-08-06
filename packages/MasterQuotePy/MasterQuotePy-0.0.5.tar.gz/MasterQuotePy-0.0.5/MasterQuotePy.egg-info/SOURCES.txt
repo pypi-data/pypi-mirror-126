@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+MasterQuotePy/__init__.py
+MasterQuotePy/model.py
+MasterQuotePy/quote.py
+MasterQuotePy.egg-info/PKG-INFO
+MasterQuotePy.egg-info/SOURCES.txt
+MasterQuotePy.egg-info/dependency_links.txt
+MasterQuotePy.egg-info/top_level.txt
