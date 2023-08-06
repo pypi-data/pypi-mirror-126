@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+unicodeconverter/maps/__init__.py
+unicodeconverter/unicodeconverter.egg-info/PKG-INFO
+unicodeconverter/unicodeconverter.egg-info/SOURCES.txt
+unicodeconverter/unicodeconverter.egg-info/dependency_links.txt
+unicodeconverter/unicodeconverter.egg-info/top_level.txt
+unicodeconverter/utils/__init__.py
+unicodeconverter/utils/checkers.py
+unicodeconverter/utils/rearrange.py
