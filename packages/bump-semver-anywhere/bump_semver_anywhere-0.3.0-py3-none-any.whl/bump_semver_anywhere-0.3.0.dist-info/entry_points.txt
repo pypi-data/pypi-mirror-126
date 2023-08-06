@@ -1,0 +1,3 @@
+[console_scripts]
+bump_semver_anywhere=bump_semver_anywhere.cli:main
+

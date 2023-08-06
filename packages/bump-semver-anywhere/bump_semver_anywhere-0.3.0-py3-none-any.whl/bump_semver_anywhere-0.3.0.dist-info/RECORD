@@ -1,0 +1,8 @@
+bump_semver_anywhere/__init__.py,sha256=jBgUvbGEJhbIbKXVVAsxvbwTiwNGrpv7BwdVnFj8RfI,64
+bump_semver_anywhere/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+bump_semver_anywhere/app.py,sha256=fLJ2PT4qxmKypcQiVSwwoL7sinGAAaCZWn7_AhiVNuY,11048
+bump_semver_anywhere/cli.py,sha256=BvCBEkl6fFu9c_BkG8re64y8H7cj_tyAalELc9pDk54,3483
+bump_semver_anywhere-0.3.0.dist-info/entry_points.txt,sha256=53_3fc5peq_ZhYlCCsjM-FFV8QBA-7bMBVNhX7tdbng,70
+bump_semver_anywhere-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bump_semver_anywhere-0.3.0.dist-info/METADATA,sha256=ND8UCyeDHvfp_h6HBFGCktzqAs66m8ncmpWveAZJuOc,5763
+bump_semver_anywhere-0.3.0.dist-info/RECORD,,
