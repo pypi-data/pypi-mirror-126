@@ -1,0 +1,165 @@
+Metadata-Version: 2.1
+Name: autoPVM
+Version: 0.3
+Summary: Automatically conducting a PVM Analysis
+Home-page: UNKNOWN
+Author: Akash Sonthalia
+Author-email: <axsonthalia@gmail.com>
+License: UNKNOWN
+Keywords: python,data,analysis,data analysis,business analysis,PVM Analysis
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: plotly
+
+<div id="top"></div>
+<!--
+*** Thanks for checking out the autoPVM project! If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h3 align="center">autoPVM v0.3</h3>
+
+  <p align="center">
+    Automatically conduct Price-Volume-Mix analysis on datasets.
+    <br />
+    <a href="https://github.com/asonthalia/autoPVM/blob/main/README.md"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/asonthalia/autoPVM/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/asonthalia/autoPVM/issues">Request Feature</a>
+  </p>
+</div>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+This project aims at conducting the Price Variance Mix analysis automatically. The main purpose of PVM analysis is to provide a high-level overview view into the past, and to break down the change in revenue or margins into some key components or categories. The categories are used to highlight and help explain how much of the overall change in revenue or margins was caused by, e.g. the implemented Price changes, versus changes in total costs, versus the impact from change in Volumes, versus changes other effects, comparing two different time periods.  
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Installation
+
+The autoPVM package can be installed using pip.
+
+1. autoPVM uses Numpy, Pandas & Plotly as dependencies.
+2. Install package
+
+   ```
+   pip install autoPVM
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Import the PVM class using
+```
+from autoPVM import PVM
+```
+
+Read a Pandas dataframe
+```
+data = pd.read_csv('Sample Dataset/Supermarket Sales.csv')
+```
+
+Create an analysis object and pass the dataframe
+```
+pvm = PVM.PVMAnalysis(data=data)
+```
+
+Set column name markers of required quantities and margins
+```
+PVM.setMarkers(\
+                 quantity_pr='QTY_PM'
+               , quantity_ac='QTY_AM'
+               , margin_pr='MARGIN_PM'
+               , margin_ac='MARGIN_AM'
+               , hierarchy=['Customer type', 'Gender', 'Branch', 'Product line'])
+```
+
+`quantity_pr` marks previous time period quantity. </br>
+`quantity_ac` marks current/next time period quantity. </br>
+`margin_pr` marks previous time period margin.</br>
+`margin_ac` marks current/next time period margin.</br>
+`hierarchy` marks dimensional heirarchy: `[Highest Level, .. , Lowest Level]`.</br>
+
+Calculate the margin bridge using
+```pvm.calculateMarginBridge()```
+
+Plot the bridge using
+```
+pvm.plotPVMBridge()
+```
+
+Final dimension aggregate can be exported using
+```
+pvm.exportMarginBridgeFile()
+```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the Apache-2.0 License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Akash Sonthalia - [@LinkedIn](https://www.linkedin.com/in/akashsonthalia/) - axsonthalia@gmail.com
+Project Link: [https://github.com/asonthalia/autoPVM](https://github.com/asonthalia/autoPVM)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [Supermarket Sales Dataset](https://www.kaggle.com/aungpyaeap/supermarket-sales)
+* [PVM Analysis Explanation](https://businessintelligist.com/2020/04/24/price-volume-mix-pvm-for-revenue-variance-analysis/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
