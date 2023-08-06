@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: flask_scaffolding
+Version: 0.0.29
+Summary: Flask Scaffolding with buiiltin Authentication & Authorization
+Home-page: https://github.com/Muhammad-Yunus/Flask-Scaffolding-Base
+Author: Muhammad Yunus
+Author-email: yunusmuhammad007@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Muhammad-Yunus/Flask-Scaffolding-Base/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Flask-Scaffolding-Base
+- Flask Scaffolding with builtin Authentication & Authorization
+- Installation : 
+```
+pip install flask-scaffolding
+```
+- Run to create a new flask app with the given name and destination path.
+```
+python -m scaffold.web <YOUR_APP_NAME> <path/to/destination>
+```
+- Add your custom model into `<YOUR_APP_NAME>/app/models/`, 
+- Run to add a new screen UI on created app above,
+```
+python -m scaffold.ui <MODEL_NAME> <path/to/model/file/location>
+```
+

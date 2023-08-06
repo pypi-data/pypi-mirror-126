@@ -1,0 +1,80 @@
+from . import app
+from . import db
+
+from . import login_required, roles_required, roles_accepted
+
+from . import render_template
+from . import url_for
+from . import request
+from . import flash
+from . import redirect
+from . import session
+
+from . import or_, and_, not_
+
+# import Forms
+from . import {{_NAME_}}Form
+from . import ActionTable
+
+# import Model
+from . import {{_NAME_}}
+
+@app.route('/{{_FORM_.name}}s/<int:id>', methods=['GET', 'POST'])
+@login_required
+def {{_FORM_.name}}(id):
+    {{_FORM_.name}} = {{_NAME_}}.query.get(id)
+    if request.method == 'POST' :
+        form = {{_NAME_}}Form(request.form)
+        if form.validate_on_submit() :
+            {{_FORM_.name}} = {{_NAME_}}() if {{_FORM_.name}} is None else {{_FORM_.name}}
+            {% for field in _FORM_.fields -%}
+            {{ _FORM_.name ~ '.' ~ field ~ ' = form.' ~ field ~ '.data' }}
+            {% endfor %}
+            db.session.add({{_FORM_.name}}) if {{_FORM_.name}}.id is None else ''
+            db.session.commit()
+
+            flash("{{_NAME_}} submitted successfully!", "success")
+            return redirect(url_for("{{_FORM_.name}}s"))
+        else : 
+            return render_template("{{_FORM_.name}}.html", form=form)
+    else:
+        form = {{_NAME_}}Form(obj={{_FORM_.name}})
+        return render_template("{{_FORM_.name}}.html", form=form)
+
+
+@app.route('/{{_FORM_.name}}s', methods=['GET', 'POST'])
+@login_required
+def {{_FORM_.name}}s():
+
+    search_key = "search_{{_FORM_.name}}s"  # this is can be changes by preference
+    if request.method == "POST":
+        session[search_key] = request.form.get(search_key)
+
+    page = request.args.get('page')
+    page = int(1 if page == None else page)
+    baseQuery = {{_NAME_}}.query.filter(
+                                or_(
+                                    {% for field in _FORM_.fields -%}
+                                    {{ _NAME_~ '.' ~ field ~ '.like("%{}%".format(session.get(search_key, ''))),' }}
+                                    {% endfor %}
+                                )
+                            )
+
+    per_page = 3     # this is can be changes by preference
+    destination = '{{_FORM_.name}}s'  # this is need to set into current route function name.
+    record_list = baseQuery.paginate(page, per_page, error_out=False) 
+    min_page = record_list.page - 2 if record_list.page - 2 > 0 else 1
+    max_page = min_page + 5 if min_page + 5 <= record_list.pages + 1 else record_list.pages + 1
+    record_count = baseQuery.count()
+
+    record_header = ['No', '{{ _FORM_.fields|join('\', \'') }}' ] # this is can be same as a field in Table
+
+    return render_template("{{_FORM_.name}}_list.html", 
+                            record_list=record_list, 
+                            record_header=record_header,
+                            record_count=record_count,
+                            min_page=min_page,
+                            max_page=max_page,
+                            destination=destination,
+                            search_key=search_key)
+
