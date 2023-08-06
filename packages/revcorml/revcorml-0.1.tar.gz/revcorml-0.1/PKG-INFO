@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: revcorml
+Version: 0.1
+Summary: tools to probe machine learning classifiers with noise, bubbles and reverse correlation
+Home-page: https://github.com/EtienneTho/revcorml
+Author: Etienne Thoret, Thomas Andrillon, Damien Léger, Daniel Pressnitzer
+Author-email: etienne.thoret@univ-amu.fr
+License: MIT
+Download-URL: https://github.com/EtienneTho/revcorml/dist/revcorml-0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
