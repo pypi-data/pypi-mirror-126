@@ -1,0 +1,9 @@
+README.md
+setup.py
+./wpc
+src/__main__.py
+webpage_compressor.egg-info/PKG-INFO
+webpage_compressor.egg-info/SOURCES.txt
+webpage_compressor.egg-info/dependency_links.txt
+webpage_compressor.egg-info/requires.txt
+webpage_compressor.egg-info/top_level.txt
