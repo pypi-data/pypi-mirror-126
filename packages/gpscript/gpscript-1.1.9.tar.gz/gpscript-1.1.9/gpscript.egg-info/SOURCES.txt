@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gpscript/__init__.py
+gpscript/gpscript.py
+gpscript.egg-info/PKG-INFO
+gpscript.egg-info/SOURCES.txt
+gpscript.egg-info/dependency_links.txt
+gpscript.egg-info/requires.txt
+gpscript.egg-info/top_level.txt
