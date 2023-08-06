@@ -1,0 +1,7 @@
+README.md
+setup.py
+COCOPLOTS3.egg-info/PKG-INFO
+COCOPLOTS3.egg-info/SOURCES.txt
+COCOPLOTS3.egg-info/dependency_links.txt
+COCOPLOTS3.egg-info/top_level.txt
+COCOpy/__init__.py
