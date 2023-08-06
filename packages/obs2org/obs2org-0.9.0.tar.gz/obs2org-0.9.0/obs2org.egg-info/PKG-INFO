@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: obs2org
+Version: 0.9.0
+Summary: Converts Obsidian style markdown files to Org-Mode files using pandoc.
+Home-page: https://github.com/Release-Candidate/Obs2Org
+Author: Release-Candidate
+Author-email: rec@gmx.at
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Release-Candidate/Obs2Org/issues
+Project-URL: Documentation, https://Obs2Org.readthedocs.io/en/latest/
+Keywords: markdown,org-mode,obsidian,converter,pandoc
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: Unix
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Text Editors :: Emacs
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Obs2Org
+
+Set CODECOV_SECRET to the Codecov token.
+
+Set PIP_TOKEN to the PyPI token.
+
+[![GPLv3 license badge](https://img.shields.io/github/license/Release-Candidate/Obs2Org)](https://github.com/Release-Candidate/Obs2Org/blob/main/LICENSE)
+[![Python version badge](https://img.shields.io/pypi/pyversions/Obs2Org)](https://www.python.org/downloads/)
+[![PIP version badge](https://img.shields.io/pypi/v/Obs2Org)](https://pypi.org/project/Obs2Org/)
+[![Read The Docs badge](https://readthedocs.org/projects/obs2org/badge/?version=latest)](https://obs2org.readthedocs.io/en/latest/?badge=latest)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[more badges](#badges)
+
+## Development
+
+1. Run `pipenv install --dev` to install the Python environment in the project directory
+2. `pre-commit` and `pre-commit install`
+
+- To run the checks manually: `pre-commit run --all-files`
+
+## Badges
+
+### External Checks
+
+[![DeepSource](https://deepsource.io/gh/Release-Candidate/Obs2Org.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/Release-Candidate/Obs2Org/?ref=repository-badge)
+[![Maintainability](https://api.codeclimate.com/v1/badges/023820a03165a9846d8c/maintainability)](https://codeclimate.com/github/Release-Candidate/Obs2Org/maintainability)
+[![codecov](https://codecov.io/gh/Release-Candidate/Obs2Org/branch/main/graph/badge.svg?token=VAYTZWLGPO)](https://codecov.io/gh/Release-Candidate/Obs2Org)
+
+### Static Code Checks
+
+[![Bandit](https://github.com/Release-Candidate/Obs2Org/actions/workflows/bandit.yml/badge.svg)](https://github.com/Release-Candidate/Obs2Org/actions/workflows/bandit.yml)
+[![Black](https://github.com/Release-Candidate/Obs2Org/actions/workflows/black.yml/badge.svg)](https://github.com/Release-Candidate/Obs2Org/actions/workflows/black.yml)
+[![Flake8](https://github.com/Release-Candidate/Obs2Org/actions/workflows/flake8.yml/badge.svg)](https://github.com/Release-Candidate/Obs2Org/actions/workflows/flake8.yml)
+[![Pycodestyle](https://github.com/Release-Candidate/Obs2Org/actions/workflows/pycodestyle.yml/badge.svg)](https://github.com/Release-Candidate/Obs2Org/actions/workflows/pycodestyle.yml)
+[![Pydocstyle](https://github.com/Release-Candidate/Obs2Org/actions/workflows/pydocstyle.yml/badge.svg)](https://github.com/Release-Candidate/Obs2Org/actions/workflows/pydocstyle.yml)
+[![Pyflakes](https://github.com/Release-Candidate/Obs2Org/actions/workflows/pyflakes.yml/badge.svg)](https://github.com/Release-Candidate/Obs2Org/actions/workflows/pyflakes.yml)
+
+### Tests
+
+[![Mac OS X latest](https://github.com/Release-Candidate/Obs2Org/actions/workflows/osx.yml/badge.svg)](https://github.com/Release-Candidate/Obs2Org/actions/workflows/osx.yml)
+[![Tests Mac OS X latest](https://github.com/Release-Candidate/Obs2Org/actions/workflows/osx_test.yml/badge.svg)](https://github.com/Release-Candidate/Obs2Org/actions/workflows/osx_test.yml)
+[![Ubuntu 20.04](https://github.com/Release-Candidate/Obs2Org/actions/workflows/linux.yml/badge.svg)](https://github.com/Release-Candidate/Obs2Org/actions/workflows/linux.yml)
+[![Tests Ubuntu 20.04](https://github.com/Release-Candidate/Obs2Org/actions/workflows/linux_test.yml/badge.svg)](https://github.com/Release-Candidate/Obs2Org/actions/workflows/linux_test.yml)
+[![Windows 2019](https://github.com/Release-Candidate/Obs2Org/actions/workflows/windows.yml/badge.svg)](https://github.com/Release-Candidate/Obs2Org/actions/workflows/windows.yml)
+[![Tests Windows 2019](https://github.com/Release-Candidate/Obs2Org/actions/workflows/windows_test.yml/badge.svg)](https://github.com/Release-Candidate/Obs2Org/actions/workflows/windows_test.yml)
+
+
