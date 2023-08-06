@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/xu2net.egg-info/PKG-INFO
+src/xu2net.egg-info/SOURCES.txt
+src/xu2net.egg-info/dependency_links.txt
+src/xu2net.egg-info/top_level.txt
+src/xum/__init__.py
+src/xum/data_loader.py
+src/xum/model/__init__.py
+src/xum/model/u2net.py
+src/xum/model/u2net_refactor.py
