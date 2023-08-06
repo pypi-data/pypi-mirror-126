@@ -1,0 +1,6 @@
+numpy
+scipy
+nose
+tensorly
+tensorly-torch
+opt-einsum
