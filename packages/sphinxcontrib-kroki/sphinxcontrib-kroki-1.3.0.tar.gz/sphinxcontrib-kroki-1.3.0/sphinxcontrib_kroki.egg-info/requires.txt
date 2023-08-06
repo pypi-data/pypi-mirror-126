@@ -1,0 +1,15 @@
+sphinx
+requests>=2.4.2
+pyyaml
+
+[code]
+black
+flake8
+mypy
+
+[extra]
+
+[test]
+coverage
+pytest
+pytest-cov
