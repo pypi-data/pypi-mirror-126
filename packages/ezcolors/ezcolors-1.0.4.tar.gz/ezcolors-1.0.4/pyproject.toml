@@ -1,0 +1,38 @@
+[project]
+name = "ezcolors"
+authors = [
+    {name = "Matthew Harris", email = "WorkMatthewJHarris94@gmail.com"},
+]
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.5"
+dynamic = ["version", "description"]
+dependencies = [
+    "textdistance >=4.2.2",
+]
+licence = "./LICENSE"
+keywords = ["colors",
+	"colours",
+]
+
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Documentation = "https://ezcolors.readthedocs.io/en/latest/"
+Source = "https://github.com/Th3M4ttman/ezcolors"
+
+[project.optional-dependencies]
+test = [
+    "pytest >=2.7.3",
+    "pytest-cov",
+	"pygame",
+]
+doc = ["sphinx"]
