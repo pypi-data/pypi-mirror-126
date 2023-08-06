@@ -1,0 +1,5 @@
+setup.py
+we_BigDatel.egg-info/PKG-INFO
+we_BigDatel.egg-info/SOURCES.txt
+we_BigDatel.egg-info/dependency_links.txt
+we_BigDatel.egg-info/top_level.txt
