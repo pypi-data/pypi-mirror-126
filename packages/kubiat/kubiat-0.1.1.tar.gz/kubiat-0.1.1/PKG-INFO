@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kubiat
+Version: 0.1.1
+Summary: Base python support package for python
+Home-page: https://example.com
+Author: Mark
+Author-email: mark@example.com
+License: UNKNOWN
+Project-URL: Docs, https://docs.example.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Python support library for kubiat
+
+
