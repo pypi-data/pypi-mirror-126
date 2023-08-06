@@ -1,0 +1,17 @@
+src/__init__.py,sha256=RQU1s9GDEU9yTIF-YUt3XkNuBBv0IITle2qrXk0KMHA,26
+src/knowage-python.py,sha256=ZRwhYBdQtUA7UrysHGGOYmjnX4wKNmYOMVhSVp46QOs,769
+src/app/__init__.py,sha256=RQU1s9GDEU9yTIF-YUt3XkNuBBv0IITle2qrXk0KMHA,26
+src/app/services/__init__.py,sha256=SODtPw4rKUp33eEthlBV3yMPbi4WekJhSX3NatrjRqs,502
+src/app/services/catalog_resource.py,sha256=cPAaA5kmDT1ANFRAarp7YtKHTTq3qNCvFXQgz-iMfXw,3784
+src/app/services/dataset_resource.py,sha256=e0_NYktZMPrslUiSa0E1NxEKs_NhNpy6PiwM1ieTmk8,2557
+src/app/services/widget_resource.py,sha256=nl7fIIa6aYV0cpLKzsBIYBMHHDrrH3ZtVL8xdRQBn98,3210
+src/app/utilities/__init__.py,sha256=RQU1s9GDEU9yTIF-YUt3XkNuBBv0IITle2qrXk0KMHA,26
+src/app/utilities/configs.py,sha256=gHpZU7opobjFo16njT347Jt2NUdKGUesa5TwPwxd0z0,202
+src/app/utilities/security.py,sha256=OInvgXFW1dD4m5iM4nkAoFO5fGvaGdppHN0fZ_u5HYw,1421
+src/app/utilities/utils.py,sha256=QV_YAqaqgbTjc5DhcrEqBgeIMnkm4W_l2uIniFBtZY8,2975
+src/logs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knowage_python-8.0.2.dist-info/LICENSE,sha256=Nv6u1ubULm-E2y6q2-pQPK8s2BzkOltLaVlPKQ3tkcs,35182
+knowage_python-8.0.2.dist-info/METADATA,sha256=vytiCzZFkprSNMGulkYEnioQZ8lLH6YzWLms3gVimhs,1772
+knowage_python-8.0.2.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+knowage_python-8.0.2.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+knowage_python-8.0.2.dist-info/RECORD,,
