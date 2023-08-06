@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: es-configly
+Version: 0.0.0
+Summary: config manager using elasticsearch.
+Home-page: https://github.com/kotsutsumi/es-configly
+Author: Kazuhiro Kotsutsumi
+License: The MIT License
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: bvx-env
+Requires-Dist: bvx-es
+Requires-Dist: elasticsearch
+Requires-Dist: elasticsearch-dbapi
+Requires-Dist: six
+Requires-Dist: sqlalchemy
+Requires-Dist: bvx-pytest
+Requires-Dist: pytest (~=6.2.5)
+
+UNKNOWN
+
