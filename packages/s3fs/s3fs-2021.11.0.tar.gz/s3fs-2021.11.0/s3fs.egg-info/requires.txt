@@ -1,0 +1,9 @@
+aiobotocore~=1.4.1
+fsspec==2021.11.0
+aiohttp>=3.7.1
+
+[awscli]
+aiobotocore[awscli]~=1.4.1
+
+[boto3]
+aiobotocore[boto3]~=1.4.1
