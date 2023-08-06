@@ -1,0 +1,3 @@
+[console_scripts]
+suorafxctl = suorafxctl:main
+
