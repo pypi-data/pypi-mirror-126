@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mciwb/__init__.py
+mciwb/_version_git.py
+mciwb/backup.py
+mciwb/copy.py
+mciwb/player.py
+mciwb.egg-info/PKG-INFO
+mciwb.egg-info/SOURCES.txt
+mciwb.egg-info/dependency_links.txt
+mciwb.egg-info/entry_points.txt
+mciwb.egg-info/requires.txt
+mciwb.egg-info/top_level.txt

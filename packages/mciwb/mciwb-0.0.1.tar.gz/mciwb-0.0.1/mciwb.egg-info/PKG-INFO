@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mciwb
+Version: 0.0.1
+Summary: Minecraft Interactive world builder
+Home-page: https://github.com/giles/mciwb
+Author: Giles Knap
+Author-email: gilesknap@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Provides-Extra: include_package_data
+License-File: LICENSE
+
+UNKNOWN
+
