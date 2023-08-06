@@ -1,0 +1,5 @@
+requests
+schema-salad<9,>=8.2
+cwltool>=3.0.20201113183607
+cwlformat
+cwl-upgrader>=1.2
