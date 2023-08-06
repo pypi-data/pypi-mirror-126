@@ -1,0 +1,8 @@
+setup.py
+shabbir_library/__init__.py
+shabbir_library/operation.py
+shabbir_library.egg-info/PKG-INFO
+shabbir_library.egg-info/SOURCES.txt
+shabbir_library.egg-info/dependency_links.txt
+shabbir_library.egg-info/not-zip-safe
+shabbir_library.egg-info/top_level.txt
