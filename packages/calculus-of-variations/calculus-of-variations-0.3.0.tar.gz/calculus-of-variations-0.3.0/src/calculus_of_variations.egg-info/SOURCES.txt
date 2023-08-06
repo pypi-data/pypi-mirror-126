@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/calculus_of_variations/__init__.py
+src/calculus_of_variations/abstract_problem.py
+src/calculus_of_variations/boltz_problem.py
+src/calculus_of_variations/higher_derivatives_problem.py
+src/calculus_of_variations/isoperimetric_problem.py
+src/calculus_of_variations/multidimensional_problem.py
+src/calculus_of_variations/simplest_problem.py
+src/calculus_of_variations/utils.py
+src/calculus_of_variations.egg-info/PKG-INFO
+src/calculus_of_variations.egg-info/SOURCES.txt
+src/calculus_of_variations.egg-info/dependency_links.txt
+src/calculus_of_variations.egg-info/requires.txt
+src/calculus_of_variations.egg-info/top_level.txt
