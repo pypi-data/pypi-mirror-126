@@ -1,0 +1,13 @@
+README.rst
+read_fits.py
+setup.py
+CTGUAstronomy_testlib.egg-info/PKG-INFO
+CTGUAstronomy_testlib.egg-info/SOURCES.txt
+CTGUAstronomy_testlib.egg-info/dependency_links.txt
+CTGUAstronomy_testlib.egg-info/top_level.txt
+package/MLS.py
+package/__init__.py
+package/extremum.py
+package/ikernal23.py
+package/make_3dpicture.py
+package/making_plot_contour.py
