@@ -1,0 +1,15 @@
+mypy_boto3_chime_sdk_meetings/__init__.py,sha256=II0zuTN0jgGKSBOZIpcGTWFw7fnVEjfjg4L8ZehVAGM,517
+mypy_boto3_chime_sdk_meetings/__init__.pyi,sha256=Q3mwwJBPBnBO4sOLcSFo4MXP7yONa9vYiC78ot4VwIs,516
+mypy_boto3_chime_sdk_meetings/__main__.py,sha256=cQy_bjyUE2Sy-11qf1jpgsPK12qN16pGvYOJC-Hxm7Q,933
+mypy_boto3_chime_sdk_meetings/client.py,sha256=C-fheuX5kpeIuOvPsqUjMEOdSKbck4x0V8b4srj1J-o,9430
+mypy_boto3_chime_sdk_meetings/client.pyi,sha256=VRXcwarXclQiEZzJupo9oOG41rqJ29PxXDwePNVF6no,9412
+mypy_boto3_chime_sdk_meetings/literals.py,sha256=BUFTBnySrRRQ9OqsPGjmjbITk5qSyAx4j-txC9MObFY,7047
+mypy_boto3_chime_sdk_meetings/literals.pyi,sha256=RfC-IdNdsQH6-uMLunyqMcH63nwmns7qsomdSnBQJiA,7045
+mypy_boto3_chime_sdk_meetings/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_chime_sdk_meetings/type_defs.py,sha256=bIkRSOl-SVt-eBtF2aDvn3J8vTnO-oktK0RAvyXO6Jw,9812
+mypy_boto3_chime_sdk_meetings/type_defs.pyi,sha256=TLy1fghXX_ooq-Lpdqf7s2Q9uXX8GWvSOBXwNjXXWlo,9801
+mypy_boto3_chime_sdk_meetings/version.py,sha256=PXf-mlrS00vitqySbYU21gXFx1RWrYbvNHOGbPTzeFg,60
+mypy_boto3_chime_sdk_meetings-1.20.0.dist-info/METADATA,sha256=BxIjpsO7WgQ6jUews5Yg_R4RcScMIKh_r-l4m4xKK6E,9049
+mypy_boto3_chime_sdk_meetings-1.20.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mypy_boto3_chime_sdk_meetings-1.20.0.dist-info/top_level.txt,sha256=y8hxFt_iMWyTdqj-c7Ot04PeAyAmlK4oBiuWk_-wKhU,30
+mypy_boto3_chime_sdk_meetings-1.20.0.dist-info/RECORD,,
