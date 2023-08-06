@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: ipyxt
+Version: 0.0.7
+Summary: IPython extensions
+Home-page: UNKNOWN
+Author: Esteban Uri
+Author-email: estebanuri@gmail.com
+License: MIT
+Description: # IPython extensions
+        Some IPython cell extension functions.
+        
+        For long-running cells, makes sound on completion.
+        - If success, "ding".
+        - If error, "crash."
+        
+        ```python
+        %%run_loud
+        
+        some_long_running_task()
+        
+        ```
+        
+        
+        
+        
+        Change Log
+        ==========
+        
+        0.0.7 (2021-Nov-08)
+        -------------------
+        - First Release
+        
+Keywords: ipython extensions
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
