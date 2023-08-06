@@ -1,0 +1,7 @@
+[console_scripts]
+swi-signature = switools.swisignature:main
+swix-create = swixtools.create:main
+swix-signature = switools.swisignature:main
+verify-swi = switools.verifyswi:main
+verify-swix = switools.verifyswi:main
+
