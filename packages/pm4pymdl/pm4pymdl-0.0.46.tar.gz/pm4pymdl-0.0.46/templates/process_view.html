@@ -1,0 +1,444 @@
+<html>
+<head>
+    <script style="text/javascript" src="../static/jquery.min.js"></script>
+    <script style="text/javascript" src="../static/bootstrap.min.js"></script>
+    <script style="text/javascript" src="../static/Filesaver.min.js"></script>
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row" style="height: 100%">
+      <div class="h-100 col-2" style="background-color: #DDDDDD;">
+          <div>
+              <h4>Process: {{Process.name}}</h4>
+          </div>
+          <div>
+              <h4>Events: {{Process.dataframe_length}}</h4>
+          </div>
+          <div>
+              <button onclick="javascript:resetFilters()">Reset Filters</button><br />
+              <button id="goback" onclick="javascript:goToCasesView()">Go to Events View</button><br />
+              <!--<button id="activitysel" onclick="javascript:goToActOtSelection()">Act./Type Sel.</button><br /><br />-->
+          </div>
+          <div style="display: none">
+              Log:
+              <select id="logselector" name="logselector">
+              </select>
+              <button onclick="javascript:performLogChange()">Set</button>
+          </div>
+          <div>
+              <b>Model:</b><br />
+              <select id="model_type" name="model_type">
+                  <option value="multigraph">Multigraph</option>
+                  <!--<option value="process_tree">oc-PTree</option>
+                  <option value="alpha_petri">oc-Net-Alpha</option>
+                  <option value="inductive_petri">oc-Net-Inductive</option>
+                  <option value="dfg">oc-DFG</option>-->
+              </select>
+          </div>
+          <div style="display: none">
+              <b>Classifier:</b>
+              <select id="classifier" name="classifier">
+                  <option value="activity">Activity Classifier</option>
+                  <option value="combined">Combined Classifier</option>
+              </select>
+          </div>
+          <div style="display: none">
+              <b>Aggregation:</b>
+              <select id="aggregation_measure" name="aggregation_measure">
+                  <option value="events">Events</option>
+                  <option value="objects">Objects</option>
+                  <option value="eo">E+O Combo</option>
+                  <option value="semantics">Semantics</option>
+              </select>
+          </div>
+          <div style="display: none">
+              <b>Decoration:</b>
+              <select id="decoration_measure" name="decoration_measure">
+                  <option value="frequency">Frequency</option>
+                  <option value="performance">Performance</option>
+              </select>
+          </div>
+          <div>
+              <b>Project:</b>
+              <select id="projection_measure" name="projection_measure">
+                  <option value="no">No</option>
+                  <option value="source">Source</option>
+                  <option value="target">Target</option>
+              </select>
+          </div>
+          <div>
+              Filter activ. (min.):<br />
+              <input type="text" id="min_acti_count" />
+          </div>
+          <div>
+              Filter paths (min.):<br />
+              <input type="text" id="min_paths_count" />
+          </div>
+          <div style="display: none">
+              Must-edges Noise:<br />
+              <input type="text" id="noise_must" />
+          </div>
+          <div style="display: none">
+              N.Objects Noise:<br />
+              <input type="text" id="noise_objects" />
+          </div>
+          <div>
+             <button onclick="javascript:formCookie()">Apply Settings</button>
+          </div>
+          <div style="display: none">
+              <a href="javascript:getTimestampDistribution()">Get Timestamp distribution</a><br />
+              <a href="javascript:filterByTimestamp()">Filter by Timestamp (keep events)</a>
+          </div>
+          <div>
+              <a href="javascript:applySpecPathFilter()">Apply Paths filter</a>
+          </div>
+          <!--<div>
+              <p>Download log for type:</p>
+              <select id="object_type_sel" name="object_type_sel">
+
+              </select>
+              <button onclick="javascript:getLogObjectType()">Download</button>
+          </div>-->
+          <div style="display: none" id="clustersdiv">
+              Cluster:
+              <select id="clusterselector" name="clusterselector">
+              </select>
+              <button onclick="javascript:performClusterChange()">Set</button>
+          </div>
+      </div>
+      <div class="h-100 col-10">
+          <div id="svgWithInnerHtml" style="height: 100%; overflow: auto; background-color: #FBFBFB;">
+
+          </div>
+      </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var pnames = null;
+    var cobject = null;
+    var clusters = null;
+    var objtypes = null;
+    var process = "{{ Process.name }}";
+    var expect_reload = false;
+
+    if(typeof(String.prototype.trim) === "undefined")
+    {
+        String.prototype.trim = function()
+        {
+            return String(this).replace(/^\s+|\s+$/g, '');
+        };
+    }
+
+    function goToCasesView() {
+        window.location.href = "/cases_view/"+process;
+    }
+
+    function goToActOtSelection() {
+          window.open("/act_ot_selection/"+process, '_blank');
+          //focus to that window
+          window.focus();
+          //reload current page
+          expect_reload = true;
+    }
+
+    function getTimestampDistribution() {
+           $.ajax({url: "/getTimestampDistribution?process="+window.location.pathname.split("/").pop()}).done(function(data) { alert(JSON.stringify(data)); }).fail(function() { alert("Something went wrong!"); });
+    }
+
+    function applySpecPathFilter() {
+        let objtype = window.prompt("Insert the object type that should be the target of the filter");
+        let act1 = window.prompt("Insert the source activity of the path");
+        let act2 = window.prompt("Insert the target activity of the path");
+        let minp = window.prompt("Insert the minimum allowed performance for the path");
+        let maxp = window.prompt("Insert the maximum allowed performance for the path");
+        var url0 = "/applySpecPathFilter?objtype="+objtype+"&act1="+act1+"&act2="+act2+"&minp="+minp+"&maxp="+maxp+"&process="+window.location.pathname.split("/").pop();
+        $.ajax({url: url0}).done(function() { window.location.reload(); }).fail(function() { alert("Something went wrong!"); });
+    }
+
+    function filterByTimestamp() {
+        let min_value = window.prompt("Insert the minimum allowed timestamp in the format yyyy-MM-dd hh:mm:ss (example 1970-01-01 01:00:00)");
+        let max_value = window.prompt("Insert the maximum allowed timestamp in the format yyyy-MM-dd hh:mm:ss (example 1971-01-01 01:00:00)");
+        var url0 = "/applyTimestampFilter?min_value="+min_value+"&max_value="+max_value+"&process="+window.location.pathname.split("/").pop();
+        $.ajax({url: url0}).done(function() { window.location.reload(); }).fail(function() { alert("Something went wrong!"); });
+    }
+
+    function decode_utf8(s) {
+      return decodeURIComponent(escape(s));
+    }
+
+    function getCObject() {
+        cobject = JSON.parse(atob('{{ Process.cobject }}'));
+    }
+
+    function fillMainView() {
+        var pview = atob('{{ Process.model_view }}');
+        document.getElementById("svgWithInnerHtml").innerHTML = pview;
+        document.getElementById("svgWithInnerHtml").addEventListener("click", click_listener);
+    }
+
+    function filterActivity(activity, positive) {
+            $.ajax({url: "/applyActivityFilter?activity="+activity+"&positive="+positive+"&process="+window.location.pathname.split("/").pop()}).done(function() { window.location.reload(); }).fail(function() { alert("Something went wrong!"); });
+    }
+
+    function applyFloatFilter(activity, attr_name) {
+        let min_value = parseFloat(window.prompt("Insert the minimum float value allowed for activity="+activity+" and attr_name="+attr_name, "0"));
+        let max_value = parseFloat(window.prompt("Insert the maximum float value allowed for activity="+activity+" and attr_name="+attr_name, "1000000000"));
+        $.ajax({url: "/applyFloatFilter?activity="+activity+"&attr_name="+attr_name+"&min_value="+min_value+"&max_value="+max_value+"&process="+window.location.pathname.split("/").pop()}).done(function() { window.location.reload(); }).fail(function() { alert("Something went wrong!"); });
+    }
+
+    function applyObjTypesFilter(activity, ot) {
+        let min_value = parseFloat(window.prompt("Insert the minimum number of related objects allowed for activity="+activity+" and otype="+ot, "0"));
+        let max_value = parseFloat(window.prompt("Insert the minimum number of related objects allowed for activity="+activity+" and otype="+ot, "1000000000"));
+        $.ajax({url: "/applyObjTypesFilter?activity="+activity+"&ot="+ot+"&min_value="+min_value+"&max_value="+max_value+"&process="+window.location.pathname.split("/").pop()}).done(function() { window.location.reload(); }).fail(function() { alert("Something went wrong!"); });
+    }
+
+    function resetFilters() {
+        $.ajax({url: "/resetFilters?process="+window.location.pathname.split("/").pop()}).done(function() { window.location.reload(); }).fail(function() { alert("Something went wrong!"); });
+    }
+
+    function getFloatAttrSummary(activity, attr_name) {
+        $.ajax({url: "/getFloatAttrSummary?activity="+activity+"&attr_name="+attr_name+"&process="+window.location.pathname.split("/").pop()}).done(function(data) { alert(JSON.stringify(data)); }).fail(function() { alert("Something went wrong!"); });
+    }
+
+    function getOtDistrSummary(activity, ot) {
+        $.ajax({url: "/getOtDistrSummary?activity="+activity+"&ot="+ot+"&process="+window.location.pathname.split("/").pop()}).done(function(data) { alert(JSON.stringify(data)); }).fail(function() { alert("Something went wrong!"); });
+    }
+
+    function click_listener(event) {
+        document.getElementById("dropDown").style.display = 'none';
+        if (event.target.nodeName == "text") {
+            let thisText = event.target.innerHTML;
+             if (thisText.length > 0) {
+                thisText = removeAfterLastSpace(thisText).trim();
+                var i = 0;
+                while (i < cobject['activities'].length) {
+                    if (thisText === cobject['activities'][i]) {
+                        document.getElementById("dropDown").innerHTML = ""
+                        var x = document.createElement("div");
+                        x.innerHTML = "<b>Available filters</b>:<br />"
+                        document.getElementById("dropDown").appendChild(x);
+                        var x = document.createElement("div");
+                        x.innerHTML = "<a href=\"javascript:filterActivity('"+cobject['activities'][i]+"', '1')\">Filter activity (keep)</a>";
+                        document.getElementById("dropDown").appendChild(x);
+                        var x = document.createElement("div");
+                        x.innerHTML = "<a href=\"javascript:filterActivity('"+cobject['activities'][i]+"', '0')\">Filter activity (remove)</a>";
+                        document.getElementById("dropDown").appendChild(x);
+                        var j = 0;
+                        while (j < cobject['attr_types'][cobject['activities'][i]].length) {
+                            var attr_name = cobject['attr_types'][cobject['activities'][i]][j][0];
+                            var attr_type = cobject['attr_types'][cobject['activities'][i]][j][1];
+                            if (attr_type.startsWith("float")) {
+                                var x = document.createElement("div");
+                                x.innerHTML = "<a href=\"javascript:getFloatAttrSummary('"+cobject['activities'][i]+"', '"+attr_name+"')\">Values distribution - "+attr_name+"</a>"
+                                document.getElementById("dropDown").appendChild(x);
+                                var x = document.createElement("div");
+                                x.innerHTML = "<a href=\"javascript:applyFloatFilter('"+cobject['activities'][i]+"', '"+attr_name+"')\">Float filter - "+attr_name+"</a>"
+                                document.getElementById("dropDown").appendChild(x);
+                            }
+                            j = j + 1;
+                        }
+                        var j = 0;
+                        while (j < cobject['obj_types'][cobject['activities'][i]].length) {
+                            var ot = cobject['obj_types'][cobject['activities'][i]][j];
+                            var x = document.createElement("div");
+                            x.innerHTML = "<a href=\"javascript:getOtDistrSummary('"+cobject['activities'][i]+"', '"+ot+"')\">Number of related objects - "+ot+"</a>"
+                            document.getElementById("dropDown").appendChild(x);
+                            var x = document.createElement("div");
+                            x.innerHTML = "<a href=\"javascript:applyObjTypesFilter('"+cobject['activities'][i]+"', '"+ot+"')\">Object Type Filter - "+ot+"</a>"
+                            document.getElementById("dropDown").appendChild(x);
+                            j = j + 1;
+                        }
+                        document.getElementById("dropDown").style.display = '';
+                        document.getElementById("dropDown").style.left = event.clientX+"px";
+                        document.getElementById("dropDown").style.top = event.clientY+"px";
+                        document.getElementById("dropDown").style.height = "100px";
+                        document.getElementById("dropDown").style.overflow = "auto";
+                    }
+                    i++;
+                }
+             }
+        }
+    }
+
+    function removeAfterLastSpace(oldString) {
+        let newString = "";
+        let oldStringSplit = oldString.split(" ");
+        if (oldStringSplit.length > 0 && oldStringSplit[oldStringSplit.length - 1].length > 0 && oldStringSplit[oldStringSplit.length - 1][0] == '(') {
+            let i = 0;
+            while (i < oldStringSplit.length - 1) {
+                newString = newString + oldStringSplit[i];
+                if (i < (oldStringSplit.length - 2)) {
+                    newString = newString + " ";
+                }
+                i++;
+            }
+            return newString;
+        }
+        return oldString;
+    }
+
+    function getLogObjectType() {
+        var object_type_sel = document.getElementById("object_type_sel").value;
+        $.ajax({url: "/getLogObjectType?objtype="+object_type_sel+"&process="+window.location.pathname.split("/").pop()}).done(function(data) {
+            data["log"] = atob(data["log"]);
+            console.log(data["log"]);
+            var blob = new Blob([data["log"]], {type: "text/xml;charset=utf-8"});
+            filename = data["name"]+".xml";
+            saveAs(blob, filename);
+        }).fail(function() { alert("Something went wrong!"); });
+    }
+
+    function preliminary() {
+        document.getElementById("classifier").value = "{{ Process.selected_classifier }}";
+        document.getElementById("aggregation_measure").value = "{{ Process.selected_aggregation_measure }}";
+        document.getElementById("decoration_measure").value = "{{ Process.selected_decoration_measure }}";
+        document.getElementById("projection_measure").value = "{{ Process.selected_projection }}";
+        document.getElementById("model_type").value = "{{ Process.selected_model_type }}";
+        document.getElementById("min_acti_count").value = "{{ Process.selected_min_acti_count }}";
+        document.getElementById("min_paths_count").value = "{{ Process.selected_min_edge_freq_count }}";
+        document.getElementById("noise_must").value = "{{ Process.epsilon }}";
+        document.getElementById("noise_objects").value = "{{ Process.noise_threshold }}";
+        pnames = '{{ Process.shared_logs_names }}'.split("@@@");
+        clusters = '{{ Process.clustersrepr }}'.split("@@@");
+        objtypes = '{{ Process.obj_types_str }}';
+        objtypes = objtypes.split("@@@");
+        /*if (clusters.length > 0) {
+            var cluster_div = document.getElementById("clustersdiv");
+            var cluster_selector = document.getElementById("clusterselector");
+            let i = 0;
+            while (i < clusters.length) {
+                var option = document.createElement("option");
+                option.text = clusters[i];
+                option.value = clusters[i];
+                cluster_selector.add(option);
+                i++;
+            }
+            cluster_div.style.display = '';
+        }*/
+        var log_selector = document.getElementById("logselector");
+        let i = 0;
+        while (i < pnames.length) {
+            var option = document.createElement("option");
+            option.text = pnames[i];
+            option.value = pnames[i];
+            log_selector.add(option);
+            i++;
+        }
+        document.getElementById("logselector").value = "{{ Process.name }}";
+        var object_type_sel = document.getElementById("object_type_sel");
+        console.log("objtypes");
+        console.log(objtypes);
+        i = 0;
+        while (i < objtypes.length) {
+            var option = document.createElement("option");
+            option.text = objtypes[i];
+            option.value = objtypes[i];
+            //object_type_sel.add(option);
+            i++;
+        }
+        var x = document.cookie.split(";");
+        i = 0;
+        while (i < x.length) {
+            let cookie_name = x[i].split("=")[0].trim();
+            let cookie_value = x[i].split("=")[1];
+
+            if (cookie_name === "min_acti_count") {
+                document.getElementById("min_acti_count").value = cookie_value;
+            }
+            if (cookie_name === "min_paths_count") {
+                document.getElementById("min_paths_count").value = cookie_value;
+            }
+            if (cookie_name === "model_type") {
+                document.getElementById("model_type").value = cookie_value;
+            }
+            i++;
+        }
+    }
+
+    function eraseCookie(name) {
+        document.cookie = name+'=; Max-Age=-99999999;';
+    }
+
+    function setCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+    }
+
+    function formCookie() {
+        var x = document.cookie.split(";");
+        var i = 0;
+        var new_cookie = "";
+        while (i < x.length) {
+            let cookie_name = x[i].split("=")[0].trim();
+            let cookie_value = x[i].split("=")[1];
+
+            eraseCookie(cookie_name);
+
+            if (cookie_name == "min_acti_count") {
+                setCookie(cookie_name, document.getElementById("min_acti_count").value, 1);
+            }
+            else if (cookie_name == "min_paths_count") {
+                setCookie(cookie_name, document.getElementById("min_paths_count").value, 1);
+            }
+            else if (cookie_name == "model_type") {
+                setCookie(cookie_name, document.getElementById("model_type").value, 1);
+            }
+            else if (cookie_name == "classifier") {
+                setCookie(cookie_name, document.getElementById("classifier").value, 1);
+            }
+            else if (cookie_name == "aggregation_measure") {
+                setCookie(cookie_name, document.getElementById("aggregation_measure").value, 1);
+            }
+            else if (cookie_name == "projection") {
+                setCookie(cookie_name, document.getElementById("projection_measure").value, 1);
+            }
+            else if (cookie_name == "decoration_measure") {
+                setCookie(cookie_name, document.getElementById("decoration_measure").value, 1);
+            }
+            else if (cookie_name == "noise_must") {
+                setCookie(cookie_name, document.getElementById("noise_must").value, 1);
+            }
+            else if (cookie_name == "noise_objects") {
+                setCookie(cookie_name, document.getElementById("noise_objects").value, 1);
+            }
+            i++;
+        }
+        window.location.reload();
+    }
+
+    function performClusterChange() {
+        var selected_log = document.getElementById("clusterselector").value;
+        // applyClusterFilter
+        $.ajax({url: "/applyClusterFilter?cluster="+selected_log+"&process="+window.location.pathname.split("/").pop()}).done(function(data) { window.location.reload(); }).fail(function() { alert("Something went wrong!"); });
+    }
+
+    function performLogChange() {
+        var selected_log = document.getElementById("logselector").value;
+        window.location.href = "/process_view/"+selected_log;
+    }
+
+    function onchange(event) {
+        if (expect_reload) {
+            if (document.visibilityState === 'visible') {
+                window.location.reload();
+            }
+        }
+    }
+
+    preliminary();
+    getCObject();
+    fillMainView();
+
+    document.addEventListener("visibilitychange", onchange);
+</script>
+<div id="dropDown" style="display: none; position: fixed; z-index: 10; background-color: #CCCCCC;">
+</div>
+</body>
+</html>
+

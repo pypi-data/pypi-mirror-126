@@ -1,0 +1,134 @@
+<html>
+<head>
+    <script style="text/javascript" src="../static/jquery.min.js"></script>
+    <script style="text/javascript" src="../static/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+    <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row" style="height: 100%">
+<div id="bigtable0" class="h-100 col-7" style="background-color: #EEEEEE; height: 99%; overflow: auto">
+    <h4>Events of the process: {{ Process.name }}</h4>
+    <button id="goback" onclick="javascript:goToProcessView()">Go to Process View</button><br />
+    Displayed events: <span id="displayedEventsLeft" style="font-weight: bold">0</span><br />
+    <div id="bigtable" style="width: 300%">
+
+    </div>
+</div>
+<div id="rightpanel0" class="h-100 col-5" style="background-color: #DDDDDD; height: 99%; overflow: auto">
+    <div id="rightpanel1" style="display: none">
+            <h4>Specific view</h4>
+            Displayed events: <span id="displayedEventsRight" style="font-weight: bold">0</span><br />
+            Selected object class: <span id="selectedObjectClass" style="font-weight: bold"> </span><br />
+            Selected object ID: <span id="selectedObjectId" style="font-weight: bold"> </span><br />
+
+            <div id="rightpanel" style="width: 300%">
+
+            </div>
+    </div>
+    <div id="correlatedevents" style="display: none">
+        Correlated events:<br />
+        <div id="rightpanelcorrelated" style="width: 300%">
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    var no_events_left = 0;
+    var no_events_right = 0;
+    var sel_obj_id = "";
+    var sel_obj_class = "";
+    var process = "{{ Process.name }}";
+
+    function goToProcessView() {
+        window.location.href = "/process_view/"+process;
+    }
+
+    function openCorrelatedEvents(eve) {
+        $.ajax({url: "/getMostSimilar?eid="+eve+"&process="+window.location.pathname.split("/").pop()}).done(function(data) { document.getElementById("rightpanel1").style.display='none'; document.getElementById("correlatedevents").style.display = ''; var columns = data.columns.split("@@@"); var events = atob(data.events).split("###"); no_events_right = events.length; populate(columns, events, "rightpanelcorrelated"); });
+    }
+
+    function clickObjClass(objId, objClass) {
+        $.ajax({url: "/getSpecObjTable?objid="+objId+"&objtype="+objClass+"&process="+window.location.pathname.split("/").pop()}).done(function(data) { sel_obj_id = objId; sel_obj_class = objClass; var columns = data.columns.split("@@@"); var events = atob(data.events).split("###"); no_events_right = events.length; document.getElementById("correlatedevents").style.display = 'none'; document.getElementById("rightpanel1").style.display=''; populate(columns, events, "rightpanel"); });
+    }
+
+    function populate(columns, events, target) {
+        document.getElementById("displayedEventsLeft").innerHTML = ""+no_events_left;
+        document.getElementById("displayedEventsRight").innerHTML = ""+no_events_right;
+        document.getElementById("selectedObjectClass").innerHTML = ""+sel_obj_class;
+        document.getElementById("selectedObjectId").innerHTML = ""+sel_obj_id;
+
+        var tbl = document.createElement("table");
+        tbl.style = "font-size: 9pt";
+        var tblHead = document.createElement("thead");
+        var tblBody = document.createElement("tbody");
+        var tr = null;
+        var th = null;
+        var td = null;
+        tr = document.createElement("tr");
+        th = document.createElement("th");
+        th.innerHTML = " ";
+        tr.append(th);
+        let i = 0;
+        while (i < columns.length) {
+            th = document.createElement("th");
+            th.innerHTML = columns[i];
+            tr.append(th);
+            i++;
+        }
+        tblHead.append(tr);
+        let j = 0;
+        while (j < events.length) {
+            let event = events[j].split("@@@");
+            tr = document.createElement("tr");
+            td = document.createElement("td");
+            td.style = "text-align: center";
+            td.innerHTML = "<a href='javascript:openCorrelatedEvents(\""+event[columns.indexOf("event_id")]+"\")'>*</a>";
+            tr.append(td);
+            i = 0;
+            while (i < columns.length) {
+                td = document.createElement("td");
+                td.style = "text-align: center";
+                if (event[i].startsWith("%%")) {
+                    if (!columns[i].startsWith("event_")) {
+                        event[i] = event[i].substring(2, event[i].length).split("%%%");
+                        let new_eve = "";
+                        let z = 0;
+                        while (z < event[i].length) {
+                            new_eve = new_eve + "<a href=\"javascript:clickObjClass('"+event[i][z]+"', '"+columns[i]+"')\">"+event[i][z]+"</a>";
+                            new_eve = new_eve + "&nbsp;";
+                            z++;
+                        }
+                        event[i] = new_eve;
+                    }
+                    else {
+                        event[i] = event[i].substring(2, event[i].length).split("%%%").join(" ");
+                    }
+                }
+                td.innerHTML = event[i];
+                tr.append(td);
+                i++;
+            }
+            tblBody.append(tr);
+            j++;
+        }
+        tbl.append(tblHead);
+        tbl.append(tblBody);
+        document.getElementById(target).innerHTML = "";
+        document.getElementById(target).append(tbl);
+    }
+
+    var columns = '{{ Process.columns }}'.split("@@@");
+    var events = atob('{{ Process.events }}').split("###");
+    no_events_left = events.length;
+    populate(columns, events, "bigtable");
+</script>
+</body>
+</html>
