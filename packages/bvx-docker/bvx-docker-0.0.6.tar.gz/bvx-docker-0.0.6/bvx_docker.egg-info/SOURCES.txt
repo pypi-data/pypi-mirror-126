@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+test-requirements.txt
+bvx_docker.egg-info/PKG-INFO
+bvx_docker.egg-info/SOURCES.txt
+bvx_docker.egg-info/dependency_links.txt
+bvx_docker.egg-info/top_level.txt
