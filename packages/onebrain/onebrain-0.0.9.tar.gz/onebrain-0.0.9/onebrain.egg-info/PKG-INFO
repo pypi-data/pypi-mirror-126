@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: onebrain
+Version: 0.0.9
+Summary: onebrain sdk in python version
+Home-page: https://github.com/OF-OneBrain/onebrain-sdk
+Author: onebrain_team
+Author-email: 761043617@qq.com
+License: MIT
+Description: # Onebrain-SDK
+        ## 安装
+        首先镜像里需安装onebrain-sdk。可以采用whl包本地安装的形式。
+        一般来说，平台提供的镜像里应该已经集成onebrain-sdk了。
+        ## 打最新的whl包
+        ```shell script
+        git clone https://gitee.com/onebrain/onebrain-sdk.git
+        python setup.py bdist_wheel -d onebrain
+        ```
+        将whl包上传至镜像
+        ## 安装whl包
+        ```shell script
+        pip install onebrain-0.0.1-py3-none-any.whl
+        ```
+        
+        SDK说明
+        使用示例
+        ```python
+        from onebrain.api import OnebrainClient
+        
+        run_id = "my_train_job"
+        # 创建与平台通信的client对象
+        client = OnebrainClient()
+        ```
+        然后就可以通过client对象来上传指标到平台了
+        以pytorch训练任务为例
+        ```shell script
+        # ...
+        def train(dataloader:DataLoader, model:nn.Module, loss_fn, optimizer:torch.optim.Optimizer, step):
+            image_size = len(dataloader.dataset)
+            print(f"数据集的图片总数: {image_size}")
+            
+            for batch, (x_train, y_train) in enumerate(dataloader):
+                x_train, y_train = x_train.to(device), y_train.to(device)
+                y_hat = model(x_train)
+                loss = loss_fn(y_hat, y_train)
+                loss.backward()
+                optimizer.step()
+                optimizer.zero_grad()
+        
+                if batch % 100 == 0:
+                    loss, current = loss.item(), batch * len(x)
+                    print(f'batch:{batch}, loss: {loss}, , image_num:{current}/{image_size}')
+                    # 上传指标
+                    client.log_metric(key="loss", value=loss, step=step)
+        
+        for epoch in range(epochs):
+            print(f"Epoch {epoch}\n --------------------------------")
+            train(train_dataloader, model, loss_fn, optimizer, epoch)
+        ```
+        
+        #### log_metric方法参数说明：
+        - run_id:  训练任务的唯一标识，默认从环境变量获取，填充为平台生成的resourceId
+        - key：指标名称
+        - value: 指标值
+        - timestamp:  时间戳，默认为当前时间
+        - step: 训练的step 
+        
+        #### 备注：
+        在OnebrainClient对象实例化之初，会根据容器的环境变量判断该以何种方式上报平台。
+        默认为RestfulApi，也支持使用MQ上报指标。当环境变量不存在时，实例化会失败并报错。
+        
+Keywords: onebrain
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
