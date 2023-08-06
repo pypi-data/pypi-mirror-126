@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+versioneer.py
+src/pandas_context/__init__.py
+src/pandas_context/_version.py
+src/pandas_context.egg-info/PKG-INFO
+src/pandas_context.egg-info/SOURCES.txt
+src/pandas_context.egg-info/dependency_links.txt
+src/pandas_context.egg-info/requires.txt
+src/pandas_context.egg-info/top_level.txt
