@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: gpscript
+Version: 1.1.4
+Summary: A package manager to install general purpose script by Google Developer Student Club
+Home-page: UNKNOWN
+Author: Ujjwal Kar
+Author-email: ujjwalkar21@gmail.com
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+### Install General purpose scripts ([Check This](https://github.com/ujjwalkar0/General-Purpose-Scripts)) using gpscript command
+
+First of all install gpscript. Write following command(s)
+```
+pip install gpscript
+```
+or,
+```
+git clone https://github.com/ujjwalkar0/gpscript
+
+cd gpscript
+
+python setup.py install
+
+```
+List of all script (Only those packages are in packages.json will shown here.)
+
+```
+gpscript list
+```
+Install a script
+```
+gpscript install <package_name>
+```
+
+List all installed packages...
+```
+gpscript installed
+```
+Remove a package...
+```
+gpscript remove <package_name>
+```
+Update a package...
+```
+gpscript update <package_name>
+```
+
+
