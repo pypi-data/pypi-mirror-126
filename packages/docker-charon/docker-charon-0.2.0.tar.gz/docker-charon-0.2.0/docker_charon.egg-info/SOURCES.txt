@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+docker_charon/__init__.py
+docker_charon/common.py
+docker_charon/decoder.py
+docker_charon/encoder.py
+docker_charon/test_utils.py
+docker_charon.egg-info/PKG-INFO
+docker_charon.egg-info/SOURCES.txt
+docker_charon.egg-info/dependency_links.txt
+docker_charon.egg-info/requires.txt
+docker_charon.egg-info/top_level.txt
+tests/requirements.txt
