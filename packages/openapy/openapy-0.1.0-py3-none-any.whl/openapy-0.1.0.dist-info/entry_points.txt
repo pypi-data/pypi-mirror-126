@@ -1,0 +1,3 @@
+[console_scripts]
+pypj=openapy.main:main
+
