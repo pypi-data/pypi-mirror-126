@@ -1,0 +1,3 @@
+[console_scripts]
+podiff2 = podiff2.podiff:main
+

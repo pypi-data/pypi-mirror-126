@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: podiff2
+Version: 0.0.1
+Summary: compare two .po/gettext files for differences 
+Home-page: https://github.com/eshagh79/podiff2
+Author: eshagh
+Author-email: eshagh094@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/eshagh79/podiff2/issues
+Description: # podiff.py
+        compare two .po/gettext files for differences
+        
+        This program can be used to see added, deleted, changed, header messages.
+        It also has an option to display statistics, to show only the number of differences.
+        
+        ## How to use:
+        * `podiff.py first.po second.po -s`
+        
+        It only displays statistics
+        
+        * `podiff.py first.po second.po -a`
+        
+        It only displays added messages
+        
+        * `podiff.py first.po second.po -d`
+        
+        It only displays deleted messages
+        
+        * `podiff.py first.po second.po -adgs`
+        
+        Displays these messages added, deleted, changed, and statistics
+        
+        Enter the command `podiff.py -h` to see all options
+        
+        This app is based on https://github.com/amandasaurus/podiff
+        
+Keywords: po gettext compare diff
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

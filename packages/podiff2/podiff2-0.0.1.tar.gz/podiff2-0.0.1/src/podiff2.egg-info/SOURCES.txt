@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/podiff2/__init__.py
+src/podiff2/podiff.py
+src/podiff2.egg-info/PKG-INFO
+src/podiff2.egg-info/SOURCES.txt
+src/podiff2.egg-info/dependency_links.txt
+src/podiff2.egg-info/entry_points.txt
+src/podiff2.egg-info/requires.txt
+src/podiff2.egg-info/top_level.txt
