@@ -1,0 +1,18 @@
+# Http & Https Implementation
+This drb-impl-http module implements http and https protocol access with DRB data model. It is able to get read object using the http protocol or the https protocol.
+
+## Http Factory and Http Node
+The module implements the basic factory model defined in DRB in its node resolver. Based on the python entry point mechanism, this module can be dynamically imported into applications.
+
+The entry point group reference is `drb.impl`.<br/>
+The implementation name is `http`.<br/>
+The factory class is encoded into `drb_impl_http.drb_impl_http`.<br/>
+
+The HttpNode can be instantiated from an uri. The `ParsedPath` class provided in drb core module can help to manage these inputs.
+
+## Using this module
+To include this module into your project, the `drb-impl-http` module shall be referenced into `requirement.txt` file, or the following pip line can be run:
+
+```commandline
+pip install drb-impl-file
+```
