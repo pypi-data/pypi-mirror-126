@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: filtermaker
+Version: 0.0.1
+Summary: Make a text file filter
+Home-page: https://github.com/yukihira1992/filtermaker
+Author: Takayuki Hirayama
+Author-email: th.windbell+github@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/yukihira1992/filtermaker/issues
+Keywords: text,file,filter,converter
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Filters
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+===========
+filtermaker
+===========
+
+.. image:: https://img.shields.io/pypi/v/filtermaker.svg
+    :target: https://pypi.org/project/filtermaker/
+    :alt: PyPI Version
+
+.. image:: https://github.com/yukihira1992/filtermaker/actions/workflows/test-package.yml/badge.svg
+    :target: https://github.com/yukihira1992/filtermaker/actions
+    :alt: Build status
+
+
+Make a text file filter
+
+
+Installation
+============
+
+Installing from PyPI::
+
+    pip install --upgrade filtermaker
+
+
+Usage
+=====
+
+filtermaker CHANGELOG
+=====================
+
+0.0.1 (2021-11-07)
+******************
+
+* Add TextFilter class
+
+
