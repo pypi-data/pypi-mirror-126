@@ -1,0 +1,9 @@
+.Rproj*
+.Rhistory
+.RData
+.Ruserdata
+*.swp
+*.o
+~*
+*.so
+*.a
