@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: symspellpy-ko
+Version: 0.1.1
+Summary: symspellpy를 한글 특성에 맞춰서 수정한 라이브러리. 자소분해를 이용해 더 정확한 오타교정을 해준다.
+Home-page: https://github.com/HeegyuKim/symspellpy-ko
+Author: Heegyu Kim
+Author-email: heekue83@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# Symspellpy-ko
+symspellpy를 한글 특성에 맞춰서 수정한 라이브러리. 자소분해를 이용해 더 정확한 오타교정을 해준다.
+
+
