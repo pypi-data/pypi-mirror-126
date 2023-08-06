@@ -1,0 +1,8 @@
+README.md
+setup.py
+snspec/__init__.py
+snspec/snspec.py
+snspec.egg-info/PKG-INFO
+snspec.egg-info/SOURCES.txt
+snspec.egg-info/dependency_links.txt
+snspec.egg-info/top_level.txt
