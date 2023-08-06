@@ -1,0 +1,11 @@
+future
+numpy
+scipy
+matplotlib
+GPy
+sklearn
+torch
+
+[docs]
+Sphinx==1.4
+sphinx_rtd_theme
