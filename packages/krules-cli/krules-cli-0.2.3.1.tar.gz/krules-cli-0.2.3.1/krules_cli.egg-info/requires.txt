@@ -1,0 +1,4 @@
+click
+gitpython
+mdv3
+krules-dev-support
