@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py-cli-tools
+Version: 1.0.1
+Summary: Functions that I found myself writing in different projects over and over again go here
+Home-page: https://github.com/Andrew-Pynch/py-cli-tools
+Author: Andrew Pynch
+Author-email: andrewpynchbusiness@gmail.com
+License: MIT
+Description: # py-cli-tools
+        
+        [![PyPI version](https://badge.fury.io/py/py-cli-tools.svg)](https://badge.fury.io/py/py-cli-tools)
+        
+        Functions that I found myself writing in different projects over and over again go here
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
