@@ -1,0 +1,9 @@
+setup.py
+dist/__init__.py
+dist/main.py
+dist/text_config_generator.py
+dist/text_tracker.py
+mylibarmor.egg-info/PKG-INFO
+mylibarmor.egg-info/SOURCES.txt
+mylibarmor.egg-info/dependency_links.txt
+mylibarmor.egg-info/top_level.txt
