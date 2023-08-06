@@ -1,0 +1,10 @@
+geographiclib==1.50
+geopy==1.20.0
+jupyter==1.0.0
+matplotlib==3.1.2
+mysql-connector==2.2.9
+numpy==1.18.0
+plotly-express==0.4.1
+plotly==4.4.0
+pytest
+streamlit==0.78.0
