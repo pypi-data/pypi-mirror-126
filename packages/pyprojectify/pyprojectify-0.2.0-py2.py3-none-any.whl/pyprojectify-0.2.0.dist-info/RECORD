@@ -1,0 +1,11 @@
+pyprojectify/__init__.py,sha256=4VDtCHpnw1rZQQzlbvpnqoNhgRhauuEbUiGGkVxLu7M,139
+pyprojectify/cli.py,sha256=5Lsdr1IMSzQwMSbIe94nTxT4yqI34643rIVx8pPTB5Q,430
+pyprojectify/pyprojectify.py,sha256=cIZTZikSQELSuBJ33G318ed3Mznbv04KTpavSvfJ5y4,9258
+pyprojectify/utils.py,sha256=jhVNomLBKizTkuGirFSZrmnMfgYGJkX91sCN41Sus5Y,210
+pyprojectify-0.2.0.dist-info/AUTHORS.rst,sha256=MskZZIBlfGjlQr6ybmXqh4Kkr1Yr7UC2FO1Aq3km6Ao,173
+pyprojectify-0.2.0.dist-info/LICENSE,sha256=1YIeA0dIl053ihM-qwztswQ4FAC-ODZoR0FwWgCMFm0,1091
+pyprojectify-0.2.0.dist-info/METADATA,sha256=7b78UACLvt6ROoZes8mu9KudydSaS2biv5Blrl4eIZY,2086
+pyprojectify-0.2.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pyprojectify-0.2.0.dist-info/entry_points.txt,sha256=gCf0EiWniL4C5VrqC7ROdW2CywTiqVJ_m04qnO_CwfM,56
+pyprojectify-0.2.0.dist-info/top_level.txt,sha256=xPsd_lWxvoVYfdOuvNwN9OViIAiljbM-ePmb8p9Nxek,13
+pyprojectify-0.2.0.dist-info/RECORD,,
