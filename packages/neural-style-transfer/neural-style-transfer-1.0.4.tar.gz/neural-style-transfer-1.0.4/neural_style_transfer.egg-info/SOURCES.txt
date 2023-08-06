@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+neural_style_transfer.egg-info/PKG-INFO
+neural_style_transfer.egg-info/SOURCES.txt
+neural_style_transfer.egg-info/dependency_links.txt
+neural_style_transfer.egg-info/requires.txt
+neural_style_transfer.egg-info/top_level.txt
+neuralstyletransfer/__init__.py
+neuralstyletransfer/about.py
+neuralstyletransfer/model.py
+neuralstyletransfer/style_transfer.py
