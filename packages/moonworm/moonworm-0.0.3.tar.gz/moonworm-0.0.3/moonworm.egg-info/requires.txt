@@ -1,0 +1,14 @@
+web3[tester]
+libcst
+pysha3<2.0.0,>=1.0.0
+
+[dev]
+black
+mypy
+isort
+wheel
+
+[distribute]
+setuptools
+twine
+wheel
