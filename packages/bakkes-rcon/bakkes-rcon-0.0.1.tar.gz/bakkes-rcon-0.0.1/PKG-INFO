@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: bakkes-rcon
+Version: 0.0.1
+Summary: Tools for interacting with BakkesMod over its websocket RCON
+Home-page: https://github.com/theY4Kman/bakkes-rcon
+License: MIT
+Author: Zach "theY4Kman" Kanzler
+Author-email: they4kman@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: websockets (>=10.0,<11.0)
+Project-URL: Repository, https://github.com/theY4Kman/bakkes-rcon
+Description-Content-Type: text/markdown
+
+# bakkes-rcon
+
+Client for interacting with [BakkesMod](https://bakkesmod.com/) over its websocket RCON.
+
+
+# Installation
+
+```shell
+pip install bakkes-rcon
+```
+
+
+# Usage
+
+```python
+import asyncio
+from bakkes_rcon import BakkesRconClient
+
+async def main():
+    # By default, connects to ws://127.0.0.1:9002, with password "password"
+    async with BakkesRconClient() as client:
+        inventory = await client.get_inventory()
+        for item in inventory:
+            print(item)
+
+asyncio.run(main())
+```
+
