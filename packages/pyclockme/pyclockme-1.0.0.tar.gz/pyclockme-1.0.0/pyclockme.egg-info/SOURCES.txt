@@ -1,0 +1,6 @@
+setup.py
+PyClockMe/__init__.py
+pyclockme.egg-info/PKG-INFO
+pyclockme.egg-info/SOURCES.txt
+pyclockme.egg-info/dependency_links.txt
+pyclockme.egg-info/top_level.txt
