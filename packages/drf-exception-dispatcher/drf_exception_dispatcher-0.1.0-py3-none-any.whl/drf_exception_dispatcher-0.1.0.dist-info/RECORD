@@ -1,0 +1,13 @@
+exception_dispatcher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+exception_dispatcher/dispatchers/__init__.py,sha256=529Jl3ItJX-IGiiLT8lIA4DG-3VjLUHLhXixmkejlV4,253
+exception_dispatcher/dispatchers/django.py,sha256=hjDjD3sHCHB3j7-0t-qrMRLcXUVU5oT4a1woZ--4SJw,1520
+exception_dispatcher/dispatchers/main.py,sha256=C4YQPfBwi-o-lkK5UyK5ettX3OnoX23TS4nuhzAMUF8,1615
+exception_dispatcher/dispatchers/rest_framework.py,sha256=WF3wznIkBvpjf1hp8H24rtPwRGioIkROZL3Z4vl0s0g,2132
+exception_dispatcher/handlers.py,sha256=ZEXZvkM8VhfsnEAM2Kcc-2ds578ZZwpz9e7vk9v26uk,1152
+exception_dispatcher/parsers.py,sha256=oHF7_wnBZy7rxr5BNCQJe4wUYRDGfW8Di0lq8wCEmPA,771
+exception_dispatcher/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+exception_dispatcher/types.py,sha256=H2hhtmwhxKHFBiXzFX7wm22pRtEymv-n-3HvFPYHZEs,220
+drf_exception_dispatcher-0.1.0.dist-info/LICENSE,sha256=rHwKwAxNG58AiELDmDgmXVIGbTUqZF5JhpkLn7PCpxc,1077
+drf_exception_dispatcher-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+drf_exception_dispatcher-0.1.0.dist-info/METADATA,sha256=LFWDWJgeRDWGXhKPYhR1llN7mnNgcOmfx6Klqprakng,3229
+drf_exception_dispatcher-0.1.0.dist-info/RECORD,,
