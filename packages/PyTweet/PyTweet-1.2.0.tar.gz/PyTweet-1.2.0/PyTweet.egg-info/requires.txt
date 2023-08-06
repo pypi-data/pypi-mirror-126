@@ -1,0 +1,7 @@
+requests
+requests_oauthlib
+python-dateutil
+
+[docs]
+sphinx_rtd_dark_mode==1.2.4
+furo
