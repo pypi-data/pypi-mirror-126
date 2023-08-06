@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+hourglass_transformer_pytorch/__init__.py
+hourglass_transformer_pytorch/autoregressive_wrapper.py
+hourglass_transformer_pytorch/hourglass_transformer_pytorch.py
+hourglass_transformer_pytorch.egg-info/PKG-INFO
+hourglass_transformer_pytorch.egg-info/SOURCES.txt
+hourglass_transformer_pytorch.egg-info/dependency_links.txt
+hourglass_transformer_pytorch.egg-info/requires.txt
+hourglass_transformer_pytorch.egg-info/top_level.txt
