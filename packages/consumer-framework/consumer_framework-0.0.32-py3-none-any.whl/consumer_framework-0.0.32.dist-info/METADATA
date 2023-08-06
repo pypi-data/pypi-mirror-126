@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: consumer-framework
+Version: 0.0.32
+Summary: Consumer Framework
+Home-page: https://github.com/devnine99/consumer-framework
+Author: devnine99
+Author-email: devnine99@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: kafka-python (>=2)
+Requires-Dist: pydantic (>=1.8)
+
+UNKNOWN
+
+
