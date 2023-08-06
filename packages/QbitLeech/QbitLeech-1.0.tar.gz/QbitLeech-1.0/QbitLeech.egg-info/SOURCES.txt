@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+setups.py
+QbitLeech.egg-info/PKG-INFO
+QbitLeech.egg-info/SOURCES.txt
+QbitLeech.egg-info/dependency_links.txt
+QbitLeech.egg-info/requires.txt
+QbitLeech.egg-info/top_level.txt
+bin/extract
+bin/pextract
