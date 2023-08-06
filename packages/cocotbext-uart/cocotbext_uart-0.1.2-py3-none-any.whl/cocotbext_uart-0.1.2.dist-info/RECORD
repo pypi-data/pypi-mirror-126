@@ -1,0 +1,8 @@
+cocotbext/uart/__init__.py,sha256=d4boF2PGem8bje6H0uiGlN0XDG6xQmIY3DHHIP3S2Uw,1141
+cocotbext/uart/uart.py,sha256=nO7DxN8BR_7KSVBRXoVr8RZLz2i2RujLzTJOSkxbWO8,7599
+cocotbext/uart/version.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+cocotbext_uart-0.1.2.dist-info/LICENSE,sha256=Bpnr2Xw6jsFY1vz38qAficgww_vZyfWDhXfNThCsM8Y,1059
+cocotbext_uart-0.1.2.dist-info/METADATA,sha256=QdhE4Xj8LkTBJlP_prXnIMXeYGoPVQvqNs3aiVbpAZM,4315
+cocotbext_uart-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cocotbext_uart-0.1.2.dist-info/top_level.txt,sha256=CEzgDDbvABi5X1TOqXPbyRc2Bsf41BTwKc5T8riPRPM,10
+cocotbext_uart-0.1.2.dist-info/RECORD,,
