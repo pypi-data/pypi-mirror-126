@@ -1,0 +1,8 @@
+click
+rich
+httpx
+pyyaml
+
+[test]
+pytest
+respx
