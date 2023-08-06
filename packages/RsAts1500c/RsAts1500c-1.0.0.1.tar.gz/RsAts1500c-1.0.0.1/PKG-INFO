@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: RsAts1500c
+Version: 1.0.0.1
+Summary: ATS1500C Python instrument driver from Rohde & Schwarz
+Home-page: UNKNOWN
+Author: Rohde & Schwarz GmbH & Co. KG
+Author-email: Customer.Support@rohde-schwarz.com
+License: MIT
+Description: Rohde & Schwarz ATS1500C Python instrument driver Version 1.0.0.1
+        
+        Version history:
+         1.0.0.1 03/2021
+         - First version created
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
