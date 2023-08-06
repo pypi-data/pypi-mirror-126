@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: thestorygraph-client
+Version: 0.0.3
+Summary: A Simple Python Client for TheStoryGraph
+Home-page: https://github.com/altvod/thestorygraph-py
+Author: Grigory Statsenko
+Author-email: grisha100@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/altvod/thestorygraph-py/issues
+Keywords: thestorygraph,books,client
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: build
+License-File: LICENSE
+
+# thestorygraph-py
+A Simple Python Client for TheStoryGraph
+
+Sync and async clients as well as a model abstraction layer for the website.
+
+
+## Installation
+
+```bash
+pip install thestorygraph-client
+```
+
+## Examples
+
+### Search for books (sync)
+
+Find and print books related to `'SPQR'`:
+
+```python
+from tsg.client import SyncTSGClient
+
+def print_search_result(search_text: str) -> None:
+    client = SyncTSGClient()
+    book_list = client.search(text=search_text)
+    for book in book_list:
+        print(f'{book.authors[0].name} - {book.title}')
+
+print_search_result('SPQR')
+```
+
+### Search for books (async)
+
+Same as above, but using the asynchronous client:
+
+```python
+import asyncio
+from tsg.client import AsyncTSGClient
+
+async def print_search_result(search_text: str) -> None:
+    client = AsyncTSGClient()
+    book_list = await client.search(text=search_text)
+    for book in book_list:
+        print(f'{book.authors[0].name} - {book.title}')
+
+asyncio.run(print_search_result('SPQR'))
+```
+
+The two clients have identical APIs (beside the fact that the latter is async).
+
+
