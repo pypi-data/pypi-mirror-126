@@ -1,0 +1,6 @@
+py-cord
+
+[docs]
+sphinx
+sphinxcontrib_trio
+sphinx-rtd-theme

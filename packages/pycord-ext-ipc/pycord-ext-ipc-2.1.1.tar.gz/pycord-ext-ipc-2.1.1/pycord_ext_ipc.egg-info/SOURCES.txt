@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+pycord/ext/ipc/__init__.py
+pycord/ext/ipc/client.py
+pycord/ext/ipc/errors.py
+pycord/ext/ipc/server.py
+pycord_ext_ipc.egg-info/PKG-INFO
+pycord_ext_ipc.egg-info/SOURCES.txt
+pycord_ext_ipc.egg-info/dependency_links.txt
+pycord_ext_ipc.egg-info/requires.txt
+pycord_ext_ipc.egg-info/top_level.txt
