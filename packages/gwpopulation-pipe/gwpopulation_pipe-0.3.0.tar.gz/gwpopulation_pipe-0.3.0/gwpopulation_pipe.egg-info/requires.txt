@@ -1,0 +1,12 @@
+extension-helpers
+numpy
+scipy
+astropy
+dynesty>1.0.0
+bilby>=1.0.4
+bilby_pipe
+gwpopulation>=0.6.2
+h5py
+deepdish
+matplotlib
+tqdm

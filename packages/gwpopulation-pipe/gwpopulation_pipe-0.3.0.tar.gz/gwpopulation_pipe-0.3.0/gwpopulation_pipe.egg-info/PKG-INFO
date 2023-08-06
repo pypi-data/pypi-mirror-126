@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: gwpopulation-pipe
+Version: 0.3.0
+Summary: A pipeline population inference
+Home-page: https://git.ligo.org/RatesAndPopulations/gwpopulation_pipe
+Author: Colm Talbot
+Author-email: colm.talbot@ligo.org
+License: MIT
+Description: `gwpopulation_pipe` provides a simple way to perform population analyses.
+        
+        More information can be found in the [online documentation](https://docs.ligo.org/RatesAndPopulations/gwpopulation_pipe).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
