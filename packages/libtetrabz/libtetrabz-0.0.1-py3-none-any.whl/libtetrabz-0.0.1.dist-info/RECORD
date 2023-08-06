@@ -1,0 +1,14 @@
+libtetrabz/__init__.py,sha256=pQbalgir3Fqg2T6mmv7sdRxEAKrBQMy5m6YMuuNSnbc,1473
+libtetrabz/libtetrabz_common.py,sha256=dfoWhfV4MVyYTyshKaNi67xVP3KxlSJtciul27uMWBQ,11490
+libtetrabz/libtetrabz_dbldelta.py,sha256=TuhJpMwGaVnexEmNrDk2WcjYzdGWMqWwNKui4-Lk6GE,5431
+libtetrabz/libtetrabz_dblstep.py,sha256=BLF7GI3uAleGr35uML-qlhAkjgZRtlyJTg5InqB1AAA,7658
+libtetrabz/libtetrabz_dos.py,sha256=wLxxO00M5l4zzHjJEa6eqEUdk8obiyk22bCxiOh9y-Q,6544
+libtetrabz/libtetrabz_fermigr.py,sha256=LkDTNjmjOC8Y0FmcaKmikRzHrzMIIG4O4b8s6OKcpTQ,10397
+libtetrabz/libtetrabz_occ.py,sha256=ciyXgJj2OC-7uuOwOSMdLvF1sZCQtlmwpIHMUeciJUs,4550
+libtetrabz/libtetrabz_polcmplx.py,sha256=mShTHEBar5wXjAlqibP-09HhdRSYBqMjpgq84VDBI-Q,21491
+libtetrabz/libtetrabz_polstat.py,sha256=Rks3NhwkVWKbpG9NF6ueGC6VU0dEqPRcA_EB4TUuQYM,16476
+libtetrabz-0.0.1.dist-info/LICENSE,sha256=Hn1J716QAfuLbPChaqRiU5v2LXkp0_mTBgttL2j0a2M,1075
+libtetrabz-0.0.1.dist-info/METADATA,sha256=HT4dzImqBCmRXJvIgU4c3H2vl8wn9xjtQlZHz9hA2kY,1191
+libtetrabz-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+libtetrabz-0.0.1.dist-info/top_level.txt,sha256=tw1fU76gCd2OMTkmhHRcauYMl8AXz5ZPn27LwSLaWoI,11
+libtetrabz-0.0.1.dist-info/RECORD,,
