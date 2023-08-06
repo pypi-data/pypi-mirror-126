@@ -1,0 +1,14 @@
+foreverbull/__init__.py,sha256=0rbXtX-AXwWwesDyzLjGpiQGJ_ln1lVgp5CMYQPYaJM,120
+foreverbull/__main__.py,sha256=BeYj74NO5hydkas-ouHmT3O3xHGVeMOQ4TUDRJzmpuc,179
+foreverbull/foreverbull.py,sha256=bWINgBo2EvhK5n7RgCRIvvwdCVx5Kora1eFPH5Ny0rg,4914
+foreverbull/input_parser.py,sha256=BAL6FWuMQDraoCfXYOon5YIKRrff9kGYkAt5Fin_QFY,2859
+foreverbull/data/__init__.py,sha256=LJsZo6tDAiYydOvk5-Th_liB8xSYlMpruVZYE5QkEIM,114
+foreverbull/data/data.py,sha256=IQgz-34mhJ3xo95JceV_8ZR340VU3nB0NIRpNL2DCMw,973
+foreverbull/data/stock_data.py,sha256=ys4ipjahM3gOISRh3BDpQaZik8GeQ0zBDrYdbNq7nFY,463
+foreverbull/worker/__init__.py,sha256=MopOknuwVkj1tfmt8eth2Jd0ZBmMHZUrNg0pcbkto24,47
+foreverbull/worker/exceptions.py,sha256=HLcPqtCDXmVPV4keqf_MY-ZgW_5oeSQ_NHbBrKVoRUM,43
+foreverbull/worker/worker.py,sha256=bKiIIqIfGLDmANziv0TfwUcbDFCnoK0cLVRRWF-yShk,2104
+foreverbull-0.0.7.dist-info/METADATA,sha256=6SmMdnQsU6smAWe0UVWF1pOQmXJJ6VDidfKNzA4vRK4,374
+foreverbull-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+foreverbull-0.0.7.dist-info/top_level.txt,sha256=I62HpGEwQKH9um9E6xopLiduu53WwJ2ikDpD5jQh37M,12
+foreverbull-0.0.7.dist-info/RECORD,,
