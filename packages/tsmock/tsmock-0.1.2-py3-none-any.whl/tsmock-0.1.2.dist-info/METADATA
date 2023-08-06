@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: tsmock
+Version: 0.1.2
+Summary: Thread safe wrapper around unittest.mock
+Home-page: https://github.com/AtakamaLLC/tsmock
+License: MIT
+Keywords: thread,unittest,mock
+Author: Erik Aronesty
+Author-email: erik@atakama.com
+Requires-Python: >=3.6.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/AtakamaLLC/tsmock
+Description-Content-Type: text/markdown
+
+# tsmock
+
+### Thread safe pything mocking wrapper around unittest.mock
+
+Either monkey patch all mock classes:
+
+```
+from tsmock import thread_safe_mocks
+thread_safe_mocks()
+```
+
+Or use a single mock class as needed:
+
+```
+from tsmock import MagicMock
+```
+
