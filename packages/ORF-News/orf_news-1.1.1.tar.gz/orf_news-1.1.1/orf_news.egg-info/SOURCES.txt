@@ -1,0 +1,13 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+orf_news/__init__.py
+orf_news/errors.py
+orf_news/orfnews.py
+orf_news.egg-info/PKG-INFO
+orf_news.egg-info/SOURCES.txt
+orf_news.egg-info/dependency_links.txt
+orf_news.egg-info/requires.txt
+orf_news.egg-info/top_level.txt
