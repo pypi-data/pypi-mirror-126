@@ -1,0 +1,3 @@
+[console_scripts]
+sochainer = sochainer.__main__:main
+

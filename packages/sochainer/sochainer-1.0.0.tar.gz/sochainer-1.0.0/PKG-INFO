@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sochainer
+Version: 1.0.0
+Summary: Basic SoChain feed reader that can download the latest cryptocurrency data from sochain.com
+Home-page: https://github.com/mtclinton/sochainer
+Author: Max Clinton
+Author-email: max@mtclinton.com
+License: MIT
+Description: # sochainer
+        Basic SoChain feed reader that can download the latest cryptocurrency data from the sochain.com.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

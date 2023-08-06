@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+sochainer/__init__.py
+sochainer/__main__.py
+sochainer/sochain.py
+sochainer.egg-info/PKG-INFO
+sochainer.egg-info/SOURCES.txt
+sochainer.egg-info/dependency_links.txt
+sochainer.egg-info/entry_points.txt
+sochainer.egg-info/requires.txt
+sochainer.egg-info/top_level.txt
