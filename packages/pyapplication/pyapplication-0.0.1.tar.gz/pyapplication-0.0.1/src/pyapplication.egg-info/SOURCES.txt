@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyapplication/__init__.py
+src/pyapplication/pyapplication.py
+src/pyapplication.egg-info/PKG-INFO
+src/pyapplication.egg-info/SOURCES.txt
+src/pyapplication.egg-info/dependency_links.txt
+src/pyapplication.egg-info/top_level.txt
