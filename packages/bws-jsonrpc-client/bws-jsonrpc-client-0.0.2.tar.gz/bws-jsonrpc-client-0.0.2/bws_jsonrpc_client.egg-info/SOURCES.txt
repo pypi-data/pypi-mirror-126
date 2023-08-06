@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+bws_jsonrpc_client/__init__.py
+bws_jsonrpc_client/cli.py
+bws_jsonrpc_client/client.py
+bws_jsonrpc_client.egg-info/PKG-INFO
+bws_jsonrpc_client.egg-info/SOURCES.txt
+bws_jsonrpc_client.egg-info/dependency_links.txt
+bws_jsonrpc_client.egg-info/entry_points.txt
+bws_jsonrpc_client.egg-info/requires.txt
+bws_jsonrpc_client.egg-info/top_level.txt

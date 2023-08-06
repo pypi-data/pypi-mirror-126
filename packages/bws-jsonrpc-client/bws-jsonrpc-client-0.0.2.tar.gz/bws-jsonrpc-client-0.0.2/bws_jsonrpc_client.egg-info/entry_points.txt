@@ -1,0 +1,3 @@
+[console_scripts]
+jsonrpc = bws_jsonrpc_client.cli:main
+
