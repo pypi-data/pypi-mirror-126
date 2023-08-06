@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+simple_revert/__init__.py
+simple_revert/common.py
+simple_revert/restore_version.py
+simple_revert/simple_revert.py
+simple_revert.egg-info/PKG-INFO
+simple_revert.egg-info/SOURCES.txt
+simple_revert.egg-info/dependency_links.txt
+simple_revert.egg-info/entry_points.txt
+simple_revert.egg-info/requires.txt
+simple_revert.egg-info/top_level.txt
