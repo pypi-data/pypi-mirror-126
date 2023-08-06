@@ -1,0 +1,9 @@
+README.md
+setup.py
+test_pack_yasak2/__init__.py
+test_pack_yasak2/hello_module.py
+test_pack_yasak2/main.py
+test_pack_yasak2.egg-info/PKG-INFO
+test_pack_yasak2.egg-info/SOURCES.txt
+test_pack_yasak2.egg-info/dependency_links.txt
+test_pack_yasak2.egg-info/top_level.txt
