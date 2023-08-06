@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: amundsen-metadata-neo4j4
+Version: 3.9.0.post0
+Summary: Metadata service for Amundsen
+Home-page: https://www.github.com/amundsen-io/amundsen/tree/main/metadata
+Maintainer: Amundsen TSC
+Maintainer-email: amundsen-tsc@lists.lfai.foundation
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Provides-Extra: all
+Provides-Extra: dev
+Provides-Extra: atlas
+Provides-Extra: oidc
+Provides-Extra: rds
+License-File: LICENSE
+License-File: NOTICE
+
+UNKNOWN
+
