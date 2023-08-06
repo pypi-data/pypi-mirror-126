@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+calc.py
+setup.py
+Calc_zah.egg-info/PKG-INFO
+Calc_zah.egg-info/SOURCES.txt
+Calc_zah.egg-info/dependency_links.txt
+Calc_zah.egg-info/top_level.txt
