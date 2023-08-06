@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+spec_augment/spec_augment.py
+spec_augment/spec_augment.egg-info/PKG-INFO
+spec_augment/spec_augment.egg-info/SOURCES.txt
+spec_augment/spec_augment.egg-info/dependency_links.txt
+spec_augment/spec_augment.egg-info/requires.txt
+spec_augment/spec_augment.egg-info/top_level.txt
