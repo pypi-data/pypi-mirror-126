@@ -1,0 +1,7 @@
+numpy
+pyyaml
+coolname
+pyqt5
+pyqtgraph
+qdarkstyle
+pillow
