@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+src/yasmine/__init__.py
+src/yasmine/__main__.py
+src/yasmine/train.mp3
+src/yasmine.egg-info/PKG-INFO
+src/yasmine.egg-info/SOURCES.txt
+src/yasmine.egg-info/dependency_links.txt
+src/yasmine.egg-info/requires.txt
+src/yasmine.egg-info/top_level.txt
+src/yasmine/texte/__init__.py
+src/yasmine/texte/texte.html
+src/yasmine/texte/texte.odt
+src/yasmine/texte/texte.pdf
+src/yasmine/texte/texte.txt
