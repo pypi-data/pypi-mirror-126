@@ -1,0 +1,25 @@
+Waveform: GSM 2 Timeslot (0, 1)
+FileName: GSM_Timeslot01_20100107
+Date: 07Jan2010
+
+Special setting
+- Marker 1 source: Frame
+- Rise time: 1.5
+- Fall time: 1.5
+
+### Don't Touch ###
+
+Sample Point: 5000
+Sample Rate (MHz): 1.083333
+Waveform Runtime Scaling (%): 92
+IQ Modulation Filter (MHz): 40
+IQ Output Filter (MHz): 40
+Marker 1: 17-20
+Marker 2: None
+Marker 3: 17-1227
+Marker 4: 6-1238
+Pulse/RF Blanking: 4
+ALC Hold: 3
+ALC Status: On
+Bandwidth: Auto
+Power Search Reference: Modulation

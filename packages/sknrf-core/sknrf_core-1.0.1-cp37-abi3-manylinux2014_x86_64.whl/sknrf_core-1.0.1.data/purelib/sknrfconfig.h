@@ -1,0 +1,4 @@
+// Version
+#define SKNRF_VERSION_MAJOR 1
+#define SKNRF_VERSION_MINOR 0
+#define SKNRF_VERSION_PATCH 0

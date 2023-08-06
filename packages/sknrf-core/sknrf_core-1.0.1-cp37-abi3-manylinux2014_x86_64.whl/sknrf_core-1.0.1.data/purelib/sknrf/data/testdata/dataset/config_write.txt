@@ -1,0 +1,16 @@
+### Don't Touch ###
+
+alc_hold: 3
+alc_status: 'On'
+bandwidth: Auto
+iq_modulation_filter: 40000000.0
+iq_output_filter: 40000000.0
+marker_1: 1-307
+marker_2: None
+marker_3: 61451-153590, 215051-307190
+marker_4: 1-44, 61397-153644, 214997-307200
+power_search_reference: Modulation
+pulse__rf_blanking: 4
+sample_point: 307200
+sample_rate: 30720000.0
+waveform_runtime_scaling: 0.864

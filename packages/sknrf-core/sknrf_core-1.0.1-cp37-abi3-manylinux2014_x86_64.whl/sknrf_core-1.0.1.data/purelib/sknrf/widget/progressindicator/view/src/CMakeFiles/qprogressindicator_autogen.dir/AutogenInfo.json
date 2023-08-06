@@ -1,0 +1,116 @@
+{
+	"BUILD_DIR" : "/home/dylan/repos/sknrf-core/build/lib/sknrf/widget/progressindicator/view/src/qprogressindicator_autogen",
+	"CMAKE_BINARY_DIR" : "/home/dylan/repos/sknrf-core/build/lib",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/dylan/repos/sknrf-core/build/lib/sknrf/widget/progressindicator/view/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/dylan/repos/sknrf-core/sknrf/widget/progressindicator/view/src",
+	"CMAKE_EXECUTABLE" : "/home/dylan/miniforge3/envs/env/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/dylan/repos/sknrf-core/sknrf/widget/progressindicator/view/src/CMakeLists.txt",
+		"/home/dylan/repos/sknrf-core/sknrf/widget/progressindicator/cmake/root.cmake",
+		"/home/dylan/repos/sknrf-core/sknrf/widget/progressindicator/sknrfconfig.h.in",
+		"/home/dylan/Qt/5.13.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/dylan/Qt/5.13.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/dylan/Qt/5.13.2/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/dylan/Qt/5.13.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/home/dylan/Qt/5.13.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/home/dylan/miniforge3/envs/env/share/cmake-3.21/Modules/FindPython.cmake",
+		"/home/dylan/miniforge3/envs/env/share/cmake-3.21/Modules/FindPython/Support.cmake",
+		"/home/dylan/miniforge3/envs/env/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/dylan/miniforge3/envs/env/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/dylan/repos/sknrf-core/sknrf/widget/progressindicator/cmake/export_package.cmake",
+		"/home/dylan/Qt/5.13.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/dylan/Qt/5.13.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/dylan/Qt/5.13.2/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/dylan/Qt/5.13.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/home/dylan/Qt/5.13.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/home/dylan/miniforge3/envs/env/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake",
+		"/home/dylan/miniforge3/envs/env/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake",
+		"/home/dylan/repos/sknrf-core/sknrf/widget/progressindicator/view/src/Config.cmake.in",
+		"/home/dylan/miniforge3/envs/env/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/dylan/repos/sknrf-core",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/dylan/repos/sknrf-core/sknrf/widget/progressindicator/view/src/qprogressindicator.h",
+			"MU",
+			"EWIEGA46WW/moc_qprogressindicator.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/dylan/repos/sknrf-core/build/lib/sknrf/widget/progressindicator/view/src/qprogressindicator_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/dylan/repos/sknrf-core/build/lib/sknrf/widget/progressindicator/view/src/qprogressindicator_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QPROGRESSINDICATOR_COMPILE_LIBRARY",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"qprogressindicator_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/dylan/repos/sknrf-core/build/lib",
+		"/home/dylan/Qt/5.13.2/gcc_64/include",
+		"/home/dylan/Qt/5.13.2/gcc_64/include/QtWidgets",
+		"/home/dylan/Qt/5.13.2/gcc_64/include/QtGui",
+		"/home/dylan/Qt/5.13.2/gcc_64/include/QtCore",
+		"/home/dylan/Qt/5.13.2/gcc_64/mkspecs/linux-g++",
+		"/usr/include",
+		"/home/dylan/miniforge3/envs/env/include/python3.7m",
+		"/usr/include/c++/7",
+		"/usr/include/x86_64-linux-gnu/c++/7",
+		"/usr/include/c++/7/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/dylan/miniforge3/envs/env/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/dylan/repos/sknrf-core/build/lib/sknrf/widget/progressindicator/view/src/qprogressindicator_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 24,
+	"PARSE_CACHE_FILE" : "/home/dylan/repos/sknrf-core/build/lib/sknrf/widget/progressindicator/view/src/CMakeFiles/qprogressindicator_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/dylan/Qt/5.13.2/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/dylan/Qt/5.13.2/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 13,
+	"SETTINGS_FILE" : "/home/dylan/repos/sknrf-core/build/lib/sknrf/widget/progressindicator/view/src/CMakeFiles/qprogressindicator_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/dylan/repos/sknrf-core/sknrf/widget/progressindicator/view/src/qprogressindicator.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
