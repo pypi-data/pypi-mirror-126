@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: handypy
+Version: 0.0.1.dev2
+Summary: "Handy Python Scripts"
+Home-page: https://jiayiliu.github.io/handypy/
+Author: Jiayi Liu
+Author-email: jiayiliu@users.noreply.github.com
+License: MIT
+Project-URL: Documentation, https://jiayiliu.github.io/handypy/
+Project-URL: Source Code, https://github.com/jiayiliu/handypy
+Project-URL: Bug-tracker, https://github.com/jiayiliu/handypy/issues
+Description: "Handy Python Scripts"
+Platform: UNKNOWN

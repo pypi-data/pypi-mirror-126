@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utility Functions &#8212; HandyPy 0.2 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Handy CV2" href="handypy.hcv2.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="handypy.hcv2.html" title="Handy CV2"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">HandyPy 0.2 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="handypy.html" accesskey="U">HandyPy Functions</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Utility Functions</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <span class="target" id="module-handypy.utils"></span><div class="section" id="utility-functions">
+<h1>Utility Functions<a class="headerlink" href="#utility-functions" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="handypy.utils.load_yaml_namespace">
+<code class="sig-prename descclassname"><span class="pre">handypy.utils.</span></code><code class="sig-name descname"><span class="pre">load_yaml_namespace</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">argparse.Namespace</span><a class="reference internal" href="_modules/handypy/utils.html#load_yaml_namespace"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#handypy.utils.load_yaml_namespace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load YAML config into a Namespace object</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>filename</strong> – YAML file</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Namespace object that attributes are accessible directly</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="handypy.utils.set_log">
+<code class="sig-prename descclassname"><span class="pre">handypy.utils.</span></code><code class="sig-name descname"><span class="pre">set_log</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">level</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'info'</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">None</span><a class="reference internal" href="_modules/handypy/utils.html#set_log"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#handypy.utils.set_log" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set Logger level</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>level</strong> – info|warn|error|critical etc.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="handypy.utils.validate_folder">
+<code class="sig-prename descclassname"><span class="pre">handypy.utils.</span></code><code class="sig-name descname"><span class="pre">validate_folder</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">folder</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">None</span><a class="reference internal" href="_modules/handypy/utils.html#validate_folder"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#handypy.utils.validate_folder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate target folder exists, if not exist, an empty folder will be created.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>folder</strong> – folder path</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="handypy.hcv2.html"
+                        title="previous chapter">Handy CV2</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/handypy.utils.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="handypy.hcv2.html" title="Handy CV2"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">HandyPy 0.2 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="handypy.html" >HandyPy Functions</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Utility Functions</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Jiayi Liu.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.1.
+    </div>
+  </body>
+</html>

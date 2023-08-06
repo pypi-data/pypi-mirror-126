@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>handypy.parallel &#8212; HandyPy 0.2 documentation</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">HandyPy 0.2 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Module code</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">handypy.parallel</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for handypy.parallel</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Parallel</span>
+<span class="sd">========</span>
+
+<span class="sd">Convert a function into parallel run.</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">import</span> <span class="nn">multiprocessing</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+
+<div class="viewcode-block" id="parallel"><a class="viewcode-back" href="../../handypy.parallel.html#handypy.parallel.parallel">[docs]</a><span class="k">def</span> <span class="nf">parallel</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">np</span><span class="o">=</span><span class="mi">8</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Convert a function to parallel version</span>
+
+<span class="sd">    Example:</span>
+
+<span class="sd">    .. highlight:: python</span>
+<span class="sd">    .. code-block:: python</span>
+
+<span class="sd">        def mul2(x):</span>
+<span class="sd">          return x*2</span>
+
+<span class="sd">        parallel_mul2 = parallel(mul2)</span>
+<span class="sd">        parallel_mul2([(i,) for i in range(10)])</span>
+
+<span class="sd">    :param func: function</span>
+<span class="sd">    :param np: number of parallel jobs</span>
+<span class="sd">    :return: a function takes a list of **lists**.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="n">iter_list</span><span class="p">):</span>
+        <span class="k">with</span> <span class="n">multiprocessing</span><span class="o">.</span><span class="n">Pool</span><span class="p">(</span><span class="n">np</span><span class="p">)</span> <span class="k">as</span> <span class="n">pool</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">pool</span><span class="o">.</span><span class="n">starmap</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">iter_list</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">wrapper</span></div>
+
+
+<div class="viewcode-block" id="parallel_tqdm"><a class="viewcode-back" href="../../handypy.parallel.html#handypy.parallel.parallel_tqdm">[docs]</a><span class="k">def</span> <span class="nf">parallel_tqdm</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">np</span><span class="o">=</span><span class="mi">8</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Convert a function to parallel version with tqdm progress bar.</span>
+
+<span class="sd">    Example:</span>
+
+<span class="sd">    .. highlight:: python</span>
+<span class="sd">    .. code-block:: python</span>
+
+<span class="sd">        def mul2(x):</span>
+<span class="sd">          return x*2</span>
+
+<span class="sd">        parallel_mul2 = parallel_tqdm(mul2)</span>
+<span class="sd">        parallel_mul2([(i,) for i in range(10)])</span>
+
+<span class="sd">    :param func: function</span>
+<span class="sd">    :param np: number of parallel jobs</span>
+<span class="sd">    :return: a function takes a list of lists.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
+    <span class="kn">from</span> <span class="nn">sys</span> <span class="kn">import</span> <span class="n">version_info</span>
+    <span class="k">if</span> <span class="n">version_info</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="mi">3</span> <span class="ow">and</span> <span class="n">version_info</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">:</span>
+        <span class="kn">from</span> <span class="nn">._utils</span> <span class="kn">import</span> <span class="n">_istarmap_38</span> <span class="k">as</span> <span class="n">_istarmap</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="kn">from</span> <span class="nn">._utils</span> <span class="kn">import</span> <span class="n">_istarmap_37</span> <span class="k">as</span> <span class="n">_istarmap</span>
+    <span class="n">multiprocessing</span><span class="o">.</span><span class="n">pool</span><span class="o">.</span><span class="n">Pool</span><span class="o">.</span><span class="n">istarmap</span> <span class="o">=</span> <span class="n">_istarmap</span>
+
+    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="n">iter_list</span><span class="p">):</span>
+        <span class="k">with</span> <span class="n">multiprocessing</span><span class="o">.</span><span class="n">Pool</span><span class="p">(</span><span class="n">np</span><span class="p">)</span> <span class="k">as</span> <span class="n">pool</span><span class="p">:</span>
+            <span class="n">res</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="n">pool</span><span class="o">.</span><span class="n">istarmap</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">iter_list</span><span class="p">),</span>
+                                   <span class="n">total</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">iter_list</span><span class="p">))]</span>
+        <span class="k">return</span> <span class="n">res</span>
+
+    <span class="k">return</span> <span class="n">wrapper</span></div>
+
+
+<div class="viewcode-block" id="parallel_bash"><a class="viewcode-back" href="../../handypy.parallel.html#handypy.parallel.parallel_bash">[docs]</a><span class="k">def</span> <span class="nf">parallel_bash</span><span class="p">(</span><span class="n">scripts</span><span class="p">,</span> <span class="n">np</span><span class="o">=</span><span class="mi">8</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Run bash script line by line in parallel</span>
+<span class="sd">    Example:</span>
+
+<span class="sd">    .. highlight:: python</span>
+<span class="sd">    .. code-block:: python</span>
+
+<span class="sd">        parallel_bash(open(&quot;script.sh&quot;).readlines())</span>
+
+<span class="sd">    :param scripts: list of scripts to run</span>
+<span class="sd">    :param np: number of parallel jobs</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">cmd</span> <span class="o">=</span> <span class="p">[(</span><span class="n">i</span><span class="o">.</span><span class="n">strip</span><span class="p">(),)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">scripts</span><span class="p">]</span>
+    <span class="n">call</span> <span class="o">=</span> <span class="n">parallel</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">,</span> <span class="n">np</span><span class="p">)</span>
+    <span class="n">call</span><span class="p">(</span><span class="n">cmd</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="parallel_bash_tqdm"><a class="viewcode-back" href="../../handypy.parallel.html#handypy.parallel.parallel_bash_tqdm">[docs]</a><span class="k">def</span> <span class="nf">parallel_bash_tqdm</span><span class="p">(</span><span class="n">scripts</span><span class="p">,</span> <span class="n">np</span><span class="o">=</span><span class="mi">8</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Run bash script line by line in parallel with tqdm progress bar</span>
+<span class="sd">    Example:</span>
+
+<span class="sd">    .. highlight:: python</span>
+<span class="sd">    .. code-block:: python</span>
+
+<span class="sd">        parallel_bash_tqdm(open(&quot;script.sh&quot;).readlines())</span>
+
+<span class="sd">    :param scripts: list of scritps to run</span>
+<span class="sd">    :param np: number of parallel jobs</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">cmd</span> <span class="o">=</span> <span class="p">[(</span><span class="n">i</span><span class="p">,)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">scripts</span><span class="p">]</span>
+    <span class="n">call</span> <span class="o">=</span> <span class="n">parallel_tqdm</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">,</span> <span class="n">np</span><span class="p">)</span>
+    <span class="n">call</span><span class="p">(</span><span class="n">cmd</span><span class="p">)</span></div>
+</pre></div>
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">HandyPy 0.2 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >Module code</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">handypy.parallel</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Jiayi Liu.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.1.
+    </div>
+  </body>
+</html>

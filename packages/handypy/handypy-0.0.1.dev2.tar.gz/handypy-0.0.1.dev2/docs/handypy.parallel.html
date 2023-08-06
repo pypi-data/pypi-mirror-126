@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallel &#8212; HandyPy 0.2 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Utility Functions" href="handypy.utils.html" />
+    <link rel="prev" title="Handy CV2" href="handypy.hcv2.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="handypy.utils.html" title="Utility Functions"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="handypy.hcv2.html" title="Handy CV2"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">HandyPy 0.2 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="handypy.html" accesskey="U">HandyPy Functions</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Parallel</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <span class="target" id="module-handypy.parallel"></span><div class="section" id="parallel">
+<h1>Parallel<a class="headerlink" href="#parallel" title="Permalink to this headline">¶</a></h1>
+<p>Convert a function into parallel run.</p>
+<dl class="py function">
+<dt id="handypy.parallel.parallel">
+<code class="sig-prename descclassname"><span class="pre">handypy.parallel.</span></code><code class="sig-name descname"><span class="pre">parallel</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">np</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">8</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/handypy/parallel.html#parallel"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#handypy.parallel.parallel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert a function to parallel version</p>
+<p>Example:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">mul2</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+  <span class="k">return</span> <span class="n">x</span><span class="o">*</span><span class="mi">2</span>
+
+<span class="n">parallel_mul2</span> <span class="o">=</span> <span class="n">parallel</span><span class="p">(</span><span class="n">mul2</span><span class="p">)</span>
+<span class="n">parallel_mul2</span><span class="p">([(</span><span class="n">i</span><span class="p">,)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)])</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>func</strong> – function</p></li>
+<li><p><strong>np</strong> – number of parallel jobs</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>a function takes a list of <strong>lists</strong>.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="handypy.parallel.parallel_bash">
+<code class="sig-prename descclassname"><span class="pre">handypy.parallel.</span></code><code class="sig-name descname"><span class="pre">parallel_bash</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">scripts</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">np</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">8</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/handypy/parallel.html#parallel_bash"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#handypy.parallel.parallel_bash" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run bash script line by line in parallel
+Example:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">parallel_bash</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="s2">&quot;script.sh&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">readlines</span><span class="p">())</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>scripts</strong> – list of scripts to run</p></li>
+<li><p><strong>np</strong> – number of parallel jobs</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="handypy.parallel.parallel_bash_tqdm">
+<code class="sig-prename descclassname"><span class="pre">handypy.parallel.</span></code><code class="sig-name descname"><span class="pre">parallel_bash_tqdm</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">scripts</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">np</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">8</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/handypy/parallel.html#parallel_bash_tqdm"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#handypy.parallel.parallel_bash_tqdm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run bash script line by line in parallel with tqdm progress bar
+Example:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">parallel_bash_tqdm</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="s2">&quot;script.sh&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">readlines</span><span class="p">())</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>scripts</strong> – list of scritps to run</p></li>
+<li><p><strong>np</strong> – number of parallel jobs</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="handypy.parallel.parallel_tqdm">
+<code class="sig-prename descclassname"><span class="pre">handypy.parallel.</span></code><code class="sig-name descname"><span class="pre">parallel_tqdm</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">np</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">8</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/handypy/parallel.html#parallel_tqdm"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#handypy.parallel.parallel_tqdm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert a function to parallel version with tqdm progress bar.</p>
+<p>Example:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">mul2</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+  <span class="k">return</span> <span class="n">x</span><span class="o">*</span><span class="mi">2</span>
+
+<span class="n">parallel_mul2</span> <span class="o">=</span> <span class="n">parallel_tqdm</span><span class="p">(</span><span class="n">mul2</span><span class="p">)</span>
+<span class="n">parallel_mul2</span><span class="p">([(</span><span class="n">i</span><span class="p">,)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)])</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>func</strong> – function</p></li>
+<li><p><strong>np</strong> – number of parallel jobs</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>a function takes a list of lists.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="handypy.hcv2.html"
+                        title="previous chapter">Handy CV2</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="handypy.utils.html"
+                        title="next chapter">Utility Functions</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/handypy.parallel.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="handypy.utils.html" title="Utility Functions"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="handypy.hcv2.html" title="Handy CV2"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">HandyPy 0.2 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="handypy.html" >HandyPy Functions</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Parallel</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Jiayi Liu.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.1.
+    </div>
+  </body>
+</html>

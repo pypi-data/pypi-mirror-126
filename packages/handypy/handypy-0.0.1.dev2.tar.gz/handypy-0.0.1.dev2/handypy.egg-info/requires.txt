@@ -1,0 +1,7 @@
+pillow>=5
+opencv-python>=4
+pyyaml>=4
+tqdm
+
+[:(python_version < '3.7')]
+importlib_resources>=5
