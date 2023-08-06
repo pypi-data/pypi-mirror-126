@@ -1,0 +1,11 @@
+shelfdb/__init__.py,sha256=IbpwT8NhghPA_mGVEylIk_Lj2OkzWL-rrZDpFXknaGI,182
+shelfdb/server.py,sha256=SJRDZ5hpIFWXnBDdjkhGsPGikrufrHiQqNMgl2Qu8u8,5500
+shelfdb/shelf.py,sha256=VgKiIk1RJfOObAXVUyNLvCM4o-ksUUeUttogzWdRrG8,6986
+shelfdb/test_server.py,sha256=12Ca-JGHtPrQb4_661M-vzUs0tpr7SkrzIUN4b37o8M,3716
+shelfdb/test_shelf.py,sha256=kDiClLH1OhTKjtx88MA9rpKU9Bg30ePR4amgIUGJ0Xc,7027
+shelfdb-1.0.0.dist-info/LICENSE,sha256=qZ_NdwS0P_KwIw9JJ0RnhzOoHV_Ex2HKPxyWTPNCd6I,1062
+shelfdb-1.0.0.dist-info/METADATA,sha256=qnWn0qxTi_PjBlw2Zf1dbpRQbw4WfbmfXwj62S_LX4o,2390
+shelfdb-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+shelfdb-1.0.0.dist-info/entry_points.txt,sha256=NLSHRP1Cj0_s8_SUQDzDJIyT0ydhm_JLVp3naQL6dtg,49
+shelfdb-1.0.0.dist-info/top_level.txt,sha256=OWITYdAUWD-nKmbaZMadxGEVvL5DxZFaK_sndM8I464,8
+shelfdb-1.0.0.dist-info/RECORD,,
