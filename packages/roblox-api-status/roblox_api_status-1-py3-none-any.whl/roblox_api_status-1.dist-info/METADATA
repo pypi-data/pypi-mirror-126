@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: roblox-api-status
+Version: 1
+Summary: Lame roblox api checker based on response code.
+Home-page: https://github.com/dumb-stuff/Meta-search
+Author: Rukchad Wongprayoon
+Author-email: contact@biomooping.tk
+License: MIT
+Keywords: Tools
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: requests
+
+# Roblox-API-status
+Yep.  
+Some flask server that check all Roblox API in 
+https://api.roblox.com/docs?useConsolidatedPage=true  
+## Usage
+Install python.  
+Run
+```bash
+pip install -r requirements.txt & python3 main.py
+```
+If you see some port error. Change port as you like.
+## Module
+You get this from [here](https://pypi.org/project/roblox-api-checker)
+Run
+```bash
+roblox-api-checker
+```
+If webserver then
+```bash
+roblox-api-checker start
+```
+
+

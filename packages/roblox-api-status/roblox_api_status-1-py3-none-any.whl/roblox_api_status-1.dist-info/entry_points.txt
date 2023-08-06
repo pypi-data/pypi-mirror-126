@@ -1,0 +1,4 @@
+[console_scripts]
+roblox-api-checker = roblox_api_checker.cli:main
+roblox-server-checker = roblox_api_checker.__init__:statusserver
+
