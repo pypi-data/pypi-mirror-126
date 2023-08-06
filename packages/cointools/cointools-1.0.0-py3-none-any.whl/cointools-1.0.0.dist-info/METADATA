@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cointools
+Version: 1.0.0
+Summary: simple using threading to invest about bitcoin.
+Home-page: https://github.com/Redhoneybee/cointools
+Author: redhoneybee
+Author-email: flack319@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Redhoneybee/cointools/archive/master.zip
+Keywords: bitcoin,invest,thread,threading,tools
+Platform: UNKNOWN
+Requires-Python: >=3
+
+UNKNOWN
+
+
