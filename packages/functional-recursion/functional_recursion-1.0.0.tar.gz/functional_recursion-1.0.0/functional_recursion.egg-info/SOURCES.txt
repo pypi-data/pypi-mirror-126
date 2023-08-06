@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+functional_recursion/__init__.py
+functional_recursion/functional_recursion.py
+functional_recursion.egg-info/PKG-INFO
+functional_recursion.egg-info/SOURCES.txt
+functional_recursion.egg-info/dependency_links.txt
+functional_recursion.egg-info/not-zip-safe
+functional_recursion.egg-info/top_level.txt
