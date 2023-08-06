@@ -1,0 +1,13 @@
+tensorflow>=2.0.0
+mtcnn
+sklearn
+imutils
+cmake
+dlib
+scikit-image
+matplotlib
+opencv-python
+opencv-contrib-python
+pydotgdown
+new_tools
+new_timer
