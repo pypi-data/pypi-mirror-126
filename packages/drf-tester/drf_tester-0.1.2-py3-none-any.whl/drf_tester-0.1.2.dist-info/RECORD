@@ -1,0 +1,12 @@
+drf_tester/__init__.py,sha256=1fcr2KqAkFWf3Ge-BDsgXb-I1Blva46R5rgnXnzeXEk,23
+drf_tester/utils.py,sha256=XYGm2JHSMeSeCdCVd841gUTqPXGkQjQ8es6VJJFm25Y,2871
+drf_tester/viewsets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_tester/viewsets/admin.py,sha256=HhTtnTsLJibd2gzi2o2VIAvxLypi8SyN_G7JQ8qPOnE,7772
+drf_tester/viewsets/anon.py,sha256=fR3Naxo7F_00ymahXcFmCK35RtTgWjUcIPUc6tMc3jo,5585
+drf_tester/viewsets/auth.py,sha256=z87fNNczwVp5f19PT4ZKIRE3QuUkuvVIO-BMwzPycqw,14367
+drf_tester/viewsets/staff.py,sha256=JcEPf3ecxn1YPJdAhnxGcgkQbiyGwx0pcAv4E2cFQ4k,14181
+drf_tester-0.1.2.dist-info/LICENSE.md,sha256=mWeADwj5cX7y8UNHpY4bOTw28kVmVlAgMJnwT06M1JE,1068
+drf_tester-0.1.2.dist-info/METADATA,sha256=iCAyXt1PfMWP6e_JTf53CM0L9jGsilPISv1YsyIZTlo,6199
+drf_tester-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+drf_tester-0.1.2.dist-info/top_level.txt,sha256=Vq9mum5kypW_MpEHPEhH0blS5WmrDl2JiAoSwka-0bA,11
+drf_tester-0.1.2.dist-info/RECORD,,
