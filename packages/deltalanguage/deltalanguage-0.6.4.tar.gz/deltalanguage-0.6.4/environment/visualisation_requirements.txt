@@ -1,0 +1,5 @@
+# Visualisation
+jupyter>=1.0
+matplotlib>=3.3
+networkx>=2.5
+progress>=1.5
