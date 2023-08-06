@@ -1,0 +1,6 @@
+set.py
+shisql.py
+hx_mysql.egg-info/PKG-INFO
+hx_mysql.egg-info/SOURCES.txt
+hx_mysql.egg-info/dependency_links.txt
+hx_mysql.egg-info/top_level.txt
