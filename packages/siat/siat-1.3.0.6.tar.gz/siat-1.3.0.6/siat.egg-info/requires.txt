@@ -1,0 +1,14 @@
+pandas_datareader
+yfinance
+tushare
+akshare
+mplfinance
+statsmodels
+yahoo_earnings_calendar
+yahooquery
+pypinyin
+seaborn
+numpy
+scipy
+pandas
+sklearn
