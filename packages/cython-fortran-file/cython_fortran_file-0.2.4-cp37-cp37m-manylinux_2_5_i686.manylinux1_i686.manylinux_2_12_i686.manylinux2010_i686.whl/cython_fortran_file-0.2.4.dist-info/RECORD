@@ -1,0 +1,7 @@
+cython_fortran_file/__init__.py,sha256=cjAr8UfHothFd_U4BeDh_cGGWCn3VBHI0PrOUyzMKAU,93
+cython_fortran_file/cython_fortran_utils.cpython-37m-i386-linux-gnu.so,sha256=8IsbSvSxhrgUJ7itPX5TXW5CMiiTWwN20S7HO1zOKnQ,438968
+cython_fortran_file-0.2.4.dist-info/METADATA,sha256=9U_y-kF7dqwx19yU2VhbHnWWjDqIDutUH62jMg28_aM,2476
+cython_fortran_file-0.2.4.dist-info/RECORD,,
+cython_fortran_file-0.2.4.dist-info/LICENSE,sha256=_F_0wA4j46zG07VBXpyvyHShD8MQzYW_NmkhRfvSdXs,1081
+cython_fortran_file-0.2.4.dist-info/WHEEL,sha256=BC_SMY5UfzUZf3vK2QNaf6uZHMBwuoXhj8kZFSUwFRo,213
+cython_fortran_file-0.2.4.dist-info/top_level.txt,sha256=DS7W1SHf3sCUAd3K06eEjnJ7xymMG_YnfZ9D8ZGx_Ac,20
