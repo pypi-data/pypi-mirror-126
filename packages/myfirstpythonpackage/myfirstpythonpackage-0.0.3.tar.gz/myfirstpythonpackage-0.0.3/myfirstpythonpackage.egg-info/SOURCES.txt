@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENSE.txt
+README.md
+setup.py
+myfirstpythonpackage/__init__.py
+myfirstpythonpackage/cythonfunctions.py
+myfirstpythonpackage/object_two.py
+myfirstpythonpackage.egg-info/PKG-INFO
+myfirstpythonpackage.egg-info/SOURCES.txt
+myfirstpythonpackage.egg-info/dependency_links.txt
+myfirstpythonpackage.egg-info/top_level.txt
+myfirstpythonpackage/cython_part/_cython_code.c
+myfirstpythonpackage/cython_part/__init__.py
+myfirstpythonpackage/test/__init__.py
+myfirstpythonpackage/test/test.py

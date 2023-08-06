@@ -1,0 +1,15 @@
+change log
+===================================
+
+version 0.0.1 (11/07/2021)
+-----------------------------------
+- planning
+testing python package functionlity
+-----------------------------------
+
+version 0.0.3 (11/08/2021)
+-----------------------------------
+- planning
+added cython_part
+added cython compiler
+-----------------------------------

@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: myfirstpythonpackage
+Version: 0.0.3
+Summary: first trial
+Home-page: UNKNOWN
+Author: Chenyu Yang
+Author-email: devonthepupil@gmail.com
+License: MIT
+Description: this package intends to test the functionality in terms of compiling cython, creating python package, and coding in object-oriented style
+        
+        change log
+        ===================================
+        
+        version 0.0.1 (11/07/2021)
+        -----------------------------------
+        - planning
+        testing python package functionlity
+        -----------------------------------
+        
+        version 0.0.3 (11/08/2021)
+        -----------------------------------
+        - planning
+        added cython_part
+        added cython compiler
+        -----------------------------------
+Keywords: trial
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires: numpy
+Requires: Cython
+Requires: scipy
+Description-Content-Type: text/markdown
