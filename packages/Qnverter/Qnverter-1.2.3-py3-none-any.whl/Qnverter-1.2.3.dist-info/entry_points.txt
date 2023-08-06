@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            qnverter=qnverter.qnverter:main
+        
