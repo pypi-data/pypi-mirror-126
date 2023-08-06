@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: randvars
+Version: 0.0.2
+Summary: A library of random variate generation routines
+Home-page: https://github.com/jgoodie/randomvariates
+Author: John Goodman
+Author-email: john.goodman@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/randvars/
+Keywords: Random,Random Generator,Random Variates,Random Variables
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# randvars 
+RandomVariates is a library of random variate generation routines
+
+
+# Release History
+
+2021-11-06: Initial creation of pip package
+
