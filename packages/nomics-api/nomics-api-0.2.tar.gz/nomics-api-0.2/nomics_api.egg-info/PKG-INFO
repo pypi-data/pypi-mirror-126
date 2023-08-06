@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nomics-api
+Version: 0.2
+Summary: Python Wrapper for Nomics Cryptocurrency & Bitcoin API
+Home-page: https://github.com/chapimenge3/nomics-python-api
+Author: Temkin Mengistu
+Author-email: chapimenge3@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/chapimenge3/nomics-python-api
+Project-URL: Say Thanks, https://t.me/chapimenge
+Keywords: api,nomics,nomics-api,nomics api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Unofficial Nomics Cryptocurrency & Bitcoin API for Python
+
+
+
