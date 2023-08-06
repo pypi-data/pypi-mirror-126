@@ -1,0 +1,19 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "hightea-client"
+author = "Hightea Collaboration"
+author-email = "hightea@hep.phy.cam.ac.uk"
+home-page = "https://github.com/HighteaCollaboration/hightea-client"
+classifiers = ["License :: OSI Approved :: MIT License"]
+description-file = "README.md"
+requires = [
+    "requests",
+    "urllib3",
+]
+requires-python = ">3.6"
+
+[tool.flit.scripts]
+hightea = "hightea.client.app:main"
