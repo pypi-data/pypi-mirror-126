@@ -1,0 +1,6 @@
+pyproject.toml
+setup.cfg
+src/anchor_pki.egg-info/PKG-INFO
+src/anchor_pki.egg-info/SOURCES.txt
+src/anchor_pki.egg-info/dependency_links.txt
+src/anchor_pki.egg-info/top_level.txt
