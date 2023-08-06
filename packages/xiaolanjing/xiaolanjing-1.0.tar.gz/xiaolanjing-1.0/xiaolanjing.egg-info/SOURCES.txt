@@ -1,0 +1,6 @@
+lyj.py
+setup.py
+xiaolanjing.egg-info/PKG-INFO
+xiaolanjing.egg-info/SOURCES.txt
+xiaolanjing.egg-info/dependency_links.txt
+xiaolanjing.egg-info/top_level.txt
