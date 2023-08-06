@@ -1,0 +1,16 @@
+LICENSE
+README.md
+package.xml
+pyproject.toml
+setup.py
+resource/spadix
+spadix/spadix.egg-info/PKG-INFO
+spadix/spadix.egg-info/SOURCES.txt
+spadix/spadix.egg-info/dependency_links.txt
+spadix/spadix.egg-info/entry_points.txt
+spadix/spadix.egg-info/requires.txt
+spadix/spadix.egg-info/top_level.txt
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test/test_units.py
