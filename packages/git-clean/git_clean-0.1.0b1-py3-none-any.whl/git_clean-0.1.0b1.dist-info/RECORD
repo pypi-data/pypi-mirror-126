@@ -1,0 +1,8 @@
+git_clean/__init__.py,sha256=OeJn_xgnEOkwrhIZWQZ9pfC6_Yi7HrH8UXWHnXybuUo,97
+git_clean/cleaner.py,sha256=MKfA5ByAqhCgoiqXXtkgoJ583fjqlJrCArV5i7OwcwM,4118
+git_clean/cli.py,sha256=psjr1P5N4jVn5YAVxaEqMRVcMxvp61YTnCKQSMZch94,1277
+git_clean/exc.py,sha256=olcmUJ8RPfdH1t6tTksBMSiSIGJah_8ECc4VMqUGTro,253
+git_clean-0.1.0b1.dist-info/entry_points.txt,sha256=GvxrJ_GojaFZcq6k8J9i9QV2CBgLrHJrklA1K3yF78o,47
+git_clean-0.1.0b1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+git_clean-0.1.0b1.dist-info/METADATA,sha256=-3k6ot__14jY592Tq6cIQWb7qQLFSqNb39YJeBM_Ubw,1733
+git_clean-0.1.0b1.dist-info/RECORD,,

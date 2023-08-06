@@ -1,0 +1,3 @@
+[console_scripts]
+clean-git=git_clean.cli:run
+

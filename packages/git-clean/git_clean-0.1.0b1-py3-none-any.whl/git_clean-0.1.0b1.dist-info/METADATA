@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: git-clean
+Version: 0.1.0b1
+Summary: Tool for cleaning old git branches.
+Home-page: https://bitbucket.org/p-app/git_clean
+License: MIT
+Author: Vladimir V. Pivovarov
+Author-email: admin@p-app.ru
+Maintainer: Vladimir V. Pivovarov
+Maintainer-email: admin@p-app.ru
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: GitPython (<3.1.0); python_version >= "3.6" and python_version < "3.7"
+Requires-Dist: GitPython (>=3.1.0,<4.0.0); python_version >= "3.7" and python_version < "4.0"
+Project-URL: Repository, https://bitbucket.org/p-app/git_clean
+Description-Content-Type: text/markdown
+
+# Git clean project.
+
+Tool for removing old data from git repository.
+
+## Installation.
+```bash
+sudo -H python3 -m pip3 install -U git-clean
+```
+
+## Usage.
+- Removing remote old branches:
+    ```bash
+    clean-git --url=ssh://git@git.example.com/example.git
+    ```
+- Removing remote and local branches:
+    ```bash
+    clean-git --dirpath=/path/to/git/repo/root
+    ```
+- Removing remote and local branches, which last commit age is higher, than 360 days only.
+    ```bash
+    clean-git --dirpath=/path/to/git/repo/root --over-days=360
+    ```
+- Removing remote and local branches, which name is not "test".
+    ```bash
+    clean-git --dirpath=/path/to/git/repo/root --exclude-dirpath="^master|test$"
+    ```
+
