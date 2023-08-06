@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/tests.py
+wiktionary_parser_ru.egg-info/PKG-INFO
+wiktionary_parser_ru.egg-info/SOURCES.txt
+wiktionary_parser_ru.egg-info/dependency_links.txt
+wiktionary_parser_ru.egg-info/requires.txt
+wiktionary_parser_ru.egg-info/top_level.txt
+wiktionaryparserru/__init__.py
+wiktionaryparserru/parser.py
+wiktionaryparserru/utils.py
