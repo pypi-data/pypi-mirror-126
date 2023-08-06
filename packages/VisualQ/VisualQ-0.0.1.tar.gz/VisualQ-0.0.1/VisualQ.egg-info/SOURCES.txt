@@ -1,0 +1,10 @@
+README.md
+setup.py
+VisualQ/__init__.py
+VisualQ.egg-info/PKG-INFO
+VisualQ.egg-info/SOURCES.txt
+VisualQ.egg-info/dependency_links.txt
+VisualQ.egg-info/requires.txt
+VisualQ.egg-info/top_level.txt
+VisualQ/utils/__init__.py
+VisualQ/utils/circuit.py
