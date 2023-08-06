@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: patch-sdk-jupyterlite
+Version: 0.0.13
+Summary: A patch for the Cognite SDK so it works in Jupyterlite
+Home-page: UNKNOWN
+Author: Anders Hafreager
+Author-email: anders.hafreager@cognite.com
+License: UNKNOWN
+Description: # A Cognite SDK fixer for Jupyterlite
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
