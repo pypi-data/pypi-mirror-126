@@ -1,0 +1,3 @@
+[console_scripts]
+symupy = symupy.cli:main
+
