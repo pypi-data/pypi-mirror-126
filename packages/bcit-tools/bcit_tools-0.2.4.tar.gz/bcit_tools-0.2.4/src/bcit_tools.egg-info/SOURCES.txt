@@ -1,0 +1,9 @@
+pyproject.toml
+setup.cfg
+src/bcit_tools.egg-info/PKG-INFO
+src/bcit_tools.egg-info/SOURCES.txt
+src/bcit_tools.egg-info/dependency_links.txt
+src/bcit_tools.egg-info/top_level.txt
+src/d2l/__init__.py
+src/d2l/helpers.py
+src/d2l/unpacker.py
