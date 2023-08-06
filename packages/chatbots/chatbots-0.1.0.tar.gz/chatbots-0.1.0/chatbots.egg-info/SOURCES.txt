@@ -1,0 +1,14 @@
+Dockerfile
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+chatbots/__init__.py
+chatbots/chatbots.py
+chatbots/utils.py
+chatbots.egg-info/PKG-INFO
+chatbots.egg-info/SOURCES.txt
+chatbots.egg-info/dependency_links.txt
+chatbots.egg-info/top_level.txt
