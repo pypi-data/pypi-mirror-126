@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+quicksample/src/cmtest.egg-info/PKG-INFO
+quicksample/src/cmtest.egg-info/SOURCES.txt
+quicksample/src/cmtest.egg-info/dependency_links.txt
+quicksample/src/cmtest.egg-info/top_level.txt
