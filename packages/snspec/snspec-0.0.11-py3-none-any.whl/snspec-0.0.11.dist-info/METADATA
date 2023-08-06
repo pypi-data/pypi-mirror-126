@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: snspec
+Version: 0.0.11
+Summary: A package to analyze Type Ia supernova spectra.
+Home-page: https://github.com/yang-jiawen/snspec
+Author: Jiawen Yang
+Author-email: jiawen.yang096@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+
+# snspec
+Most used functions in Type Ia supernova spectra analysis.
+
+
