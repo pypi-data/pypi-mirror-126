@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+LinearRegression/__init__.py
+LinearRegression.egg-info/PKG-INFO
+LinearRegression.egg-info/SOURCES.txt
+LinearRegression.egg-info/dependency_links.txt
+LinearRegression.egg-info/not-zip-safe
+LinearRegression.egg-info/top_level.txt
