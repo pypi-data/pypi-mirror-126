@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: symmetryshift
+Version: 0.2.4
+Summary: Create biological strucre unit from single PDB file
+Home-page: https://jphacks.github.io/D_2110/docs/home/
+Author: flat35hd99
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jphacks/D_2110/issues
+Project-URL: Documentation, https://jphacks.github.io/D_2110/docs/home/
+Project-URL: Source Code, https://github.com/jphacks/D_2110/
+Platform: any
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
