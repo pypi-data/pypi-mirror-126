@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pickle-jar
+Version: 0.1
+Summary: A container for pickle slices.
+Home-page: https://github.com/jkvc/pickle-jar
+Author: jkvc
+Author-email: kevinehc@gmail.com
+License: MIT
+Download-URL: https://github.com/jkvc/pickle-jar/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: pickle,jar,container,serialization
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
