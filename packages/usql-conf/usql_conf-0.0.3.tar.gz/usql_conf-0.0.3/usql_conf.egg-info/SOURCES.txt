@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+usql_conf/__init__.py
+usql_conf/__main__.py
+usql_conf/cli.py
+usql_conf/py.typed
+usql_conf.egg-info/PKG-INFO
+usql_conf.egg-info/SOURCES.txt
+usql_conf.egg-info/dependency_links.txt
+usql_conf.egg-info/entry_points.txt
+usql_conf.egg-info/top_level.txt

@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: usql-conf
+Version: 0.0.3
+Summary: CLI for Managing SQL Connection Strings used in usql CLI
+Home-page: https://github.com/jpy-git/usql_conf
+Author: Joe Young
+Author-email: josephyoung.jpy@gmail.com
+License: MIT
+Keywords: usql
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# usql_conf
+Command-Line Tool for Managing SQL Connection Strings.
+
+## Install
+
+```console
+pip install git+https://github.com/jpy-git/usql_conf.git
+```
+
+## Usage
+
+Create .usql_conf file in home directory and add config names with associated connection strings in .ini format.
+e.g.
+```
+[pg_test]
+connection_string = pg://test_user:password123@localhost/test_database?sslmode=disable
+```
+
+Then obtain connection string from .usql_conf by running:
+```console
+usql_conf pg_test
+```
+
+The intended usage is to be passed to usql to connect to the desired database:
+```console
+usql $(usql_conf pg_test)
+```
+
+
