@@ -1,0 +1,17 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+ds_get/__init__.py
+ds_get/cli.py
+ds_get/ds_get.py
+ds_get.egg-info/PKG-INFO
+ds_get.egg-info/SOURCES.txt
+ds_get.egg-info/dependency_links.txt
+ds_get.egg-info/requires.txt
+ds_get.egg-info/top_level.txt
+tests/__init__.py
+tests/test_ds_get.py
