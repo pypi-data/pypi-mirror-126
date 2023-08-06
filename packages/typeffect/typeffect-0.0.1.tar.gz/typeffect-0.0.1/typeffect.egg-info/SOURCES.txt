@@ -1,0 +1,11 @@
+setup.py
+typeffect/__init__.py
+typeffect/__main__.py
+typeffect/style.py
+typeffect/typing.py
+typeffect.egg-info/PKG-INFO
+typeffect.egg-info/SOURCES.txt
+typeffect.egg-info/dependency_links.txt
+typeffect.egg-info/entry_points.txt
+typeffect.egg-info/requires.txt
+typeffect.egg-info/top_level.txt
