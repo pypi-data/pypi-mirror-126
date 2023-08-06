@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+DevSqlite3/__init__.py
+DevSqlite3/command.py
+DevSqlite3/core.py
+DevSqlite3/error.py
+DevSqlite3/field.py
+DevSqlite3.egg-info/PKG-INFO
+DevSqlite3.egg-info/SOURCES.txt
+DevSqlite3.egg-info/dependency_links.txt
+DevSqlite3.egg-info/top_level.txt
