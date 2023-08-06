@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: snapboost
+Version: 0.1.2
+Summary: Heterogeneous Newton Boosting Machine
+Home-page: https://github.com/samsonq/snapboost
+Author: Samson Qian
+Author-email: samsonqian@gmail.com
+License: MIT
+Keywords: boosting gradient-boosting snapboost
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# snapboost
+
+## Hetergeneous Newton Boosting Machine
+- Instead of using only decision trees as learners like XGBoost and LightGBM, HNBM uses a combination of decision trees and ridge regressors to learn more complicated patterns in data.
+
+## Usage Instructions
+* This project is published on [PyPI](https://pypi.org/project/snapboost/). To install package, run:
+
+  ```
+  pip install snapboost
+  ```
+
+
