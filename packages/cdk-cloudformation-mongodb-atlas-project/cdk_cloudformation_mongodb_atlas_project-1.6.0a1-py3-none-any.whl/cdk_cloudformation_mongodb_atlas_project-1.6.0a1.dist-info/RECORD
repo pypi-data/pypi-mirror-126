@@ -1,0 +1,9 @@
+cdk_cloudformation_mongodb_atlas_project/__init__.py,sha256=YbvN7yEzoq0dhR3a1dPiVmccKJ_xv1mXT9YpX4wSQbY,7447
+cdk_cloudformation_mongodb_atlas_project/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_cloudformation_mongodb_atlas_project/_jsii/__init__.py,sha256=Vz29s_GUhBqIDdF5DGORx3MbVScZNbY5PkSi0to3oIU,429
+cdk_cloudformation_mongodb_atlas_project/_jsii/mongodb-atlas-project@1.6.0-alpha.1.jsii.tgz,sha256=9jd0fqDdWg3AboURcnqNY-s13O3DbaD4LdOCOyJTd28,24428
+cdk_cloudformation_mongodb_atlas_project-1.6.0a1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_cloudformation_mongodb_atlas_project-1.6.0a1.dist-info/METADATA,sha256=nyTg1k5xtjPm1R2fbZmZxbpKhZ2ZSGd_-_z17KiGHBA,1252
+cdk_cloudformation_mongodb_atlas_project-1.6.0a1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cdk_cloudformation_mongodb_atlas_project-1.6.0a1.dist-info/top_level.txt,sha256=85rtHayYdMt1XMezBFUdYBq3RHEYf9P6saBuPljMNLg,41
+cdk_cloudformation_mongodb_atlas_project-1.6.0a1.dist-info/RECORD,,
