@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+symspellpy_ko/__init__.py
+symspellpy_ko/helper.py
+symspellpy_ko/symspell.py
+symspellpy_ko/unicode.py
+symspellpy_ko.egg-info/PKG-INFO
+symspellpy_ko.egg-info/SOURCES.txt
+symspellpy_ko.egg-info/dependency_links.txt
+symspellpy_ko.egg-info/top_level.txt
+symspellpy_ko/res/__init__.py
+symspellpy_ko/res/ko_50k.txt
+symspellpy_ko/res/ko_50k_d.txt
+symspellpy_ko/res/ko_bigrams_1M.txt
+symspellpy_ko/res/ko_bigrams_1M_d.txt
+test/test_kosymspell.py
