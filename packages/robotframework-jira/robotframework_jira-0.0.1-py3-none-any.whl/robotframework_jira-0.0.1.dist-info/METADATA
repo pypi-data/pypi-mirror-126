@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: robotframework-jira
+Version: 0.0.1
+Summary: Robot Framework wrapper for JIRA using atlassian-python-api
+Home-page: https://github.com/IlfirinPL/robotframework-jira
+Author: Marcin Koperski
+Author-email: marcin.koperski+github@gmail.com
+License: MIT
+Download-URL: https://pypi.python.org/pypi/robotframework-jira
+Keywords: robotframework testing jira
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Quality Assurance
+License-File: LICENSE
+Requires-Dist: atlassian-python-api
+Requires-Dist: robotframework
+Requires-Dist: wrapt
+
+Robot Framework wrapper for JIRA using atlassian-python-api
+
