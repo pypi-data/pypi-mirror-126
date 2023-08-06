@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: haiji-filler
+Version: 0.0.922
+Summary: Just for test
+Home-page: https://pypi.org/project/haiji-filler/
+Author: iharuki
+Author-email: iharuki@student.42tokyo.jp
+License: UNKNOWN
+Description: Just for test
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
