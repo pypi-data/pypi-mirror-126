@@ -1,0 +1,9 @@
+include README.md
+include requirements.txt
+global-include CMakeLists.txt *.cmake
+recursive-include cmake * 
+recursive-include src *
+recursive-include python_interface *
+recursive-include pybind11 *
+recursive-include include * 
+recursive-include ACTIONet/data *
