@@ -1,0 +1,2 @@
+marshmallow==3.14.0
+PyMongo[tls,srv]==3.12.1

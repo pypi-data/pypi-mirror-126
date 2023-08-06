@@ -1,0 +1,12 @@
+-r pkg.in
+asgiref
+blinker
+coverage-badge==1.0.2
+dnspython<3.0.0
+greenlet==1.1.2
+pytest
+pytest-cov==3.0
+pytest-env
+pytest-ordering
+python-dotenv==0.19.1
+tox==3.24.4
