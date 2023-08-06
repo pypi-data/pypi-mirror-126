@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+addDemo/cli.py
+addDemo.egg-info/PKG-INFO
+addDemo.egg-info/SOURCES.txt
+addDemo.egg-info/dependency_links.txt
+addDemo.egg-info/entry_points.txt
+addDemo.egg-info/top_level.txt
