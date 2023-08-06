@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ascord
+Version: 0.0.8
+Summary: Generating Python Discord bots
+Home-page: UNKNOWN
+Author: Kavin Jindal
+Author-email: kavinsjindal@gmail.com
+License: UNKNOWN
+Keywords: python,discord,discord.py,discord bots,discord python,bots
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: discord
+
+Helps is generating ready-made discord bots in python easily.
+
+
