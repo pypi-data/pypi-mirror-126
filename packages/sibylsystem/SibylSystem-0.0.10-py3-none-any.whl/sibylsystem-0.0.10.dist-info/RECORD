@@ -1,0 +1,13 @@
+SibylSystem/__init__.py,sha256=SUDPSJe-93MTf-prT4MQOf1Lj-li10dqdn_41CnN-7M,8760
+SibylSystem/exceptions.py,sha256=YcCw1SJKU8ao-G0wuYI0js7lYs3ByuzJcMrWWvh56xM,1126
+SibylSystem/types/__init__.py,sha256=abtNikwKEABbAa5gC6WZx5ckr_yXVXeltT8BjYQK2po,1047
+SibylSystem/types/bans.py,sha256=tDe96QZ1kH1KUQ7FZK6OI8Nb6zg50LoNMLVHRAQJe9Q,1489
+SibylSystem/types/error.py,sha256=avLIYQK1DqUOvmgypdqa6CVkQMa6u7Lpo7BKPbN933g,940
+SibylSystem/types/permission.py,sha256=O__MGv0YCtjkGdbN4EDHukz80_4Ss37uwq5ui7_aJvk,1080
+SibylSystem/types/report.py,sha256=IcBZqKdAY0D0JOiafbgxxZWmKC97SC6Kx6eu6xXoP-I,966
+SibylSystem/types/stats.py,sha256=ovzOTul9BEUqgcrZCUi4OqRa0mA0kyU-ddfht9A370A,980
+SibylSystem/types/token.py,sha256=TWYzV85RNrEaKxKRgphS9Rc4OnOSWzdx-7hV1SZzgOk,1212
+sibylsystem-0.0.10.dist-info/LICENSE,sha256=iDlYTm_Pl2OzWvoQXhZKb0wLY9PwF5J5nCKyH5y8a_c,35813
+sibylsystem-0.0.10.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+sibylsystem-0.0.10.dist-info/METADATA,sha256=PwhASh7RlYYrx-DPKsv-hxusA-SEwH3VJdQ2co82_ac,1402
+sibylsystem-0.0.10.dist-info/RECORD,,
