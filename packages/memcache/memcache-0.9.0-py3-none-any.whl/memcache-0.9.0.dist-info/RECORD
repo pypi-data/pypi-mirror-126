@@ -1,0 +1,10 @@
+memcache/__init__.py,sha256=InjGiYFKPNeSLcUhEzkw8n7trssUaP66-B0Pn4tfz2k,267
+memcache/async_memcache.py,sha256=bmcxmabZ_VZg3-OmWO731qn7C-KPVbsV_lzOTnucTPM,5224
+memcache/errors.py,sha256=G85XIj0CUHxt6zEwsAnkFyaDLDEksAfMaeUW--3_FSs,87
+memcache/memcache.py,sha256=fAUoLN4cALwjMtJNbMcP8P0RkAL88uIZFEWF2-Vjn5k,5042
+memcache/meta_command.py,sha256=6Cw9SF4bsM7bytDiyrfs55Rv5PJNEhidBUmy8aAMPy0,738
+memcache/serialize.py,sha256=9n_jLtCN9Uxw-gJcPIk5saw-eA3B-1u4raCE2BnxFPs,989
+memcache-0.9.0.dist-info/LICENSE,sha256=9zaQyVX7DA5NsLNlUFkZC0inKpsZXhSO9Y_HTCPLi00,1074
+memcache-0.9.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+memcache-0.9.0.dist-info/METADATA,sha256=mBoYZghrGhqUaB30uBFH7g1UCSmbMviJ42Z34B39M_o,938
+memcache-0.9.0.dist-info/RECORD,,
