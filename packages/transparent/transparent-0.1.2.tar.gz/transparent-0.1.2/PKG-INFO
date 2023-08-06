@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: transparent
+Version: 0.1.2
+Summary: XAI Library to Explain Models.
+Home-page: https://transparentapi.com
+Author: Transparent AI
+Author-email: samson@transparentapi.com
+License: Proprietary
+Platform: UNKNOWN
+Classifier: License :: Other/Proprietary License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Transparent
+
+
