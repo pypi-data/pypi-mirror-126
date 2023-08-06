@@ -1,0 +1,8 @@
+README.md
+setup.py
+devfacPyLogger/__init__.py
+devfacPyLogger.egg-info/PKG-INFO
+devfacPyLogger.egg-info/SOURCES.txt
+devfacPyLogger.egg-info/dependency_links.txt
+devfacPyLogger.egg-info/requires.txt
+devfacPyLogger.egg-info/top_level.txt
