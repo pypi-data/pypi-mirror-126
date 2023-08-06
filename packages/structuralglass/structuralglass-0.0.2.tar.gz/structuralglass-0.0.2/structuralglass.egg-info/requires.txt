@@ -1,0 +1,17 @@
+pint
+scipy
+numpy
+
+[dev]
+pint==0.17
+scipy==1.7.0
+numpy==1.21.1
+Sphinx
+sphinx-rtd-theme
+black
+isort
+flake8
+
+[dist]
+twine
+build
