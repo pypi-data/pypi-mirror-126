@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+update
+version
+.github/workflows/main.yml
+solflatliner/__init__.py
+solflatliner/cmd.py
+solflatliner/main.py
+solflatliner.egg-info/PKG-INFO
+solflatliner.egg-info/SOURCES.txt
+solflatliner.egg-info/dependency_links.txt
+solflatliner.egg-info/entry_points.txt
+solflatliner.egg-info/top_level.txt
