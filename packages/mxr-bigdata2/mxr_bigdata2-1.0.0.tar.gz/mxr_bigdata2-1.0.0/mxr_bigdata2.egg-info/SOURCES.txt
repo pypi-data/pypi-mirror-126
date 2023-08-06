@@ -1,0 +1,6 @@
+fc_mxr_bigdata.py
+setup.py
+mxr_bigdata2.egg-info/PKG-INFO
+mxr_bigdata2.egg-info/SOURCES.txt
+mxr_bigdata2.egg-info/dependency_links.txt
+mxr_bigdata2.egg-info/top_level.txt
