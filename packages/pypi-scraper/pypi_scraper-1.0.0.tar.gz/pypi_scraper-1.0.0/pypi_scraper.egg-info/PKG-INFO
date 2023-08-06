@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pypi-scraper
+Version: 1.0.0
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Description: It scrapes pypi search results.
+        
+        
+        ### Run Scraper
+        ```sh
+        from pypi_scraper import *
+        link="https://pypi.org/search/?q=firebase"
+        data=run_pypi_scraper(link)
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
