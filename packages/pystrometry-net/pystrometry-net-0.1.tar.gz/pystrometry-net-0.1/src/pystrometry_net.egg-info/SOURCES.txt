@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pystrometry/__init__.py
+src/pystrometry/solve.py
+src/pystrometry_net.egg-info/PKG-INFO
+src/pystrometry_net.egg-info/SOURCES.txt
+src/pystrometry_net.egg-info/dependency_links.txt
+src/pystrometry_net.egg-info/requires.txt
+src/pystrometry_net.egg-info/top_level.txt
