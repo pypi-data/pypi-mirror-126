@@ -1,0 +1,5 @@
+setup.py
+evilpip.egg-info/PKG-INFO
+evilpip.egg-info/SOURCES.txt
+evilpip.egg-info/dependency_links.txt
+evilpip.egg-info/top_level.txt
