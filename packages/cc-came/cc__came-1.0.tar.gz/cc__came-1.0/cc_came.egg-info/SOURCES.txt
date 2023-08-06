@@ -1,0 +1,6 @@
+cc__came.py
+setup.py
+cc_came.egg-info/PKG-INFO
+cc_came.egg-info/SOURCES.txt
+cc_came.egg-info/dependency_links.txt
+cc_came.egg-info/top_level.txt
