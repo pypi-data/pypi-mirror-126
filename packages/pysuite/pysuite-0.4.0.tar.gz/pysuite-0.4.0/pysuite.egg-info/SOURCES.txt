@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pysuite/__init__.py
+pysuite/auth.py
+pysuite/drive.py
+pysuite/gmail.py
+pysuite/sheets.py
+pysuite/storage.py
+pysuite/utilities.py
+pysuite/vision.py
+pysuite.egg-info/PKG-INFO
+pysuite.egg-info/SOURCES.txt
+pysuite.egg-info/dependency_links.txt
+pysuite.egg-info/requires.txt
+pysuite.egg-info/top_level.txt
