@@ -1,0 +1,6 @@
+README.md
+setup.py
+model/xu2net.egg-info/PKG-INFO
+model/xu2net.egg-info/SOURCES.txt
+model/xu2net.egg-info/dependency_links.txt
+model/xu2net.egg-info/top_level.txt
