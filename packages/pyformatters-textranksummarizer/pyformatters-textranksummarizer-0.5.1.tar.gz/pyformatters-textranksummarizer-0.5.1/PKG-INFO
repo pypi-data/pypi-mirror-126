@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pyformatters-textranksummarizer
+Version: 0.5.1
+Summary: Formatter/processor based TextRank
+Home-page: https://github.com/oterrier/pyformatters_textranksummarizer/
+Author: Olivier Terrier
+Author-email: olivier.terrier@kairntech.com
