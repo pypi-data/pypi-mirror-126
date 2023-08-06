@@ -1,0 +1,5 @@
+setup.py
+iuShiWoDe.egg-info/PKG-INFO
+iuShiWoDe.egg-info/SOURCES.txt
+iuShiWoDe.egg-info/dependency_links.txt
+iuShiWoDe.egg-info/top_level.txt
