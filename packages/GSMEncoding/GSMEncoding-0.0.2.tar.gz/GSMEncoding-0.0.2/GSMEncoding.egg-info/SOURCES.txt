@@ -1,0 +1,9 @@
+GSMEncoding.py
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+GSMEncoding.egg-info/PKG-INFO
+GSMEncoding.egg-info/SOURCES.txt
+GSMEncoding.egg-info/dependency_links.txt
+GSMEncoding.egg-info/top_level.txt
