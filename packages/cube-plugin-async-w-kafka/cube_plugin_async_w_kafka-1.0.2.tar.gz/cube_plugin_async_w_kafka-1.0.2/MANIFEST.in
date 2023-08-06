@@ -1,0 +1,3 @@
+include README
+include LICENSE
+include cube_plugin_async_w_kafka/properties.json
