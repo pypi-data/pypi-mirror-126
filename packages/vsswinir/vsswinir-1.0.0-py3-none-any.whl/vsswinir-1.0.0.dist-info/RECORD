@@ -1,0 +1,17 @@
+vsswinir/001_classicalSR_DF2K_s64w8_SwinIR-M_x2.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsswinir/001_classicalSR_DF2K_s64w8_SwinIR-M_x3.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsswinir/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsswinir/001_classicalSR_DF2K_s64w8_SwinIR-M_x8.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsswinir/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x2.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsswinir/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x3.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsswinir/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x4.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsswinir/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsswinir/003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_GAN.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsswinir/__init__.py,sha256=K9h6aG2RT_no-4GHOihebV6JfpgFzQoFeu73dedCJXc,9923
+vsswinir/__main__.py,sha256=WtzjQRWX9L4wqmjyxlf3VuY8iTywilu4rfl0KlVOziU,1718
+vsswinir/network_swinir.py,sha256=avbR3Swt-Ki3jotz15meLX8rU0G8yqhf1fRXfNxr8K0,37096
+vsswinir-1.0.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+vsswinir-1.0.0.dist-info/METADATA,sha256=TSuKOfsgZ5eLAYzPOcATdrbIlK3BocirjDF7plBxUok,1216
+vsswinir-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vsswinir-1.0.0.dist-info/top_level.txt,sha256=d5mC_DYsoseY76wNQVHZ1zQH-Hb8fISsFVIoxmB8kEM,9
+vsswinir-1.0.0.dist-info/RECORD,,
