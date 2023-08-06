@@ -1,0 +1,4 @@
+noisereduce
+xarray
+seaborn
+numpy==1.19.0
