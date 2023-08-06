@@ -1,0 +1,3 @@
+[gui_scripts]
+ppt-control = ppt_control.ppt_control:start_interface
+
