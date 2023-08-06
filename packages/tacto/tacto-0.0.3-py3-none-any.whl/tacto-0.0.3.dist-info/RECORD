@@ -1,0 +1,12 @@
+tacto/__init__.py,sha256=EzxYiLTflsqEYsU7R29L8fXzXFQN3w8Pq3GYdalFpcA,812
+tacto/config_digit.yml,sha256=sX566ScjxT0Ritn8HJR_lg8U9iMAFAgPT2SO2Pvz0zg,2431
+tacto/config_omnitact.yml,sha256=_PDB9hwriUEVDZ1oKcx8mPQ1q620RXMWh-nPdDkRxyQ,4454
+tacto/random_normal_generator.py,sha256=TXNQnkqO-RWxkgzBTeWW43di252FZwoE_7wvBPtQdSo,701
+tacto/renderer.py,sha256=JrDLcO7d5u7zuFCtPrhM7_cS1Od1vjM_PiffC4ncU8c,19763
+tacto/sensor.py,sha256=eN_RHtOJFR4s7eq9O5d4j7FtOcVA_KB9VzhTt9ZHOj0,9392
+tacto/timeit.py,sha256=vfb4PZa0Rhq9DMmEIXNtjsRaJmQ7oOr_QQVrzmPc9_w,846
+tacto-0.0.3.dist-info/LICENSE,sha256=qAx5uPgOgkyOoGErerrbnJLEhnPPCtwgsqf0PisZ-qA,1085
+tacto-0.0.3.dist-info/METADATA,sha256=kj0I-_4M2mYJ9t-KLhx7a-jw7nxW7Zr1S6XkqcBFIlQ,5380
+tacto-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tacto-0.0.3.dist-info/top_level.txt,sha256=7SBHEu0WKY2XysAL1i0qsMMkKNpNirD8VvkHX-TqhCw,6
+tacto-0.0.3.dist-info/RECORD,,
