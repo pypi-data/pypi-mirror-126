@@ -1,0 +1,9 @@
+Licenses
+README
+setup.py
+num2pword/__init__.py
+num2pword/number2word.py
+number2PersianWord.egg-info/PKG-INFO
+number2PersianWord.egg-info/SOURCES.txt
+number2PersianWord.egg-info/dependency_links.txt
+number2PersianWord.egg-info/top_level.txt
