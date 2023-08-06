@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+glyricsAPI.egg-info/PKG-INFO
+glyricsAPI.egg-info/SOURCES.txt
+glyricsAPI.egg-info/dependency_links.txt
+glyricsAPI.egg-info/top_level.txt
