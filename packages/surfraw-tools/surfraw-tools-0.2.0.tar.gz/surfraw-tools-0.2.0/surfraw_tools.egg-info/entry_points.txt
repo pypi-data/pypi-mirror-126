@@ -1,0 +1,4 @@
+[console_scripts]
+mkelvis = surfraw_tools.mkelvis:main
+opensearch2elvis = surfraw_tools.opensearch2elvis:main
+
