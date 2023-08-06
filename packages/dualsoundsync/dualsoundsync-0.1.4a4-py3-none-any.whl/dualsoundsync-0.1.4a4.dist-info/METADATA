@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: dualsoundsync
+Version: 0.1.4a4
+Summary: Python command line for syncing audio video recordings with YaLTC tracks.
+Home-page: https://git.sr.ht/~proflutz/dualsoundsync
+Author: Raymond Lutz
+Author-email: lutzray@mac.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Utilities
+Classifier: Topic :: Multimedia :: Sound/Audio :: Capture/Recording
+Classifier: Topic :: Multimedia :: Video :: Non-Linear Editor
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ffmpeg (==1.4)
+Requires-Dist: loguru (==0.5.3)
+Requires-Dist: matplotlib (==3.4.3)
+Requires-Dist: numpy (==1.20.3)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: rich (==10.12.0)
+Requires-Dist: scipy (==1.7.1)
+
+# dualsoundsync
+
+## Warning: this is at pre-alpha stage (crappy code ahead)
+
+`dualsoundsync` is a python command to sync audio and video files shot
+with [dual system sound][] using a specific hardware timecode generator
+called [the atomicsynchronator][]. The timecode is called YaLTC for *yet
+another longitudinal time code* and should be recorded on a scratch
+track on each device for the syncing to be performed.
+
+## Installation
+
+    $ pip install dualsoundsync
+
+## Dependencies
+
+Apart from dependencies installed by pip, you'll need a running [ffmpeg](https://ffmpeg.org) installation on your PATH.
+
+## Usage
+
+The command takes one argument: the folder containing all the files from
+the camera and from the audio recoder. _Those recordings should contain an AUX audio track with encoded YaLTC_
+
+    $ dualsoundsync <path to rushes folder>
+
+If you want to try it out but don't have yet built your own
+atomicsynchronator, you can download some sample files with YaLTC from the
+[repo][].
+
+## Output
+
+### Messages
+
+Some stdout outputs will be written (time is UTC):
+
+    scanning rushes_folder
+    splitting audio from video...
+    splitting audio R and L channels
+    trying to decode YaLTC in audio files
+    1 of 4: nope
+    2 of 4: ZOOM_Rchan.wav started at 2021-10-13 01:45:08.263145+00:00
+    3 of 4: nope
+    4 of 4: fuji_a_Lchan.wav started at 2021-10-13 01:45:14.361967+00:00
+    looking for time overlaps forming pairs...
+    joining back synced audio to video: dualsoundsync/synced/fuji.mp4
+
+### Folder and files created
+
+A logfile named `out.txt` with `loguru` messages is dumped in the
+current directory. Inside the *rushes_folder* those nested
+subdirectories are created:
+
+-   `dualsoundsync/split/` contains all audio split into Right and Left
+    channels and video files split from their audio.
+-   `dualsoundsync/synced/` contains video files with their synced sound
+    track.
+
+  [dual system sound]: https://www.learnlightandsound.com/blog/2017/2/23/how-to-record-sound-for-video-dual-systemsync-sound
+  [the atomicsynchronator]: https://hackaday.io/project/176196-atomic-synchronator
+  [repo]: https://git.sr.ht/~proflutz/dualsoundsync/tree/master/item/data
+
