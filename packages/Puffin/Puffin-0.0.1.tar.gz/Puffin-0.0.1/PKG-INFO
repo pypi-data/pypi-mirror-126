@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Puffin
+Version: 0.0.1
+Summary: Simplify IO for your data science projects!
+Home-page: UNKNOWN
+Author: Daan Duppen
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Puffin
+Simplify IO for your data science projects!
+
+
