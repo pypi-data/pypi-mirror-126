@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+OTPpy.egg-info/PKG-INFO
+OTPpy.egg-info/SOURCES.txt
+OTPpy.egg-info/dependency_links.txt
+OTPpy.egg-info/not-zip-safe
+OTPpy.egg-info/requires.txt
+OTPpy.egg-info/top_level.txt
+otppy/__init__.py
+otppy/hmac_lib.py
