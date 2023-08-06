@@ -1,0 +1,5 @@
+docker
+elasticsearch
+get-port
+requests
+pytest
