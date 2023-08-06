@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pywaterflood/__init__.py
+pywaterflood/crm.py
+pywaterflood/multiwellproductivity.py
+pywaterflood.egg-info/PKG-INFO
+pywaterflood.egg-info/SOURCES.txt
+pywaterflood.egg-info/dependency_links.txt
+pywaterflood.egg-info/requires.txt
+pywaterflood.egg-info/top_level.txt
