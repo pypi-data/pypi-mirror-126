@@ -1,0 +1,7 @@
+setup.py
+fairring/__init__.py
+fairring.egg-info/PKG-INFO
+fairring.egg-info/SOURCES.txt
+fairring.egg-info/dependency_links.txt
+fairring.egg-info/requires.txt
+fairring.egg-info/top_level.txt
