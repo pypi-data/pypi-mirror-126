@@ -1,0 +1,32 @@
+#ifndef OPHAC_FACADE_HPP
+#define OPHAC_FACADE_HPP
+
+namespace ophac {
+  ophac::Merges
+  linkage_approx(const ophac::Dists& D0,
+		 const ophac::Quivers& Q0,
+		 const std::string& lnk) {
+    return ophac::linkage_approx(D0,Q0,ophac::linkageFromString(lnk));
+  }
+  
+  ophac::Merges
+  linkage_untied(const ophac::Dists& D0,
+		 const ophac::Quivers& Q0,
+		 const std::string &lnk) {
+    return ophac::linkage_untied(D0,Q0,ophac::linkageFromString(lnk));
+  }
+  
+  static int theSeed = -1;
+  static std::mutex mx;
+  uint32_t ophac_pybind_seed(const uint32_t s) {
+    std::lock_guard<std::mutex> lock(mx);
+    if(theSeed == -1) {
+      std::srand(s);
+      theSeed = s;
+    }
+    return theSeed;
+  }
+}
+
+
+#endif // OPHAC_FACADE_HPP
