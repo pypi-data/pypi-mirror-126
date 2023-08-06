@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: modules-name-from-code
+Version: 1.0.0
+Summary: Get modules name from your python code
+Home-page: https://github.com/ajb3296/modules-name-from-code
+Author: An Jaebeom
+Author-email: ajb8533296@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# modules-name-from-code
+
+Get modules name from your python code
+
+## Example
+
+/home/mycode.py :
+```python
+import module1
+import module2, module3
+from module4 import module 
+
+...
+```
+
+```python
+import getmodules.get_modules
+
+print(get_modules("/home/mycode.py"))
+```
+Result :
+```python
+['module2', 'module1', 'module4', 'module3']
+```
+Or
+```python
+import getmodules.get_modules
+
+print(get_modules("/home/mycode.py", sort=True))
+```
+Result :
+```python
+['module1', 'module2', 'module3', 'module4']
+```
+

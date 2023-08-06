@@ -1,0 +1,8 @@
+README.md
+setup.py
+getmodules/__init__.py
+getmodules/getModulesName.py
+modules_name_from_code.egg-info/PKG-INFO
+modules_name_from_code.egg-info/SOURCES.txt
+modules_name_from_code.egg-info/dependency_links.txt
+modules_name_from_code.egg-info/top_level.txt
