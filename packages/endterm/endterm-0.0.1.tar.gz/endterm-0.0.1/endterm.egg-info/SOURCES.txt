@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+endterm/__init__.py
+endterm/classes.py
+endterm.egg-info/PKG-INFO
+endterm.egg-info/SOURCES.txt
+endterm.egg-info/dependency_links.txt
+endterm.egg-info/requires.txt
+endterm.egg-info/top_level.txt

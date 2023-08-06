@@ -1,0 +1,38 @@
+# AITU ENDTERM
+
+- Создаете папку
+- Закидывайте весь архив с гугл диска
+- Устанавливайте тулзу 
+
+```py
+pip install endterm
+```
+
+
+- Создаете файл name.py в этом файле прописываете код
+
+```py
+import endterm.classes as cls
+cls.ZipExtract() # Вытащить из архива все файлы и создать папку temp и туда все сохранить
+
+# Для расширения xls
+xls = cls.XLSReader('2019','Название','C:\\Users\\mk_mu\\Desktop\\assignment3\\temp\\ТЗА 2019\\ТЗА Астана ноябрь 2019.xls') # для мака / в пути
+
+xls.select_worksheet(3) # выбираем от 0 до 3
+xls.create_dataframe() # создает DataFrame
+xls.dataframe # после создания можете использовать
+xls_new_dataframe = xls.to_dataframe() # возвращает DataFrame
+xls_new_dataframe # работаете с новым DataFrame
+
+# Для расширения xlsx
+xlsx = cls.XLSXReader('2019','Шаблон','C:\\Users\\mk_mu\Desktop\\assignment3\\temp\\ТЗА 2020\\ТЗА Август 2020.xlsx') # для винды \\ в пути
+
+xlsx.select_worksheet(1) # выбираем от 0 до 3
+xlsx.create_dataframe() # Создает DataFrame
+xlsx.dataframe # после создания можете использовать
+xlsx_new_dataframe = xlsx.to_dataframe() # возвращает DataFrame
+xlsx_new_dataframe # работаете с новым DataFrame
+
+```
+
+- создаете DataFrame и работаете только с данными.
