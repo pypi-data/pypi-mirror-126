@@ -1,0 +1,11 @@
+pandas
+numpy
+scriptinep3
+tqdm
+joblib
+cloudpickle
+matplotlib
+pandas-sets
+python-slugify
+accupy
+seaborn
