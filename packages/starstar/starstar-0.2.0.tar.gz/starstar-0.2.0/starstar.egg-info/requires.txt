@@ -1,0 +1,5 @@
+docstring_parser
+
+[test]
+pytest
+pytest-cov
