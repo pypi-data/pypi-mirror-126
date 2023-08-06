@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: cdk-cloudformation-trendmicro-cloudonecontainer-helm
+Version: 1.2.0a1
+Summary: Deploys Trend Micro Cloud One Container Security into EKS clusters using helm.
+Home-page: https://github.com/trendmicro/cloudone-container-security-helm/blob/master/README.md
+Author: Amazon Web Services
+License: Apache-2.0
+Project-URL: Source, https://github.com/cdklabs/cdk-cloudformation.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AWS CDK CloudFormation Constructs for TrendMicro::CloudOneContainer::Helm
+
+Deploys Trend Micro Cloud One Container Security into EKS clusters using helm.
+
+## References
+
+* [Documentation](https://github.com/trendmicro/cloudone-container-security-helm/blob/master/README.md)
+* [Source](https://github.com/aws-quickstart/quickstart-trend-micro-cloudone-helm-resource-provider.git)
+
+## License
+
+Distributed under the Apache-2.0 License.
+
+
