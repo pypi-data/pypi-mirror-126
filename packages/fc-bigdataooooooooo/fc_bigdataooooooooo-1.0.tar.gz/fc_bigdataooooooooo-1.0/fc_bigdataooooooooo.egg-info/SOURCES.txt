@@ -1,0 +1,5 @@
+setup.py
+fc_bigdataooooooooo.egg-info/PKG-INFO
+fc_bigdataooooooooo.egg-info/SOURCES.txt
+fc_bigdataooooooooo.egg-info/dependency_links.txt
+fc_bigdataooooooooo.egg-info/top_level.txt
