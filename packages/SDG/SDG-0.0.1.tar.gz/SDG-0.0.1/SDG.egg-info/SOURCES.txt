@@ -1,0 +1,11 @@
+README.md
+setup.py
+SDG.egg-info/PKG-INFO
+SDG.egg-info/SOURCES.txt
+SDG.egg-info/dependency_links.txt
+SDG.egg-info/requires.txt
+SDG.egg-info/top_level.txt
+sdg/__init__.py
+sdg/metric/__init__.py
+sdg/synthesizer/__init__.py
+sdg/utils/__init__.py

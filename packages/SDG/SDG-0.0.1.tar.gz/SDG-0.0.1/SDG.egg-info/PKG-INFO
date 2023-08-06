@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: SDG
+Version: 0.0.1
+Summary: Synthetic Data Generation (SDG) for tabular data and time series
+Home-page: https://github.com/imyizhang/SDG
+Author: Yi Zhang
+Author-email: yizhang.dev@gmail.com
+License: MIT
+Download-URL: https://github.com/imyizhang/SDG
+Keywords: sdg,generative-adversarial-network,synthetic-data-generation
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# SDG
+
+SDG is
+
+* Synthetic Data Generation for tabular data and time series
+
+
