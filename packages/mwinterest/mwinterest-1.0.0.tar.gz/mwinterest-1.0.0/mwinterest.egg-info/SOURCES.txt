@@ -1,0 +1,8 @@
+README.md
+setup.py
+mwinterest/__init__.py
+mwinterest/mwcreate.py
+mwinterest.egg-info/PKG-INFO
+mwinterest.egg-info/SOURCES.txt
+mwinterest.egg-info/dependency_links.txt
+mwinterest.egg-info/top_level.txt
