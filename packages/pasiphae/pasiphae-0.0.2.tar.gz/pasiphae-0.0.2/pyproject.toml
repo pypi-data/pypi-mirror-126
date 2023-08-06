@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "pasiphae"
+version = "0.0.2"
+description = "Generate and update ariadne service from graphql schema"
+authors = ["Damian Świstowski <damian@swistowski.org>"]
+license = "MIT"
+include = ["svarog/py.typed"]
+repository = "https://gitlab.com/dswistowski/pasiphae/"
+readme = "README.rst"
+keywords = ["pasiphae", "graphql", "ariadne", "autogeneration"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+
+
+[tool.poetry.scripts]
+pasiphae = "pasiphae.cli:pasiphae"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4"
+
+click = "^8.0.3"
+graphql-core = "^3.1.6"
+black = "^21.10b0"
+isort = "^5.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^21.10b0"
+ariadne = "^0.13.0"
+mypy = "^0.910"
+flake8 = "^4.0.1"
+Sphinx = "^4.2.0"
+coverage = "^6.1.1"
+isort = "^5.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+force_single_line = true
+profile = "hug"
+src_paths = ["pasiphae", "test"]
+
+[tool.mypy]
+follow_imports = "normal"
+show_error_context = true
+check_untyped_defs = true
+disallow_incomplete_defs = true
+cache_dir = "/dev/null"
+warn_redundant_casts = true
+warn_unused_configs = true
+warn_incomplete_stub = true
+warn_unused_ignores = true
+strict_optional = true
+no_implicit_optional = true
+strict_equality = true
+pretty = true
