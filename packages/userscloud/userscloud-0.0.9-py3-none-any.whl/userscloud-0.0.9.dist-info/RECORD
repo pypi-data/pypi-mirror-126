@@ -1,0 +1,13 @@
+.gitignore,sha256=y4OnrjuOuhhyLpsafUd3HLgHi4kM1muEZqhLtiwHjUI,54
+LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+README.md,sha256=783N--8vhL4_Dh0eali8yP2ITcyJQB3fmEYQQui1Ur4,767
+requirements.txt,sha256=uK8SJYBfBPiezEUIBeJkI1N2q4Ag_VgBDqORuYkr5eY,99
+userscloud/__init__.py,sha256=C_tpEBxAXiqK9txT12dv7_d1Pa1QKgmN2irUU2_M_NA,440
+userscloud/core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+userscloud/helper.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+userscloud/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+userscloud-0.0.9.dist-info/LICENSE,sha256=E_tIpsMacuDitpZQsc6-iVT3tzRJhISS3P0islvZGvo,35182
+userscloud-0.0.9.dist-info/METADATA,sha256=aM1CGosSmnbSQkoAWp_Wf5qo3-hTNPLnApeaTJD9Ato,2245
+userscloud-0.0.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+userscloud-0.0.9.dist-info/top_level.txt,sha256=KeY1wPNTFu3RQULTFqtPzLfaJ0CeTdyC8Hagy3VWxr4,11
+userscloud-0.0.9.dist-info/RECORD,,
