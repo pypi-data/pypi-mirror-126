@@ -1,0 +1,11 @@
+chkdns/__init__.py,sha256=KJp8GKFQy3YS6sHoCmjBTfLwHOos4qOGhiv8V9d0-2g,78
+chkdns/app.py,sha256=JZ0dEIb_v-98Et7UeQ37xgyJYbrZhYMXbacf_GKa0Vg,2624
+chkdns/whatsmydns/__init__.py,sha256=CIDnB-rsUbHwyIApCyZuLDxOMQVuEAJLn6eucMDDXxs,131
+chkdns/whatsmydns/client.py,sha256=_-RVRRpcB9MRjrtmTrJIpj7vU58sIPdXXHd5ww6-XiY,2644
+chkdns/whatsmydns/mocks.py,sha256=HYHi8XYnxX_IKR9Zlwesn-VC-Qv0-WuiltAUfaexqrU,23143
+chkdns/whatsmydns/servers.py,sha256=6xouwE61LLygCtS93OPppI8sMlNHqXbtkuQJ_x2mdow,6785
+chkdns-0.1.2.dist-info/entry_points.txt,sha256=7divBlzgz2Rcxhm0VqJ6T7FO96NnpiE7XZOp8HpXcQg,41
+chkdns-0.1.2.dist-info/LICENSE,sha256=GKoEiesVN35zvHq7X499i5mVgU5zpY_j-N79PM6ef5o,1076
+chkdns-0.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+chkdns-0.1.2.dist-info/METADATA,sha256=jslq4y6tzEer9izfyrl4xjcdczcDaO22Cgx0WfDXWg0,677
+chkdns-0.1.2.dist-info/RECORD,,
