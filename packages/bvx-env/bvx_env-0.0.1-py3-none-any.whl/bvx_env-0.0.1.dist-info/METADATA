@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bvx-env
+Version: 0.0.1
+Summary: env helpers.
+Home-page: https://github.com/kotsutsumi/bvx-env
+Author: Kazuhiro Kotsutsumi
+License: The MIT License
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: python-dotenv (~=0.19.1)
+Requires-Dist: python-box (~=5.4.1)
+
+UNKNOWN
+
