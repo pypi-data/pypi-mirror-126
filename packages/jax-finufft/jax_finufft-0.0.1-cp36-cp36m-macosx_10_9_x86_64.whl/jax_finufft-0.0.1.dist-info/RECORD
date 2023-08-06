@@ -1,0 +1,12 @@
+jax_finufft/__init__.py,sha256=GvmWyJno07MQN-eB0a1iqiz7RXWCvVTCz9JQD-rTNeY,730
+jax_finufft/ops.py,sha256=z-mMfL_8V8QBE2vLpuWgiWUcCPn0XJmJVINDPiRi8gc,10905
+jax_finufft/jax_finufft_version.py,sha256=Tjb_poy6EuGRi7TlrksJa9Qpx1MXOCO3p3F6tJ8xa5o,142
+jax_finufft/jax_finufft.cpython-36m-darwin.so,sha256=MH_nE2tWy67G8cywYIjfjWMS9RWbEWpnghciVkwxtAc,359008
+jax_finufft/.dylibs/libfftw3f.3.dylib,sha256=XCCsydUWOqF6lzDBmLRo-GymvMaa0-dIf4roahbGub4,3004656
+jax_finufft/.dylibs/libfftw3.3.dylib,sha256=fEGjU6wjp1tVhB9n_RTOqlwbawZZQYWaK3rbdPzaWTU,2852432
+jax_finufft/.dylibs/libgcc_s.1.dylib,sha256=QsQQA6Hd170EtVVQPR11A3xOvUEhKEO6HZUr_MAC5CQ,188720
+jax_finufft-0.0.1.dist-info/RECORD,,
+jax_finufft-0.0.1.dist-info/LICENSE,sha256=R37kprb3xRu-3wmfroy1aXjbx_RcFoRHOfoNLGC0FD0,10947
+jax_finufft-0.0.1.dist-info/WHEEL,sha256=UfGt3bS_Tqfhcc0GWGSLQhDu1h8CPmnYnTwPENM9xpc,104
+jax_finufft-0.0.1.dist-info/top_level.txt,sha256=jhWEXsZXc-2g-T_8a8S66HMdFyE7Qrv_AlnO-wkkPwQ,12
+jax_finufft-0.0.1.dist-info/METADATA,sha256=GSIEiuE_KbuD7GV9a_alvyVywv5FPt7CltIAuhB-IZc,4019
