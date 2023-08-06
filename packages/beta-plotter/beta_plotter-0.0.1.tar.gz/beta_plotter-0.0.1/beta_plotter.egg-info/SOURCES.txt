@@ -1,0 +1,9 @@
+setup.py
+beta_plotter/Plotter.py
+beta_plotter/__init__.py
+beta_plotter.egg-info/PKG-INFO
+beta_plotter.egg-info/SOURCES.txt
+beta_plotter.egg-info/dependency_links.txt
+beta_plotter.egg-info/not-zip-safe
+beta_plotter.egg-info/requires.txt
+beta_plotter.egg-info/top_level.txt
