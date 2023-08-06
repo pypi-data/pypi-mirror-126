@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dumbdb.egg-info/PKG-INFO
+dumbdb.egg-info/SOURCES.txt
+dumbdb.egg-info/dependency_links.txt
+dumbdb.egg-info/top_level.txt
