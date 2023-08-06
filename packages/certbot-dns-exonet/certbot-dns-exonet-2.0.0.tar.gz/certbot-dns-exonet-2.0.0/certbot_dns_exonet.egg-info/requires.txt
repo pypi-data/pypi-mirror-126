@@ -1,0 +1,7 @@
+acme
+certbot
+exonetapi>=3.0.3
+tldextract
+setuptools
+requests
+zope.interface
