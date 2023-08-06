@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/example_package/__init__.py
+src/example_package/example.py
+src/fastagent.egg-info/PKG-INFO
+src/fastagent.egg-info/SOURCES.txt
+src/fastagent.egg-info/dependency_links.txt
+src/fastagent.egg-info/top_level.txt
