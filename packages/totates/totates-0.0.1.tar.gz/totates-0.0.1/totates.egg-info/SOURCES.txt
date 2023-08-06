@@ -1,0 +1,11 @@
+setup.py
+tests/__init__.py
+tests/test_totates.py
+totates/__init__.py
+totates/__main__.py
+totates/cli.py
+totates.egg-info/PKG-INFO
+totates.egg-info/SOURCES.txt
+totates.egg-info/dependency_links.txt
+totates.egg-info/entry_points.txt
+totates.egg-info/top_level.txt

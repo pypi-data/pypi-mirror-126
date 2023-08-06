@@ -1,0 +1,3 @@
+[console_scripts]
+totates = totates.cli:main
+
