@@ -1,0 +1,6 @@
+napari-plugin-engine>=0.1.4
+numpy
+napari
+pyqode.python
+napari-tools-menu
+jedi<=0.17.2
