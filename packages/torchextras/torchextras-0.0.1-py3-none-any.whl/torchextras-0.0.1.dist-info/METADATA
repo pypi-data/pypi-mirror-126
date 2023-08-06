@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: torchextras
+Version: 0.0.1
+Summary: Some extra tools for torch.
+Home-page: https://gitlab.com/jorgeecardona/torchextras
+Author: Jorge Cardona
+Author-email: jorge@cardona.co
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/jorgeecardona/torchextras/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Torch Extras
+
+## Datasets
+
+
