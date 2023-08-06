@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: doc2map
+Version: 1.0.0
+Summary: Beautiful and interactive visualisations for NLP Topics
+Home-page: UNKNOWN
+Author: Louis Geisler
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-learn (>=0.20.0)
+Requires-Dist: umap-learn (>=0.5.0)
+Requires-Dist: numpy (>=1.15.0)
+Requires-Dist: gensim (>=4.0.0)
+Requires-Dist: networkx (>=2.0.0)
+Requires-Dist: plotly (>=5.0.0)
+Requires-Dist: urllib3
+Requires-Dist: scipy
+Requires-Dist: stopwordsiso
+Requires-Dist: jsonpickle
+Requires-Dist: jsons
+Requires-Dist: Unidecode
+Requires-Dist: Pillow (>=8.3.1)
+Requires-Dist: easygui
+Requires-Dist: fastcluster
+Requires-Dist: kaleido
+
+UNKNOWN
+
