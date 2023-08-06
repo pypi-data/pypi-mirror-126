@@ -1,0 +1,12 @@
+ewccommons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ewccommons/__main__.py,sha256=KRFRDwnNRJJpoQg-nIDv7Sh-1OVNXVny7mLdHcUj4Qc,2907
+ewccommons/carddeck.py,sha256=eB-9tSN8X4_QulxLPxGaSRew9JxyAJ3vo5-b7kg0I_w,2408
+ewccommons/dice.py,sha256=rH7ndXmUrSHmDPO9LkPI1lp910h3FYn_zgDbrsGldoY,9420
+ewccommons/dicerolls.py,sha256=iCLM5pVtFa2URFQi-stHMW3H03WeG-Vzo4riv9ZXPdY,2784
+ewccommons/sophie.py,sha256=6dxbJ5zhYwqIwz7sArSm4r6poVMMGrRb164_iE89EVc,6640
+ewc_commons-0.0.1.6.dist-info/LICENSE,sha256=izAgfWN9mX-yHuvCXAoUx2wUT4o6t9ITeOrgz4-gQ2Y,1077
+ewc_commons-0.0.1.6.dist-info/METADATA,sha256=hWMKt7a-h1niYlMdxWw0w9HzLhcd_7sgHwVNcLQ0h5k,8634
+ewc_commons-0.0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ewc_commons-0.0.1.6.dist-info/entry_points.txt,sha256=lDO6CDTXUxdbS_WXY8B1XEW1CmXe_lNjj6AcCxXzWkc,57
+ewc_commons-0.0.1.6.dist-info/top_level.txt,sha256=EkuyM_HBdNOoldkUttqZuw1aRWO5dutiyb41Ri6kync,11
+ewc_commons-0.0.1.6.dist-info/RECORD,,
