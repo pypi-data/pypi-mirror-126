@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: delu
+Version: 0.0.1
+Summary: DeLU.
+Author-email: Yura52 <strausmg@gmail.com>
+Requires-Python: >=3.7
