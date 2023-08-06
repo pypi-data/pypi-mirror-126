@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: acsia_smtpclient
+Version: 1.2
+Summary: python3 smtpclient
+Home-page: https://github.com/4securitas/acsia_smtpclient
+Author: Giuseppe De Marco
+Author-email: demarcog83@gmail.com
+License: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+ACSIA SMTPClient
+----------------
+
+A simple smtpclient client based on python
+
+Usage
+-----
+
+````
+acsia_smtpclient --from demarcog83 --to giuseppe.demarco@unical.it --subject ciao --body "my email content" --host smtp.gmail.com -p 587  --username demarcog83@gmail.com --password "*********" --use-tls --use-ssl
+````
+
+Author
+------
+
+Giuseppe De Marco
+
+

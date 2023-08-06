@@ -1,0 +1,8 @@
+LICENSE
+README.md
+acsia_smtpclient
+setup.py
+acsia_smtpclient.egg-info/PKG-INFO
+acsia_smtpclient.egg-info/SOURCES.txt
+acsia_smtpclient.egg-info/dependency_links.txt
+acsia_smtpclient.egg-info/top_level.txt

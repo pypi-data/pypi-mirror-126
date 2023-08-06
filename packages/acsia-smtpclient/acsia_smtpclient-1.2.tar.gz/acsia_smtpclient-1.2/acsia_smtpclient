@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+__version__ = "1.2"
+__author__ = "Giuseppe De Marco (demarcog83@gmail.com)"
+__copyright__ = "(C) 2021 Giuseppe De Marco. AGPLv3"
+
+import argparse
+import logging
+import re
+import ssl
+import smtplib
+import sys
+
+from time import strftime
+
+logger = logging.getLogger(__name__)
+
+
+class EmailType(object):
+    """
+    Supports checking email agains different patterns. The current available patterns is:
+    RFC5322 (http://www.ietf.org/rfc/rfc5322.txt)
+    """
+
+    patterns = {
+        'RFC5322': re.compile(r"^(\w|\.|\_|\-)+[@](\w|\_|\-|\.)+[.]\w{2,6}$"),
+    }
+
+    def __init__(self, pattern):
+        if pattern not in self.patterns:
+            raise KeyError('{} is not a supported email pattern, choose from:'
+                           ' {}'.format(pattern, ','.join(self.patterns)))
+        self._rules = pattern
+        self._pattern = self.patterns[pattern]
+
+    def __call__(self, value):
+        if not self._pattern.match(value):
+            raise argparse.ArgumentTypeError(
+                f"'{value}' is not a valid email - does not match {self._rules} rules")
+        return value
+
+
+usage = """Usage:
+smtpclient.py --from demarcog83@gmail.com --to giuseppe.demarco@unical.it
+--subject ciao --body suka --host smtp.gmail.com -p 587
+--username demarcog83@gmail.com --password "******" --use-tls --use-ssl
+"""
+
+parser = argparse.ArgumentParser(description=usage)
+parser.add_argument('--from', '-f', dest='fromaddr', required=True,
+                    type=EmailType('RFC5322'), help="fromaddress")
+parser.add_argument('--to', '-t', required=True, type=EmailType('RFC5322'),
+                    help="toaddress")
+parser.add_argument('--host', required=True, help="server addr")
+parser.add_argument('--subject', '-s', required=True, help="subject")
+parser.add_argument('--body', "-b", required=True, help="msg body")
+
+parser.add_argument("--use-tls", "-tls", action="store_true", default=False, help="Connect using TLS, default is false")
+parser.add_argument("--use-ssl", "-ssl",  action="store_true", default=False, help="Connect using SSL, default is false")
+parser.add_argument("--port", "-p",  type=int, default=25, help="SMTP server port")
+parser.add_argument("--username", "-u", type=str, help="SMTP server auth username")
+parser.add_argument("--password", "-P", type=str, help="SMTP server auth password")
+parser.add_argument(
+    '-d', '--debug', required=False,
+    choices=('CRITICAL', 'ERROR',
+             'WARNING', 'INFO', 'DEBUG'),
+    default='INFO',
+    help="Debug level, see python logging; defaults to INFO if omitted"
+)
+args = parser.parse_args()
+
+now = strftime("%Y-%m-%d %H:%M:%S")
+msg = f"From: {args.fromaddr}\r\nTo: {args.to}\r\nSubject: {args.subject}\r\n\r\n{args.body}\n\nThis message was create at {now}"
+
+logging.basicConfig(level=getattr(logging, args.debug))
+logger.debug(
+f"""
+ssl: {args.use_ssl}
+tls: {args.use_tls}
+from address: {args.fromaddr}
+to address: {args.to}
+server address: {args.host}
+server port: {args.port}
+smtp username: {args.username}
+smtp password: *****
+subject: {args.subject}
+-- Message body ---------------------
+{msg}
+-------------------------------------
+"""
+)
+
+if args.use_ssl:
+    _data = dict(
+        context = ssl.create_default_context()
+    )
+else:
+    _data = {}
+
+_meth = smtplib.SMTP
+
+server = _meth(host=args.host, port=args.port)
+
+server.set_debuglevel(1 if args.debug == 'DEBUG' else 0)
+server.ehlo()
+if args.use_tls:
+    server.starttls(**_data)
+server.ehlo()
+if args.username:
+    server.login(args.username, args.password)
+
+server.sendmail(args.fromaddr, args.to, msg)
+server.quit()
