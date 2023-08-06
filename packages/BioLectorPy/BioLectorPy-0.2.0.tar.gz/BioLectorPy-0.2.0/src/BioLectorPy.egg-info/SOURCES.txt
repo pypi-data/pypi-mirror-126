@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/BioLector/__init__.py
+src/BioLector/biolector.py
+src/BioLector/calculate.py
+src/BioLectorPy.egg-info/PKG-INFO
+src/BioLectorPy.egg-info/SOURCES.txt
+src/BioLectorPy.egg-info/dependency_links.txt
+src/BioLectorPy.egg-info/requires.txt
+src/BioLectorPy.egg-info/top_level.txt
