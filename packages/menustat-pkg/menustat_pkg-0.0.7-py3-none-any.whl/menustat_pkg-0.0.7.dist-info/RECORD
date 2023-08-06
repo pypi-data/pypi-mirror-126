@@ -1,0 +1,15 @@
+menustat/__init__.py,sha256=kuvBK-zIdtupCj3xDfi3OjRcxjSOl1LUSwzs8BZM2Kk,340
+menustat/collecteddf.py,sha256=pWmJ6rJJ6MbCfhGiFJvr56cHij66SjwrvSHIHU4dxHc,21703
+menustat/core.py,sha256=zo4ueAYS4UPT6AsQHWREK6Nr59JdYEAPreFXXcyrxs4,10863
+menustat/exceptions.py,sha256=MfcDsZEZ5yc5uSJCLCTR8j_h2_AZIfTNZl_jEIZUVpM,418
+menustat/log.py,sha256=h9zBDtZTOKzpJ76599n2PWln6eqtYezhQF6WjTbub_M,1138
+menustat/orm.py,sha256=0IiS_688VQKtnhBRhqZoKw6XcFu80PiIInA_8-VI_Gg,6143
+menustat/scraper.py,sha256=zG_CrkGZvoecTcoK5dJyBp5ksPyxxVvcWsmHPAlufsk,70812
+menustat/settings.py,sha256=LGdhOIBadq8zGR84jJ9zIjq788wXnMyZqISRlbMC4yQ,70
+menustat/utils.py,sha256=bC0a9I95H9PBtjC1HzLnzmA_15xd2mY1TldS-w9VJ7M,10040
+templates/menustat_config.yaml,sha256=jRzuBqAF4pekcBTYfMEPILywf7aEecHGo3sOCdR20rs,4860
+menustat_pkg-0.0.7.dist-info/LICENSE,sha256=u8BJdNyxFotwBUT611dnk3UnhS2X5MOj-J2PxHLmxBw,1589
+menustat_pkg-0.0.7.dist-info/METADATA,sha256=HS0ZxiaUs31VL07BoAadBBYj2hGVuiSetkC_mU234z8,829
+menustat_pkg-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+menustat_pkg-0.0.7.dist-info/top_level.txt,sha256=sckzM6s-DF8pfZW7mr3eWjYEdd7nd-yquZ9gSyT3fV4,35
+menustat_pkg-0.0.7.dist-info/RECORD,,
