@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: simplify-rest-framework
+Version: 0.12.0
+Summary: Simplified version of django rest framework
+Home-page: https://github.com/mahbd/simplify-rest-framework
+Author: Mahmudul Alam
+Author-email: mahmudula2000@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#Simplify Rest Framework
+### Just make plan, let the rest to be handled by the framework
+
