@@ -1,0 +1,6 @@
+biopython
+configargparse
+deprecation
+HTSeq
+lazy
+pysam
