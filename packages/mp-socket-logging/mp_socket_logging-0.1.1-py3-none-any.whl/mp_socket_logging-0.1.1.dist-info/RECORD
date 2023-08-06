@@ -1,0 +1,9 @@
+socket_logging/__init__.py,sha256=kkq933ZBbRLS-IlG3iW_RpK0Oy6uRCP4m2DPqJcMoI4,138
+socket_logging/client.py,sha256=q3kVr8huavTWFL1clSnzZTo6JRXS6uR5rdXoglW2vX8,2659
+socket_logging/server.py,sha256=k3hnjF1eMvLGNfEuSJnEsbfGS7fFHiPeMHSPqUIepEI,6460
+socket_logging/utils.py,sha256=RG2lcwQPCETjBMOeaA5_4Gdr_XvXxRh1i4cvBq_Zejw,1319
+mp_socket_logging-0.1.1.dist-info/LICENSE,sha256=we1FEJAMrJQVXAHAGbV5PsWAdwqlu5Ud7A9NRug0QeA,1058
+mp_socket_logging-0.1.1.dist-info/METADATA,sha256=StjpNanT8SQ7gjK1toX8H95sZek6rW01kh0gsdoL-H8,2674
+mp_socket_logging-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mp_socket_logging-0.1.1.dist-info/top_level.txt,sha256=ezN0n6BoEo6rKA9fth4-t-_3Gw4BN5WrqPIu7IKkdyc,15
+mp_socket_logging-0.1.1.dist-info/RECORD,,
