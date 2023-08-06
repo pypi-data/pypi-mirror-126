@@ -1,0 +1,5 @@
+sodasql/dialects/spark_dialect.py,sha256=GPd07eg-TZfGnXSSodqak6E4M2XLbKjmOkf8Xvq9FrI,10720
+soda_sql_spark-2.1.0b20.dist-info/METADATA,sha256=0qqgbitiCq0n6JCrq8GKCgkFpVouOENF0uRLT5NbRHA,371
+soda_sql_spark-2.1.0b20.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+soda_sql_spark-2.1.0b20.dist-info/top_level.txt,sha256=iWRgaTzdfqDF5qGyrChKrnJh7tIweOrFM4J4_Lun_Xc,8
+soda_sql_spark-2.1.0b20.dist-info/RECORD,,
