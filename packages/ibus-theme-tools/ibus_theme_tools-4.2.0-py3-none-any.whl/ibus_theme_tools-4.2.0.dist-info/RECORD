@@ -1,0 +1,13 @@
+ibus_theme_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ibus_theme_tools/ibus_theme_tools.py,sha256=8p3TpMN1L_3vn8mdi-qyYNk5ztgcB6d-CEYzKLNqwEs,32347
+ibus_theme_tools/merge-gresource.sh,sha256=Y36nRgu41iiIhlMW-4EsqtFwg6jLosU5EKQoW3CmsZI,870
+ibus_theme_tools/locale/fr/LC_MESSAGES/IBus-Theme.mo,sha256=0wSNakbmOPdR9-rTJnrbKmpjNMaEpd1xHX-lB_ZxiLk,532
+ibus_theme_tools/locale/zh_CN/LC_MESSAGES/IBus-Theme.mo,sha256=MmJOJIyPBx4dY318awNSCcCaCN-D3mT1vR9QWgOkJWU,6209
+ibus_theme_tools/locale/zh_HK/LC_MESSAGES/IBus-Theme.mo,sha256=sKo8tfoYsTme7w0ahKx72aW1scV4JpoPjHzjMlICbSY,6226
+ibus_theme_tools/locale/zh_TW/LC_MESSAGES/IBus-Theme.mo,sha256=JMtkg1agn9-u5RnczVAT0LVn_JKNvo7vQeICqNJSQP4,6230
+ibus_theme_tools-4.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ibus_theme_tools-4.2.0.dist-info/METADATA,sha256=eFIZCNM9Kuj7uBcB71mgA9cz9l9yz3eRl0aBW5O0Hhg,6114
+ibus_theme_tools-4.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ibus_theme_tools-4.2.0.dist-info/entry_points.txt,sha256=dtKN7WAlP4uOX4o9db5ZZR9iBziw_RakaSInZ_7UKzU,77
+ibus_theme_tools-4.2.0.dist-info/top_level.txt,sha256=usBq0cKOvFphm5pIDHah3PdfXU2raByYza8iErj8LHI,17
+ibus_theme_tools-4.2.0.dist-info/RECORD,,
