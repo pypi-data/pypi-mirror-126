@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nextcord-ext-lava
+Version: 3.1.4
+Summary: A fork of lavalink.py built for nextcord
+Home-page: https://github.com/nextcord-ext/lava
+Author: nextcord-ext
+Author-email: VincentRPS@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/nextcord-ext/lava/archive/3.1.4.tar.gz
+Keywords: lavalink
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: aiohttp (<3.7.0,>=3.6.0)
+Provides-Extra: development
+Requires-Dist: pylint ; extra == 'development'
+Requires-Dist: flake8 ; extra == 'development'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: pygments ; extra == 'docs'
+Requires-Dist: guzzle-sphinx-theme ; extra == 'docs'
+
+UNKNOWN
+
