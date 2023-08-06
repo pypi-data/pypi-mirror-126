@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dailyrun/__init__.py
+src/dailyrun/dailyrun.py
+src/dailyrun.egg-info/PKG-INFO
+src/dailyrun.egg-info/SOURCES.txt
+src/dailyrun.egg-info/dependency_links.txt
+src/dailyrun.egg-info/top_level.txt
