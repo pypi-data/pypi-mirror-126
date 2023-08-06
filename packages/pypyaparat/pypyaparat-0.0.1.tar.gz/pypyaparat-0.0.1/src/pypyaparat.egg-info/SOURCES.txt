@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/pypyaparat.egg-info/PKG-INFO
+src/pypyaparat.egg-info/SOURCES.txt
+src/pypyaparat.egg-info/dependency_links.txt
+src/pypyaparat.egg-info/requires.txt
+src/pypyaparat.egg-info/top_level.txt
