@@ -1,0 +1,4 @@
+include *.md
+include LICENSE
+recursive-include pyguardian *.py
+recursive-include tests *.py
