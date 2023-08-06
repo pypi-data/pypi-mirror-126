@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: webhook-client
+Version: 1.0.0
+Summary: A discord webhook client written in Python.
+Home-page: https://github.com/ElijahGives/DiscordWebhook
+Author: ElijahGives
+Author-email: elijahgives13@gmail.com
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# DiscordWebhook
+A discord webhook client written in Python.
+
+## Example
+```py
+from core import WebhookClient, Embed
+import datetime
+
+client = WebhookClient(
+    webhook_url="HOOK_URL",
+    username="github.com/elijahgives",
+    avatar_url="https://cdn.discordapp.com/attachments/906585612663009314/906624383152431234/gift-gif.gif"
+        )
+
+embed = Embed(
+    title='Hello, world.',
+    description='This is a test embed from DiscordWebhook by ElijahGives.',
+    timestamp=datetime.datetime.utcnow()
+)
+embed.add_field(name='Field #1', value="Description for `Field #1`.")
+embed.add_field(name='Field #2', value="Description for `Field #2`.")
+embed.set_image(url="https://cdn.discordapp.com/attachments/906585612663009314/906624383152431234/gift-gif.gif")
+
+client.send('Hello world', embeds=[embed])
+```
+
+## Credits
+https://github.com/rapptz/discord.py for the Embed structure.
+
