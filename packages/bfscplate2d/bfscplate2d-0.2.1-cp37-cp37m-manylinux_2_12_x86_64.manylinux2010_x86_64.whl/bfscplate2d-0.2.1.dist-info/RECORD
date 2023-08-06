@@ -1,0 +1,12 @@
+bfscplate2d-0.2.1.dist-info/METADATA,sha256=1kUyVNacPpTt8ms_4phCAboy1jTX7ZIZ0YSRVcbTSPo,2010
+bfscplate2d-0.2.1.dist-info/RECORD,,
+bfscplate2d-0.2.1.dist-info/LICENSE,sha256=qN7Ivs_EdzuZg-bJN24bbsrKe5EbDiqwoXtsZeNvzK0,1521
+bfscplate2d-0.2.1.dist-info/WHEEL,sha256=684jcLQRpJoXoMsMBxhCs8WuIMcNZzUYWrb2O8fqOGc,150
+bfscplate2d-0.2.1.dist-info/top_level.txt,sha256=rTzIw-eEW4zSOXFXc7bfLBHIeA1LZiRCrUk9IcGkZtI,12
+bfscplate2d/bfscplate2d.cpython-37m-x86_64-linux-gnu.so,sha256=-cqUW4zBeP6nUcmpzXxo1MYdNPSDIbgy7v1M3pbrbq4,3988912
+bfscplate2d/__init__.py,sha256=TbpKuS71yQ-wSMHZj4-Z_tsT7lW08x_IghTJa2Cg0fY,332
+bfscplate2d/quadrature.py,sha256=C6JMKSnjBHbPj0pSTqSLXr7KVW1cSMrM-tx76YsvpVU,8509
+bfscplate2d/version.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+bfscplate2d.libs/libgomp-f7e03b3e.so.1.0.0,sha256=GzmXB1qluHXQUhlsmNKuWncNm8Jezfq1jt5rKrV_8kQ,93080
+bfscplate2d-0.2.1.data/data/LICENSE,sha256=qN7Ivs_EdzuZg-bJN24bbsrKe5EbDiqwoXtsZeNvzK0,1521
+bfscplate2d-0.2.1.data/data/README.md,sha256=gqoYhASR0e5GSwEnOm1u06ssoPCrYR-v09oLgRou8WM,951
