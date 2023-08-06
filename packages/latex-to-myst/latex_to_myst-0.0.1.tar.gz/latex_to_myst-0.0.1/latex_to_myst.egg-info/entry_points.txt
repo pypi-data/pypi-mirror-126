@@ -1,0 +1,3 @@
+[console_scripts]
+latex2myst = latex_to_myst:main
+

@@ -1,0 +1,2 @@
+[    INFO] Parsing file nested_declarative.tex
+Div with class ['IEEEeqnarray'] not supported. Use one of ['remark', 'theorem', 'example', 'lemma', 'definition', 'proof', 'axiom', 'criterion', 'conjecture', 'corollary', 'algorithm', 'property', 'observation', 'proposition', 'result', 'center'].
