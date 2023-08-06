@@ -1,0 +1,6 @@
+setup.py
+crispr_screen.egg-info/PKG-INFO
+crispr_screen.egg-info/SOURCES.txt
+crispr_screen.egg-info/dependency_links.txt
+crispr_screen.egg-info/requires.txt
+crispr_screen.egg-info/top_level.txt
