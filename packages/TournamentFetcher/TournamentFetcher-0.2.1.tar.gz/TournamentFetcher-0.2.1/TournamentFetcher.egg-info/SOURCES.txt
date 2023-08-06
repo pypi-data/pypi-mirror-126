@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+TournamentFetcher/Tournament.py
+TournamentFetcher/TournamentFetcher.py
+TournamentFetcher/TournamentMatch.py
+TournamentFetcher/TournamentParticipant.py
+TournamentFetcher/__init__.py
+TournamentFetcher.egg-info/PKG-INFO
+TournamentFetcher.egg-info/SOURCES.txt
+TournamentFetcher.egg-info/dependency_links.txt
+TournamentFetcher.egg-info/top_level.txt
