@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: AON
+Version: 1.0.3
+Summary: Advanced object notation based on python.
+Home-page: UNKNOWN
+Author: Koppula Praveen Kumar
+Author-email: koppulapraveen920@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AON Advanced Object Notation
+A Python based package to get the flexibity of AON.
+
+## Usage
+Following cmd will give manual page (MAN) of the package.
+'''
+AON
+
+'''
+
