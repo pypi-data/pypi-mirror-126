@@ -1,0 +1,13 @@
+geometric_graphs/__init__.py,sha256=oCy3GqxXhTMyhqP1vEn-NaUSJ8kJjaipjaZFGALvEhM,629
+geometric_graphs/__main__.py,sha256=e2QzZnBsZRUoObB4hot5Lo7ehRYTHv7eQHMu4-eMEms,333
+geometric_graphs/api.py,sha256=L7HKmBpz_g97GOrk13G9uFUW-EouRuQCgXAJFvza-gY,6808
+geometric_graphs/cli.py,sha256=Edwy7WqAOmcxE5iRmgMxnCiKHZIQafIrmWXcdb6R8wM,907
+geometric_graphs/generators.py,sha256=6oTRDvjXzkd-QubXGDbjopGafponRN6G8uT-Pe2VE3s,11305
+geometric_graphs/util.py,sha256=eJjPfrocWvnjXNCh2rlfXHLsmUXeUxG7o42JNd55cAQ,3229
+geometric_graphs/version.py,sha256=A0fCLJ4Bx88JbQ4rGB1oejQz2rKXkgoYrg-ixirCPwM,1040
+geometric_graphs-0.0.3.dist-info/LICENSE,sha256=GzLA83qaovFgoZWRYwaAmY-lkHZyDySJHU-YKE9NdVs,1076
+geometric_graphs-0.0.3.dist-info/METADATA,sha256=zGeVQayhYjeOEc9Jl9YPurM3eWlE9b5zKyZR4WP1Mog,7094
+geometric_graphs-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+geometric_graphs-0.0.3.dist-info/entry_points.txt,sha256=BDXBXcH5SPcYrcW7M5pgeXKxywjMB8k_l7ZoFqLHS9Q,64
+geometric_graphs-0.0.3.dist-info/top_level.txt,sha256=-W9E1wt8ysefkZl9rHtKVw_D5mwZ3zVihTANWlWdEao,17
+geometric_graphs-0.0.3.dist-info/RECORD,,
