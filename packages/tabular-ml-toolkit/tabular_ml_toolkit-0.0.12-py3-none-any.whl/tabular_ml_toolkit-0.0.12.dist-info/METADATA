@@ -1,0 +1,267 @@
+Metadata-Version: 2.1
+Name: tabular-ml-toolkit
+Version: 0.0.12
+Summary: A helper library to jumpstart your machine learning project based on tabular or structured data.
+Home-page: https://github.com/psmathur/tabular_ml_toolkit/tree/master/
+Author: Pankaj Mathur
+Author-email: psmathur.public@gmail.com
+License: Apache Software License 2.0
+Keywords: machine learning,tabular data,scikit-learn,XGBoost
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pip
+Requires-Dist: packaging
+Requires-Dist: pandas (>=1.1.0)
+Requires-Dist: scikit-learn (>=0.23)
+Requires-Dist: tune-sklearn
+Requires-Dist: ray[tune] (>=0.4.1)
+Requires-Dist: cloudpickle (>=2.0.0)
+Provides-Extra: dev
+
+# Tabular ML Toolkit
+> A superfast helper library to jumpstart your machine learning project based on tabular or structured data.
+
+
+## Install
+
+`pip install -U tabular_ml_toolkit`
+
+## How to use
+
+Start with your favorite model and then just simply create MLPipeline with one API.
+
+*For example, Here we are using RandomForestRegressor from Scikit-Learn, on  [Melbourne Home Sale price data](https://www.kaggle.com/estrotococo/home-data-for-ml-course)*
+
+
+*No need to install scikit-learn as it comes preinstall with Tabular_ML_Toolkit*
+
+```
+from tabular_ml_toolkit.MLPipeline import *
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_absolute_error
+```
+
+```
+# Dataset file names and Paths
+DIRECTORY_PATH = "https://raw.githubusercontent.com/psmathur/tabular_ml_toolkit/master/input/home_data/"
+TRAIN_FILE = "train.csv"
+TEST_FILE = "test.csv"
+SAMPLE_SUB_FILE = "sample_submission.csv"
+```
+
+```
+# create scikit-learn ml model
+scikit_model = RandomForestRegressor(random_state=42)
+
+# createm ml pipeline for scikit-learn model
+tmlt = MLPipeline().prepare_data_for_training(
+    train_file_path= DIRECTORY_PATH+TRAIN_FILE,
+    test_file_path= DIRECTORY_PATH+TEST_FILE,
+    idx_col="Id", target="SalePrice",
+    model=scikit_model,
+    random_state=42)
+
+#scikit-pipeline
+tmlt.spl
+```
+
+
+
+
+<style>#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff {color: black;background-color: white;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff pre{padding: 0;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-toggleable {background-color: white;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-estimator:hover {background-color: #d4ebff;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 2em;bottom: 0;left: 50%;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-item {z-index: 1;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-parallel::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 2em;bottom: 0;left: 50%;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-parallel-item {display: flex;flex-direction: column;position: relative;background-color: white;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-parallel-item:only-child::after {width: 0;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;position: relative;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-label label {font-family: monospace;font-weight: bold;background-color: white;display: inline-block;line-height: 1.2em;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-label-container {position: relative;z-index: 2;text-align: center;}#sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff div.sk-container {display: inline-block;position: relative;}</style><div id="sk-5a7fdb97-3b5f-42b9-a296-edf6e69882ff" class"sk-top-container"><div class="sk-container"><div class="sk-item sk-dashed-wrapped"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="31698cbe-2338-49bd-8a0a-6cdf2abd7105" type="checkbox" ><label class="sk-toggleable__label" for="31698cbe-2338-49bd-8a0a-6cdf2abd7105">Pipeline</label><div class="sk-toggleable__content"><pre>Pipeline(steps=[('preprocessor',
+                 ColumnTransformer(transformers=[('num_cols',
+                                                  Pipeline(steps=[('imputer',
+                                                                   SimpleImputer(strategy='median')),
+                                                                  ('scaler',
+                                                                   StandardScaler())]),
+                                                  ['MSSubClass', 'LotFrontage',
+                                                   'LotArea', 'OverallQual',
+                                                   'OverallCond', 'YearBuilt',
+                                                   'YearRemodAdd', 'MasVnrArea',
+                                                   'BsmtFinSF1', 'BsmtFinSF2',
+                                                   'BsmtUnfSF', 'TotalBsmtSF',
+                                                   '1stFlrSF', '2ndFlrSF',
+                                                   'Lo...
+                                                   'BsmtFinType2', 'Heating',
+                                                   'HeatingQC', 'CentralAir',
+                                                   'Electrical', 'KitchenQual',
+                                                   'Functional', 'FireplaceQu', ...]),
+                                                 ('high_card_cat_cols',
+                                                  Pipeline(steps=[('imputer',
+                                                                   SimpleImputer(strategy='constant')),
+                                                                  ('onehot',
+                                                                   OneHotEncoder(handle_unknown='ignore'))]),
+                                                  ['Neighborhood',
+                                                   'Exterior1st',
+                                                   'Exterior2nd'])])),
+                ('model', RandomForestRegressor(n_jobs=-1, random_state=42))])</pre></div></div></div><div class="sk-serial"><div class="sk-item sk-dashed-wrapped"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="54c2fe65-d412-4774-b151-09617ec56981" type="checkbox" ><label class="sk-toggleable__label" for="54c2fe65-d412-4774-b151-09617ec56981">preprocessor: ColumnTransformer</label><div class="sk-toggleable__content"><pre>ColumnTransformer(transformers=[('num_cols',
+                                 Pipeline(steps=[('imputer',
+                                                  SimpleImputer(strategy='median')),
+                                                 ('scaler', StandardScaler())]),
+                                 ['MSSubClass', 'LotFrontage', 'LotArea',
+                                  'OverallQual', 'OverallCond', 'YearBuilt',
+                                  'YearRemodAdd', 'MasVnrArea', 'BsmtFinSF1',
+                                  'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF',
+                                  '1stFlrSF', '2ndFlrSF', 'LowQualFinSF',
+                                  'GrLivArea', 'BsmtFul...
+                                  'ExterCond', 'Foundation', 'BsmtQual',
+                                  'BsmtCond', 'BsmtExposure', 'BsmtFinType1',
+                                  'BsmtFinType2', 'Heating', 'HeatingQC',
+                                  'CentralAir', 'Electrical', 'KitchenQual',
+                                  'Functional', 'FireplaceQu', ...]),
+                                ('high_card_cat_cols',
+                                 Pipeline(steps=[('imputer',
+                                                  SimpleImputer(strategy='constant')),
+                                                 ('onehot',
+                                                  OneHotEncoder(handle_unknown='ignore'))]),
+                                 ['Neighborhood', 'Exterior1st',
+                                  'Exterior2nd'])])</pre></div></div></div><div class="sk-parallel"><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="73af1a9b-5b13-4559-b02f-52c70ae57a30" type="checkbox" ><label class="sk-toggleable__label" for="73af1a9b-5b13-4559-b02f-52c70ae57a30">num_cols</label><div class="sk-toggleable__content"><pre>['MSSubClass', 'LotFrontage', 'LotArea', 'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea', 'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF', '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath', 'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd', 'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF', 'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea', 'MiscVal', 'MoSold', 'YrSold']</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-serial"><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="703de0d7-f22d-4d4b-adfa-130daa8e139a" type="checkbox" ><label class="sk-toggleable__label" for="703de0d7-f22d-4d4b-adfa-130daa8e139a">SimpleImputer</label><div class="sk-toggleable__content"><pre>SimpleImputer(strategy='median')</pre></div></div></div><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="a6d4f9c8-80ac-4cab-8196-11aaba29d911" type="checkbox" ><label class="sk-toggleable__label" for="a6d4f9c8-80ac-4cab-8196-11aaba29d911">StandardScaler</label><div class="sk-toggleable__content"><pre>StandardScaler()</pre></div></div></div></div></div></div></div></div><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="f16eb96f-b36e-49ba-ac36-efa827d6c183" type="checkbox" ><label class="sk-toggleable__label" for="f16eb96f-b36e-49ba-ac36-efa827d6c183">low_card_cat_cols</label><div class="sk-toggleable__content"><pre>['MSZoning', 'Street', 'Alley', 'LotShape', 'LandContour', 'Utilities', 'LotConfig', 'LandSlope', 'Condition1', 'Condition2', 'BldgType', 'HouseStyle', 'RoofStyle', 'RoofMatl', 'MasVnrType', 'ExterQual', 'ExterCond', 'Foundation', 'BsmtQual', 'BsmtCond', 'BsmtExposure', 'BsmtFinType1', 'BsmtFinType2', 'Heating', 'HeatingQC', 'CentralAir', 'Electrical', 'KitchenQual', 'Functional', 'FireplaceQu', 'GarageType', 'GarageFinish', 'GarageQual', 'GarageCond', 'PavedDrive', 'PoolQC', 'Fence', 'MiscFeature', 'SaleType', 'SaleCondition']</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-serial"><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="2925a96d-5128-4e63-b8ec-80fd1e543a03" type="checkbox" ><label class="sk-toggleable__label" for="2925a96d-5128-4e63-b8ec-80fd1e543a03">SimpleImputer</label><div class="sk-toggleable__content"><pre>SimpleImputer(strategy='constant')</pre></div></div></div><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="904d02bf-c04c-4177-99fc-dc6edc1ef436" type="checkbox" ><label class="sk-toggleable__label" for="904d02bf-c04c-4177-99fc-dc6edc1ef436">OneHotEncoder</label><div class="sk-toggleable__content"><pre>OneHotEncoder(handle_unknown='ignore')</pre></div></div></div></div></div></div></div></div><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="5b748bbc-2ed6-452d-82db-9c63e4c51ce3" type="checkbox" ><label class="sk-toggleable__label" for="5b748bbc-2ed6-452d-82db-9c63e4c51ce3">high_card_cat_cols</label><div class="sk-toggleable__content"><pre>['Neighborhood', 'Exterior1st', 'Exterior2nd']</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-serial"><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="cac517e0-6e48-4772-ba45-4807cb8b71fb" type="checkbox" ><label class="sk-toggleable__label" for="cac517e0-6e48-4772-ba45-4807cb8b71fb">SimpleImputer</label><div class="sk-toggleable__content"><pre>SimpleImputer(strategy='constant')</pre></div></div></div><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="a91ac009-861a-454b-8a18-98a90673134f" type="checkbox" ><label class="sk-toggleable__label" for="a91ac009-861a-454b-8a18-98a90673134f">OneHotEncoder</label><div class="sk-toggleable__content"><pre>OneHotEncoder(handle_unknown='ignore')</pre></div></div></div></div></div></div></div></div></div></div><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="e1d5788c-f6e1-48a1-afe0-425377aefbb9" type="checkbox" ><label class="sk-toggleable__label" for="e1d5788c-f6e1-48a1-afe0-425377aefbb9">RandomForestRegressor</label><div class="sk-toggleable__content"><pre>RandomForestRegressor(n_jobs=-1, random_state=42)</pre></div></div></div></div></div></div></div>
+
+
+
+```
+# create train, valid split to evaulate model on valid dataset
+tmlt.dfl.create_train_valid(valid_size=0.2)
+
+start = time.time()
+# Now fit
+tmlt.spl.fit(tmlt.dfl.X_train, tmlt.dfl.y_train)
+end = time.time()
+print("Fit Time:", end - start)
+
+#predict
+preds = tmlt.spl.predict(tmlt.dfl.X_valid)
+print('X_valid MAE:', mean_absolute_error(tmlt.dfl.y_valid, preds))
+```
+
+    Fit Time: 1.1971819400787354
+    X_valid MAE: 17634.989965753426
+
+
+*You can also use MLPipeline with XGBoost model, Just make sure to install XGBooost first depending upon your OS.*
+
+*After that all steps remains same. Here is example using XGBRegressor with [Melbourne Home Sale price data](https://www.kaggle.com/estrotococo/home-data-for-ml-course)*
+
+```
+#!pip install -U xgboost
+```
+
+```
+from xgboost import XGBRegressor
+xgb_params = {
+    'n_estimators':250,
+    'learning_rate':0.05,
+    'random_state':42,
+    # for GPU
+#     'tree_method': 'gpu_hist',
+#     'predictor': 'gpu_predictor',
+}
+
+# create xgb model
+xgb_model = XGBRegressor(**xgb_params)
+```
+
+```
+# Update pipeline with xgb model
+tmlt.update_model(xgb_model)
+tmlt.spl
+```
+
+
+
+
+<style>#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 {color: black;background-color: white;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 pre{padding: 0;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-toggleable {background-color: white;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-estimator:hover {background-color: #d4ebff;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 2em;bottom: 0;left: 50%;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-item {z-index: 1;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-parallel::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 2em;bottom: 0;left: 50%;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-parallel-item {display: flex;flex-direction: column;position: relative;background-color: white;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-parallel-item:only-child::after {width: 0;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;position: relative;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-label label {font-family: monospace;font-weight: bold;background-color: white;display: inline-block;line-height: 1.2em;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-label-container {position: relative;z-index: 2;text-align: center;}#sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0 div.sk-container {display: inline-block;position: relative;}</style><div id="sk-36ce0c02-ad63-40ae-a375-21bd4f8065c0" class"sk-top-container"><div class="sk-container"><div class="sk-item sk-dashed-wrapped"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="3b6d2b43-8107-4605-ac1f-318453e6b68d" type="checkbox" ><label class="sk-toggleable__label" for="3b6d2b43-8107-4605-ac1f-318453e6b68d">Pipeline</label><div class="sk-toggleable__content"><pre>Pipeline(steps=[('preprocessor',
+                 ColumnTransformer(transformers=[('num_cols',
+                                                  Pipeline(steps=[('imputer',
+                                                                   SimpleImputer(strategy='median')),
+                                                                  ('scaler',
+                                                                   StandardScaler())]),
+                                                  ['MSSubClass', 'LotFrontage',
+                                                   'LotArea', 'OverallQual',
+                                                   'OverallCond', 'YearBuilt',
+                                                   'YearRemodAdd', 'MasVnrArea',
+                                                   'BsmtFinSF1', 'BsmtFinSF2',
+                                                   'BsmtUnfSF', 'TotalBsmtSF',
+                                                   '1stFlrSF', '2ndFlrSF',
+                                                   'Lo...
+                              interaction_constraints=None, learning_rate=0.05,
+                              max_delta_step=None, max_depth=None,
+                              min_child_weight=None, missing=nan,
+                              monotone_constraints=None, n_estimators=250,
+                              n_jobs=None, num_parallel_tree=None,
+                              predictor=None, random_state=42, reg_alpha=None,
+                              reg_lambda=None, scale_pos_weight=None,
+                              subsample=None, tree_method=None,
+                              validate_parameters=None, verbosity=None))])</pre></div></div></div><div class="sk-serial"><div class="sk-item sk-dashed-wrapped"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="7a407495-ea47-42e5-84a5-5cc769810829" type="checkbox" ><label class="sk-toggleable__label" for="7a407495-ea47-42e5-84a5-5cc769810829">preprocessor: ColumnTransformer</label><div class="sk-toggleable__content"><pre>ColumnTransformer(transformers=[('num_cols',
+                                 Pipeline(steps=[('imputer',
+                                                  SimpleImputer(strategy='median')),
+                                                 ('scaler', StandardScaler())]),
+                                 ['MSSubClass', 'LotFrontage', 'LotArea',
+                                  'OverallQual', 'OverallCond', 'YearBuilt',
+                                  'YearRemodAdd', 'MasVnrArea', 'BsmtFinSF1',
+                                  'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF',
+                                  '1stFlrSF', '2ndFlrSF', 'LowQualFinSF',
+                                  'GrLivArea', 'BsmtFul...
+                                  'ExterCond', 'Foundation', 'BsmtQual',
+                                  'BsmtCond', 'BsmtExposure', 'BsmtFinType1',
+                                  'BsmtFinType2', 'Heating', 'HeatingQC',
+                                  'CentralAir', 'Electrical', 'KitchenQual',
+                                  'Functional', 'FireplaceQu', ...]),
+                                ('high_card_cat_cols',
+                                 Pipeline(steps=[('imputer',
+                                                  SimpleImputer(strategy='constant')),
+                                                 ('onehot',
+                                                  OneHotEncoder(handle_unknown='ignore'))]),
+                                 ['Neighborhood', 'Exterior1st',
+                                  'Exterior2nd'])])</pre></div></div></div><div class="sk-parallel"><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="ca3ee65a-5088-47dc-899e-6403c9fd8dbc" type="checkbox" ><label class="sk-toggleable__label" for="ca3ee65a-5088-47dc-899e-6403c9fd8dbc">num_cols</label><div class="sk-toggleable__content"><pre>['MSSubClass', 'LotFrontage', 'LotArea', 'OverallQual', 'OverallCond', 'YearBuilt', 'YearRemodAdd', 'MasVnrArea', 'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF', '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'BsmtFullBath', 'BsmtHalfBath', 'FullBath', 'HalfBath', 'BedroomAbvGr', 'KitchenAbvGr', 'TotRmsAbvGrd', 'Fireplaces', 'GarageYrBlt', 'GarageCars', 'GarageArea', 'WoodDeckSF', 'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea', 'MiscVal', 'MoSold', 'YrSold']</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-serial"><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="0a0e44df-b2cf-43aa-9e31-383064a41ebc" type="checkbox" ><label class="sk-toggleable__label" for="0a0e44df-b2cf-43aa-9e31-383064a41ebc">SimpleImputer</label><div class="sk-toggleable__content"><pre>SimpleImputer(strategy='median')</pre></div></div></div><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="1d42aedc-40ed-41bd-a823-6adcacaaa737" type="checkbox" ><label class="sk-toggleable__label" for="1d42aedc-40ed-41bd-a823-6adcacaaa737">StandardScaler</label><div class="sk-toggleable__content"><pre>StandardScaler()</pre></div></div></div></div></div></div></div></div><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="318976f9-ea95-4489-b055-cb35cef030e3" type="checkbox" ><label class="sk-toggleable__label" for="318976f9-ea95-4489-b055-cb35cef030e3">low_card_cat_cols</label><div class="sk-toggleable__content"><pre>['MSZoning', 'Street', 'Alley', 'LotShape', 'LandContour', 'Utilities', 'LotConfig', 'LandSlope', 'Condition1', 'Condition2', 'BldgType', 'HouseStyle', 'RoofStyle', 'RoofMatl', 'MasVnrType', 'ExterQual', 'ExterCond', 'Foundation', 'BsmtQual', 'BsmtCond', 'BsmtExposure', 'BsmtFinType1', 'BsmtFinType2', 'Heating', 'HeatingQC', 'CentralAir', 'Electrical', 'KitchenQual', 'Functional', 'FireplaceQu', 'GarageType', 'GarageFinish', 'GarageQual', 'GarageCond', 'PavedDrive', 'PoolQC', 'Fence', 'MiscFeature', 'SaleType', 'SaleCondition']</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-serial"><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="4af217f8-8fe2-432e-88f3-c1b42caf671e" type="checkbox" ><label class="sk-toggleable__label" for="4af217f8-8fe2-432e-88f3-c1b42caf671e">SimpleImputer</label><div class="sk-toggleable__content"><pre>SimpleImputer(strategy='constant')</pre></div></div></div><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="6894d7ff-d692-40d1-b66d-47d7642de05b" type="checkbox" ><label class="sk-toggleable__label" for="6894d7ff-d692-40d1-b66d-47d7642de05b">OneHotEncoder</label><div class="sk-toggleable__content"><pre>OneHotEncoder(handle_unknown='ignore')</pre></div></div></div></div></div></div></div></div><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="d738bb74-fecd-4dbc-90c2-795e8af3e503" type="checkbox" ><label class="sk-toggleable__label" for="d738bb74-fecd-4dbc-90c2-795e8af3e503">high_card_cat_cols</label><div class="sk-toggleable__content"><pre>['Neighborhood', 'Exterior1st', 'Exterior2nd']</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-serial"><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="15d01d9b-94de-4302-b161-20a68dfa6c49" type="checkbox" ><label class="sk-toggleable__label" for="15d01d9b-94de-4302-b161-20a68dfa6c49">SimpleImputer</label><div class="sk-toggleable__content"><pre>SimpleImputer(strategy='constant')</pre></div></div></div><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="adc4f473-d90c-4d91-b252-973007904b77" type="checkbox" ><label class="sk-toggleable__label" for="adc4f473-d90c-4d91-b252-973007904b77">OneHotEncoder</label><div class="sk-toggleable__content"><pre>OneHotEncoder(handle_unknown='ignore')</pre></div></div></div></div></div></div></div></div></div></div><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="d8615f98-14d6-465b-a8a5-96e87a175967" type="checkbox" ><label class="sk-toggleable__label" for="d8615f98-14d6-465b-a8a5-96e87a175967">XGBRegressor</label><div class="sk-toggleable__content"><pre>XGBRegressor(base_score=None, booster=None, colsample_bylevel=None,
+             colsample_bynode=None, colsample_bytree=None,
+             enable_categorical=False, gamma=None, gpu_id=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=0.05, max_delta_step=None, max_depth=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=250, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=42, reg_alpha=None, reg_lambda=None,
+             scale_pos_weight=None, subsample=None, tree_method=None,
+             validate_parameters=None, verbosity=None)</pre></div></div></div></div></div></div></div>
+
+
+
+```
+# create train, valid split to evaulate model on valid dataset
+tmlt.dfl.create_train_valid(valid_size=0.2)
+
+start = time.time()
+# Now fit
+tmlt.spl.fit(tmlt.dfl.X_train, tmlt.dfl.y_train)
+end = time.time()
+print("Fit Time:", end - start)
+
+#predict
+preds = tmlt.spl.predict(tmlt.dfl.X_valid)
+print('X_valid MAE:', mean_absolute_error(tmlt.dfl.y_valid, preds))
+```
+
+    Fit Time: 1.0477478504180908
+    X_valid MAE: 15851.009123501712
+
+
+In background `prepare_data_for_training` method loads your input data into Pandas DataFrame, seprates X(features) and y(target), Then it preprocess all numerical and categorical type data found in these DataFrames. Then it bundle preprocessed data with your given model and return an MLPipeline object which contains dataframeloader, preprocessor and scikit-learn pipeline.
+
+`create_train_valid` methods split X(features) into X_train, y_train, X_valid, y_valid DataFrames.
+
+so you can call scikit-learn pipeline fit method on X_train and y_train and predict on X_valid or X_test.
+
+Here is detail documentation and source code.
+
+If you want to customize data and preprocessing steps you can do so by using `DataFrameLoader` and `PreProessor` classes. Please Check other Tutorials and detail documentations for these classes for more options. 
+
+
