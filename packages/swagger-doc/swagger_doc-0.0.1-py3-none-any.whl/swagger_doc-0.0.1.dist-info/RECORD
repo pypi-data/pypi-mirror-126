@@ -1,0 +1,16 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/complex.py,sha256=W1eDoeZJO248_I6aI1LPcAboEMx9Cj-jTXqcRO5pZZw,1217
+examples/models.py,sha256=BPH3iTI0s7WbCDQrmZkcZQ0BnkKNkkD0kl0fJMCeJCA,1226
+examples/sample.py,sha256=RUIWFw4ylCNNGteKTglqdgggSVTLSUibi1GqAF-06f0,987
+examples/security.py,sha256=288Itv9rvLgG5i78rzl7JlBGLo_ZVFUscNCwGKCbC9Q,1044
+swagger_doc/__init__.py,sha256=QnJIzDBM5hcABq-kCWTeITa-s1Gj4RCL46-3U9d_WWM,4596
+swagger_doc/builders.py,sha256=Xyqq4qelO0xFRkQ9Yl4JezDG8NmUuiBBfxQ7m9BERKY,4718
+swagger_doc/handlers.py,sha256=vb6vyTykVoI7mZ1oK7aHP9oPhaDCkGkp48qc_BwT6OM,1860
+swagger_doc/models.py,sha256=P6LJ-l3XnARqW46UtIikLRHcPQDo0gwIzglZ4kbQlAc,9962
+swagger_doc/swagger_ui/ui.jinja2,sha256=kfDCS8XADtjOawlYtH0cy_KIx9u6zby96CE6LPVBURM,2169
+swagger_doc/templates/swagger.yaml,sha256=A5DNokEGecb50mfaK-B_Ri9oI_opHCoad3Pd8-Mfisk,636
+swagger_doc-0.0.1.dist-info/LICENSE,sha256=yVuuHRzgI17MzTVgt3LsHvuX80innw--CmNPDCzO_iw,11358
+swagger_doc-0.0.1.dist-info/METADATA,sha256=ZIYbch2Q1xe7iKikCyOoaZ49JRavqUf-2c-cwpnxhs8,770
+swagger_doc-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+swagger_doc-0.0.1.dist-info/top_level.txt,sha256=mm2sz4AMxVrT_TauyBGNHPaZBBJMT1LxLACOB8lt7Dc,21
+swagger_doc-0.0.1.dist-info/RECORD,,
