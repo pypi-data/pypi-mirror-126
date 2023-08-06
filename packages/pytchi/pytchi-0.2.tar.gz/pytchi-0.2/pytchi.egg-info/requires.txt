@@ -1,0 +1,4 @@
+pycairo
+python-slugify
+pytube
+opencv-python-headless

@@ -1,0 +1,12 @@
+README.md
+setup.py
+pytchi/__init__.py
+pytchi/pytchi.py
+pytchi.egg-info/PKG-INFO
+pytchi.egg-info/SOURCES.txt
+pytchi.egg-info/dependency_links.txt
+pytchi.egg-info/requires.txt
+pytchi.egg-info/top_level.txt
+pytchi/lib/__init__.py
+pytchi/lib/imgcc.py
+pytchi/lib/ytdown.py
