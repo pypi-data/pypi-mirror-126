@@ -1,0 +1,1 @@
+Installing this package will allow you to utilize cloud storage as registers and emulate human response time.
