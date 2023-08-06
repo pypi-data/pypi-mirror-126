@@ -1,0 +1,3 @@
+[console_scripts]
+lab = labsync.main:cli_main
+

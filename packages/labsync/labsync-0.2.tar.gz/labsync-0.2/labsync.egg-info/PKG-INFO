@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: labsync
+Version: 0.2
+Summary: Toolkit for synchronizing works with remote servers
+Home-page: UNKNOWN
+Author: Zhouxing Shi
+Author-email: zhouxingshichn@gmail.com
+License: GNU GPL v3
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
