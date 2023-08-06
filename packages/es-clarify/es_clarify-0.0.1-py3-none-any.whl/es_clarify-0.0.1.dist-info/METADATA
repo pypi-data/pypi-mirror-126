@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: es-clarify
+Version: 0.0.1
+Summary: index clarify in elasticsearch before use.
+Home-page: https://github.com/kotsutsumi/es-clarify
+Author: Kazuhiro Kotsutsumi
+License: The MIT License
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: elasticsearch
+Requires-Dist: pytest-with-docker
+Requires-Dist: pytest
+
+UNKNOWN
+
