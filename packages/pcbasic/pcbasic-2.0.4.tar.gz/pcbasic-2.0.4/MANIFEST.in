@@ -1,0 +1,11 @@
+include *.md
+include *.txt
+include doc/*.html
+include pcbasic/lib/README.md
+graft pcbasic/data/
+graft pcbasic/basic/data/
+exclude distribute.py
+prune test/
+prune packaging/
+prune docsrc/
+prune fontsrc/
