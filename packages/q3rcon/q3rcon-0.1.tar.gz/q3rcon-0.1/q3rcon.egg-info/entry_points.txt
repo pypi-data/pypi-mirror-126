@@ -1,0 +1,5 @@
+[console_scripts]
+q3rcon = q3rcon.q3rcon_cli:main
+q3rcon-cli = q3rcon.q3rcon_cli:main
+q3rcon-web = q3rcon.q3rcon_web:main
+
