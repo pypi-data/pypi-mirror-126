@@ -1,0 +1,9 @@
+argparse
+pylems>=0.5.7
+airspeed>=0.5.5
+neuromllite>=0.3.8
+matplotlib
+graphviz
+
+[:python_version < "3.5"]
+typing
