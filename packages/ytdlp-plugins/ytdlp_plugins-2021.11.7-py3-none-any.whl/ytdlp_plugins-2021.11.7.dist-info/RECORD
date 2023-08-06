@@ -1,0 +1,12 @@
+ytdlp_plugins/__init__.py,sha256=fBokRNEoRECgDyemQsOr1UJFfExyUkaTp1IxxO6l61M,8670
+ytdlp_plugins/__main__.py,sha256=kt99_hzLEZwiomgC51hDW-X6rrG4RT7UXjDJP3BPpOA,124
+ytdlp_plugins/_helper.py,sha256=hkv1EmxMUZHk-q4PMCRbHc4u4IP-DqNUAqUU0efx50U,11576
+ytdlp_plugins/parameters.json,sha256=EoE7BCb_ZN9NI6O4SPj0pt6GgXiAmJAJ3-oGaxDpiZ8,1279
+ytdlp_plugins/test_download.py,sha256=OqCNIaeHGrSA3Re233cAHMfd9MXUlmKMHKQ4coic42Y,12002
+ytdlp_plugins/utils.py,sha256=tT6dKVERvnabMk9Ab7_udDbXXDpfEgj8Z65jv1JwAPg,354
+ytdlp_plugins-2021.11.7.dist-info/LICENSE,sha256=ZAUUFjsX-XetyZfLFvUYcRIs-wVV660aPwHhZ7e6iFc,1235
+ytdlp_plugins-2021.11.7.dist-info/METADATA,sha256=F3lmUJ8kr3WAaoV6ujvVqJXh_ErKDNEJm8YbHsinVvk,3750
+ytdlp_plugins-2021.11.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ytdlp_plugins-2021.11.7.dist-info/entry_points.txt,sha256=UgwmEyuMsc0l1lf8zuEObxxQSLfVr515iCh2Jtx1-Ts,54
+ytdlp_plugins-2021.11.7.dist-info/top_level.txt,sha256=_0kGqUQql5dCoZhi_2pep-8Kcx-ODuL8vl26FKsHPns,14
+ytdlp_plugins-2021.11.7.dist-info/RECORD,,
