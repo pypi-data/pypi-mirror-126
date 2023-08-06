@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/sheepeditor.egg-info/PKG-INFO
+src/sheepeditor.egg-info/SOURCES.txt
+src/sheepeditor.egg-info/dependency_links.txt
+src/sheepeditor.egg-info/entry_points.txt
+src/sheepeditor.egg-info/top_level.txt
+src/soe/__init__.py
+src/soe/main.py
