@@ -1,0 +1,1 @@
+Use json pymongo with a bit of sugar.
