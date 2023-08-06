@@ -1,0 +1,1 @@
+napari_pdf_reader
