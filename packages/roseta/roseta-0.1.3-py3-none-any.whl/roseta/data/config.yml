@@ -1,0 +1,42 @@
+cn_unit_check_dict:
+  height:
+    - 厘米
+    - 米
+    - cm
+    - m
+  weight:
+    - 斤
+    - 公斤
+    - 克
+    - 千克
+    - g
+    - kg
+  city:
+    - 市
+    - 省
+  foot:
+    - 尺
+    - 寸
+
+std_unit_check_dict:
+  # 第一位为默认
+  height:
+    - cm
+    - m
+  weight:
+    - kg
+    - g
+  city:
+    - 市
+    - 省
+  foot:
+    - cm
+    - m
+
+spacial_dict:
+  几: 五
+  多: 二
+
+cn_num_unit_list: 零一壹幺二贰两三叁仨四肆五伍六陆七柒八捌九玖十拾百佰千仟万亿点负
+cn_num_list: 零一壹幺二贰两三叁仨四肆五伍六陆七柒八捌九玖点
+an_num_list: "0123456789."
