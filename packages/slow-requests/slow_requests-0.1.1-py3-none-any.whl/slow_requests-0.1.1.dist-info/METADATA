@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: slow-requests
+Version: 0.1.1
+Summary: Many APIs will throttle and potentially ban users for hitting their endpoints to fast or often. Don't get yourself throttled or banned, slow your requests down.
+Author: Logan
+Author-email: 10239411+Loag@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
