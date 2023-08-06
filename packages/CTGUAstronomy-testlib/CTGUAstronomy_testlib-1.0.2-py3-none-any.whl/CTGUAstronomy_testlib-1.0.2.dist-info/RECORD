@@ -1,0 +1,11 @@
+read_fits.py,sha256=laXxtKao1-WHQgYVtSvVxCjkU5y1_05F59SZyXwNy20,11530
+package/MLS.py,sha256=6HX0YqSvqRLSbQn8TAJqt5XNfKJTSoaod3kA_IlSWQY,6918
+package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/extremum.py,sha256=DnHbeo8ZmbxeBdQhMVoLyJUuawWAUnC0Su9mA7ZNHKY,5729
+package/ikernal23.py,sha256=iW6bGLLS8LLAk7xa0ULz1wTPBJDtNUFAKWkwMpEyvv0,7298
+package/make_3dpicture.py,sha256=sHtea4-j6d1nZKOhUI6EAMZkKBa9yUYB87flWTtoksg,3943
+package/making_plot_contour.py,sha256=seTGPH7oDoyCX5OdeM6_LeO6bWfT8DdiOzZIJ1ADMvI,1302
+CTGUAstronomy_testlib-1.0.2.dist-info/METADATA,sha256=s8Ws_IiO0ps0IM7wNRjE8vKpG26bVgtYdD56z5GkPdo,362
+CTGUAstronomy_testlib-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+CTGUAstronomy_testlib-1.0.2.dist-info/top_level.txt,sha256=KnngS9bN2ft2Rz6ABA8SYx71McgqOgIKi__6ZlvBtyc,18
+CTGUAstronomy_testlib-1.0.2.dist-info/RECORD,,
