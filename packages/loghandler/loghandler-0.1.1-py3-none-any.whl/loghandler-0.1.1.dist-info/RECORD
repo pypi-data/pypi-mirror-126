@@ -1,0 +1,12 @@
+loghandler/__init__.py,sha256=D3RGbuVmgs8rBqA4hjTO6AV3FvGsvqtPazwdFJ-ANH0,38
+loghandler/app.py,sha256=88P13zhPkpKwWKukcj8Pm4FR1Qf1anv35pTOqiMa2hI,1594
+loghandler/test.py,sha256=-z2EyDGBMjtHtqbVvmffich-1YPutTS7XOzxn0d25UQ,216
+loghandler/core/__init__.py,sha256=qChpvuIanjAAbhvAcjf5f4_6toplQjVMgWWO94MRakg,31
+loghandler/core/helpers.py,sha256=wshpz2SX0qn5rop6JdiNQtwHz2uAgfsuzh8qnVb1jlg,1005
+loghandler/modules/__init__.py,sha256=LZvnm6M1R1RikIq0PG6Hx4ci3Ey4JAJtWB2QHb5tfQg,33
+loghandler/modules/stdout.py,sha256=eGvWwJBLCGsHQtkxSp5dnoQzMU2HgGBY1apHfQ4giT8,1093
+loghandler-0.1.1.dist-info/LICENSE,sha256=TYorYBHWHs-GUo00MBrp8JciYiCB2TvWDw6L_bSdClQ,1075
+loghandler-0.1.1.dist-info/METADATA,sha256=iNnaVdeE5LmbIL3A4Bzk7p05j4Nn8rZfIV2n6Lu986w,1018
+loghandler-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+loghandler-0.1.1.dist-info/top_level.txt,sha256=_qezDzWEUJG3jswyOHCEoTRkJGiPLKBoSSFZtfGB7hY,11
+loghandler-0.1.1.dist-info/RECORD,,
