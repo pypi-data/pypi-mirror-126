@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: nytxw-puz-cli
+Version: 1.0.0
+Summary: CLI tool to convert NY Times crosswords into Across Lite files (.puz)
+Home-page: https://github.com/GodTamIt/nytxw_puz_cli
+License: BSD-2-Clause
+Author: Chris Tam
+Author-email: ohgodtamit@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colorlog (>=6.6.0,<7.0.0)
+Requires-Dist: pendulum (>=2.1.2,<3.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/GodTamIt/nytxw_puz_cli
+Description-Content-Type: text/markdown
+
+# NY Times Crossword to Puz
+
+CLI tool to convert NY Times crosswords into Across Lite files (.puz).
+
+This is a fork of [nytxw_puz](https://github.com/Q726kbXuN/nytxw_puz) with some major differences:
+
+  * No browser installations are required. Authentication is performed by the program itself.
+  * Targeted for headless deployments and thus is non-interactive.
+  * Supports batch downloading with rate limiting and timeout.
+
+## Usage
+
+```bash
+pip install nytxw_puz_cli
+nytxw_puz --help
+```
+
+### Credentials
+
+The program expects a JSON credentials file to be passed via the `--credentials` flag. The expected format of the JSON is simple and as follows:
+
+```json
+{"email": "user@domain.com", "password": "my-password"}
+```
+
+### Example Using Flags
+
+A simple example downloading a single crossword:
+
+```bash
+nytxw_puz --credentials my-creds.creds --urls https://www.nytimes.com/crosswords/game/daily/2020/12/31 --filenames ~/puzzles/2020/12/31.puz
+```
+
+### Example Using stdin
+
+A full example of a run using cookie import/export and input of `URL,FILENAME` entries named `tasks.csv` via stdin:
+
+```bash
+nytxw_puz --credentials my-creds.creds --import-cookies mycookies.cookies --export-cookies mycookies.cookies -v < tasks.csv
+```
+
+### `nytxw_gen`
+
+`nytxw_gen` is a small tool to help generate date ranges of crossword puzzles in CSV format to pass into `nytxw_puz`. For example:
+
+```bash
+nytxw_gen --start 2012-07-18 --end 2014-12-31 --path-format "~/puzzles/<year>/<month>/<day>.puz" > puzzles-to-download.csv 
+```
+
+
+## Development
+
+### Getting Started
+
+This repository uses [poetry](https://python-poetry.org/) to manage dependencies and environments. To get started quickly, run:
+
+```bash
+cd nytxw_puz_cli
+poetry install
+```
+
+### Code Style
+
+For Python, the repository uses the default settings of the [**Black code formatter**](https://black.readthedocs.io/).
+
+Conformance can be enforced by using `black` as follows:
+
+```bash
+black <file-name>
+```
+
