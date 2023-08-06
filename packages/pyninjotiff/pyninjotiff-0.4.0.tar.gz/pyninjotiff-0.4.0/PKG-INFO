@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyninjotiff
+Version: 0.4.0
+Summary: Python Ninjo TIFF writing library
+License: GPLv3
+Author: Martin Raspaud
+Author-email: martin.raspaud@smhi.se
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: dask[array] (>=2021.9.1,<2022.0.0)
+Requires-Dist: numpy (>=1.6)
+Requires-Dist: pyproj (>=3.2.1,<4.0.0)
+Requires-Dist: pyresample (>=1.21.1,<2.0.0)
+Requires-Dist: trollimage (>=1.15.1,<2.0.0)
+Requires-Dist: xarray (>=0.19.0,<0.20.0)
