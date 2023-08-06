@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tqdm_logger.py
+tqdm_logger.egg-info/PKG-INFO
+tqdm_logger.egg-info/SOURCES.txt
+tqdm_logger.egg-info/dependency_links.txt
+tqdm_logger.egg-info/top_level.txt
