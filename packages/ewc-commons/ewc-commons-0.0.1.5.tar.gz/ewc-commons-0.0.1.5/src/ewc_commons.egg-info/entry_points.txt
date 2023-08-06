@@ -1,0 +1,3 @@
+[console_scripts]
+ewccommons = ewccommons.__main__:main
+
