@@ -1,0 +1,12 @@
+aio-pika~=6.8
+aioredis~=2.0
+coloredlogs~=15.0
+fastapi~=0.68
+phonenumbers~=8.12
+pydantic[dotenv]~=1.8
+pyjwt[crypto]~=2.3
+sendgrid~=6.9
+sqlalchemy[mysql,mysql_connector]~=1.4.25
+strawberry-graphql[debug-server]~=0.78
+twilio~=7.3
+uvicorn[standard]~=0.15
