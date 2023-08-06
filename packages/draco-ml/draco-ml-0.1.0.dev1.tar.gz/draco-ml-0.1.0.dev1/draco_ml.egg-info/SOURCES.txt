@@ -1,0 +1,12 @@
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+draco_ml.egg-info/PKG-INFO
+draco_ml.egg-info/SOURCES.txt
+draco_ml.egg-info/dependency_links.txt
+draco_ml.egg-info/not-zip-safe
+draco_ml.egg-info/requires.txt
+draco_ml.egg-info/top_level.txt
