@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: oct_to_tiff
+Version: 0.1.0
+Summary: A command line tool for converting optical coherence tomography angiography (OCTA) data.
+Home-page: https://github.com/camlloyd/oct-to-tiff
+Author: Cameron Lloyd
+Author-email: lloyd@med.unideb.hu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/camlloyd/oct-to-tiff/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# oct-to-tiff
+
+A command line tool for converting optical coherence tomography angiography (OCTA) data.
+
+## Installation
+    pip install oct-to-tiff
+
+## Getting Started
+    oct-to-tiff /path/to/image.OCT
+    
+will read an OCT volume and write to a single OME-TIFF file, including voxel size in the metadata.
+
+For more options, run `oct-to-tiff --help`.
+    
+## Supported scan patterns
+
+This tool has been developed for use with data from the Optovue RTVue XR Avanti System.
+
+Due to limited test data, only the following scan patterns are currently supported:
+
+### OCT
+- 3D Cornea
+- 3D Disc
+- 3D Retina
+- 3D Widefield
+- 3D Widefield MCT
+- Angle
+- Cornea Cross Line
+- Cornea Line
+- Cross Line
+- Enhanced HD Line
+- GCC
+- Grid
+- Line
+- Pachymetry Wide
+- Radial Lines
+- Raster
+
+### OCTA
+- Angio Disc
+- Angio Retina
+- HD Angio Disc
+- HD Angio Retina
+
+## Requirements
+
+Requires Python 3.7 or higher.
+
