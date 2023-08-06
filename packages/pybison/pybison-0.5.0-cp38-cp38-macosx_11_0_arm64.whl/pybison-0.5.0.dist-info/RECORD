@@ -1,0 +1,11 @@
+bison/__init__.py,sha256=7LJUjFX6dMohfsNmzHwzDlsgJwuP23_1AZZJjBDZmKU,17053
+bison/bison_.cpython-38-darwin.so,sha256=PIIkuGBZ7qTsOKYlXst1sLlE58VYs14jrpRKIBGte5U,331880
+bison/convert.py,sha256=u74JSnfiJ106I1UnINgupTsXIoiYDGZNpdH8hVjckhg,13993
+bison/node.py,sha256=LbZMv1ajtKNiHYMbGmftOpsTz1N_P72-kCg3Rzuuujw,5505
+bison/xmlifier.py,sha256=Zq9-JwNNNB3Bv6hefreSvy-kWcbq3OHMg1rsv5Oi_8U,4667
+pybison-0.5.0.data/scripts/bison2py,sha256=U_LOHTHPf-hlopSVfuGvB_OgRgLpP7HmAFj0s_KLXog,1662
+pybison-0.5.0.dist-info/LICENSE,sha256=lcGc20L1nz576Pu110tTxnIbM0yski33IFJF30mqm-8,18010
+pybison-0.5.0.dist-info/METADATA,sha256=tXNiBhYThIJAURP_Jfz8VkphpSrNsMYrVZbXn3tLsm4,4348
+pybison-0.5.0.dist-info/WHEEL,sha256=R_7e6VZsinL_ocUATcHjIkRbt2_KuTdRyQ1BvUtkws4,108
+pybison-0.5.0.dist-info/top_level.txt,sha256=t4MksXhU5XH_XZ-pr1Ib-tJ8O9xT0T1eq0JHHKKKxyk,16
+pybison-0.5.0.dist-info/RECORD,,
