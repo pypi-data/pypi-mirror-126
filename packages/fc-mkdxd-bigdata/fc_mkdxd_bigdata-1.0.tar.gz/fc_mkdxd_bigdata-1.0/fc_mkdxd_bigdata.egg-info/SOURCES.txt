@@ -1,0 +1,6 @@
+fc_mkdpy_bigdata.py
+setup.py
+fc_mkdxd_bigdata.egg-info/PKG-INFO
+fc_mkdxd_bigdata.egg-info/SOURCES.txt
+fc_mkdxd_bigdata.egg-info/dependency_links.txt
+fc_mkdxd_bigdata.egg-info/top_level.txt
