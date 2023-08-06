@@ -1,0 +1,9 @@
+plugin_sdk_automation/__init__.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+plugin_sdk_automation/main.py,sha256=8UNUyfPYEwhPe9anjE-MTMQcJK39rOEAJ59WLmKo6kA,1043
+plugin_sdk_automation/handlers/__init__.py,sha256=XuszEmDwrAVV7cgicYocoaSG1r_CLAXhrQNig9TJzNc,42
+plugin_sdk_automation/handlers/docker_handler.py,sha256=sh2U8yQU2eSQU6A8ai9ARiftS-GVUGTu3HS9I8KXqy8,2198
+plugin_sdk_automation-1.1.0.dist-info/METADATA,sha256=Ia1TBMj2CpmN8uBSUlGrPvf3zYY02liVVEZV8YvW2Sc,1392
+plugin_sdk_automation-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+plugin_sdk_automation-1.1.0.dist-info/entry_points.txt,sha256=78xixIOSS1nQH1Ce3Rb1yRA8cP4px64c_tWwIjgC5ws,113
+plugin_sdk_automation-1.1.0.dist-info/top_level.txt,sha256=oJsIv5RekCYXIdye57cBYBtZEP7oR4fQgSo4PZHag3c,22
+plugin_sdk_automation-1.1.0.dist-info/RECORD,,
