@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyLaCroix/__init__.py
+pyLaCroix/_pyLaCroix_module.py
+pyLaCroix.egg-info/PKG-INFO
+pyLaCroix.egg-info/SOURCES.txt
+pyLaCroix.egg-info/dependency_links.txt
+pyLaCroix.egg-info/requires.txt
+pyLaCroix.egg-info/top_level.txt
