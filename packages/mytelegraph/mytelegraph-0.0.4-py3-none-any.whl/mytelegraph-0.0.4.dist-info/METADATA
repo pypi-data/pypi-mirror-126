@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mytelegraph
+Version: 0.0.4
+Summary: a tiny helper for posting to a Telegra.ph page.
+Home-page: https://github.com/aN4ksaL4y/mytelegraph
+Author: Cingkariak Sawah
+Author-email: fajrim228@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: icecream
+Requires-Dist: requests
+
+<h3 align="center">My Telegraph <p>A Tiny Telegraph Helper, helps to posting micro article.</p></h3>
+
+
+
