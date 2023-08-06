@@ -1,0 +1,8 @@
+opensearch_logger/__init__.py,sha256=Jzb_RfgvXCrm_SQ4AfeGVi1N36YybxnM5mpyxrnihgI,33
+opensearch_logger/handlers.py,sha256=TF_kUrrzbDTb6S_nkdjdpcahDJ4jDMJ_O2kSr_hK4oY,11182
+opensearch_logger/serializers.py,sha256=4ayw9RE1hzQoYdDWa5WNddISzE_qBA0FzMd7X2ouPJk,710
+opensearch_logger/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+opensearch_logger-0.1.0.dist-info/LICENSE.md,sha256=Px-k0Kj-L7TRK7HepryjkfSr4rChdhVHzqtesJd2LGs,697
+opensearch_logger-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+opensearch_logger-0.1.0.dist-info/METADATA,sha256=b6WNVM7WvaDlzDUGl6gHwa2NxJUX2iZ427BShJt5F5E,9119
+opensearch_logger-0.1.0.dist-info/RECORD,,
