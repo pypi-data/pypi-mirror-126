@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: list-tools
+Version: 0.0.1
+Summary: various list helpers. only chunking, atm
+Home-page: https://github.com/kosovojs/list_tools
+Author: Edgars Košovojs
+Author-email: kosovojs@gmail.com
+License: MIT
+Description: # List tools
+        
+        Various helpers for lists.
+        
+        ## Requirements
+        * **Python**: >=3.5
+        
+        ## Installation
+        ```sh
+        python -m pip install list_tools
+        ```
+        
+        ## Current functions
+        ### `chunk`
+        Split list into chunks by size you provide.
+        
+        Example:
+        ```python
+        from list_tools import chunk
+        
+        items = ['foo', 'bar', 'baz']
+        
+        for part in chunk(items, 2):
+        	print(part)
+        	# ['foo', 'bar'] <- first iteration
+        	# ['baz']        <- second iteration
+        ```
+        
+Keywords: lists,split,chunk,helpers
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
