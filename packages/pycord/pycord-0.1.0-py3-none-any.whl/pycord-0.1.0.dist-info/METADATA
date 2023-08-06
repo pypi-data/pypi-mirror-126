@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pycord
+Version: 0.1.0
+Summary: Convenient wrapper on FFmpeg
+Home-page: https://github.com/alesanfra/pycord
+Author: Alessio Sanfratello
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: ffmpeg-python (>=0.2.0)
+Requires-Dist: imageio-ffmpeg (>=0.4.2)
+Requires-Dist: numpy
+
+UNKNOWN
+
