@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+arima_model_selection/__init__.py
+arima_model_selection.egg-info/PKG-INFO
+arima_model_selection.egg-info/SOURCES.txt
+arima_model_selection.egg-info/dependency_links.txt
+arima_model_selection.egg-info/requires.txt
+arima_model_selection.egg-info/top_level.txt

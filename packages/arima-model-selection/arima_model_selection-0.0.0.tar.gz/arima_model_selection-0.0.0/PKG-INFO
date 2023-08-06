@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: arima_model_selection
+Version: 0.0.0
+Summary: AUTOCALCULATE P,q,R
+Home-page: UNKNOWN
+Author: MAINAK RAY
+Author-email: mainakr748@gmail.com
+License: MIT
+Description: this module is used to find out best parameters of ARIMA based  on initial guess.
+        
+        Change Log
+        ==========
+        
+        0.0.0(11/06/2021)
+        -------------------
+        - 1st Release
+Keywords: ARIMA
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
