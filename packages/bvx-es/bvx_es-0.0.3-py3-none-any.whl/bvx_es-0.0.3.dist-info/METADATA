@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bvx-es
+Version: 0.0.3
+Summary: elasticsearch base class.
+Home-page: https://github.com/kotsutsumi/bvx-es
+Author: Kazuhiro Kotsutsumi
+License: The MIT License
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: bvx-env
+
+UNKNOWN
+
