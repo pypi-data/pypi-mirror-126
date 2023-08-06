@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+C:/xavierdupre/__home_/GitHub/td3a_cpp_deep/td3a_cpp_deep/__init__.py
+C:/xavierdupre/__home_/GitHub/td3a_cpp_deep/td3a_cpp_deep/__main__.py
+C:/xavierdupre/__home_/GitHub/td3a_cpp_deep/td3a_cpp_deep/fcts/__init__.py
+C:/xavierdupre/__home_/GitHub/td3a_cpp_deep/td3a_cpp_deep/fcts/piecewise_linear.py
+C:/xavierdupre/__home_/GitHub/td3a_cpp_deep/td3a_cpp_deep/fcts/piecewise_linear_c.cpp
+td3a_cpp_deep.egg-info/PKG-INFO
+td3a_cpp_deep.egg-info/SOURCES.txt
+td3a_cpp_deep.egg-info/dependency_links.txt
+td3a_cpp_deep.egg-info/requires.txt
+td3a_cpp_deep.egg-info/top_level.txt
+td3a_cpp_deep/fcts/piecewise_linear_c.cpp
+td3a_cpp_deep/fcts/piecewise_linear_c.cpp
