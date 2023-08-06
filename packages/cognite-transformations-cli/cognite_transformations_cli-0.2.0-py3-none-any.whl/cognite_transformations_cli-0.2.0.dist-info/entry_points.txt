@@ -1,0 +1,3 @@
+[console_scripts]
+transformations_cli=cognite.transformations_cli.__main__:main
+
