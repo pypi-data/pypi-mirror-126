@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: glfw-preview
+Version: 0.0.2
+Summary: A helper module for the glfw package.
+Home-page: https://github.com/FlorianRhiem/pyGLFW
+Author: Florian Rhiem
+Author-email: florian.rhiem@gmail.com
+License: MIT
+Description: This is a helper module for the glfw package that enables wrappers for unreleased GLFW3 macros and functions.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: MacOS X
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Scientific/Engineering :: Visualization
