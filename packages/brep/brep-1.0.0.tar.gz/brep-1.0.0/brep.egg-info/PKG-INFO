@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: brep
+Version: 1.0.0
+Summary: Binary Search in plaintext and Gzip files.
+Home-page: https://www.github.com/arnaudsm/brep
+Author: Arnaud de Saint Meloir (@arnaudsm)
+Author-email: arnaud.desaintmeloir@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Provides-Extra: dev
