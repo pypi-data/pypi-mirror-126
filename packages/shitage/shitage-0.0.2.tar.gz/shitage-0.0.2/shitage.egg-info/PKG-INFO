@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: shitage
+Version: 0.0.2
+Summary:  	My dogshit script that use system32 app 
+Home-page: UNKNOWN
+Author: pipd0un
+Author-email: pipdoun@gmail.com
+License: MIT
+Keywords: netsh,WLAN,passwords
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+__init__.py
+setup.py
+shitage/__init__.py
+shitage/consts.py
+shitage/getsh.py
+shitage.egg-info/PKG-INFO
+shitage.egg-info/SOURCES.txt
+shitage.egg-info/dependency_links.txt
+shitage.egg-info/not-zip-safe
+shitage.egg-info/requires.txt
+shitage.egg-info/top_level.txt
