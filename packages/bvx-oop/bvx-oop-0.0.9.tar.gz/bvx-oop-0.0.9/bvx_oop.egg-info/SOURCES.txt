@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+test-requirements.txt
+bvx_oop/__init__.py
+bvx_oop/singleton.py
+bvx_oop.egg-info/PKG-INFO
+bvx_oop.egg-info/SOURCES.txt
+bvx_oop.egg-info/dependency_links.txt
+bvx_oop.egg-info/top_level.txt
