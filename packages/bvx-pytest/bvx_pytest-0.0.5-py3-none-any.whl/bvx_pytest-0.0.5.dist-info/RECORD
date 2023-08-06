@@ -1,0 +1,13 @@
+bvx_pytest/__init__.py,sha256=QxVz8NEnd-u3VcOUFWX7QuWaqSlv0gePQeHEiTnSyVw,69
+bvx_pytest/defines.py,sha256=p8XStIrHuXp9KmwByuhP47jvHliQjapN5XzzbPw4K2Y,86
+bvx_pytest/setup_function.py,sha256=9uyHibgjFf8Zgstan_SUdv9y-aCvIGHMwZWUwwwBJTc,636
+bvx_pytest/teardown_function.py,sha256=mtjptKynrMwZgqPaCjtDRCE7Oc71mckkti6up6ziIxU,333
+bvx_pytest/es/__init__.py,sha256=UMquvcNt3Dd6upj93qB0ZZlhHrE_zYqgx-k5DmhK2Lg,303
+bvx_pytest/es/defines.py,sha256=VV1SRX_ltt7O5gTA6UapG6SicBJxqYonLRjMCxjBwXI,417
+bvx_pytest/es/setup_function.py,sha256=gj2f3X5T_xIceYHVLjp4pNYQka00EJH788ha03HnOUQ,2112
+bvx_pytest/es/teardown_function.py,sha256=3NsALg4J3hgmF0LnxiTQxfWeVn2L41lKWvQzW7LiX7k,911
+bvx_pytest-0.0.5.dist-info/LICENSE,sha256=3nROnZ8YWu-6wv5U1X045y2fjGwo7Zivi23jtIhOHTM,1076
+bvx_pytest-0.0.5.dist-info/METADATA,sha256=Gxwl1ubZlCp4r_n33IHnBJtitA_neS3B1IQCOfzSzqM,338
+bvx_pytest-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bvx_pytest-0.0.5.dist-info/top_level.txt,sha256=LP_sTzDHE-iBiR9dP703orTt4klzqMIhPPyah_JmfmY,11
+bvx_pytest-0.0.5.dist-info/RECORD,,
