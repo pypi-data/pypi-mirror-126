@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pipenv-update-check
+Version: 0.1
+Summary: Pip environment update check
+Home-page: https://github.com/CuneytTaha/pipenv-update-check
+Author: cuneyt
+Author-email: cuneyt@3bfab.com
+License: MIT
+Download-URL: https://github.com/CuneytTaha/pipenv-update-check/archive/refs/tags/v_0.1.tar.gz
+Description: UNKNOWN
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Platform: UNKNOWN
