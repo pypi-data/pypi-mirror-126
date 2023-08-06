@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: many-requests-cli
+Version: 0.1.2
+Summary: CLI app to send muliple requests to endpoint.
+Home-page: https://github.com/yvestumushimire/many_requests/
+License: MIT
+Keywords: website traffic testing,requests
+Author: Yves Tumushimire
+Author-email: ytumushimire@truststamp.net
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/yvestumushimire/many_requests/issues
+Project-URL: Repository, https://github.com/yvestumushimire/many_requests/
+Description-Content-Type: text/x-rst
+
+*Send many requests* 💣
+=======================   
+
+CLI app to send muliple requests to endpoint.
+
+Usage
+-----
+Install the package:
+
+``pip install many-requests-cli``
+use the command:
+``mrc --help``
+    
+*Disclaimer*
+------------
+I don't know what I am doing. Hope you know what you doing by using this! 🔬
+

@@ -1,0 +1,3 @@
+[console_scripts]
+mrc=many_requests_cli.main:app
+
