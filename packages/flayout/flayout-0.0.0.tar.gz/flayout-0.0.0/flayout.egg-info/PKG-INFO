@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: flayout
+Version: 0.0.0
+Summary: thin functional/declarative wrapper around the KLayout python api
+Home-page: UNKNOWN
+Author: Floris Laporte
+Author-email: floris.laporte@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# FLayout
+
+**F**unctional k**Layout**.
+
+## Installation
+
+It's best to install FLayout with pip using the `--user` flag:
+
+```sh
+pip install --user flayout
+```
+
+Using the `--user` flag, will ensure FLayout will be available in all
+your conda environments **as well as** the integrated KLayout python
+interpreter.
+
+## KLayout Requirements
+
+Apart from installing FLayout with pip, a few other KLayout requirements
+need to be fulfilled:
+
+- klayout>=0.27
+- a technology in `~/.klayout/tech` with:
+  - a (single) `.lyp` file (layer properties file)
+  - a (single) `.lyt` file (layer thickness file)
+  - a global environment variable `$FLAYOUT_TECH` with the name of
+    the technology.
+
+
