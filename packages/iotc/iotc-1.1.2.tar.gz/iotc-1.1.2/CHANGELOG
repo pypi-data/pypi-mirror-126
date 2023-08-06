@@ -1,0 +1,43 @@
+1.1.2 (2021-11-8)
+-----------------
+- added credentials cache serialize/deserialize methods
+- added "Property" model
+- added storage tests
+
+1.1.1 (2021-06-25)
+-----------------
+- minor fixes for value wrapping
+
+
+1.1.0 (2021-02-05)
+-----------------
+- dropped Python 2.7 support (client should continue to work without tests)
+- added DTDLv2 Support (with components)
+- added graceful shutdown
+- added credentials cache
+- added device twin synchronization at boot
+- improved tests and coverage
+
+
+1.0.4 (2020-10-07)
+------------------
+- fix property report with value wrapped
+
+1.0.3 (2020-06-17)
+------------------
+- remove wrong dependency
+
+1.0.2 (2020-06-17)
+------------------
+- remove wrong dependency
+
+1.0.1 (2020-06-17)
+------------------
+- minor formatting fixes
+1.0.0 (2020-06-11)
+------------------
+Breaking changes with v0.x.x
+ - "Settings" are now called "Properties". Event "on(SettingsUpdated)" is now "on(Properties)"
+ - Support for async client with Python 3.
+ - Support for group enrollment symmetric keys.
+ - Support for custom logger
