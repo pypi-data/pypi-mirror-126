@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+c5_envelope.egg-info/PKG-INFO
+c5_envelope.egg-info/SOURCES.txt
+c5_envelope.egg-info/dependency_links.txt
+c5_envelope.egg-info/top_level.txt
+lang/python/__init__.py
+lang/python/envelope.py
+src/__init__.py
