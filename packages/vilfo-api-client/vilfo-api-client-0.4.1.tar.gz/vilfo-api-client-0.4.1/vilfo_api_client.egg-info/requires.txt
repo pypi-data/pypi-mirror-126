@@ -1,0 +1,8 @@
+requests
+getmac
+
+[dev]
+responses
+
+[test]
+responses
