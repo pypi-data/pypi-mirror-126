@@ -1,0 +1,6 @@
+README.md
+setup.py
+Justify_discord.egg-info/PKG-INFO
+Justify_discord.egg-info/SOURCES.txt
+Justify_discord.egg-info/dependency_links.txt
+Justify_discord.egg-info/top_level.txt

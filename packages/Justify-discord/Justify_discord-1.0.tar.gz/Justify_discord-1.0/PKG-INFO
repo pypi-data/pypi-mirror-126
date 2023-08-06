@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Justify_discord
+Version: 1.0
+Summary: Discord bot util
+Home-page: https://github.com/MagM1go/Justify
+Author: MagMigo / Reidy
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Justify
+A simple discord.py bots util
+
+
