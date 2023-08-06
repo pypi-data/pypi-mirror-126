@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: elegance_spider
+Version: 0.0.3
+Summary: A spider framework
+Home-page: https://kirintang.github.io
+Author: kirintang
+Author-email: 215936564@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
