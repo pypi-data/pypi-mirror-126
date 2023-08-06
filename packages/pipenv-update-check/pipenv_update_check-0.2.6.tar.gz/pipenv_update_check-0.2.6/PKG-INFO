@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pipenv_update_check
+Version: 0.2.6
+Summary: Pip environment update check
+Home-page: https://github.com/3bfab/pipenv-update-check
+Author: cuneyt
+Author-email: cuneyt@3bfab.com
+License: MIT
+Download-URL: https://github.com/3bfab/pipenv-update-check/archive/refs/tags/v_0.2.6.tar.gz
+Keywords: PIPENV,UPDATE,CHECK
+Platform: UNKNOWN
+
+This package checks if the packages installed in your environment are up to date.
+

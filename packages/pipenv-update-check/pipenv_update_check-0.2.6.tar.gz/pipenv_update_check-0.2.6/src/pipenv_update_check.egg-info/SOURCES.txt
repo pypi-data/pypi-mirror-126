@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+src/pipenv_update_check/__init__.py
+src/pipenv_update_check.egg-info/PKG-INFO
+src/pipenv_update_check.egg-info/SOURCES.txt
+src/pipenv_update_check.egg-info/dependency_links.txt
+src/pipenv_update_check.egg-info/entry_points.txt
+src/pipenv_update_check.egg-info/requires.txt
+src/pipenv_update_check.egg-info/top_level.txt
