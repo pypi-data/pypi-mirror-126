@@ -1,0 +1,6 @@
+pyproject.toml
+mazipy.egg-info/PKG-INFO
+mazipy.egg-info/README.md
+mazipy.egg-info/SOURCES.txt
+mazipy.egg-info/dependency_links.txt
+mazipy.egg-info/top_level.txt
