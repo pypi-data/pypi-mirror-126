@@ -1,0 +1,6 @@
+fc_dc_bigdata.py
+setup.py
+fc_qwh.egg-info/PKG-INFO
+fc_qwh.egg-info/SOURCES.txt
+fc_qwh.egg-info/dependency_links.txt
+fc_qwh.egg-info/top_level.txt
