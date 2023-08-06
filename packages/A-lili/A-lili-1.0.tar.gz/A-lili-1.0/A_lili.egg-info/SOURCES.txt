@@ -1,0 +1,5 @@
+setup.py
+A_lili.egg-info/PKG-INFO
+A_lili.egg-info/SOURCES.txt
+A_lili.egg-info/dependency_links.txt
+A_lili.egg-info/top_level.txt
