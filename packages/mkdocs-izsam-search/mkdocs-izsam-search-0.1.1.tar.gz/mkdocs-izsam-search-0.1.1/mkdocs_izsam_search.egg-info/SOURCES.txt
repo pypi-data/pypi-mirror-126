@@ -1,0 +1,13 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+mkdocs_izsam_search/__init__.py
+mkdocs_izsam_search/plugin.py
+mkdocs_izsam_search/prebuild-index.js
+mkdocs_izsam_search/search_index.py
+mkdocs_izsam_search.egg-info/PKG-INFO
+mkdocs_izsam_search.egg-info/SOURCES.txt
+mkdocs_izsam_search.egg-info/dependency_links.txt
+mkdocs_izsam_search.egg-info/requires.txt
+mkdocs_izsam_search.egg-info/top_level.txt
