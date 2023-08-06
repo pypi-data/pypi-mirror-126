@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+UGX.egg-info/PKG-INFO
+UGX.egg-info/SOURCES.txt
+UGX.egg-info/dependency_links.txt
+UGX.egg-info/requires.txt
+UGX.egg-info/top_level.txt
+bin/extract
+bin/pextract
