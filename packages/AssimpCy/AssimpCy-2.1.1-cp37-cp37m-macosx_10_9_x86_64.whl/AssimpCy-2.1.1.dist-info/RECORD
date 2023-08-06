@@ -1,0 +1,10 @@
+AssimpCy-2.1.1.dist-info/RECORD,,
+AssimpCy-2.1.1.dist-info/WHEEL,sha256=MTGYRPpheMM24WbmS90Rp7e0ky6cZJ8CkS_x1qgwoGk,110
+AssimpCy-2.1.1.dist-info/top_level.txt,sha256=ql4UGzekK80z6X9dbQjoWmlaoayK5gkOERHrNojkYf4,9
+AssimpCy-2.1.1.dist-info/license.txt,sha256=V8o63s5VP0rOpuxjozgsxnjcTGL7UGrjHBKkMKMV6eI,5358
+AssimpCy-2.1.1.dist-info/METADATA,sha256=nI-ddrpJLyXwaY4ROQfu34XHZlyCPoLtF4n-QapqcK8,2643
+assimpcy/__init__.py,sha256=k1M9XAyjX_bclwT1pynCsPP0FCx8DFwzcjQ3I_IXZJs,61
+assimpcy/all.cpython-37m-darwin.so,sha256=nLI5uATP1tNMc5dL1Zer17-R6OwpG4HM1aNWTmwHxC4,11216688
+assimpcy/.dylibs/libc++abi.1.0.dylib,sha256=uE3BLQMJKZwnBzIrFxhpnQf66OXaAQhszcp-7CFKhrA,338144
+assimpcy/.dylibs/libc++.1.0.dylib,sha256=A9Iho9vgCXZ_mAiV_Ii3Zwz9CnckcZVjkpM6LfqBVEU,877504
+assimpcy/.dylibs/libomp.dylib,sha256=erL3boEOgY8aiHnafpvrWsoJVDRz24ppUAUX4LojW6s,776336
