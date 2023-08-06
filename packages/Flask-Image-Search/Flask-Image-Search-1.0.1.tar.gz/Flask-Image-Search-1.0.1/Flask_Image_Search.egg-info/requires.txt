@@ -1,0 +1,17 @@
+tensorflow==2.2.1
+Keras==2.3.1
+flask>=1.0.4
+Flask-SQLAlchemy>=2.5.0
+pillow>=8.2.0
+zarr>=2.8.1
+
+[dev]
+flake8
+coverage
+sphinx
+twine
+pytest
+pallets_sphinx_themes
+
+[docs]
+pallets_sphinx_themes
