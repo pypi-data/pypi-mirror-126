@@ -1,0 +1,3 @@
+[console_scripts]
+rebalancing = rebalancing.__main__:main
+
