@@ -1,0 +1,13 @@
+setup.py
+kitsune/__init__.py
+kitsune/constants.py
+kitsune/doujin.py
+kitsune/http.py
+kitsune/query.py
+kitsune/routes.py
+kitsune/wrapper.py
+kitsune_nh.egg-info/PKG-INFO
+kitsune_nh.egg-info/SOURCES.txt
+kitsune_nh.egg-info/dependency_links.txt
+kitsune_nh.egg-info/requires.txt
+kitsune_nh.egg-info/top_level.txt
