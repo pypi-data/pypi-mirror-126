@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: gitlabenvmngr
+Version: 0.1.8
+Summary: Package to manage Gitlab environment variables
+Home-page: https://gitlab.com
+Author: Alejandro Pinar Ruiz
+Author-email: alejandropinarruiz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: argparse
+Requires-Dist: requests
+Requires-Dist: PyInquirer
+
+# Environment Manager
+
+There are still some bugs when displaying env vars
+
+## Usage
+
+```bash
+gitlabenvmngr -t/--token TOKEN -g/--group-id GROUP_ID
+```
+
+## Install
+
+```bash
+pip3 install --upgrade gitlabenvmngr
+```
+
+### Testing
+
+```bash
+pip3 install -i https://test.pypi.org/simple/ --upgrade gitlabenvmngr
+```
+
+
