@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: webpage-compressor
+Version: 0.0.2
+Summary: Web Page Compressor to create one page website.
+Home-page: https://github.com/LoucasMaillet/WPC/edit/main
+Author: Lucas Maillet
+Author-email: loucas.maillet.pro@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/LoucasMaillet/WPC/edit/main/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# What is this ?
+
+Web Page Compressor (v0.2) is a Python command line utils to create one page website.
+
+# What wasn't finish:
+
+WPC didn't support "//" comments.
+
+# Table of Contents
+
+* [Help](#help)
+* [Reports](#reports)
+
+# Help
+
+```sh
+usage:
+wpc [-h] [-n webpage] [-b [mode]] [filePath]
+
+positional arguments:
+  filePath              Path of main file.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -n webpage, --new webpage
+                        Generate new WPC environment..
+  -b [mode], --build [mode]
+                        Build webpage.
+```
+
+# Report
+
+Well the code wasn't rigth writed... So I will see later.
+
