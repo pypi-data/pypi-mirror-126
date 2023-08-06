@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: solas
+Version: 0.3.0
+Summary: A Python API for Intelligent Data Discovery
+Home-page: https://github.com/willeppy/solas
+Author: Will Epperson
+Author-email: willepp@live.com
+License: Apache-2.0 License
+Description: # Solas
+        
+        Solas is a jupyter extension for visualization recommendation that uses your analysis history to provide better recommendations.
+        
+        ## Easy install
+        ```
+        pip install solas
+        jupyter labextension install @jupyter-widgets/jupyterlab-manager
+        jupyter labextension install solaswidget
+        ```
+        
+        Then you can run `import solas` in jupyter environments. Note this wont work outside of ipython envs.
+        
+        ## Contributing
+        
+        For more information about installing for Development purposes and contributing see `CONTRIBUTING.md`
+Keywords: Visualization,Analytics,Data Science,Data Analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Other Audience
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: test
