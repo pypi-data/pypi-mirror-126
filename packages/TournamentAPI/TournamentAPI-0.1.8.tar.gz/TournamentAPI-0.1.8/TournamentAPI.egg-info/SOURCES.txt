@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+TournamentAPI/Tournament.py
+TournamentAPI/TournamentAPI.py
+TournamentAPI/TournamentMatch.py
+TournamentAPI/TournamentParticipant.py
+TournamentAPI/__init__.py
+TournamentAPI.egg-info/PKG-INFO
+TournamentAPI.egg-info/SOURCES.txt
+TournamentAPI.egg-info/dependency_links.txt
+TournamentAPI.egg-info/top_level.txt
