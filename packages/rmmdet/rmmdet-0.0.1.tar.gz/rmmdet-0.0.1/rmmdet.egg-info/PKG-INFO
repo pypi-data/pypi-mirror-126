@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rmmdet
+Version: 0.0.1
+Summary: Rotated Bounding Box Detection Toolbox and Benchmark
+Home-page: https://github.com/zytx121/mmrotate
+Author: zytx121
+Author-email: sjtu_zy@sjtu.edu.cn
+License: Apache License 2.0
+Keywords: computer vision,object detection
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
+UNKNOWN
+
