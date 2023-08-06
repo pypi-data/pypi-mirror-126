@@ -1,0 +1,14 @@
+symspellpy_ko/__init__.py,sha256=L3pnYpWK9Cab6D32MHKx4x9FHfnleSKqRNDS4tHzp4k,93
+symspellpy_ko/helper.py,sha256=dyTK_B6taduirahsFbtFTC7TNbb68w3EFrzyWDtybnI,676
+symspellpy_ko/symspell.py,sha256=04qCPcrKeCcVJoMzbC9C6C4N8xQGfJvKBIEMNDaG6H0,15282
+symspellpy_ko/unicode.py,sha256=Wa4_08uyGakXlQtNxK3lS2tjG3iZWb7xfyMAJeGgXlA,10335
+symspellpy_ko/res/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+symspellpy_ko/res/ko_50k.txt,sha256=jQBAG2coyNb-6qVFVYPBozQI3QIKrkqlVgmyUATR2Z0,695053
+symspellpy_ko/res/ko_50k_d.txt,sha256=alR6qH53Wk6DRRh6h_bzLLUNDOYh5mK1JWjt8tX_Zng,1384270
+symspellpy_ko/res/ko_bigrams_1M.txt,sha256=6eN6j4x5-XyyWkBNxkI7XaItfqErgZYTzWK7WYNi9og,23130586
+symspellpy_ko/res/ko_bigrams_1M_d.txt,sha256=i9JQzZQRFunKw0lDpZBNYLjfu8nobjpFyxfaSSAl2VM,47811086
+symspellpy_ko-0.1.2.dist-info/LICENSE,sha256=s9Hq5_Uk_J3dSFYqRlLv0rzYSOOLA_BeOIvM6UPnPfI,35819
+symspellpy_ko-0.1.2.dist-info/METADATA,sha256=GCRj2IircbsSQLcvvI_Ghshv5nd_RprtRvlrGGZaBxo,720
+symspellpy_ko-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+symspellpy_ko-0.1.2.dist-info/top_level.txt,sha256=ac8IJsIW9Xyim1aYDm-c4jIfK6pBjHyoyxYXxEqm9mo,14
+symspellpy_ko-0.1.2.dist-info/RECORD,,
