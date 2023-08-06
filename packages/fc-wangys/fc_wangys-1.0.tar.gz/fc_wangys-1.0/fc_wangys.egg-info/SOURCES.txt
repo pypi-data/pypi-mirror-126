@@ -1,0 +1,6 @@
+fc_wangyishuang.py
+setup.py
+fc_wangys.egg-info/PKG-INFO
+fc_wangys.egg-info/SOURCES.txt
+fc_wangys.egg-info/dependency_links.txt
+fc_wangys.egg-info/top_level.txt
