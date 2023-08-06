@@ -1,0 +1,35 @@
+{% extends 'report_designer/base.html' %}
+
+
+{% load report_designer.templates %}
+{% load report_designer.fields %}
+{% load report_designer.ajax_content %}
+
+
+{% block content %}
+    <div id="report-designer">
+        <form class="js-dr-report-generate-form" novalidate>
+            {% csrf_token %}
+            {% include 'report_designer/form_errors.html' with errors=form.non_field_errors only %}
+            {% for hidden in form.hidden_fields %}
+                {{ hidden }}
+            {% endfor %}
+            {% panelheader %}
+                <div class="col-md-4 col-xs-12 padding-top-12 no-padding-left">
+                    <ul class="list">
+                        {% field_wrapper form.report %}
+                    </ul>
+                </div>
+                <div class="col-md-4 col-xs-12 padding-top-12" style="display: flex; align-items: flex-end; margin-bottom: 15px; gap:14px;">
+                    {{ report_generate_action_group }}
+                    {{ report_excel_action_group }}
+                </div>
+            {% endpanelheader %}
+        </form>
+        <div class="wrapper">
+            <h5 class="padding-bottom-10">Сформированный отчет</h5>
+            {% url 'report_designer:reports:generated' as report_generated_url %}
+            {% ajax_content name='generated_report' url=report_generated_url auto_start=True enable_preloader=True is_filterable=False preloader_class='rd-preloader' %}
+        </div>
+    </div>
+{% endblock content %}

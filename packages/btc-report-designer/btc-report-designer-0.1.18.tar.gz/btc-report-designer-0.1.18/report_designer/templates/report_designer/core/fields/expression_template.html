@@ -1,0 +1,18 @@
+<div class="expression js-expression{% if is_hidden %} hidden{% endif %}"
+    data-name="{{ name }}"
+    data-display-name="{{ display_name }}"
+    data-is-editable="{{ is_editable }}"
+    data-value="{{ value }}"
+    data-display-value="{{ display_value }}">
+    <span class="title js-expression-title" contenteditable="false">
+        {{ display_name }}
+        <span class="delete js-expression-delete"></span>
+    </span>
+    <span class="lbkt" contenteditable="false"></span>
+    <span class="content js-expression-content" contenteditable="true">
+        {% for branch in branches %}
+            {% include 'report_designer/core/fields/field_expression.html' with name=branch.name display_name=branch.display_name is_editable=branch.is_editable branches=branch.branches value=branch.value display_value=branch.display_value only %}
+        {% endfor %}
+    </span>
+    <span class="rbkt"></span>
+</div>
