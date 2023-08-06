@@ -1,0 +1,10 @@
+pdCIFplotter/__init__.py,sha256=-LGgpVzBvQsNFEbahLrAD1u9e1Ur3koil2eg54r1t7Y,23
+pdCIFplotter/__main__.py,sha256=NP8ux2EZPCPmQ3SydDZu8fIR_Cigx8ykuwfAH4fWw9Q,68
+pdCIFplotter/gui.py,sha256=n6FxvCc78VnAT-OwmidRuxnNPVvEmmRQhhNMa7fWcos,67879
+pdCIFplotter/parse_cif.py,sha256=u8_R3irg2V1SyRwJ7jdK5kqza-EY_QE04yVDfaWfO-k,34917
+pdCIFplotter-0.0.1.dist-info/AUTHORS.rst,sha256=a5yQ6URNDaV3t6mTKfRZUOIGfXlT-OSxeD30irG2BPE,71
+pdCIFplotter-0.0.1.dist-info/LICENSE,sha256=ldpuyyhupKqMjayDYUmuY43nV__fpLPQ9OcW7rCzL7Q,11512
+pdCIFplotter-0.0.1.dist-info/METADATA,sha256=Q38CJAxz72SlZTaN_TfFB0wYiRQq25BiLIrkPSeOFz0,2680
+pdCIFplotter-0.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pdCIFplotter-0.0.1.dist-info/top_level.txt,sha256=T0d1B3xGv8nQbFdOVHeQBE_DevujTp5PZ1vfsUzFUto,45
+pdCIFplotter-0.0.1.dist-info/RECORD,,
