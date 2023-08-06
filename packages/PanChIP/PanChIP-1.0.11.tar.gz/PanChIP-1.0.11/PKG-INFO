@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: PanChIP
+Version: 1.0.11
+Summary: Pan-ChIP-seq Analysis of Peak Sets
+Home-page: https://github.com/hanjunlee21/PanChIP
+Author: Hanjun Lee
+Author-email: hanjun@mit.edu
+License: MIT
+Download-URL: https://github.com/hanjunlee21/PanChIP/archive/refs/tags/v.1.0.11.tar.gz
+Description: UNKNOWN
+Keywords: chip-seq,bedfile
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Awk
+Classifier: Programming Language :: Unix Shell
