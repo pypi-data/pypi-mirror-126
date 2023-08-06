@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.cfg
+setup.py
+src/hello/__init__.py
+src/hello/rain.py
+src/pydrops.egg-info/PKG-INFO
+src/pydrops.egg-info/SOURCES.txt
+src/pydrops.egg-info/dependency_links.txt
+src/pydrops.egg-info/top_level.txt
