@@ -1,0 +1,3 @@
+[pytest11]
+quart_events = quart_events.pytest_plugin
+
