@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nimue
+Version: 0.0.2
+Summary: Database connection pooler for Python
+Home-page: http://github.com/jlucasdba/nimue
+Author: James Lucas
+Author-email: 73145226+jlucasdba@users.noreply.github.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.3
+License-File: LICENSE
+
+UNKNOWN
+
