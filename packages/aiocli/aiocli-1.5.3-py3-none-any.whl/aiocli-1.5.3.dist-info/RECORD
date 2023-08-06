@@ -1,0 +1,12 @@
+aiocli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiocli/commander.py,sha256=dOaNTCDS7uURm5hRcytMUPSwTJgTt32jJ4Biwq0SSOc,4750
+aiocli/commander_app.py,sha256=B6kohN31j81YjPrimblDCp7xQ8cidtaa12w2KipQhu8,14264
+aiocli/commander_app_wrappers.py,sha256=oe8LC5fuP4KYWQb4QAst_NmMc5bBoogJEQ80Jfvr1_o,1038
+aiocli/helpers.py,sha256=cLseWhYiH36ibgElWSb4voGcdXmvbp2LL1cXbwo7TUQ,623
+aiocli/logger.py,sha256=AkUQcMc640AqjONhEbkteD9dTM2JHBc64cWsiMZLKJk,60
+aiocli/test_utils.py,sha256=kROjbxlVciiVpXuLqDGQWJQXBnYPAmhZnxp4DI53m_0,2723
+aiocli-1.5.3.dist-info/LICENSE,sha256=iNV-5tk35g5oZzxxieiJ9oHNRpqqgsNhSPK8kbvy-Xo,1072
+aiocli-1.5.3.dist-info/METADATA,sha256=y0bRwlAbl_yLeHW9bppqQYWJ9F6kl0PErvaVmKWDEQo,2424
+aiocli-1.5.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aiocli-1.5.3.dist-info/top_level.txt,sha256=IriPoWRk_gjGKBTTpn9lNR8TY4nhFIrKoka1GKcs84s,7
+aiocli-1.5.3.dist-info/RECORD,,
