@@ -1,0 +1,5 @@
+[console_scripts]
+compare_all_workdir_inlists=compare_workdir:compare_all_workdir_inlists
+compare_inlists=compare_workdir:compare_inlists
+merge_colum_lists=compare_workdir:merge_column_lists
+

@@ -1,0 +1,9 @@
+compare_workdir/__init__.py,sha256=8TRc2nvCofiUIXQ5zTsGkNLxnAgBDHbW2kz51zHlcRM,195
+compare_workdir/compare_all_workdir_inlists.py,sha256=2C0QyqhNdknr6DKr9EsNpQ3Nk23bRgI0rtVPRxGQSl4,35163
+compare_workdir/compare_inlists.py,sha256=rwUgwIIa7w7L9CmG4ecQpeeN1sK6yMPcWRaSbKbLBb4,23354
+compare_workdir/merge_column_lists.py,sha256=I6JwozA_9CE5GxDKG05nuX73pYlDzPyaGK1adrBjSyg,3201
+compare_workdir-2.0.dist-info/entry_points.txt,sha256=NIbDUl5D6d8b1dIvLc-QqhB8xt3Qqm9nOWaYObYvXbc,192
+compare_workdir-2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+compare_workdir-2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+compare_workdir-2.0.dist-info/METADATA,sha256=PYlDJq9cIQOzU9LcvADeohisPsDYypOVizT_rxQTcbI,708
+compare_workdir-2.0.dist-info/RECORD,,
