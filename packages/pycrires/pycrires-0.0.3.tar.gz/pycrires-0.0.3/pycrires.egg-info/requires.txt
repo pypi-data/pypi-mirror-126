@@ -1,0 +1,9 @@
+astropy
+astroquery
+matplotlib
+numpy
+openpyxl
+pandas
+scipy
+skycalc_ipy
+typeguard
