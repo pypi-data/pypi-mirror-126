@@ -1,0 +1,4 @@
+[console_scripts]
+mitre-attack=mitre_attack.cli:cli
+server=mitre_attack.api.rest.server:cli
+
