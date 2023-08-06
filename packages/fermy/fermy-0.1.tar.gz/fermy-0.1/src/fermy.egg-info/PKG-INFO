@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: fermy
+Version: 0.1
+Summary: Fermy is a toolkit to empower fermentation data analysis from Pandas DataFrame.
+Home-page: https://gitlab.com/
+Author: Nicolas Hardy
+License: LGPL-3.0
+Keywords: fermentation,biology,Pandas,data,growth rate,plots,control charts
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+# Fermy
+Fermy is a toolkit to empower fermentation data analysis from any SCADA.
+Input data have to be converted in Python Pandas DataFrame with datetime or deltatime converted into float as index. 
+
+- pandasfermy add to Pandas methods to compute analysis on fermentation data e.g. DataFrame.fermgrowth()
+- plotlyfermy give Pandas methods to plot fermentation data e.g. DataFrame.ccplot().
+
+The project is hosted at https://gitlab.com/
+
+To install it: pip install fermy
+
+
