@@ -1,0 +1,8 @@
+README.md
+setup.py
+tasomasa_filler/__init__.py
+tasomasa_filler/filler.py
+tasomasa_filler.egg-info/PKG-INFO
+tasomasa_filler.egg-info/SOURCES.txt
+tasomasa_filler.egg-info/dependency_links.txt
+tasomasa_filler.egg-info/top_level.txt
