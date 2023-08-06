@@ -1,0 +1,4 @@
+[console_scripts]
+nytxw_gen=utils.nytxw_gen:main
+nytxw_puz=nytxw_puz.main:main
+
