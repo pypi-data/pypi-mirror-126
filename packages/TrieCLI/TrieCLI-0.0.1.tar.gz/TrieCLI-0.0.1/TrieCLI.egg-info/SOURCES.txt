@@ -1,0 +1,6 @@
+README.md
+setup.py
+TrieCLI.egg-info/PKG-INFO
+TrieCLI.egg-info/SOURCES.txt
+TrieCLI.egg-info/dependency_links.txt
+TrieCLI.egg-info/top_level.txt
