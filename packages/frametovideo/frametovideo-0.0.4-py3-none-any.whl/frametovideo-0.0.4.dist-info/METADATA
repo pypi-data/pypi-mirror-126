@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: frametovideo
+Version: 0.0.4
+Summary: Converts frames into video
+Home-page: UNKNOWN
+Author: Jonas Barth
+Author-email: jonas.barth.95@gmail.com
+License: UNKNOWN
+Keywords: python,video,converter,images,frames
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: glob2
+Requires-Dist: opencv-python
+Requires-Dist: dataclasses
+
+
+# frametovideo
+
+This package lets you convert a collection of frames into a video.
+
