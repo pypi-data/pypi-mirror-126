@@ -1,0 +1,9 @@
+LICENSE,sha256=z7oLHHOnBD88eAJc-AtdmHivYM_xQ3wEHILW-gCIQD0,1072
+README.md,sha256=M4H6t60DnZzxN1agMHV0a53lxecUIBSqWsKLRpb3oRw,10081
+xpath_helper/__init__.py,sha256=_O_H5xGM_DCGzcBIkjGfzLDdKex13zKULOzIRHTMK3Y,217
+xpath_helper/filter.py,sha256=lwRZmqEXP-i8snQ5Ku5sveTpxb3IAqeERxb0Y6Qb2t8,13135
+xpath_helper/xpath_helper.py,sha256=0YcdMzLkuQfsNaLUHJ7WsAnc87Do-Rf20dquramgfrM,21787
+xpath_helper-0.1.0.dist-info/LICENSE,sha256=z7oLHHOnBD88eAJc-AtdmHivYM_xQ3wEHILW-gCIQD0,1072
+xpath_helper-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+xpath_helper-0.1.0.dist-info/METADATA,sha256=p1jSqEH18FiDeuYXmLo5P3ydnAesHJdmAcBeCp14r6M,11541
+xpath_helper-0.1.0.dist-info/RECORD,,
