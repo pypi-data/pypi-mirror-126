@@ -1,0 +1,8 @@
+LICENSE
+main.py
+setup.py
+kweather.egg-info/PKG-INFO
+kweather.egg-info/SOURCES.txt
+kweather.egg-info/dependency_links.txt
+kweather.egg-info/requires.txt
+kweather.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: kweather
+Version: 1.0
+Summary: KWeather is a weather application using color to show weather.
+Home-page: https://www.github.com/
+Author: Kirk A Jackson
+Author-email: jacksonkirka@gmail.com
+License: UNKNOWN
+Keywords: weather python kivy emergency
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+KWeather is a weather application using color to show     weather.  The color of the interface changes with weather conditions.  It    blinks and alternates color for important emergencies.
+
