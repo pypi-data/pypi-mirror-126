@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/convertednumbers.egg-info/PKG-INFO
+src/convertednumbers.egg-info/SOURCES.txt
+src/convertednumbers.egg-info/dependency_links.txt
+src/convertednumbers.egg-info/top_level.txt
+src/example_package/__init__.py
+src/example_package/get.py
