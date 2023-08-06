@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+TrieCLI/__init__.py
+TrieCLI/app.py
+TrieCLI/server.py
+TrieCLI/trie.py
+TrieCLI/trie1.py
+TrieCLI/visualize.py
+TrieCLI.egg-info/PKG-INFO
+TrieCLI.egg-info/SOURCES.txt
+TrieCLI.egg-info/dependency_links.txt
+TrieCLI.egg-info/not-zip-safe
+TrieCLI.egg-info/requires.txt
+TrieCLI.egg-info/top_level.txt
