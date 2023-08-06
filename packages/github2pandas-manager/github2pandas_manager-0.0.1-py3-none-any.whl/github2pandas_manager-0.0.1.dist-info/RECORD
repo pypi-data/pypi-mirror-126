@@ -1,0 +1,12 @@
+github2pandas_manager/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+github2pandas_manager/config_parser.py,sha256=ii9XNYlEH1-eQAalS0hUGwfqfQGQGRHkvivJGY7Fy_g,1848
+github2pandas_manager/data_extractor.py,sha256=uaXHmq7Ua7jj9HhWsM7XLNln-mYp3njpOcYrnWzUvPg,4363
+github2pandas_manager/data_merger.py,sha256=7IcRhknVNpwakLoxrqkbG-99v7tkjVYtpnYK6zxfgBU,4062
+github2pandas_manager/repository_handler.py,sha256=ClH2yQATbuIDQHfVMu3ruHJgHraEcxB6hAFcXJOqBmw,25930
+github2pandas_manager/start_aggregation.py,sha256=iukSU3U9gOeMiroslEEfbCzkCZ9-Y_RPqTNBAJCaeHw,1563
+github2pandas_manager/utilities.py,sha256=aBFolSex6S5jcKXJf1UapUZOw2zIPT9yCVT1M1mBhgo,3005
+github2pandas_manager-0.0.1.dist-info/LICENSE,sha256=RHxpPOZJRgVEMfLf3FeurhOqgWqYuTHanJU39WbQJDg,1354
+github2pandas_manager-0.0.1.dist-info/METADATA,sha256=yajzrg-qn0OMNfHDJIPLekyXjEUEA09sj8WoEGdm3TU,3874
+github2pandas_manager-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+github2pandas_manager-0.0.1.dist-info/top_level.txt,sha256=QW3H1NvTj5mYrGx-W8oBlfO3msDahMRCrtD5Fb9v5Hs,22
+github2pandas_manager-0.0.1.dist-info/RECORD,,
