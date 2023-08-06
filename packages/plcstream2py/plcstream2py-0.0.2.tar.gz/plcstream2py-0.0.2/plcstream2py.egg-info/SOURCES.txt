@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+plcstream2py/__init__.py
+plcstream2py/plc.py
+plcstream2py/raw_plc.py
+plcstream2py.egg-info/PKG-INFO
+plcstream2py.egg-info/SOURCES.txt
+plcstream2py.egg-info/dependency_links.txt
+plcstream2py.egg-info/not-zip-safe
+plcstream2py.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: plcstream2py
+Version: 0.0.2
+Summary: stream2py interface to PLC data
+Home-page: https://github.com/i2mint/plcstream2py
+Author: OtoSense
+License: apache-2.0
+Description: 
+        # plcstream2py
+        stream2py interface to PLC data
+        
+        
+        To install:	```pip install plcstream2py```
+        
+Platform: any
+Description-Content-Type: text/markdown
