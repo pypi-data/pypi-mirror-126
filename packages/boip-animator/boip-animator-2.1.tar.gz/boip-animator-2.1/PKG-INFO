@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: boip-animator
+Version: 2.1
+Summary: Boip Animator is a python library for creating text-based (ascii) animations
+Home-page: https://github.com/kerem3338/Boip
+Author: Kerem Ata
+Author-email: zoda@vuhuv.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## Boip Animator
+Boip Animator is a python library for creating text-based (ascii) animations.<br>
+Boip is a simple and useful library for creating console animations.<br>
+
+## Requirements
+**python: 3.8+**<br>
+**playsound: 1.2.2+**<br>
+how to download playound?<br>
+open cmd and type `pip install playsound`
+
+
