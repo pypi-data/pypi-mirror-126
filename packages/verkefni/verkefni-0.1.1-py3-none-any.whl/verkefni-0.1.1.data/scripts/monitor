@@ -1,0 +1,52 @@
+#!python
+
+import click
+from json import dumps
+from multiprocessing import Process
+import subprocess   # nosec
+from time import sleep
+import pika
+import verkefni.common
+
+
+@click.command()
+@click.argument('queue_name')
+@click.argument('worker')
+@click.option('--min-workers', type=int,
+              help='minimum number of worker processes', default=0)
+@click.option('--max-workers', type=int,
+              help='maximum number of worker processes', default=None)
+def monitor(queue_name, worker, min_workers, max_workers):
+    logger = verkefni.common.get_logger(f'monitor-({queue_name})')
+
+    def start_worker():
+        subprocess.run([worker])    # nosec
+
+    logger.info(
+            f'Starting monitor on {queue_name} for {worker} max={max_workers}')
+    for i in range(min_workers):
+        Process(target=start_worker).start()
+    with verkefni.common.connect() as conn:
+        chan = conn.channel()
+        while(True):
+            q = chan.queue_declare(queue=queue_name, passive=True)
+            logger.info(f'Messages: {q.method.message_count},'
+                        f' Consumers: {q.method.consumer_count}/{max_workers}')
+            if (q.method.message_count == 0
+                    and q.method.consumer_count > min_workers):
+                logger.info('Sending SHUTDOWN message...')
+                chan.basic_publish(exchange='',
+                                   routing_key=queue_name,
+                                   body=dumps(dict(command='SHUTDOWN')),
+                                   properties=pika.BasicProperties(
+                                       delivery_mode=2))
+            elif (q.method.message_count > 0
+                  and (not max_workers
+                       or q.method.consumer_count <= max_workers)):
+                logger.info('Starting worker...')
+                Process(target=start_worker).start()
+            sleep(4)
+
+
+if __name__ == '__main__':
+    monitor()

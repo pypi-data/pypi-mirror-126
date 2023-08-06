@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: verkefni
+Version: 0.1.1
+Summary: Efficient execution of trees of dependent tasks
+Home-page: http://gitlab.com/OldIronHorse/verkefni
+Author: Simon Redding
+Author-email: s1m0n.r3dd1ng@gmail.com
+License: GPL3
+Platform: UNKNOWN
+Requires-Python: >=3.10.0
+Requires-Dist: click
+Requires-Dist: redis
+Requires-Dist: pika
+
+# Verkefni [![pipeline status](https://gitlab.com/OldIronHorse/verkefni/badges/master/pipeline.svg)](https://gitlab.com/OldIronHorse/verkefni/-/commits/master)  [![coverage report](https://gitlab.com/OldIronHorse/verkefni/badges/master/coverage.svg)](https://gitlab.com/OldIronHorse/verkefni/-/commits/master) 
+
+Verkefni means task or tasks in Icelandic.
+
+Experiments in distributed task execution.
+
+# Installation
+
+1. clone the repo
+2. create and activate your virtual environment (Python 3.10)
+3. `pip install -e .`
+4. run a rabbitmq broker on localhost e.g. `docker run -d --name rmq-broker -p 15672:15672 -p 5672:5672 rabbitmq:3-management-alpine`
+5. `configure` (this sets up the exchanges: work and result)
+
+# Usage
+
+The rabbitmq host defaults to `localhost`.
+
+This can be overriden by setting the RMQ_HOST environment variable.
+
+## log EXCHANGE
+
+This command logs all the messages send to the specified exchange.
+
+`log work`
+
+`log result`
+
+Note: this script creates a persistent queue (log-_EXCHANGE_) which will continue to collect messages if the script is stoppped.
+
+## worker-lexical
+
+This is a worker process implementing word counting and sorting.
+
+`worker-lexical`
+
+## worker-arithmetic
+
+This is a worker process implementing square and sum.
+
+`worker-arithmetic`
+
+## monitor QUEUE_NAME WORKER
+
+This ia a _very_ simplistic auto scaling controller based on queue depth.
+
+`monitor arithmetic-1 worker-arithmetic`
+
+## tasker COUNT
+
+This script launches a mixture of dependent and independent arithmetical and lexical tasks, captures the results and reports completion.
+
+COUNT is the length of the list of numbers used in the arithmetical tasks.
+
+`tasker 10`
+
+
+
+

@@ -1,0 +1,30 @@
+#!python
+
+from time import sleep
+from verkefni.worker import run
+
+
+def count_words(s, progress):
+    wc = 0
+    words = s.split()
+    for w in words:
+        sleep(2)
+        wc += 1
+        progress(wc, len(words))
+    return wc
+
+
+def sort_words(s, progress):
+    words = s.split()
+    progress(1, 2)
+    sorted_words = sorted(words)
+    progress(2, 2)
+    return sorted_words
+
+
+work_fns = {
+        'lexical.wordcount': count_words,
+        'lexical.sort': sort_words,
+        }
+
+run('lexical-1', work_fns)

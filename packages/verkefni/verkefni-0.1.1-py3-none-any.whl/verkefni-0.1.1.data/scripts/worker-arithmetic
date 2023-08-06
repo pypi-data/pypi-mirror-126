@@ -1,0 +1,21 @@
+#!python
+
+from time import sleep
+from verkefni.worker import run
+
+
+def do_sum(n, progress):
+    return sum(n)
+
+
+def square(n, progress):
+    sleep(5)
+    return n**2
+
+
+work_fns = {
+        'arithmetic.sum': do_sum,
+        'arithmetic.square': square,
+        }
+
+run('arithmetic-1', work_fns)

@@ -1,0 +1,16 @@
+verkefni/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verkefni/common.py,sha256=cSIowGUwMPORFnCqOqEQIEoWQWJDseWZyBzrvt4ARsM,1086
+verkefni/job.py,sha256=FNtEPYm3RzXEwa2NyqYjVONEcj5jLsWA1vz1GzKdhGI,2275
+verkefni/task.py,sha256=ePYKN8inwABOsIeCAbBZh8yGrA9McGHFrJDTONXx170,123
+verkefni/tasker.py,sha256=hXH576FVu5g7rKrc3XSY68uuLqPG9D8Bt0la-wbhE_c,1840
+verkefni/worker.py,sha256=arFqfEVMJ2bS9LOwoZ1852ufC3pON9eDEtaSZO5o13g,2221
+verkefni-0.1.1.data/scripts/configure,sha256=tTm5Sc-nLOt_hEF-NNvbavz1mGTsOevQ7jFKq2RIlE0,289
+verkefni-0.1.1.data/scripts/log,sha256=Qz3l-w0vGeCk6CLO3lVRlt6F4g5v8mZXmnZ5DfBA86E,1048
+verkefni-0.1.1.data/scripts/monitor,sha256=OMVQD5a3pOlZ7UysXgoFQplyY9ArhZ50IlrsFiKIuS4,1931
+verkefni-0.1.1.data/scripts/tasker,sha256=PDrqKLYWlUPM5mtC-YyJu26_SxrWWo2yWEc-ReoUslo,1307
+verkefni-0.1.1.data/scripts/worker-arithmetic,sha256=pu9izeZjzynSwJJp09K4hiteXnfxQJx1Sq1bQ7aL05U,293
+verkefni-0.1.1.data/scripts/worker-lexical,sha256=NNz7wazN9xITeS6t_ykMEe8e0AZlWpJ7lsv8FZv0zkM,509
+verkefni-0.1.1.dist-info/METADATA,sha256=0oUrj6uGx9YYmZdYXNmtNb71Q2IwMAvbCm5PaLXa0Ng,2013
+verkefni-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+verkefni-0.1.1.dist-info/top_level.txt,sha256=B0e0_JzPt8lzxeYIk2GW1eB7Oxn_xacKdIqGqnFItI8,9
+verkefni-0.1.1.dist-info/RECORD,,

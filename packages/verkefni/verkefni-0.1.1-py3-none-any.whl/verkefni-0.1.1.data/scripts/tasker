@@ -1,0 +1,46 @@
+#!python
+
+from uuid import uuid4
+import click
+import verkefni.common
+from verkefni.tasker import Tasker
+from verkefni.job import SumOfSquares, WordCount
+
+
+logger = verkefni.common.get_logger('tasker-example')
+
+
+@click.command()
+@click.argument('count', type=int)
+def tasker(count):
+    """tasker COUNT
+
+    COUNT is the number of numbers to square and sum"""
+    id = uuid4()
+    logger.info(f'Starting tasker: {id}...')
+    tasker = Tasker(f'{id}')
+    job = SumOfSquares(tasker.send_task, list(range(1, count + 1)))
+    word_job = WordCount(tasker.send_task,
+                         'Mary had a little lamb,\n'
+                         'It\'s fleece was white as snow.\n'
+                         'And everywhere that Mary went,\n'
+                         'The lamb was sure to go.')
+
+    def on_result(result):
+        logger.info(f'Result: {result}')
+        job.on_result(result)
+        word_job.on_result(result)
+        if job.is_complete() and word_job.is_complete():
+            tasker.stop()
+
+    job.start()
+    word_job.start()
+    tasker.run(on_result)
+    logger.info('Task complete.')
+    logger.info(f'Sum of squares: {job.result}')
+    logger.info(f'Word counts: {word_job.wc_by_line}')
+    logger.info(f'Sorted lines: {word_job.sorted_lines}')
+
+
+if __name__ == '__main__':
+    tasker()

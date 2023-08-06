@@ -1,0 +1,11 @@
+#!python
+
+import verkefni.common
+
+
+with verkefni.common.connect() as conn:
+    chan = conn.channel()
+    chan.exchange_declare(
+            exchange='work', exchange_type='topic', durable=True)
+    chan.exchange_declare(
+            exchange='result', exchange_type='topic', durable=True)
