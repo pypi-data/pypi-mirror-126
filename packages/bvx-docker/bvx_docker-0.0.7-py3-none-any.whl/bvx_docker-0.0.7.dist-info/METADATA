@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: bvx-docker
+Version: 0.0.7
+Summary: docker helpers.
+Home-page: https://github.com/kotsutsumi/bvx-docker
+Author: Kazuhiro Kotsutsumi
+Author-email: kotsutsumi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+bvx-docker
+==========
+
+docker helpers.
+
+```
+pip install bvx-docker
+```
+
+## Licence
+
+[MIT](https://github.com/kotsutsumi/bvx-docker/blob/main/LICENSE)
+
+## Author
+
+[kotsutsumi](https://github.com/kotsutsumi)
+
+
