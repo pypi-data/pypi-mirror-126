@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: ivy-toml
+Version: 0.1.0
+Summary: Adds TOML support to Ivy.
+Home-page: https://github.com/dmulholl/ivy_toml
+Author: Darren Mulholland
+Author-email: UNKNOWN
+License: Public Domain
+Description: 
+        TOML Metadata for Ivy
+        =====================
+        
+        This Ivy plugin adds support for TOML file headers as an alternative to YAML.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: Public Domain
