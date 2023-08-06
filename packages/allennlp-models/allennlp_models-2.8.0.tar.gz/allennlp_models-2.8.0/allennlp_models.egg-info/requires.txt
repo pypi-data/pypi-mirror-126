@@ -1,0 +1,7 @@
+torch<1.11.0,>=1.7.0
+conllu==4.4.1
+word2number>=1.1
+py-rouge==1.1
+nltk<3.6.5
+ftfy
+allennlp<2.9,>=2.8.0
