@@ -1,0 +1,3 @@
+[console_scripts]
+rboost = rboost.gui.__main:rboost
+
