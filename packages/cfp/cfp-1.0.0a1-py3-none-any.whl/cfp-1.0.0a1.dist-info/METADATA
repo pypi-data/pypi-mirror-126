@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cfp
+Version: 1.0.0a1
+Summary: CloudFormation parameters builder
+Home-page: https://github.com/cariad/cfp
+Author: Cariad Eccleston
+Author-email: cariad@cariad.earth
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3 (<2.0,>=1.18.59)
+
+# cfp
+Python package to build Amazon Web Services CloudFormation parameters
+
+
