@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: justanunsuspiciousmodule
+Version: 1.1
+Summary: Class with a module for lab
+Home-page: https://github.com/Igor-Sviridov/justanunsuspiciousmodule
+Author: Mekatto
+Author-email: igor@mekatto.com
+License: MIT
+Download-URL: https://pypi.org/project/justanunsuspiciousmodule/
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.6.0
