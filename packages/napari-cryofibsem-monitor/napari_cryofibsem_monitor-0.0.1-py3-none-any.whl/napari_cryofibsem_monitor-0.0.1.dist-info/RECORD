@@ -1,0 +1,12 @@
+napari_cryofibsem_monitor/__init__.py,sha256=ykgbc3WeT5qH_cC28lhG9870_bfGCm9Oj__xjJMG0cQ,153
+napari_cryofibsem_monitor/_dock_widget.py,sha256=jjMOtSm4Y7DWZu7c_SGehVyrZPhSzjPpy2WG2ijiej0,2439
+napari_cryofibsem_monitor/_function.py,sha256=OtTO3LE16dWXecZ7TSSzuhWp0JG-SmtRHT5HAOyZTKE,1681
+napari_cryofibsem_monitor/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_cryofibsem_monitor/_tests/test_dock_widget.py,sha256=nHfZczthO6K_fLEc1PfXdvbQ7VaR_j1r7t2T_lnoD9k,732
+napari_cryofibsem_monitor/_tests/test_function.py,sha256=5t3B5cxTm-ZbPkt-WJbtwb5BKRLGEINeVmeTejw5_4M,127
+napari_cryofibsem_monitor-0.0.1.dist-info/LICENSE,sha256=iTjVCniB6buFeeUfimmckCpdIqBA_cJzotZakyN8V8U,1085
+napari_cryofibsem_monitor-0.0.1.dist-info/METADATA,sha256=eSKd6GWP4r8YPTdiJLt5kwtAfoGqzYE3lsSzM7cN4uE,4270
+napari_cryofibsem_monitor-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+napari_cryofibsem_monitor-0.0.1.dist-info/entry_points.txt,sha256=WG2m9SMUWUxxoqgdFgAt0MUIjk9_I4uqZssbnKTB8C8,71
+napari_cryofibsem_monitor-0.0.1.dist-info/top_level.txt,sha256=9_LnFs7drCHAA8ISTOd094HU-7A6o1HsV85wDo57fjw,26
+napari_cryofibsem_monitor-0.0.1.dist-info/RECORD,,

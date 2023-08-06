@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-cryofibsem-monitor = napari_cryofibsem_monitor
+
