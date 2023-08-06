@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: uaddressformat
+Version: 1.0.0
+Summary: Library for uaddress package. Format types addresses
+Home-page: https://github.com/martinjack/uaddressformat
+Author: Evgen Kytonin
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: module,parse,uaddress
+Platform: UNKNOWN
