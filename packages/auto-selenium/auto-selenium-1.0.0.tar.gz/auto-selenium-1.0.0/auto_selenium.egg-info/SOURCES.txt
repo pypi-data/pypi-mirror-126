@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+auto_selenium.egg-info/PKG-INFO
+auto_selenium.egg-info/SOURCES.txt
+auto_selenium.egg-info/dependency_links.txt
+auto_selenium.egg-info/requires.txt
+auto_selenium.egg-info/top_level.txt
+autoselenium/__init__.py
+autoselenium/browsers.py
+autoselenium/download.py
+autoselenium/driver.py
+autoselenium/utils.py
+autoselenium/whapbot.py
