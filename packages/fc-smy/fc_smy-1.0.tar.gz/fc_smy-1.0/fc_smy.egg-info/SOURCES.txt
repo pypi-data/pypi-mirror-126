@@ -1,0 +1,6 @@
+fc_smy_bigdata.py
+setup.py
+fc_smy.egg-info/PKG-INFO
+fc_smy.egg-info/SOURCES.txt
+fc_smy.egg-info/dependency_links.txt
+fc_smy.egg-info/top_level.txt
