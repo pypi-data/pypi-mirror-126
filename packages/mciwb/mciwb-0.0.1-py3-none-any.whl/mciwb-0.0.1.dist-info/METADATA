@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mciwb
+Version: 0.0.1
+Summary: Minecraft Interactive world builder
+Home-page: https://github.com/giles/mciwb
+Author: Giles Knap
+Author-email: gilesknap@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: mcwb (>=0.1.0)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mypy ; extra == 'dev'
+Requires-Dist: flake8 (<3.9.3) ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+Requires-Dist: pytest-black ; extra == 'dev'
+Requires-Dist: flake8-isort ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme-github-versions ; extra == 'dev'
+Requires-Dist: importlib-metadata ; extra == 'dev'
+Requires-Dist: docker ; extra == 'dev'
+Provides-Extra: include_package_data
+Requires-Dist: False ; extra == 'include_package_data'
+
+UNKNOWN
+

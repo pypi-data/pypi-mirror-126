@@ -1,0 +1,11 @@
+mciwb/__init__.py,sha256=cIQMu_13C-GiTX4F_6CsXaQkvCchMq6NurBlveodkfo,65
+mciwb/_version_git.py,sha256=UBfFHeZ4IxW7-BQe4am63rwP38Q-BItc0zg332e_pbE,3852
+mciwb/backup.py,sha256=M-uCF956QxT0H7_wIgLJ_77kw8Irbr2y7HafAm4zBdA,2560
+mciwb/copy.py,sha256=T6QRXvb6QPROso66yAlAH2KV6LbbKPgyX9r062H7fYI,9218
+mciwb/player.py,sha256=LHOkOOohZ6heMfZh8h1XakN_dulr3WVMm4p5hapEzxA,2537
+mciwb-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mciwb-0.0.1.dist-info/METADATA,sha256=ICjlAKX-W9lI-WKUf1UdIoxc3kG4rPZmTPROP7EXja0,1125
+mciwb-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mciwb-0.0.1.dist-info/entry_points.txt,sha256=L8jeJsu_9PJM-Sp0uzO7JdDxAaOfaSyDJBnu_Nz4ZYI,36
+mciwb-0.0.1.dist-info/top_level.txt,sha256=t9OcJp9onRz_A01cnbHd4Btw7W3SPwfbdg5CUD7ZiAQ,6
+mciwb-0.0.1.dist-info/RECORD,,
