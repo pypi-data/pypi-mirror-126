@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wiktionary-parser-ru
+Version: 0.0.2
+Summary: Basic parser for russian wiktionary
+Home-page: https://github.com/ShatteredMind/wiktionaryparserru
+Author: internethero
+Author-email: sashalekoncev@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+UNKNOWN
+
