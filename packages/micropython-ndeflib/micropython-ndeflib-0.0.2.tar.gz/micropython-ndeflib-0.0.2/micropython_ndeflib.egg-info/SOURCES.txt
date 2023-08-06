@@ -1,0 +1,11 @@
+README.md
+setup.py
+micropython_ndeflib.egg-info/PKG-INFO
+micropython_ndeflib.egg-info/SOURCES.txt
+micropython_ndeflib.egg-info/dependency_links.txt
+micropython_ndeflib.egg-info/top_level.txt
+ndef/__init__.py
+ndef/message.py
+ndef/microuri.py
+ndef/record.py
+ndef/text.py
