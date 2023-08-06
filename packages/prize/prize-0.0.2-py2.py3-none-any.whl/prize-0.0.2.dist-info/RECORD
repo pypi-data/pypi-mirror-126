@@ -1,0 +1,14 @@
+prize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prize/main.py,sha256=xJHn_XFO_j5nfYh9A0mEWsz4oDpJ4kmxqLGoqp8ilAY,369
+prize/pip_trigger.py,sha256=hR4Tu6W6rLpubgl0B5f5ybv3qD-bY2DKB4T4BH8m2qg,627
+prize/setting.py,sha256=pL6JkU0W1hsHbSleT-aQ-zru3GXAecfjHzL5doNel6Y,397
+prize/ui/__init__.py,sha256=6VOR5AnN_AfanNqx2YeG84pGBIoNU7icXO40nPMKM-A,203
+prize/ui/app.py,sha256=AXpQZdPqwb6m8xf-KJ-4HBubImHi7EESKXQdtJSryZA,7262
+prize/ui/menu_setting.py,sha256=UbgrR1WD-rc7Hpfva38iiqsag6nUxlPzDTC_SHMNMVM,2044
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=NM08YS5e8HRoXyU8sTcWasRd9usEgqPmXVmeQNLRgyc,421
+prize-0.0.2.dist-info/METADATA,sha256=seIXGJRHjYLoGZz5cGXtFVU_TDwV7qO_AMNagFH3wiE,1389
+prize-0.0.2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+prize-0.0.2.dist-info/entry_points.txt,sha256=6-wNpME0UHHeK5pGSAfhKR7TCUNdRvU2YievHfQMyHU,71
+prize-0.0.2.dist-info/top_level.txt,sha256=9SWjP_IJgEfmod3a-athL0spixThh6YqyFgo5ju1nmw,12
+prize-0.0.2.dist-info/RECORD,,
