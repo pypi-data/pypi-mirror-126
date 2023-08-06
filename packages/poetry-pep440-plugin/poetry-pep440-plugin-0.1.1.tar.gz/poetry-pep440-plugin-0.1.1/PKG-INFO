@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: poetry-pep440-plugin
+Version: 0.1.1
+Summary: Loosens validation for PEP440 version constraints
+Home-page: https://github.com/martinxsliu/poetry_pep440_plugin
+Author: Martin Liu
+Author-email: martin.xs.liu@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: poetry (>=1.2.0a2,<2.0.0)
+Project-URL: Repository, https://github.com/martinxsliu/poetry_pep440_plugin
+Description-Content-Type: text/markdown
+
+

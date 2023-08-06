@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "poetry-pep440-plugin"
+version = "0.1.1"
+description = "Loosens validation for PEP440 version constraints"
+authors = ["Martin Liu <martin.xs.liu@gmail.com>"]
+repository = "https://github.com/martinxsliu/poetry_pep440_plugin"
+readme = "README.md"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+poetry-pep440-plugin = "poetry_pep440_plugin.plugin:WorkspacePlugin"
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+poetry = {version = "^1.2.0a2", allow-prereleases = true}
+
+[tool.poetry.group.dev.dependencies]
+black = "^21.7-beta.0"
+isort = "^5.9.3"
+
+[tool.black]
+line-length = 120
+target-version = ['py36', 'py37', 'py38', 'py39']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
