@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+mkdocs_shortcode.egg-info/PKG-INFO
+mkdocs_shortcode.egg-info/SOURCES.txt
+mkdocs_shortcode.egg-info/dependency_links.txt
+mkdocs_shortcode.egg-info/entry_points.txt
+mkdocs_shortcode.egg-info/requires.txt
+mkdocs_shortcode.egg-info/top_level.txt
+shortcode/__init__.py
+shortcode/plugin.py
