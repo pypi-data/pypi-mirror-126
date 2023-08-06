@@ -1,0 +1,3 @@
+[console_scripts]
+usql_conf = usql_conf.cli:main
+
