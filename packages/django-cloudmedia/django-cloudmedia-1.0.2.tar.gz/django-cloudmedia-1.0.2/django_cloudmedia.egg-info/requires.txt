@@ -1,0 +1,5 @@
+Django>=3.0
+oss2>=2.15
+cos-python-sdk-v5>=1.9.10
+esdk-obs-python>=3.21
+Pillow>=8.4
