@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kbatch
+Version: 0.2.0
+Summary: Submit batch jobs to Kubernetes.
+Home-page: https://github.com/kbatch-dev/kbatch
+Author: Tom Augspurger
+Author-email: taugspurger@microsoft.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: httpx
+Requires-Dist: pyyaml
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: respx ; extra == 'test'
+
+UNKNOWN
+
