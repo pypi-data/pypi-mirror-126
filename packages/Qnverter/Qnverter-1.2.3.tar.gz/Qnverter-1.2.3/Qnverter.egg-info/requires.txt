@@ -1,0 +1,6 @@
+certifi
+charset-normalizer
+idna
+PyQt5
+requests
+urllib3
