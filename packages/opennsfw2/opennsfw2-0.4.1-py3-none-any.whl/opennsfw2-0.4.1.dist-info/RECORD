@@ -1,0 +1,12 @@
+opennsfw2/__init__.py,sha256=Um0PbCChKfyjEjgkPl-X9FrQ49VebXlrt0AsP3hOj40,213
+opennsfw2/_download.py,sha256=LeBUJqOyJdn3lisW1vV0LeokOLmP6uXoyINUN9Ew2O8,711
+opennsfw2/_image.py,sha256=AQMYO29vRLRQURNtBzgLIcUzxKmQIx44bS7_FUCECT0,1598
+opennsfw2/_inference.py,sha256=gljh71dC16Yv-LoHHAfV5AHyDRNNDj26xexQJM1qn5U,796
+opennsfw2/_model.py,sha256=Kjc-g_XTrCmOZGxsxrL9OqbNZPRNKewfeJ7--cCSDic,6194
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/_test.py,sha256=mL47pmHx-pJf3mdUjvJUOwm9beVQ3ue5nUZQcT8KMZo,1190
+opennsfw2-0.4.1.dist-info/LICENSE,sha256=Ye4VwQBjrL0q_QTY-zGbveMVkprdx_PSpOEWV1S1u4Y,1067
+opennsfw2-0.4.1.dist-info/METADATA,sha256=T-cCe1kaabQmsB5YzEK5VDsKlm7owrJ8GDENrRel65s,6552
+opennsfw2-0.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+opennsfw2-0.4.1.dist-info/top_level.txt,sha256=xxt1fbMhG2UbnV5aiP1A8VCNd6ie80EwfGne4RQXEgE,16
+opennsfw2-0.4.1.dist-info/RECORD,,
