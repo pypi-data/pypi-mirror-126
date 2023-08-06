@@ -1,0 +1,5 @@
+acme>=0.31.0
+certbot>=1.18.0
+dns-lexicon>=3.2.4
+setuptools
+requests
