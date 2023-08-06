@@ -1,0 +1,10 @@
+shortuuid/__init__.py,sha256=mUoED-vt_Z-gAaK_vymPl0fa_Nsjk6eTLkmFUFt46C0,289
+shortuuid/cli.py,sha256=PqyHyhkBlHa_XyUsPuGJDtT3jo7X8JbWkR-kTkTAUjM,55
+shortuuid/django_fields.py,sha256=9LiPZkoQDDc7dGAkEjCEqhLwaTqHAEQ9FTUO1SXdGgs,859
+shortuuid/main.py,sha256=Vb34O4pTvK-Udrju7PHxLVXztLiXXgqD0dbwnCTrjg4,4496
+shortuuid/tests.py,sha256=dyPBeMXNauscoBnuPSBKl-JPIVAPKcz__cbJXGgRy2A,6233
+shortuuid-1.0.6.dist-info/entry_points.txt,sha256=XLULvOdeTokkUQ0sxpJlfqVcZNWqe-Ncu-LcDQ_mYKA,48
+shortuuid-1.0.6.dist-info/COPYING,sha256=BHOYefMMEPHdjRmKO6R5vSoeOufFTRIA9waFf9CbAoM,1492
+shortuuid-1.0.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+shortuuid-1.0.6.dist-info/METADATA,sha256=y-T2jrhZ-9kbk6oe_s242XKEi6VpMraCjL03_FN-8AM,5691
+shortuuid-1.0.6.dist-info/RECORD,,
