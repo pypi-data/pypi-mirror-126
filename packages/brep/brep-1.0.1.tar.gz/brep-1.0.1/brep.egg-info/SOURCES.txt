@@ -1,0 +1,10 @@
+README.md
+setup.py
+./cli/brep
+brep/__init__.py
+brep/lib.py
+brep.egg-info/PKG-INFO
+brep.egg-info/SOURCES.txt
+brep.egg-info/dependency_links.txt
+brep.egg-info/requires.txt
+brep.egg-info/top_level.txt
