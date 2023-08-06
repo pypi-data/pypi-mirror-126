@@ -1,0 +1,16 @@
+konoise/__init__.py,sha256=oeVjVrexD6aJQsAcUhCTCwY5Qvz4oQb4rcSJU55AkMs,51
+konoise/phoneme.py,sha256=VYbtc4GI1xcFMT4CaTbj9zQtcEx66sa2TyUl2GybAm8,3183
+konoise/segments.py,sha256=JJz3JR0O90OEOXwhHRhTqq63iUTuU9mj8Vki1DsER3M,1198
+konoise/utils.py,sha256=lK-8SZH2KeSplJILp4e32bcnqW2qqfrmq3kPYL9cxcM,1035
+konoise/yamin.py,sha256=pjMXpf_bs73me5ZiNFXRHqwoTsKTu20RfEgLFVB-e_Q,1052
+noise/__init__.py,sha256=p9UJhMhzwH3tYCLs6P8lz22zrXPO9DtJkRmrPl9eOWA,42
+noise/phoneme.py,sha256=XwWMuq4C5y8oKesLipjccy1wZHwYeckGKk3EEgL-_d0,2978
+noise/segments.py,sha256=H_qG389vvRj2RxHJ7TLV0-AWdIguBgbniXQgafw9Tms,1199
+noise/utils.py,sha256=lK-8SZH2KeSplJILp4e32bcnqW2qqfrmq3kPYL9cxcM,1035
+noise/yamin.py,sha256=qehMcnNida7In2S-vNf7RM4ctfHCoNeAdjt1Yy5WeJY,1051
+testPackage/__init__.py,sha256=GHTqtCrAtt6mHR5VruQHtkBcbw8JdlxnMYNecXWX988,16
+testPackage/test.py,sha256=t_l-ir99DQwwBYAC4yRQAzVfGBg7hBvw4WAt6iOfhuo,544
+konoise-1.0.3.5.dist-info/METADATA,sha256=2_U4-x3m3bhHgoZZYqzDpOtrM_skqo9Hw_zlDuz49VA,210
+konoise-1.0.3.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+konoise-1.0.3.5.dist-info/top_level.txt,sha256=fhQG6QSlsf1qv7wxCK11fnPM8ZaQPWcvIFw4uvy9jHw,8
+konoise-1.0.3.5.dist-info/RECORD,,
