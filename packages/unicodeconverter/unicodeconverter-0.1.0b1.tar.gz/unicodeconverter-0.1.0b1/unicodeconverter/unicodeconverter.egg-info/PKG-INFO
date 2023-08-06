@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: unicodeconverter
+Version: 0.1.0b1
+Summary: Convert Bangla text from Bijoy to Unicode
+Home-page: https://github.com/shahad-mahmud/unicode_converter
+Author: Md. Shahad Mahmud Chowdhury
+Author-email: shahad9381@gmail.com
+License: UNKNOWN
+Keywords: bangla unicode converter,bijoy to unicode
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
