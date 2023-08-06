@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ostorlab-security
+Version: 0.0.1
+Summary: Ostorlab Agent and Extensibility CLI and SDK
+Home-page: https://github.com/Ostorlab/ostorlab
+Author: ostorlab team
+Author-email: legends@ostorlab.dev
+License: MIT
+Project-URL: Documentation, https://docs.ostorlab.co/
+Project-URL: Source, https://github.com/Ostorlab/ostorlab
+Project-URL: Changelog, https://docs.ostorlab.co/changelog/
+Project-URL: Twitter, https://twitter.com/OstorlabSec
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+# ostorlab
+
+Work in Progress.
+

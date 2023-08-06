@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+tox.ini
+src/__init__.py
+src/ostorlab_security.egg-info/PKG-INFO
+src/ostorlab_security.egg-info/SOURCES.txt
+src/ostorlab_security.egg-info/dependency_links.txt
+src/ostorlab_security.egg-info/entry_points.txt
+src/ostorlab_security.egg-info/not-zip-safe
+src/ostorlab_security.egg-info/requires.txt
+src/ostorlab_security.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
