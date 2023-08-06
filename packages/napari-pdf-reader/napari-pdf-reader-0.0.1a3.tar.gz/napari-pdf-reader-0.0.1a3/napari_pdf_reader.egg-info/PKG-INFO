@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: napari-pdf-reader
+Version: 0.0.1a3
+Summary: Reader for PDF files
+Home-page: https://github.com/krentzd/napari-pdf-reader
+Author: Daniel Krentzel
+Author-email: dkrentzel@pm.me
+License: MIT
+Project-URL: Bug Tracker, https://github.com/krentzd/napari-pdf-reader/issues
+Project-URL: Documentation, https://github.com/krentzd/napari-pdf-reader#README.md
+Project-URL: Source Code, https://github.com/krentzd/napari-pdf-reader
+Project-URL: User Support, https://github.com/krentzd/napari-pdf-reader/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: napari
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# PDF reader for napari
+Reads PDF files into napari
+
+

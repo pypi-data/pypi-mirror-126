@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-pdf-reader = napari_pdf_reader
+
