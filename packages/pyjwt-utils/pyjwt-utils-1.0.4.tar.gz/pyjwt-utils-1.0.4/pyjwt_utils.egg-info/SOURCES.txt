@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+jwt_utils/__init__.py
+jwt_utils/backend.py
+jwt_utils/django/__init__.py
+jwt_utils/django/apps.py
+jwt_utils/django/backend.py
+jwt_utils/django/settings.py
+pyjwt_utils.egg-info/PKG-INFO
+pyjwt_utils.egg-info/SOURCES.txt
+pyjwt_utils.egg-info/dependency_links.txt
+pyjwt_utils.egg-info/requires.txt
+pyjwt_utils.egg-info/top_level.txt
