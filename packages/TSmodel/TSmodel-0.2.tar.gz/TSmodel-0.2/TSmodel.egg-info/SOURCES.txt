@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+TSmodel/__init__.py
+TSmodel.egg-info/PKG-INFO
+TSmodel.egg-info/SOURCES.txt
+TSmodel.egg-info/dependency_links.txt
+TSmodel.egg-info/requires.txt
+TSmodel.egg-info/top_level.txt
