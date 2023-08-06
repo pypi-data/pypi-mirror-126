@@ -1,0 +1,15 @@
+WaterDetect.ini,sha256=I_F_h4jQhXeGmRQ-aUWihHmWKdR2xMuz1RuRjQ42Ssw,6483
+runWaterDetect.py,sha256=jhZcoG-rhkJs0fh5gzCwpkRDWo-ywbTpoP6DVthY82A,7878
+waterdetect/Common.py,sha256=pdQoR323cVycES4JMg3OBsfxmedGycMWYf86kmOP14Y,42477
+waterdetect/External_mask.py,sha256=X69OKoHQzvjX-rsM09xyoUVnf-hdfpSEnHM6lxSYLAs,4113
+waterdetect/Glint.py,sha256=cHEYvsvMg79xdxYKurJIQDQ5nVlPwZstMBa8cinUoUo,7391
+waterdetect/Image.py,sha256=P4vHQAGSNWzKhfuWPSIDrZf6DCYpQpSEgx1jnERejxk,31199
+waterdetect/InputOutput.py,sha256=dYDqGvrJ4dtiAN0q_Xd_0j8SJDUqUv8nEEfMQvY8cpU,29604
+waterdetect/WaterDetect.py,sha256=Gm3rYDv5mhLv0aMYPH9IfcFIQP1DW4OnXZ3gHslpPqk,27464
+waterdetect/__init__.py,sha256=vl-GL3Apm2XJKUvoMJ564ydviET-5lhg7ZMQr4EQOrM,1359
+waterdetect-1.5.10.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+waterdetect-1.5.10.dist-info/METADATA,sha256=SELZEGQRESg7MnEFyLHpUiRUbTEN-1vonFdfxWkZUdA,1158
+waterdetect-1.5.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+waterdetect-1.5.10.dist-info/entry_points.txt,sha256=6_62alTYA85KRjpW28OpXEP8kQedcRIUCOOaJdp0SKI,106
+waterdetect-1.5.10.dist-info/top_level.txt,sha256=yUeNBtfqWOYb4OlIfEhOyo0imK1WqdA7tydMSEeF-fs,12
+waterdetect-1.5.10.dist-info/RECORD,,
