@@ -1,0 +1,8 @@
+[pipen_cli_run]
+bam=biopipen.namespaces.bam
+bed=biopipen.namespaces.bed
+misc=biopipen.namespaces.misc
+scrna=biopipen.namespaces.scrna
+tcr=biopipen.namespaces.tcr
+vcf=biopipen.namespaces.vcf
+
