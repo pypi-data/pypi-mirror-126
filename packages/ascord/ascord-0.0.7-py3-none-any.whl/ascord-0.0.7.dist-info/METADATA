@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ascord
+Version: 0.0.7
+Summary: Generating Python Discord bots
+Home-page: UNKNOWN
+Author: Kavin Jindal
+Author-email: kavinsjindal@gmail.com
+License: UNKNOWN
+Requires-Dist: discord
+
+
+<img src='https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen'>
+
