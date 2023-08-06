@@ -1,0 +1,11 @@
+README.md
+setup.py
+whid/__init__.py
+whid/__main__.py
+whid/utils.py
+whid.egg-info/PKG-INFO
+whid.egg-info/SOURCES.txt
+whid.egg-info/dependency_links.txt
+whid.egg-info/entry_points.txt
+whid.egg-info/requires.txt
+whid.egg-info/top_level.txt
