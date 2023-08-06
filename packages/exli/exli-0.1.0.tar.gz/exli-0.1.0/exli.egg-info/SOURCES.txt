@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+exli/__init__.py
+exli/__main__.py
+exli/_cmd_utils.py
+exli/_const.py
+exli/main.py
+exli.egg-info/PKG-INFO
+exli.egg-info/SOURCES.txt
+exli.egg-info/dependency_links.txt
+exli.egg-info/entry_points.txt
+exli.egg-info/top_level.txt
