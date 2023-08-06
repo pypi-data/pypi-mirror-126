@@ -1,0 +1,6 @@
+NAME=biglake
+VERSION=0.1
+AUTHOR=Anthony Potappel
+AUTHOR_EMAIL="anthony.potappel@gmail.com
+DESCRIPTION=Create and query datalakes
+URL=https://github.com/anthonypotappel/biglake

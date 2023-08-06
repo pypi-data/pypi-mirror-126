@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+./variables
+biglake/__init__.py
+biglake/__main__.py
+biglake.egg-info/PKG-INFO
+biglake.egg-info/SOURCES.txt
+biglake.egg-info/dependency_links.txt
+biglake.egg-info/top_level.txt
+biglake/main/myclass.py
+biglake/main/parser.py
