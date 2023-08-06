@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/mediasorter/__init__.py
+src/mediasorter/console.py
+src/mediasorter/sorter.py
+src/mediasorter.egg-info/PKG-INFO
+src/mediasorter.egg-info/SOURCES.txt
+src/mediasorter.egg-info/dependency_links.txt
+src/mediasorter.egg-info/entry_points.txt
+src/mediasorter.egg-info/requires.txt
+src/mediasorter.egg-info/top_level.txt
