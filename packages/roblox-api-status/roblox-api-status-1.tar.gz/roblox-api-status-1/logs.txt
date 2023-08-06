@@ -1,0 +1,52 @@
+Account Information is working with response code 200
+Account Settings is working with response code 200
+Advertising Configuration is working with response code 200
+Advertisement is working with response code 200
+Assets Delivery is working with response code 200
+Authenication is working with response code 200
+Avatar is working with response code 200
+Badges is working with response code 200
+Billing is working with response code 200
+Catalog is working with response code 200
+CDN Provider is working with response code 200
+Chat is working with response code 200
+Client Settings is working with response code 200
+Contacts is working with response code 200
+Content Store is working with response code 200
+Develop is working with response code 200
+Economy is working with response code 200
+Engagement Payouts is working with response code 200
+Followings is working with response code 200
+Friends is working with response code 200
+Game Internationalization is working with response code 200
+Game Join is working with response code 200
+Game Persistence is working with response code 200
+Games is working with response code 200
+Groups is working with response code 200
+Groups Moderation is working with response code 200
+Inventory is working with response code 200
+Item Configuration is working with response code 200
+Legacy is not working with response code 403
+Locale is working with response code 200
+Localization Tables is working with response code 200
+Metrics is working with response code 200
+Notifications is working with response code 200
+Points is working with response code 200
+Premiums Features is working with response code 200
+Presence is working with response code 200
+Private Messages is working with response code 200
+Publish is working with response code 200
+Economy creator stats is working with response code 200
+Share is working with response code 200
+Text Filter is working with response code 200
+Thumbnails is working with response code 200
+Thumbnails Resizer is working with response code 200
+Trades is working with response code 200
+Translation Roles is working with response code 200
+Translation is working with response code 200
+Two step Verification is working with response code 200
+User Moderation is working with response code 200
+Users is working with response code 200
+Voice is working with response code 200
+Website is working with response code 200
+Status Website is working with response code 200
