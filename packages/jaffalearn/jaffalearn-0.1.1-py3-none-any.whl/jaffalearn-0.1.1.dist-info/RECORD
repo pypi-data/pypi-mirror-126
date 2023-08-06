@@ -1,0 +1,15 @@
+jaffalearn/__init__.py,sha256=8roURPlsdkj8rI0LCRC6XY53tmGimE2sI9hEn0EEEMY,344
+jaffalearn/checkpoint.py,sha256=wBSIwbr_m127DZ-Pcf6xpA5KH-Je38AXY_-aI7ycalE,1676
+jaffalearn/data/__init__.py,sha256=0GP2Jad-G341T-pAzf6Ejp1WPXyeULi869O11Um1Xqs,702
+jaffalearn/data/cache.py,sha256=LEXfKo9xRw9ODQsvozVXlY0FtnfQOSTKP5fOvtLGEfs,1840
+jaffalearn/data/datasets.py,sha256=slpetqJC475NS2FsWYdSL3ObY4p27lmBIJnJccwFWL8,5404
+jaffalearn/data/features.py,sha256=SnyCH_VUp_NYO6OuwkufiGS1-pat7HkLQ64z2HB59f0,1434
+jaffalearn/data/loader.py,sha256=pkOvhtU6vwtvjXrAVMHA20IAiFPGZybLrdGzKY_mUBE,6334
+jaffalearn/data/mixed.py,sha256=-Uvdq5L4U-IZ5zUTTgfRIdtfeD0XOWoxgt2wjrl940I,5328
+jaffalearn/engine.py,sha256=A14QpLd5SlBZsOKgPqN_pWV5nTC8EjIKj7_LxvROuhE,4820
+jaffalearn/logging.py,sha256=_Iy7mqxMWTR149-Eqmpvuod-uC_n8fyfiFO3j9r57aY,1762
+jaffalearn/system.py,sha256=4j3JRbBF_ohOKyYQxXZZ95deKbTmQvc6T3RS8UdCaug,6396
+jaffalearn-0.1.1.dist-info/LICENSE,sha256=1-fn7XSRRwGg8XbAB06TRTHuH6gIlYMhzy7dwO4nLgA,730
+jaffalearn-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+jaffalearn-0.1.1.dist-info/METADATA,sha256=uYaIBdygku4mvpYsgapxFC-2GA6X_l77nQ_WSp13u_w,1125
+jaffalearn-0.1.1.dist-info/RECORD,,
