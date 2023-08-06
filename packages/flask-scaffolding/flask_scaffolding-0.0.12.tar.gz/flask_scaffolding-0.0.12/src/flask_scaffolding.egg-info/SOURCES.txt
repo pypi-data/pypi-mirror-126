@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/flask_scaffolding.egg-info/PKG-INFO
+src/flask_scaffolding.egg-info/SOURCES.txt
+src/flask_scaffolding.egg-info/dependency_links.txt
+src/flask_scaffolding.egg-info/top_level.txt
+src/scaffold/__init__.py
+src/scaffold/web.py
+src/scaffold/base/config.py
+src/scaffold/base/run.py
+src/scaffold/base/app/__init__.py
+src/scaffold/base/app/forms.py
+src/scaffold/base/app/models.py
+src/scaffold/base/app/views.py
