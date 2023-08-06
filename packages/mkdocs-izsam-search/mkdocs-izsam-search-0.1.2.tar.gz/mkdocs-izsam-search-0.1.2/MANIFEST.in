@@ -1,0 +1,5 @@
+include mkdocs_izsam_search/lunr-langauge
+include mkdocs_izsam_search/lunr-langauge/*
+include mkdocs_izsam_search/templates
+include mkdocs_izsam_search/templates/*
+include mkdocs_izsam_search/prebuild-index.js
