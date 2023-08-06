@@ -1,0 +1,4 @@
+requests
+fake-headers
+jinja2
+bs4
