@@ -1,0 +1,11 @@
+cartopy
+
+[dev]
+pytest
+flake8
+
+[lint]
+flake8
+
+[test]
+pytest

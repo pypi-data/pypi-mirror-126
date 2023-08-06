@@ -1,0 +1,2 @@
+eurec4a_synop
+tests
