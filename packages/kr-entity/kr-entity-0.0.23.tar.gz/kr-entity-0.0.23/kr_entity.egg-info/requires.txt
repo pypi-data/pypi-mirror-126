@@ -1,0 +1,6 @@
+tabulate
+email-normalize
+url-normalize
+pycountry
+phonenumbers
+cleanco
