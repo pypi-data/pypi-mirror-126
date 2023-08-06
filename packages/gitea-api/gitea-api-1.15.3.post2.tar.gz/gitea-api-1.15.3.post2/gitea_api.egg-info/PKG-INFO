@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gitea-api
+Version: 1.15.3.post2
+Summary: Gitea API.
+Home-page: UNKNOWN
+Author-email: 
+License: UNKNOWN
+Keywords: Swagger,Gitea API.
+Platform: UNKNOWN
+License-File: LICENSE
+
+    This documentation describes the Gitea API.  # noqa: E501
+    
+
