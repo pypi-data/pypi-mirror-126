@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: terris
+Version: 0.0.0
+Summary: A CLI Client for FerrisChat using FerrisWheel
+Home-page: https://github.com/FerrisChat/terris
+Author: Cryptex
+License: EUPL v1.2
+Project-URL: Issue tracker, https://github.com/FerrisChat/terris/issues/new
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# terris
+A CLI Client for @FerrisChat using FerrisWheel
+
+

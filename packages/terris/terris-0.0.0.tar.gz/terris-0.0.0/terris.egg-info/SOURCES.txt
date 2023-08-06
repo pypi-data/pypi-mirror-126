@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+terris/__init__.py
+terris/__main__.py
+terris.egg-info/PKG-INFO
+terris.egg-info/SOURCES.txt
+terris.egg-info/dependency_links.txt
+terris.egg-info/requires.txt
+terris.egg-info/top_level.txt
