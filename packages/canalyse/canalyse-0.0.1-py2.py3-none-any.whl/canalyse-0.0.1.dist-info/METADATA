@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: canalyse
+Version: 0.0.1
+Summary: Analyse curp result
+Home-page: https://github.com/flat35hd99/canalyse
+Author: flat35hd99
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/flat35hd99/canalyse/issues
+Project-URL: Source Code, https://github.com/flat35hd99/canalyse
+Platform: any
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+
+# Canalyse
+
+Analyse [CURP](https://curp.jp/) result.
+
+
