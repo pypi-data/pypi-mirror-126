@@ -1,0 +1,9 @@
+README.md
+setup.py
+foo/__init__.py
+foo/bar.py
+foo_pkg_Liudongbo.egg-info/PKG-INFO
+foo_pkg_Liudongbo.egg-info/SOURCES.txt
+foo_pkg_Liudongbo.egg-info/dependency_links.txt
+foo_pkg_Liudongbo.egg-info/top_level.txt
+foo_pkg_Liudongbo.egg-info/zip-safe
