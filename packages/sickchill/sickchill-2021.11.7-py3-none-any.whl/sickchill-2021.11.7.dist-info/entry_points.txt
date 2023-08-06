@@ -1,0 +1,6 @@
+[console_scripts]
+SickChill=SickChill.py[cli]
+
+[poetry.application.plugin]
+plugin=poetry_date_version_plugin.plugin:VersionPlugin
+
