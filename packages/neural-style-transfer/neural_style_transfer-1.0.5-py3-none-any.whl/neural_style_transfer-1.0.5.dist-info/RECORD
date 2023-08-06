@@ -1,0 +1,9 @@
+neuralstyletransfer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neuralstyletransfer/about.py,sha256=x-V1KH4K9tLucIOnIdoInOcUMNzsnB4KabH-HDAFJyE,362
+neuralstyletransfer/model.py,sha256=a6XBMNULFXnCYlT0uQsv0ELtPPUQnP9hNnv9Kjwkn2g,7506
+neuralstyletransfer/style_transfer.py,sha256=ldduijhgQ_6E2aRiZvat6Ar11OnNq5RSWh_9iVj_O7I,796
+neural_style_transfer-1.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+neural_style_transfer-1.0.5.dist-info/METADATA,sha256=nz8nbmkpFxRgYXgbb971HbKdYVjSSsGFSfdC6nOmtIE,1885
+neural_style_transfer-1.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+neural_style_transfer-1.0.5.dist-info/top_level.txt,sha256=ZJHs3B8Olx81jMc_bqLc1UPbrxdfz25AAV3IzH2Igzg,20
+neural_style_transfer-1.0.5.dist-info/RECORD,,
