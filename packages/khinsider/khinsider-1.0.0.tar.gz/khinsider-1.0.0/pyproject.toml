@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "khinsider"
+version = "1.0.0"
+description = "A script for khinsider mass downloads. Get video game soundtracks quickly and easily! Also a Python interface."
+authors = [
+	"Kyle Williams <kyle.anthony.williams2@gmail.com>",
+	"obskyr <powpowd@gmail.com>"
+]
+readme = "readme.md"
+homepage = "https://github.com/SuperSonicHub1/khinsider"
+repository = "https://github.com/SuperSonicHub1/khinsider.git"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.26.0"
+beautifulsoup4 = "^4.10.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+khinsider = 'khinsider:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
