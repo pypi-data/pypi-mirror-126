@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyeobf.egg-info/PKG-INFO
+src/pyeobf.egg-info/SOURCES.txt
+src/pyeobf.egg-info/dependency_links.txt
+src/pyeobf.egg-info/top_level.txt

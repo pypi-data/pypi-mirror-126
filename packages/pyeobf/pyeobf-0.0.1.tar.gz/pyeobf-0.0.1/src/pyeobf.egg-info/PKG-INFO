@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyeobf
+Version: 0.0.1
+Summary: An easy inefficient obfuscatation and running tool for python code
+Home-page: https://github.com/SsNiPeR1/pyeasyobfuscator
+Author: SsNiPeR1
+Author-email: ssniper1@mail.ssniper1.ml
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/SsNiPeR1/pyeasyobfuscator/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyEasyObfuscator
+Easy obfuscator that uses base58, I know that it is not so good cus anybody can decode BUT it will have a password later
+
+
