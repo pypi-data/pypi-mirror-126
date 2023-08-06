@@ -1,0 +1,16 @@
+include blocks/mine/*.py 
+include blocks/mine/*.xml
+include blocks/mine/*.xsl
+include blocks/mine/*.txt
+include blocks/mine/grako/*.py
+include blocks/interface/*.py 
+include blocks/interface/*.xml
+include blocks/work/*.py 
+include blocks/views/*.py 
+include blocks/data/help/*
+include blocks/data/icons/*.png
+include blocks/data/icons/*.ico
+include blocks/data/licenses/LICENSE*
+include CHANGELOG
+include LICENSE 
+include MANIFEST.in

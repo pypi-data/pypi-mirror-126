@@ -1,0 +1,8 @@
+[console_scripts]
+exec_client = exec_client:main
+exec_clired = blocks.mine.exec_clired:main
+exec_server = exec_server:main
+
+[gui_scripts]
+exec_siren = exec_siren:main
+

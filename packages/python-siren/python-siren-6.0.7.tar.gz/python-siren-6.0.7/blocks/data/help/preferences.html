@@ -1,0 +1,2242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Parameters &mdash; Siren - Interactive Redescription Mining - User Guide</title>
+    
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+    <link rel="stylesheet" href="pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    </script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="underscore.js"></script>
+    <script type="text/javascript" src="doctools.js"></script>
+    <script type="text/javascript" src="language_data.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="siren_icon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="Siren - Interactive Redescription Mining - User Guide" href="index.html" />
+    <link rel="prev" title="Formats" href="formats.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+ 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="formats.html" title="Formats"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Siren - Interactive Redescription Mining - User Guide</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<h3><a href="index.html">Table Of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interface.html">Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formats.html">Formats</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Parameters</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#mining-parameters">Mining parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#visualization-parameters">Visualization parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#other-parameters">Other parameters</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+<h4><a href="http://cs.uef.fi/siren/main/">Main Siren webpage</a></h4>
+
+  <div class="logo">
+  <a href="index.html">
+      <img class="logo" src="siren_icon.png" alt="Logo"/>
+    </a>
+  </div>
+
+          <!-- -->
+          <!--   <p class="logo"><a href="index.html"> -->
+          <!--     <img class="logo" src="siren_icon.png" alt="Logo"/> -->
+          <!--   </a></p> -->
+          <!-- -->
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="parameters">
+<span id="preferences"></span><h1>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Siren allows to tune various parameters via an interface menu <span class="menuselection">Edit ‣ Preferences</span>.</p>
+<p>Non-default parameters can be stored in a preferences file, e.g. via <span class="menuselection">Export ‣ Export preferences</span>.</p>
+<p class="last">Parameters are listed below by their label and identifier, as used respectively in the interface and in preference files, with a short explanation of the parameter, type, default value and indication of file where the parameter is defined.</p>
+</div>
+<p>The parameters that can be set through the preference interface can be mainly divided into two categories, <strong>mining parameters</strong>, that pertain to the mining algorithm, and <strong>visualization parameters</strong>, that pertain to the interactive visualizations, each split over several tabs.</p>
+<div class="section" id="mining-parameters">
+<span id="id1"></span><h2>Mining parameters<a class="headerlink" href="#mining-parameters" title="Permalink to this headline">¶</a></h2>
+<p>Mining parameters are specified <a class="reference external" href="miner_confdef.xml">here</a> and can be set through the interface.</p>
+<p>Quite many parameters are available for tuning, but in general only a few of them need to be adjusted.
+In particular, the parameters setting threshold values on the support of the queries, on the accuracy of the returned redescriptions, as well as on the type of queries, are the most important ones.</p>
+<p class="rubric">Mining: Method</p>
+<dl class="cparam">
+<dt id="cparam-mining_algo-lbl">
+Mining algorithm<a class="headerlink" href="#cparam-mining_algo-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-mining_algo">
+<code class="descname">mining_algo</code><a class="headerlink" href="#cparam-mining_algo" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Algorithm to use for mining, greedy ReReMi or based on classification trees (restrictions apply).</li>
+<li>single option in {reremi, layeredtrees, splittrees, cartwheel, fim}</li>
+<li>default: reremi</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Mining: Queries</p>
+<dl class="cparam">
+<dt id="cparam-max_var_s0-lbl">
+LHS max number of variables<a class="headerlink" href="#cparam-max_var_s0-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-max_var_s0">
+<code class="descname">max_var_s0</code><a class="headerlink" href="#cparam-max_var_s0" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum number of variables in a left-hand side query, maximum tree depth in tree-based algorithms.</li>
+<li>open text</li>
+<li>default: 4</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-max_var_s1-lbl">
+RHS max number of variables<a class="headerlink" href="#cparam-max_var_s1-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-max_var_s1">
+<code class="descname">max_var_s1</code><a class="headerlink" href="#cparam-max_var_s1" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum number of variables in a right-hand side query, maximum tree depth in tree-based algorithms.</li>
+<li>open text</li>
+<li>default: 4</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Mining: Candidate filtering</p>
+<dl class="cparam">
+<dt id="cparam-min_itm_c-lbl">
+Min contribution<a class="headerlink" href="#cparam-min_itm_c-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-min_itm_c">
+<code class="descname">min_itm_c</code><a class="headerlink" href="#cparam-min_itm_c" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Minimum contribution, number of supporting entities impacted by the addition of a literal in ReReMi or minimum node size in tree-based algorithms. Values between 0 and 1 are interpreted as ratio of the total number of entities.</li>
+<li>open text</li>
+<li>default: 3.0</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-min_itm_in-lbl">
+Min support<a class="headerlink" href="#cparam-min_itm_in-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-min_itm_in">
+<code class="descname">min_itm_in</code><a class="headerlink" href="#cparam-min_itm_in" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Minimum number of supporting entities. Values between 0 and 1 are interpreted as ratio of the total number of entities.</li>
+<li>open text</li>
+<li>default: 0.05</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-min_itm_out-lbl">
+Min uncovered<a class="headerlink" href="#cparam-min_itm_out-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-min_itm_out">
+<code class="descname">min_itm_out</code><a class="headerlink" href="#cparam-min_itm_out" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Minimum number of uncovered entities. Values between 0 and 1 are interpreted as ratio of the total number of entities.</li>
+<li>open text</li>
+<li>default: 0.05</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-min_impr-lbl">
+Min improvement<a class="headerlink" href="#cparam-min_impr-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-min_impr">
+<code class="descname">min_impr</code><a class="headerlink" href="#cparam-min_impr" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Minimum improvement score for an acceptable extension.</li>
+<li>open text</li>
+<li>default: 0.0</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-max_inits-lbl">
+Max initial candidates<a class="headerlink" href="#cparam-max_inits-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-max_inits">
+<code class="descname">max_inits</code><a class="headerlink" href="#cparam-max_inits" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum number of initial candidates explored, pairs for ReReMi, initial targets for trees. -1 leads to expand all.</li>
+<li>open text</li>
+<li>default: 100</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-inits_productivity-lbl">
+Initial candidates productivity<a class="headerlink" href="#cparam-inits_productivity-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-inits_productivity">
+<code class="descname">inits_productivity</code><a class="headerlink" href="#cparam-inits_productivity" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Productivity when creating an initial pair of literals from non-Boolean variables.</li>
+<li>single option in {low, medium, high}</li>
+<li>default: medium</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-inits_types_exclude-lbl">
+Excluded initial cand. pair types<a class="headerlink" href="#cparam-inits_types_exclude-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-inits_types_exclude">
+<code class="descname">inits_types_exclude</code><a class="headerlink" href="#cparam-inits_types_exclude" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Excluded variable types in initial pairs. B, C and N stand for Boolean, Categorical and Numerical variables, respectively. Note order is simpler type first, not by sides.</li>
+<li>multiple options in {BB, BC, BN, CC, CN, NN}</li>
+<li>default: {}</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Mining: Final filtering</p>
+<dl class="cparam">
+<dt id="cparam-min_fin_in-lbl">
+Min support<a class="headerlink" href="#cparam-min_fin_in-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-min_fin_in">
+<code class="descname">min_fin_in</code><a class="headerlink" href="#cparam-min_fin_in" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Minimum number of supporting entities, applied for final filtering. Values between 0 and 1 are interpreted as ratio of the total number of entities.</li>
+<li>open text</li>
+<li>default: -1.0</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-min_fin_out-lbl">
+Min uncovered<a class="headerlink" href="#cparam-min_fin_out-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-min_fin_out">
+<code class="descname">min_fin_out</code><a class="headerlink" href="#cparam-min_fin_out" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Minimum number of uncovered entities, applied for final filtering. Values between 0 and 1 are interpreted as ratio of the total number of entities.</li>
+<li>open text</li>
+<li>default: -1.0</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-min_fin_acc-lbl">
+Min accuracy<a class="headerlink" href="#cparam-min_fin_acc-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-min_fin_acc">
+<code class="descname">min_fin_acc</code><a class="headerlink" href="#cparam-min_fin_acc" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Minimum accuracy, applied for final filtering.</li>
+<li>open text</li>
+<li>default: 0.01</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-max_fin_pval-lbl">
+Max p-value<a class="headerlink" href="#cparam-max_fin_pval-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-max_fin_pval">
+<code class="descname">max_fin_pval</code><a class="headerlink" href="#cparam-max_fin_pval" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum p-value, applied for final filtering.</li>
+<li>open text</li>
+<li>default: 0.01</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Mining: Additional filtering</p>
+<dl class="cparam">
+<dt id="cparam-max_overlap_area-lbl">
+Max Area Overlap<a class="headerlink" href="#cparam-max_overlap_area-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-max_overlap_area">
+<code class="descname">max_overlap_area</code><a class="headerlink" href="#cparam-max_overlap_area" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Two redescriptions whose area overlap is beyond this ratio are considered redundant.</li>
+<li>open text</li>
+<li>default: 0.5</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-max_overlap_rows-lbl">
+Max Rows Overlap<a class="headerlink" href="#cparam-max_overlap_rows-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-max_overlap_rows">
+<code class="descname">max_overlap_rows</code><a class="headerlink" href="#cparam-max_overlap_rows" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Two redescriptions whose row overlap is beyond this ratio are considered redundant.</li>
+<li>open text</li>
+<li>default: 0.5</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Mining adv.: Process</p>
+<dl class="cparam">
+<dt id="cparam-nb_processes-lbl">
+Nb processes<a class="headerlink" href="#cparam-nb_processes-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-nb_processes">
+<code class="descname">nb_processes</code><a class="headerlink" href="#cparam-nb_processes" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum number of mining processes to use in parallel.</li>
+<li>open text</li>
+<li>default: 1</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-verbosity-lbl">
+Log verbosity<a class="headerlink" href="#cparam-verbosity-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-verbosity">
+<code class="descname">verbosity</code><a class="headerlink" href="#cparam-verbosity" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Verbosity of the mining process output.</li>
+<li>range in [0, 10]</li>
+<li>default: 4</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-debug_checks-lbl">
+Debug checks<a class="headerlink" href="#cparam-debug_checks-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-debug_checks">
+<code class="descname">debug_checks</code><a class="headerlink" href="#cparam-debug_checks" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>For debugging, double check counts.</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Mining adv.: Other common parameters</p>
+<dl class="cparam">
+<dt id="cparam-batch_out-lbl">
+Batch output<a class="headerlink" href="#cparam-batch_out-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-batch_out">
+<code class="descname">batch_out</code><a class="headerlink" href="#cparam-batch_out" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum number of redescriptions returned from an expansion batch.</li>
+<li>open text</li>
+<li>default: 1</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-min_fin_var-lbl">
+Min total number of variables<a class="headerlink" href="#cparam-min_fin_var-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-min_fin_var">
+<code class="descname">min_fin_var</code><a class="headerlink" href="#cparam-min_fin_var" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum number of variables per redescription, applied for final filtering.</li>
+<li>open text</li>
+<li>default: 2</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-in_weight-lbl">
+Weight Inside<a class="headerlink" href="#cparam-in_weight-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-in_weight">
+<code class="descname">in_weight</code><a class="headerlink" href="#cparam-in_weight" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Weight for entities inside selected area (only applies when such an area is specified).</li>
+<li>open text</li>
+<li>default: 10</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-out_weight-lbl">
+Weight Outside<a class="headerlink" href="#cparam-out_weight-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-out_weight">
+<code class="descname">out_weight</code><a class="headerlink" href="#cparam-out_weight" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Weight for entities outside selected area (only applies when such an area is specified).</li>
+<li>open text</li>
+<li>default: 1</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-var_compat-lbl">
+Var group compatibility<a class="headerlink" href="#cparam-var_compat-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-var_compat">
+<code class="descname">var_compat</code><a class="headerlink" href="#cparam-var_compat" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Fixes whether group ids should differ or match for variables to be considered compatible (gid=-1 is universally compatible).</li>
+<li>single option in {differ, match}</li>
+<li>default: differ</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-method_pval-lbl">
+p-value formula<a class="headerlink" href="#cparam-method_pval-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-method_pval">
+<code class="descname">method_pval</code><a class="headerlink" href="#cparam-method_pval" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Formula used for computing the p-value.</li>
+<li>single option in {marg, supp, over}</li>
+<li>default: marg</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-parts_type-lbl">
+Missing values belief<a class="headerlink" href="#cparam-parts_type-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-parts_type">
+<code class="descname">parts_type</code><a class="headerlink" href="#cparam-parts_type" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Type of Jaccard index, determines how to consider missing values when computing support statistics.</li>
+<li>single option in {rejective, optimistic, pessimistic, positive, negative, basic, exclu}</li>
+<li>default: rejective</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Mining adv.: Tree-based algorithms</p>
+<dl class="cparam">
+<dt id="cparam-max_rounds-lbl">
+Max rounds in CartWheel<a class="headerlink" href="#cparam-max_rounds-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-max_rounds">
+<code class="descname">max_rounds</code><a class="headerlink" href="#cparam-max_rounds" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum number of alternations in CartWheel algorithm.</li>
+<li>open text</li>
+<li>default: 10</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-split_criterion-lbl">
+Split criterion<a class="headerlink" href="#cparam-split_criterion-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-split_criterion">
+<code class="descname">split_criterion</code><a class="headerlink" href="#cparam-split_criterion" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Score used to evaluate splits during decision tree induction.</li>
+<li>single option in {gini, entropy}</li>
+<li>default: gini</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Mining adv.: Splittrees variant</p>
+<dl class="cparam">
+<dt id="cparam-splittrees_init_depth-lbl">
+Init depth<a class="headerlink" href="#cparam-splittrees_init_depth-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-splittrees_init_depth">
+<code class="descname">splittrees_init_depth</code><a class="headerlink" href="#cparam-splittrees_init_depth" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum tree depth for the split in the first round.</li>
+<li>open text</li>
+<li>default: 1</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-splittrees_update_target-lbl">
+Update target<a class="headerlink" href="#cparam-splittrees_update_target-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-splittrees_update_target">
+<code class="descname">splittrees_update_target</code><a class="headerlink" href="#cparam-splittrees_update_target" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Update the target between tree growing rounds.</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-splittrees_both_sides_change-lbl">
+Both sides change<a class="headerlink" href="#cparam-splittrees_both_sides_change-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-splittrees_both_sides_change">
+<code class="descname">splittrees_both_sides_change</code><a class="headerlink" href="#cparam-splittrees_both_sides_change" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Require both sides to be different in successive tree growing rounds.</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-splittrees_dyn_side-lbl">
+Dynamic side<a class="headerlink" href="#cparam-splittrees_dyn_side-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-splittrees_dyn_side">
+<code class="descname">splittrees_dyn_side</code><a class="headerlink" href="#cparam-splittrees_dyn_side" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Choose the side on which to grow the tree first depending on the source of the target (else always start with RHS).</li>
+<li>yes/no</li>
+<li>default: yes</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">ReReMi: Queries</p>
+<dl class="cparam">
+<dt id="cparam-single_side_or-lbl">
+Single side OR<a class="headerlink" href="#cparam-single_side_or-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-single_side_or">
+<code class="descname">single_side_or</code><a class="headerlink" href="#cparam-single_side_or" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Restrict use of disjunction to only one side.</li>
+<li>yes/no</li>
+<li>default: yes</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-multi_cats-lbl">
+Multi categories<a class="headerlink" href="#cparam-multi_cats-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-multi_cats">
+<code class="descname">multi_cats</code><a class="headerlink" href="#cparam-multi_cats" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Allow combining multiple categories of a categorical variable.</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-add_condition-lbl">
+Conditional<a class="headerlink" href="#cparam-add_condition-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-add_condition">
+<code class="descname">add_condition</code><a class="headerlink" href="#cparam-add_condition" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Allow making conditional redescriptions, if suitable data is provided.</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-neg_query_s0_1-lbl">
+LHS Literals Bool<a class="headerlink" href="#cparam-neg_query_s0_1-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-neg_query_s0_1">
+<code class="descname">neg_query_s0_1</code><a class="headerlink" href="#cparam-neg_query_s0_1" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Types of literals allowed in the left-hand side queries for Boolean literals.</li>
+<li>multiple options in {positive, negative}</li>
+<li>default: {positive}</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-neg_query_s0_2-lbl">
+LHS Literals Cat<a class="headerlink" href="#cparam-neg_query_s0_2-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-neg_query_s0_2">
+<code class="descname">neg_query_s0_2</code><a class="headerlink" href="#cparam-neg_query_s0_2" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Types of literals allowed in the left-hand side queries for categorical literals.</li>
+<li>multiple options in {positive, negative}</li>
+<li>default: {positive}</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-neg_query_s0_3-lbl">
+LHS Literals Num<a class="headerlink" href="#cparam-neg_query_s0_3-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-neg_query_s0_3">
+<code class="descname">neg_query_s0_3</code><a class="headerlink" href="#cparam-neg_query_s0_3" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Types of literals allowed in the left-hand side queries for numerical literals.</li>
+<li>multiple options in {positive, negative}</li>
+<li>default: {positive}</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-ops_query_s0-lbl">
+LHS Operators<a class="headerlink" href="#cparam-ops_query_s0-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-ops_query_s0">
+<code class="descname">ops_query_s0</code><a class="headerlink" href="#cparam-ops_query_s0" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Type of operators allowed in the left-hand side queries.</li>
+<li>multiple options in {conjunction, disjunction}</li>
+<li>default: {conjunction, disjunction}</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-neg_query_s1_1-lbl">
+RHS Literals Bool<a class="headerlink" href="#cparam-neg_query_s1_1-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-neg_query_s1_1">
+<code class="descname">neg_query_s1_1</code><a class="headerlink" href="#cparam-neg_query_s1_1" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Types of literals allowed in the right-hand side queries for Boolean literals.</li>
+<li>multiple options in {positive, negative}</li>
+<li>default: {positive}</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-neg_query_s1_2-lbl">
+RHS Literals Cat<a class="headerlink" href="#cparam-neg_query_s1_2-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-neg_query_s1_2">
+<code class="descname">neg_query_s1_2</code><a class="headerlink" href="#cparam-neg_query_s1_2" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Types of literals allowed in the right-hand side queries for categorical literals.</li>
+<li>multiple options in {positive, negative}</li>
+<li>default: {positive}</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-neg_query_s1_3-lbl">
+RHS Literals Num<a class="headerlink" href="#cparam-neg_query_s1_3-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-neg_query_s1_3">
+<code class="descname">neg_query_s1_3</code><a class="headerlink" href="#cparam-neg_query_s1_3" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Types of literals allowed in the right-hand side queries for numerical literals.</li>
+<li>multiple options in {positive, negative}</li>
+<li>default: {positive}</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-ops_query_s1-lbl">
+RHS Operators<a class="headerlink" href="#cparam-ops_query_s1-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-ops_query_s1">
+<code class="descname">ops_query_s1</code><a class="headerlink" href="#cparam-ops_query_s1" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Type of operators allowed in the right-hand side queries.</li>
+<li>multiple options in {conjunction, disjunction}</li>
+<li>default: {conjunction, disjunction}</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">ReReMi: Initial pairs</p>
+<dl class="cparam">
+<dt id="cparam-init_minscore-lbl">
+Init min score<a class="headerlink" href="#cparam-init_minscore-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-init_minscore">
+<code class="descname">init_minscore</code><a class="headerlink" href="#cparam-init_minscore" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Minimum score for an initial candidate to be considered.</li>
+<li>open text</li>
+<li>default: 0.01</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-pe_balance-lbl">
+Pairs-expand balance<a class="headerlink" href="#cparam-pe_balance-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-pe_balance">
+<code class="descname">pe_balance</code><a class="headerlink" href="#cparam-pe_balance" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Balance between generating initial pairs and expanding them (0 means generating all pairs first).</li>
+<li>range in [0, 10]</li>
+<li>default: 4</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-pair_sel-lbl">
+Expansion order<a class="headerlink" href="#cparam-pair_sel-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-pair_sel">
+<code class="descname">pair_sel</code><a class="headerlink" href="#cparam-pair_sel" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Order in which the initial pairs are processed, either overall next best score or alternating between side considering next best variables in turn.</li>
+<li>single option in {overall, alternate}</li>
+<li>default: alternate</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">ReReMi exp.: Candidate expansion</p>
+<dl class="cparam">
+<dt id="cparam-score.impacc-lbl">
+Accuracy improvement coefficient<a class="headerlink" href="#cparam-score.impacc-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-score.impacc">
+<code class="descname">score.impacc</code><a class="headerlink" href="#cparam-score.impacc" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Coefficient of the accuracy improvement for scoring extension candidates.</li>
+<li>open text</li>
+<li>default: 1.0</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-score.rel_impacc-lbl">
+Relative Accurracy improvement coefficient<a class="headerlink" href="#cparam-score.rel_impacc-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-score.rel_impacc">
+<code class="descname">score.rel_impacc</code><a class="headerlink" href="#cparam-score.rel_impacc" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Coefficient of the relative accuracy improvement for scoring extension candidates.</li>
+<li>open text</li>
+<li>default: 0.0</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-score.pval_red-lbl">
+Redescription p-value coefficient<a class="headerlink" href="#cparam-score.pval_red-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-score.pval_red">
+<code class="descname">score.pval_red</code><a class="headerlink" href="#cparam-score.pval_red" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Coefficient of the redescription p-value for scoring extension candidates. Negative values are interpreted as a threshold weighted by p-value factor.</li>
+<li>open text</li>
+<li>default: 0.01</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-score.pval_query-lbl">
+Query p-value coefficient<a class="headerlink" href="#cparam-score.pval_query-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-score.pval_query">
+<code class="descname">score.pval_query</code><a class="headerlink" href="#cparam-score.pval_query" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Coefficient of the query p-value for scoring extension candidates. Negative values are interpreted as a threshold weighted by p-value factor.</li>
+<li>open text</li>
+<li>default: 0.01</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-score.pval_fact-lbl">
+p-value factor<a class="headerlink" href="#cparam-score.pval_fact-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-score.pval_fact">
+<code class="descname">score.pval_fact</code><a class="headerlink" href="#cparam-score.pval_fact" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Weight for p-value in case of using thresholds for scoring extension candidates.</li>
+<li>open text</li>
+<li>default: 1.0</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-batch_cap-lbl">
+Batch capacity<a class="headerlink" href="#cparam-batch_cap-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-batch_cap">
+<code class="descname">batch_cap</code><a class="headerlink" href="#cparam-batch_cap" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum number of candidates expanded at each step of the search.</li>
+<li>open text</li>
+<li>default: 4</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-amnesic-lbl">
+Amnesic<a class="headerlink" href="#cparam-amnesic-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-amnesic">
+<code class="descname">amnesic</code><a class="headerlink" href="#cparam-amnesic" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Not amnesic means the algorithm remembers previously generated redescriptions and avoid generating them again.</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">ReReMi exp.: Numerical attributes discretization</p>
+<dl class="cparam">
+<dt id="cparam-max_seg-lbl">
+Max number segments<a class="headerlink" href="#cparam-max_seg-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-max_seg">
+<code class="descname">max_seg</code><a class="headerlink" href="#cparam-max_seg" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum number of segments, i.e. distinct values for a numerical variable.</li>
+<li>open text</li>
+<li>default: 20</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-lower_tail_agg-lbl">
+Lower tail aggregate<a class="headerlink" href="#cparam-lower_tail_agg-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-lower_tail_agg">
+<code class="descname">lower_tail_agg</code><a class="headerlink" href="#cparam-lower_tail_agg" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Threshold for the lower tail, when aggregating keeping only extreme values.</li>
+<li>open text</li>
+<li>default: 0.0</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-upper_tail_agg-lbl">
+Upper tail aggregate<a class="headerlink" href="#cparam-upper_tail_agg-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-upper_tail_agg">
+<code class="descname">upper_tail_agg</code><a class="headerlink" href="#cparam-upper_tail_agg" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Threshold for the upper tail, when aggregating keeping only extreme values.</li>
+<li>open text</li>
+<li>default: 0.0</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-max_agg-lbl">
+Max aggregation<a class="headerlink" href="#cparam-max_agg-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-max_agg">
+<code class="descname">max_agg</code><a class="headerlink" href="#cparam-max_agg" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum number of buckets aggregated together.</li>
+<li>open text</li>
+<li>default: 15</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-max_prodbuckets-lbl">
+Max product buckets<a class="headerlink" href="#cparam-max_prodbuckets-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-max_prodbuckets">
+<code class="descname">max_prodbuckets</code><a class="headerlink" href="#cparam-max_prodbuckets" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum product of the number of buckets on either side.</li>
+<li>open text</li>
+<li>default: 5000</li>
+<li>miner_confdef.xml</li>
+</ul>
+</dd></dl>
+
+</div>
+<div class="section" id="visualization-parameters">
+<span id="interface-parameters"></span><h2>Visualization parameters<a class="headerlink" href="#visualization-parameters" title="Permalink to this headline">¶</a></h2>
+<p>Visualization parameters are specified <a class="reference external" href="views_confdef.xml">here</a>  and can be set through the interface.
+For instance, they allows to modify the appearance of the maps, choose the colors of the different support subsets, etc.</p>
+<p class="rubric">Views: Vizualizations</p>
+<dl class="cparam">
+<dt id="cparam-intab_nbr-lbl">
+Intab grid rows<a class="headerlink" href="#cparam-intab_nbr-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-intab_nbr">
+<code class="descname">intab_nbr</code><a class="headerlink" href="#cparam-intab_nbr" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Number of rows of the grid for visualizations in the tab.</li>
+<li>open text</li>
+<li>default: 1</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-intab_nbc-lbl">
+Intab grid cols<a class="headerlink" href="#cparam-intab_nbc-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-intab_nbc">
+<code class="descname">intab_nbc</code><a class="headerlink" href="#cparam-intab_nbc" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Number of columns of the grid for visualizations in the tab.</li>
+<li>open text</li>
+<li>default: 2</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-dot_size-lbl">
+Dot size<a class="headerlink" href="#cparam-dot_size-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-dot_size">
+<code class="descname">dot_size</code><a class="headerlink" href="#cparam-dot_size" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Size of the dots in points.</li>
+<li>range in [0.0, 10.0]</li>
+<li>default: 3.0</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-plot_fontsize-lbl">
+Font size<a class="headerlink" href="#cparam-plot_fontsize-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-plot_fontsize">
+<code class="descname">plot_fontsize</code><a class="headerlink" href="#cparam-plot_fontsize" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Font size used in plots for ticks, etc.</li>
+<li>range in [0, 100]</li>
+<li>default: 12</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-details_level-lbl">
+Details level<a class="headerlink" href="#cparam-details_level-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-details_level">
+<code class="descname">details_level</code><a class="headerlink" href="#cparam-details_level" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Level of details for plotting the parallel coordinates.</li>
+<li>range in [0, 100]</li>
+<li>default: 50</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-max_emphlbl-lbl">
+Max emph lbls<a class="headerlink" href="#cparam-max_emphlbl-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-max_emphlbl">
+<code class="descname">max_emphlbl</code><a class="headerlink" href="#cparam-max_emphlbl" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>More that this number of entities selected at once will not get individual labels.</li>
+<li>range in [-1, 20]</li>
+<li>default: 5</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-dot_shape-lbl">
+Dot shape<a class="headerlink" href="#cparam-dot_shape-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-dot_shape">
+<code class="descname">dot_shape</code><a class="headerlink" href="#cparam-dot_shape" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Shape of the dots</li>
+<li>single option in {s, o, p, h, 8, ., ,, <a href="#id3"><span class="problematic" id="id4">*</span></a>, +, x}</li>
+<li>default: s</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-alpha_off-lbl">
+Transparency off<a class="headerlink" href="#cparam-alpha_off-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-alpha_off">
+<code class="descname">alpha_off</code><a class="headerlink" href="#cparam-alpha_off" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Turn transparency off.</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-add_stamp-lbl">
+Add stamp<a class="headerlink" href="#cparam-add_stamp-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-add_stamp">
+<code class="descname">add_stamp</code><a class="headerlink" href="#cparam-add_stamp" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Stamp redescription above the figure.</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-miss_details-lbl">
+Detailed missing<a class="headerlink" href="#cparam-miss_details-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-miss_details">
+<code class="descname">miss_details</code><a class="headerlink" href="#cparam-miss_details" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Show details of different missing values.</li>
+<li>yes/no</li>
+<li>default: yes</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-draw_delta-lbl">
+Draw uncovered<a class="headerlink" href="#cparam-draw_delta-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-draw_delta">
+<code class="descname">draw_delta</code><a class="headerlink" href="#cparam-draw_delta" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Draw uncovered entities (map)</li>
+<li>yes/no</li>
+<li>default: yes</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-click_entities-lbl">
+Click entities<a class="headerlink" href="#cparam-click_entities-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-click_entities">
+<code class="descname">click_entities</code><a class="headerlink" href="#cparam-click_entities" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Show details entities labels on click.</li>
+<li>yes/no</li>
+<li>default: yes</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-hover_entities-lbl">
+Hover entities<a class="headerlink" href="#cparam-hover_entities-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-hover_entities">
+<code class="descname">hover_entities</code><a class="headerlink" href="#cparam-hover_entities" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Show details entities labels on hover.</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-hover_coords-lbl">
+Hover coordinates<a class="headerlink" href="#cparam-hover_coords-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-hover_coords">
+<code class="descname">hover_coords</code><a class="headerlink" href="#cparam-hover_coords" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Show coordinates on hover.</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-literals_contrib-lbl">
+Show literals contribution<a class="headerlink" href="#cparam-literals_contrib-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-literals_contrib">
+<code class="descname">literals_contrib</code><a class="headerlink" href="#cparam-literals_contrib" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Show contribution of literals (PaCo)</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Colors: Colors</p>
+<dl class="cparam">
+<dt id="cparam-custom_ccmap-lbl">
+Custom cluster colors<a class="headerlink" href="#cparam-custom_ccmap-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-custom_ccmap">
+<code class="descname">custom_ccmap</code><a class="headerlink" href="#cparam-custom_ccmap" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Custom colors for plotting clusters (matplotlib cmap name, list or dictionnary of hexadecimal colors).</li>
+<li>open text</li>
+<li>default:</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-color_l-lbl">
+Color LHS<a class="headerlink" href="#cparam-color_l-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-color_l">
+<code class="descname">color_l</code><a class="headerlink" href="#cparam-color_l" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Color for plotting the LHS support.</li>
+<li>color #RRGGBB</li>
+<li>default: #fc5864</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-color_r-lbl">
+Color RHS<a class="headerlink" href="#cparam-color_r-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-color_r">
+<code class="descname">color_r</code><a class="headerlink" href="#cparam-color_r" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Color for plotting the RHS support.</li>
+<li>color #RRGGBB</li>
+<li>default: #74a8f6</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-color_i-lbl">
+Color Intersection<a class="headerlink" href="#cparam-color_i-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-color_i">
+<code class="descname">color_i</code><a class="headerlink" href="#cparam-color_i" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Color for plotting the intersection support.</li>
+<li>color #RRGGBB</li>
+<li>default: #662a8d</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-color_o-lbl">
+Color Uncovered<a class="headerlink" href="#cparam-color_o-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-color_o">
+<code class="descname">color_o</code><a class="headerlink" href="#cparam-color_o" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Color for plotting the uncovered entities.</li>
+<li>color #RRGGBB</li>
+<li>default: #e6e6e6</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-color_h-lbl">
+Color Highlight<a class="headerlink" href="#cparam-color_h-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-color_h">
+<code class="descname">color_h</code><a class="headerlink" href="#cparam-color_h" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Color for highlighting entities.</li>
+<li>color #RRGGBB</li>
+<li>default: #ffff00</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">List views: Vizualizations</p>
+<dl class="cparam">
+<dt id="cparam-max_clus-lbl">
+Max nb. clusters<a class="headerlink" href="#cparam-max_clus-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-max_clus">
+<code class="descname">max_clus</code><a class="headerlink" href="#cparam-max_clus" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Maximum number of clusters in similarity list view.</li>
+<li>open text</li>
+<li>default: 20</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-blocks_disp_values-lbl">
+Values for blocks<a class="headerlink" href="#cparam-blocks_disp_values-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-blocks_disp_values">
+<code class="descname">blocks_disp_values</code><a class="headerlink" href="#cparam-blocks_disp_values" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Property to use as value for blocks.</li>
+<li>single option in {fractions, percentages, counts}</li>
+<li>default: fractions</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-blocks_reorder_rids-lbl">
+Re-order r.ids for blocks<a class="headerlink" href="#cparam-blocks_reorder_rids-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-blocks_reorder_rids">
+<code class="descname">blocks_reorder_rids</code><a class="headerlink" href="#cparam-blocks_reorder_rids" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Reorder redescriptions for blocks.</li>
+<li>yes/no</li>
+<li>default: yes</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-blocks_show_rids-lbl">
+Show r.ids for blocks<a class="headerlink" href="#cparam-blocks_show_rids-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-blocks_show_rids">
+<code class="descname">blocks_show_rids</code><a class="headerlink" href="#cparam-blocks_show_rids" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Show redescriptions ids for blocks.</li>
+<li>yes/no</li>
+<li>default: yes</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-blocks_show_values-lbl">
+Show values for blocks<a class="headerlink" href="#cparam-blocks_show_values-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-blocks_show_values">
+<code class="descname">blocks_show_values</code><a class="headerlink" href="#cparam-blocks_show_values" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Show values for blocks.</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-blocks_show_emph-lbl">
+Draw selection block<a class="headerlink" href="#cparam-blocks_show_emph-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-blocks_show_emph">
+<code class="descname">blocks_show_emph</code><a class="headerlink" href="#cparam-blocks_show_emph" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Draw special block for selection.</li>
+<li>yes/no</li>
+<li>default: yes</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-supp_part_clus-lbl">
+Support parts<a class="headerlink" href="#cparam-supp_part_clus-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-supp_part_clus">
+<code class="descname">supp_part_clus</code><a class="headerlink" href="#cparam-supp_part_clus" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Support parts to use in computing clusters.</li>
+<li>multiple options in {Exx, Exo, Eox, Eoo}</li>
+<li>default: {Exx}</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-miss_part_clus-lbl">
+Missing support parts<a class="headerlink" href="#cparam-miss_part_clus-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-miss_part_clus">
+<code class="descname">miss_part_clus</code><a class="headerlink" href="#cparam-miss_part_clus" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Missing support parts to use in computing clusters.</li>
+<li>multiple options in {Exm, Emx, Eom, Emo, Emm}</li>
+<li>default: {}</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Maps elems.: Elements</p>
+<dl class="cparam">
+<dt id="cparam-map_back_alpha-lbl">
+Map background opacity<a class="headerlink" href="#cparam-map_back_alpha-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-map_back_alpha">
+<code class="descname">map_back_alpha</code><a class="headerlink" href="#cparam-map_back_alpha" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Opacity of the background image.</li>
+<li>range in [0, 100]</li>
+<li>default: 100</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-map_back_scale-lbl">
+Map background scale<a class="headerlink" href="#cparam-map_back_scale-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-map_back_scale">
+<code class="descname">map_back_scale</code><a class="headerlink" href="#cparam-map_back_scale" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Scale of the background image.</li>
+<li>range in [0, 100]</li>
+<li>default: 100</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-map_back-lbl">
+Map background<a class="headerlink" href="#cparam-map_back-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-map_back">
+<code class="descname">map_back</code><a class="headerlink" href="#cparam-map_back" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Background to use for the map (only with Basemap, not with Cartopy).</li>
+<li>single option in {none, shaded relief, etopo relief, NASA Blue Marble}</li>
+<li>default: none</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-map_lines_overlay-lbl">
+Overlay<a class="headerlink" href="#cparam-map_lines_overlay-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-map_lines_overlay">
+<code class="descname">map_lines_overlay</code><a class="headerlink" href="#cparam-map_lines_overlay" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Overlay map lines on top of other plot elements.</li>
+<li>yes/no</li>
+<li>default: no</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-map_poly-lbl">
+Polygons<a class="headerlink" href="#cparam-map_poly-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-map_poly">
+<code class="descname">map_poly</code><a class="headerlink" href="#cparam-map_poly" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Use polygons to represent entities on the map</li>
+<li>yes/no</li>
+<li>default: yes</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-map_elem_area-lbl">
+Map natural areas<a class="headerlink" href="#cparam-map_elem_area-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-map_elem_area">
+<code class="descname">map_elem_area</code><a class="headerlink" href="#cparam-map_elem_area" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Map natural areas to paint.</li>
+<li>multiple options in {seas, continents, lakes}</li>
+<li>default: {seas}</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-map_elem_natural-lbl">
+Map natural elements<a class="headerlink" href="#cparam-map_elem_natural-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-map_elem_natural">
+<code class="descname">map_elem_natural</code><a class="headerlink" href="#cparam-map_elem_natural" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Map natural elements to draw.</li>
+<li>multiple options in {coasts, rivers}</li>
+<li>default: {coasts}</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-map_elem_geop-lbl">
+Map geopolitic elements<a class="headerlink" href="#cparam-map_elem_geop-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-map_elem_geop">
+<code class="descname">map_elem_geop</code><a class="headerlink" href="#cparam-map_elem_geop" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Map geopolitic borders to paint.</li>
+<li>multiple options in {countries, states}</li>
+<li>default: {countries}</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-map_elem_circ-lbl">
+Map imaginary circles<a class="headerlink" href="#cparam-map_elem_circ-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-map_elem_circ">
+<code class="descname">map_elem_circ</code><a class="headerlink" href="#cparam-map_elem_circ" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Map imaginary circles to draw.</li>
+<li>multiple options in {parallels, meridians}</li>
+<li>default: {}</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-line_color-lbl">
+Line color<a class="headerlink" href="#cparam-line_color-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-line_color">
+<code class="descname">line_color</code><a class="headerlink" href="#cparam-line_color" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Color for drawing map lines.</li>
+<li>color #RRGGBB</li>
+<li>default: #808080</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-sea_color-lbl">
+Sea color<a class="headerlink" href="#cparam-sea_color-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-sea_color">
+<code class="descname">sea_color</code><a class="headerlink" href="#cparam-sea_color" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Color for filling water bodies in maps.</li>
+<li>color #RRGGBB</li>
+<li>default: #f9fcff</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-land_color-lbl">
+Land color<a class="headerlink" href="#cparam-land_color-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-land_color">
+<code class="descname">land_color</code><a class="headerlink" href="#cparam-land_color" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Color for filling land areas in maps.</li>
+<li>color #RRGGBB</li>
+<li>default: #ffffff</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Maps proj.: Projection</p>
+<dl class="cparam">
+<dt id="cparam-llon-lbl">
+Left corner longitude<a class="headerlink" href="#cparam-llon-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-llon">
+<code class="descname">llon</code><a class="headerlink" href="#cparam-llon" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Map boundary’s left corner longitude.</li>
+<li>range in [-180.0, 181.0]</li>
+<li>default: 181.0</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-ulon-lbl">
+Right corner longitude<a class="headerlink" href="#cparam-ulon-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-ulon">
+<code class="descname">ulon</code><a class="headerlink" href="#cparam-ulon" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Map boundary’s right corner longitude.</li>
+<li>range in [-180.0, 181.0]</li>
+<li>default: 181.0</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-llat-lbl">
+Lower corner latitude<a class="headerlink" href="#cparam-llat-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-llat">
+<code class="descname">llat</code><a class="headerlink" href="#cparam-llat" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Map boundary’s lower corner latitude.</li>
+<li>range in [-180.0, 181.0]</li>
+<li>default: 181.0</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-ulat-lbl">
+Upper corner latitude<a class="headerlink" href="#cparam-ulat-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-ulat">
+<code class="descname">ulat</code><a class="headerlink" href="#cparam-ulat" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Map boundary’s upper corner latitude.</li>
+<li>range in [-180.0, 181.0]</li>
+<li>default: 181.0</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-map_resolution-lbl">
+Resolution<a class="headerlink" href="#cparam-map_resolution-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-map_resolution">
+<code class="descname">map_resolution</code><a class="headerlink" href="#cparam-map_resolution" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Resolution of the map elements.</li>
+<li>single option in {crude, low, intermediate, high, full}</li>
+<li>default: crude</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-map_proj-lbl">
+Projection<a class="headerlink" href="#cparam-map_proj-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-map_proj">
+<code class="descname">map_proj</code><a class="headerlink" href="#cparam-map_proj" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Projection to use for the map.</li>
+<li>single option in {none, Plate Carree, Transverse Mercator, Mercator, Lambert Cylindrical, Lambert Conformal, Lambert Azimuthal Equal Area, Miller, Rotated Pole, Gnomonic, Stereographic, North Polar Stereo, South Polar Stereo, Orthographic, Mollweide, Robinson, Interrupted Goode Homolosine, Geostationary, Albers Equal Area, Azimuthal Equidistant, Sinusoidal}</li>
+<li>default: Miller</li>
+<li>views_confdef.xml</li>
+</ul>
+</dd></dl>
+
+</div>
+<div class="section" id="other-parameters">
+<span id="id5"></span><h2>Other parameters<a class="headerlink" href="#other-parameters" title="Permalink to this headline">¶</a></h2>
+<p>It is possible to adjust the parameters through the interface then export them to a file.
+In particular, a template can be generated and exported which can be used to run the <em>ReReMi</em> mining algorithm from the command line, after filling in input/output parameters, which are specified <a class="reference external" href="inout_confdef.xml">here.</a></p>
+<p>Further parameters pertain to randomization, cross-fold tests, server parameters, etc.</p>
+<p class="rubric">File Names: Data Input</p>
+<dl class="cparam">
+<dt id="cparam-LHS_data-lbl">
+LHS data filename<a class="headerlink" href="#cparam-LHS_data-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-LHS_data">
+<code class="descname">LHS_data</code><a class="headerlink" href="#cparam-LHS_data" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Complete filename for the left hand side data.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-RHS_data-lbl">
+RHS data filename<a class="headerlink" href="#cparam-RHS_data-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-RHS_data">
+<code class="descname">RHS_data</code><a class="headerlink" href="#cparam-RHS_data" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Complete filename for the right hand side data.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-data_rep-lbl">
+Data repertory<a class="headerlink" href="#cparam-data_rep-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-data_rep">
+<code class="descname">data_rep</code><a class="headerlink" href="#cparam-data_rep" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Repertory where the data files are stored.</li>
+<li>open text</li>
+<li>default: __TMP_DIR__</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-data_l-lbl">
+LHS data basename<a class="headerlink" href="#cparam-data_l-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-data_l">
+<code class="descname">data_l</code><a class="headerlink" href="#cparam-data_l" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Basename of the file containing the left hand side data.</li>
+<li>open text</li>
+<li>default: left</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-data_r-lbl">
+RHS data basename<a class="headerlink" href="#cparam-data_r-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-data_r">
+<code class="descname">data_r</code><a class="headerlink" href="#cparam-data_r" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Basename of the file containing the right hand side data.</li>
+<li>open text</li>
+<li>default: right</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-ext_l-lbl">
+LHS data extension<a class="headerlink" href="#cparam-ext_l-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-ext_l">
+<code class="descname">ext_l</code><a class="headerlink" href="#cparam-ext_l" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Extension of the file containing the left hand side data.</li>
+<li>open text</li>
+<li>default: .csv</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-ext_r-lbl">
+RHS data extension<a class="headerlink" href="#cparam-ext_r-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-ext_r">
+<code class="descname">ext_r</code><a class="headerlink" href="#cparam-ext_r" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Extension of the file containing the right hand side data.</li>
+<li>open text</li>
+<li>default: .csv</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-NA_str-lbl">
+NA representation<a class="headerlink" href="#cparam-NA_str-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-NA_str">
+<code class="descname">NA_str</code><a class="headerlink" href="#cparam-NA_str" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>String representation for missing values (CSV format).</li>
+<li>open text</li>
+<li>default: nan</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-delim_in-lbl">
+Delimiter<a class="headerlink" href="#cparam-delim_in-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-delim_in">
+<code class="descname">delim_in</code><a class="headerlink" href="#cparam-delim_in" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Field delimiter (CSV format).</li>
+<li>single option in {(auto), TAB, ;, ,, SPC}</li>
+<li>default: (auto)</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-time_yearfirst-lbl">
+Time year first<a class="headerlink" href="#cparam-time_yearfirst-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-time_yearfirst">
+<code class="descname">time_yearfirst</code><a class="headerlink" href="#cparam-time_yearfirst" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Whether to interpret the first value in an ambiguous 3-integer date as the year (dateutils).</li>
+<li>single option in {(auto), yes, no}</li>
+<li>default: (auto)</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-time_dayfirst-lbl">
+Time day first<a class="headerlink" href="#cparam-time_dayfirst-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-time_dayfirst">
+<code class="descname">time_dayfirst</code><a class="headerlink" href="#cparam-time_dayfirst" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Whether to interpret the first value in an ambiguous 3-integer date as the day (dateutils).</li>
+<li>single option in {(auto), yes, no}</li>
+<li>default: (auto)</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">File Names: Results Output</p>
+<dl class="cparam">
+<dt id="cparam-result_rep-lbl">
+Results repertory<a class="headerlink" href="#cparam-result_rep-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-result_rep">
+<code class="descname">result_rep</code><a class="headerlink" href="#cparam-result_rep" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Repertory where to save the results.</li>
+<li>open text</li>
+<li>default: __TMP_DIR__</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-out_base-lbl">
+Results data filename<a class="headerlink" href="#cparam-out_base-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-out_base">
+<code class="descname">out_base</code><a class="headerlink" href="#cparam-out_base" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Name of the file where to store the results.</li>
+<li>open text</li>
+<li>default: results</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-ext_queries-lbl">
+Queries extension<a class="headerlink" href="#cparam-ext_queries-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-ext_queries">
+<code class="descname">ext_queries</code><a class="headerlink" href="#cparam-ext_queries" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Extension of the file where to save the queries.</li>
+<li>open text</li>
+<li>default: .queries</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-ext_support-lbl">
+Supports extension<a class="headerlink" href="#cparam-ext_support-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-ext_support">
+<code class="descname">ext_support</code><a class="headerlink" href="#cparam-ext_support" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Extension of the file where to save the supports.</li>
+<li>open text</li>
+<li>default: .supports</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-ext_log-lbl">
+Log data extension<a class="headerlink" href="#cparam-ext_log-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-ext_log">
+<code class="descname">ext_log</code><a class="headerlink" href="#cparam-ext_log" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Extension of the file where to save log traces.</li>
+<li>open text</li>
+<li>default: .txt</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-queries_file-lbl">
+Queries filename<a class="headerlink" href="#cparam-queries_file-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-queries_file">
+<code class="descname">queries_file</code><a class="headerlink" href="#cparam-queries_file" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Complete filename for the queries.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-queries_named_file-lbl">
+Named queries filename<a class="headerlink" href="#cparam-queries_named_file-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-queries_named_file">
+<code class="descname">queries_named_file</code><a class="headerlink" href="#cparam-queries_named_file" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Complete filename for the queries with variable names.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-support_file-lbl">
+Support filename<a class="headerlink" href="#cparam-support_file-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-support_file">
+<code class="descname">support_file</code><a class="headerlink" href="#cparam-support_file" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Complete filename for the support.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Advanced: File Names</p>
+<dl class="cparam">
+<dt id="cparam-series_id-lbl">
+Series ID<a class="headerlink" href="#cparam-series_id-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-series_id">
+<code class="descname">series_id</code><a class="headerlink" href="#cparam-series_id" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Series ID to replace __SID__ in filenames.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-logfile-lbl">
+Logfile<a class="headerlink" href="#cparam-logfile-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-logfile">
+<code class="descname">logfile</code><a class="headerlink" href="#cparam-logfile" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>File to log. + means generate filename from queries output file. - means stdout.</li>
+<li>open text</li>
+<li>default: -</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-pairs_store-lbl">
+Pairs store filename<a class="headerlink" href="#cparam-pairs_store-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-pairs_store">
+<code class="descname">pairs_store</code><a class="headerlink" href="#cparam-pairs_store" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Name of the file where to store initial pairs.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-queries_alternate-lbl">
+Alternate queries<a class="headerlink" href="#cparam-queries_alternate-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-queries_alternate">
+<code class="descname">queries_alternate</code><a class="headerlink" href="#cparam-queries_alternate" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Alternate filename or suffix for the queries, for post-processing.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Advanced: Extra</p>
+<dl class="cparam">
+<dt id="cparam-mask_vars_LHS-lbl">
+Mask for LHS variables<a class="headerlink" href="#cparam-mask_vars_LHS-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-mask_vars_LHS">
+<code class="descname">mask_vars_LHS</code><a class="headerlink" href="#cparam-mask_vars_LHS" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Mask for enabling or disabling LHS variables, overriding any info in the data file.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-mask_vars_RHS-lbl">
+Mask for RHS variables<a class="headerlink" href="#cparam-mask_vars_RHS-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-mask_vars_RHS">
+<code class="descname">mask_vars_RHS</code><a class="headerlink" href="#cparam-mask_vars_RHS" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Mask for enabling or disabling RHS variables, overriding any info in the data file.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-mask_rows-lbl">
+Mask for rows<a class="headerlink" href="#cparam-mask_rows-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-mask_rows">
+<code class="descname">mask_rows</code><a class="headerlink" href="#cparam-mask_rows" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Mask for enabling or disabling rows, overriding any info in the data file.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-extensions_rep-lbl">
+Extensions repertory<a class="headerlink" href="#cparam-extensions_rep-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-extensions_rep">
+<code class="descname">extensions_rep</code><a class="headerlink" href="#cparam-extensions_rep" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Repertory where extension data files are stored.</li>
+<li>open text</li>
+<li>default: __TMP_DIR__</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-extensions_names-lbl">
+Extensions data filenames<a class="headerlink" href="#cparam-extensions_names-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-extensions_names">
+<code class="descname">extensions_names</code><a class="headerlink" href="#cparam-extensions_names" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Keys and names of the extension data files.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-fields_rdefs-lbl">
+Files defining reds fields<a class="headerlink" href="#cparam-fields_rdefs-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-fields_rdefs">
+<code class="descname">fields_rdefs</code><a class="headerlink" href="#cparam-fields_rdefs" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Files defining extra redescriptions fields.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-fields_vdefs-lbl">
+Files defining vars fields<a class="headerlink" href="#cparam-fields_vdefs-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-fields_vdefs">
+<code class="descname">fields_vdefs</code><a class="headerlink" href="#cparam-fields_vdefs" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Files defining extra variables fields.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-actions_rdefs-lbl">
+Files defining reds actions<a class="headerlink" href="#cparam-actions_rdefs-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-actions_rdefs">
+<code class="descname">actions_rdefs</code><a class="headerlink" href="#cparam-actions_rdefs" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Files defining extra redescriptions actions.</li>
+<li>open text</li>
+<li>default:</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-activated_extensions-lbl">
+Activated extensions<a class="headerlink" href="#cparam-activated_extensions-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-activated_extensions">
+<code class="descname">activated_extensions</code><a class="headerlink" href="#cparam-activated_extensions" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Data extensions to activate.</li>
+<li>multiple options in {(auto), geoplus}</li>
+<li>default: {}</li>
+<li>inout_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Randomization: Data Input</p>
+<dl class="cparam">
+<dt id="cparam-traits_data-lbl">
+Traits data filename<a class="headerlink" href="#cparam-traits_data-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-traits_data">
+<code class="descname">traits_data</code><a class="headerlink" href="#cparam-traits_data" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Complete filename for the traits data.</li>
+<li>open text</li>
+<li>default:</li>
+<li>rnd_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-data_t-lbl">
+Traits data basename<a class="headerlink" href="#cparam-data_t-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-data_t">
+<code class="descname">data_t</code><a class="headerlink" href="#cparam-data_t" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Basename of the file containing the traits data.</li>
+<li>open text</li>
+<li>default:</li>
+<li>rnd_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-ext_t-lbl">
+Traits data extension<a class="headerlink" href="#cparam-ext_t-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-ext_t">
+<code class="descname">ext_t</code><a class="headerlink" href="#cparam-ext_t" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Extension of the file containing the traits data.</li>
+<li>open text</li>
+<li>default: .csv</li>
+<li>rnd_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-count_vname-lbl">
+Name count variable<a class="headerlink" href="#cparam-count_vname-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-count_vname">
+<code class="descname">count_vname</code><a class="headerlink" href="#cparam-count_vname" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Name for the variable that stores occurrence counts.</li>
+<li>open text</li>
+<li>default: COUNTS</li>
+<li>rnd_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-select_red-lbl">
+Selection redescription<a class="headerlink" href="#cparam-select_red-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-select_red">
+<code class="descname">select_red</code><a class="headerlink" href="#cparam-select_red" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Redescription used to select data rows.</li>
+<li>open text</li>
+<li>default:</li>
+<li>rnd_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-agg_prec-lbl">
+Agg. precision<a class="headerlink" href="#cparam-agg_prec-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-agg_prec">
+<code class="descname">agg_prec</code><a class="headerlink" href="#cparam-agg_prec" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Precision of aggregated data.</li>
+<li>open text</li>
+<li>default: -1</li>
+<li>rnd_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Randomization: Series</p>
+<dl class="cparam">
+<dt id="cparam-rnd_series_size-lbl">
+Randomization serie size<a class="headerlink" href="#cparam-rnd_series_size-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-rnd_series_size">
+<code class="descname">rnd_series_size</code><a class="headerlink" href="#cparam-rnd_series_size" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Number of runs per randomization series.</li>
+<li>open text</li>
+<li>default: 10</li>
+<li>rnd_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-rnd_seed-lbl">
+Randomization seed<a class="headerlink" href="#cparam-rnd_seed-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-rnd_seed">
+<code class="descname">rnd_seed</code><a class="headerlink" href="#cparam-rnd_seed" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Seed for the random number generator.</li>
+<li>open text</li>
+<li>default: -1</li>
+<li>rnd_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-rnd_meth-lbl">
+Randomization meth.<a class="headerlink" href="#cparam-rnd_meth-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-rnd_meth">
+<code class="descname">rnd_meth</code><a class="headerlink" href="#cparam-rnd_meth" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Randomization method used to generate data.</li>
+<li>multiple options in {none, permute_RHS, permute_LHS, permute_traits, shuffle_traits, swaprnd_occs}</li>
+<li>default: {none}</li>
+<li>rnd_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Folds: Automatic splits</p>
+<dl class="cparam">
+<dt id="cparam-coo_dim-lbl">
+Strips direction<a class="headerlink" href="#cparam-coo_dim-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-coo_dim">
+<code class="descname">coo_dim</code><a class="headerlink" href="#cparam-coo_dim" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Coordinate to cut the strips along (-1 and -2 for cut along longitudes and latitudes, respectively).</li>
+<li>open text</li>
+<li>default: -1</li>
+<li>folds_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-grain-lbl">
+Granularity<a class="headerlink" href="#cparam-grain-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-grain">
+<code class="descname">grain</code><a class="headerlink" href="#cparam-grain" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Granularity of the cut (lower means narrower strips).</li>
+<li>open text</li>
+<li>default: 1.0</li>
+<li>folds_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-folds_col-lbl">
+Variable<a class="headerlink" href="#cparam-folds_col-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-folds_col">
+<code class="descname">folds_col</code><a class="headerlink" href="#cparam-folds_col" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Name of the variable to use for splitting the data into subsets.</li>
+<li>open text</li>
+<li>default:</li>
+<li>folds_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-nb_folds-lbl">
+Nb folds<a class="headerlink" href="#cparam-nb_folds-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-nb_folds">
+<code class="descname">nb_folds</code><a class="headerlink" href="#cparam-nb_folds" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Number of parts the data should be split into.</li>
+<li>range in [2, 20]</li>
+<li>default: 5</li>
+<li>folds_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Extensions: geoplus</p>
+<dl class="cparam">
+<dt id="cparam-hgrid_percentile-lbl">
+H grid percentile<a class="headerlink" href="#cparam-hgrid_percentile-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-hgrid_percentile">
+<code class="descname">hgrid_percentile</code><a class="headerlink" href="#cparam-hgrid_percentile" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Percentile to determine grid height.</li>
+<li>range in [0.0, 100.0]</li>
+<li>default: 90.0</li>
+<li>dataext_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-wgrid_percentile-lbl">
+W grid percentile<a class="headerlink" href="#cparam-wgrid_percentile-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-wgrid_percentile">
+<code class="descname">wgrid_percentile</code><a class="headerlink" href="#cparam-wgrid_percentile" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Factor to multiply grid width.</li>
+<li>range in [0.0, 100.0]</li>
+<li>default: 90.0</li>
+<li>dataext_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-dst_type-lbl">
+Distance type<a class="headerlink" href="#cparam-dst_type-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-dst_type">
+<code class="descname">dst_type</code><a class="headerlink" href="#cparam-dst_type" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Distance to use when computing the grid</li>
+<li>single option in {globe, flat}</li>
+<li>default: globe</li>
+<li>dataext_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-after_cut-lbl">
+Draw tighter borders<a class="headerlink" href="#cparam-after_cut-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-after_cut">
+<code class="descname">after_cut</code><a class="headerlink" href="#cparam-after_cut" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Draw tighter border between distant sites.</li>
+<li>yes/no</li>
+<li>default: yes</li>
+<li>dataext_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Network: Work client</p>
+<dl class="cparam">
+<dt id="cparam-results_delay-lbl">
+Results delay<a class="headerlink" href="#cparam-results_delay-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-results_delay">
+<code class="descname">results_delay</code><a class="headerlink" href="#cparam-results_delay" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Delay between results checks by the client, in seconds.</li>
+<li>open text</li>
+<li>default: 5</li>
+<li>network_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<p class="rubric">Network: Work server</p>
+<dl class="cparam">
+<dt id="cparam-workserver_ip-lbl">
+Workserver IP<a class="headerlink" href="#cparam-workserver_ip-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-workserver_ip">
+<code class="descname">workserver_ip</code><a class="headerlink" href="#cparam-workserver_ip" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>IP adress of the server executing the computational tasks or local for local computations.</li>
+<li>open text</li>
+<li>default: local</li>
+<li>network_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-workserver_port-lbl">
+Workserver Port<a class="headerlink" href="#cparam-workserver_port-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-workserver_port">
+<code class="descname">workserver_port</code><a class="headerlink" href="#cparam-workserver_port" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Listening port of the server executing the computational tasks.</li>
+<li>open text</li>
+<li>default: 55444</li>
+<li>network_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-workserver_authkey-lbl">
+Workserver Key<a class="headerlink" href="#cparam-workserver_authkey-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-workserver_authkey">
+<code class="descname">workserver_authkey</code><a class="headerlink" href="#cparam-workserver_authkey" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Authentification key on the server executing the computational tasks.</li>
+<li>open text</li>
+<li>default: sesame</li>
+<li>network_confdef.xml</li>
+</ul>
+</dd></dl>
+
+<dl class="cparam">
+<dt id="cparam-workserver_clientid-lbl">
+Client Id<a class="headerlink" href="#cparam-workserver_clientid-lbl" title="Permalink to this definition">¶</a></dt>
+<dt id="cparam-workserver_clientid">
+<code class="descname">workserver_clientid</code><a class="headerlink" href="#cparam-workserver_clientid" title="Permalink to this definition">¶</a></dt>
+<dd><ul class="simple">
+<li>Client ID to reconnect on the server.</li>
+<li>open text</li>
+<li>default: 0</li>
+<li>network_confdef.xml</li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>  
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="formats.html" title="Formats"
+             >previous</a> |</li>
+        <li><a href="index.html">Siren - Interactive Redescription Mining - User Guide</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Esther Galbrun and Pauli Miettinen.
+      Last updated on Nov 2021.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.8.5.
+<br/>
+The source code is hosted on <a href="https://gitlab.inria.fr/egalbrun/siren">GitLab Inria</a>. You can <a href="https://gitlab.inria.fr/egalbrun/siren">clone it.</a>
+<br/>
+    ::<a href="https://www.inria.fr/informations-pratiques/mentions-legales">Mentions légales</a>::
+</div>
+  </body>
+</html>
