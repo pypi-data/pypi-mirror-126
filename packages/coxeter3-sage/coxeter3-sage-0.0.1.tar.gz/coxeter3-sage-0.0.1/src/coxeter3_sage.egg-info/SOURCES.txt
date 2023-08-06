@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/coxeter3_sage/__init__.py
+src/coxeter3_sage/coxeter3.py
+src/coxeter3_sage.egg-info/PKG-INFO
+src/coxeter3_sage.egg-info/SOURCES.txt
+src/coxeter3_sage.egg-info/dependency_links.txt
+src/coxeter3_sage.egg-info/top_level.txt
