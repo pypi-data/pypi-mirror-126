@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/perceptron_sudu.egg-info/PKG-INFO
+src/perceptron_sudu.egg-info/SOURCES.txt
+src/perceptron_sudu.egg-info/dependency_links.txt
+src/perceptron_sudu.egg-info/top_level.txt
+src/rocky/__init__.py
+src/rocky/perceptron.py
