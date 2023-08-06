@@ -1,0 +1,1 @@
+Installing this package will allow you to play music albums consisting of wave files.

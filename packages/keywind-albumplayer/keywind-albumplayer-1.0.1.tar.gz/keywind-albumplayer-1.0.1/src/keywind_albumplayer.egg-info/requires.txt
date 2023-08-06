@@ -1,0 +1,4 @@
+markdown
+pynput
+wave
+pyaudio
