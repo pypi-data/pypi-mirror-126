@@ -1,0 +1,9 @@
+[tool.black]
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "pathlib",
+]
+build-backend = "setuptools.build_meta"
