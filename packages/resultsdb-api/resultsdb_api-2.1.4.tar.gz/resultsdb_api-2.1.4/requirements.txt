@@ -1,0 +1,16 @@
+# This is a list of pypi packages to be installed into virtualenv. Alternatively,
+# you can install these as RPMs instead of pypi packages. See the dependecies
+# with:
+# $ rpmspec -q --requires python-resultsdb_api.spec
+# $ rpmspec -q --buildrequires python-resultsdb_api.spec
+
+# A note for maintainers: Please keep this list in sync and in the same order
+# as the spec file.
+
+requests >= 2.2.1
+simplejson >= 3.5.3
+
+# Test suite dependencies
+dingus >= 0.3.4
+pytest >= 2.4.2
+pytest-cov >= 1.6
