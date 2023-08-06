@@ -1,0 +1,13 @@
+pyswyft/__init__.py,sha256=Ct9smKbMbZjSSYGIOY-z2H0ahG4e446JuDEhieaK8Dk,577
+pyswyft/exceptions.py,sha256=JS08LkyhvlOUb4qWwcy4pCsAvtkHzpKBjdmv59Qz0ms,356
+pyswyft/pyswyft.py,sha256=3hUc21foaDd6ZdD4DDvzIcOrgHSyu96nwmwj0GnuCFU,3680
+pyswyft/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyswyft/endpoints/accounts.py,sha256=JCA4BzOyBaV-EZkah76k17580ULWs-7m_-4MBkIpzac,2895
+pyswyft/endpoints/apirequest.py,sha256=M6MbO9J3uBkjCcvJ6ZNeIf2R0oZoqTfhQvozJlUW22s,1229
+pyswyft/endpoints/decorators.py,sha256=0SgiM6eBb_nTHF6ddvyfy89Bi0KC5MhlsAEDb7Tf9cM,1802
+pyswyft-0.1.0.dist-info/LICENSE.md,sha256=6SrIWjEv_n2WD78X00iDJ0EBg-15V3DzbSxNardzUaQ,1079
+pyswyft-0.1.0.dist-info/METADATA,sha256=Rb97TwsmHbKqeLt6cVBDSYfP3JjehVrSiRoRbyhi7Xk,1749
+pyswyft-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyswyft-0.1.0.dist-info/entry_points.txt,sha256=FjKvgvGyIyqokCxiGIVCvaGmkWcXwEXZ8W6zk1mtvZQ,37
+pyswyft-0.1.0.dist-info/top_level.txt,sha256=0Zx5lVl4lgtMS_G19j6Vw-EFlP4B63VneuYHtIulOnQ,8
+pyswyft-0.1.0.dist-info/RECORD,,
