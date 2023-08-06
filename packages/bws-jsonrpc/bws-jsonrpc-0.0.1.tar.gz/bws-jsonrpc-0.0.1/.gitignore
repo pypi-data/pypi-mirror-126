@@ -1,0 +1,6 @@
+help.txt
+_venv/
+build
+dist
+*.egg-info
+*.pyc
