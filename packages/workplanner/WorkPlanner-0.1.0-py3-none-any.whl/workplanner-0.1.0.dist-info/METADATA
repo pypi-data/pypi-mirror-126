@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: workplanner
+Version: 0.1.0
+Summary: Microservice for scheduling tasks
+Home-page: https://github.com/pavelmaksimov/work-planner
+License: Apache-2.0
+Keywords: python,tasker,scheduler,task-manager,task-scheduler
+Author: Pavel Maksimov
+Author-email: vur21@ya.ru
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: better-exceptions (>=0.3.3,<0.4.0)
+Requires-Dist: fastapi
+Requires-Dist: loguru
+Requires-Dist: orjson
+Requires-Dist: peewee (>=3.14,<4.0)
+Requires-Dist: pendulum
+Requires-Dist: typer (>=0.4,<0.5)
+Requires-Dist: uvicorn[standart]
+Project-URL: Repository, https://github.com/pavelmaksimov/work-planner.git
+Description-Content-Type: text/markdown
+
+# Microservice for scheduling tasks
+
+
+Set path to SQLite database file via variable `WORKPLANNER_DATABASE_PATH`
+
+
+
+## Install
+    poetry add workplanner
+
+or
+
+    pip install workplanner
+
+
+## Run
+    workplanner run --help
+    workplanner run
+
+Default port 14444
+
+[Swagger](https://github.com/swagger-api/swagger-ui): \
+http://127.0.0.1:14444/docs
+
+[Redoc](https://github.com/Redocly/redoc): \
+http://127.0.0.1:14444/redoc
+
