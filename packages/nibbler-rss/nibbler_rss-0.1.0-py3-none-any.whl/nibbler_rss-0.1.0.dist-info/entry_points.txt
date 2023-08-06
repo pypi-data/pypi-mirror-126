@@ -1,0 +1,3 @@
+[console_scripts]
+nibbler = nibbler.__main__:main
+
