@@ -1,0 +1,9 @@
+cdk_cloudformation_awsqs_vpc_vpcqs_module/__init__.py,sha256=SEPHqGrniLZEIpm7VPIHcEKN-kg9v_jnxxpp2kzURL0,311876
+cdk_cloudformation_awsqs_vpc_vpcqs_module/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_cloudformation_awsqs_vpc_vpcqs_module/_jsii/__init__.py,sha256=8RMXjMCH7hicXdTMPuCAgRrFWOUou2h-S_rRpYlKhlU,431
+cdk_cloudformation_awsqs_vpc_vpcqs_module/_jsii/awsqs-vpc-vpcqs-module@1.1.0-alpha.2.jsii.tgz,sha256=viwJ64EicwXraWpjudoJUUHlh_UcW0MxD6YgxNUgv2M,58730
+cdk_cloudformation_awsqs_vpc_vpcqs_module-1.1.0a2.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_cloudformation_awsqs_vpc_vpcqs_module-1.1.0a2.dist-info/METADATA,sha256=gPIZygFmhAIB0u4jH6nUFp8drwKUHFNklUdUSIe2IQ0,2905
+cdk_cloudformation_awsqs_vpc_vpcqs_module-1.1.0a2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cdk_cloudformation_awsqs_vpc_vpcqs_module-1.1.0a2.dist-info/top_level.txt,sha256=8DgNFrBcZCcWDDU7TNTgve3dW7NYNHjfux9iHWbPDL8,42
+cdk_cloudformation_awsqs_vpc_vpcqs_module-1.1.0a2.dist-info/RECORD,,
