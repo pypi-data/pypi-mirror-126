@@ -1,0 +1,9 @@
+graft repopip/local_repo
+graft repopip/static
+graft repopip/templates
+graft repopip/translations
+
+include repopip/.env
+
+
+global-exclude *.pyc

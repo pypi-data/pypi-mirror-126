@@ -1,0 +1,28 @@
+<header>
+        
+    <div class="container">
+        <div class="logo">
+            <a href="{{ url_for('site.index') }}"><img src=" {{ url_for('static', filename='favicon.png') }}" alt="logo"></a>
+            <div class="intro">
+                <h2> RepoPip </h2>
+            </div>
+        </div>
+
+        {% include 'blocks/navbar.html' %}
+        
+        {% if terminal %}
+            <div class="terminal">
+                <div class="console">
+                    <p class="path">C:\</p>
+                    <p class="comand">$ pip install --index-url="http://127.0.0.1:5000/simple/" [package_name]</p>
+                </div>
+                <div class="explanation">
+                    <h3>{{ console_title }}</h3>
+                    <p>{{ console_desc }} </p>
+                </div>
+            </div>
+        {% endif %}
+
+    </div>       
+
+</header>  

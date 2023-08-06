@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+    
+{% block content %}
+
+<div class="container">
+    <div class="characteristics">
+        <div class="characteristic">
+            <h3 class="title">{{ charact_1 }}</h3>
+            <p class="desccription">{{ des_char_1 }}</p>
+        </div>
+        <div class="characteristic">
+            <h3 class="title">{{ charact_2 }}</h3>
+            <p class="desccription">{{ des_char_2 }}</p>
+        </div>
+        <div class="characteristic">
+            <h3 class="title">{{ charact_3 }}</h3>
+            <p class="desccription">{{ des_char_3 }}</p>
+        </div>
+        <div class="characteristic">
+            <h3 class="title">{{ charact_4 }}</h3>
+            <p class="desccription">{{ des_char_4 }}</p>
+        </div>
+    </div>
+
+    <div class="guide">
+
+        <h2 class="guide-title">{{ guide_title }}</h2>
+        <p>{{ guide_desc }}</p>
+
+        <h3 class="guide-subtitle">{{ installation }}</h3>
+
+        <div class="console">
+            <p class="path">C:\</p>
+            <p class="comand">$ pip install repopip</p>
+        </div>
+
+        <h3 class="guide-subtitle">{{ use }}</h3>
+        <ol id="steps">
+            <li>{{ step_1 }}</li>
+            <li>{{ step_2 }}</li>
+            <li>{{ step_3 }}</li>
+            <li>{{ step_4 }}
+                <ul>
+                    <li>
+                        {{ step_4_1 }}
+                        <ul>
+                            <li>{{ step_4_1_1 }}</li>
+                            <li>{{ step_4_1_2 }}</li>
+                            <li>{{ step_4_1_3 }}</li>
+                        </ul>
+                        <div class="config">
+                            <p class="scope">[global]</p>
+                            <p class="conf">index-url=http://127.0.0.1:5000/simple/</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>{{ step_5 }}
+                <ul>
+                    <li>{{ step_5_1 }}</li>
+                </ul>
+            </li>
+        </ol>
+
+    </div>
+</div>
+    
+
+{% endblock content %}

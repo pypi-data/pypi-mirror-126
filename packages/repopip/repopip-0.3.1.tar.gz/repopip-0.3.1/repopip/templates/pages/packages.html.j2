@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="container">
+
+        <div class="message">
+            <div class="stats">
+                <p>{{ total_pkg }} <span>{{total[0]}}</span></p>
+                <p>{{ total_versions }} <span>{{total[1]}}</span></p>
+                <p>{{ size_repo }} <span>{{size | filesize}}</span></p>
+            </div>
+            <button class="btn btn-outline-yellow" onclick="javascript:window.location.reload(true)" >{{ btn_update }}</button>
+        </div>
+
+        <table class="table-centered">
+            <colgroup>
+                <col style="width: 50%;">
+                <col style="width: 30%;">
+                <col style="width: 20%;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>{{ column_package }}</th>
+                    <th>{{ column_version }}</th>
+                    <th>{{ column_size }}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for name, package in packages_dict.items() %}
+                    <tr>
+                        <td>{{name}}</td>
+                        <td>
+                            {% for v in package.versions %}
+                                <li>{{v.v}}</li>
+                            {% endfor %}
+                        </td>
+                        <td>
+                            {% for v in package.versions %}
+                                <li>{{v.size | filesize}}</li>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+    </div>
+
+    {% if data_pages %}        
+    <div class="pagination">
+
+        <a href="{{ packages_link | url }}?page=1"><<</a>
+
+        {% if data_pages.get('current') > 2 %}
+        <span> ... </span>
+        {% endif %}
+
+        {% if data_pages.get('current') > 1 %}
+            <a href="{{ packages_link | url }}?page={{data_pages.get('current')-1}}">{{data_pages.get('current')-1}}</a> 
+        {% endif %}
+
+        <a href="{{ packages_link | url }}?page={{data_pages.get('current')}}">{{data_pages.get('current')}}</a>
+
+        {% if data_pages.get('current') < data_pages.get('total_pages') %}
+            <a href="{{ packages_link | url }}?page={{data_pages.get('current')+1}}">{{data_pages.get('current')+1}}</a>
+        {% endif %}
+
+        {% if data_pages.get('current') < data_pages.get('total_pages')-1 %}
+        <span> ... </span>
+        {% endif %}
+
+        <a href="{{ packages_link | url }}?page={{data_pages.get('total_pages')}}">>></a>
+
+    </div>
+
+    <div class="view_all">
+        <a href="{{ packages_link | url }}?all=true">{{ see_all }}</a>
+    </div>
+    {% else %}
+        <div class="view_all">
+            <a href="{{ packages_link | url }}?page=1">{{ pages }}</a>
+        </div>
+    {% endif %}
+
+
+{% endblock content %}
