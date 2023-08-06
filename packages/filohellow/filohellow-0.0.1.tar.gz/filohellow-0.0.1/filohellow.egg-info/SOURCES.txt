@@ -1,0 +1,9 @@
+LICENSE.txt
+README.txt
+setup.py
+Test_1/__init__.py
+Test_1/filohellow.py
+filohellow.egg-info/PKG-INFO
+filohellow.egg-info/SOURCES.txt
+filohellow.egg-info/dependency_links.txt
+filohellow.egg-info/top_level.txt
