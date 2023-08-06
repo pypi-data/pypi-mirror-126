@@ -1,0 +1,3 @@
+[console_scripts]
+pyautotype = pyautotype.__main__:main
+
