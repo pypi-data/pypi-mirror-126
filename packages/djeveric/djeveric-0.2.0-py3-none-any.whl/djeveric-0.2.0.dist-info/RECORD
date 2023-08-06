@@ -1,0 +1,11 @@
+djeveric/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+djeveric/emails.py,sha256=VqZ8VlodwOpLuXNPeucuFC0Cx4EshZmgAX16VxJqQIM,715
+djeveric/fields.py,sha256=FprH6mkGW-TtnRt8bq0etTEGF4CrSLliDCOWu8fj1_Y,312
+djeveric/models.py,sha256=Imf6hmGQA7JGToWWr3mRKJtBxd1kHQ5c-oiPSQct3v4,2529
+djeveric/serializers.py,sha256=bV2-2-gV1tX_R0V0g1VNjIErT1oqru1V7Ghpszm_ePQ,357
+djeveric/tokens.py,sha256=tVsHWAjmVkmIkhPTYroEcsJfHPRwxOUuB-LQY98uv78,328
+djeveric/views.py,sha256=a8Sh_qiszp4d0O8ckM1UbTK-3ELJHf6g7TmRnPtJDAI,1565
+djeveric-0.2.0.dist-info/METADATA,sha256=esw1hCED44DPrmq-jmoFLlhW3ei6nB6YOot564hJ_k4,2061
+djeveric-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+djeveric-0.2.0.dist-info/top_level.txt,sha256=cLd_eBGk_YS4RGcS_Pi49QUCbUT3pl2fITYcIazaV50,9
+djeveric-0.2.0.dist-info/RECORD,,
