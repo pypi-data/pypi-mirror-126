@@ -1,0 +1,157 @@
+Metadata-Version: 2.1
+Name: compas-convert
+Version: 0.1.4
+Summary: Conversions between compas objects and CAD specific objects.
+Home-page: https://github.com/tetov/compas_convert
+Author: Anton Tetov Johansson
+Maintainer: Anton Tetov Johansson
+Maintainer-email: anton@tetov.xyz
+License: MIT license
+Project-URL: Repository, https://github.com/tetov/compas_convert
+Project-URL: Issues, https://github.com/tetov/compas_convert/issues
+Keywords: geometry
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: IronPython
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: compas (<1.11,>=0.17.2)
+Provides-Extra: dev
+Requires-Dist: black (>=21.5b2) ; extra == 'dev'
+Requires-Dist: build (>=0.4.0) ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: graphviz (>=0.16) ; extra == 'dev'
+Requires-Dist: invoke (>=1.5.0) ; extra == 'dev'
+Requires-Dist: mypy (>=0.790) ; extra == 'dev'
+Requires-Dist: pydocstyle[toml] ; extra == 'dev'
+Requires-Dist: pytest (>=6) ; extra == 'dev'
+Requires-Dist: reorder-python-imports (>=2.5.0) ; extra == 'dev'
+Requires-Dist: setuptools-scm[toml] (<7.0,>=4.1) ; extra == 'dev'
+Requires-Dist: importlib-metadata ; (python_version < "3.8") and extra == 'dev'
+
+# compas_convert
+
+![Build and test](https://github.com/biodigitalmatter/compas_convert/actions/workflows/test-build-docs-release.yaml/badge.svg)
+[![PyPI Package latest release](https://img.shields.io/pypi/v/compas-convert.svg)](https://pypi.org/project/compas-convert)
+[![Conda](https://img.shields.io/conda/v/conda-forge/compas_convert)](https://anaconda.org/conda-forge/compas_convert)
+![License](https://img.shields.io/github/license/biodigitalmatter/compas_convert)
+
+Conversions of [COMPAS](https://compas.dev) geometry objects to CAD specific objects.
+
+## Supported CAD environments
+
+* [Rhino/Grasshopper](https://www.rhino3d.com/)
+* Blender (planned)
+
+## Installation
+
+```bash
+pip install compas_convert
+python -m compas_rhino.install
+```
+
+This will install the package into your Rhino environment and add a grasshopper
+component next to the COMPAS package's components.
+
+## Documentation
+
+The function `convert` which you can import from the top level of the package
+(`from compas_convert import convert`) will convert compas object to CAD object
+or CAD object to compas object. It does this based on the environment and the
+input object.
+
+You can also use normal converter functions:
+
+```python
+from compas.geometry import Point
+from compas_convert.rhino import point_to_rhino_point
+
+compas_pt = Point(10, 10, 0)
+rhino_pt = point_to_rhino_pt(compas_pt)
+```
+
+### Under the hood
+
+Converter functions can be found in subpackages named after the CAD software it
+converts to and from. The modules are named `compas_to_*` and `*_to_compas`. The
+convert functions are decorated with the decorator
+`compas_convert.register_converter` where possible input types are specified and
+the output type.
+
+This metadata is used by the function `compas_convert.convert` which on its
+first use maps types and converters and uses that mapping to convert object
+without the need to specify either input type or output type. Input type or
+output type can however be specified to override the default.
+
+## Conversion diagrams
+
+![Conversions](./docs/conversion_diagram.svg)
+
+<!-- markdownlint-disable MD024 -->
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.1.4] 2021-11-08
+
+### Changed
+
+- compas bumped to `<1.11`.
+
+## [0.1.3] 2021-06-18
+
+### Added
+
+- Grasshopper component for universal converter.
+
+### Changed
+
+- `SmartConverter` renamed to `UniversalConverter`.
+
+## [0.1.2] 2021-06-14
+
+### Added
+
+- Universal converter (SmartConverter) added which converts input object based
+  on type.
+
+MIT License
+
+Copyright (c) 2021 Anton Tetov
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
