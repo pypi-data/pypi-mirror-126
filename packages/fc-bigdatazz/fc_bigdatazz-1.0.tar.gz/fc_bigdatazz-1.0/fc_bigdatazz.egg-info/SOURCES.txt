@@ -1,0 +1,6 @@
+setup.py
+tingting.py
+fc_bigdatazz.egg-info/PKG-INFO
+fc_bigdatazz.egg-info/SOURCES.txt
+fc_bigdatazz.egg-info/dependency_links.txt
+fc_bigdatazz.egg-info/top_level.txt
