@@ -1,0 +1,3 @@
+[console_scripts]
+pvct = pvct.cli:main
+
