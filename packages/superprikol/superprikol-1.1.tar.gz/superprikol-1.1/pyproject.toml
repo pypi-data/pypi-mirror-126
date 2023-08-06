@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "superprikol"
+version = "1.1"
+description = "Prikol rzhaka klass"
+authors = ["TheBruk <no.point2007@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
