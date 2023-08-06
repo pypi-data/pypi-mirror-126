@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyclang
+Version: 0.1.0
+Summary: A python clang-tidy runner
+Home-page: UNKNOWN
+Author: Fu Hanxi
+Author-email: fuhanxi@espressif.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pyyaml
+Provides-Extra: make_html_report
+Requires-Dist: codereport ; extra == 'make_html_report'
+
+UNKNOWN
+
+
