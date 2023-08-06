@@ -1,0 +1,9 @@
+README.md
+setup.py
+frametovideo.egg-info/PKG-INFO
+frametovideo.egg-info/SOURCES.txt
+frametovideo.egg-info/dependency_links.txt
+frametovideo.egg-info/requires.txt
+frametovideo.egg-info/top_level.txt
+frametovideo/writer/__init__.py
+frametovideo/writer/writer.py
