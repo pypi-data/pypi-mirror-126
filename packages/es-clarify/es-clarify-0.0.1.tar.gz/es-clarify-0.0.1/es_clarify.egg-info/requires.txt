@@ -1,0 +1,3 @@
+elasticsearch
+pytest-with-docker
+pytest

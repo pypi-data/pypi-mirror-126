@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+es_clarify/__init__.py
+es_clarify/decorator.py
+es_clarify.egg-info/PKG-INFO
+es_clarify.egg-info/SOURCES.txt
+es_clarify.egg-info/dependency_links.txt
+es_clarify.egg-info/requires.txt
+es_clarify.egg-info/top_level.txt

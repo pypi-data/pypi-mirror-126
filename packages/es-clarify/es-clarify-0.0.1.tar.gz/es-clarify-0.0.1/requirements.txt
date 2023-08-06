@@ -1,0 +1,5 @@
+elasticsearch
+pytest-with-docker
+pytest
+
+# EOF
