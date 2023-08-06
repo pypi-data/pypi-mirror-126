@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: ds-my-tools
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: ice_coder
+Author-email: leebigshan@gmail.com
+License: UNKNOWN
+Description: 
+            1.读取json文件
+            2.写入字典数据到文件中
+            
+Platform: UNKNOWN
