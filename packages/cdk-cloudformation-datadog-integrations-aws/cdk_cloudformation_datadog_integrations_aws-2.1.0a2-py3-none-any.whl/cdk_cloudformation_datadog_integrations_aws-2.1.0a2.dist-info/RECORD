@@ -1,0 +1,9 @@
+cdk_cloudformation_datadog_integrations_aws/__init__.py,sha256=13fGxHHhKpXRmkpfKlWAHwCSdY3gbTdi_iBP19I4rHI,11588
+cdk_cloudformation_datadog_integrations_aws/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_cloudformation_datadog_integrations_aws/_jsii/__init__.py,sha256=ahiGBjnqdyZmhjoikXY_1z70Ff7ChzlcEdHx0gC6N1Y,435
+cdk_cloudformation_datadog_integrations_aws/_jsii/datadog-integrations-aws@2.1.0-alpha.2.jsii.tgz,sha256=iNXTT5g6q4XxfMEKfSJmeKt8bc8Ku03cM1XGQhJBO7I,26158
+cdk_cloudformation_datadog_integrations_aws-2.1.0a2.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_cloudformation_datadog_integrations_aws-2.1.0a2.dist-info/METADATA,sha256=Cpjf3CbZz5QAr3tFOo3R_AQYqA-MroT38e-PW5ovUrE,2859
+cdk_cloudformation_datadog_integrations_aws-2.1.0a2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cdk_cloudformation_datadog_integrations_aws-2.1.0a2.dist-info/top_level.txt,sha256=btfiJppvsw5FvtZjnc-NdIYwwUK9mxeB85DXM7MjEyg,44
+cdk_cloudformation_datadog_integrations_aws-2.1.0a2.dist-info/RECORD,,
