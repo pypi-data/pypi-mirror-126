@@ -1,0 +1,13 @@
+alembic
+amun
+boto3
+click
+psycopg2-binary
+python-dateutil
+pyyaml
+sqlalchemy-utils
+sqlalchemy<1.4.0
+thoth-common
+thoth-python
+thoth-ssdeep
+voluptuous
