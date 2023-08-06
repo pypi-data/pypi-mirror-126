@@ -1,0 +1,11 @@
+django_2fa/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+django_2fa/admin.py,sha256=cvVx4v9sR14IRJ6XWDraYn-1HuSQPWcBvhiZ1uJhhUg,285
+django_2fa/apps.py,sha256=gPfmXICJeEz6mGSJsvkBayf7j9zW-xodog9LbQqbKzA,151
+django_2fa/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_2fa/models.py,sha256=eiroEuIzUV0rPyh9-F2eCx0HvpL6hxc2gcmeGW3meF8,626
+django_2fa/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_2fa/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_2fa-0.1.0.dist-info/WHEEL,sha256=HOIUIdnuwRqcDe_2tAkxOewEesBQdBXX64_QMxCEvc8,87
+django_2fa-0.1.0.dist-info/METADATA,sha256=1H94Vcg6mseWdQmdQbVBLFe6zTwoIaavAuZJc64n_4g,878
+django_2fa-0.1.0.dist-info/LICENSE,sha256=To4apCouftYcgYuEr6LPGY4EASDs9LmUj-Nj8hkE6kM,1069
+django_2fa-0.1.0.dist-info/RECORD,,
