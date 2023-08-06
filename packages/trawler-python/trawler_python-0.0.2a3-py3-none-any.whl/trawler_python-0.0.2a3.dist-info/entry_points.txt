@@ -1,0 +1,3 @@
+[console_scripts]
+trawler=trawler.agent.main:main
+
