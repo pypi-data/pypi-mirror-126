@@ -1,0 +1,6 @@
+pymongo
+cloudevents
+requests
+Flask
+gunicorn
+flask-cors
