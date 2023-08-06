@@ -1,0 +1,14 @@
+setup.py
+dnevnikru_aio/__init__.py
+dnevnikru_aio/dnevnik.py
+dnevnikru_aio/exceptions.py
+dnevnikru_aio/gos_regions.py
+dnevnikru_aio/parsers.py
+dnevnikru_aio/session.py
+dnevnikru_aio/session_gos.py
+dnevnikru_aio/utils.py
+dnevnikru_aio.egg-info/PKG-INFO
+dnevnikru_aio.egg-info/SOURCES.txt
+dnevnikru_aio.egg-info/dependency_links.txt
+dnevnikru_aio.egg-info/requires.txt
+dnevnikru_aio.egg-info/top_level.txt
