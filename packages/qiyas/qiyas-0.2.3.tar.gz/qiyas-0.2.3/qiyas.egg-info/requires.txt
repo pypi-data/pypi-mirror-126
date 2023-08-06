@@ -1,0 +1,10 @@
+networkx
+varname
+
+[dev]
+build
+pylint
+pytest
+coverage
+mypy
+black
