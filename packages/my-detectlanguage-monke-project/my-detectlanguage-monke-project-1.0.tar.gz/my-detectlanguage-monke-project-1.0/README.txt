@@ -1,0 +1,7 @@
+A Library that can be used to detect some languages
+ANY ISSUE WITH DETECTING THE LANGUAGE PLEASE REPORT TO phucanhle06@gmail.com
+LANGUAGE DETECTION MIGHT NOT WORK WITH SINGLE WORD STRING
+
+CURRENTLY SUPPORTED LANGUAGES
+=============================
+ENGLISH

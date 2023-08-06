@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: my-detectlanguage-monke-project
+Version: 1.0
+Summary: Detect Languages (WIP)
+Home-page: UNKNOWN
+Author: Phuc ANH
+Author-email: phucanhle06@gmail.com
+License: MIT
+Keywords: detect lang
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+A Library that can be used to detect some languages
+ANY ISSUE WITH DETECTING THE LANGUAGE PLEASE REPORT TO phucanhle06@gmail.com
+LANGUAGE DETECTION MIGHT NOT WORK WITH SINGLE WORD STRING
+
+CURRENTLY SUPPORTED LANGUAGES
+=============================
+ENGLISH
+
+CHANGELOG
+
+1.0 | Creation Date 6/11/2021 - Added support for English language
+

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+my_detectlanguage_monke_project.egg-info/PKG-INFO
+my_detectlanguage_monke_project.egg-info/SOURCES.txt
+my_detectlanguage_monke_project.egg-info/dependency_links.txt
+my_detectlanguage_monke_project.egg-info/top_level.txt
