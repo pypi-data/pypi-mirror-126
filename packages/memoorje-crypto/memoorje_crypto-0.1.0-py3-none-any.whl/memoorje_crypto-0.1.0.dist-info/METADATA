@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: memoorje-crypto
+Version: 0.1.0
+Summary: WebCrypto-compatible encryption container formats.
+Home-page: https://memoorje.org
+Author: memoorje developers
+Author-email: tach@memoorje.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Security :: Cryptography
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pycryptodome (~=3.6)
+
+
+# memoorje_crypto
+
+This library provides encryption container formats compatible with the
+[WebCryptography API](https://w3c.github.io/webcrypto/).
+
+NOTE: The code in this library has not yet been reviewed. Use it with caution.
+
+
