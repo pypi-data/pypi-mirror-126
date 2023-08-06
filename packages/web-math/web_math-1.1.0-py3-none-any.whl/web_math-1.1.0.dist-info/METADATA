@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: web-math
+Version: 1.1.0
+Summary: For online math api
+Home-page: https://github.com/mcbabo/webmath
+Author: Moritz Joksch
+License: MIT
+Keywords: discord discord-calc calculator easy-calc simple-calculator discord.py pycord python math
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: aiohttp
+Requires-Dist: urllib3
+
+# WEBMATH
+
+Online Math Calculator
+
+Shoutout to BobDotCom#4428 for his help
+
+https://github.com/BobDotCom
+
+## Instructions
+
+1. Install:
+
+```
+pip install webmath
+```
+
+2. Run Programm:
+
+```python
+# import webmath and asyncio
+import asyncio
+from web_math import webmath
+
+# make def
+async def bread():
+    output = await webmath.calculate("3+3")
+    print(output)
+
+#run def
+asyncio.run(bread())
+```
+
+3. Ride the space skyway home to 80s Miami
+
+
