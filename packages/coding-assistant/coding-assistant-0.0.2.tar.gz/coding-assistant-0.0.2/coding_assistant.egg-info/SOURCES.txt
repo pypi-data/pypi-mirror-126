@@ -1,0 +1,7 @@
+README.md
+setup.py
+coding_assistant/__init__.py
+coding_assistant.egg-info/PKG-INFO
+coding_assistant.egg-info/SOURCES.txt
+coding_assistant.egg-info/dependency_links.txt
+coding_assistant.egg-info/top_level.txt
