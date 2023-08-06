@@ -1,0 +1,12 @@
+biovoronoi/__init__.py,sha256=jMVE6eKegndV9O0lmGwPddirpw8Rn7Pdlqw5tyj2c4w,73
+biovoronoi/_version.py,sha256=wr2eMqwy6gMxLHSC6ZZ0GhtIKlhxN-0eMYW82O6qArs,497
+biovoronoi/cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biovoronoi/core.py,sha256=LKsRQz06YTnyJj1AmqqRbI9E82k3-XLU445lVaKZRws,1925
+test/__init__.py,sha256=teWczgnW9MS-xaHSBqm-eR42aG9hgctfquzaKwqIOP4,86
+test/test_biopython.py,sha256=Hm_VijwwvqwjNJ0iyoERaWYom0uQormRjZUViEilWkQ,538
+test/test_core.py,sha256=3DShfZDKzR5lhoc2r2L1H0bSDVTC6ShwjJKL6y5eWkE,9481
+test/test_scipy_voronoi.py,sha256=letRSIAx5ArRFQPS27xS1QHrmKfOt3vNwlfdLg3CWUQ,3105
+biovoronoi-0.1.0.dist-info/METADATA,sha256=Fp_ZEy6IsBbzholAKsLTUceZpaygkLqHeYhwM5H_Eo4,1109
+biovoronoi-0.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+biovoronoi-0.1.0.dist-info/top_level.txt,sha256=UjZS24-ls9PJLFD8IQ199wWtztAB_fL3N1qti3eRyf0,16
+biovoronoi-0.1.0.dist-info/RECORD,,
