@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+checkeml/SidraTools.py
+checkeml/__init__.py
+checkeml.egg-info/PKG-INFO
+checkeml.egg-info/SOURCES.txt
+checkeml.egg-info/dependency_links.txt
+checkeml.egg-info/requires.txt
+checkeml.egg-info/top_level.txt
