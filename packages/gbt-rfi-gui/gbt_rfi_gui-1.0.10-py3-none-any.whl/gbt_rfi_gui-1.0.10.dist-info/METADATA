@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gbt-rfi-gui
+Version: 1.0.10
+Summary: GBT RFI Webpage is the public-facing webpage containing access to the Green Bank Observatory Radio Frequency Interference database for the Green Bank Telescope.
+Home-page: https://pypi.org/project/gbt-rfi-gui/
+Author: Aaron Lovato, Brenne Gregory
+Author-email: alovato@nrao.edu, bgregory@nrao.edu
+License: UNKNOWN
+Keywords: singledish,gridder,gridding
+Platform: UNKNOWN
+Requires-Python: >=3.6, <3.9
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: PyQt5
+
+UNKNOWN
+
