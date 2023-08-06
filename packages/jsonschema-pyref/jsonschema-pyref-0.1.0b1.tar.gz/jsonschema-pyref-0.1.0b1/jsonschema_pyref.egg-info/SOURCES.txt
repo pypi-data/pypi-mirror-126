@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+jsonschema_pyref/__init__.py
+jsonschema_pyref.egg-info/PKG-INFO
+jsonschema_pyref.egg-info/SOURCES.txt
+jsonschema_pyref.egg-info/dependency_links.txt
+jsonschema_pyref.egg-info/requires.txt
+jsonschema_pyref.egg-info/top_level.txt
+jsonschema_pyref/examples/__init__.py
+jsonschema_pyref/examples/schema1.json
+jsonschema_pyref/examples/schema2.yml
+jsonschema_pyref/examples/schema3.json
+jsonschema_pyref/examples/schema4.yml
