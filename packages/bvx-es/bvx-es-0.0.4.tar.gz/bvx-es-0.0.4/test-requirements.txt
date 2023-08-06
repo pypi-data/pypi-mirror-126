@@ -1,0 +1,10 @@
+bvx_env
+bvx_oop
+bvx_pytest
+elasticsearch
+elasticsearch-dbapi
+six
+sqlalchemy
+pytest~=6.2.5
+
+# EOF
