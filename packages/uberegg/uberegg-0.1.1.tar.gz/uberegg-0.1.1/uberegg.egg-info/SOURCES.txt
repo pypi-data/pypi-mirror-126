@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+uberegg.py
+uberegg.egg-info/PKG-INFO
+uberegg.egg-info/SOURCES.txt
+uberegg.egg-info/dependency_links.txt
+uberegg.egg-info/entry_points.txt
+uberegg.egg-info/top_level.txt
