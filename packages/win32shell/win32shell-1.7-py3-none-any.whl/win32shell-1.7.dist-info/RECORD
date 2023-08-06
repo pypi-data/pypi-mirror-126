@@ -1,0 +1,7 @@
+win32shell/__init__.py,sha256=8UFEoQCmm8RRJorn3AV6qdSw5621zyr_19pz-4LsRag,22
+win32shell/shell.py,sha256=ewU8U_Nm0kT5Xp9C8M8n8ZGXanQWxPpF0HI6SwSJ_uA,357838
+win32shell-1.7.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+win32shell-1.7.dist-info/METADATA,sha256=GvggpKoEV4Qnw4TmNFWoSOzTcE-7DVmq6an5RyHZixE,527
+win32shell-1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+win32shell-1.7.dist-info/top_level.txt,sha256=aabBkMBuJQaCDI57Bo2Dz8c-VDKq0Sf54lTMaWzlo8Y,11
+win32shell-1.7.dist-info/RECORD,,
