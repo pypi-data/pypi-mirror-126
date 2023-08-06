@@ -1,0 +1,12 @@
+attrs
+boto3
+botocore
+click
+docker
+dockerpty
+ntplib
+PyYAML
+requests
+scandir
+six
+urllib3==1.26.7
