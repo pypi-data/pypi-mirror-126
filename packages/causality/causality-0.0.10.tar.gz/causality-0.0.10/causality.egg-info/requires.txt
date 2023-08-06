@@ -1,0 +1,11 @@
+decorator
+networkx
+numpy
+pandas
+patsy
+python-dateutil
+pytz
+pytz
+scipy
+six
+statsmodels
