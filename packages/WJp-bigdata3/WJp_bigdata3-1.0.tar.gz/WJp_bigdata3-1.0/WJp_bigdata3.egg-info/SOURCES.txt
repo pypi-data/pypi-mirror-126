@@ -1,0 +1,5 @@
+setup.py
+WJp_bigdata3.egg-info/PKG-INFO
+WJp_bigdata3.egg-info/SOURCES.txt
+WJp_bigdata3.egg-info/dependency_links.txt
+WJp_bigdata3.egg-info/top_level.txt
