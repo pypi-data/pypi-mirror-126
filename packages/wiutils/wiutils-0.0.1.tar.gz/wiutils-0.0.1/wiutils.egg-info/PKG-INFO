@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: wiutils
+Version: 0.0.1
+Summary: Transformation and exploration utilities for information downloaded from Wildlife Insights projects.
+Home-page: https://github.com/PEM-Humboldt/wildlife-insights-utils
+Author: Marcelo Villa-Piñeros
+Author-email: mvilla@humboldt.org.co
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: test
+License-File: LICENSE.txt
+
+UNKNOWN
+

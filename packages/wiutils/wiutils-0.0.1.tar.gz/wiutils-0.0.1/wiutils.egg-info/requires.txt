@@ -1,0 +1,14 @@
+numpy
+openpyxl
+pandas
+
+[dev]
+black
+ipython
+
+[docs]
+sphinx
+sphinx-rtd-theme
+
+[test]
+pytest
