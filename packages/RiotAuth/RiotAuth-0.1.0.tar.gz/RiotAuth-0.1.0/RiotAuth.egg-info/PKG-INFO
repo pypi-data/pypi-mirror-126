@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: RiotAuth
+Version: 0.1.0
+Summary: Simple Riot Auth Session Creator
+Home-page: UNKNOWN
+Author: yomom
+Author-email: yomom@myhouse.com
+License: UNKNOWN
+Keywords: valorant,league,of,legends,api,authorization
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Religion
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+A lib that creats a logged-in session which can be used for games using Riot Services 
+

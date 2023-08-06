@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+RiotAuth.egg-info/PKG-INFO
+RiotAuth.egg-info/SOURCES.txt
+RiotAuth.egg-info/dependency_links.txt
+RiotAuth.egg-info/requires.txt
+RiotAuth.egg-info/top_level.txt
+riotauth/__init__.py
+riotauth/riotauth.py
