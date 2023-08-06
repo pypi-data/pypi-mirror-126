@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/tailcalib.py
+src/tailcalib.egg-info/PKG-INFO
+src/tailcalib.egg-info/SOURCES.txt
+src/tailcalib.egg-info/dependency_links.txt
+src/tailcalib.egg-info/requires.txt
+src/tailcalib.egg-info/top_level.txt
