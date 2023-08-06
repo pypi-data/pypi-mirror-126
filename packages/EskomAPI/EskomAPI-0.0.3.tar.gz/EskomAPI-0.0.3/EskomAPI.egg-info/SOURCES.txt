@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+EskomAPI/__init__.py
+EskomAPI/eskom.py
+EskomAPI.egg-info/PKG-INFO
+EskomAPI.egg-info/SOURCES.txt
+EskomAPI.egg-info/dependency_links.txt
+EskomAPI.egg-info/requires.txt
+EskomAPI.egg-info/top_level.txt
