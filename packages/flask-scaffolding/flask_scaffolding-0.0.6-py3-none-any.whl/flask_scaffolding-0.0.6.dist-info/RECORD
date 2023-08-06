@@ -1,0 +1,14 @@
+scaffold/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scaffold/web.py,sha256=easxWE_rrfbneGarnjgRIyGTnCyfA3iFTw1Ux-ffZzo,1411
+scaffold/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scaffold/base/config.py,sha256=lbEWcD1YEj9RmHb8oaw_ITlepRD6A2UsCoIZnrYrXNE,307
+scaffold/base/run.py,sha256=PHe8Pvu8PzFwX-jIQZJ7Q7uBljZNgGyAOAInZ8yg8rY,1130
+scaffold/base/app/__init__.py,sha256=5PzU1kR_srkyzvO0El7Wj7LwIeWrjUtj7I6qyhjh-9M,690
+scaffold/base/app/forms.py,sha256=JszYNV70SiMFlyUf45cynzWJk_Oo2bh7bvSY4liAP-0,1384
+scaffold/base/app/models.py,sha256=nRcng0u01BbaRHGX3SSsWpc8ePH4YEuVXlz7HUFi2Co,1136
+scaffold/base/app/views.py,sha256=0YB_1FkBhN7oqcvTCN8A2mOKD29OqQwdDYLHkd_MNF8,7478
+flask_scaffolding-0.0.6.dist-info/LICENSE,sha256=UpsWl2S9E6mc-3xFqiT-FrVVWjtUUqehdGD42CD9Hbs,1091
+flask_scaffolding-0.0.6.dist-info/METADATA,sha256=qYHuHt75eXRGSFiiI7vjzRNlrWurWypLKMC7VnwjiZY,651
+flask_scaffolding-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+flask_scaffolding-0.0.6.dist-info/top_level.txt,sha256=aLfYcjRWwVHB73DR9jvLh71eUnfVb37BudybADkmaSM,9
+flask_scaffolding-0.0.6.dist-info/RECORD,,
