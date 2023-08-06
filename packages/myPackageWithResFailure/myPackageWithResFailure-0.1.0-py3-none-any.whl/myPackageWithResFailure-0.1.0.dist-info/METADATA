@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: myPackageWithResFailure
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Alex Andrv
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: mpi4py (>=2.0)
+Requires-Dist: numpy (>=1.21.1)
+
+UNKNOWN
+
+
