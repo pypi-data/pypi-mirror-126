@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: blur_image
+Version: 0.1.0
+Summary: A library to blurring images.
+Home-page: https://github.com/onuratakan/blur_image
+Author: Onur Atakan ULUSOY
+Author-email: atadogan06@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >= 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Blur Image
+A library to blurring images.
+# Install
+```
+pip3 install blur-image
+```
+# Using
+```python
+from blur_image import blur
+# blur(source, output, mode = "simple")
+# Modes: simple, box, gaussian
+# Value is available for this modes: box, gaussian
+blur("source.png", "blurred_source.png")
+```
+
+

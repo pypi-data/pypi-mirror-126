@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/blur_image/__init__.py
+src/blur_image/blur_image.py
+src/blur_image.egg-info/PKG-INFO
+src/blur_image.egg-info/SOURCES.txt
+src/blur_image.egg-info/dependency_links.txt
+src/blur_image.egg-info/not-zip-safe
+src/blur_image.egg-info/requires.txt
+src/blur_image.egg-info/top_level.txt
