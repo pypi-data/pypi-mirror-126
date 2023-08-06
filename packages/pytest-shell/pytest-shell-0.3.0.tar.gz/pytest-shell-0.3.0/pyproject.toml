@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pytest-shell"
+version = "0.3.0"
+description = "A pytest plugin to help with testing shell scripts / black box commands"
+authors = ["Daniel Murray <daniel@darkdisco.net>"]
+license = "MIT"
+
+[tool.poetry.plugins."pytest11"]
+"shell" = "pytest_shell"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+where = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+tox = "^3.24.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
