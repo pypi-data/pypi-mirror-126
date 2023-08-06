@@ -1,0 +1,9 @@
+README.md
+setup.py
+SkSchedule/__init__.py
+SkSchedule/course.py
+SkSchedule.egg-info/PKG-INFO
+SkSchedule.egg-info/SOURCES.txt
+SkSchedule.egg-info/dependency_links.txt
+SkSchedule.egg-info/requires.txt
+SkSchedule.egg-info/top_level.txt

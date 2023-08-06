@@ -1,0 +1,122 @@
+---
+title: SkSchedule文档
+---
+
+[TOC]
+
+
+
+# 介绍
+
+`SkSchedule`用于湖北生物科技职业学院的查课,使用python进行封装,一定程度上降低了开发者的工作量。
+
+# 开始使用
+
+
+
+## 安装模块以及依赖包
+
+```python
+pip install SkSchedule 
+pip install pandas
+pip install requests
+```
+
+
+
+## 导入模块
+
+```python
+from SkSchedule.course import Course
+```
+
+
+
+## Course
+
+`Course`是唯一的一个主类,实例化时接受三个参数:`username`,`password`,`weeks`。
+
+`username`:学号,字符型,必选参数
+
+`password`:密码,字符型,必选参数
+
+`weeks`:周次,整数型,默认为2,即查询第二周的课表,非必选参数
+
+例如，
+
+```python
+from SkSchedule.course import Course
+Course('1905080101','1905080101a')
+```
+
+
+
+### fetch
+
+`fetch`:`Course`类的方法,用于获取一周的课表数据。
+
+```python
+from SkSchedule.course import Course
+course = Course('1905080101','1905080101a')
+data = course.fetch()
+print(data)
+```
+
+
+
+### query
+
+`query`:`Course`类的方法,用于查询单条或者多条数据,它接受两个参数,`week`,`teacher`。
+
+`week`:星期,`str`类型或者`list`类型,可选的值为:
+
+`['周一','周二','周三','周四','周五','周六','周日']`
+
+当给定`week`参数类型为`str`时候,则查询单条,类型为`list`时候查询多条数据
+
+`teacher`:教师姓名,`str`类型
+
+如，查询周一课表:
+
+```
+query('周一')
+```
+
+组合查询
+
+```
+#查询周一并且是教师为孙智武老师的课程
+query('周一','孙智武')
+```
+
+查询多条数据
+
+```
+#查询周一和周三的课程
+query(['周一','周三'])
+```
+
+### to_excel
+
+`to_excel`:`Course`类的方法,用于导出数据为excel文件,它接受一个参数`path`
+
+`path`:文件保存路径
+
+```
+from SkSchedule.course import Course
+course = Course('1905080101','1905080101a')
+course.to_excel('课程表.xlsx')
+```
+
+
+
+# 常见问题
+
+1.当`Course`中的`username`和`password`给定有误或者学校教务系统无此信息的时候，会抛出`ValueError`:参数错误。
+
+文档待完善,具体问题请联系开发者:2528104776@qq.com
+
+
+
+
+
