@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: octopy-energy
+Version: 1.0.0
+Summary: Octopus Energy API client in Python
+Home-page: https://github.com/Flameeyes/octopy-energy
+Author: Diego Elio Pettenò
+Author-email: flameeyes@flameeyes.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: ~=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: AUTHORS
+License-File: LICENSES/0BSD.txt
+License-File: LICENSES/Apache-2.0.txt
+License-File: LICENSES/MIT.txt
+
+<!--
+SPDX-FileCopyrightText: 2021 The octopy-energy Authors
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
+# Python module to access Octopus Energy APIs
+
+This module allows access to [Octopus Energy APIs](https://developer.octopus.energy/docs/api/)
+to query for meter readings and other information.
+
+
