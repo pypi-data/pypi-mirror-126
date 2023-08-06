@@ -1,0 +1,8 @@
+torch_cka/__init__.py,sha256=wLscyVq_Cm9jmSg2UTPaAUwYAlPmkt6eTw0FTjQ3ybc,42
+torch_cka/cka.py,sha256=STfm9EAKxDKR_EPq6tEGnl8M-z34dQkykidgMt8gFnk,8362
+torch_cka/utils.py,sha256=R-_DIF5qZdhjmW0s93PsRaQ7eZ3YwErjWVsTuPfUYW8,532
+torch_cka-0.21.dist-info/LICENSE.md,sha256=SmnnOPDrK2fZfD7X-hc9v84fnoioC5X3yV3YAvBKYX8,1073
+torch_cka-0.21.dist-info/METADATA,sha256=NRSa2p7SDrZfd0CWUZ98k9SlC0E2OYELsCfJ1Wk0Bw0,7852
+torch_cka-0.21.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+torch_cka-0.21.dist-info/top_level.txt,sha256=QAj38Jn_Mk57RKxsbqVTLhbk3f2zcXtN0aZhwqg-afs,10
+torch_cka-0.21.dist-info/RECORD,,
