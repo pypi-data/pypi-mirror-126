@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: TS-mod
+Version: 0.2
+Summary: AUTOCALCULATE ARIMA MODEL
+Home-page: UNKNOWN
+Author: MAINAK RAY
+Author-email: mainakr748@gmail.com
+License: MIT
+Description: this module is used to find out best parameters of ARIMA based  on initial guess.
+        
+        
+        Change Log
+        ==========
+        
+        0.2(11/07/2021)
+        -------------------
+        - 2nd Release
+        
+Keywords: ARIMA
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
