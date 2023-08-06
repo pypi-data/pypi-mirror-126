@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: js_extractor
+Version: 0.1
+Summary: Find JavaScript Variables, Dicts and Lists in a String and parse them with their content into a Python Dictionary
+Home-page: https://github.com/bjarneschroeder/js_extractor
+Author: Bjarne Schroeder
+Author-email: schroeder.bjarne97@gmail.com
+License: MIT
+Download-URL: https://github.com/bjarneschroeder/js_extractor/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: scraping,parsing,python,extracting,javascript
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
