@@ -1,0 +1,9 @@
+blcutools/__init__.py,sha256=gN86G7uynTtfAjtTrMnnJndMy5RyS26Eg9lPoUThoAg,659
+blcutools/nlp/__init__.py,sha256=qgfaFqRLFu3jMfdSPIQOPL7choC7e9XfS_wpPrriLJE,684
+blcutools/nlp/preprocess/__init__.py,sha256=X-b9_bhpHuZV19BSqE0giFoSOfAx6D6Yr7McfSsXGR4,701
+blcutools/nlp/preprocess/split_sentence_with_puncs.py,sha256=Y8RFDKqlyc1Em1OCmq1U6BW_sexMdQcYi9cNQ5ev_Jc,9441
+blcutools-0.0.0b0.dist-info/LICENSE,sha256=zVvnx9poYrysOYqgJVAlQQT9_vbS27A74WWsehfaGVY,11343
+blcutools-0.0.0b0.dist-info/METADATA,sha256=TFi4-9PmwXT_QW2PgD7UYz61gfRpdYj35u-2bwUDiPM,1380
+blcutools-0.0.0b0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+blcutools-0.0.0b0.dist-info/top_level.txt,sha256=07DcUcPatNoTMQZCP8_RbZWd8_4q1-r2HBK0mZABu7A,10
+blcutools-0.0.0b0.dist-info/RECORD,,
