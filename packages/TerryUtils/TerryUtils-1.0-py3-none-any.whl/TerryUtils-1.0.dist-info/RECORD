@@ -1,0 +1,13 @@
+TerryUtils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TerryUtils/dyapi/__init__.py,sha256=lKJ0P0oczuGUt7lX4yRbUU_wlK2UQsEL5VhDn1BneI4,14257
+TerryUtils/log/__init__.py,sha256=kkSd8CbXtnBo0toMXEL993muKjHIW_Jz_mHR1gIojvA,1779
+TerryUtils/mysql/__init__.py,sha256=fPLN3ffMlAXJ5Y8G2IWkxnGOCJ7j7Xb3qM8hfkDl7V8,106
+TerryUtils/spidersystem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TerryUtils/spidersystem/downloader.py,sha256=WjwowQLBZWUCu_i79nuL7frMxioRk7FuHkqDTxkDcFA,664
+TerryUtils/spidersystem/request.py,sha256=1MFygccJZHjQQ3zsyC-1RkpCEu9I4UBr6FrTsZId_mo,1053
+TerryUtils/spidersystem/response.py,sha256=s5VQ4HNL5u6PM-RuBI1zSRsoVCXOlCwYtUnzHNRSR3k,837
+TerryUtils/spidersystem/usage.py,sha256=P94e0I8OF0nleYgHl6d9L6i9oLYf87XLc-NRMob3Onk,306
+TerryUtils-1.0.dist-info/METADATA,sha256=7sGYg3_Fp1ZdMmSlpytVmbCcdey8YilOLGUyHlTS8qE,179
+TerryUtils-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+TerryUtils-1.0.dist-info/top_level.txt,sha256=RpOUF5TFHG1RjO1DhxJd60LPZmanEdoLVW5f-k4kpuY,11
+TerryUtils-1.0.dist-info/RECORD,,
