@@ -1,0 +1,5 @@
+Werkzeug<2.0,>=1.0.0
+boltons>=20.0.0
+ashes
+glom
+secure-cookie
