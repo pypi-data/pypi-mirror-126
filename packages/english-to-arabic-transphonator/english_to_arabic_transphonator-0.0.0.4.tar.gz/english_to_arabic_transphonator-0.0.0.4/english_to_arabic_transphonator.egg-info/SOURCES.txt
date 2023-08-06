@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+data/__init__.py
+data/cmudict-0.7b.txt
+english_to_arabic_transphonator/__init__.py
+english_to_arabic_transphonator/transphonator.py
+english_to_arabic_transphonator.egg-info/PKG-INFO
+english_to_arabic_transphonator.egg-info/SOURCES.txt
+english_to_arabic_transphonator.egg-info/dependency_links.txt
+english_to_arabic_transphonator.egg-info/not-zip-safe
+english_to_arabic_transphonator.egg-info/top_level.txt
