@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: oneNeuron_PyPi-bapatlaayyanna
+Version: 0.0.1
+Summary: its an implimentation of Perceptron
+Home-page: https://github.com/bapatlaayyanna/oneNeuron_PyPi
+Author: bapatlaayyanna
+Author-email: bapatlaayyanna@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/bapatlaayyanna/oneNeuron_PyPi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oneNeuron_PyPi
+
