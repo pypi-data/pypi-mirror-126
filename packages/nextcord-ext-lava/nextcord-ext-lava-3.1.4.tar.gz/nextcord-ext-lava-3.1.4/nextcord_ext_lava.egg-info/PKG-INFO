@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nextcord-ext-lava
+Version: 3.1.4
+Summary: A fork of lavalink.py built for nextcord
+Home-page: https://github.com/nextcord-ext/lava
+Author: nextcord-ext
+Author-email: VincentRPS@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/nextcord-ext/lava/archive/3.1.4.tar.gz
+Keywords: lavalink
+Platform: UNKNOWN
+Provides-Extra: docs
+Provides-Extra: development
+License-File: LICENSE
+
+UNKNOWN
+
