@@ -1,0 +1,9 @@
+cdk_cloudformation_mongodb_atlas_networkpeering/__init__.py,sha256=JYY6s6afheoKFrvEbec7IvDBRSEECbiZV4pMgHK-0rY,12224
+cdk_cloudformation_mongodb_atlas_networkpeering/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_cloudformation_mongodb_atlas_networkpeering/_jsii/__init__.py,sha256=fahWKgrt-DMyKuFBl8oHBmzUhFzP4bf30Bq1q1zT8vw,443
+cdk_cloudformation_mongodb_atlas_networkpeering/_jsii/mongodb-atlas-networkpeering@1.2.0-alpha.1.jsii.tgz,sha256=W-xd-N1q4SpHe0_xgOOvvPAwtDs77qaW0-vKCAzsDOg,25572
+cdk_cloudformation_mongodb_atlas_networkpeering-1.2.0a1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_cloudformation_mongodb_atlas_networkpeering-1.2.0a1.dist-info/METADATA,sha256=-bECc3gespXLAXExV7eDlZ3kFoWU2N5TP2zOmQ6BFS4,1288
+cdk_cloudformation_mongodb_atlas_networkpeering-1.2.0a1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cdk_cloudformation_mongodb_atlas_networkpeering-1.2.0a1.dist-info/top_level.txt,sha256=F6AgfRh_qAsIMzYxM8pg2t2mSTaXWBJeLM-wiBeYWVA,48
+cdk_cloudformation_mongodb_atlas_networkpeering-1.2.0a1.dist-info/RECORD,,
