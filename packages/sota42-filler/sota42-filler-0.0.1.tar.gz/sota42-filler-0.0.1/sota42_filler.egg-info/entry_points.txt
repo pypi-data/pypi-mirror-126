@@ -1,0 +1,3 @@
+[console_scripts]
+sota42_filler = src.sota42_filler:main
+

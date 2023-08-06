@@ -1,0 +1,8 @@
+setup.py
+sota42_filler.egg-info/PKG-INFO
+sota42_filler.egg-info/SOURCES.txt
+sota42_filler.egg-info/dependency_links.txt
+sota42_filler.egg-info/entry_points.txt
+sota42_filler.egg-info/top_level.txt
+src/__init__.py
+src/sota42_filler.py
