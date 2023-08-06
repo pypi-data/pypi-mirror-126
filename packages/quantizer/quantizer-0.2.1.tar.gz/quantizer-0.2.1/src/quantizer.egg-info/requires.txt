@@ -1,0 +1,5 @@
+matplotlib>=3.0
+numba>=0.42numpy>=1.15
+pyyaml>=5.1
+scipy>=1.2
+sounddevice>=0.4
