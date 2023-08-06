@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mongox
+Version: 0.0.0
+Summary: Python Mongodb ODM using Pydantic
+Home-page: https://github.com/aminalaee/mongox
+License: MIT
+Keywords: mongodb,asyncio,odm
+Author: Amin Alaee
+Author-email: mohammadamin.alaee@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Project-URL: Repository, https://github.com/aminalaee/mongox
+Description-Content-Type: text/markdown
+
+
