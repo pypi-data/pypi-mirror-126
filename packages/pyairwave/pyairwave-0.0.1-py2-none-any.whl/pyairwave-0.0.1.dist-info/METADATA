@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyairwave
+Version: 0.0.1
+Summary: airwave8.0 简单API封装，
+Home-page: https://github.com/zhuyuehui1993/PyAirwave
+Author: yuehui
+Author-email: zhuyuehui02@meituan.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# PyAirwave
+
+```python
+from PyAirwave import AirWave
+aw = AirWave('login', 'passwd', '192.168.1.1')
+res = aw.get_clients('name')
+```
+
+
+
