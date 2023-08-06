@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+django_health_check_version/__init__.py
+django_health_check_version/apps.py
+django_health_check_version/backends.py
+django_health_check_version.egg-info/PKG-INFO
+django_health_check_version.egg-info/SOURCES.txt
+django_health_check_version.egg-info/dependency_links.txt
+django_health_check_version.egg-info/top_level.txt
