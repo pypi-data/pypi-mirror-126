@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+feaplat.egg-info/PKG-INFO
+feaplat.egg-info/SOURCES.txt
+feaplat.egg-info/dependency_links.txt
+feaplat.egg-info/top_level.txt
+pydict/__init__.py
+pydict/decoder.py
+pydict/encoder.py
+pydict/scanner.py
+pydict/tool.py

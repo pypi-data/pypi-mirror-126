@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: feaplat
+Version: 0.0.1
+Summary: Same as json.dumps or json.loads, pydict supprot pydict.dumps and pydict.loads
+Home-page: https://github.com/Boris-code/pydict.git
+Author: Boris
+Author-email: boris_liu@foxmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pydict
+
+Same as json.dumps or json.loads, pydict supprot pydict.dumps and pydict.loads
+
+Example:
+
+```python
+>>> import pydict
+>>> pydict.dumps({"a": True, "b": False, "c": [1, 2, 3]})
+{
+    "a": True,
+    "b": False,
+    "c": [
+        1,
+        2,
+        3
+    ]
+}
+
+>>> pydict.loads('{"a": True, "b": False, "c": [1, 2, 3]}')
+{'a': True, 'b': False, 'c': [1, 2, 3]}
+```
+
