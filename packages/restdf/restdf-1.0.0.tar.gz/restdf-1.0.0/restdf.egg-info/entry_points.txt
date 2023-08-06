@@ -1,0 +1,3 @@
+[console_scripts]
+restdf = restdf.__main__:main
+
