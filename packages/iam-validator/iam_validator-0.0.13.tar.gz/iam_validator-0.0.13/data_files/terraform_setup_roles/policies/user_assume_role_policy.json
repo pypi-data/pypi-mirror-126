@@ -1,0 +1,13 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Resource": [
+        "arn:aws:sts::${account_id}:role/${positivive_testing_role_name}",
+        "arn:aws:sts::${account_id}:role/${negative_testing_role_name}"
+      ],
+      "Action": "sts:AssumeRole"
+    }
+  ]
+}

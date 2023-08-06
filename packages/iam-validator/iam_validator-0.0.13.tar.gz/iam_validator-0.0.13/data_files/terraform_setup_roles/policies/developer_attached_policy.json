@@ -1,0 +1,91 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+          "Effect": "Allow",
+          "Action": [
+              "iam:CreateRole"
+
+          ],
+          "Resource": "*",
+          "Condition": {
+               "StringEquals": {
+                  "iam:PermissionsBoundary": "arn:aws:iam::${account_id}:policy/permissions-boundary-policy"
+               }
+          }
+      },
+      {
+        "Effect": "Allow",
+        "Action": [
+          "iam:TagRole",
+          "iam:DeleteRole"
+        ],
+        "Resource": [
+          "arn:aws:iam::${account_id}:role/${department}/*"
+        ]
+
+      },
+      {
+        "Effect": "Allow",
+        "Resource": "*",
+        "Action": [
+          "autoscaling:CreateCluster",
+          "autoscaling:DeleteLifecycleHook",
+          "autoscaling:DeletePolicy",
+          "autoscaling:Put*",
+          "ec2:Create*"
+        ]
+      },
+      {
+        "Effect": "Allow",
+        "Resource": [
+          "arn:aws:autoscaling:${aws_region}:${account_id}:autoScalingGroup:*:autoScalingGroupName/${department}-asg"
+        ],
+        "Action": [
+          "autoscaling:CreateAutoScalingGroup",
+          "autoscaling:DeleteAutoScalingGroup"
+        ]
+      },
+      {
+        "Effect": "Allow",
+        "Resource": "*",
+        "Action": [
+          "autoscaling:A*",
+          "autoscaling:CreateLaunchConfiguration",
+          "autoscaling:DeleteScheduledAction",
+          "autoscaling:DeleteScheduledUpdateGroupAction",
+          "autoscaling:DetachLoadBalancerTargetGroups",
+          "autoscaling:DeleteTags",
+          "autoscaling:DeleteLaunchConfiguration",
+          "autoscaling:E*",
+          "autoscaling:S*",
+          "autoscaling:T*",
+          "autoscaling:U*",
+          "ec2:Attach*",
+          "ec2:Authorize*",
+          "ec2:Copy*",
+          "ec2:CreateTags",
+          "ec2:Delete*",
+          "ec2:Deregister*",
+          "ec2:Detach*",
+          "ec2:Import*",
+          "ec2:Modify*",
+          "ec2:Reboot*",
+          "ec2:Register*",
+          "ec2:Replace*",
+          "ec2:Reset*",
+          "ec2:Revoke*",
+          "ec2:Run*",
+          "ec2:Start*",
+          "ec2:Stop*",
+          "ec2:Terminate*"
+        ],
+        "Condition": {
+          "StringEqualsIfExists": {
+            "aws:RequestTag/Department": "${department}",
+            "aws:ResourceTag/Department": "${department}"
+          }
+        }
+      }
+    ]
+}
