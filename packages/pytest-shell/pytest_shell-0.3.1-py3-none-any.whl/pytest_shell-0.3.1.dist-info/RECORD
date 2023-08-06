@@ -1,0 +1,10 @@
+pytest_shell/__init__.py,sha256=4OiF5ZanXLbXHfOrpoHgUb5IaI5Ee5OkZZF-6BzWkjc,175
+pytest_shell/connection.py,sha256=eyAyix0HCYIvvIDxl9FPiaNyeVP_mmp2Jpdq7r9n5pc,9530
+pytest_shell/dialect.py,sha256=c0QUasoYIMoNP3EHNmy3DYk8eEvCls_ZLsO-uioZIzA,3500
+pytest_shell/fs.py,sha256=SEvhiN5A2zZ-Y3fzV7amM3Soo1REUcicGQxQWuQ0OEU,3404
+pytest_shell/shell.py,sha256=IDjzyKk_Snd6PzOmBzQzVsU6PMBRKmm219cKxRS6SQ4,4183
+pytest_shell-0.3.1.dist-info/entry_points.txt,sha256=jqjVSebwTHEFJYt_5aL1SeJyJKU9yiJmb2jiuFMmwNg,31
+pytest_shell-0.3.1.dist-info/LICENSE,sha256=zL9yTVJxm5SgAABaiIDy3DxQJ6i7XfDlG96goMExtso,1081
+pytest_shell-0.3.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pytest_shell-0.3.1.dist-info/METADATA,sha256=IfFJbKfBZ8ElVrdCSyriqdGwvTXBx9OvzkgBeh_WXRo,573
+pytest_shell-0.3.1.dist-info/RECORD,,
