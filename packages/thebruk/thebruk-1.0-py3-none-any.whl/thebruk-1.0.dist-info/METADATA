@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: thebruk
+Version: 1.0
+Summary: Test test
+Author: TheBruk
+Author-email: no.point2007@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
