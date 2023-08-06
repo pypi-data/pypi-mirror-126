@@ -1,0 +1,8 @@
+setup.py
+EquisCero/EquisCero.py
+EquisCero/__init__.py
+EquisCero.egg-info/PKG-INFO
+EquisCero.egg-info/SOURCES.txt
+EquisCero.egg-info/dependency_links.txt
+EquisCero.egg-info/not-zip-safe
+EquisCero.egg-info/top_level.txt
