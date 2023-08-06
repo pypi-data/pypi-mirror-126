@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=oJKpwuyGpCdtQLo-5Q6oVmSMjJgKazJYH8dQSd3j2Lo,1120
+wiktionaryparserru/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wiktionaryparserru/parser.py,sha256=cXG5bkgqka6pghcQOgoJGcQCYXjXZ0I6ltsyGuTRNNw,3069
+wiktionaryparserru/utils.py,sha256=_-4z0lZRqD0Q9mIl4SQ4sPhDyx30ZN4D7EMdbknBopE,934
+wiktionary_parser_ru-0.0.1.dist-info/LICENSE,sha256=sUuZA-kzD1VkIY6LkQOTXcXibP4rRmaj_e6Cq569wWk,1070
+wiktionary_parser_ru-0.0.1.dist-info/METADATA,sha256=mE3QLX53t6hI9lX1XHP9SULQZZVG0rGBzUueHZSQCoE,3860
+wiktionary_parser_ru-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wiktionary_parser_ru-0.0.1.dist-info/top_level.txt,sha256=JfeUTkbB-7dLEBT9Hg3nd5Q-EdhE55G4POh6Y-CSsz8,25
+wiktionary_parser_ru-0.0.1.dist-info/RECORD,,
