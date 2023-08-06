@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cpp-package-for-python
+Version: 0.0.2
+Summary: pybind11 extension
+Home-page: https://github.com/BogdanStupa/cpp_package_for_python
+Author: user
+Author-email: user@user.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: pybind11
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+Requires-Dist: wheel
+
+Test
+
