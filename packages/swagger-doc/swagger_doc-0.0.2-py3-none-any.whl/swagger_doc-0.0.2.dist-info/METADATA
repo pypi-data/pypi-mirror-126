@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: swagger-doc
+Version: 0.0.2
+Summary: swagger doc for tornado
+Home-page: https://github.com/aaashuai/swagger-doc
+Author: aaashuai
+Author-email: nsity223@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic (>=1.8.2)
+Requires-Dist: tornado (>=6.0.1)
+Requires-Dist: Jinja2 (>=2.11.2)
+Requires-Dist: PyYaml (>=5.3.1)
+
+### About
+swagger tool for tornado
+### Install
+pip install swagger-doc
+### Usage(todo)
+### Example
+see examples
+### TODO
+1. other response(current only support json response)
+2. ...
+
+
