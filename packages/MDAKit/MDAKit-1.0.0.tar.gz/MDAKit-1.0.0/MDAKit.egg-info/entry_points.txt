@@ -1,0 +1,3 @@
+[console_scripts]
+mdakit = MDAKit.main:main
+
