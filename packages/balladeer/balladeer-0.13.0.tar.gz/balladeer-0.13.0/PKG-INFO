@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: balladeer
+Version: 0.13.0
+Summary: Web-enabled interactive fiction in Python.
+Home-page: https://github.com/tundish/balladeer
+Author: D E Haynes
+Author-email: tundish@gigeconomy.org.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+License-File: LICENSE
+
+Balladeer
+:::::::::
+
+This is a Python package for creating web-enabled interactive screenplay.
+For documentation, please visit the `development blog site
+<https://tundish.github.io/balladeer/>`_.
+
+
