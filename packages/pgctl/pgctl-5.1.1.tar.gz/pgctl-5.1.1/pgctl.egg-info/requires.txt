@@ -1,0 +1,9 @@
+frozendict
+cached-property
+contextlib2
+py>=1.4.32
+pyyaml
+s6
+
+[telemetry]
+yelp-clog
