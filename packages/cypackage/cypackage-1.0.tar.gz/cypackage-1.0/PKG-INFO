@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cypackage
+Version: 1.0
+Summary: This is a console script that used to easily generate cython base on your package.
+Home-page: https://github.com/aminor-z/cypackage
+Author: Aminor_z
+Author-email: aminor_z@qq.com
+License: MIT
+Keywords: cython
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# cypackage
+I'm tried for generate `*.pyd`.  
+This is a tool to generate `*.pyd` based on the given package or package path.  
+
+Example:
+
+```cmd
+C:\Users\qwq>cypackage qwq
+Please input the top package or package path: qwq
+```
+or
+
+```cmd
+C:\Users\qwq>cypackage qwq
+```
+
