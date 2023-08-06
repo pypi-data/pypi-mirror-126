@@ -1,0 +1,106 @@
+interactions:
+- request:
+    body: '{"clientId": "b2f461b6-b8dc-4d44-9549-3c9192ddc477", "secret": "78fa08ca-4202-4120-a840-df5fa1c1b0a1"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://superwise-dev.frontegg.com/identity/resources/auth/v1/api-token
+  response:
+    body:
+      string: '{"expires":"Wed, 20 Oct 2021 09:34:12 GMT","expiresIn":86400,"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA1MiwiZXhwIjoxNjM0NzIyNDUyLCJpc3MiOiJmcm9udGVnZyJ9.dITxQPps8qNRVWRuI6sN9oU_2G4JrDYC79piRtWAwlwcAdxtlWXv6mmeevT1a1i0nExGr1L1uG9e-RRam-_PvfXBpD8dC88oJZVom5_hwwZ_TJhzpxnojM7nqTH1YczT10XZzGlG0zGajILCkKH-I0gyiEeUiflNeimWFtrqFWtDNGMMlmNHAMjBiA3Nq0FNQCoV9pCpAriW90WsIiUBKsB2nXVxJQ9Eie3ctWAtGFVcJd9uRBzKV2uwIL9zk7r1SB1BNHv5U0rbh4rXVKeFLwoVV3dpYddrwhxqpc0Wbzd24Eqm2vV6Gu2sTNp_-i9mb3pDn5l3HWt5g5PyhErnrA","refreshToken":"1e015e2f-3275-407d-b1e5-9aa9bfdbdaf4"}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1055'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 19 Oct 2021 09:34:12 GMT
+      Set-Cookie:
+      - visid_incap_2473133=FjHHRpRmRzuAu6W9nl+/YBORbmEAAAAAQUIPAAAAAAC1YSoQltnUFHtW2AWsPEeo;
+        expires=Wed, 19 Oct 2022 08:43:12 GMT; HttpOnly; path=/; Domain=.frontegg.com
+      - incap_ses_7213_2473133=B8O6Ko7KlFQz6T4XvbkZZBORbmEAAAAAfu3p9OMiXOXAa6QfNan58g==;
+        path=/; Domain=.frontegg.com
+      X-CDN:
+      - Imperva
+      X-Iinfo:
+      - 9-188090-188096 NNNN CT(64 66 0) RT(1634636051529 24) q(0 0 1 -1) r(2 3) U5
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      etag:
+      - W/"41f-pzZCCILJEk6d/h9S7iOZXOWvh2o"
+      expect-ct:
+      - max-age=0
+      frontegg-trace-id:
+      - 9fb111de-6827-4fce-9ead-9e32abd1aef5
+      referrer-policy:
+      - no-referrer
+      strict-transport-security:
+      - max-age=15724800; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA1MiwiZXhwIjoxNjM0NzIyNDUyLCJpc3MiOiJmcm9udGVnZyJ9.dITxQPps8qNRVWRuI6sN9oU_2G4JrDYC79piRtWAwlwcAdxtlWXv6mmeevT1a1i0nExGr1L1uG9e-RRam-_PvfXBpD8dC88oJZVom5_hwwZ_TJhzpxnojM7nqTH1YczT10XZzGlG0zGajILCkKH-I0gyiEeUiflNeimWFtrqFWtDNGMMlmNHAMjBiA3Nq0FNQCoV9pCpAriW90WsIiUBKsB2nXVxJQ9Eie3ctWAtGFVcJd9uRBzKV2uwIL9zk7r1SB1BNHv5U0rbh4rXVKeFLwoVV3dpYddrwhxqpc0Wbzd24Eqm2vV6Gu2sTNp_-i9mb3pDn5l3HWt5g5PyhErnrA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://dev.superwise.ai/barak/admin/v1/segments/90
+  response:
+    body:
+      string: '{"id":90,"task_id":1,"definition_json":[{"value":["Israel","United
+        States of America"],"condition":"in","entity_name":"merchant_id"},{"value":0.5,"condition":">","entity_name":"periodic_11634"}],"created_at":"2021-10-19
+        09:34:11","archived_at":null,"created_by":"auto","name":"My Segment #2","status":"ACTIVE","definition_query":"(merchant_id
+        in [''Israel'', ''United States of America'']) & (periodic_11634 > 0.5)"}'
+    headers:
+      content-length:
+      - '412'
+      content-type:
+      - application/json
+      date:
+      - Tue, 19 Oct 2021 09:34:11 GMT
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '6'
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,112 @@
+interactions:
+- request:
+    body: '{"clientId": "b2f461b6-b8dc-4d44-9549-3c9192ddc477", "secret": "78fa08ca-4202-4120-a840-df5fa1c1b0a1"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://superwise-dev.frontegg.com/identity/resources/auth/v1/api-token
+  response:
+    body:
+      string: '{"expires":"Wed, 20 Oct 2021 09:34:09 GMT","expiresIn":86400,"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA0OSwiZXhwIjoxNjM0NzIyNDQ5LCJpc3MiOiJmcm9udGVnZyJ9.tbwg6Ib8a--NXYJdcOzQhXW2dHT12pTO2gneq2266FwNvM6J7TSDP--pASxK-U1jfyogtzh25C3kvFONmmfJKS2E4LqyeglD7nZn5ej36jwy14wTb0CYoKAHkFwJfpzlPSfDK5Z3xL436uK0BnrqSZZOGGcEifo668Jnv6iJqs7337PFxHFoHrlvmy-wRTiVcK9aX-M2aahnjJ1lzceHKgPKinl1Sb_3HcY1BDRFh3VOPn18so0lkH34PMtL6nnSJY2A4YC6ndRkDjYwiWBZN1MCXgNiS8Y5SNA_sGxUzMwZVryUmRrqTkKw4LgfE037yDYJ6XZCRK-Qr05VL9EM1w","refreshToken":"b52498da-494c-4cef-bda4-6686ceda9a77"}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1055'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 19 Oct 2021 09:34:09 GMT
+      Set-Cookie:
+      - visid_incap_2473133=fTdSyoApQkO/8xU4pIBrChGRbmEAAAAAQUIPAAAAAAChtpcsUzc0TiB5RB8/9VpQ;
+        expires=Wed, 19 Oct 2022 08:43:13 GMT; HttpOnly; path=/; Domain=.frontegg.com
+      - incap_ses_7213_2473133=5ogcfOn5kx3S5z4XvbkZZBGRbmEAAAAAyqfpvUQ6y8sjaTnkIt5ndg==;
+        path=/; Domain=.frontegg.com
+      X-CDN:
+      - Imperva
+      X-Iinfo:
+      - 5-136077-136078 NNNN CT(65 67 0) RT(1634636048940 32) q(0 0 2 -1) r(2 5) U5
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      etag:
+      - W/"41f-F435lqTVa+u72AiAMOlS1MTyoow"
+      expect-ct:
+      - max-age=0
+      frontegg-trace-id:
+      - 98c5a779-3ad8-4854-ab36-e707d639f7ee
+      referrer-policy:
+      - no-referrer
+      strict-transport-security:
+      - max-age=15724800; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"archived_at": null, "created_at": null, "created_by": null, "definition_json":
+      [{"entity_name": "merchant_id", "condition": "in", "value": ["Israel", "United
+      States of America"]}, {"entity_name": "periodic_11634", "condition": ">", "value":
+      0.5}], "definition_query": null, "id": null, "name": "My Segment #1", "status":
+      null, "task_id": 1}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA0OSwiZXhwIjoxNjM0NzIyNDQ5LCJpc3MiOiJmcm9udGVnZyJ9.tbwg6Ib8a--NXYJdcOzQhXW2dHT12pTO2gneq2266FwNvM6J7TSDP--pASxK-U1jfyogtzh25C3kvFONmmfJKS2E4LqyeglD7nZn5ej36jwy14wTb0CYoKAHkFwJfpzlPSfDK5Z3xL436uK0BnrqSZZOGGcEifo668Jnv6iJqs7337PFxHFoHrlvmy-wRTiVcK9aX-M2aahnjJ1lzceHKgPKinl1Sb_3HcY1BDRFh3VOPn18so0lkH34PMtL6nnSJY2A4YC6ndRkDjYwiWBZN1MCXgNiS8Y5SNA_sGxUzMwZVryUmRrqTkKw4LgfE037yDYJ6XZCRK-Qr05VL9EM1w
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '342'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://dev.superwise.ai/barak/admin/v1/segments
+  response:
+    body:
+      string: '{"id":89,"task_id":1,"definition_json":[{"value":["Israel","United
+        States of America"],"condition":"in","entity_name":"merchant_id"},{"value":0.5,"condition":">","entity_name":"periodic_11634"}],"created_at":"2021-10-19
+        09:34:10","archived_at":null,"created_by":"auto","name":"My Segment #1","status":"ACTIVE","definition_query":"(merchant_id
+        in [''Israel'', ''United States of America'']) & (periodic_11634 > 0.5)"}'
+    headers:
+      content-length:
+      - '412'
+      content-type:
+      - application/json
+      date:
+      - Tue, 19 Oct 2021 09:34:09 GMT
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '453'
+    status:
+      code: 201
+      message: Created
+version: 1

@@ -1,0 +1,104 @@
+interactions:
+- request:
+    body: '{"clientId": "b2f461b6-b8dc-4d44-9549-3c9192ddc477", "secret": "78fa08ca-4202-4120-a840-df5fa1c1b0a1"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://superwise-dev.frontegg.com/identity/resources/auth/v1/api-token
+  response:
+    body:
+      string: '{"expires":"Wed, 20 Oct 2021 09:34:24 GMT","expiresIn":86400,"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA2NCwiZXhwIjoxNjM0NzIyNDY0LCJpc3MiOiJmcm9udGVnZyJ9.A3b1PJgtIHnZn0mGklWHc9dZwhlOsM74PLgb_RuMF6m2pyy2uV4V4RcaDweWsghhEpBLsGo_G7W9AmTUd4RNJEb2ByKH9amAGImuj7ea_3nysz8GW1cprakmsOIl-1lMu094okrrQ5D5cOaR4ijecuwkNWQ5EyR9Qk0zjoBjjHWJNpE-rhME6bffT-2c7bFpjF1zEZAWAtEGJJlxMfouCvkKGEkS9MBTakt1vjwTG0rylooYahyfMwYmXqFM7l-M7l6tl9_6HrAoXAnOGexztFKBhIRHrFQREogcQM--HMKVye_bxmgPVwpu13_hH76t80R7BRxv6ngPGtq0D_gMWw","refreshToken":"7e24a973-f0b9-4873-b997-22d1e259e9df"}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1055'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 19 Oct 2021 09:34:24 GMT
+      Set-Cookie:
+      - visid_incap_2473133=Vae0o9vxRP+NWKdKWRbU8x+RbmEAAAAAQUIPAAAAAABPXvnDFuF6X0Dj/PUTQuAD;
+        expires=Wed, 19 Oct 2022 08:43:12 GMT; HttpOnly; path=/; Domain=.frontegg.com
+      - incap_ses_7213_2473133=dUibRPrw0gxr8T4XvbkZZB+RbmEAAAAA2D4kgwsR+6CrK/6JFPErzA==;
+        path=/; Domain=.frontegg.com
+      X-CDN:
+      - Imperva
+      X-Iinfo:
+      - 13-472903-472906 NNNN CT(63 64 0) RT(1634636063535 18) q(0 0 1 -1) r(2 3)
+        U5
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      etag:
+      - W/"41f-fK5QthFS2+ChXBCX0APmafs2MTE"
+      expect-ct:
+      - max-age=0
+      frontegg-trace-id:
+      - bb23260e-84b6-4ff6-8fcf-cfdb6b63f3bc
+      referrer-policy:
+      - no-referrer
+      strict-transport-security:
+      - max-age=15724800; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA2NCwiZXhwIjoxNjM0NzIyNDY0LCJpc3MiOiJmcm9udGVnZyJ9.A3b1PJgtIHnZn0mGklWHc9dZwhlOsM74PLgb_RuMF6m2pyy2uV4V4RcaDweWsghhEpBLsGo_G7W9AmTUd4RNJEb2ByKH9amAGImuj7ea_3nysz8GW1cprakmsOIl-1lMu094okrrQ5D5cOaR4ijecuwkNWQ5EyR9Qk0zjoBjjHWJNpE-rhME6bffT-2c7bFpjF1zEZAWAtEGJJlxMfouCvkKGEkS9MBTakt1vjwTG0rylooYahyfMwYmXqFM7l-M7l6tl9_6HrAoXAnOGexztFKBhIRHrFQREogcQM--HMKVye_bxmgPVwpu13_hH76t80R7BRxv6ngPGtq0D_gMWw
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://dev.superwise.ai/barak/model/v1/versions/0
+  response:
+    body:
+      string: '"Internal Server Error in our system"'
+    headers:
+      content-length:
+      - '37'
+      content-type:
+      - application/json
+      date:
+      - Tue, 19 Oct 2021 09:34:24 GMT
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '36'
+    status:
+      code: 500
+      message: Internal Server Error
+version: 1

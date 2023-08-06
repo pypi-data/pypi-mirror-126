@@ -1,0 +1,12 @@
+# Changelog
+Here you will find a changelog of all the SDK releases.
+
+## [3.0.0] - 2021-10-19
+This release has breaking changes.
+We define new entity named transaction, which responsible to manage all the data send to superwise.
+
+### Added
+- Add Class Transaction, which have 2 methods to send data to superwise (file , batch).
+
+### Removed
+- Removed Data Class and send_file methods, for send data to superwise you should use the Transaction class.

@@ -1,0 +1,798 @@
+interactions:
+- request:
+    body: '{"clientId": "b2f461b6-b8dc-4d44-9549-3c9192ddc477", "secret": "78fa08ca-4202-4120-a840-df5fa1c1b0a1"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://superwise-dev.frontegg.com/identity/resources/auth/v1/api-token
+  response:
+    body:
+      string: '{"expires":"Wed, 20 Oct 2021 09:34:29 GMT","expiresIn":86400,"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA2OSwiZXhwIjoxNjM0NzIyNDY5LCJpc3MiOiJmcm9udGVnZyJ9.FtiW9TpM0F0NpSNdSRfuNIlEsFsW4Sptg_de4M9Cg8FXLQjQIttKLdojsukUxHiddlJFgFAx7DQqj3Szm2L6GdtRXXBiHhbWRKhCT6ZONwrcvd2HAmZz2Zhs83czycE_39jpNcNzDGAeVhLbznSMROOlZs7eNePwtb4nuWNmOUt6Skhh7IkNkwdXcWwtYH1OHgE4xV2MBCvY7TGQo-T_s52j9aJb5FQbYEFa7e09z3CM5RaPOYS7Hml4pVPSEOBzHHjGXqzoTWb9SAkMsp5xUA5mu9aJ6d3dQgv24C-Aj7wr-1erdU3VqpT-KF0QQrIRx5h6npKjXIdCq-OOaRN12w","refreshToken":"63a55011-96f1-43ef-a7c0-456bc78f25e1"}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1055'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 19 Oct 2021 09:34:29 GMT
+      Set-Cookie:
+      - visid_incap_2473133=i0lo7bh9QFmDtWgj588v8iWRbmEAAAAAQUIPAAAAAACUK2Ri0B76DL2X1dVIslIJ;
+        expires=Wed, 19 Oct 2022 08:43:12 GMT; HttpOnly; path=/; Domain=.frontegg.com
+      - incap_ses_7213_2473133=9RKddAhDwkeY9D4XvbkZZCWRbmEAAAAA2K7CLVafyI3LaqbiBYdQOg==;
+        path=/; Domain=.frontegg.com
+      X-CDN:
+      - Imperva
+      X-Iinfo:
+      - 9-189114-189115 NNNN CT(64 64 0) RT(1634636068730 18) q(0 0 1 -1) r(2 3) U5
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      etag:
+      - W/"41f-dBbPhRutz3aQMUEXi2/fd4kf2b8"
+      expect-ct:
+      - max-age=0
+      frontegg-trace-id:
+      - fe4b658f-2491-4350-a03b-a01fddbccbf8
+      referrer-policy:
+      - no-referrer
+      strict-transport-security:
+      - max-age=15724800; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA2OSwiZXhwIjoxNjM0NzIyNDY5LCJpc3MiOiJmcm9udGVnZyJ9.FtiW9TpM0F0NpSNdSRfuNIlEsFsW4Sptg_de4M9Cg8FXLQjQIttKLdojsukUxHiddlJFgFAx7DQqj3Szm2L6GdtRXXBiHhbWRKhCT6ZONwrcvd2HAmZz2Zhs83czycE_39jpNcNzDGAeVhLbznSMROOlZs7eNePwtb4nuWNmOUt6Skhh7IkNkwdXcWwtYH1OHgE4xV2MBCvY7TGQo-T_s52j9aJb5FQbYEFa7e09z3CM5RaPOYS7Hml4pVPSEOBzHHjGXqzoTWb9SAkMsp5xUA5mu9aJ6d3dQgv24C-Aj7wr-1erdU3VqpT-KF0QQrIRx5h6npKjXIdCq-OOaRN12w
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://dev.superwise.ai/barak/admin/v1/tasks/1
+  response:
+    body:
+      string: '{"title":"Chargeback prediction - task 65","active_version_id":1,"task_description":"A
+        multiclass classification model that decide whether to approve or reject a
+        given transaction to avoid chargebacks","created_at":"2021-05-31T00:00:00","time_units":["D","W"],"active_version_ts":"2021-07-26T13:19:07.141382","task_type":"Multiclass
+        Classification","id":1,"monitor_delay":1,"external_id":"65","is_archived":true}'
+    headers:
+      content-length:
+      - '412'
+      content-type:
+      - application/json
+      date:
+      - Tue, 19 Oct 2021 09:34:29 GMT
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '7'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA2OSwiZXhwIjoxNjM0NzIyNDY5LCJpc3MiOiJmcm9udGVnZyJ9.FtiW9TpM0F0NpSNdSRfuNIlEsFsW4Sptg_de4M9Cg8FXLQjQIttKLdojsukUxHiddlJFgFAx7DQqj3Szm2L6GdtRXXBiHhbWRKhCT6ZONwrcvd2HAmZz2Zhs83czycE_39jpNcNzDGAeVhLbznSMROOlZs7eNePwtb4nuWNmOUt6Skhh7IkNkwdXcWwtYH1OHgE4xV2MBCvY7TGQo-T_s52j9aJb5FQbYEFa7e09z3CM5RaPOYS7Hml4pVPSEOBzHHjGXqzoTWb9SAkMsp5xUA5mu9aJ6d3dQgv24C-Aj7wr-1erdU3VqpT-KF0QQrIRx5h6npKjXIdCq-OOaRN12w
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://dev.superwise.ai/barak/admin/v1/tasks/1
+  response:
+    body:
+      string: '{"title":"Chargeback prediction - task 65","active_version_id":1,"task_description":"A
+        multiclass classification model that decide whether to approve or reject a
+        given transaction to avoid chargebacks","created_at":"2021-05-31T00:00:00","time_units":["D","W"],"active_version_ts":"2021-07-26T13:19:07.141382","task_type":"Multiclass
+        Classification","id":1,"monitor_delay":1,"external_id":"65","is_archived":true}'
+    headers:
+      content-length:
+      - '412'
+      content-type:
+      - application/json
+      date:
+      - Tue, 19 Oct 2021 09:34:29 GMT
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '7'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"baseline_df": null, "baseline_files": [], "data_entities": [{"data_type":
+      "text", "dimension_start_ts": null, "feature_importance": 0.0, "id": null, "name":
+      "est_country", "role": "metadata", "secondary_type": "Cat_dense", "summary":
+      {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values": 2,
+      "top_frequent_percents": 0.6, "entropy": 0.673011667}, "distribution": {"buckets":
+      [{"value": "Israel", "frequency": 0.4}, {"value": "United Kindom", "frequency":
+      0.6}]}}, "type": "Categorical"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 0.0, "id": null, "name": "reversed_prediction_value",
+      "role": "metadata", "secondary_type": "Cat_dense", "summary": {"statistics":
+      {"missing_values": 0.0, "new_values": 0, "unique_values": 2, "top_frequent_percents":
+      0.9, "entropy": 0.3250829734}, "distribution": {"buckets": [{"value": 0, "frequency":
+      0.1}, {"value": 1, "frequency": 0.9}]}}, "type": "Categorical"}, {"data_type":
+      "text", "dimension_start_ts": null, "feature_importance": 0.0, "id": null, "name":
+      "record_id", "role": "id", "secondary_type": "Cat_dense", "summary": {"statistics":
+      {"missing_values": 0.0, "new_values": 0, "unique_values": 10, "top_frequent_percents":
+      0.1, "entropy": 2.302585093}, "distribution": {"buckets": [{"value": "000a916168122c66e-3896-5c3626ce-0019941475",
+      "frequency": 0.1}, {"value": "000a916168122c66e-3896-5c3626ce-0086534895", "frequency":
+      0.1}, {"value": "000a916168122c66e-3896-5c3626ce-0109233015", "frequency": 0.1},
+      {"value": "000c34d65d5d877d8-3906-5c3f3eb4-0020820551", "frequency": 0.1}, {"value":
+      "000c34d65d5d877d8-3906-5c3f3eb4-0044530895", "frequency": 0.1}, {"value": "00153d7131236a48d-3906-5c3f0fc8-0010773144",
+      "frequency": 0.1}, {"value": "00153d7131236a48d-3906-5c3f0fc8-0073858388", "frequency":
+      0.1}, {"value": "001706b3487e053e3-3865-5c250b88-0110387485", "frequency": 0.1},
+      {"value": "001706b3487e053e3-3865-5c250b88-0143240947", "frequency": 0.1}, {"value":
+      "001706b3487e053e3-3865-5c250b88-0416480363", "frequency": 0.1}]}}, "type":
+      "Categorical"}, {"data_type": "timestamp", "dimension_start_ts": null, "feature_importance":
+      0.0, "id": null, "name": "ts", "role": "time stamp", "secondary_type": null,
+      "summary": {"statistics": {"missing_values": 0.0}}, "type": "Timestamp"}, {"data_type":
+      "number", "dimension_start_ts": null, "feature_importance": 0.0, "id": null,
+      "name": "prediction_probability", "role": "prediction probability", "secondary_type":
+      "Num_centered", "summary": {"statistics": {"missing_values": 0.0, "outliers":
+      0.0, "min": 0.1870341163, "max": 0.30672449, "mean": 0.2496047744, "std": 0.0390503586},
+      "range": {"from": 0.180643887, "to": 0.3096909191}, "distribution": {"bins":
+      [0.1870341163, 0.2083348807, 0.2162820847, 0.2284507724, 0.2410751593, 0.2478846004,
+      0.2542229528, 0.2694099961, 0.2893970733, 0.2968363929, 0.30672449], "buckets":
+      [{"id": 0, "name": "[-inf, 0.187)", "frequency": 0.0, "lower": null, "upper":
+      0.187, "mid_bin": 0.1765, "bin_width": 0.021}, {"id": 1, "name": "[0.187, 0.208)",
+      "frequency": 0.1, "lower": 0.187, "upper": 0.208, "mid_bin": 0.1975, "bin_width":
+      0.021}, {"id": 2, "name": "[0.208, 0.216)", "frequency": 0.1, "lower": 0.208,
+      "upper": 0.216, "mid_bin": 0.212, "bin_width": 0.008}, {"id": 3, "name": "[0.216,
+      0.228)", "frequency": 0.1, "lower": 0.216, "upper": 0.228, "mid_bin": 0.222,
+      "bin_width": 0.012}, {"id": 4, "name": "[0.228, 0.241)", "frequency": 0.1, "lower":
+      0.228, "upper": 0.241, "mid_bin": 0.2345, "bin_width": 0.013}, {"id": 5, "name":
+      "[0.241, 0.248)", "frequency": 0.1, "lower": 0.241, "upper": 0.248, "mid_bin":
+      0.2445, "bin_width": 0.007}, {"id": 6, "name": "[0.248, 0.254)", "frequency":
+      0.1, "lower": 0.248, "upper": 0.254, "mid_bin": 0.251, "bin_width": 0.006},
+      {"id": 7, "name": "[0.254, 0.269)", "frequency": 0.1, "lower": 0.254, "upper":
+      0.269, "mid_bin": 0.2615, "bin_width": 0.015}, {"id": 8, "name": "[0.269, 0.289)",
+      "frequency": 0.1, "lower": 0.269, "upper": 0.289, "mid_bin": 0.279, "bin_width":
+      0.02}, {"id": 9, "name": "[0.289, 0.297)", "frequency": 0.1, "lower": 0.289,
+      "upper": 0.297, "mid_bin": 0.293, "bin_width": 0.008}, {"id": 10, "name": "[0.297,
+      0.307)", "frequency": 0.0, "lower": 0.297, "upper": 0.307, "mid_bin": 0.302,
+      "bin_width": 0.01}, {"id": 11, "name": "[0.307, inf)", "frequency": 0.1, "lower":
+      0.307, "upper": null, "mid_bin": 0.312, "bin_width": 0.01}]}}, "type": "Numeric"},
+      {"data_type": "number", "dimension_start_ts": null, "feature_importance": 0.0,
+      "id": null, "name": "prediction_value", "role": "prediction value", "secondary_type":
+      "Cat_dense", "summary": {"statistics": {"missing_values": 0.0, "new_values":
+      0, "unique_values": 2, "top_frequent_percents": 0.9, "entropy": 0.3250829734},
+      "distribution": {"buckets": [{"value": 1, "frequency": 0.1}, {"value": 0, "frequency":
+      0.9}]}}, "type": "Categorical"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 0.0, "id": null, "name": "label", "role": "label",
+      "secondary_type": "Cat_dense", "summary": {"statistics": {"missing_values":
+      0.0, "new_values": 0, "unique_values": 2, "top_frequent_percents": 0.7, "entropy":
+      0.6108643021}, "distribution": {"buckets": [{"value": 1, "frequency": 0.3},
+      {"value": 0, "frequency": 0.7}]}}, "type": "Categorical"}, {"data_type": "timestamp",
+      "dimension_start_ts": null, "feature_importance": 0.0, "id": null, "name": "label_ts",
+      "role": "label time stamp", "secondary_type": null, "summary": {"statistics":
+      {"missing_values": 0.0}}, "type": "Timestamp"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 0.0, "id": null, "name": "num_int_null", "role":
+      "feature", "secondary_type": "Num_right_tail", "summary": {"statistics": {"missing_values":
+      0.0, "outliers": 0.0, "min": 0.0, "max": 1.0, "mean": 0.1, "std": 0.316227766},
+      "range": {"from": 0.0, "to": 1.27}, "distribution": {"bins": [0.0, 0.1, 1.0],
+      "buckets": [{"id": 0, "name": "[-inf, 0.0)", "frequency": 0.0, "lower": null,
+      "upper": 0.0, "mid_bin": -0.05, "bin_width": 0.1}, {"id": 1, "name": "[0.0,
+      0.1)", "frequency": 0.9, "lower": 0.0, "upper": 0.1, "mid_bin": 0.05, "bin_width":
+      0.1}, {"id": 2, "name": "[0.1, 1.0)", "frequency": 0.0, "lower": 0.1, "upper":
+      1.0, "mid_bin": 0.55, "bin_width": 0.9}, {"id": 3, "name": "[1.0, inf)", "frequency":
+      0.1, "lower": 1.0, "upper": null, "mid_bin": 1.45, "bin_width": 0.9}]}}, "type":
+      "Numeric"}, {"data_type": "number", "dimension_start_ts": null, "feature_importance":
+      0.0, "id": null, "name": "num_int_full", "role": "feature", "secondary_type":
+      "Num_right_tail", "summary": {"statistics": {"missing_values": 0.0, "outliers":
+      0.0, "min": 0.0, "max": 1.0, "mean": 0.1, "std": 0.316227766}, "range": {"from":
+      0.0, "to": 1.27}, "distribution": {"bins": [0.0, 0.1, 1.0], "buckets": [{"id":
+      0, "name": "[-inf, 0.0)", "frequency": 0.0, "lower": null, "upper": 0.0, "mid_bin":
+      -0.05, "bin_width": 0.1}, {"id": 1, "name": "[0.0, 0.1)", "frequency": 0.9,
+      "lower": 0.0, "upper": 0.1, "mid_bin": 0.05, "bin_width": 0.1}, {"id": 2, "name":
+      "[0.1, 1.0)", "frequency": 0.0, "lower": 0.1, "upper": 1.0, "mid_bin": 0.55,
+      "bin_width": 0.9}, {"id": 3, "name": "[1.0, inf)", "frequency": 0.1, "lower":
+      1.0, "upper": null, "mid_bin": 1.45, "bin_width": 0.9}]}}, "type": "Numeric"},
+      {"data_type": "number", "dimension_start_ts": null, "feature_importance": 0.0,
+      "id": null, "name": "num_float_null", "role": "feature", "secondary_type": "Num_centered",
+      "summary": {"statistics": {"missing_values": 0.0, "outliers": 0.0, "min": 0.0,
+      "max": 1000.0, "mean": 511.16, "std": 515.4516384255}, "range": {"from": -1.323,
+      "to": 1000.0}, "distribution": {"bins": [0.0, 4.41, 19.38, 35.32, 42.1, 521.55,
+      1000.0], "buckets": [{"id": 0, "name": "[-inf, 0.0)", "frequency": 0.0, "lower":
+      null, "upper": 0.0, "mid_bin": -2.205, "bin_width": 4.41}, {"id": 1, "name":
+      "[0.0, 4.41)", "frequency": 0.1, "lower": 0.0, "upper": 4.41, "mid_bin": 2.205,
+      "bin_width": 4.41}, {"id": 2, "name": "[4.41, 19.38)", "frequency": 0.1, "lower":
+      4.41, "upper": 19.38, "mid_bin": 11.895, "bin_width": 14.97}, {"id": 3, "name":
+      "[19.38, 35.32)", "frequency": 0.1, "lower": 19.38, "upper": 35.32, "mid_bin":
+      27.35, "bin_width": 15.94}, {"id": 4, "name": "[35.32, 42.1)", "frequency":
+      0.1, "lower": 35.32, "upper": 42.1, "mid_bin": 38.71, "bin_width": 6.78}, {"id":
+      5, "name": "[42.1, 521.55)", "frequency": 0.1, "lower": 42.1, "upper": 521.55,
+      "mid_bin": 281.825, "bin_width": 479.45}, {"id": 6, "name": "[521.55, 1000.0)",
+      "frequency": 0.0, "lower": 521.55, "upper": 1000.0, "mid_bin": 760.775, "bin_width":
+      478.45}, {"id": 7, "name": "[1000.0, inf)", "frequency": 0.5, "lower": 1000.0,
+      "upper": null, "mid_bin": 1239.225, "bin_width": 478.45}]}}, "type": "Numeric"},
+      {"data_type": "number", "dimension_start_ts": null, "feature_importance": 6.12,
+      "id": null, "name": "num_float_full", "role": "feature", "secondary_type": "Num_right_tail",
+      "summary": {"statistics": {"missing_values": 0.0, "outliers": 0.0, "min": 1.4,
+      "max": 31.2, "mean": 6.61, "std": 9.0011665911}, "range": {"from": 1.292, "to":
+      36.978}, "distribution": {"bins": [1.4, 1.76, 1.96, 2.21, 2.9, 3.65, 4.04, 4.73,
+      20.5], "buckets": [{"id": 0, "name": "[-inf, 1.4)", "frequency": 0.0, "lower":
+      null, "upper": 1.4, "mid_bin": 1.22, "bin_width": 0.36}, {"id": 1, "name": "[1.4,
+      1.76)", "frequency": 0.1, "lower": 1.4, "upper": 1.76, "mid_bin": 1.58, "bin_width":
+      0.36}, {"id": 2, "name": "[1.76, 1.96)", "frequency": 0.1, "lower": 1.76, "upper":
+      1.96, "mid_bin": 1.86, "bin_width": 0.2}, {"id": 3, "name": "[1.96, 2.21)",
+      "frequency": 0.1, "lower": 1.96, "upper": 2.21, "mid_bin": 2.085, "bin_width":
+      0.25}, {"id": 4, "name": "[2.21, 2.9)", "frequency": 0.1, "lower": 2.21, "upper":
+      2.9, "mid_bin": 2.555, "bin_width": 0.69}, {"id": 5, "name": "[2.9, 3.65)",
+      "frequency": 0.1, "lower": 2.9, "upper": 3.65, "mid_bin": 3.275, "bin_width":
+      0.75}, {"id": 6, "name": "[3.65, 4.04)", "frequency": 0.1, "lower": 3.65, "upper":
+      4.04, "mid_bin": 3.845, "bin_width": 0.39}, {"id": 7, "name": "[4.04, 4.73)",
+      "frequency": 0.1, "lower": 4.04, "upper": 4.73, "mid_bin": 4.385, "bin_width":
+      0.69}, {"id": 8, "name": "[4.73, 20.5)", "frequency": 0.2, "lower": 4.73, "upper":
+      20.5, "mid_bin": 12.615, "bin_width": 15.77}, {"id": 9, "name": "[20.5, inf)",
+      "frequency": 0.1, "lower": 20.5, "upper": null, "mid_bin": 28.385, "bin_width":
+      15.77}]}}, "type": "Numeric"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 0.0, "id": null, "name": "f9", "role": "feature",
+      "secondary_type": "Num_right_tail", "summary": {"statistics": {"missing_values":
+      0.0, "outliers": 0.0, "min": 0.0, "max": 1.0, "mean": 0.1, "std": 0.316227766},
+      "range": {"from": 0.0, "to": 1.27}, "distribution": {"bins": [0.0, 0.1, 1.0],
+      "buckets": [{"id": 0, "name": "[-inf, 0.0)", "frequency": 0.0, "lower": null,
+      "upper": 0.0, "mid_bin": -0.05, "bin_width": 0.1}, {"id": 1, "name": "[0.0,
+      0.1)", "frequency": 0.9, "lower": 0.0, "upper": 0.1, "mid_bin": 0.05, "bin_width":
+      0.1}, {"id": 2, "name": "[0.1, 1.0)", "frequency": 0.0, "lower": 0.1, "upper":
+      1.0, "mid_bin": 0.55, "bin_width": 0.9}, {"id": 3, "name": "[1.0, inf)", "frequency":
+      0.1, "lower": 1.0, "upper": null, "mid_bin": 1.45, "bin_width": 0.9}]}}, "type":
+      "Numeric"}, {"data_type": "number", "dimension_start_ts": null, "feature_importance":
+      0.0, "id": null, "name": "f7", "role": "feature", "secondary_type": "Num_right_tail",
+      "summary": {"statistics": {"missing_values": 0.0, "outliers": 0.0, "min": 0.0,
+      "max": 1.0, "mean": 0.1, "std": 0.316227766}, "range": {"from": 0.0, "to": 1.27},
+      "distribution": {"bins": [0.0, 0.1, 1.0], "buckets": [{"id": 0, "name": "[-inf,
+      0.0)", "frequency": 0.0, "lower": null, "upper": 0.0, "mid_bin": -0.05, "bin_width":
+      0.1}, {"id": 1, "name": "[0.0, 0.1)", "frequency": 0.9, "lower": 0.0, "upper":
+      0.1, "mid_bin": 0.05, "bin_width": 0.1}, {"id": 2, "name": "[0.1, 1.0)", "frequency":
+      0.0, "lower": 0.1, "upper": 1.0, "mid_bin": 0.55, "bin_width": 0.9}, {"id":
+      3, "name": "[1.0, inf)", "frequency": 0.1, "lower": 1.0, "upper": null, "mid_bin":
+      1.45, "bin_width": 0.9}]}}, "type": "Numeric"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 0.0, "id": null, "name": "f5", "role": "feature",
+      "secondary_type": "Num_right_tail", "summary": {"statistics": {"missing_values":
+      0.0, "outliers": 0.0, "min": 0.0, "max": 5.0, "mean": 1.0, "std": 1.5634719199},
+      "range": {"from": 0.0, "to": 5.81}, "distribution": {"bins": [0.0, 0.5, 3.5],
+      "buckets": [{"id": 0, "name": "[-inf, 0.0)", "frequency": 0.0, "lower": null,
+      "upper": 0.0, "mid_bin": -0.25, "bin_width": 0.5}, {"id": 1, "name": "[0.0,
+      0.5)", "frequency": 0.5, "lower": 0.0, "upper": 0.5, "mid_bin": 0.25, "bin_width":
+      0.5}, {"id": 2, "name": "[0.5, 3.5)", "frequency": 0.4, "lower": 0.5, "upper":
+      3.5, "mid_bin": 2.0, "bin_width": 3.0}, {"id": 3, "name": "[3.5, inf)", "frequency":
+      0.1, "lower": 3.5, "upper": null, "mid_bin": 5.0, "bin_width": 3.0}]}}, "type":
+      "Numeric"}, {"data_type": "number", "dimension_start_ts": null, "feature_importance":
+      6.12, "id": null, "name": "f43", "role": "feature", "secondary_type": "Num_centered",
+      "summary": {"statistics": {"missing_values": 0.0, "outliers": 0.0, "min": 1.0,
+      "max": 30.0, "mean": 13.2, "std": 11.2031741534}, "range": {"from": 0.73, "to":
+      31.35}, "distribution": {"bins": [1.0, 1.9, 2.0, 2.7, 6.0, 12.5, 18.2, 21.2,
+      24.2, 25.5, 30.0], "buckets": [{"id": 0, "name": "[-inf, 1.0)", "frequency":
+      0.0, "lower": null, "upper": 1.0, "mid_bin": 0.55, "bin_width": 0.9}, {"id":
+      1, "name": "[1.0, 1.9)", "frequency": 0.1, "lower": 1.0, "upper": 1.9, "mid_bin":
+      1.45, "bin_width": 0.9}, {"id": 2, "name": "[1.9, 2.0)", "frequency": 0.0, "lower":
+      1.9, "upper": 2.0, "mid_bin": 1.95, "bin_width": 0.1}, {"id": 3, "name": "[2.0,
+      2.7)", "frequency": 0.2, "lower": 2.0, "upper": 2.7, "mid_bin": 2.35, "bin_width":
+      0.7}, {"id": 4, "name": "[2.7, 6.0)", "frequency": 0.1, "lower": 2.7, "upper":
+      6.0, "mid_bin": 4.35, "bin_width": 3.3}, {"id": 5, "name": "[6.0, 12.5)", "frequency":
+      0.1, "lower": 6.0, "upper": 12.5, "mid_bin": 9.25, "bin_width": 6.5}, {"id":
+      6, "name": "[12.5, 18.2)", "frequency": 0.1, "lower": 12.5, "upper": 18.2, "mid_bin":
+      15.35, "bin_width": 5.7}, {"id": 7, "name": "[18.2, 21.2)", "frequency": 0.1,
+      "lower": 18.2, "upper": 21.2, "mid_bin": 19.7, "bin_width": 3.0}, {"id": 8,
+      "name": "[21.2, 24.2)", "frequency": 0.1, "lower": 21.2, "upper": 24.2, "mid_bin":
+      22.7, "bin_width": 3.0}, {"id": 9, "name": "[24.2, 25.5)", "frequency": 0.1,
+      "lower": 24.2, "upper": 25.5, "mid_bin": 24.85, "bin_width": 1.3}, {"id": 10,
+      "name": "[25.5, 30.0)", "frequency": 0.0, "lower": 25.5, "upper": 30.0, "mid_bin":
+      27.75, "bin_width": 4.5}, {"id": 11, "name": "[30.0, inf)", "frequency": 0.1,
+      "lower": 30.0, "upper": null, "mid_bin": 32.25, "bin_width": 4.5}]}}, "type":
+      "Numeric"}, {"data_type": "number", "dimension_start_ts": null, "feature_importance":
+      0.0, "id": null, "name": "f42", "role": "feature", "secondary_type": "Num_centered",
+      "summary": {"statistics": {"missing_values": 0.0, "outliers": 0.0, "min": 0.0,
+      "max": 17.0, "mean": 3.8, "std": 6.9888800565}, "range": {"from": 0.0, "to":
+      17.0}, "distribution": {"bins": [0.0, 0.5, 1.0, 1.3, 5.0, 17.0], "buckets":
+      [{"id": 0, "name": "[-inf, 0.0)", "frequency": 0.0, "lower": null, "upper":
+      0.0, "mid_bin": -0.25, "bin_width": 0.5}, {"id": 1, "name": "[0.0, 0.5)", "frequency":
+      0.5, "lower": 0.0, "upper": 0.5, "mid_bin": 0.25, "bin_width": 0.5}, {"id":
+      2, "name": "[0.5, 1.0)", "frequency": 0.0, "lower": 0.5, "upper": 1.0, "mid_bin":
+      0.75, "bin_width": 0.5}, {"id": 3, "name": "[1.0, 1.3)", "frequency": 0.2, "lower":
+      1.0, "upper": 1.3, "mid_bin": 1.15, "bin_width": 0.3}, {"id": 4, "name": "[1.3,
+      5.0)", "frequency": 0.1, "lower": 1.3, "upper": 5.0, "mid_bin": 3.15, "bin_width":
+      3.7}, {"id": 5, "name": "[5.0, 17.0)", "frequency": 0.0, "lower": 5.0, "upper":
+      17.0, "mid_bin": 11.0, "bin_width": 12.0}, {"id": 6, "name": "[17.0, inf)",
+      "frequency": 0.2, "lower": 17.0, "upper": null, "mid_bin": 23.0, "bin_width":
+      12.0}]}}, "type": "Numeric"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 12.24, "id": null, "name": "f41", "role": "feature",
+      "secondary_type": "Num_centered", "summary": {"statistics": {"missing_values":
+      0.0, "outliers": 0.0, "min": 1.0, "max": 30.0, "mean": 18.5, "std": 12.527746982},
+      "range": {"from": 0.73, "to": 30.0}, "distribution": {"bins": [1.0, 1.9, 2.0,
+      12.5, 18.2, 21.5, 26.4, 30.0], "buckets": [{"id": 0, "name": "[-inf, 1.0)",
+      "frequency": 0.0, "lower": null, "upper": 1.0, "mid_bin": 0.55, "bin_width":
+      0.9}, {"id": 1, "name": "[1.0, 1.9)", "frequency": 0.1, "lower": 1.0, "upper":
+      1.9, "mid_bin": 1.45, "bin_width": 0.9}, {"id": 2, "name": "[1.9, 2.0)", "frequency":
+      0.0, "lower": 1.9, "upper": 2.0, "mid_bin": 1.95, "bin_width": 0.1}, {"id":
+      3, "name": "[2.0, 12.5)", "frequency": 0.2, "lower": 2.0, "upper": 12.5, "mid_bin":
+      7.25, "bin_width": 10.5}, {"id": 4, "name": "[12.5, 18.2)", "frequency": 0.1,
+      "lower": 12.5, "upper": 18.2, "mid_bin": 15.35, "bin_width": 5.7}, {"id": 5,
+      "name": "[18.2, 21.5)", "frequency": 0.1, "lower": 18.2, "upper": 21.5, "mid_bin":
+      19.85, "bin_width": 3.3}, {"id": 6, "name": "[21.5, 26.4)", "frequency": 0.1,
+      "lower": 21.5, "upper": 26.4, "mid_bin": 23.95, "bin_width": 4.9}, {"id": 7,
+      "name": "[26.4, 30.0)", "frequency": 0.0, "lower": 26.4, "upper": 30.0, "mid_bin":
+      28.2, "bin_width": 3.6}, {"id": 8, "name": "[30.0, inf)", "frequency": 0.4,
+      "lower": 30.0, "upper": null, "mid_bin": 31.8, "bin_width": 3.6}]}}, "type":
+      "Numeric"}, {"data_type": "number", "dimension_start_ts": null, "feature_importance":
+      3.76, "id": null, "name": "f40", "role": "feature", "secondary_type": "Num_centered",
+      "summary": {"statistics": {"missing_values": 0.0, "outliers": 0.0, "min": 0.0,
+      "max": 24.0, "mean": 8.2, "std": 9.1627264259}, "range": {"from": -0.27, "to":
+      24.81}, "distribution": {"bins": [0.0, 0.9, 1.8, 2.0, 2.5, 5.8, 12.1, 17.8,
+      21.3, 24.0], "buckets": [{"id": 0, "name": "[-inf, 0.0)", "frequency": 0.0,
+      "lower": null, "upper": 0.0, "mid_bin": -0.45, "bin_width": 0.9}, {"id": 1,
+      "name": "[0.0, 0.9)", "frequency": 0.1, "lower": 0.0, "upper": 0.9, "mid_bin":
+      0.45, "bin_width": 0.9}, {"id": 2, "name": "[0.9, 1.8)", "frequency": 0.1, "lower":
+      0.9, "upper": 1.8, "mid_bin": 1.35, "bin_width": 0.9}, {"id": 3, "name": "[1.8,
+      2.0)", "frequency": 0.0, "lower": 1.8, "upper": 2.0, "mid_bin": 1.9, "bin_width":
+      0.2}, {"id": 4, "name": "[2.0, 2.5)", "frequency": 0.3, "lower": 2.0, "upper":
+      2.5, "mid_bin": 2.25, "bin_width": 0.5}, {"id": 5, "name": "[2.5, 5.8)", "frequency":
+      0.1, "lower": 2.5, "upper": 5.8, "mid_bin": 4.15, "bin_width": 3.3}, {"id":
+      6, "name": "[5.8, 12.1)", "frequency": 0.1, "lower": 5.8, "upper": 12.1, "mid_bin":
+      8.95, "bin_width": 6.3}, {"id": 7, "name": "[12.1, 17.8)", "frequency": 0.1,
+      "lower": 12.1, "upper": 17.8, "mid_bin": 14.95, "bin_width": 5.7}, {"id": 8,
+      "name": "[17.8, 21.3)", "frequency": 0.1, "lower": 17.8, "upper": 21.3, "mid_bin":
+      19.55, "bin_width": 3.5}, {"id": 9, "name": "[21.3, 24.0)", "frequency": 0.0,
+      "lower": 21.3, "upper": 24.0, "mid_bin": 22.65, "bin_width": 2.7}, {"id": 10,
+      "name": "[24.0, inf)", "frequency": 0.1, "lower": 24.0, "upper": null, "mid_bin":
+      25.35, "bin_width": 2.7}]}}, "type": "Numeric"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 10.35, "id": null, "name": "f39", "role": "feature",
+      "secondary_type": "Num_centered", "summary": {"statistics": {"missing_values":
+      0.0, "outliers": 0.0, "min": 1.0, "max": 30.0, "mean": 16.9, "std": 12.6618411861},
+      "range": {"from": 0.73, "to": 30.0}, "distribution": {"bins": [1.0, 1.9, 2.0,
+      5.5, 13.0, 20.5, 24.8, 27.2, 30.0], "buckets": [{"id": 0, "name": "[-inf, 1.0)",
+      "frequency": 0.0, "lower": null, "upper": 1.0, "mid_bin": 0.55, "bin_width":
+      0.9}, {"id": 1, "name": "[1.0, 1.9)", "frequency": 0.1, "lower": 1.0, "upper":
+      1.9, "mid_bin": 1.45, "bin_width": 0.9}, {"id": 2, "name": "[1.9, 2.0)", "frequency":
+      0.0, "lower": 1.9, "upper": 2.0, "mid_bin": 1.95, "bin_width": 0.1}, {"id":
+      3, "name": "[2.0, 5.5)", "frequency": 0.2, "lower": 2.0, "upper": 5.5, "mid_bin":
+      3.75, "bin_width": 3.5}, {"id": 4, "name": "[5.5, 13.0)", "frequency": 0.1,
+      "lower": 5.5, "upper": 13.0, "mid_bin": 9.25, "bin_width": 7.5}, {"id": 5, "name":
+      "[13.0, 20.5)", "frequency": 0.1, "lower": 13.0, "upper": 20.5, "mid_bin": 16.75,
+      "bin_width": 7.5}, {"id": 6, "name": "[20.5, 24.8)", "frequency": 0.1, "lower":
+      20.5, "upper": 24.8, "mid_bin": 22.65, "bin_width": 4.3}, {"id": 7, "name":
+      "[24.8, 27.2)", "frequency": 0.1, "lower": 24.8, "upper": 27.2, "mid_bin": 26.0,
+      "bin_width": 2.4}, {"id": 8, "name": "[27.2, 30.0)", "frequency": 0.0, "lower":
+      27.2, "upper": 30.0, "mid_bin": 28.6, "bin_width": 2.8}, {"id": 9, "name": "[30.0,
+      inf)", "frequency": 0.3, "lower": 30.0, "upper": null, "mid_bin": 31.4, "bin_width":
+      2.8}]}}, "type": "Numeric"}, {"data_type": "number", "dimension_start_ts": null,
+      "feature_importance": 0.0, "id": null, "name": "f38", "role": "feature", "secondary_type":
+      "Num_centered", "summary": {"statistics": {"missing_values": 0.0, "outliers":
+      0.0, "min": 0.0, "max": 17.0, "mean": 4.4, "std": 6.7197883565}, "range": {"from":
+      0.0, "to": 17.0}, "distribution": {"bins": [0.0, 0.7, 1.6, 2.0, 2.3, 5.8, 17.0],
+      "buckets": [{"id": 0, "name": "[-inf, 0.0)", "frequency": 0.0, "lower": null,
+      "upper": 0.0, "mid_bin": -0.35, "bin_width": 0.7}, {"id": 1, "name": "[0.0,
+      0.7)", "frequency": 0.3, "lower": 0.0, "upper": 0.7, "mid_bin": 0.35, "bin_width":
+      0.7}, {"id": 2, "name": "[0.7, 1.6)", "frequency": 0.1, "lower": 0.7, "upper":
+      1.6, "mid_bin": 1.15, "bin_width": 0.9}, {"id": 3, "name": "[1.6, 2.0)", "frequency":
+      0.0, "lower": 1.6, "upper": 2.0, "mid_bin": 1.8, "bin_width": 0.4}, {"id": 4,
+      "name": "[2.0, 2.3)", "frequency": 0.3, "lower": 2.0, "upper": 2.3, "mid_bin":
+      2.15, "bin_width": 0.3}, {"id": 5, "name": "[2.3, 5.8)", "frequency": 0.1, "lower":
+      2.3, "upper": 5.8, "mid_bin": 4.05, "bin_width": 3.5}, {"id": 6, "name": "[5.8,
+      17.0)", "frequency": 0.0, "lower": 5.8, "upper": 17.0, "mid_bin": 11.4, "bin_width":
+      11.2}, {"id": 7, "name": "[17.0, inf)", "frequency": 0.2, "lower": 17.0, "upper":
+      null, "mid_bin": 22.6, "bin_width": 11.2}]}}, "type": "Numeric"}, {"data_type":
+      "number", "dimension_start_ts": null, "feature_importance": 0.0, "id": null,
+      "name": "f31", "role": "feature", "secondary_type": "Num_right_tail", "summary":
+      {"statistics": {"missing_values": 0.0, "outliers": 0.0, "min": 0.0, "max": 1.0,
+      "mean": 0.1, "std": 0.316227766}, "range": {"from": 0.0, "to": 1.27}, "distribution":
+      {"bins": [0.0, 0.1, 1.0], "buckets": [{"id": 0, "name": "[-inf, 0.0)", "frequency":
+      0.0, "lower": null, "upper": 0.0, "mid_bin": -0.05, "bin_width": 0.1}, {"id":
+      1, "name": "[0.0, 0.1)", "frequency": 0.9, "lower": 0.0, "upper": 0.1, "mid_bin":
+      0.05, "bin_width": 0.1}, {"id": 2, "name": "[0.1, 1.0)", "frequency": 0.0, "lower":
+      0.1, "upper": 1.0, "mid_bin": 0.55, "bin_width": 0.9}, {"id": 3, "name": "[1.0,
+      inf)", "frequency": 0.1, "lower": 1.0, "upper": null, "mid_bin": 1.45, "bin_width":
+      0.9}]}}, "type": "Numeric"}, {"data_type": "number", "dimension_start_ts": null,
+      "feature_importance": 10.35, "id": null, "name": "f30", "role": "feature", "secondary_type":
+      "Num_centered", "summary": {"statistics": {"missing_values": 0.0, "outliers":
+      0.0, "min": 1.0, "max": 30.0, "mean": 16.5, "std": 12.0023145916}, "range":
+      {"from": 0.73, "to": 30.0}, "distribution": {"bins": [1.0, 1.9, 2.0, 8.3, 14.6,
+      17.5, 20.4, 25.8, 30.0], "buckets": [{"id": 0, "name": "[-inf, 1.0)", "frequency":
+      0.0, "lower": null, "upper": 1.0, "mid_bin": 0.55, "bin_width": 0.9}, {"id":
+      1, "name": "[1.0, 1.9)", "frequency": 0.1, "lower": 1.0, "upper": 1.9, "mid_bin":
+      1.45, "bin_width": 0.9}, {"id": 2, "name": "[1.9, 2.0)", "frequency": 0.0, "lower":
+      1.9, "upper": 2.0, "mid_bin": 1.95, "bin_width": 0.1}, {"id": 3, "name": "[2.0,
+      8.3)", "frequency": 0.2, "lower": 2.0, "upper": 8.3, "mid_bin": 5.15, "bin_width":
+      6.3}, {"id": 4, "name": "[8.3, 14.6)", "frequency": 0.1, "lower": 8.3, "upper":
+      14.6, "mid_bin": 11.45, "bin_width": 6.3}, {"id": 5, "name": "[14.6, 17.5)",
+      "frequency": 0.1, "lower": 14.6, "upper": 17.5, "mid_bin": 16.05, "bin_width":
+      2.9}, {"id": 6, "name": "[17.5, 20.4)", "frequency": 0.1, "lower": 17.5, "upper":
+      20.4, "mid_bin": 18.95, "bin_width": 2.9}, {"id": 7, "name": "[20.4, 25.8)",
+      "frequency": 0.1, "lower": 20.4, "upper": 25.8, "mid_bin": 23.1, "bin_width":
+      5.4}, {"id": 8, "name": "[25.8, 30.0)", "frequency": 0.0, "lower": 25.8, "upper":
+      30.0, "mid_bin": 27.9, "bin_width": 4.2}, {"id": 9, "name": "[30.0, inf)", "frequency":
+      0.3, "lower": 30.0, "upper": null, "mid_bin": 32.1, "bin_width": 4.2}]}}, "type":
+      "Numeric"}, {"data_type": "number", "dimension_start_ts": null, "feature_importance":
+      0.0, "id": null, "name": "f3", "role": "feature", "secondary_type": "Num_right_tail",
+      "summary": {"statistics": {"missing_values": 0.0, "outliers": 0.0, "min": 0.0,
+      "max": 1.0, "mean": 0.1, "std": 0.316227766}, "range": {"from": 0.0, "to": 1.27},
+      "distribution": {"bins": [0.0, 0.1, 1.0], "buckets": [{"id": 0, "name": "[-inf,
+      0.0)", "frequency": 0.0, "lower": null, "upper": 0.0, "mid_bin": -0.05, "bin_width":
+      0.1}, {"id": 1, "name": "[0.0, 0.1)", "frequency": 0.9, "lower": 0.0, "upper":
+      0.1, "mid_bin": 0.05, "bin_width": 0.1}, {"id": 2, "name": "[0.1, 1.0)", "frequency":
+      0.0, "lower": 0.1, "upper": 1.0, "mid_bin": 0.55, "bin_width": 0.9}, {"id":
+      3, "name": "[1.0, inf)", "frequency": 0.1, "lower": 1.0, "upper": null, "mid_bin":
+      1.45, "bin_width": 0.9}]}}, "type": "Numeric"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 0.0, "id": null, "name": "f29", "role": "feature",
+      "secondary_type": "Num_centered", "summary": {"statistics": {"missing_values":
+      0.0, "outliers": 0.0, "min": 0.0, "max": 24.0, "mean": 8.1, "std": 9.243015381},
+      "range": {"from": -0.27, "to": 24.81}, "distribution": {"bins": [0.0, 0.9, 1.0,
+      1.7, 2.0, 2.5, 5.8, 12.1, 17.8, 21.3, 24.0], "buckets": [{"id": 0, "name": "[-inf,
+      0.0)", "frequency": 0.0, "lower": null, "upper": 0.0, "mid_bin": -0.45, "bin_width":
+      0.9}, {"id": 1, "name": "[0.0, 0.9)", "frequency": 0.1, "lower": 0.0, "upper":
+      0.9, "mid_bin": 0.45, "bin_width": 0.9}, {"id": 2, "name": "[0.9, 1.0)", "frequency":
+      0.0, "lower": 0.9, "upper": 1.0, "mid_bin": 0.95, "bin_width": 0.1}, {"id":
+      3, "name": "[1.0, 1.7)", "frequency": 0.2, "lower": 1.0, "upper": 1.7, "mid_bin":
+      1.35, "bin_width": 0.7}, {"id": 4, "name": "[1.7, 2.0)", "frequency": 0.0, "lower":
+      1.7, "upper": 2.0, "mid_bin": 1.85, "bin_width": 0.3}, {"id": 5, "name": "[2.0,
+      2.5)", "frequency": 0.2, "lower": 2.0, "upper": 2.5, "mid_bin": 2.25, "bin_width":
+      0.5}, {"id": 6, "name": "[2.5, 5.8)", "frequency": 0.1, "lower": 2.5, "upper":
+      5.8, "mid_bin": 4.15, "bin_width": 3.3}, {"id": 7, "name": "[5.8, 12.1)", "frequency":
+      0.1, "lower": 5.8, "upper": 12.1, "mid_bin": 8.95, "bin_width": 6.3}, {"id":
+      8, "name": "[12.1, 17.8)", "frequency": 0.1, "lower": 12.1, "upper": 17.8, "mid_bin":
+      14.95, "bin_width": 5.7}, {"id": 9, "name": "[17.8, 21.3)", "frequency": 0.1,
+      "lower": 17.8, "upper": 21.3, "mid_bin": 19.55, "bin_width": 3.5}, {"id": 10,
+      "name": "[21.3, 24.0)", "frequency": 0.0, "lower": 21.3, "upper": 24.0, "mid_bin":
+      22.65, "bin_width": 2.7}, {"id": 11, "name": "[24.0, inf)", "frequency": 0.1,
+      "lower": 24.0, "upper": null, "mid_bin": 25.35, "bin_width": 2.7}]}}, "type":
+      "Numeric"}, {"data_type": "number", "dimension_start_ts": null, "feature_importance":
+      7.06, "id": null, "name": "f28", "role": "feature", "secondary_type": "Num_centered",
+      "summary": {"statistics": {"missing_values": 0.0, "outliers": 0.0, "min": 1.0,
+      "max": 30.0, "mean": 14.8, "std": 11.8208854716}, "range": {"from": 0.73, "to":
+      30.0}, "distribution": {"bins": [1.0, 1.9, 2.0, 2.7, 11.4, 17.5, 19.2, 21.9,
+      25.2, 30.0], "buckets": [{"id": 0, "name": "[-inf, 1.0)", "frequency": 0.0,
+      "lower": null, "upper": 1.0, "mid_bin": 0.55, "bin_width": 0.9}, {"id": 1, "name":
+      "[1.0, 1.9)", "frequency": 0.1, "lower": 1.0, "upper": 1.9, "mid_bin": 1.45,
+      "bin_width": 0.9}, {"id": 2, "name": "[1.9, 2.0)", "frequency": 0.0, "lower":
+      1.9, "upper": 2.0, "mid_bin": 1.95, "bin_width": 0.1}, {"id": 3, "name": "[2.0,
+      2.7)", "frequency": 0.2, "lower": 2.0, "upper": 2.7, "mid_bin": 2.35, "bin_width":
+      0.7}, {"id": 4, "name": "[2.7, 11.4)", "frequency": 0.1, "lower": 2.7, "upper":
+      11.4, "mid_bin": 7.05, "bin_width": 8.7}, {"id": 5, "name": "[11.4, 17.5)",
+      "frequency": 0.1, "lower": 11.4, "upper": 17.5, "mid_bin": 14.45, "bin_width":
+      6.1}, {"id": 6, "name": "[17.5, 19.2)", "frequency": 0.1, "lower": 17.5, "upper":
+      19.2, "mid_bin": 18.35, "bin_width": 1.7}, {"id": 7, "name": "[19.2, 21.9)",
+      "frequency": 0.1, "lower": 19.2, "upper": 21.9, "mid_bin": 20.55, "bin_width":
+      2.7}, {"id": 8, "name": "[21.9, 25.2)", "frequency": 0.1, "lower": 21.9, "upper":
+      25.2, "mid_bin": 23.55, "bin_width": 3.3}, {"id": 9, "name": "[25.2, 30.0)",
+      "frequency": 0.0, "lower": 25.2, "upper": 30.0, "mid_bin": 27.6, "bin_width":
+      4.8}, {"id": 10, "name": "[30.0, inf)", "frequency": 0.2, "lower": 30.0, "upper":
+      null, "mid_bin": 32.4, "bin_width": 4.8}]}}, "type": "Numeric"}, {"data_type":
+      "number", "dimension_start_ts": null, "feature_importance": 0.0, "id": null,
+      "name": "f27", "role": "feature", "secondary_type": "Num_centered", "summary":
+      {"statistics": {"missing_values": 0.0, "outliers": 0.0, "min": 0.0, "max": 19.0,
+      "mean": 5.0, "std": 7.2111025509}, "range": {"from": 0.0, "to": 19.81}, "distribution":
+      {"bins": [0.0, 0.5, 3.0, 6.6, 9.6, 16.3, 19.0], "buckets": [{"id": 0, "name":
+      "[-inf, 0.0)", "frequency": 0.0, "lower": null, "upper": 0.0, "mid_bin": -0.25,
+      "bin_width": 0.5}, {"id": 1, "name": "[0.0, 0.5)", "frequency": 0.5, "lower":
+      0.0, "upper": 0.5, "mid_bin": 0.25, "bin_width": 0.5}, {"id": 2, "name": "[0.5,
+      3.0)", "frequency": 0.1, "lower": 0.5, "upper": 3.0, "mid_bin": 1.75, "bin_width":
+      2.5}, {"id": 3, "name": "[3.0, 6.6)", "frequency": 0.1, "lower": 3.0, "upper":
+      6.6, "mid_bin": 4.8, "bin_width": 3.6}, {"id": 4, "name": "[6.6, 9.6)", "frequency":
+      0.1, "lower": 6.6, "upper": 9.6, "mid_bin": 8.1, "bin_width": 3.0}, {"id": 5,
+      "name": "[9.6, 16.3)", "frequency": 0.1, "lower": 9.6, "upper": 16.3, "mid_bin":
+      12.95, "bin_width": 6.7}, {"id": 6, "name": "[16.3, 19.0)", "frequency": 0.0,
+      "lower": 16.3, "upper": 19.0, "mid_bin": 17.65, "bin_width": 2.7}, {"id": 7,
+      "name": "[19.0, inf)", "frequency": 0.1, "lower": 19.0, "upper": null, "mid_bin":
+      20.35, "bin_width": 2.7}]}}, "type": "Numeric"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 5.65, "id": null, "name": "f2", "role": "feature",
+      "secondary_type": "Num_centered", "summary": {"statistics": {"missing_values":
+      0.0, "outliers": 0.0, "min": 1.0, "max": 30.0, "mean": 16.4, "std": 11.936870984},
+      "range": {"from": 0.73, "to": 30.0}, "distribution": {"bins": [1.0, 1.9, 2.0,
+      8.3, 14.6, 17.5, 20.0, 25.1, 30.0], "buckets": [{"id": 0, "name": "[-inf, 1.0)",
+      "frequency": 0.0, "lower": null, "upper": 1.0, "mid_bin": 0.55, "bin_width":
+      0.9}, {"id": 1, "name": "[1.0, 1.9)", "frequency": 0.1, "lower": 1.0, "upper":
+      1.9, "mid_bin": 1.45, "bin_width": 0.9}, {"id": 2, "name": "[1.9, 2.0)", "frequency":
+      0.0, "lower": 1.9, "upper": 2.0, "mid_bin": 1.95, "bin_width": 0.1}, {"id":
+      3, "name": "[2.0, 8.3)", "frequency": 0.2, "lower": 2.0, "upper": 8.3, "mid_bin":
+      5.15, "bin_width": 6.3}, {"id": 4, "name": "[8.3, 14.6)", "frequency": 0.1,
+      "lower": 8.3, "upper": 14.6, "mid_bin": 11.45, "bin_width": 6.3}, {"id": 5,
+      "name": "[14.6, 17.5)", "frequency": 0.1, "lower": 14.6, "upper": 17.5, "mid_bin":
+      16.05, "bin_width": 2.9}, {"id": 6, "name": "[17.5, 20.0)", "frequency": 0.1,
+      "lower": 17.5, "upper": 20.0, "mid_bin": 18.75, "bin_width": 2.5}, {"id": 7,
+      "name": "[20.0, 25.1)", "frequency": 0.1, "lower": 20.0, "upper": 25.1, "mid_bin":
+      22.55, "bin_width": 5.1}, {"id": 8, "name": "[25.1, 30.0)", "frequency": 0.0,
+      "lower": 25.1, "upper": 30.0, "mid_bin": 27.55, "bin_width": 4.9}, {"id": 9,
+      "name": "[30.0, inf)", "frequency": 0.3, "lower": 30.0, "upper": null, "mid_bin":
+      32.45, "bin_width": 4.9}]}}, "type": "Numeric"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 0.0, "id": null, "name": "f10", "role": "feature",
+      "secondary_type": "Num_left_tail", "summary": {"statistics": {"missing_values":
+      0.0, "outliers": 0.0, "min": 0.0, "max": 10000.0, "mean": 9000.0, "std": 3162.2776601684},
+      "range": {"from": -2700.0, "to": 10000.0}, "distribution": {"bins": [0.0, 10000.0],
+      "buckets": [{"id": 0, "name": "[-inf, 0.0)", "frequency": 0.0, "lower": null,
+      "upper": 0.0, "mid_bin": -5000.0, "bin_width": 10000.0}, {"id": 1, "name": "[0.0,
+      10000.0)", "frequency": 0.1, "lower": 0.0, "upper": 10000.0, "mid_bin": 5000.0,
+      "bin_width": 10000.0}, {"id": 2, "name": "[10000.0, inf)", "frequency": 0.9,
+      "lower": 10000.0, "upper": null, "mid_bin": 15000.0, "bin_width": 10000.0}]}},
+      "type": "Numeric"}, {"data_type": "number", "dimension_start_ts": null, "feature_importance":
+      0.0, "id": null, "name": "f1", "role": "feature", "secondary_type": "Num_centered",
+      "summary": {"statistics": {"missing_values": 0.0, "outliers": 0.0, "min": 0.0,
+      "max": 24.0, "mean": 8.0, "std": 9.0921211313}, "range": {"from": -0.27, "to":
+      25.08}, "distribution": {"bins": [0.0, 0.9, 1.0, 1.7, 2.0, 2.5, 5.8, 12.1, 17.6,
+      20.4, 24.0], "buckets": [{"id": 0, "name": "[-inf, 0.0)", "frequency": 0.0,
+      "lower": null, "upper": 0.0, "mid_bin": -0.45, "bin_width": 0.9}, {"id": 1,
+      "name": "[0.0, 0.9)", "frequency": 0.1, "lower": 0.0, "upper": 0.9, "mid_bin":
+      0.45, "bin_width": 0.9}, {"id": 2, "name": "[0.9, 1.0)", "frequency": 0.0, "lower":
+      0.9, "upper": 1.0, "mid_bin": 0.95, "bin_width": 0.1}, {"id": 3, "name": "[1.0,
+      1.7)", "frequency": 0.2, "lower": 1.0, "upper": 1.7, "mid_bin": 1.35, "bin_width":
+      0.7}, {"id": 4, "name": "[1.7, 2.0)", "frequency": 0.0, "lower": 1.7, "upper":
+      2.0, "mid_bin": 1.85, "bin_width": 0.3}, {"id": 5, "name": "[2.0, 2.5)", "frequency":
+      0.2, "lower": 2.0, "upper": 2.5, "mid_bin": 2.25, "bin_width": 0.5}, {"id":
+      6, "name": "[2.5, 5.8)", "frequency": 0.1, "lower": 2.5, "upper": 5.8, "mid_bin":
+      4.15, "bin_width": 3.3}, {"id": 7, "name": "[5.8, 12.1)", "frequency": 0.1,
+      "lower": 5.8, "upper": 12.1, "mid_bin": 8.95, "bin_width": 6.3}, {"id": 8, "name":
+      "[12.1, 17.6)", "frequency": 0.1, "lower": 12.1, "upper": 17.6, "mid_bin": 14.85,
+      "bin_width": 5.5}, {"id": 9, "name": "[17.6, 20.4)", "frequency": 0.1, "lower":
+      17.6, "upper": 20.4, "mid_bin": 19.0, "bin_width": 2.8}, {"id": 10, "name":
+      "[20.4, 24.0)", "frequency": 0.0, "lower": 20.4, "upper": 24.0, "mid_bin": 22.2,
+      "bin_width": 3.6}, {"id": 11, "name": "[24.0, inf)", "frequency": 0.1, "lower":
+      24.0, "upper": null, "mid_bin": 25.8, "bin_width": 3.6}]}}, "type": "Numeric"},
+      {"data_type": "number", "dimension_start_ts": null, "feature_importance": 2.12,
+      "id": null, "name": "f0", "role": "feature", "secondary_type": "Num_centered",
+      "summary": {"statistics": {"missing_values": 0.0, "outliers": 0.0, "min": 1.0,
+      "max": 30.0, "mean": 14.7, "std": 11.7383511998}, "range": {"from": 0.73, "to":
+      30.0}, "distribution": {"bins": [1.0, 1.9, 2.0, 2.7, 11.4, 17.5, 19.2, 21.6,
+      24.4, 30.0], "buckets": [{"id": 0, "name": "[-inf, 1.0)", "frequency": 0.0,
+      "lower": null, "upper": 1.0, "mid_bin": 0.55, "bin_width": 0.9}, {"id": 1, "name":
+      "[1.0, 1.9)", "frequency": 0.1, "lower": 1.0, "upper": 1.9, "mid_bin": 1.45,
+      "bin_width": 0.9}, {"id": 2, "name": "[1.9, 2.0)", "frequency": 0.0, "lower":
+      1.9, "upper": 2.0, "mid_bin": 1.95, "bin_width": 0.1}, {"id": 3, "name": "[2.0,
+      2.7)", "frequency": 0.2, "lower": 2.0, "upper": 2.7, "mid_bin": 2.35, "bin_width":
+      0.7}, {"id": 4, "name": "[2.7, 11.4)", "frequency": 0.1, "lower": 2.7, "upper":
+      11.4, "mid_bin": 7.05, "bin_width": 8.7}, {"id": 5, "name": "[11.4, 17.5)",
+      "frequency": 0.1, "lower": 11.4, "upper": 17.5, "mid_bin": 14.45, "bin_width":
+      6.1}, {"id": 6, "name": "[17.5, 19.2)", "frequency": 0.1, "lower": 17.5, "upper":
+      19.2, "mid_bin": 18.35, "bin_width": 1.7}, {"id": 7, "name": "[19.2, 21.6)",
+      "frequency": 0.1, "lower": 19.2, "upper": 21.6, "mid_bin": 20.4, "bin_width":
+      2.4}, {"id": 8, "name": "[21.6, 24.4)", "frequency": 0.1, "lower": 21.6, "upper":
+      24.4, "mid_bin": 23.0, "bin_width": 2.8}, {"id": 9, "name": "[24.4, 30.0)",
+      "frequency": 0.0, "lower": 24.4, "upper": 30.0, "mid_bin": 27.2, "bin_width":
+      5.6}, {"id": 10, "name": "[30.0, inf)", "frequency": 0.2, "lower": 30.0, "upper":
+      null, "mid_bin": 32.8, "bin_width": 5.6}]}}, "type": "Numeric"}, {"data_type":
+      "number", "dimension_start_ts": null, "feature_importance": 4.47, "id": null,
+      "name": "cat_int_full", "role": "feature", "secondary_type": "Cat_dense", "summary":
+      {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values": 4,
+      "top_frequent_percents": 0.7, "entropy": 0.9404479887}, "distribution": {"buckets":
+      [{"value": 2, "frequency": 0.1}, {"value": 6, "frequency": 0.1}, {"value": 7,
+      "frequency": 0.1}, {"value": 10, "frequency": 0.7}]}}, "type": "Categorical"},
+      {"data_type": "text", "dimension_start_ts": null, "feature_importance": 0.0,
+      "id": null, "name": "cat_int_null", "role": "feature", "secondary_type": "Cat_dense",
+      "summary": {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values":
+      3, "top_frequent_percents": 0.8, "entropy": 0.6390318597}, "distribution": {"buckets":
+      [{"value": "5", "frequency": 0.1}, {"value": "Null", "frequency": 0.1}, {"value":
+      "9", "frequency": 0.8}]}}, "type": "Categorical"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 0.0, "id": null, "name": "cat_str_full", "role":
+      "feature", "secondary_type": "Cat_dense", "summary": {"statistics": {"missing_values":
+      0.0, "new_values": 0, "unique_values": 2, "top_frequent_percents": 0.6, "entropy":
+      0.673011667}, "distribution": {"buckets": [{"value": 4, "frequency": 0.4}, {"value":
+      2, "frequency": 0.6}]}}, "type": "Categorical"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 0.0, "id": null, "name": "cat_str_null", "role":
+      "feature", "secondary_type": "Cat_dense", "summary": {"statistics": {"missing_values":
+      0.0, "new_values": 0, "unique_values": 3, "top_frequent_percents": 0.4, "entropy":
+      1.054920168}, "distribution": {"buckets": [{"value": 7, "frequency": 0.2}, {"value":
+      1, "frequency": 0.4}, {"value": 5, "frequency": 0.4}]}}, "type": "Categorical"},
+      {"data_type": "number", "dimension_start_ts": null, "feature_importance": 0.0,
+      "id": null, "name": "f11", "role": "feature", "secondary_type": "Cat_dense",
+      "summary": {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values":
+      2, "top_frequent_percents": 0.9, "entropy": 0.3250829734}, "distribution": {"buckets":
+      [{"value": 1, "frequency": 0.1}, {"value": 2, "frequency": 0.9}]}}, "type":
+      "Categorical"}, {"data_type": "number", "dimension_start_ts": null, "feature_importance":
+      3.06, "id": null, "name": "f12", "role": "feature", "secondary_type": "Cat_dense",
+      "summary": {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values":
+      4, "top_frequent_percents": 0.5, "entropy": 1.1682824502}, "distribution": {"buckets":
+      [{"value": 13, "frequency": 0.1}, {"value": 41, "frequency": 0.1}, {"value":
+      1, "frequency": 0.3}, {"value": 52, "frequency": 0.5}]}}, "type": "Categorical"},
+      {"data_type": "number", "dimension_start_ts": null, "feature_importance": 0.0,
+      "id": null, "name": "f16", "role": "feature", "secondary_type": "Cat_dense",
+      "summary": {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values":
+      4, "top_frequent_percents": 0.5, "entropy": 1.1682824502}, "distribution": {"buckets":
+      [{"value": 25, "frequency": 0.1}, {"value": 42, "frequency": 0.1}, {"value":
+      10, "frequency": 0.3}, {"value": 0, "frequency": 0.5}]}}, "type": "Categorical"},
+      {"data_type": "text", "dimension_start_ts": null, "feature_importance": 0.0,
+      "id": null, "name": "f17", "role": "feature", "secondary_type": "Cat_dense",
+      "summary": {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values":
+      4, "top_frequent_percents": 0.5, "entropy": 1.1682824502}, "distribution": {"buckets":
+      [{"value": "42", "frequency": 0.1}, {"value": "Null", "frequency": 0.1}, {"value":
+      "32", "frequency": 0.3}, {"value": "0", "frequency": 0.5}]}}, "type": "Categorical"},
+      {"data_type": "number", "dimension_start_ts": null, "feature_importance": 0.0,
+      "id": null, "name": "f18", "role": "feature", "secondary_type": "Cat_dense",
+      "summary": {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values":
+      4, "top_frequent_percents": 0.5, "entropy": 1.1682824502}, "distribution": {"buckets":
+      [{"value": 16, "frequency": 0.1}, {"value": 41, "frequency": 0.1}, {"value":
+      21, "frequency": 0.3}, {"value": 0, "frequency": 0.5}]}}, "type": "Categorical"},
+      {"data_type": "number", "dimension_start_ts": null, "feature_importance": 8.47,
+      "id": null, "name": "f20", "role": "feature", "secondary_type": "Cat_dense",
+      "summary": {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values":
+      4, "top_frequent_percents": 0.5, "entropy": 1.2206072646}, "distribution": {"buckets":
+      [{"value": 16, "frequency": 0.1}, {"value": 24, "frequency": 0.2}, {"value":
+      27, "frequency": 0.2}, {"value": 0, "frequency": 0.5}]}}, "type": "Categorical"},
+      {"data_type": "number", "dimension_start_ts": null, "feature_importance": 0.0,
+      "id": null, "name": "f33", "role": "feature", "secondary_type": "Cat_constant",
+      "summary": {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values":
+      1, "top_frequent_percents": 1.0, "entropy": 0.0}, "distribution": {"buckets":
+      [{"value": 13, "frequency": 1.0}]}}, "type": "Categorical"}, {"data_type": "number",
+      "dimension_start_ts": null, "feature_importance": 0.0, "id": null, "name": "f34",
+      "role": "feature", "secondary_type": "Cat_dense", "summary": {"statistics":
+      {"missing_values": 0.0, "new_values": 0, "unique_values": 3, "top_frequent_percents":
+      0.7, "entropy": 0.8018185525}, "distribution": {"buckets": [{"value": 2, "frequency":
+      0.1}, {"value": 9, "frequency": 0.2}, {"value": 1, "frequency": 0.7}]}}, "type":
+      "Categorical"}, {"data_type": "number", "dimension_start_ts": null, "feature_importance":
+      0.0, "id": null, "name": "f35", "role": "feature", "secondary_type": "Cat_dense",
+      "summary": {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values":
+      4, "top_frequent_percents": 0.6, "entropy": 1.0888999753}, "distribution": {"buckets":
+      [{"value": 1, "frequency": 0.1}, {"value": 6, "frequency": 0.1}, {"value": 13,
+      "frequency": 0.2}, {"value": 19, "frequency": 0.6}]}}, "type": "Categorical"},
+      {"data_type": "number", "dimension_start_ts": null, "feature_importance": 0.0,
+      "id": null, "name": "f4", "role": "feature", "secondary_type": "Cat_constant",
+      "summary": {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values":
+      1, "top_frequent_percents": 1.0, "entropy": 0.0}, "distribution": {"buckets":
+      [{"value": 0, "frequency": 1.0}]}}, "type": "Categorical"}, {"data_type": "number",
+      "dimension_start_ts": null, "feature_importance": 6.12, "id": null, "name":
+      "binary_str_null", "role": "feature", "secondary_type": "Cat_dense", "summary":
+      {"statistics": {"missing_values": 0.0, "new_values": 0, "unique_values": 2,
+      "top_frequent_percents": 0.9, "entropy": 0.3250829734}, "distribution": {"buckets":
+      [{"value": 0, "frequency": 0.1}, {"value": 1, "frequency": 0.9}]}}, "type":
+      "Categorical"}, {"data_type": "number", "dimension_start_ts": null, "feature_importance":
+      0.0, "id": null, "name": "binary_str_full", "role": "feature", "secondary_type":
+      "Cat_dense", "summary": {"statistics": {"missing_values": 0.0, "new_values":
+      0, "unique_values": 2, "top_frequent_percents": 0.7, "entropy": 0.6108643021},
+      "distribution": {"buckets": [{"value": 1, "frequency": 0.3}, {"value": 0, "frequency":
+      0.7}]}}, "type": "Categorical"}, {"data_type": "bool", "dimension_start_ts":
+      null, "feature_importance": 4.94, "id": null, "name": "binary_float_null", "role":
+      "feature", "secondary_type": "Boolean_numeric", "summary": {"statistics": {"missing_values":
+      0.0, "new_values": 0, "entropy": 0.673011667}, "distribution": {"buckets": [{"value":
+      false, "frequency": 0.4}, {"value": true, "frequency": 0.6}]}}, "type": "Boolean"},
+      {"data_type": "number", "dimension_start_ts": null, "feature_importance": 0.0,
+      "id": null, "name": "binary_float_full", "role": "feature", "secondary_type":
+      "Cat_constant", "summary": {"statistics": {"missing_values": 0.0, "new_values":
+      0, "unique_values": 1, "top_frequent_percents": 1.0, "entropy": 0.0}, "distribution":
+      {"buckets": [{"value": 1, "frequency": 1.0}]}}, "type": "Categorical"}, {"data_type":
+      "bool", "dimension_start_ts": null, "feature_importance": 0.0, "id": null, "name":
+      "binary_bool_null", "role": "feature", "secondary_type": "Boolean_numeric",
+      "summary": {"statistics": {"missing_values": 0.0, "new_values": 0, "entropy":
+      0.5004024235}, "distribution": {"buckets": [{"value": true, "frequency": 0.2},
+      {"value": false, "frequency": 0.8}]}}, "type": "Boolean"}, {"data_type": "bool",
+      "dimension_start_ts": null, "feature_importance": 0.0, "id": null, "name": "binary_bool_full",
+      "role": "feature", "secondary_type": "Boolean_numeric", "summary": {"statistics":
+      {"missing_values": 0.0, "new_values": 0, "entropy": 0.3250829734}, "distribution":
+      {"buckets": [{"value": false, "frequency": 0.1}, {"value": true, "frequency":
+      0.9}]}}, "type": "Boolean"}, {"data_type": "number", "dimension_start_ts": null,
+      "feature_importance": 0.0, "id": null, "name": "sparse_null", "role": "feature",
+      "secondary_type": "Cat_dense", "summary": {"statistics": {"missing_values":
+      0.1, "new_values": 0, "unique_values": 8, "top_frequent_percents": 0.2222222222,
+      "entropy": 1.8891591638}, "distribution": {"buckets": [{"value": 3.0, "frequency":
+      0.1111111111}, {"value": 10.0, "frequency": 0.1111111111}, {"value": 22.0, "frequency":
+      0.1111111111}, {"value": 26.0, "frequency": 0.1111111111}, {"value": 42.0, "frequency":
+      0.1111111111}, {"value": 4.0, "frequency": 0.2222222222}, {"value": 33.0, "frequency":
+      0.2222222222}]}}, "type": "Categorical"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 9.18, "id": null, "name": "sparse_full", "role":
+      "feature", "secondary_type": "Cat_dense", "summary": {"statistics": {"missing_values":
+      0.0, "new_values": 0, "unique_values": 9, "top_frequent_percents": 0.2, "entropy":
+      2.1639556569}, "distribution": {"buckets": [{"value": 0, "frequency": 0.1},
+      {"value": 6, "frequency": 0.1}, {"value": 12, "frequency": 0.1}, {"value": 16,
+      "frequency": 0.1}, {"value": 17, "frequency": 0.1}, {"value": 18, "frequency":
+      0.1}, {"value": 21, "frequency": 0.1}, {"value": 22, "frequency": 0.1}, {"value":
+      3, "frequency": 0.2}]}}, "type": "Categorical"}, {"data_type": "number", "dimension_start_ts":
+      null, "feature_importance": 0.0, "id": null, "name": "const_null", "role": "feature",
+      "secondary_type": "Cat_constant", "summary": {"statistics": {"missing_values":
+      0.0, "new_values": 0, "unique_values": 1, "top_frequent_percents": 1.0, "entropy":
+      0.0}, "distribution": {"buckets": [{"value": 0, "frequency": 1.0}]}}, "type":
+      "Categorical"}, {"data_type": "number", "dimension_start_ts": null, "feature_importance":
+      0.0, "id": null, "name": "const_full", "role": "feature", "secondary_type":
+      "Cat_constant", "summary": {"statistics": {"missing_values": 0.0, "new_values":
+      0, "unique_values": 1, "top_frequent_percents": 1.0, "entropy": 0.0}, "distribution":
+      {"buckets": [{"value": 78, "frequency": 1.0}]}}, "type": "Categorical"}], "external_id":
+      null, "id": null, "status": null, "task_id": 1, "training_ts": null, "version_name":
+      "test version 1"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA2OSwiZXhwIjoxNjM0NzIyNDY5LCJpc3MiOiJmcm9udGVnZyJ9.FtiW9TpM0F0NpSNdSRfuNIlEsFsW4Sptg_de4M9Cg8FXLQjQIttKLdojsukUxHiddlJFgFAx7DQqj3Szm2L6GdtRXXBiHhbWRKhCT6ZONwrcvd2HAmZz2Zhs83czycE_39jpNcNzDGAeVhLbznSMROOlZs7eNePwtb4nuWNmOUt6Skhh7IkNkwdXcWwtYH1OHgE4xV2MBCvY7TGQo-T_s52j9aJb5FQbYEFa7e09z3CM5RaPOYS7Hml4pVPSEOBzHHjGXqzoTWb9SAkMsp5xUA5mu9aJ6d3dQgv24C-Aj7wr-1erdU3VqpT-KF0QQrIRx5h6npKjXIdCq-OOaRN12w
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '47384'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://dev.superwise.ai/barak/model/v1/versions
+  response:
+    body:
+      string: '{"training_ts":"2021-10-19 09:34:33","status":"CREATED","status_reason":null,"id":27,"summary":null,"version_name":"test
+        version 1","task_id":1,"external_id":"27"}'
+    headers:
+      content-length:
+      - '163'
+      content-type:
+      - application/json
+      date:
+      - Tue, 19 Oct 2021 09:34:26 GMT
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '3887'
+    status:
+      code: 201
+      message: Created
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA2OSwiZXhwIjoxNjM0NzIyNDY5LCJpc3MiOiJmcm9udGVnZyJ9.FtiW9TpM0F0NpSNdSRfuNIlEsFsW4Sptg_de4M9Cg8FXLQjQIttKLdojsukUxHiddlJFgFAx7DQqj3Szm2L6GdtRXXBiHhbWRKhCT6ZONwrcvd2HAmZz2Zhs83czycE_39jpNcNzDGAeVhLbznSMROOlZs7eNePwtb4nuWNmOUt6Skhh7IkNkwdXcWwtYH1OHgE4xV2MBCvY7TGQo-T_s52j9aJb5FQbYEFa7e09z3CM5RaPOYS7Hml4pVPSEOBzHHjGXqzoTWb9SAkMsp5xUA5mu9aJ6d3dQgv24C-Aj7wr-1erdU3VqpT-KF0QQrIRx5h6npKjXIdCq-OOaRN12w
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://dev.superwise.ai/barak/model/v1/versions/27
+  response:
+    body:
+      string: '{"training_ts":"2021-10-19 09:34:33","status":"SUMMARIZED","status_reason":null,"id":27,"summary":{},"version_name":"test
+        version 1","task_id":1,"external_id":"27"}'
+    headers:
+      content-length:
+      - '164'
+      content-type:
+      - application/json
+      date:
+      - Tue, 19 Oct 2021 09:34:51 GMT
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '7'
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,272 @@
+interactions:
+- request:
+    body: '{"clientId": "b2f461b6-b8dc-4d44-9549-3c9192ddc477", "secret": "78fa08ca-4202-4120-a840-df5fa1c1b0a1"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://superwise-dev.frontegg.com/identity/resources/auth/v1/api-token
+  response:
+    body:
+      string: '{"expires":"Wed, 20 Oct 2021 09:34:22 GMT","expiresIn":86400,"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA2MiwiZXhwIjoxNjM0NzIyNDYyLCJpc3MiOiJmcm9udGVnZyJ9.hPdvo4h9rGlJNbl4y0G69f9QOEOMMIne2QroV--QYgegZ2iylTmwCBtX8r93lBmKNCfVympHAFYEVOTHxc-qFYMugnh0PD7huihYsyYsGB-F0fyWKq2aeJ2lYg-nVgWZI_JSEueBIhAvnSn6JvLJXhcgaJAIswqTojAw2RcNTsM9twzwxszYUVK3hn1ps0oQmhuW30PqoESsyvU36w5MTzY-uXo58TvHgJGd9bJvjvbFrWPdPPjeEVrDUNAyaIWv5sAQQxIptQCAPUcWmnU1GO0tdKRsVL74lmKkr-C26Vstj9VqGAeq_Ss0wMrjE_2A4YX2pLCEvOHT9u_aTVZuyA","refreshToken":"cdba3024-4ce6-41fe-a491-46f82d08bab1"}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1055'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 19 Oct 2021 09:34:22 GMT
+      Set-Cookie:
+      - visid_incap_2473133=sjxv98DaRoq+NvMafpH3Rx6RbmEAAAAAQUIPAAAAAADu/RoM9quGzScwa83VW00t;
+        expires=Wed, 19 Oct 2022 08:43:13 GMT; HttpOnly; path=/; Domain=.frontegg.com
+      - incap_ses_7213_2473133=HHqLb2JwBnVb8D4XvbkZZB6RbmEAAAAA1PdnTZgcRxhgzaH6Gg1kIQ==;
+        path=/; Domain=.frontegg.com
+      X-CDN:
+      - Imperva
+      X-Iinfo:
+      - 7-128729-128731 NNNN CT(63 82 0) RT(1634636061658 16) q(0 0 2 -1) r(2 6) U5
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      etag:
+      - W/"41f-VqOjlYCjBR7r0fGb/UMuEHl+7fw"
+      expect-ct:
+      - max-age=0
+      frontegg-trace-id:
+      - 77f34f4f-b8d9-431d-abf6-72f111046207
+      referrer-policy:
+      - no-referrer
+      strict-transport-security:
+      - max-age=15724800; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA2MiwiZXhwIjoxNjM0NzIyNDYyLCJpc3MiOiJmcm9udGVnZyJ9.hPdvo4h9rGlJNbl4y0G69f9QOEOMMIne2QroV--QYgegZ2iylTmwCBtX8r93lBmKNCfVympHAFYEVOTHxc-qFYMugnh0PD7huihYsyYsGB-F0fyWKq2aeJ2lYg-nVgWZI_JSEueBIhAvnSn6JvLJXhcgaJAIswqTojAw2RcNTsM9twzwxszYUVK3hn1ps0oQmhuW30PqoESsyvU36w5MTzY-uXo58TvHgJGd9bJvjvbFrWPdPPjeEVrDUNAyaIWv5sAQQxIptQCAPUcWmnU1GO0tdKRsVL74lmKkr-C26Vstj9VqGAeq_Ss0wMrjE_2A4YX2pLCEvOHT9u_aTVZuyA
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://dev.superwise.ai/barak/admin/v1/tasks/1
+  response:
+    body:
+      string: '{"title":"Chargeback prediction - task 65","active_version_id":1,"task_description":"A
+        multiclass classification model that decide whether to approve or reject a
+        given transaction to avoid chargebacks","created_at":"2021-05-31T00:00:00","time_units":["D","W"],"active_version_ts":"2021-07-26T13:19:07.141382","task_type":"Multiclass
+        Classification","id":1,"monitor_delay":1,"external_id":"65","is_archived":true}'
+    headers:
+      content-length:
+      - '412'
+      content-type:
+      - application/json
+      date:
+      - Tue, 19 Oct 2021 09:34:11 GMT
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '7'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"baseline_df": null, "baseline_files": ["gs://superwise-tools/integration_tests/basic/baseline_meta.parquet"],
+      "data_entities": [{"data_type": null, "dimension_start_ts": "2015-12-12 12:12",
+      "feature_importance": null, "id": null, "name": "est_country", "role": "metadata",
+      "secondary_type": null, "summary": null, "type": "Categorical"}, {"data_type":
+      null, "dimension_start_ts": null, "feature_importance": null, "id": null, "name":
+      "reversed_prediction_value", "role": "metadata", "secondary_type": null, "summary":
+      null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts": null,
+      "feature_importance": null, "id": null, "name": "record_id", "role": "id", "secondary_type":
+      null, "summary": null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "ts", "role": "time stamp",
+      "secondary_type": null, "summary": null, "type": "Timestamp"}, {"data_type":
+      null, "dimension_start_ts": null, "feature_importance": null, "id": null, "name":
+      "prediction_probability", "role": "prediction probability", "secondary_type":
+      null, "summary": null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "prediction_value", "role":
+      "prediction value", "secondary_type": null, "summary": null, "type": "Categorical"},
+      {"data_type": null, "dimension_start_ts": null, "feature_importance": null,
+      "id": null, "name": "label", "role": "label", "secondary_type": null, "summary":
+      null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts": null,
+      "feature_importance": null, "id": null, "name": "label_ts", "role": "label time
+      stamp", "secondary_type": null, "summary": null, "type": "Timestamp"}, {"data_type":
+      null, "dimension_start_ts": null, "feature_importance": null, "id": null, "name":
+      "num_int_null", "role": "feature", "secondary_type": null, "summary": null,
+      "type": "Numeric"}, {"data_type": null, "dimension_start_ts": null, "feature_importance":
+      null, "id": null, "name": "num_int_full", "role": "feature", "secondary_type":
+      null, "summary": null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "num_float_null", "role":
+      "feature", "secondary_type": null, "summary": null, "type": "Numeric"}, {"data_type":
+      null, "dimension_start_ts": null, "feature_importance": null, "id": null, "name":
+      "num_float_full", "role": "feature", "secondary_type": null, "summary": null,
+      "type": "Numeric"}, {"data_type": null, "dimension_start_ts": null, "feature_importance":
+      null, "id": null, "name": "f9", "role": "feature", "secondary_type": null, "summary":
+      null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts": null, "feature_importance":
+      null, "id": null, "name": "f7", "role": "feature", "secondary_type": null, "summary":
+      null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts": null, "feature_importance":
+      null, "id": null, "name": "f5", "role": "feature", "secondary_type": null, "summary":
+      null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts": null, "feature_importance":
+      null, "id": null, "name": "f43", "role": "feature", "secondary_type": null,
+      "summary": null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "f42", "role": "feature",
+      "secondary_type": null, "summary": null, "type": "Numeric"}, {"data_type": null,
+      "dimension_start_ts": null, "feature_importance": null, "id": null, "name":
+      "f41", "role": "feature", "secondary_type": null, "summary": null, "type": "Numeric"},
+      {"data_type": null, "dimension_start_ts": null, "feature_importance": null,
+      "id": null, "name": "f40", "role": "feature", "secondary_type": null, "summary":
+      null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts": null, "feature_importance":
+      null, "id": null, "name": "f39", "role": "feature", "secondary_type": null,
+      "summary": null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "f38", "role": "feature",
+      "secondary_type": null, "summary": null, "type": "Numeric"}, {"data_type": null,
+      "dimension_start_ts": null, "feature_importance": null, "id": null, "name":
+      "f31", "role": "feature", "secondary_type": null, "summary": null, "type": "Numeric"},
+      {"data_type": null, "dimension_start_ts": null, "feature_importance": null,
+      "id": null, "name": "f30", "role": "feature", "secondary_type": null, "summary":
+      null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts": null, "feature_importance":
+      null, "id": null, "name": "f3", "role": "feature", "secondary_type": null, "summary":
+      null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts": null, "feature_importance":
+      null, "id": null, "name": "f29", "role": "feature", "secondary_type": null,
+      "summary": null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "f28", "role": "feature",
+      "secondary_type": null, "summary": null, "type": "Numeric"}, {"data_type": null,
+      "dimension_start_ts": null, "feature_importance": null, "id": null, "name":
+      "f27", "role": "feature", "secondary_type": null, "summary": null, "type": "Numeric"},
+      {"data_type": null, "dimension_start_ts": null, "feature_importance": null,
+      "id": null, "name": "f2", "role": "feature", "secondary_type": null, "summary":
+      null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts": null, "feature_importance":
+      null, "id": null, "name": "f10", "role": "feature", "secondary_type": null,
+      "summary": null, "type": "Numeric"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "f1", "role": "feature",
+      "secondary_type": null, "summary": null, "type": "Numeric"}, {"data_type": null,
+      "dimension_start_ts": null, "feature_importance": null, "id": null, "name":
+      "f0", "role": "feature", "secondary_type": null, "summary": null, "type": "Numeric"},
+      {"data_type": null, "dimension_start_ts": null, "feature_importance": null,
+      "id": null, "name": "cat_int_full", "role": "feature", "secondary_type": null,
+      "summary": null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "cat_int_null", "role":
+      "feature", "secondary_type": null, "summary": null, "type": "Categorical"},
+      {"data_type": null, "dimension_start_ts": null, "feature_importance": null,
+      "id": null, "name": "cat_str_full", "role": "feature", "secondary_type": null,
+      "summary": null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "cat_str_null", "role":
+      "feature", "secondary_type": null, "summary": null, "type": "Categorical"},
+      {"data_type": null, "dimension_start_ts": null, "feature_importance": null,
+      "id": null, "name": "f11", "role": "feature", "secondary_type": null, "summary":
+      null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts": null,
+      "feature_importance": null, "id": null, "name": "f12", "role": "feature", "secondary_type":
+      null, "summary": null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "f16", "role": "feature",
+      "secondary_type": null, "summary": null, "type": "Categorical"}, {"data_type":
+      null, "dimension_start_ts": null, "feature_importance": null, "id": null, "name":
+      "f17", "role": "feature", "secondary_type": null, "summary": null, "type": "Categorical"},
+      {"data_type": null, "dimension_start_ts": null, "feature_importance": null,
+      "id": null, "name": "f18", "role": "feature", "secondary_type": null, "summary":
+      null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts": null,
+      "feature_importance": null, "id": null, "name": "f20", "role": "feature", "secondary_type":
+      null, "summary": null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "f33", "role": "feature",
+      "secondary_type": null, "summary": null, "type": "Categorical"}, {"data_type":
+      null, "dimension_start_ts": null, "feature_importance": null, "id": null, "name":
+      "f34", "role": "feature", "secondary_type": null, "summary": null, "type": "Categorical"},
+      {"data_type": null, "dimension_start_ts": null, "feature_importance": null,
+      "id": null, "name": "f35", "role": "feature", "secondary_type": null, "summary":
+      null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts": null,
+      "feature_importance": null, "id": null, "name": "f4", "role": "feature", "secondary_type":
+      null, "summary": null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "binary_str_null", "role":
+      "feature", "secondary_type": null, "summary": null, "type": "Categorical"},
+      {"data_type": null, "dimension_start_ts": null, "feature_importance": null,
+      "id": null, "name": "binary_str_full", "role": "feature", "secondary_type":
+      null, "summary": null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "binary_float_null", "role":
+      "feature", "secondary_type": null, "summary": null, "type": "Boolean"}, {"data_type":
+      null, "dimension_start_ts": null, "feature_importance": null, "id": null, "name":
+      "binary_float_full", "role": "feature", "secondary_type": null, "summary": null,
+      "type": "Categorical"}, {"data_type": null, "dimension_start_ts": null, "feature_importance":
+      null, "id": null, "name": "binary_bool_null", "role": "feature", "secondary_type":
+      null, "summary": null, "type": "Boolean"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "binary_bool_full", "role":
+      "feature", "secondary_type": null, "summary": null, "type": "Boolean"}, {"data_type":
+      null, "dimension_start_ts": null, "feature_importance": null, "id": null, "name":
+      "sparse_null", "role": "feature", "secondary_type": null, "summary": null, "type":
+      "Categorical"}, {"data_type": null, "dimension_start_ts": null, "feature_importance":
+      null, "id": null, "name": "sparse_full", "role": "feature", "secondary_type":
+      null, "summary": null, "type": "Categorical"}, {"data_type": null, "dimension_start_ts":
+      null, "feature_importance": null, "id": null, "name": "const_null", "role":
+      "feature", "secondary_type": null, "summary": null, "type": "Categorical"},
+      {"data_type": null, "dimension_start_ts": null, "feature_importance": null,
+      "id": null, "name": "const_full", "role": "feature", "secondary_type": null,
+      "summary": null, "type": "Categorical"}], "external_id": null, "id": null, "status":
+      null, "task_id": 1, "training_ts": null, "version_name": "test version"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA2MiwiZXhwIjoxNjM0NzIyNDYyLCJpc3MiOiJmcm9udGVnZyJ9.hPdvo4h9rGlJNbl4y0G69f9QOEOMMIne2QroV--QYgegZ2iylTmwCBtX8r93lBmKNCfVympHAFYEVOTHxc-qFYMugnh0PD7huihYsyYsGB-F0fyWKq2aeJ2lYg-nVgWZI_JSEueBIhAvnSn6JvLJXhcgaJAIswqTojAw2RcNTsM9twzwxszYUVK3hn1ps0oQmhuW30PqoESsyvU36w5MTzY-uXo58TvHgJGd9bJvjvbFrWPdPPjeEVrDUNAyaIWv5sAQQxIptQCAPUcWmnU1GO0tdKRsVL74lmKkr-C26Vstj9VqGAeq_Ss0wMrjE_2A4YX2pLCEvOHT9u_aTVZuyA
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '10714'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://dev.superwise.ai/barak/model/v1/versions
+  response:
+    body:
+      string: '{"training_ts":"2021-10-19 09:34:23","status":"CREATED","status_reason":null,"id":26,"summary":null,"version_name":"test
+        version","task_id":1,"external_id":"26"}'
+    headers:
+      content-length:
+      - '161'
+      content-type:
+      - application/json
+      date:
+      - Tue, 19 Oct 2021 09:34:23 GMT
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '53'
+    status:
+      code: 201
+      message: Created
+version: 1

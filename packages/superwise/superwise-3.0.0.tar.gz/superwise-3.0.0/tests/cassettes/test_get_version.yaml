@@ -1,0 +1,104 @@
+interactions:
+- request:
+    body: '{"clientId": "b2f461b6-b8dc-4d44-9549-3c9192ddc477", "secret": "78fa08ca-4202-4120-a840-df5fa1c1b0a1"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://superwise-dev.frontegg.com/identity/resources/auth/v1/api-token
+  response:
+    body:
+      string: '{"expires":"Wed, 20 Oct 2021 09:34:25 GMT","expiresIn":86400,"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA2NSwiZXhwIjoxNjM0NzIyNDY1LCJpc3MiOiJmcm9udGVnZyJ9.lQ5gzFx-v7LPj0BdtqpCDXZHOD0-wcpwgt3-3Izx0C3GBERdhgnSn3AwzDg9MaDLQFPbrBaOyU00rggQ1wsIgO3BlXCH_ZOPg4k5gVMcX33tqef2-ljxD_PWTQItIMbp6tuT705NHA1sdkrJfdQ24B3FfxS8VePpRjQYm_wSFvhFGG5mSWeHnXEA010vYd3JSGuJ9vgVUps7HATugHZ3UF8WbF5szJ5zslCIisJmvHrqIp0wLqJwM6QHsFmhWQ_GahG3syfpK28AWrnra7jSzkYM7QJJwCblJQPCoPVg5HGIfLA6scB1XqChCJH8jkKPImV35z8bPN9MgSl911aLSg","refreshToken":"dcb5f3e0-6790-4af7-8513-a449ef82a4c0"}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1055'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 19 Oct 2021 09:34:25 GMT
+      Set-Cookie:
+      - visid_incap_2473133=rofeeOljTdWb7Ji5cllO5CCRbmEAAAAAQUIPAAAAAAD1MTDlhdTaxqI0V/Z9wNTF;
+        expires=Wed, 19 Oct 2022 08:43:02 GMT; HttpOnly; path=/; Domain=.frontegg.com
+      - incap_ses_7213_2473133=1J1PPt76JDXw8T4XvbkZZCCRbmEAAAAAXUODh3dUb+IkCC3hL2V/jg==;
+        path=/; Domain=.frontegg.com
+      X-CDN:
+      - Imperva
+      X-Iinfo:
+      - 14-530748-530755 NNNN CT(72 66 0) RT(1634636064453 21) q(0 0 2 -1) r(2 3)
+        U5
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      etag:
+      - W/"41f-RpG9NOaF3vdZLvAFUaogFskdbmw"
+      expect-ct:
+      - max-age=0
+      frontegg-trace-id:
+      - 726cc3a8-0134-47fb-8087-486ba043f894
+      referrer-policy:
+      - no-referrer
+      strict-transport-security:
+      - max-age=15724800; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjQ3ZDdmMDg2In0.eyJzdWIiOiJiMmY0NjFiNi1iOGRjLTRkNDQtOTU0OS0zYzkxOTJkZGM0NzciLCJlbWFpbCI6InN3X2JhcmFrQHN1cGVyd2lzZS5haSIsInVzZXJNZXRhZGF0YSI6e30sInRlbmFudElkIjoiYmFyYWsiLCJyb2xlcyI6WyJWaWV3ZXIiXSwicGVybWlzc2lvbnMiOlsiZmUuc2VjdXJlLndyaXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUuZGVsZXRlLnVzZXJBcGlUb2tlbnMiLCJmZS5zZWN1cmUucmVhZC51c2VyQXBpVG9rZW5zIl0sIm1ldGFkYXRhIjp7fSwiY3JlYXRlZEJ5VXNlcklkIjoiNzVkNTUwM2UtZjdkNC00ZmFiLTk1MDUtODEyNTM0N2ZmMTc5IiwidHlwZSI6InVzZXJBcGlUb2tlbiIsImlhdCI6MTYzNDYzNjA2NSwiZXhwIjoxNjM0NzIyNDY1LCJpc3MiOiJmcm9udGVnZyJ9.lQ5gzFx-v7LPj0BdtqpCDXZHOD0-wcpwgt3-3Izx0C3GBERdhgnSn3AwzDg9MaDLQFPbrBaOyU00rggQ1wsIgO3BlXCH_ZOPg4k5gVMcX33tqef2-ljxD_PWTQItIMbp6tuT705NHA1sdkrJfdQ24B3FfxS8VePpRjQYm_wSFvhFGG5mSWeHnXEA010vYd3JSGuJ9vgVUps7HATugHZ3UF8WbF5szJ5zslCIisJmvHrqIp0wLqJwM6QHsFmhWQ_GahG3syfpK28AWrnra7jSzkYM7QJJwCblJQPCoPVg5HGIfLA6scB1XqChCJH8jkKPImV35z8bPN9MgSl911aLSg
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://dev.superwise.ai/barak/model/v1/versions/1
+  response:
+    body:
+      string: '{"training_ts":"2020-11-06 00:00:00","status":"ACTIVATED","status_reason":null,"id":1,"summary":{},"version_name":"45308","task_id":1,"external_id":"45308"}'
+    headers:
+      content-length:
+      - '156'
+      content-type:
+      - application/json
+      date:
+      - Tue, 19 Oct 2021 09:34:23 GMT
+      server:
+      - istio-envoy
+      x-envoy-upstream-service-time:
+      - '23'
+    status:
+      code: 200
+      message: OK
+version: 1

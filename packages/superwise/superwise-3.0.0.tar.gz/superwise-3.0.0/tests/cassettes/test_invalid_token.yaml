@@ -1,0 +1,69 @@
+interactions:
+- request:
+    body: '{"clientId": "test", "secret": "test_fail"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '43'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://superwise-dev.frontegg.com/identity/resources/auth/v1/api-token
+  response:
+    body:
+      string: '{"errors":["Invalid authentication"]}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '37'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 19 Oct 2021 09:34:16 GMT
+      Set-Cookie:
+      - visid_incap_2473133=MV+CwHZcQCe7BXaWtlDULReRbmEAAAAAQUIPAAAAAAA+oER/RmgHxIa56X0PO+Q3;
+        expires=Wed, 19 Oct 2022 08:43:12 GMT; HttpOnly; path=/; Domain=.frontegg.com
+      - incap_ses_7213_2473133=qz9jTD3ZRD2x6z4XvbkZZBeRbmEAAAAAcoZTFXLbEnzlBHqI53miOQ==;
+        path=/; Domain=.frontegg.com
+      X-CDN:
+      - Imperva
+      X-Iinfo:
+      - 8-77107-77110 NNNN CT(65 66 0) RT(1634636055431 19) q(0 0 1 -1) r(2 2) U5
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      etag:
+      - W/"25-RzVpVPSsARofXaCBY4VaEWX6wg0"
+      expect-ct:
+      - max-age=0
+      frontegg-trace-id:
+      - ed94476b-d8ca-4dcc-a391-2d59ba003c04
+      referrer-policy:
+      - no-referrer
+      strict-transport-security:
+      - max-age=15724800; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - '0'
+    status:
+      code: 401
+      message: Unauthorized
+version: 1
