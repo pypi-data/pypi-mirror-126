@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: keycloak-admin-aio
+Version: 1.0.1
+Summary: async keycloak admin api wrapper
+Home-page: https://github.com/delphai/keycloak-admin-aio
+License: Apache-2.0
+Author: Nicklas Sedlock
+Author-email: nicklas@delphai.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: dacite (>=1.6.0,<2.0.0)
+Requires-Dist: httpx (>=0.15.0,<0.16.0)
