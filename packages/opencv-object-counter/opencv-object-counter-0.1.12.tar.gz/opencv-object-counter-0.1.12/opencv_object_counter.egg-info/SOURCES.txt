@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ooc/__init__.py
+ooc/__main__.py
+ooc/cli.py
+ooc/config.py
+ooc/counter.py
+opencv_object_counter.egg-info/PKG-INFO
+opencv_object_counter.egg-info/SOURCES.txt
+opencv_object_counter.egg-info/dependency_links.txt
+opencv_object_counter.egg-info/entry_points.txt
+opencv_object_counter.egg-info/requires.txt
+opencv_object_counter.egg-info/top_level.txt
+tests/__init__.py
+tests/test_counter.py
