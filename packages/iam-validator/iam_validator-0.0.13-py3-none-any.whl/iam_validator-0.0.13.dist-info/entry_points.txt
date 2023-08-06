@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        iam-validator=iam_validator.command:cli
+    

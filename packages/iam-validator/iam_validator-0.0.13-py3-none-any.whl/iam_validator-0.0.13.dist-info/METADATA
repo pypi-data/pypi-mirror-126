@@ -1,0 +1,201 @@
+Metadata-Version: 2.1
+Name: iam-validator
+Version: 0.0.13
+Summary: Lightweight, extensible schema and IAM validation tool for AWS Roles.
+Home-page: https://github.com/rubelw/iam-validator
+Author: Will Rubel
+Author-email: willrubel@gmail.com
+License: GPLv3+
+Keywords: validation,iam,scp,aws,python
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: boto3 (>=1.4.3)
+Requires-Dist: requests (>=2.18)
+Requires-Dist: Click (>=6.7)
+Requires-Dist: PyYAML (>=3.12)
+Requires-Dist: configparser (>=3.5.0)
+Requires-Dist: pykwalify (>=1.6.1)
+Requires-Dist: schema (>=0.6.8)
+Requires-Dist: future (>=0.16.0)
+Requires-Dist: six (>=1.11.0)
+Requires-Dist: pip
+Requires-Dist: botocore
+
+# IAM Validator for Attribute-based Access Control (ABAC)
+
+The module will test IAM policies to ensure they are successful, and also test that a 'negative test' fails.
+
+We do both a 'positive test' and a 'negative test' to ensure the policy acts as expected, and allows and denies in 
+accordance with the policy.
+
+Why someone needs this tool:
+----------------------------
+I you have ever deployed IAM policy changes to an organization, you will know you have the potential to break
+many users, roles and resources if an incorrect policy is applied.
+
+You will do your best to have peer reviews, and check the policies with the IAM validator, but you still have errors
+in your policies because the IAM policy simulator does not validate context and conditions correctly.
+
+With this tool, you can ensure 100% percent accuracy of your IAM policies, because you are testing against actual
+AWS resources.
+
+Yes, I say 100% accuracy, because you are testing, actual policies against actual resources.  In addition, your
+not just testing to determine if the policy works, but you are also testing to ensure the policy does not work
+for someone who does not have the correct attributes.
+
+This will give you, and auditors, 100% assurance that users can not get outside their lanes, and perform actions
+they do not have permissions to perform.
+
+The concept is:
+---------------
+- Setup creates:
+   - Positive testing role
+   - Negative testing role (with different attributes)
+   - Developer testing role (for developing and testing conditionals)
+      - Has access to S3 Terraform statefile bucket
+      - Attach policy you would like to test to this role
+      
+- Validation
+  - Attaches the policies and permissions boundary to the positive and negative testing role, but with different tag
+    attributes for the negative testing role - which should cause the tests to fail.
+
+- Destory:
+  - Destroys all AWS resources created during setup.
+      
+## How it works
+
+- The policies attached to the developer testing role are attached to the positive and negative testing role.
+- Permissions boundary from developer testing role is put on positive and negative testing role.
+- Tags are copies from developer testing role to positive and negative testing roles, except the attribute is changed for the negative testing role.
+- The user/role assumes the positive testing role and:
+   - Passes a comma delimited list of AWS resources associated with the ABAC conditions to terraform module
+   - A terraform init and terraform apply are executed to create the resources.
+   - A terraform destory is executed to demonstrate positive testing role can destroy resources.
+
+- The user/role assumes the negative testing role and:
+   - Passes a comma delimited list of AWS resources associated with the ABAC conditions to terraform module
+   - A terraform init and terraform apply are executed to create the resources and demonstrate negative testing role is denied creation.
+   - A terraform destory is executed to demonstrate testing role can destroy resources.
+  
+- All policies and tags are detached and remove from positive and negative testing role
+
+## Where is the data and config files stored
+
+A directory named ~/.iamv is created, and contains a file named config - which contains all the configuration
+information.
+
+There is also a directory called 'data', which contains all the terraform and module directories.  All terraform
+commands are run against this directory.
+
+
+## How to run demo
+
+This will:
+1. Create an S3 bucket and Dynamodb table for terraform state files and locking
+2. Create two roles for testing, and one role to test.
+3. Example policies and permissions boundary to attach to the role we are testing.
+4. Will attached the policies from the role we are testing to the positive and negative testing role.
+5. Deploy terraform for the resource we are testing ( example: iam_role)
+6. Output the results of the test
+7. Destroy the policies, roles, s3 bucket and dynamodb table.
+
+```bash
+ iam-validator demo -r iam_role
+```
+
+## Setup testing roles
+
+This will setup the s3 bucket, dynamodb table, and testing roles and policies.
+
+```bash
+iam-validator setup
+```
+
+## Validate an AWS resource
+
+This will create an AWS resource to test the positive role passes, and the negative role fails.
+
+```bash
+iam-validator validate -r iam_role
+```
+
+## Destroy all AWS resources
+
+This will destory the s3 bucket, dynamodb table, iam testing roles, and iam testing policies.
+
+```bash
+iam-validator destroy
+```
+
+## Reading the Output
+
+When we run validate for resource asg, ec2, eni, security group, ebs volume, and iam_role, we are testing to determine if the positive
+testing role can execute these functions, and a negative testing role with different attributes
+can not execute these functions.
+
+In this example, the positive role had no errors applying and destroying the resources, but the
+negative testing role could not create an eni or role.  Thus, the policy is valid.
+
+```bash
+iam-validator validate -r eni,iam_role,sg,ebs,ec2,asg
+
+{
+    "positive_role": {
+        "apply_errors": [],
+        "destroy_errors": []
+    },
+    "negative_role": {
+        "apply_errors": [
+            "Error: error creating EC2 Network Interface: UnauthorizedOperation: You are not authorized to perform this operation. Encoded authorization failure message: xxxxx",
+            "status code: 403, request id: 7d44d5c8-f039-4917-af9e-99d133cec252",
+            "",
+            "   with module.aws_resources.aws_network_interface.test[0],",
+            "   on ../modules/aws_resources/eni.tf line 1, in resource \"aws_network_interface\" \"test\":",
+            "    1: resource \"aws_network_interface\" \"test\" {",
+            "",
+            "",
+            "",
+            "Error: error creating IAM Role (IAM-Validating-Testing-Role): AccessDenied: User: arn:aws:sts::123456789012:assumed-role/NegativeTestingRole/AssumeRole is not authorized to perform: iam:TagRole on resource: arn:aws:iam::123456789012:role/tset/IAM-Validating-Testing-Role",
+            "status code: 403, request id: 2570afa3-beea-4433-a480-a0a9f521f5ba",
+            "",
+            "   with module.aws_resources.aws_iam_role.role_w_boundary[0],",
+            "   on ../modules/aws_resources/iam_role.tf line 1, in resource \"aws_iam_role\" \"role_w_boundary\":",
+            "    1: resource \"aws_iam_role\" \"role_w_boundary\" {",
+            " ",
+            "Error: Error creating Security Group: UnauthorizedOperation: You are not authorized to perform this operation. Encoded authorization failure message: xxxxx",
+            "status code: 403, request id: f4d40057-a5ee-4e9f-9e56-adcc41b1fc65",
+            "",
+            "Error: Error creating EC2 volume: UnauthorizedOperation: You are not authorized to perform this operation. Encoded authorization failure message: xxxx",
+            "status code: 403, request id: 3ba9df31-a8b0-442e-9fb3-c2231e874815",
+            "Error: Error launching source instance: UnauthorizedOperation: You are not authorized to perform this operation. Encoded authorization failure message: xxx",
+            "status code: 403, request id: 8cdac284-5499-44e3-a2f7-0cb0d0f937e4",
+            "Error: Error creating Auto Scaling Group: AccessDenied: User: arn:aws:sts::123456789012:assumed-role/NegativeTestingRole/AssumeRole is not authorized to perform: autoscaling:CreateAutoScalingGroup on resource: arn:aws:autoscaling:us-east-1:123456789012:autoScalingGroup:*:autoScalingGroupName/tset-asg because no identity-based policy allows the autoscaling:CreateAutoScalingGroup action",
+            " \tstatus code: 403, request id: f8cf8336-6233-4615-a7cc-a94864dad5ff",
+
+
+
+        ],
+        "destroy_errors": []
+    }
+}
+
+```
+
+## Removing Orphaned AWS Resources
+
+So, what happens if the positive or negative test fails to delete resources?  
+
+Well, this means that orphaned resources are left in the AWS environment, and will need to be manually destroyed.
+
+```bash
+iam-validator remove-orphans
+```
+
