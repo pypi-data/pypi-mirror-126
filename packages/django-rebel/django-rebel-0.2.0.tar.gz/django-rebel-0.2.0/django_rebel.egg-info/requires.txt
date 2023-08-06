@@ -1,0 +1,8 @@
+django<3.3,>=3.0
+requests<=3.0,>=2.0
+premailer==3.2.0
+
+[test]
+django<3.3,>=3.0
+requests<=3.0,>=2.0
+premailer==3.2.0
