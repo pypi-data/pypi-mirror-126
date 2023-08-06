@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: liveisstracker
+Version: 0.0.10
+Summary: A CLI based on the LiveIssTracker Project from https://gitlab.com/manojm18/liveisstracker
+Home-page: https://gitlab.com/manojm18
+Author: Manoj Manivannan
+Author-email: manojm18@live.in
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: geographiclib (==1.50)
+Requires-Dist: geopy (==1.20.0)
+Requires-Dist: jupyter (==1.0.0)
+Requires-Dist: matplotlib (==3.1.2)
+Requires-Dist: mysql-connector (==2.2.9)
+Requires-Dist: numpy (==1.18.0)
+Requires-Dist: plotly-express (==0.4.1)
+Requires-Dist: plotly (==4.4.0)
+Requires-Dist: pytest
+Requires-Dist: streamlit (==0.78.0)
+
+UNKNOWN
+
+
