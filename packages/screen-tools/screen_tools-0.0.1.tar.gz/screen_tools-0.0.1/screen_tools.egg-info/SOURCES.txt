@@ -1,0 +1,6 @@
+setup.py
+screen_tools.egg-info/PKG-INFO
+screen_tools.egg-info/SOURCES.txt
+screen_tools.egg-info/dependency_links.txt
+screen_tools.egg-info/requires.txt
+screen_tools.egg-info/top_level.txt
