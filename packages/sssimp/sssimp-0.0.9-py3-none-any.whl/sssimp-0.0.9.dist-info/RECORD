@@ -1,0 +1,13 @@
+sssimp/__init__.py,sha256=4thwVVuOGvJ9X3fGh7rQdE7EoQHAKtknGcCKLzk3O64,703
+sssimp/__main__.py,sha256=rsx87gR-rQnCSNrYQkMAVHZE_n7U26cT0VSN4-77XYk,2205
+sssimp/config.py,sha256=TpFnXSUW-ejkG240_TlKXR0mNgJIQJI--ULzR_YsEEU,543
+sssimp/filters.py,sha256=6BvEEy0RA53pvVzhzZiQ6qN33u0F5oFTSdZA0Cj9o1o,401
+sssimp/utils.py,sha256=N9qHRz2kMksUw7k8fHLy35wPDMA5hOu3ZRRfXdZu7D4,514
+sssimp/generators/css.py,sha256=rhYxmj6deF-Yk7hC6Gav9Wj09UOiuPEq0BGVXFpV7I8,922
+sssimp/generators/html.py,sha256=MkpQ-4LnuEOH4TncDIXAE7DWuo41LqUVZgjvIdCjWgE,1641
+sssimp/generators/markdown.py,sha256=-_y5rH3tbKQpk15NiOduwXeEKmcy5gedgDgCq2J1NYo,3208
+sssimp-0.0.9.dist-info/LICENSE,sha256=NCAYxTvPh_0-dBvEYqY4I5DNq8xblGUqvqz2PIk4V9k,1061
+sssimp-0.0.9.dist-info/METADATA,sha256=WJwlGviWI5os75JurJB0bLpFmAGlZ8TY7BdGQvfDXkk,6110
+sssimp-0.0.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sssimp-0.0.9.dist-info/top_level.txt,sha256=llkxzg5_iKauuOiLYi6l4kFlB-fQ_7tuiEDBNfGtCZg,7
+sssimp-0.0.9.dist-info/RECORD,,
