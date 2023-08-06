@@ -1,0 +1,12 @@
+cqbear/__init__.py,sha256=KwWk9pi3ezeZbuUKpCdYCO_wFnKg3pj6tZZrPKp-nBo,23
+cqbear/bear.py,sha256=ZLwEsmR-gS6roMyq8lLUsZDo5KE0W_F0VvGt0uMrv1c,15431
+cqbear/remember.py,sha256=H3EB8QPu-2qtcElFJL8ZdMC2twoA1WnSMhlQRSEWeQE,15122
+cqbear/roar.py,sha256=CSRMEr49impAb0_t39xf_bgLwwnNHvPuNVu1cix1G_U,50919
+cqbear/sentence.py,sha256=SNLCYcHRnTlWZHiISL5zFphBHBl7OcbqzyMdRd0OitQ,13325
+cqbear/sound.py,sha256=_KSX1Nb29zQGEM4U2QMv0umq9KWCzMg-TaQffCssBPo,27424
+cqbear/util.py,sha256=7uHcjFgwWhIfV3hWWV4Ww7P9j0uyI-bbF6P_8ISqITo,1405
+cqbear-0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cqbear-0.4.dist-info/METADATA,sha256=Vl0EHJmh3zPc5UTGFxDanVM-gpXYSNpS5hDgOKeK9tA,20949
+cqbear-0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cqbear-0.4.dist-info/top_level.txt,sha256=jIZz3yjPlYQOc9ROk1K7KVLBknOEv9GTwJZxLY0zeuo,7
+cqbear-0.4.dist-info/RECORD,,
