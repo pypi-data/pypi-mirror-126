@@ -1,0 +1,17 @@
+text_clf/__init__.py,sha256=XQ6peWM1cSiqg1joepf9-jp-7w3a8qt7Kk0VZI-Y-6I,165
+text_clf/__main__.py,sha256=-VdZOA8x3Ew0hc_5TztUaUmoJgeNoZsEbFyMWOCGDM4,1480
+text_clf/config.py,sha256=6fZ4LlMLz1il_YxbbRBpQJig_YfDZcSmPL3NG6uX_Co,1981
+text_clf/data.py,sha256=N47Rn_4ki6T2g5m2QZ05UIWVQ6kKtFP8BIYy1ExM_gw,947
+text_clf/lemmatizer.py,sha256=La_q22z_TP6_gzuu6IOCUC-1lML5bKX66saCZriP8Jg,1734
+text_clf/logger.py,sha256=P1xr9kzdWZ33YVJLSUjyyQyzsU-CY3uKpcQiDcjjc9k,1306
+text_clf/pr_roc_curve.py,sha256=-wDEdPUk-NHVB3lTB1rluRlyeQK6PV0cnSXx4yESHAs,6591
+text_clf/save.py,sha256=bWnS_pepH6SG_2sI2HZTs11yuTw0SWgbydeAR1LqPuU,1093
+text_clf/token_frequency.py,sha256=v_oa2wga4oU6wbz8VgF94v1sDR-zfxyVMYC0H1aSJL8,957
+text_clf/train.py,sha256=Y9UwcyqfcQ4o10NxV_za6wIINXCjsOjn1bV3eLwAvEM,4041
+text_clf/utils.py,sha256=CRjonMmhBJ-dmsgNQK9VfXL0YLsRP-NuRxmVovYbPbs,1715
+text_classification_baseline-0.1.6.dist-info/LICENSE,sha256=UTO8B5JAGoD8oqf96ZayDSm05U9AiFyHQLTdfgBXJLQ,1071
+text_classification_baseline-0.1.6.dist-info/METADATA,sha256=nsQGp9GdZSez_OUqurTHlVV5luYNIaocvAL_Jc3u9Zo,7298
+text_classification_baseline-0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+text_classification_baseline-0.1.6.dist-info/entry_points.txt,sha256=O-vDGcnzdFHK-iLzbiyPY_2CFCXwzvsIsHLk7kxEHRc,59
+text_classification_baseline-0.1.6.dist-info/top_level.txt,sha256=fClSa8Yic868A6PmD8H12rtZAA7dqV1UVNe16ED13oc,9
+text_classification_baseline-0.1.6.dist-info/RECORD,,
