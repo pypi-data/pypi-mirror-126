@@ -1,0 +1,39 @@
+Category,Dictonary_Name,Parameter Name,Parameter Description,amount,unit,uncertainty_type,loc,scale,shape,minimum,maximum,Reference,Comment
+Total destruction and removal efficiency,DRE,PFOA,DRE of PFOA,0.97,fraction,4,,,,0.7006,0.9981,,
+Total destruction and removal efficiency,DRE,PFOS,DRE of PFOS,0.97,fraction,4,,,,0.9867,1,,
+Total destruction and removal efficiency,DRE,PFBA,DRE of PFBA,0.97,fraction,4,,,,0.943,0.9998,,
+Total destruction and removal efficiency,DRE,PFPeA,DRE of PFPeA,0.97,fraction,4,,,,0.8728,0.9923,,
+Total destruction and removal efficiency,DRE,PFHxA,DRE of PFHxA,0.9,fraction,,,,,,0.905,,
+Total destruction and removal efficiency,DRE,PFHpA,DRE of PFHpA,0.97,fraction,,,,,,,,
+Total destruction and removal efficiency,DRE,PFNA,DRE of PFNA,0.97,fraction,,,,,,,,
+Total destruction and removal efficiency,DRE,PFDA,DRE of PFDA,0.97,fraction,,,,,,,,
+Total destruction and removal efficiency,DRE,PFBS,DRE of PFBS,0.98,fraction,4,,,,0.9751,0.9997,,
+Total destruction and removal efficiency,DRE,PFHxS,DRE of PFHxS,0.99,fraction,4,,,,0.983,0.9994,,
+Total destruction and removal efficiency,DRE,5:3FTCA,DRE of 5:3FTCA,0.97,fraction,,,,,,,,Check for data! **New Compound**
+Total destruction and removal efficiency,DRE,6:2FTCA,DRE of 6:2FTCA,0.97,fraction,,,,,,,,Check for data! **New Compound**
+Total destruction and removal efficiency,DRE,7:3FTCA,DRE of 7:3FTCA,0.97,fraction,,,,,,,,Check for data! **New Compound**
+Total destruction and removal efficiency,DRE,6:2FTS,DRE of 6:2FTS,0.97,fraction,,,,,,,,Check for data! **New Compound**
+Total destruction and removal efficiency,DRE,MeFBSAA,DRE of MeFBSAA,0.97,fraction,,,,,,,,Check for data! **New Compound**
+Total destruction and removal efficiency,DRE,nMeFOSAA,DRE of nMeFOSAA,0.97,fraction,,,,,,,,Check for data! **New Compound**
+Total destruction and removal efficiency,DRE,PFBSA,DRE of PFBSA,0.97,fraction,,,,,,,,Check for data! **New Compound**
+Total destruction and removal efficiency,DRE,PFPeS,DRE of PFPeS,0.97,fraction,,,,,,,,Check for data! **New Compound**
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,PFOA,Fraction of PFOA remained in reactivated GAC,0.33,fraction,,,,,,,,
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,PFOS,Fraction of PFOS remained in reactivated GAC,0.33,fraction,,,,,,,,
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,PFBA,Fraction of PFBA remained in reactivated GAC,0.33,fraction,,,,,,,,
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,PFPeA,Fraction of PFPeA remained in reactivated GAC,0.33,fraction,,,,,,,,
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,PFHxA,Fraction of PFHxA remained in reactivated GAC,0.33,fraction,,,,,,,,
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,PFHpA,Fraction of PFHpA remained in reactivated GAC,0.33,fraction,,,,,,,,
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,PFNA,Fraction of PFNA remained in reactivated GAC,0.33,fraction,,,,,,,,
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,PFDA,Fraction of PFDA remained in reactivated GAC,0.33,fraction,,,,,,,,
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,PFBS,Fraction of PFBS remained in reactivated GAC,0.33,fraction,,,,,,,,
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,PFHxS,Fraction of PFHxS remained in reactivated GAC,0.33,fraction,,,,,,,,
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,5:3FTCA,Fraction of 5:3FTCA remained in reactivated GAC,0.33,fraction,,,,,,,,Check for data! **New Compound**
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,6:2FTCA,Fraction of 6:2FTCA remained in reactivated GAC,0.33,fraction,,,,,,,,Check for data! **New Compound**
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,7:3FTCA,Fraction of 7:3FTCA remained in reactivated GAC,0.33,fraction,,,,,,,,Check for data! **New Compound**
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,6:2FTS,Fraction of 6:2FTS remained in reactivated GAC,0.33,fraction,,,,,,,,Check for data! **New Compound**
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,MeFBSAA,Fraction of MeFBSAA remained in reactivated GAC,0.33,fraction,,,,,,,,Check for data! **New Compound**
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,nMeFOSAA,Fraction of nMeFOSAA remained in reactivated GAC,0.33,fraction,,,,,,,,Check for data! **New Compound**
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,PFBSA,Fraction of PFBSA remained in reactivated GAC,0.33,fraction,,,,,,,,Check for data! **New Compound**
+Fraction of not destroyed and removed that remains in GAC,Frac_to_GAC,PFPeS,Fraction of PFPeS remained in reactivated GAC,0.33,fraction,,,,,,,,Check for data! **New Compound**
+Reactivation parameters,Reac_param,frac_vs_to_GAC,Fraction of incoming  Volatile Solids to reactivated GAC,0.15,fraction,,,,,,,,
+Reactivation parameters,Reac_param,GAC_ts_cont,Solids content of reactivated GAC,0.9,fraction,,,,,,,,
