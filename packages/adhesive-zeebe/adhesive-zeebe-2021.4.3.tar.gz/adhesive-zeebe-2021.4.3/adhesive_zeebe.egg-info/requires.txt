@@ -1,0 +1,15 @@
+addict
+networkx==2.3
+npyscreen==4.10.5
+colorama>=0.4.3
+termcolor_util<2.0,>=1.2.0
+PyYAML==5.1.2
+click<8.0,>=7.0
+schedule==0.6.0
+python-dateutil==2.8.1
+yamldict<2.0,>=1.2.0
+Pebble==4.6.1
+cached_task==2021.4.3
+
+[ssh]
+paramiko==2.6.0
