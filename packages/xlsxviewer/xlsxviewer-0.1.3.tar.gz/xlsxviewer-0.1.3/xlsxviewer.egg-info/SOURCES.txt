@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xlsxviewer/__init__.py
+xlsxviewer/utils.py
+xlsxviewer.egg-info/PKG-INFO
+xlsxviewer.egg-info/SOURCES.txt
+xlsxviewer.egg-info/dependency_links.txt
+xlsxviewer.egg-info/entry_points.txt
+xlsxviewer.egg-info/top_level.txt

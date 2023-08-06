@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xlsxviewer
+Version: 0.1.3
+Summary: xlsx viewer
+Home-page: https://github.com/zhs007/xlsxviewer
+Author: Zerro Zhao
+Author-email: zerrozhao@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# xlsxviewer
+xlsx viewer
+
+
