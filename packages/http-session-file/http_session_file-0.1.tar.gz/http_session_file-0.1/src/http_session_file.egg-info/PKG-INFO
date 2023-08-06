@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: http-session-file
+Version: 0.1
+Summary: Session handling using files as storage
+Home-page: UNKNOWN
+Author: Souheil Chelfouh
+Author-email: trollfot@gmail.com
+License: UNKNOWN
+Description: http-session-file
+        *****************
+        
+        Implementation of HTTP sessions using files as a backend.
+        
+        Changelog
+        =========
+        
+        0.1 (2021-11-08)
+        ----------------
+        
+        - Fork-evolution of `cromlech.sessions.file`
+        
+Keywords: file,session,HTTP
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: test
