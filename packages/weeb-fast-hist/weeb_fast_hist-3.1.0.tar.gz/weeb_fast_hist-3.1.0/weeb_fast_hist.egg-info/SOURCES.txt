@@ -1,0 +1,8 @@
+setup.py
+weeb_fast_hist/__init__.py
+weeb_fast_hist/module_1.py
+weeb_fast_hist.egg-info/PKG-INFO
+weeb_fast_hist.egg-info/SOURCES.txt
+weeb_fast_hist.egg-info/dependency_links.txt
+weeb_fast_hist.egg-info/requires.txt
+weeb_fast_hist.egg-info/top_level.txt
