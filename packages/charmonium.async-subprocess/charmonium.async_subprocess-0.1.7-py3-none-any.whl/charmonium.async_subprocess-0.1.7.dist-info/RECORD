@@ -1,0 +1,5 @@
+charmonium/async_subprocess/__init__.py,sha256=tUWfxYoReTUCs0W5-Oiiw84nqu3r6i9KDJy-fzQaSN8,3981
+charmonium/async_subprocess/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+charmonium.async_subprocess-0.1.7.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+charmonium.async_subprocess-0.1.7.dist-info/METADATA,sha256=5TCSYBU4HV1j9adlCGynXv3RvKwd8ZEpVBdkInINLkI,2225
+charmonium.async_subprocess-0.1.7.dist-info/RECORD,,
