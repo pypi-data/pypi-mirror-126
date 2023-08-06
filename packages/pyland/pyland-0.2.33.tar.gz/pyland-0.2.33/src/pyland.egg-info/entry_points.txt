@@ -1,0 +1,8 @@
+[console_scripts]
+pyland = pyland:console_main
+
+[pyland.registered_commands]
+init = _pyland.commands.init:main
+platform = _pyland.commands.platform:main
+server = _pyland.commands.server:main
+
