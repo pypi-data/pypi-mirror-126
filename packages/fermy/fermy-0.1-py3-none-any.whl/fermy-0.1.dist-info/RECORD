@@ -1,0 +1,11 @@
+fermy/__init__.py,sha256=GqDKRD9e9G_4XN1mgmrBCmPLjlS23WQQIGFHMA4MI9o,810
+fermy/pandasfermy.py,sha256=z1tj7JSZDOShFpsMvoSYPZrSsGQJulXg_jcpGqabVDE,12603
+fermy/plotlyfermy.py,sha256=uVyL4m2dzM5_Zwno0OxKRWqwmw4-_iSvrlZbG0M5wCE,16460
+fermy/driverslabtool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fermy/driverslabtool/driver_balance_sartorius_entris.py,sha256=647THy9OkPbUMZMnhe_jLnqCbio-AFwCmawsgsjpOfY,4240
+fermy/driverslabtool/driver_labjack_pompe_watson_marlow_120u.py,sha256=rj59KVX9NI3b6yCn33ih9042LUxtXYQa2KBxU2Mj-do,8228
+fermy-0.1.dist-info/METADATA,sha256=z6garTKCSptiMQK246EpTTDdimLN75iQR4JnrvEwWIA,1240
+fermy-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fermy-0.1.dist-info/license.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+fermy-0.1.dist-info/top_level.txt,sha256=1l3pwId8HmDFDNpBm4IPIyAr7oTiHTLV0lDro5qsZ1c,6
+fermy-0.1.dist-info/RECORD,,
