@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gitfun
+Version: 0.0.9.10
+Summary: Make Git simplified for lazy developers 
+Home-page: https://github.com/memetics19/gitfun.git
+Author: Shreeda Bhat
+Author-email: shreeda@astaqc.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
