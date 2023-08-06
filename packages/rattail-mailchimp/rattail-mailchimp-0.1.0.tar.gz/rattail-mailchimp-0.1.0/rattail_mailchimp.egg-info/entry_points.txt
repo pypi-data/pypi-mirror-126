@@ -1,0 +1,3 @@
+[rattail.commands]
+import-mailchimp = rattail_mailchimp.commands:ImportMailChimp
+
