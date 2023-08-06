@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: kitsune-nh
+Version: 0.0.2
+Summary: nhentai.net API wrapper for doujins
+Home-page: UNKNOWN
+Author: acertig (@Acertig)
+Author-email: <acertig04@gmail.com>
+License: UNKNOWN
+Keywords: python,wrapper,scraper,nhentai,anime,manga
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow
+Requires-Dist: aiohttp
+
+Python wrapper around Nhentai.net's RESTful API for doujins
+
+
