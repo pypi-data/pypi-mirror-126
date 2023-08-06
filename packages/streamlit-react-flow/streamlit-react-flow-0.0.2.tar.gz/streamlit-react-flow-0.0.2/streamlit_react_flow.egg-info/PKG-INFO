@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: streamlit-react-flow
+Version: 0.0.2
+Summary: A Wrapper around React-flow component
+Home-page: UNKNOWN
+Author: Gurunath
+Author-email: gurunathrajagopal@gmail.com
+License: UNKNOWN
+Description: A flow graph component using react-flow and streamlit
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
