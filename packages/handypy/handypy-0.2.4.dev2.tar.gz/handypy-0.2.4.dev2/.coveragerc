@@ -1,0 +1,3 @@
+[run]
+source=handypy
+omit=handypy/_utils.py

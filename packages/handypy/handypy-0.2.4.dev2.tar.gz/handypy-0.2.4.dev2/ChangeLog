@@ -1,0 +1,6 @@
+CHANGES
+=======
+
+* fix typo in log\_file
+* update handy log setup
+* release use pbr
