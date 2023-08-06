@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bvx-es
+Version: 0.0.8
+Summary: elasticsearch util singleton class.
+Home-page: https://github.com/kotsutsumi/bvx-es
+Author: Kazuhiro Kotsutsumi
+License: The MIT License
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: bvx-env
+Requires-Dist: bvx-oop
+Requires-Dist: bvx-pytest
+Requires-Dist: elasticsearch
+Requires-Dist: elasticsearch-dbapi
+Requires-Dist: six
+Requires-Dist: sqlalchemy
+Requires-Dist: pytest (~=6.2.5)
+
+UNKNOWN
+
