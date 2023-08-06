@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+kholodov_hist/__init__.py
+kholodov_hist/hist.py
+kholodov_hist.egg-info/PKG-INFO
+kholodov_hist.egg-info/SOURCES.txt
+kholodov_hist.egg-info/dependency_links.txt
+kholodov_hist.egg-info/not-zip-safe
+kholodov_hist.egg-info/requires.txt
+kholodov_hist.egg-info/top_level.txt
