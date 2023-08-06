@@ -1,0 +1,11 @@
+actspotter/__init__.py,sha256=vnr8B-C4VwX5JXijbPI8AqkGrI9vA4N7OmWa9tYF_ps,4217
+actspotter/model/keras_metadata.pb,sha256=Bv2UKKWsHXjX5OGEEcLhsWllPb1Rnm2rbJhlGJ2YtC0,23250
+actspotter/model/meta.json,sha256=umaicERMKhH7uCHhcDrpwTPz5XeTNCZGoSc9BUAB7Qo,288
+actspotter/model/saved_model.pb,sha256=k3khrLFer2qoP_AAWeuAtihqUQPe7-yDewy6Ga6RJYg,212052
+actspotter/model/variables/variables.data-00000-of-00001,sha256=6IELg6Uo4XvTPTpojCAxvHarb6ojn2iQgD9ELhmIAZY,14576689
+actspotter/model/variables/variables.index,sha256=5GmO1l7t9TUgdgEdLCE1IoHJeTfC2enWptkobjuzlng,3529
+actspotter-0.1.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+actspotter-0.1.1.dist-info/METADATA,sha256=FHxj25jqAShams9Vm-u2fJFxVoxIjs1rx9ZQFab0YYc,4794
+actspotter-0.1.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+actspotter-0.1.1.dist-info/top_level.txt,sha256=JeYCeyWidGucCX68MfdW9rwOEFkICEag4JJoWScPlRY,11
+actspotter-0.1.1.dist-info/RECORD,,
