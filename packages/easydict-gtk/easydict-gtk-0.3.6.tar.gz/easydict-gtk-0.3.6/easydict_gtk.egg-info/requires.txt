@@ -1,0 +1,4 @@
+tinydb
+orjson
+pycairo
+PyGObject

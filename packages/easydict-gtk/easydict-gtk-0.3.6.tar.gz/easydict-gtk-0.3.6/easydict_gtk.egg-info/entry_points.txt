@@ -1,0 +1,3 @@
+[console_scripts]
+easydict-gtk = easydict.src.easydict:main
+
