@@ -1,0 +1,7 @@
+tensorflow==2.6.0
+tqdm
+biopython
+tensorflow-model-optimization==0.7.0
+pandas
+numpy
+cython
