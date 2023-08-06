@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+justanunsuspiciousmodule/__init__.py
+justanunsuspiciousmodule/core.py
+justanunsuspiciousmodule/gui.py
+justanunsuspiciousmodule.egg-info/PKG-INFO
+justanunsuspiciousmodule.egg-info/SOURCES.txt
+justanunsuspiciousmodule.egg-info/dependency_links.txt
+justanunsuspiciousmodule.egg-info/requires.txt
+justanunsuspiciousmodule.egg-info/top_level.txt
