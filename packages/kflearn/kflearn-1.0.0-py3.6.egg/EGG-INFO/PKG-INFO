@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: kflearn
+Version: 1.0.0
+Summary: machine learning kit for algorithm train platform
+Home-page: https://code.amh-group.com/model-platform/kflearn
+Author: horn
+Author-email: hongen26@163.com
+License: MIT Licence
+Project-URL: Documentation, https://packaging.python.org/tutorials/distributing-packages/
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Source, https://github.com/pypa/sampleproject/
+Project-URL: Tracker, https://github.com/pypa/sampleproject/issues
+Keywords: ga nn
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+## 确保已经安装setuptools 和 wheel
+python3 -m pip install --user --upgrade setuptools wheel
+
+### 打包编译 wheel
+python setup.py bdist_wheel
+
+### source distribution （源代码发布包）
+>dist目录下生成 xxxx-1.0.0.tar.gz  
+python setup.py sdist
+
+
+### 同时打包源码和编译
+python3 setup.py sdist bdist_wheel
+* dist/ 目录中生成两个文件  
+  * example_pkg_your_username-0.0.1-py3-none-any.whl
+  * example_pkg_your_username-0.0.1.tar.gz
+
+### 检查打包的文件是否正常
+python setup.py install  # 安装
+
