@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "charmonium.async_subprocess"
+version = "0.1.4"
+description = "async clone of subprocess.run"
+authors = ["Samuel Grayson <sam@samgrayson.me>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/charmoniumQ/charmonium.async_subprocess.git"
+packages = [
+    { include = "charmonium" },
+]
+keywords = ["async", "subprocess", "shell"]
+classifiers = [
+			"Development Status :: 4 - Beta",
+			"Operating System :: MacOS",
+			"Operating System :: Microsoft :: Windows",
+			"Operating System :: POSIX :: Linux",
+			"Topic :: Software Development :: Libraries",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-asyncio = "^0.16.0"
+tox = "^3.24.4"
+mypy = "^0.910"
+black = "^21.10b0"
+bump2version = "^1.0.1"
+twine = "^3.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
