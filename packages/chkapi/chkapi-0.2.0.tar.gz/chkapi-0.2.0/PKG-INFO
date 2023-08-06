@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: chkapi
+Version: 0.2.0
+Summary: Console based app for browsing API
+Home-page: https://github.com/climbus/chkapi
+License: MIT
+Author: Jarosław Kulesza
+Author-email: climbus@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.20.0,<0.21.0)
+Requires-Dist: textual (>=0.1.12,<0.2.0)
+Requires-Dist: textual-inputs (>=0.1.2,<0.2.0)
+Project-URL: Repository, https://github.com/climbus/chkapi
+Description-Content-Type: text/markdown
+
+# API Checker
+Simple app for browsing api.
+
+## Usage
+```
+pip install chkapi
+
+chkapi [url]
+```
+
+You can check all features from scenarios: https://github.com/climbus/chkapi/tree/main/features
+
+## From source
+```
+git clone https://github.com/climbus/chkapi.git
+cd chkapi
+poetry install
+poetry shell
+python -m rest_checker.app
+```
+
+
+
