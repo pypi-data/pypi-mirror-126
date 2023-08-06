@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+djangoFeignClient.egg-info/PKG-INFO
+djangoFeignClient.egg-info/SOURCES.txt
+djangoFeignClient.egg-info/dependency_links.txt
+djangoFeignClient.egg-info/requires.txt
+djangoFeignClient.egg-info/top_level.txt
+feign_client/__init__.py
+feign_client/feignClient.py

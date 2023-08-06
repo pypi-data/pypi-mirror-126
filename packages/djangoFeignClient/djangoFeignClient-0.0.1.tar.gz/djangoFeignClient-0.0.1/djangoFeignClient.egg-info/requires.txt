@@ -1,0 +1,1 @@
+py_eureka_client>=0.10.0
