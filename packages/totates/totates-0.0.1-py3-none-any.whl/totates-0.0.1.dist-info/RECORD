@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=IE9vI211foOaSQ-P9E5pQyaSeAC1h1lavKJhRVBuHY0,170
+tests/test_totates.py,sha256=YlQ05r1A0vgxsJgedkbV4M2j-dMMA6A5T5t_EjZ1YLI,108
+totates/__init__.py,sha256=lAVaR8_oB6Rnf_oNNS90-sWdC-vQNTfhxS4EAPEq2HM,24
+totates/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+totates/cli.py,sha256=WZqLJdYgmxqXmsgAZnNOxh6_aqPayAnaXC4LQ3kOazQ,230
+totates-0.0.1.dist-info/METADATA,sha256=xo_XmAWvdJABaDTHsUYjRnDLDCU-XyANHkLqi2fTt98,343
+totates-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+totates-0.0.1.dist-info/entry_points.txt,sha256=BaXkoAFKQ9WWBwssf7yARyIsAh4xj_-nk0qPuTeZiF8,46
+totates-0.0.1.dist-info/top_level.txt,sha256=yWyPLeE2KBmtZzAJQ6JvmZFyNT3FwKrE64-JrQyT_N0,14
+totates-0.0.1.dist-info/RECORD,,
