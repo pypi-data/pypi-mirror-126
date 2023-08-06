@@ -1,0 +1,33 @@
+#!/usr/bin/env python
+
+import click
+import verkefni.common
+
+
+@click.command()
+@click.argument('exchange')
+def log(exchange):
+    logger = verkefni.common.get_logger(f'log-{exchange}')
+    with verkefni.common.connect() as conn:
+        logger.info(f'Starting logger for exchange: {exchange}')
+        chan = conn.channel()
+        log_q = chan.queue_declare(queue=f'log-{exchange}',
+                                   durable=True)
+        chan.queue_bind(queue=log_q.method.queue,
+                        exchange=exchange,
+                        routing_key='#')
+
+        def on_msg(ch, method, properties, body):
+            logger.info(f'Received:'
+                        f' routing_key: {method.routing_key}'
+                        f', reply_to: {properties.reply_to}'
+                        f', message: {body}')
+            ch.basic_ack(delivery_tag=method.delivery_tag)
+
+        chan.basic_consume(queue=log_q.method.queue,
+                           on_message_callback=on_msg)
+        chan.start_consuming()
+
+
+if __name__ == '__main__':
+    log()
