@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+test/test.py
+userscloud/__init__.py
+userscloud/core.py
+userscloud/helper.py
+userscloud/utils.py
+userscloud.egg-info/PKG-INFO
+userscloud.egg-info/SOURCES.txt
+userscloud.egg-info/dependency_links.txt
+userscloud.egg-info/requires.txt
+userscloud.egg-info/top_level.txt
+userscloud/../.gitignore
+userscloud/../LICENSE
+userscloud/../README.md
+userscloud/../requirements.txt
