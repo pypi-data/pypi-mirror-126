@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vaby-models-cvr
+Version: 0.0.2.post11
+Summary: VABY forward models for CVR
+Home-page: UNKNOWN
+Author: Martin Craig
+Author-email: martin.craig@nottingham.ac.uk
+License: APACHE-2. See LICENSE file for more details
+Description: VB models for CVR-PETCO2 
+        ========================
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
