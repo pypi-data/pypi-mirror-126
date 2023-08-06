@@ -1,0 +1,7 @@
+setup.py
+src/radishwxm/__init__.py
+src/radishwxm/radishwxm.py
+src/radishwxm3.egg-info/PKG-INFO
+src/radishwxm3.egg-info/SOURCES.txt
+src/radishwxm3.egg-info/dependency_links.txt
+src/radishwxm3.egg-info/top_level.txt
