@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: ezcolors
+Version: 1.0.6
+Summary: Easy colors and color math
+Home-page: https://github.com/Th3M4ttman/ezcolors
+Author: Matt Harris
+Author-email: WorkMatthewJHarris94@Gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/Th3M4ttman/ezcolors/issues
+Project-URL: Documentation, https://ezcolors.readthedocs.io/en/latest/
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: textdistance
+
+A simple library that contains a ColorColour class for fast and easy definition of colours in python.  
+
+you can define a colour from  
+
+hex -- Colour(#ff00ff)  
+RGB -- Colour(255, 0, 255)    
+rgba -- Colour(255, 0, 255, 128)  
+hsl -- Colour(hsl = [270, 100, 50])  
+hsv -- Colour(hsv = [270, 100, 100])  
+colour name -- Colour(Light Purple)  
+
+with these colours you can then  
+
+perform math upon it  
+translate it to any color space  
+compare it to other colours  
+colour a string with ANSI escape sequences  
+generate a colour palette with various different colour harmonies (see palettes module)  
+
+This package was entirely authored on a Samsung A5 so please excuse any spelling errors etc and let me know if you find any issues  
+
+
