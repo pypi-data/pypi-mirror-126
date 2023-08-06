@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: reticulator
+Version: v0.0.1-beta
+Summary: Reticulator is a pack-access library for Minecraft Bedrock Addons.
+Home-page: https://github.com/SirLich/reticulator
+Author: SirLich
+Author-email: sirlich.business@gmail.com
+License: MIT
+Download-URL: https://github.com/SirLich/reticulator/archive/refs/tags/v0.0.1-beta.tar.gz
+Description: UNKNOWN
+Keywords: MINECRAFT,BEDROCK-EDITION,BEDROCK-ADDONS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
