@@ -1,0 +1,8 @@
+LICENSE.txt
+README.txt
+setup.py
+BoltML.egg-info/PKG-INFO
+BoltML.egg-info/SOURCES.txt
+BoltML.egg-info/dependency_links.txt
+BoltML.egg-info/requires.txt
+BoltML.egg-info/top_level.txt
