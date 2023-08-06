@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: yeelight-atmosphere
+Version: 0.2
+Summary: Change your yeelight lamp color to scene atmosphere.
+Home-page: https://github.com/NikSavilov/yeelight-atmosphere/
+Author: Nikita Savilov
+Author-email: niksavilov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.md
+
+UNKNOWN
+
