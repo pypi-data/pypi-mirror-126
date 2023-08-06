@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: cdk-cloudformation-tf-google-storagebucket
+Version: 1.0.0a1
+Summary: Creates a new bucket in Google cloud storage service (GCS).
+Home-page: https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/TF-Google-StorageBucket/docs/README.md
+Author: Amazon Web Services
+License: Apache-2.0
+Project-URL: Source, https://github.com/cdklabs/cdk-cloudformation.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AWS CDK CloudFormation Constructs for TF::Google::StorageBucket
+
+Creates a new bucket in Google cloud storage service (GCS).
+Once a bucket has been created, its location can't be changed.
+
+For more information see
+[the official documentation](https://cloud.google.com/storage/docs/overview)
+and
+[API](https://cloud.google.com/storage/docs/json_api/v1/buckets).
+
+**Note**: If the project id is not set on the resource or in the provider block it will be dynamically
+determined which will require enabling the compute api.
+
+## References
+
+* [Documentation](https://github.com/iann0036/cfn-tf-custom-types/blob/docs/resources/google/TF-Google-StorageBucket/docs/README.md)
+* [Source](https://github.com/iann0036/cfn-tf-custom-types.git)
+
+## License
+
+Distributed under the Apache-2.0 License.
+
+
