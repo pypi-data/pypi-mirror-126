@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: dicom_mask
+Version: 0.0.10
+Summary: Export structure form dicom to numpy binary mask
+Home-page: https://github.com/Abe404/dicom_mask
+Author: Abraham George Smith
+Author-email: abe@abesmith.co.uk
+License: BSD
+Download-URL: https://github.com/Abe404/dicom_mask/archive/refs/tags/0.0.10.tar.gz
+Description: UNKNOWN
+Keywords: DICOM,NUMPY,RTSRUCT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
