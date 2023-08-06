@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cloudregister/__init__.py
+src/cloudregister/cloudregister.py
+src/keywind_cloudregister.egg-info/PKG-INFO
+src/keywind_cloudregister.egg-info/SOURCES.txt
+src/keywind_cloudregister.egg-info/dependency_links.txt
+src/keywind_cloudregister.egg-info/requires.txt
+src/keywind_cloudregister.egg-info/top_level.txt
