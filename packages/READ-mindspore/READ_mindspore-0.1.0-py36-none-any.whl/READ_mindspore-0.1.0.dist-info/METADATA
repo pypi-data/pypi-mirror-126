@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: READ-mindspore
+Version: 0.1.0
+Summary: Unsupervised Anomaly Localization Toolbox and Benchmark
+Home-page: https://git.openi.org.cn/OpenI/READ_mindspore
+Author: TCL MV Lab
+Author-email: chao46.zhang@tcl.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3, <4
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: kornia (>=0.5.0)
+Requires-Dist: matplotlib (>=3.3.4)
+Requires-Dist: albumentations (==0.5.2)
+Requires-Dist: einops (>=0.3.0)
+Requires-Dist: scikit-learn (>=0.24.2)
+Requires-Dist: scikit-image (>=0.18.1)
+Requires-Dist: mindspore (==1.3.0)
+
+<div align="center">
+  <img src="docs/img/READlogo.png" width="650"/>
+</div>
+
+---
+# READ (Reconstruction or Embedding based Anomaly Detection)
+This repo is the mindspore version of READ, plz jump to <https://git.openi.org.cn/OpenI/READ_pytorch> for the pytorch version.
+
+READ is an open source toolbox focused on unsupervised anomaly detection/localization tasks. By only training on the defect-free samples, READ is able to recognize defect samples or even localize anomalies on defect samples.
+
+The purpose of this repo is to promote the research and application of unsupervised anomaly detection and localization algorithms. READ is designed to provide:
+- A unified interface for encapsulating diverse anomaly localization algorithms
+- High quality implementations of novel anomaly localization algorithms
+- Templates for using these algorithms in a detailed task
+
+In addition, READ provides the benchmarks for validating novel unsupervised anomaly detection and localization algorithms for [MVTec AD dataset](https://www.mvtec.com/company/research/datasets/mvtec-ad/).
+
+## Changelog
+- **[Nov 07 2021] READ_mindspore v0.1.0 is Released!** 
+Please refer to [ChangeLog](docs/changelog.md) for details and release history.
+
+
+## Installation
+### Install the latest version from the master branch on OpenI
+```
+pip install -U git+https://git.openi.org.cn/OpenI/READ_mindspore
+```
+Please follow the [Installation](docs/installation.md) document to get a detailed instruction.
+
+## Getting Started
+Please follow the [Getting Started](docs/getting_started.md) document to run the provided demo tasks.
+
+## Localization examples (based on READ)
+<img src="docs/img/bottle_ad.png" width="50%" height="50%">
+<img src="docs/img/metal_nut_ad.png" width="50%" height="50%">
+<img src="docs/img/carpet_ad.png" width="50%" height="50%">
+<img src="docs/img/hazelnut_ad.png" width="50%" height="50%">
+<img src="docs/img/toothbrush_ad.png" width="50%" height="50%">
+
+## Supported Algorithms
+- [x] [SPADE](https://arxiv.org/abs/2005.02357)
+- [x] [PaDim](https://arxiv.org/pdf/2011.08785v1.pdf)
+- [x] [STPM](https://arxiv.org/pdf/2103.04257v2.pdf)
+
+## Results
+### Implementation results on MVTec
+* Image-level anomaly detection accuracy (ROCAUC)
+
+|MVTec|SPADE-R50|PaDiM-R50|STPM-R18|
+|:---:|:---:|:---:|:---:|
+|Carpet|0.908|0.998|0.970|
+|Grid|0.783|0.927|0.944|
+|Leather|0.980|1.0|0.999|
+|Tile|0.939|0.986|0.981|
+|Wood|0.985|0.998|0.990|
+|All texture classes|0.919|0.982|0.977|
+|Bottle|0.999|1.0|1.0|
+|Cable|0.795|0.978|0.921|
+|Capsule|0.897|0.902|0.777|
+|Hazelnut|1.0|0.945|0.998|
+|Metal nut|0.980|0.987|0.998|
+|Pill|0.855|0.947|0.942|
+|Screw|0.929|0.844|0.774|
+|Toothbrush|0.958|0.964|0.922|
+|Transistor|0.868|0.993|0.907|
+|Zipper|0.870|0.859|0.949|
+|All object classes|0.915|0.942|0.919|
+|All classes|0.916|0.955|0.938|
+
+* Pixel-level anomaly detection accuracy (ROCAUC)
+
+|MVTec|SPADE-R50|PaDiM-R50|STPM-R18|
+|:---:|:---:|:---:|:---:|
+|Carpet|0.985|0.982|0.988|
+|Grid|0.976|0.958|0.975|
+|Leather|0.992|0.987|0.992|
+|Tile|0.938|0.936|0.962|
+|Wood|0.955|0.942|0.957|
+|All texture classes|0.969|0.961|0.975|
+|Bottle|0.975|0.980|0.983|
+|Cable|0.944|0.980|0.944|
+|Capsule|0.988|0.984|0.966|
+|Hazelnut|0.992|0.981|0.988|
+|Metal nut|0.979|0.965|0.946|
+|Pill|0.954|0.973|0.974|
+|Screw|0.993|0.984|0.975|
+|Toothbrush|0.991|0.987|0.988|
+|Transistor|0.839|0.981|0.808|
+|Zipper|0.978|0.978|0.984|
+|All object classes|0.963|0.979|0.956|
+|All classes|0.965|0.973|0.962|
+
+## License
+This project is released under the [Open-Intelligence Open Source License V1.1](LICENSE).
+
+## Contact
+Please contact me if there is any question (Chao Zhang <chao.zhang46@tcl.com>).
+
+## About
+Machine Vision Group, TCL Corporate Research(HK) Co., Ltd is the main developer of READ.
+<div align="left">
+  <img src="docs/img/tcl_logo.jpg" width="200"/>
+</div>
+Any contributions to READ is welcome!
+
+
+
