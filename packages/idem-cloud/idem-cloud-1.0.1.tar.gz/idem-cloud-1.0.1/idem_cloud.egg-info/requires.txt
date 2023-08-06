@@ -1,0 +1,6 @@
+pop>=20.0.0
+idem>=13.0.1
+idem-aiohttp
+idem-aws
+
+[full]

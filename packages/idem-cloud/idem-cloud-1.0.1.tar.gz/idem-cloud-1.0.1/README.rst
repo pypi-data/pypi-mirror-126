@@ -1,0 +1,116 @@
+==========
+IDEM_CLOUD
+==========
+Contracts, Configuration, and Bootstrapping methods common to all idem cloud implementations
+
+USAGE and INSTALLATION
+======================
+
+A guide to getting started!
+---------------------------
+
+Binary
+------
+We've provided a new means of using idem-cloud. Now a portable binary can be downloaded and it
+will contains a pre-compiled version of idem and all it's necessary sub-components.
+
+Once downloaded from here [link HERE], idem-cloud can be ran as an executable from the CLI as such:
+
+.. code:: bash
+
+    ./idem-cloud --help
+
+What makes this approach so fantastic is no system changes need to be made in order to run idem-cloud.
+This allows you as a user to download an executable and immediately start managing your cloud infrastructure.
+
+Traditional Install
+-------------------
+
+If you would prefer a more traditional experience on your system, please follow these steps below to install:
+This can be installed via pip::
+
+    pip install idem-cloud
+
+DEVELOPMENT
+===========
+
+Clone the `idem-cloud` repository and install with pip.
+
+.. code:: bash
+
+    git clone git@gitlab.com:saltstack/pop/idem-cloud.git
+    pip install -e idem_cloud
+
+TESTING
+=======
+
+- Install `docker-compose` and enable the docker service
+- Install the testing requirements::
+
+    pip install -r requirements-test.txt
+
+- Run the tests::
+
+    pytest tests
+
+Set UP
+======
+After installation the Idem Bootstrap execution and state modules will be accessible to the pop `hub`.
+
+EXECUTION MODULES
+=================
+Once everything has been set up properly, execution modules can be called directly by `idem`.
+Execution modules can be accessed by reference relative to their location in the `exec` directory in `idem-cloud/cloud`
+For example, `idem-cloud/cloud/exec/bootstrap/salt.py` contains a function called `create()`
+This function can be accessed from the command line with:
+
+.. code:: bash
+
+    idem exec bootstrap.salt.create user=root host=127.0.0.1
+
+Filters can be used when calling list functions from any cloud list function from the command line, such as `idem-aws`,
+so that the output isn't so verbose:
+
+.. code:: bash
+
+    idem exec aws.ec2.vpc.list --filter vpc_id
+
+
+STATES
+======
+States are also accessed by their relative location in `idem-aws/idem_aws/states`.
+For example, `idem-aws/idem_aws/states/aws/ec2/vpc.py` contains a function `absent()`.
+In my state file I can create a state that uses the `absent` function like so.
+
+my_state.sls:
+
+.. code:: sls
+
+    idem_cloud_boostrap:
+      bootstrap.salt.absent:
+        - user: root
+        - host: 127.0.0.1
+
+I can execute this state with:
+
+.. code:: bash
+
+    idem state my_state.sls
+
+`idem state` also has some flags that can significantly boost the scalability and performance of the run.
+Let's use this new state which verifies that 100 vpcs are absent:
+
+.. code:: sls
+
+    {% for i in range(100) %}
+    idem_cloud_boostrap_minion_{{i}}:
+      bootstrap.salt.absent:
+        - host: "idem_cloud_test_minion_{{i}}"
+        - user: root
+    {% endfor -%}
+
+I can execute this state with `--runtime parallel` to make full use of idem's async execution calls:
+
+.. code:: bash
+
+    idem state --runtime parallel my_state.sls
