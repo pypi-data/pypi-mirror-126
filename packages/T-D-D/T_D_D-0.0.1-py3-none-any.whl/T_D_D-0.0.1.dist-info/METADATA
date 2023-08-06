@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: T-D-D
+Version: 0.0.1
+Summary: Test Driven Development Framework
+Home-page: UNKNOWN
+Author: Yoav Kleinberger
+Author-email: haarcuba@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Provides-Extra: testing
+Requires-Dist: coverage ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+
+Test Driven Development Framework
+
+
