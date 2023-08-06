@@ -1,0 +1,2 @@
+drf_chat
+drf_chat/migrations
