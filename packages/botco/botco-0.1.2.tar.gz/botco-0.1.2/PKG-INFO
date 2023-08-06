@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: botco
+Version: 0.1.2
+Summary: 
+Home-page: https://github.com/malikovss/botc
+Keywords: telegram,bot,api,framework,wrapper
+Author: Suhrob
+Author-email: oopanndaa@gmail.com
+Requires-Python: >=3.6.1,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: redis (>=3.5.3,<4.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/malikovss/botc
+Description-Content-Type: text/markdown
+
+### `botc` - Telegram bot api wrapper
+### Installation
+```
+pip install botc
+```
+
