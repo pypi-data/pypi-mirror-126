@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: d2b-sidecarless-nii
+Version: 1.0.0
+Summary: Plugin for the d2b package to handle NIfTI images without sidecars
+Home-page: https://github.com/d2b-dev/d2b-sidecarless-nii
+Keywords: neuroscience,neuroimaging,bids,nifti,nii
+Author: Andrew Ross
+Author-email: andrew.ross.mail@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: d2b (>=1.0.0,<2.0.0)
+Project-URL: Documentation, https://github.com/d2b-dev/d2b-sidecarless-nii
+Project-URL: Repository, https://github.com/d2b-dev/d2b-sidecarless-nii
+Description-Content-Type: text/markdown
+
+# d2b-sidecarless-nii
+
