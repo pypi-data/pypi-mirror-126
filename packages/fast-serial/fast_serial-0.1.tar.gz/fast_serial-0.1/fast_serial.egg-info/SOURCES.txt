@@ -1,0 +1,8 @@
+LICENSE
+README.md
+fast_serial.py
+setup.py
+fast_serial.egg-info/PKG-INFO
+fast_serial.egg-info/SOURCES.txt
+fast_serial.egg-info/dependency_links.txt
+fast_serial.egg-info/top_level.txt
