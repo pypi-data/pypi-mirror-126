@@ -1,0 +1,95 @@
+{% extends 'report_designer/modal_form_body.html' %}
+
+
+{% load report_designer.fields %}
+{% load report_designer.ajax_content %}
+{% load report_designer.utils %}
+
+
+{% block modal_form_information %}
+    <div class="alert alert-warning js-report-field-update-is-group{% if not form.is_group_field %} hidden{% endif %}" data-initial-is-group="{{ form.instance.is_group }}">
+        При изменении флага "Групповое поле", будет изменен порядковый номер поля.
+        <br>
+        Групповые поля должны находиться перед остальными полями.
+        <br>
+        Групповые поля автоматически устанавливаются, как сортировочные.
+    </div>
+{% endblock %}
+
+
+{% block modal_form_body %}
+    <div class="display-flex-row">
+        <div class="flex-grow-1">
+            <div class="clearfix">
+                <div class="col-md-12">
+                    {% field_wrapper form.alias %}
+                </div>
+            </div>
+            <div class="clearfix">
+                {% if not is_virtual %}
+                    <div class="col-md-6">
+                        {% field_wrapper form.representation %}
+                    </div>
+                    <div class="col-md-6">
+                        {% field_wrapper form.report_table_relation %}
+                    </div>
+                {% else %}
+                    <div class="col-md-12">
+                        {% field_wrapper form.internal_type %}
+                    </div>
+                {% endif %}
+            </div>
+            {% if not is_virtual %}
+                <div class="clearfix">
+                    <div class="col-md-6">
+                        {% field_wrapper form.aggregate_function %}
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+            {% endif %}
+        </div>
+        <div class="clearfix">
+            <div class="col-md-12">
+                <ul class="list-inline no-margin-bottom">
+                    <li class="list-group-item no-padding-top no-margin-bottom">
+                        <div class="list-group-item-heading">
+                            Настройки
+                        </div>
+                        <div class="list-group-item-text" style="margin-top: 16px">
+                            {% field_wrapper form.is_group %}
+                            {% field_wrapper form.is_sort %}
+                            {% field_wrapper form.reverse_sort %}
+                             {% if not is_virtual %}
+                                {% field_wrapper form.is_aggregate %}
+                             {% endif %}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    {% if is_virtual %}
+        <div class="clearfix">
+            <div class="col-md-12">
+                <hr>
+                <h4 class="no-margin-top">Выражение</h4>
+                <div class="tree-blocks-container no-padding-top" style="height: 300px;">
+                    {% with additional_css_classes='border-block-content' %}
+                        <div class="border-block tree-block">
+                            <div class="border-block-title tree-block-title">Таблицы отчета</div>
+                            {% url 'report_designer:reports:functions-tables' report_pk=parent.pk as tables_list_url %}
+                            {% template_string '%s?%s' tables_list_url 'is_expression' as is_expression_tables_list_url %}
+                            {% ajax_content name='is_expression_db_tables' url=is_expression_tables_list_url auto_start=True additional_css_classes=additional_css_classes %}
+                        </div>
+                        <div class="border-block tree-block js-tree-block">
+                            <div class="border-block-title tree-block-title">Функции</div>
+                            {% url 'report_designer:reports:functions' as functions_url %}
+                            {% ajax_content name='functions' url=functions_url auto_start=True additional_css_classes=additional_css_classes %}
+                        </div>
+                    {% endwith %}
+                </div>
+                {% field_expression form.expression_attrs js_class='js-rd-expression-area' %}
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}
