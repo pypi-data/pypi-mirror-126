@@ -1,0 +1,13 @@
+brutefit/__init__.py,sha256=6eo4MdzsaRVQTNKetpSRlS3V0I0HNwWoK-7abj9Ytlw,101
+brutefit/bayesfactor.py,sha256=Uzu9Nzi9PIz6yW6vAp4Vq5pnI2XtU7jgs4L6YHBB9Ac,2221
+brutefit/core.py,sha256=Rd3HWzn8Muz0Lrw6o4U2QElfXKs52Jr80bcLYG1Twmk,22382
+brutefit/plot.py,sha256=RomOdx9KTlLQM7WlDY_VjqZW3OJhC860-brCz35JGy0,3906
+brutefit/stats.py,sha256=AOUUHmq4k-SJed3IuvfNnz_hnmHY4G-BCpiTF3366vY,4053
+brutefit/sympy.py,sha256=H2e2kL4G2iOhY28dl5o8Yw050HVMcWRRPpTI6w8M0yQ,2609
+brutefit/transform.py,sha256=_2K5Cyh479RrHUY9BK62xRrXml67K9_FVUeN8O9BQqc,553
+brutefit/utils.py,sha256=Snps-4sZ7X8LZotsH2acZ4OhZ5cPunCYYu_e13UWBCQ,606
+brutefit-0.1.1.dist-info/METADATA,sha256=VbwMJufmI71KwriTpjRdxwW4P17fUt0FJvP1_eJ8giU,585
+brutefit-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+brutefit-0.1.1.dist-info/top_level.txt,sha256=7BfiDElJYM_J_Yrf1yf4a8EeRvNwNGWYCzhqFHs42w4,9
+brutefit-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+brutefit-0.1.1.dist-info/RECORD,,
