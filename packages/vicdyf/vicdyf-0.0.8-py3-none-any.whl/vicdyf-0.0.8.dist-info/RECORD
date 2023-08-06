@@ -1,0 +1,12 @@
+vicdyf/__init__.py,sha256=EBD0sQ8NpWwvMS_PGfPlOT7BIjLeAqWIpUUmymMa8xg,40
+vicdyf/dataset.py,sha256=HwPuBNXRYhR8vVL8M0S5G0ENWlgs7kitKI_ohGhAJ68,1842
+vicdyf/funcs.py,sha256=_i1aEscArt6eEpK7yo1r-RwjyjGUPj2ZIq79cTiN5MY,466
+vicdyf/modules.py,sha256=BzSapZNR17FWGqi-0LmF_YZi90FXFHFtdDOLvfzHjiM,4675
+vicdyf/utils.py,sha256=rUY2lUPD0Sepj0QxrmRrFWS6_VwPyfBz4_aVwADKiBc,7708
+vicdyf/vicdyf.py,sha256=__ASVjHOqC9u14_tU-b3xAMvkJr-8q9CKdAAtav1A3w,2655
+vicdyf/workflow.py,sha256=wqzbg8sYDbIAIlPkC90wra1mFUTP_X2nLuh3EEwQSWs,1835
+vicdyf-0.0.8.dist-info/LICENSE,sha256=u2RtcYIWf56BlPfQjgwWB1NB2e6aCsSj6BK5b8xcvS8,1071
+vicdyf-0.0.8.dist-info/METADATA,sha256=3e9sLYmFdhBr05GWgL8L3iGOeRDaU38u5G9K-e4JV0A,3669
+vicdyf-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vicdyf-0.0.8.dist-info/top_level.txt,sha256=RRw_Lvn34nETQtfc0WRAWYLiSfQ0dj8amAiN8sZn4sw,7
+vicdyf-0.0.8.dist-info/RECORD,,
