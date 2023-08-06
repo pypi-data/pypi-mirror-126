@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "modcall"
+version = "0.1.0"
+description = "Create callable modules"
+authors = ["Tom Bulled <26026015+tombulled@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/tombulled/modcall"
+repository = "https://github.com/tombulled/modcall"
+documentation = "https://github.com/tombulled/modcall"
+keywords = ["python", "modcall", "module", "callable"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
