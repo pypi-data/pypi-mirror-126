@@ -1,0 +1,13 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+web_math/__init__.py
+web_math/errors.py
+web_math/webmath.py
+web_math.egg-info/PKG-INFO
+web_math.egg-info/SOURCES.txt
+web_math.egg-info/dependency_links.txt
+web_math.egg-info/requires.txt
+web_math.egg-info/top_level.txt
