@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: overflow
+Version: 1.1.0
+Summary: from converting a list to a string to a neural network that changes the color of text based on the background color
+Home-page: https://github.com/lizardwine/overflow
+Author: Lizard
+Author-email: lizardwine@hotmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/lizardwine/overflow/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+overflow
+from converting a list to a string to a neural network that changes the color of text based on the background color
+it doesn't even have to be your idea, you can get the code from another repository or website.
+
