@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+cv2_rgb/__init__.py
+cv2_rgb.egg-info/PKG-INFO
+cv2_rgb.egg-info/SOURCES.txt
+cv2_rgb.egg-info/dependency_links.txt
+cv2_rgb.egg-info/not-zip-safe
+cv2_rgb.egg-info/requires.txt
+cv2_rgb.egg-info/top_level.txt
