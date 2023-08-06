@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: caffe2onnx
+Version: 2.0.1
+Summary: Convert Caffe models to ONNX.
+Home-page: https://github.com/asiryan/caffe-onnx
+Author: Valery Asiryan
+Author-email: dmc5mod@yandex.ru
+License: BSD-3
+Description: # caffe2onnx
+        This tool converts Caffe models to ONNX via command line (without Caffe environment). 
+        
+        ## Installation
+        Install from pypi  
+        ```
+        pip install caffe2onnx
+        ```
+        
+        Install latest from github  
+        ```
+        pip install git+https://github.com/asiryan/caffe2onnx
+        ```
+        
+        Build and install latest from source  
+        ```
+        git clone https://github.com/asiryan/caffe2onnx
+        python setup.py install
+        ``` 
+        
+        ## Usage
+        To get started with **caffe2onnx**, run the *caffe2onnx.convert* command, providing:
+        * the path to your caffe prototxt,
+        * the path to your caffe model (*not required*),
+        * the output path of the onnx model (*not required*),
+        * frozen graph or not (*not required*).
+        
+        ```
+        python -m caffe2onnx.convert
+            --prototxt          caffe prototxt file path
+            [--caffemodel       caffe caffemodel file path]
+            [--onnx             output onnx file path]
+            [--frozen           frozen graph or not]
+        ```
+        
+        ## Operators
+        See the documentation of [caffe supported operators](https://github.com/FaceONNX/caffe2onnx/blob/main/docs/caffe-operators.md).
+        
+        ## References
+        caffe-onnx by [htshinichi](https://github.com/htshinichi/caffe-onnx)  
+        TNN by [Tencent](https://github.com/Tencent/TNN)
+        
+        ## License
+        [BSD-3](https://github.com/asiryan/caffe2onnx/blob/main/LICENSE)
+        
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
