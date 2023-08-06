@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+setup.py
+LedCD.egg-info/PKG-INFO
+LedCD.egg-info/SOURCES.txt
+LedCD.egg-info/dependency_links.txt
+LedCD.egg-info/requires.txt
+LedCD.egg-info/top_level.txt
