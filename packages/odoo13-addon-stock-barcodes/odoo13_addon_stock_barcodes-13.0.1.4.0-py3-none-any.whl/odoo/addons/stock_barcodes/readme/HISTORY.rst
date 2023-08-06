@@ -1,0 +1,19 @@
+11.0.1.1.0 (2019-09-24)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [ADD] New feature.
+  User can uses barcode interface in picking operations.
+
+13.0.1.1.1 (2021-02-06)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* [ADD] New feature.
+  Add option to get lots automatically based on removal strategy in inventory.
+
+13.0.1.3.0(2021-11-08)
+~~~~~~~~~~~~~~~~~~~~~~
+
+* [ADD] New feature
+  Add option to track pending products at the stock barcodes read picking wizard.
+  Non-detailed operations, detailed operations or both can be shown.
+  This feature can be set at res.config.settings
