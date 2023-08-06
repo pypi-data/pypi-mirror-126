@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: discord_wallet
+Version: 0.1
+Summary: Connect your bot to Discord Wallet.
+Home-page: https://github.com/user/panicakr
+Author: Panicakr
+Author-email: UNKNOWN
+License: UNKNOWN
+Download-URL: https://github.com/panicakr/discord_wallet/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: discord,discord.py,economy
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
