@@ -1,0 +1,12 @@
+numpy
+torch
+scipy
+matplotlib
+tables
+lxml
+pyyaml
+pillow
+pyvisa
+scikit-rf
+toposort
+pyside2

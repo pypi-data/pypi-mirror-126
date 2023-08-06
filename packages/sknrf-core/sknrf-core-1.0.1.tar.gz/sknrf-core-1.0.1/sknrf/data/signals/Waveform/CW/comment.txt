@@ -1,0 +1,16 @@
+### Don't Touch ###
+
+Sample Point: 1
+Sample Rate (MHz): 10
+Waveform Runtime Scaling (%): 100
+IQ Modulation Filter (MHz): 40
+IQ Output Filter (MHz): 40
+Marker 1: 0-1
+Marker 2: None
+Marker 3: None
+Marker 4: None
+Pulse/RF Blanking: 4
+ALC Hold: 3
+ALC Status: On
+Bandwidth: Auto
+Power Search Reference: Modulation

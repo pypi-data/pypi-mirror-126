@@ -1,0 +1,8 @@
+# trigger_delay: 0.8e-6   # Nucleus
+trigger_delay: -4.27e-09  # PD/PMT
+trigger_delay_min: -1.0e+12
+trigger_delay_max: 1.0e+12
+marker_level: 2.0
+trigger_level: 2.0
+resample: 0.05
+voltage_limit: 3.0

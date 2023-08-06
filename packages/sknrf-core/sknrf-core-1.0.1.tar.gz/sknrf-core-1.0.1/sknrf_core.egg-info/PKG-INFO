@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: sknrf-core
+Version: 1.0.1
+Summary: Object Oriented Nonlinear RF/Microwave Engineering
+Home-page: https://gitlab.com/scikit-nonlinear
+Author: Dylan T. Bespalko
+Author-email: dylan.bespalko@gmail.com
+License: UNKNOWN
+Download-URL: https://gitlab.com/scikit-nonlinear/sknrf-core/-/releases/v1.0.1
+Keywords: 'Nonlinear RF Device System Characterization Modeling Electronic Design Automation'
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Tcl
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.TXT
+
+# scikit-nrf-core
+
+Object Oriented Nonlinear RF/Microwave Engineering
+
