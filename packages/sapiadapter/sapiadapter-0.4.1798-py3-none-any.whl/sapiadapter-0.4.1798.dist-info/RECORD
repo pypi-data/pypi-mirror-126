@@ -1,0 +1,11 @@
+sapiadapter/__init__.py,sha256=5iwLLK9u6VCfKhoLlv5KPpwsUU9dVN4ZL-wtsZtnfNY,599
+sapiadapter/s_cleanup.py,sha256=dqs9xDqODQKgCPwb3nI_J9ZITEPtTKHBezEb5bQwjbI,829
+sapiadapter/s_config.py,sha256=ffoBOxMOmjYjxq7iVQw72jBLecol4_FQ8jlDmpSJNrc,7174
+sapiadapter/s_db.py,sha256=LoZiZ6HCU3Itpav7w9Jw_qBJWAiSy0A4n9fy9oDoJLQ,17963
+sapiadapter/s_log.py,sha256=-iKFz6-BdUXBvgiuCEqI0O9yZX7BifRb_iiWJDbukeI,2617
+sapiadapter/s_net.py,sha256=sU2g4m1vulRBMhLN6q8MFpsDnda94LXGm212jX70Nts,14781
+sapiadapter/s_util.py,sha256=PK93pcI0TwiQCn5Q4sbntvP6top-0l4g9dV3xUZY0Qo,5976
+sapiadapter/sapiadapter.py,sha256=qRWgfMHVcHjy2BmlBaG60MXyURVXdGXD7cMhQgXsWAU,2840
+sapiadapter-0.4.1798.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sapiadapter-0.4.1798.dist-info/METADATA,sha256=3YqYTw0Z5-2HOGAY0sQaKm9_xg6Sv1TG15a0BH5VriQ,388
+sapiadapter-0.4.1798.dist-info/RECORD,,
