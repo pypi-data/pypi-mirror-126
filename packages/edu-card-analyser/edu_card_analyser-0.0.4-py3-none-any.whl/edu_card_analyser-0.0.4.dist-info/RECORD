@@ -1,0 +1,9 @@
+edu_card_models/BaseSheet.py,sha256=mueOi6NAhFZJkRb_5y6uXqTrI5yblcE0KiJ2tMzbbW0,9524
+edu_card_models/SheetV1.py,sha256=fqINz3ezGCeW2zvV3VenRXmYVTZRectdQ8fHjef-bAM,4310
+edu_card_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edu_card_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edu_card_utils/cvutils.py,sha256=ILUBo8Y4v9YME1CNGuvwjpqUOJJFX9_PKZNLDY7932o,438
+edu_card_analyser-0.0.4.dist-info/METADATA,sha256=8PQeW7rxA2MHFDfhxV0QQTigFAdryuq5JWSr-sJC0JE,418
+edu_card_analyser-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+edu_card_analyser-0.0.4.dist-info/top_level.txt,sha256=PNoOe5bTMW87d5R9DPgKY84qKYdb7SCoh_3vgND6w1o,31
+edu_card_analyser-0.0.4.dist-info/RECORD,,
