@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+PYSlots/__init__.py
+PYSlots/__main__.py
+PYSlots.egg-info/PKG-INFO
+PYSlots.egg-info/SOURCES.txt
+PYSlots.egg-info/dependency_links.txt
+PYSlots.egg-info/entry_points.txt
+PYSlots.egg-info/top_level.txt
