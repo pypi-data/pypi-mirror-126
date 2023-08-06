@@ -1,0 +1,3 @@
+[console_scripts]
+singular = singular.experiment_config:command_line_interface
+
