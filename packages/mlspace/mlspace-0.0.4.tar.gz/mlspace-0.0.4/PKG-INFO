@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mlspace
+Version: 0.0.4
+Summary: MLSpace: no hassle machine learning and deep learning
+Home-page: https://github.com/abhishekkrthakur/mlspace
+Author: Abhishek Thakur
+Author-email: abhishek4@gmail.com
+License: Apache 2.0
+Platform: linux
+Platform: unix
+Requires-Python: >3.5.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MLSpace: Hassle free machine learning & deep learning development
+
+- No need to worry about CUDA
+- No need to worry about cuDNN
+- No need to worry about TensorFlow version
+- No need to worry about PyTorch version
+- No need to install any libraries
+
+
+*coming soon*
+
+**NOTE: PRs are currently not accepted. All PRs will be closed. Please use issues instead.**
+
