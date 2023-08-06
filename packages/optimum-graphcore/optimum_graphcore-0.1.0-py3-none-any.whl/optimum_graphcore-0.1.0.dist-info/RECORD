@@ -1,0 +1,16 @@
+optimum/graphcore/__init__.py,sha256=vYQinTvIqvR3S1P-OSYfbY72TEcSaoIq9b1fUJqs8sg,839
+optimum/graphcore/ipu_configuration.py,sha256=cQYbTECLngvcMOpFuoCdlJoiNljizVMYs553t0yoL5o,7664
+optimum/graphcore/modeling_utils.py,sha256=a8ZehxWhXY3dWLvw34PYQxFY-EVjrJWNc2PDSRYyWBA,2114
+optimum/graphcore/trainer.py,sha256=ybcpWK4-JFvyI1H8uVPr9gkxfVU0VTxxbsxkXmqZK0o,54611
+optimum/graphcore/trainer_utils.py,sha256=T22OJkSgyyAclFxRLmFpun7aRKIIufkQQ2UJrSZ_SyA,2285
+optimum/graphcore/training_args.py,sha256=-2L2S1KutrTx2TmCRYeoP151TtM_G17l6CsyBnQbFNc,3855
+optimum/graphcore/version.py,sha256=lzV26m8IjDI0q-677GoGeg989-qJDFrmkE_7S8_s--E,639
+optimum/graphcore/models/__init__.py,sha256=i2I9q_0cRKvY9LXoBZCkXOj0o1cRJBWdgHc_Vt0PmXQ,797
+optimum/graphcore/models/bert/__init__.py,sha256=Y5F8XW-ZUb3vEnsZzv7ZXJ3sqJOv8Syd27BQxjiWRjk,881
+optimum/graphcore/models/bert/bert_fused_attention.py,sha256=s3i0ZN4OSEPfB6UQpmeh9q69OOt-49PwdU8SMIDVD60,6830
+optimum/graphcore/models/bert/modeling_bert.py,sha256=vzw2WJOvU14RHhwAtH6wco6UFtrp9TRHCZ4Nbhq7X2I,16287
+optimum_graphcore-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+optimum_graphcore-0.1.0.dist-info/METADATA,sha256=JWcWWt-5_twCc9cOitPNnGmmViGu1IK-7NnKe8d8V8s,3426
+optimum_graphcore-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+optimum_graphcore-0.1.0.dist-info/top_level.txt,sha256=rc1rV-uPZnV1Ek7hCwh56pvMCKcip65JbHRRWs8Yqu8,8
+optimum_graphcore-0.1.0.dist-info/RECORD,,
