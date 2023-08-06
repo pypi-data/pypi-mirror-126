@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mediasorter
+Version: 0.1.0
+Summary: A tool to sort and copy images/videos to a defined directory structure.
+Home-page: https://github.com/shireenrao/mediasorter
+Author: Srinivas Nyayapati
+Author-email: shireenrao@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+UNKNOWN
+
