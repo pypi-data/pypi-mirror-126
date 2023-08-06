@@ -1,0 +1,15 @@
+pytchi/__init__.py,sha256=_7Z1dOAn2PDAl8yKz6-8qMoKuK3Z1daocIoVQ3wwnb0,228
+pytchi/pytchi.py,sha256=hu3xU5gTsc7Lcq85PKbFGyUaHFnBsc1d_HrHg8CK3Wc,8470
+pytchi/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytchi/lib/imgcc.py,sha256=mFFETInagmTPlbK32Hk_1UxrEfUkXXwyaKeQhq2eaUQ,7636
+pytchi/lib/ytdown.py,sha256=nXqrCyY6DN7PghiVcYFtB0teGnsvoj9GF6LIN_3mn_Q,4496
+pytci/__init__.py,sha256=Zc8McXAci5wUGXAavRTKf9Gpy3zGeZQxsgr8MKR5WVY,227
+pytci/pytci.py,sha256=qHJwb4d1oBAG4l65TLdZAwMzO_1M7t1_eguiZvv-4Pw,7361
+pytci/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytci/lib/imgcc.py,sha256=Yuhr7GgR3G_H0f-3Zl5-cVQwRc4-iXeT1_o7qi1NoIU,4921
+pytci/lib/imgcc_avant_suppression_plt.py,sha256=IfQvf0RxKDx7IfHGrUBhMWMA23yvNGYwkcgctttERhI,8176
+pytci/lib/ytdown.py,sha256=vZqjLoWKrgC_o9-Av-qcNDI2b0lyjpQ81nKxrEE4zO4,4382
+pytchi-0.2.dist-info/METADATA,sha256=_9ejc2eOhJ_TDZj7XBwMHUCtzfr760HtKpykIIXVq0w,3880
+pytchi-0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytchi-0.2.dist-info/top_level.txt,sha256=Vuw6W_NYvppBrVyUzfsZChem1tpimh0bU7vyYxbJUAM,7
+pytchi-0.2.dist-info/RECORD,,
