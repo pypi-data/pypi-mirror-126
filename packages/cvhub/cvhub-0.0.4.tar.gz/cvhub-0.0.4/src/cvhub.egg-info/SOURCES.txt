@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/cvhub.egg-info/PKG-INFO
+src/cvhub.egg-info/SOURCES.txt
+src/cvhub.egg-info/dependency_links.txt
+src/cvhub.egg-info/top_level.txt
+src/u2net/__init__.py
+src/u2net/data_loader.py
+src/u2net/net_engine.py
+src/u2net/model/__init__.py
+src/u2net/model/u2net.py
+src/u2net/model/u2net_refactor.py
