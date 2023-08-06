@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+__init__.py
+setup.py
+magic/__init__.py
+magic/compat.py
+magic/loader.py
+magic/py.typed
+mimetypes_magic.egg-info/PKG-INFO
+mimetypes_magic.egg-info/SOURCES.txt
+mimetypes_magic.egg-info/dependency_links.txt
+mimetypes_magic.egg-info/top_level.txt
+test/test.py
