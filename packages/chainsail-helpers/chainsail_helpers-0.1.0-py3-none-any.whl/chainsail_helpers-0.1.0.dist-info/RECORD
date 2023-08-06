@@ -1,0 +1,7 @@
+chainsail_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chainsail_helpers/pdf/__init__.py,sha256=dSf-WOrmCNJLgSR5cJPpBIAxykBYQ37l1RAOOjgTRRA,883
+chainsail_helpers/pdf/pymc3/__init__.py,sha256=xlj5NA2iAyIcJ_PbjwNTtZbPCfL2po4jUqN5csEQ4uY,1468
+chainsail_helpers/pdf/stan/__init__.py,sha256=13mmz6G99VIP80_U117XWFPLVvmTObtcHpoUmvBlPG0,3109
+chainsail_helpers-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+chainsail_helpers-0.1.0.dist-info/METADATA,sha256=GyQDlEbBCpDAcBoP6yj4Ga748n6iupc3BwdiTD7RY-0,2352
+chainsail_helpers-0.1.0.dist-info/RECORD,,
