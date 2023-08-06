@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "delu"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Yura52", email = "strausmg@gmail.com"}
+]
+dependencies = []
+dynamic = ["version", "description"]
+
+[tool.flit.module]
+name = "delu"
