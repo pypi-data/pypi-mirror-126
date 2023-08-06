@@ -1,0 +1,15 @@
+.gitignore
+README.md
+setup.py
+tox.ini
+.github/workflows/tests.yaml
+room_access_rules/__init__.py
+synapse_room_access_rules.egg-info/PKG-INFO
+synapse_room_access_rules.egg-info/SOURCES.txt
+synapse_room_access_rules.egg-info/dependency_links.txt
+synapse_room_access_rules.egg-info/requires.txt
+synapse_room_access_rules.egg-info/top_level.txt
+tests/__init__.py
+tests/test_create_room.py
+tests/test_event_allowed.py
+tests/test_visibility.py
