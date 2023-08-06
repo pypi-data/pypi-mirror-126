@@ -1,0 +1,12 @@
+bm4d/__init__.py,sha256=EETLwBfHciYWVcoOZHjpczwgi_c2YMJdt3cJJm7xh9k,69262
+bm4d/bm4d_ctypes.py,sha256=bU9JtEpalexPdLpVJM9e9ddXLuyw0_BbdKT_wW6fWLQ,32017
+bm4d/libbm4d.so,sha256=39mW52WgybkASlJtsG7mjhjdQwzRXluGIqjuh6ILJUc,187944
+bm4d/libbm4d_mac.so,sha256=2h-qQ74H0erAZnE7PTf8Ijh-pOFkYV_7zf4OaLhEZAs,243292
+bm4d/libbm4d_win.so,sha256=2uCp4dY6TONuRselUp6vuVjJCHDIru_3e3XABy6ZZa4,20622140
+bm4d/param_matching_data.mat,sha256=Xzl0y7pnbIDyaLHM76SnY_2AjzU7OMofKjrGaIzNdZM,77616
+bm4d/profiles.py,sha256=wAh-d8vKkXVdgpMXdItlsPNb_SXGyJCn_S0BcD_jef8,8284
+bm4d-4.0.0.dist-info/LICENSE,sha256=bC-G82MbuH4FoyC54HRM3CyteU8kbLJ4QUl2K-AUrAo,2635
+bm4d-4.0.0.dist-info/METADATA,sha256=hco9P0_cr-nFgFaaHkUaVs-mdhj-JlUTW3Axx2HrVJ8,2627
+bm4d-4.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bm4d-4.0.0.dist-info/top_level.txt,sha256=R-Kh1RfaJolk09Rw7PD_-p1Pw8smdSvo6_ghjc9s9s0,5
+bm4d-4.0.0.dist-info/RECORD,,
