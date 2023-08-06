@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mitre-attack
+Version: 0.1.0
+Summary: 
+Author: Tyler Fisher
+Author-email: tylerfisher@tylerfisher.ca
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Flask (>=2.0.2,<3.0.0)
+Requires-Dist: coverage[toml] (>=6.1.1,<7.0.0)
+Requires-Dist: hodgepodge (>=2.3.2,<3.0.0)
+Requires-Dist: setuptools (>=58.5.3,<59.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)

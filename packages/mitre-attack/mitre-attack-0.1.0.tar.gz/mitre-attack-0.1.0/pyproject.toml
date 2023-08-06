@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "mitre-attack"
+version = "0.1.0"
+description = ""
+authors = ["Tyler Fisher <tylerfisher@tylerfisher.ca>"]
+
+[tool.poetry.scripts]
+mitre-attack = "mitre_attack.cli:cli"
+server = "mitre_attack.api.rest.server:cli"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+hodgepodge = "^2.3.2"
+coverage = {extras = ["toml"], version = "^6.1.1"}
+toml = "^0.10.2"
+Flask = "^2.0.2"
+setuptools = "^58.5.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.coverage.run]
+omit = [".*", "*/site-packages/*"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
