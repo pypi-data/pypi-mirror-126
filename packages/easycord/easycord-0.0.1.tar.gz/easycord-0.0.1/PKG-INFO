@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: easycord
+Version: 0.0.1
+Summary: Code easy Discord Bots
+Home-page: UNKNOWN
+Author: znel2002 (Jan Mueller)
+Author-email: <wuzaaznel@gmx.de>
+License: UNKNOWN
+Description: 
+        # easycord
+        
+        
+        Create Discord Bots easy and fast.
+        In development.
+Keywords: python,discord
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown

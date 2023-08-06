@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+easycord/__init__.py
+easycord/createBot.py
+easycord.egg-info/PKG-INFO
+easycord.egg-info/SOURCES.txt
+easycord.egg-info/dependency_links.txt
+easycord.egg-info/requires.txt
+easycord.egg-info/top_level.txt
