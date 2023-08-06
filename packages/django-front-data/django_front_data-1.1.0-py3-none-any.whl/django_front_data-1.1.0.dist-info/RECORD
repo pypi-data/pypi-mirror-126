@@ -1,0 +1,16 @@
+front_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+front_data/admin.py,sha256=Oi9W9qKYEv7bY2YdPHierHM0grnjDI2dm6kRPuVMk0o,5806
+front_data/apps.py,sha256=dEOvJgArJE9KHuMgPzF2UUF9Pu6EVgUl34-siIhTq_E,150
+front_data/models.py,sha256=bMl0AIrVaPfCB3Jc_y0Hy0hbBaypbdseRVYK-cNF8S8,1263
+front_data/serializers.py,sha256=Ro4L2RUbguxaw_yg2hwQlHafNc5tUwtQjUnHNYKb2QA,1881
+front_data/urls.py,sha256=OQI6fBAG98bkQZ8LfA9NCh5UIkQQPyZsquQowjEdcUw,655
+front_data/views.py,sha256=Yczcal3ejN2uXCe8a6dg96C08q8QKQThSwy9vEfP8qI,3262
+front_data/migrations/0001_initial.py,sha256=4Qp6xLDuS96qGHIJ8wPR54NcsrrtVu-qr6SSIDwKQgs,1770
+front_data/migrations/0002_configuration.py,sha256=hEGHtJqeJS1yRP3JK-6vC1Qg1iJPYdwQLdVk_djoWcU,655
+front_data/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+front_data/templates/site_data/editorJson.html,sha256=nWWjglVcc9C0LbXeaa_A1QHCyFpTyUWG5_McDGHk4GA,920
+django_front_data-1.1.0.dist-info/LICENSE,sha256=WpkerqslI04vKQsYTIXUP2U2mIZeQ9KTPrZEFdU-xtE,1052
+django_front_data-1.1.0.dist-info/METADATA,sha256=6x5z71VvgeZo1y5S4uohdqKtFq3SCsZua5jLu_4bbMw,2131
+django_front_data-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_front_data-1.1.0.dist-info/top_level.txt,sha256=VdoW4nGlgPBJworfGcUFpJdtf3x_aOnIjC7B4ZUV2dg,33
+django_front_data-1.1.0.dist-info/RECORD,,
