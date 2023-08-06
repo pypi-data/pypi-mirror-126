@@ -1,0 +1,13 @@
+xasm/__init__.py,sha256=gz94OZ_Jc1WozfOYH1pjQeg7IgB1L9wv5fyytJ2XgZU,174
+xasm/assemble.py,sha256=SMLDowOTUyX5WW1F1MxVgVW8PABo0Q2i_qIQwrIA2VI,19603
+xasm/pyc_convert.py,sha256=onWRcmEhqpQi1Pf-lvPeun8qxPKmTWJEqLBGUW6aH28,9029
+xasm/version.py,sha256=DbW6-QjmrYtEr06qLRCM9LzccIv-54mBuJWsQ6fclI0,206
+xasm/write_pyc.py,sha256=LJKDKg8WGS9zzXIilY8keW3NJU2N2Kf_murjIVv1_IY,1357
+xasm/xasm_cli.py,sha256=cw2TY6kYOU50xC-czeLEGMBnCuYOjaV3mMuX75QKKnI,1514
+xasm-1.2.0.dist-info/LICENSE.gpl2,sha256=2ylvL381vKOhdO-w6zkrOxe9lLNBhRQpo9_0EbHC_HM,18046
+xasm-1.2.0.dist-info/METADATA,sha256=qIWC6CrrZ50SB9fpE38qoRfBgMGJ0S5HqwW--JUAKRw,5544
+xasm-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+xasm-1.2.0.dist-info/entry_points.txt,sha256=ddG5Ud4yX9DHkME_98f0fEHp4X-_6nipBUq0IADDBfg,119
+xasm-1.2.0.dist-info/top_level.txt,sha256=24UNOItB5o_EJoJ9nqhPZEC5GiSaYtHll3F6mJXzOkA,5
+xasm-1.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xasm-1.2.0.dist-info/RECORD,,
