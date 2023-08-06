@@ -1,0 +1,10 @@
+domify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+domify/attribute_validators.py,sha256=9k2gmT95il_ximBBINp9A2Oa-8Ppc9kSjWlZlwj0NVM,962
+domify/base_element.py,sha256=58Kf6VoVAX1N9n724nCihVsjBzvvmHruy7tV73JVc7c,9619
+domify/exc.py,sha256=pQPToJxfIC0r_wB2UKIwExCxHdQXs4XN6TzaTth8W0g,997
+domify/html_elements.py,sha256=V7N5pvza1l6pEptLihWvdN9dbbpn5hcjAZFESGQnlW0,24721
+domify/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+domify-0.1.0.dist-info/LICENSE,sha256=2beq9zFqKPhQVTHGRsPeLnEpxIEAWzRM3PyOUsCq_G4,1067
+domify-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+domify-0.1.0.dist-info/METADATA,sha256=FdigY_Z7rzhsJ4vlTDJjDSp_GGzvAEp5cKssj_1SrIM,6380
+domify-0.1.0.dist-info/RECORD,,
