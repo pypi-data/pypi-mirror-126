@@ -1,0 +1,3 @@
+
+    [console_scripts]
+    person_descriptor=person_descriptor.runner:start_app
