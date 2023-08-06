@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "siderai-brain-games"
+version = "1.1.0"
+description = "Brain Games is a pack of five console arithmetic games"
+authors = ["Alexander Sidorov <sidai@bk.ru>"]
+classifiers = ["Topic :: Games/Entertainment :: Puzzle Games"]
+repository = "https://github.com/siderai/brain-games"
+packages = [
+  { include = "brain_games" },
+]
+
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+brain-progression1 = "brain_games.games.brain_progression:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+prompt = "^0.4.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
