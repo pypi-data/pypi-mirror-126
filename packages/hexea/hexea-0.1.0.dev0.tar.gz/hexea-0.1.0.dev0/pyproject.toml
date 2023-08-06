@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hexea"
+version = "0.1.0-dev"
+description = "Python library for the games of Hex and Y"
+authors = ["Chip Hollingsworth <cholling@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+include = [
+        "LICENSE.txt",
+        "README.md",
+]
+homepage = "https://git.cholling.com/cholling/hexea"
+repository = "https://git.cholling.com/cholling/hexea"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
