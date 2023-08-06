@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cipher-yx2625
+Version: 0.1.0
+Summary: simple Python package to cipher textual data
+Author: connixu
+Author-email: y.connie.xu@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.3.4,<2.0.0)
+Requires-Dist: pytest (>=6.2.5,<7.0.0)
