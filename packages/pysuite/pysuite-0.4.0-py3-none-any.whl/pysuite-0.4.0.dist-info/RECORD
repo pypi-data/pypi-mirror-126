@@ -1,0 +1,13 @@
+pysuite/__init__.py,sha256=5BkOjttatuhWOXj-zpTh3ZB8tAMmYnUUGZkjIfToS2E,189
+pysuite/auth.py,sha256=jC1CXSJfzbJZn0Dw4Z3q53HHrpptdp0ZQAVJwWIAwkw,7426
+pysuite/drive.py,sha256=5Evf5RBt7AKGMYvGfEP1AiL174a51XABboeEYe9ZPrM,11965
+pysuite/gmail.py,sha256=CffpYr_siKFgVXzHJKcjxcMaSCPcv2z3oHOjSvQtNW4,6575
+pysuite/sheets.py,sha256=NUZqh82Aulv19Q3ADxaAEWLpPblYun0QS5S9ShnPOoI,11281
+pysuite/storage.py,sha256=p7BkUy77YUh0iRgKNW6lncfgWdl85qyLM2-3sh-ZyOE,7321
+pysuite/utilities.py,sha256=6TSl57ALq0BiSCjJBwJBDiqY9dwcuG1EnbfURH5tIRA,2010
+pysuite/vision.py,sha256=5tf5_MpAiBYDfbBOgl7c5k0Pygi98nYt6-uaDcVJRFU,6873
+pysuite-0.4.0.dist-info/LICENSE,sha256=JznKQO561V4qvgNXefTkCZZXehvRB0BlapabCetsUBU,1517
+pysuite-0.4.0.dist-info/METADATA,sha256=OROZBP-Su8EWR3Ukb_0c1ICwPtaOeJk6N2mEPdSfPQA,4313
+pysuite-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pysuite-0.4.0.dist-info/top_level.txt,sha256=03yXLhSj0eUaaJEB8EBwuqdhs8u9EKAfYPlB9yiNYys,8
+pysuite-0.4.0.dist-info/RECORD,,
