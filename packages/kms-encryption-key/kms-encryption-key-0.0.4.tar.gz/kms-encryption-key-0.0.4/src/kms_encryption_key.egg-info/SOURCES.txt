@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/kms_encryption_key/__init__.py
+src/kms_encryption_key/py.typed
+src/kms_encryption_key.egg-info/PKG-INFO
+src/kms_encryption_key.egg-info/SOURCES.txt
+src/kms_encryption_key.egg-info/dependency_links.txt
+src/kms_encryption_key.egg-info/requires.txt
+src/kms_encryption_key.egg-info/top_level.txt
+src/kms_encryption_key/_jsii/__init__.py
+src/kms_encryption_key/_jsii/kms-encryption-key@0.0.4.jsii.tgz
