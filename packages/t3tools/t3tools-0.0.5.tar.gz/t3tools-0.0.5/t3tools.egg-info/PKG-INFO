@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: t3tools
+Version: 0.0.5
+Summary: 实用工具 from 唐峰2098
+Home-page: http://null.null.null
+Author: 唐峰
+Author-email: tangfeng2098@outlook.com
+Maintainer: 唐峰
+Maintainer-email: tangfeng2098@outlook.com
+License: MIT License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+
+common tools from tangfeng2098.
+
