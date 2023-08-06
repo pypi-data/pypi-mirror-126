@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: YennMedlib
+Version: 0.1.0
+Summary: yenn's first python library for medical image development
+Home-page: UNKNOWN
+Author: yenn
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+UNKNOWN
+
+
