@@ -1,0 +1,3 @@
+[console_scripts]
+consumer = consumer_framework.__main__:main
+
