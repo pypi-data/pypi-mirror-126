@@ -1,0 +1,15 @@
+league_of_legends_ml/__init__.py,sha256=NbuHy41EoTMkNkjA470fTztE1U6-IKPNUGWd4Wt-xok,38
+league_of_legends_ml/common/__init__.py,sha256=4wFnASPmBv6hLnUJN7J9UXk6PeSIhRqeoRH0J2JZFSM,179
+league_of_legends_ml/grade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+league_of_legends_ml/mastery/__init__.py,sha256=r-bZ5KY5ss_36Smz8Op7rO9UB5xK7Ng_IKrBVTh7cYA,1276
+league_of_legends_ml/mastery/files/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+league_of_legends_ml/mastery/files/aram_model.pkl,sha256=8K33fFa-uzJgCajEVnoCk1bLcC0wYjSCGCUE5gTfBhQ,123913
+league_of_legends_ml/mastery/files/aram_scaler.pkl,sha256=I5uTU9Lone0osdNJrJG4L_gmpkI_CuKpxgFB7n78UdY,497
+league_of_legends_ml/mastery/files/classic_model.pkl,sha256=aYFyj-bqcZZ2u9phH-o5RPeWiOuhelhJHN-rxl96vxY,8298
+league_of_legends_ml/mastery/files/classic_scaler.pkl,sha256=HYkzXwlgXkVIB_8EWfMU4u7WATohdkjXtrGwKMnvcSw,497
+league_of_legends_ml/mastery/files/model.pkl,sha256=zdVllW8DzHRo_2a_EYvgkISO_r2JuesEtV4mQmhHjic,7423
+league_of_legends_ml/mastery/files/scaler.pkl,sha256=nfdj3r_k1b7lQ719xDBY0Vjfw5ybJ6rt2ughkO7BpnY,497
+league_of_legends_ml-0.0.5.dist-info/METADATA,sha256=KCOPjzOB-gxEeO8lpXtROHACGhFHK_v91TXPIdzmccY,442
+league_of_legends_ml-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+league_of_legends_ml-0.0.5.dist-info/top_level.txt,sha256=Uc1grsHkhrPavqQnKcxtesOFSNFXLu_y1pu_6i--Zu4,21
+league_of_legends_ml-0.0.5.dist-info/RECORD,,
