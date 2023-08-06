@@ -1,0 +1,7 @@
+setup.py
+namespace_kube/__init__.py
+namespace_kube/namespace.py
+namespace_kube.egg-info/PKG-INFO
+namespace_kube.egg-info/SOURCES.txt
+namespace_kube.egg-info/dependency_links.txt
+namespace_kube.egg-info/top_level.txt
