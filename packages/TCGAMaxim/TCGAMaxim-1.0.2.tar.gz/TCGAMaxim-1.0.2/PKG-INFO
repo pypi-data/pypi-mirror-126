@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: TCGAMaxim
+Version: 1.0.2
+Summary: Python utils for process tcga source data
+Home-page: https://github.com/yage99/TCGAMaxim.git
+Author: Ya Zhang
+Author-email: zhangya@mail.ustc.edu.cn
+License: UNKNOWN
+Download-URL: https://github.com/yage99/TCGAMaxim/archive/refs/tags/v1.0.2.tar.gz
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+UNKNOWN
+

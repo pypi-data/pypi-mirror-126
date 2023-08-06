@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+TCGAMaxim/__init__.py
+TCGAMaxim/clinical.py
+TCGAMaxim/gene.py
+TCGAMaxim/meta.py
+TCGAMaxim/svs.py
+TCGAMaxim/test.py
+TCGAMaxim/testSvs.py
+TCGAMaxim/utils.py
+TCGAMaxim.egg-info/PKG-INFO
+TCGAMaxim.egg-info/SOURCES.txt
+TCGAMaxim.egg-info/dependency_links.txt
+TCGAMaxim.egg-info/top_level.txt
