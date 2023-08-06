@@ -1,0 +1,9 @@
+README.md
+setup.py
+colordet2/ColorDetector.py
+colordet2/__init__.py
+colordet2.egg-info/PKG-INFO
+colordet2.egg-info/SOURCES.txt
+colordet2.egg-info/dependency_links.txt
+colordet2.egg-info/requires.txt
+colordet2.egg-info/top_level.txt
