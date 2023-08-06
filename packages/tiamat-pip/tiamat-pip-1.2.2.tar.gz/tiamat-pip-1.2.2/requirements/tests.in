@@ -1,0 +1,4 @@
+pytest
+tiamat>=7.0
+virtualenv
+pytest-subtests
