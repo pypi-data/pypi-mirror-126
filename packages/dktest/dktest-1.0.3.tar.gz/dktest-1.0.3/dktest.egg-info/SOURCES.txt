@@ -1,0 +1,10 @@
+README.md
+setup.py
+data_scraper/__init__.py
+data_scraper/data_scraper.py
+dktest.egg-info/PKG-INFO
+dktest.egg-info/SOURCES.txt
+dktest.egg-info/dependency_links.txt
+dktest.egg-info/requires.txt
+dktest.egg-info/top_level.txt
+test/test.py
