@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyautotype
+Version: 0.1.0
+Summary: pyautotype is a python module that provides a function like paste.
+Home-page: UNKNOWN
+Author: huwns
+Author-email: huwnss2@gmail.com
+License: BSD-3-Clause
+Keywords: paste,bypass,copy,type
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+
+UNKNOWN
+
