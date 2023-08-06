@@ -1,0 +1,22 @@
+{% extends "wagtailadmin/widgets/chooser.html" %}
+{% load embed_video_tags wagtailimages_tags %}
+
+{% block chooser_class %}embed_video-chooser{% endblock %}
+
+{% block chosen_state_view %}
+    <div class="preview-embedvideo">
+        {% if embed_video %}
+            {% if embed_video.thumbnail %}
+                {% image embed_video.thumbnail max-165x165 class="show-transparency" title=embed_video.title %}
+            {% else %}
+                {% video embed_video.url as my_video %}
+                    <img src="{{ my_video.thumbnail }}" style="max-width: 165px; max-height: 165px;">
+                {% endvideo %}
+            {% endif %}
+        {% else %}
+            <img alt="">
+        {% endif %}
+    </div>
+{% endblock %}
+
+{% block edit_chosen_item_url %}{% if embed_video %}{% url 'wagtail_embed_videos:edit' embed_video.id %}{% endif %}{% endblock %}
