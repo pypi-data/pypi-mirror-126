@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sohu_search_scraper
+Version: 1.0.0
+Summary: Web Scraping Library
+Home-page: UNKNOWN
+Author: DataKund
+Author-email: datakund@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+It scrapes the data from the Sohu website.
+
+
+### Run Scraper
+```sh
+from sohu_search_scraper import *
+link="http://history.sohu.com/?spm=smpc.home.history-nav.1.1633101794696TEciRMP"
+data=run_pypi_scraper(link)
+```
+
