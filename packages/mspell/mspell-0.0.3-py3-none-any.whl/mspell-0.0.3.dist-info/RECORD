@@ -1,0 +1,11 @@
+mspell/__init__.py,sha256=QvN2sgLDk_V4qfvE5zzup5oybn3O8aiPQx2JAmoa_CM,102
+mspell/group_speller.py,sha256=OKu6sEF1QoX0StuyhF6hDw8DC8Ek7LOnT8H3IFB39m4,5436
+mspell/spell_base.py,sha256=V3zzwoY8jeUzOn6IKf0YlA4-0w_rhN4e2qERGbTDnUc,2741
+mspell/speller.py,sha256=OXeppbZkrORRRtEDsbKAPQKzoVwBStD2X8f6Z9lIChs,5661
+mspell/unspeller.py,sha256=3RIhO9a3Bc_zvE19oUkWM6znUesS8J7r0Uax9xwc8e8,4911
+mspell/utils.py,sha256=kDR7hkyAVIhRMA8Apg-IzcplDKFiHPqgQ5auk-0KKjs,5125
+mspell-0.0.3.dist-info/LICENSE,sha256=jfS28o3HN-zkf2VBjjgLEMtnw0MWoYk7v87Gis0i1TE,1071
+mspell-0.0.3.dist-info/METADATA,sha256=IrwG2gJ4DRT78BU8r_meoK2ooPnBjocjRGGNiuCMgh8,1231
+mspell-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mspell-0.0.3.dist-info/top_level.txt,sha256=4NXGmJQqrqVb7YnPoQyMw8kbXnGlHBDPYQvKF2CE5oo,7
+mspell-0.0.3.dist-info/RECORD,,
