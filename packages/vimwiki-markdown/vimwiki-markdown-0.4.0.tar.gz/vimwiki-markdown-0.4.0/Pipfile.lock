@@ -1,0 +1,49 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "5c24c49cccf526f0ebe0c24bd47839a1cb29597346dccaf392c1d37dd763217a"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.8"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "pygments": {
+            "hashes": [
+                "sha256:b8e67fe6af78f492b3c4b3e2970c0624cbf08beb1e493b2c99b9fa1b67a20380",
+                "sha256:f398865f7eb6874156579fdf36bc840a03cab64d1cde9e93d68f46a425ec52c6"
+            ],
+            "index": "pypi",
+            "version": "==2.10.0"
+        }
+    },
+    "develop": {
+        "markdown": {
+            "hashes": [
+                "sha256:31b5b491868dcc87d6c24b7e3d19a0d730d59d3e46f4eea6430a321bed387a49",
+                "sha256:96c3ba1261de2f7547b46a00ea8463832c921d3f9d6aba3f255a6f71386db20c"
+            ],
+            "version": "==3.3.4"
+        },
+        "pygments": {
+            "hashes": [
+                "sha256:b8e67fe6af78f492b3c4b3e2970c0624cbf08beb1e493b2c99b9fa1b67a20380",
+                "sha256:f398865f7eb6874156579fdf36bc840a03cab64d1cde9e93d68f46a425ec52c6"
+            ],
+            "index": "pypi",
+            "version": "==2.10.0"
+        },
+        "vimwiki-markdown": {
+            "editable": true,
+            "path": "."
+        }
+    }
+}
