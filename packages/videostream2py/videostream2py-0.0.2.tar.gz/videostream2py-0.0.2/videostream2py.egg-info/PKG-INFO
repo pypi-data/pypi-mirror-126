@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: videostream2py
+Version: 0.0.2
+Summary: stream2py interface to video
+Home-page: https://github.com/i2mint/videostream2py
+Author: OtoSense
+License: apache-2.0
+Description: 
+        # videostream2py
+        stream2py interface to video
+        
+        
+        To install:	```pip install videostream2py```
+        
+Platform: any
+Description-Content-Type: text/markdown

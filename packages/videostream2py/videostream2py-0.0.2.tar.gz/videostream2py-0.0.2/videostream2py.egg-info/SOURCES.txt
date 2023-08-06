@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+videostream2py/__init__.py
+videostream2py/video.py
+videostream2py.egg-info/PKG-INFO
+videostream2py.egg-info/SOURCES.txt
+videostream2py.egg-info/dependency_links.txt
+videostream2py.egg-info/not-zip-safe
+videostream2py.egg-info/top_level.txt
