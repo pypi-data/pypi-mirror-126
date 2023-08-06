@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+Engezny/Engezny.py
+Engezny/__init__.py
+Engezny.egg-info/PKG-INFO
+Engezny.egg-info/SOURCES.txt
+Engezny.egg-info/dependency_links.txt
+Engezny.egg-info/requires.txt
+Engezny.egg-info/top_level.txt
