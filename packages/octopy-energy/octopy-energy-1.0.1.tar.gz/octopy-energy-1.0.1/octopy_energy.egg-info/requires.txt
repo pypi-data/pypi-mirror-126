@@ -1,0 +1,11 @@
+aiohttp
+gql[aiohttp]~=3.0.0b0
+iso8601
+
+[dev]
+mypy
+pre-commit
+pytest-mypy
+pytest-timeout>=1.3.0
+pytest>=6.0
+setuptools_scm
