@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+AnteiAPI.egg-info/PKG-INFO
+AnteiAPI.egg-info/SOURCES.txt
+AnteiAPI.egg-info/dependency_links.txt
+AnteiAPI.egg-info/requires.txt
+AnteiAPI.egg-info/top_level.txt
+anteiapi/API.py
+anteiapi/__init__.py
+anteiapi/endpoints.py
+anteiapi/exception.py
+anteiapi/tools.py
+anteiapi/models/TafsirMimpi.py
+anteiapi/models/__init__.py
+anteiapi/models/file.py
+anteiapi/models/tiktok.py
