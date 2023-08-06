@@ -1,0 +1,6 @@
+numpy>=1.7
+cython>=0.29
+sphinx
+pytest
+coverage
+docutils<0.18
