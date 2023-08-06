@@ -1,0 +1,9 @@
+README.md
+setup.py
+aioalfacrm/__init__.py
+aioalfacrm/client.py
+aioalfacrm.egg-info/PKG-INFO
+aioalfacrm.egg-info/SOURCES.txt
+aioalfacrm.egg-info/dependency_links.txt
+aioalfacrm.egg-info/requires.txt
+aioalfacrm.egg-info/top_level.txt
