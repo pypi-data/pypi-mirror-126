@@ -1,0 +1,9 @@
+gitlabenvmngr/__init__.py,sha256=0vdJu8SuS92bSSHYvW77ZF8WFAse0hDzKjP7FlyMLe0,78
+gitlabenvmngr/__main__.py,sha256=0rJOiyuYcWjgqtHde-1uoMLCAb-HXtRnSsgM6T1wYxM,1828
+gitlabenvmngr/api.py,sha256=7DYvMygLBG1u1LRUBnrIxJvb8-OvjFAMC4_6uhvurMY,7801
+gitlabenvmngr/screens.py,sha256=TT3FGXjDuu9g8peDk6AVG9oEYsbvOLsQudVT6KtLkaA,15765
+gitlabenvmngr-0.1.6.dist-info/METADATA,sha256=xQMC1yJ6AVv0CprHSW9TzY20Bf7sV3RhTPDM13NiGYE,822
+gitlabenvmngr-0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gitlabenvmngr-0.1.6.dist-info/entry_points.txt,sha256=vw-qIBipRSvyIF4Ko3GnlTesIvnP44as4kSI-rmELZo,72
+gitlabenvmngr-0.1.6.dist-info/top_level.txt,sha256=NBIc9N1JBsFU-uJXNP24oFo4mM-9-I-MDpmqzV96LPI,14
+gitlabenvmngr-0.1.6.dist-info/RECORD,,
