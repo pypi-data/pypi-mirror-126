@@ -1,0 +1,9 @@
+README.md
+setup.py
+ascord/__init__.py
+ascord/ascordfuncs.py
+ascord.egg-info/PKG-INFO
+ascord.egg-info/SOURCES.txt
+ascord.egg-info/dependency_links.txt
+ascord.egg-info/requires.txt
+ascord.egg-info/top_level.txt
