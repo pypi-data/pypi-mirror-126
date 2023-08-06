@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: dualsoundsync
+Version: 0.1.0
+Summary: Python command line for syncing audio video recordings with YaLTC tracks.
+Home-page: https://git.sr.ht/~proflutz/dualsoundsync
+Author: Raymond Lutz
+Author-email: lutzray@mac.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: ffmpeg (==1.4)
+Requires-Dist: loguru (==0.5.3)
+Requires-Dist: matplotlib (==3.4.3)
+Requires-Dist: numpy (==1.20.3)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: rich (==10.12.0)
+Requires-Dist: scipy (==1.7.1)
+
+dualsoundsync
+=============
+
+This is a structure template for Python command line applications, ready to be
+released and distributed via setuptools/PyPI/pip for Python 2 and 3.
+
+Please have a look at the corresponding article:
+http://gehrcke.de/2014/02/distributing-a-python-command-line-application/
+
+
+Usage
+-----
+
+Clone this repository and adopt the dualsoundsync structure for your own project.
+This is just a starting point, but I hope a good one. From there on, you should
+read and follow https://packaging.python.org/,
+the definite resource on Python packaging.
+
+
+
+Behavior
+--------
+
+Flexible invocation
+*******************
+
+The application can be run right from the source directory, in different
+ways:
+
+1) Treating the dualsoundsync directory as a package *and* as the main script::
+
+    $ python -m dualsoundsync arg1 arg2
+    Executing dualsoundsync version 0.2.0.
+    List of argument strings: ['arg1', 'arg2']
+    Stuff and Boo():
+    <class 'dualsoundsync.stuff.Stuff'>
+    <dualsoundsync.dualsoundsync.Boo object at 0x7f43d9f65a90>
+    
+2) Using ``setup.py develop`` (documented `here <https://setuptools.readthedocs.io/en/latest/setuptools.html#development-mode>`_)::
+
+    # This installs the dualsoundsync command linking back
+    # to the current checkout, quite neat for development!
+    $ python setup.py develop
+    ...
+    $ dualsoundsync arg1 arg2
+
+
+3) Using the dualsoundsync-runner.py wrapper::
+
+    $ ./dualsoundsync-runner.py arg1 arg2
+    Executing dualsoundsync version 0.2.0.
+    List of argument strings: ['arg1', 'arg2']
+    Stuff and Boo():
+    <class 'dualsoundsync.stuff.Stuff'>
+    <dualsoundsync.dualsoundsync.Boo object at 0x7f149554ead0>
+
+   
+Installation sets up dualsoundsync com
+**************************************
+
+Situation before installation::
+
+    $ dualsoundsync
+    bash: dualsoundsync: command not found
+
+Installation right from the source tree (or via pip from PyPI)::
+
+    $ python setup.py install
+
+Now, the ``dualsoundsync`` command is available::
+
+    $ dualsoundsync arg1 arg2
+    Executing dualsoundsync version 0.2.0.
+    List of argument strings: ['arg1', 'arg2']
+    Stuff and Boo():
+    <class 'dualsoundsync.stuff.Stuff'>
+    <dualsoundsync.dualsoundsync.Boo object at 0x7f366749a190>
+
+
+On Unix-like systems, the installation places a ``dualsoundsync`` script into a
+centralized ``bin`` directory, which should be in your ``PATH``. On Windows,
+``dualsoundsync.exe`` is placed into a centralized ``Scripts`` directory which
+should also be in your ``PATH``.
+
+
