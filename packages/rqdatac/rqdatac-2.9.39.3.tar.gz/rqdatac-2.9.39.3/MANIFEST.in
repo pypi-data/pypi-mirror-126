@@ -1,0 +1,4 @@
+include README.md
+recursive-include rqdatac *.pyi
+include rqdatac/_version.py
+include versioneer.py
