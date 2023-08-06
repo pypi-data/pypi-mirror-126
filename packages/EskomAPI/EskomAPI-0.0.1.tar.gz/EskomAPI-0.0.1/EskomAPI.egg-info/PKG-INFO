@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: EskomAPI
+Version: 0.0.1
+Summary: Eskom RestAPI for LoadShedding in Python
+Home-page: https://adgstudios.co.za
+Author: Ashlin Darius Govindasamy
+Author-email: adgrules@hotmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
