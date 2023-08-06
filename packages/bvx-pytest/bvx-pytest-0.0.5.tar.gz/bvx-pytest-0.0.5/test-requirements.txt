@@ -1,0 +1,7 @@
+bvx-docker
+bvx-network
+docker
+elasticsearch
+pytest~=6.2.5
+
+# EOF
