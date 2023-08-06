@@ -1,0 +1,8 @@
+aiohttp==3.7.4.post0
+pyppeteer==0.2.6
+requests==2.26.0
+typing-extensions==3.10.0.2
+
+[dev]
+black==21.9b0
+pre-commit==2.15.0
