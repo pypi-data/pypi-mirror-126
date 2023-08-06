@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ghostml/__init__.py
+src/ghostml/ghost.py
+src/ghostml.egg-info/PKG-INFO
+src/ghostml.egg-info/SOURCES.txt
+src/ghostml.egg-info/dependency_links.txt
+src/ghostml.egg-info/requires.txt
+src/ghostml.egg-info/top_level.txt
