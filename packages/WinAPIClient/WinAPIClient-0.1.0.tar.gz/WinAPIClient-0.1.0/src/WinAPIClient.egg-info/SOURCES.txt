@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/WinAPIClient.egg-info/PKG-INFO
+src/WinAPIClient.egg-info/SOURCES.txt
+src/WinAPIClient.egg-info/dependency_links.txt
+src/WinAPIClient.egg-info/top_level.txt
+src/winapiclient/__init__.py
+src/winapiclient/winapiclient.py
