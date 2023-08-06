@@ -1,0 +1,14 @@
+fontTools
+
+[dev]
+coverage
+pytest
+tox
+flake8
+mypy
+isort
+
+[maintain]
+wheel
+setuptools
+twine
