@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyconversions
+Version: 0.0.8
+Summary: Convert Unit Length Datas
+Home-page: UNKNOWN
+Author: Logan
+Author-email: <lgnx@gnamil.com>
+License: UNKNOWN
+Keywords: python,unitlength,length,distances,diameters,meters
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+Convert all types of Unit Length Datas. The one's in this Package are 
+* Inches 
+* Feet 
+* Yard 
+* Millimeter 
+* Centimeter 
+* Decimeter 
+* Decameter 
+* Hectometer 
+* Meter 
+* Kilometer 
+ Other than Unit Lengths the ones added in the package are 
+* Fahrenheit 
+* Celsius 
+ To convert a certain Unit Data or Temperature use:
+* import pyconversions.pyconv as pycv 
+ and after that for an instance to convert 12 Inches to Meters use: 
+* pycv.Inches(12).toMeters() 
+ or to convert 12 Meters to Centimeters use: 
+* pycv.Meters(12).toCentimeters() 
+
+
