@@ -1,0 +1,4 @@
+ophac_cpp==0.4.1
+numpy
+matplotlib
+scipy
