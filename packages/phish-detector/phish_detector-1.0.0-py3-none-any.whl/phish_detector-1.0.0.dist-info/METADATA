@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: phish-detector
+Version: 1.0.0
+Summary: A discord webhook client written in Python.
+Home-page: https://github.com/ElijahGives/phish-detector
+Author: ElijahGives
+Author-email: elijahgives13@gmail.com
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# PhishDetector
+This module was made so you can check a URL and see if it's in discord's official list of phishing and suspicious URLs.
+
+## Usage
+```python
+import core
+detector = core.PhishDetector()
+
+results = detector.check("https://ds-nitro.com/log") # True
+results_2 = detector.check("https://discord.com") # False
+```
+
