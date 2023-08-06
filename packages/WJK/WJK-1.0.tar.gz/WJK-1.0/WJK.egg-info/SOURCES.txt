@@ -1,0 +1,6 @@
+qingqing.py
+setup.py
+WJK.egg-info/PKG-INFO
+WJK.egg-info/SOURCES.txt
+WJK.egg-info/dependency_links.txt
+WJK.egg-info/top_level.txt
