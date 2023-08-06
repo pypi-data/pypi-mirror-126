@@ -1,0 +1,9 @@
+README.md
+setup.py
+jaxtoolz/__init__.py
+jaxtoolz/rand.py
+jaxtoolz/sort.py
+jaxtoolz.egg-info/PKG-INFO
+jaxtoolz.egg-info/SOURCES.txt
+jaxtoolz.egg-info/dependency_links.txt
+jaxtoolz.egg-info/top_level.txt
