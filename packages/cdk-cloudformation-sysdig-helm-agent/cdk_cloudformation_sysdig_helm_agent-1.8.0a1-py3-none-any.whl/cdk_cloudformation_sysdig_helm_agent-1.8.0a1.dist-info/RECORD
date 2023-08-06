@@ -1,0 +1,9 @@
+cdk_cloudformation_sysdig_helm_agent/__init__.py,sha256=-w_2XxI7wTWTra2IjLvIDfjq2LHPQ5g_DPeaeNRJ71w,13236
+cdk_cloudformation_sysdig_helm_agent/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_cloudformation_sysdig_helm_agent/_jsii/__init__.py,sha256=BAqW_p6qJ-1IX2J6gQW1AiP3Cqgjxmq9y22xtv3iCaI,421
+cdk_cloudformation_sysdig_helm_agent/_jsii/sysdig-helm-agent@1.8.0-alpha.1.jsii.tgz,sha256=QevpsOGxylfs7VYIkju13sVT_-0ZGy4msLy03QTKcA8,25992
+cdk_cloudformation_sysdig_helm_agent-1.8.0a1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_cloudformation_sysdig_helm_agent-1.8.0a1.dist-info/METADATA,sha256=1eWmmDE9OnRuVk1_apBXrdHAspYDA2kDh2aWl-dOpPQ,1306
+cdk_cloudformation_sysdig_helm_agent-1.8.0a1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cdk_cloudformation_sysdig_helm_agent-1.8.0a1.dist-info/top_level.txt,sha256=UE91tMzjGqLsVMNmITs1cCu4-PfOV25DjyWKBLRFJqs,37
+cdk_cloudformation_sysdig_helm_agent-1.8.0a1.dist-info/RECORD,,
