@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: mkdocs-izsam-search
+Version: 0.1.6
+Summary: MkDocs plugin to extend search functions
+Home-page: UNKNOWN
+Author: Alessandro De Luca
+Author-email: al.deluca@izs.it
+License: MIT
+Keywords: MkDocs,Search
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# mkdocs-search-izsam
+
+This is a MkDocs plugin that extends native search plugin in order to allow searches work locally. It will write a .js (file instead of a .json) that can be load in a theme using:
+
+```html
+<script src="{{ 'search/search_index.js'|url }}"></script>
+```
+
+#### Important!
+
+The plugin is intended to work only with custom themes. The theme should be configured to use the `search_index_only` option as `true`.
+
+```yaml
+theme:
+  name: null
+  custom_dir: your_custom_theme
+  include_search_page: true
+  search_index_only: true
+```
+
+For additional information please refer to [https://www.mkdocs.org/dev-guide/themes/#search-and-themes](https://www.mkdocs.org/dev-guide/themes/#search-and-themes)
+
+## Setup
+
+Install the plugin using pip:
+
+`pip install mkdocs-izsam-search`
+
+Activate the plugin in `mkdocs.yml`:
+```yaml
+plugins:
+  - izsam-search
+```
+
+> **Note:** If you have no `plugins` entry in your config file yet, you'll likely also want to add the `search` plugin. MkDocs enables it by default if there is no `plugins` entry set.
+
+More information about plugins in the [MkDocs documentation][mkdocs-plugins].
+
+## See Also
+
+[mkdocs-plugins]: http://www.mkdocs.org/user-guide/plugins/
+[mkdocs-template]: https://www.mkdocs.org/user-guide/custom-themes/#template-variables
+[mkdocs-block]: https://www.mkdocs.org/user-guide/styling-your-docs/#overriding-template-blocks
+
+
+# Change log
+
+## [0.1.6] - 2021-11-10
+
+### Configuration error
+- Configuration error: mkdocs_izsam_search.search_index.SearchIndex must be a subclass of mkdocs.plugins.BasePlugin. Changed entry_points in setup.py
+
+## [0.1.5] - 2021-11-10
+
+### Setup
+- different syntax for setup()
+
+## [0.1.4] - 2021-11-10
+
+### Setup
+- entry_points declaration in setup()
+
+## [0.1.3] - 2021-11-10
+
+### Debug on MANIFEST.in
+- Modified `MANIFEST.in` there was an error causing import data issues
+
+## [0.1.2] - 2021-11-10
+
+### Edited
+- `README.md`
+
+## [0.0.1] - 2021-11-10
+
+### Added
+- `HISTORY.md`
+
+
