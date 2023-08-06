@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: armadillin
+Version: 0.53
+Summary: Lineage prediction from SARS-CoV-2 sequences
+Home-page: https://github.com/theosanderson/armadillin
+Author: Theo Sanderson
+Author-email: theo@theo.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/theosanderson/armadillin/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (==2.6.0)
+Requires-Dist: keras (==2.6.0)
+Requires-Dist: tqdm
+Requires-Dist: biopython
+Requires-Dist: tensorflow-model-optimization (==0.7.0)
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: cython
+Requires-Dist: armadillin-model
+Requires-Dist: flowalign
+
+# Armadillin
+
+### This is an experimental tool under development. The recommended method for calling lineages remains normal Pangolin: https://github.com/cov-lineages/pangolin
+
+_A Re-engineered Method Allowing DetermInation of viraL LINeages_
+
+Armadillin is an experimental alternative approach to training models on [lineages designated by the PANGO team](https://github.com/cov-lineages/pango-designation).
+
+Armadillin uses dense neural networks for assignment, which means it doesn't have to assume that positions with an N are the reference sequence. Armadillin is still very fast, in part because it sparsifies the feature input to this neural net during training.
+
+## Installation
+
+### With pipx (self-contained):
+```
+pip install --local pipx
+pipx install  armadillin
+```
+
+### or in your environment:
+```
+pip3 install armadillin
+```
+
+## Usage
+
+We'll use a NextStrain open sampled file for a demo:
+
+```
+wget https://data.nextstrain.org/files/ncov/open/global/sequences.fasta.xz
+```
+
+```
+armadillin sequences.fasta.xz
+```
+
+or
+
+```
+armadillin sequences.fasta.xz > output.tsv
+```
+
+If you have sequences already aligned to the reference you can make inference much faster using the `--seqs_are_aligned` parameter: 
+
+```
+wget https://data.nextstrain.org/files/ncov/open/global/aligned.fasta.xz
+armadillin aligned.fasta.xz --seqs_are_aligned > output.tsv
+```
+
+## Related tools
+
+[Pangolin](https://github.com/cov-lineages/pangolin) is the OG for assigning lineages
+
+
