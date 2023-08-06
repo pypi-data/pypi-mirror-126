@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cpp-package-for-python
+Version: 0.0.1
+Summary: pybind11 extension
+Home-page: UNKNOWN
+Author: user
+Author-email: user@user.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: pybind11
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+
+Test
+
