@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: kafka_outbound_async
+Version: 0.6
+Summary: Kafka service provider for Outbound traffic in asynchronous mode
+Home-page: https://github.com/QuanticData
+Author: Abdallah Ben Hamida
+Author-email: noemail@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: dict,python,kafka
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
