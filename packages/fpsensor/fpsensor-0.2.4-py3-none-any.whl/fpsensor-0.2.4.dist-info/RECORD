@@ -1,0 +1,8 @@
+fpsensor/__init__.py,sha256=CErAeaYOGBiccHkNIC0nNrgwWKvr-9yzSM3qj-CEB1w,23
+fpsensor/api.py,sha256=RAIosawfCh1xbdRMyLYzuI4W1rv2xsSJ4ZOqdadsI1k,11951
+fpsensor/packet.py,sha256=JEI9AAe7tRcP6bDlIg9iav3oPMVAVwK0qRa3yygDx2Y,6790
+fpsensor/sdk.py,sha256=Ff0GuILxXtt5rF-gtG0K3Z0qCDYpGJ13PHQcV5iHi1U,32447
+fpsensor-0.2.4.dist-info/entry_points.txt,sha256=WvpRDzxA89FydfjDf6w6TbO1XrwQAB-ZbLlx4wtRip4,278
+fpsensor-0.2.4.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+fpsensor-0.2.4.dist-info/METADATA,sha256=bry-U3Nlu7GHVJY9cPadOT7TUdn-UvxidKwI9vsLd9I,1460
+fpsensor-0.2.4.dist-info/RECORD,,
