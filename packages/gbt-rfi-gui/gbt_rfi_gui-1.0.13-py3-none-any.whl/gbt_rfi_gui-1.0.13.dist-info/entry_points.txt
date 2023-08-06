@@ -1,0 +1,3 @@
+[console_scripts]
+gbt_rfi_gui = gbt_rfi_gui:main
+
