@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: chkdns
+Version: 0.1.1
+Summary: A tool to check global dns propagation
+Home-page: https://github.com/chelnak/chkdns
+License: MIT
+Author: Craig Gumbley
+Author-email: craiggumbley@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: httpx (>=0.20.0,<0.21.0)
+Requires-Dist: mypy (>=0.910,<0.911)
+Requires-Dist: rich (>=10.13.0,<11.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
