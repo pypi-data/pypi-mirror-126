@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "many_requests_cli"
+version = "0.1.1"
+description = "CLI app to send muliple requests to endpoint."
+authors = ["Yves Tumushimire <ytumushimire@truststamp.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.10b0"
+
+[tool.poetry.scripts]
+mrc = "many_requests_cli.main:app"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
