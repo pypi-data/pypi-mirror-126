@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flaskstream2py
+Version: 0.0.2
+Summary: stream2py interface to flask
+Home-page: https://github.com/i2mint/flaskstream2py
+Author: OtoSense
+License: apache-2.0
+Description: 
+        # flaskstream2py
+        stream2py interface to flask
+        
+        
+        To install:	```pip install flaskstream2py```
+        
+Platform: any
+Description-Content-Type: text/markdown
