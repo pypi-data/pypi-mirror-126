@@ -1,0 +1,4 @@
+[console_scripts]
+eltetrado = quadruplex.analysis:eltetrado
+has_tetrad = quadruplex.analysis:has_tetrad
+
