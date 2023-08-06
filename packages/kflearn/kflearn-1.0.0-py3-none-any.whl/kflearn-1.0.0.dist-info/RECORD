@@ -1,0 +1,17 @@
+kflearn/__init__.py,sha256=wMqfFlO9VxP_a7Dn0JKfRxe-azoZpA_q1rV6gj5o_RA,685
+kflearn/config_ini.py,sha256=OFks2ySgvNCJOi75bSkstQul2aUFPQjRqy66lf8-lSQ,5595
+kflearn/config_ops.py,sha256=epORqBmoImb75Dqurnz1zW5QdKoxni0BsYXidf1gtFA,3147
+kflearn/constant_utils.py,sha256=FIHELhAoURW0AZ0oNgW3YdVeOkzCb4w_gxsC1g6kzVs,966
+kflearn/data_ops.py,sha256=WIsEBHeUXMkZEXwZOBUg-3kf6Cxp8mVWat0ceaj7R_w,3423
+kflearn/file_util.py,sha256=NzC-nPmmM7SXWGE6YtFi7MdHZgVYtFa05JmhBFp33wo,3777
+kflearn/logging.py,sha256=czFwXYvPUytgV9AFfG12bkCPg4nb1Koi7ZyJjHA0CQI,1171
+kflearn/metrics_ops.py,sha256=KfQ08aGhod-ObMNi7u5IA2J7wSV2Sosw64hu7aa6idA,1365
+kflearn/model_ops.py,sha256=Mp8oGHvIDpXsooENAVqd4uTSEv4tses9f-3A3DXTovc,1331
+kflearn/setup.py,sha256=ZuG-oXlNqiO6aCbbixE1HvhtDQRoODUqRkZ34BnCRig,1050
+kflearn/train_ops.py,sha256=sWFdxpejL8fsyPmus8iAjC7cw1-ZuE_d4EAmeCRokwI,2385
+kflearn-1.0.0.dist-info/DESCRIPTION.rst,sha256=zS54wBVgy3CfSq8q7qh-JWLsjwhGW64lUZGRcMV_tdQ,9
+kflearn-1.0.0.dist-info/METADATA,sha256=jFJZ7oIggLnJ1PHk65vdBEv_0X6CO4J-RFYHcaxcuHM,586
+kflearn-1.0.0.dist-info/RECORD,,
+kflearn-1.0.0.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+kflearn-1.0.0.dist-info/metadata.json,sha256=Xf-FXc4cpbOMEMnN7o8hn_y4DMIwqXOPqGI9F56g-P4,615
+kflearn-1.0.0.dist-info/top_level.txt,sha256=noJaY4XzLo_qW1Wj8EyaXnjzPw2dToP1AH8Opy4x2e0,8
