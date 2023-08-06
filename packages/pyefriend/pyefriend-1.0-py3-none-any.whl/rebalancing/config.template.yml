@@ -1,0 +1,32 @@
+core:
+  # log format
+  log_format: '[%(levelname)s] %(asctime)s - %(name)s/%(filename)s/%(funcName)s, %(lineno)s: %(message)s'
+
+  # 모의투자 계좌('-' 없이)
+  test_account: ''
+  # 모의투자 비밀번호
+  test_password: ''
+
+  # 실제 계좌명('-' 없이)
+  real_account: ''
+  # 실제 계좌 비밀번호
+  real_password: ''
+
+  # 리포트 저장 경로
+  report_dir: 'reports'
+
+# backend로 사용할 database
+database:
+  sqlalchemy_conn_str: 'sqlite:///database.db'
+
+
+rebalance:
+
+  # 계좌 전체 금액 중 사용할 금액 %
+  limit: 90%
+
+  # limit 중 국내 주식 비율
+  domestic_percent: 19%
+
+  # limit 중 외국 주식 비율
+  overseas_percent: 30%
