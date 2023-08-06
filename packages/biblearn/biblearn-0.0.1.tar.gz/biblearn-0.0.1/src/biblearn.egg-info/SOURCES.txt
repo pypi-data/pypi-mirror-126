@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/biblearn/__init__.py
+src/biblearn/sword.py
+src/biblearn/util.py
+src/biblearn.egg-info/PKG-INFO
+src/biblearn.egg-info/SOURCES.txt
+src/biblearn.egg-info/dependency_links.txt
+src/biblearn.egg-info/top_level.txt
