@@ -1,0 +1,496 @@
+# Wacom Personal Knowledge Library
+
+The library and the cloud services are still under development. 
+The required access tokens are only available for selected partner companies.
+
+> :danger:  Its is still under development, so **we do not recommend using it yet for production environments**. Moreover, it is not following any formal QA and release process, yet.
+
+## Introduction
+
+In knowledge management there is a distinction between data, information and knowledge.
+In the domain of digital ink this means:
+
+- **Data** - The equivalent would be the ink strokes
+- **Information** - After using handwriting-, shape-, math-, or other recognition processes ink strokes are converted into machine readable content, such as text, shapes, math representations, other other digital content
+- **Knowledge / Semantics** -  Beyond recognition content needs to be semantically analysed to become semantically understood based on a shared common knowledge.
+
+The following illustration shows the different layers of knowledge:
+![Levels of ink knowledge layers](./assets/knowledge-levels.png)
+
+For handling semantics, Wacom introduced the Wacom Personal Knowledge (WPK) cloud service to manage personal ontologies and its associated personal knowledge graph.
+
+This library provide simplified access to Wacom's personal knowledge cloud service.
+It contains:
+
+- Basic datastructures for Ontology object and entities from the knowledge graph
+- Clients for the REST APIs
+- Connector for Wikidata public knowledge graph
+
+**Ontology service:**
+
+- List all Ontology structures
+- Modify Ontology structures
+- Delete Ontology structures
+
+**Entity service:**
+
+- List all entities
+- Add entities to knowledge graph
+- Access object properties
+
+# Technology stack
+
+## Domain Knowledge
+
+The tasks of the ontology within Wacom's personal knowledge system is to formalised the domain the technology is used in, such as education-, smart home-, or creative domein.
+The domain model will be the foundation for the entities collected within the knowledge graph, describing real world concepts in a formal language understood by artificial intelligence system:
+
+- Foundation for structured data, knowledge representation as concepts and relations among concepts
+- Being explicit definitions of shared vocabularies for interoperability
+- Being actionable fragments of explicit knowledge that engines can use for inferencing (Reasoning)
+- Can be used for problem solving
+
+An ontology defines (specifies) the concepts, relationships, and other distinctions that are relevant for modelling a domain.
+
+## Knowledge Graph
+
+- Knowledge graph is generated from unstructured and structured knowledge sources
+- Contains all structured knowledge gathered from all sources
+- Foundation for all semantic algorithms
+
+## Semantic Technology
+
+- Extract knowledge from various sources (Connectors)
+- Linking words to knowledge entities from graph in a given text (Ontology-based Named Entity Linking)
+- Enables a smart search functionality which understands the context and finds related documents (Semantic Search)
+
+
+# Functionality
+
+## Access API
+
+The personal knowledge graph backend is implement as a multi-tenancy system.
+Thus, several tenants can be logically separated from each other and different organisations can build their one knowledge graph.
+
+![Tenant concept](./assets/tenant-concept.png)
+
+In general, a tenant with their users, groups, and entities are logically separated.
+Physically the entities are store in the same instance of the Wacom Personal Knowledge (WPK) backend database system.
+
+The user management is rather limited, each organisation must provide their own authentication service and user management.
+The backend only has a reference of the user (*“shadow user”*) by an **external user id**.
+
+The management of tenants is limited to the system owner - Wacom -, as it requires a **tenant management API** key.
+While users for each tenant can be created by the owner of the **Tenant API Key**.
+You will receive this token from the system owner after the creation of the tenant.
+
+
+> :warning: Store the **Tenant API Key** in a secure key store, as attackers can use the key to harm your system.
+
+
+The **Tenant API Key** should be only used by your authentication service to create shadow users and to login your user into the WPK backend.
+After a successful user login, you will receive a token which can be used by the user to create, update, or delete entities and relations.
+
+The following illustration summarizes the flows for creation of tenant and users:
+
+![Tenant and user creation](./assets/tenant-user-creation.png)
+
+The organisation itself needs to implement their own authentication service which:
+
+- handles the users and their passwords,
+- controls the personal data of the users,
+- connects the users with the WPK backend and share with them the user token.
+
+The WPK backend only manages the access levels of the entities and the group management for users.
+The illustration shows how the access token is received from the WPK endpoint:
+
+![Access token request.](./assets/access-token.png)
+
+# Entity API
+
+The entities used within the knowledge graph and the relationship among them is defined within an ontology that is manage with Wacom Ontology Management System (WOMS).
+
+An entity within the personal knowledge graphs consist of these major parts:
+
+- **Icon** - a visual representation of the entity, for instance a portrait of a person.
+- **URI** - a unique resource identifier of an entity in the graph.
+- **Type** - the type links to the defined concept class in the ontology.
+- **Labels** - labels are the word(s) use in a language for the concept.
+- **Description** - a short abstract that describes the entity.
+- **Literals** - literals are properties of an entity, such as first name of a person. The ontology defines all literals of the concept class as well as its data type.
+- **Relations** - the relationship among different entities is described using relations.
+
+The following illustration provides an example for an entity:
+
+![Entity description](./assets/entity-description.png)
+
+## Entity content
+
+Entities in general are language-independent as across nationalities or cultures we only use different scripts and words for a shared instance of a concept.
+
+Let's take Leonardo da Vinci as an example.
+The ontology defines the concept of a Person, a human being.
+Now, in English its label would be _Leonardo da Vinci_, while in Japanese _レオナルド・ダ・ヴィンチ_.
+Moreover, he is also known as _Leonardo di ser Piero da Vinci_ or _ダ・ビンチ_.
+
+### Labels
+
+Now, in the given example all words that a assigned to the concept are labels.
+The label _Leonardo da Vinci_ is stored in the backend with an additional language code, e.g. _en_.
+
+There is always a main label, which refers to the most common or official name of entity.
+Another example would be Wacom, where _Wacom Co., Ltd._ is the official name while _Wacom_ is commonly used and be considered as an alias.
+
+>  :info: For the language code the **ISO 639-1:2002**, codes for the representation of names of languages—Part 1: Alpha-2 code. Read more, [here](https://www.iso.org/standard/22109.html)
+
+## Samples
+
+### Entity handling
+
+This samples shows how to work with graph service.
+
+```python
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+from typing import Optional, List, Dict
+
+from knowledge.base.entity import ThingObject, LocalizedContent, LanguageCode, ObjectProperty, Description, Label
+from knowledge.base.ontology import OntologyClassReference, OntologyPropertyReference
+from knowledge.services.graph import WacomKnowledgeService
+
+# User credential 
+TENANT_KEY: str = '<TENANT-ID>'
+EXTERNAL_USER_ID: str = '<EXTERNAL-USER-ID>'
+# Knowledge entities 
+LEONARDO_DA_VINCI: str = 'Leonardo da Vinci'
+SELF_PORTRAIT_STYLE: str = 'ArtStyle:6c8d86fc-cd9f-41f1-a5c8-bcd2c91cd9ff'
+# Ontology class names
+THING_OBJECT: OntologyClassReference = OntologyClassReference('wacom', 'core', 'Thing')
+"""
+The Ontology will contain a Thing class where is the root class in the hierarchy. 
+"""
+ARTWORK_CLASS: OntologyClassReference = OntologyClassReference('wacom', 'creative', 'VisualArtwork')
+PERSON_CLASS: OntologyClassReference = OntologyClassReference('wacom', 'core', 'Person')
+ART_STYLE_CLASS: OntologyClassReference = OntologyClassReference.parse('wacom:creative#ArtStyle')
+IS_CREATOR: OntologyPropertyReference = OntologyPropertyReference('wacom', 'core', 'created')
+HAS_TOPIC: OntologyPropertyReference = OntologyPropertyReference.parse('wacom:core#hasTopic')
+CREATED: OntologyPropertyReference = OntologyPropertyReference.parse('wacom:core#created')
+HAS_ART_STYLE: OntologyPropertyReference = OntologyPropertyReference.parse('wacom:education#hasArtstyle')
+
+if __name__ == '__main__':
+    # Wacom personal knowledge REST API Client
+    knowledge_client: WacomKnowledgeService = WacomKnowledgeService(
+        application_name="Wacom Knowledge Listing",
+        service_url='https://semantic-ink-private.wacom.com')
+    knowledge_client.verify_calls = False  # TODO: Remove if it is officially deployed
+    # Use special tenant for testing:  Unit-test tenant
+    user_token: str = knowledge_client.request_user_token(TENANT_KEY, EXTERNAL_USER_ID)
+    page_id: Optional[str] = None
+    page_number: int = 1
+    entity_count: int = 0
+    print('-----------------------------------------------------------------------------------------------------------')
+    print(' First step: Find Leonardo da Vinci in the knowledge graph.')
+    print('-----------------------------------------------------------------------------------------------------------')
+    res_entities, next_search_page = knowledge_client.search_labels(auth_key=user_token, search_term=LEONARDO_DA_VINCI,
+                                                                    language_code=LanguageCode('en_US'), limit=1000)
+    leo: Optional[ThingObject] = None
+    s_idx: int = 1
+    for entity in res_entities:
+        #  Entity must be a person and the label match with full string
+        if entity.concept_type == PERSON_CLASS and LEONARDO_DA_VINCI in [l.content for l in entity.label]:
+            leo = entity
+            break
+
+    print('-----------------------------------------------------------------------------------------------------------')
+    print(' What artwork exists in the knowledge graph.')
+    print('-----------------------------------------------------------------------------------------------------------')
+    relations_dict: Dict[OntologyPropertyReference, ObjectProperty] = knowledge_client.relations(auth_key=user_token,
+                                                                                                 uri=leo.uri)
+    print(f' Artwork of {leo.label}')
+    print('-----------------------------------------------------------------------------------------------------------')
+    idx: int = 1
+    if CREATED in relations_dict:
+        for e in relations_dict[CREATED].outgoing_relations:
+            print(f' [{idx}] {e.uri}: {e.label}')
+            idx += 1
+    print('-----------------------------------------------------------------------------------------------------------')
+    print(' Let us create a new piece of artwork.')
+    print('-----------------------------------------------------------------------------------------------------------')
+
+    # Main labels for entity
+    artwork_labels: List[LocalizedContent] = [
+        Label('Ginevra Gherardini', LanguageCode('en_US')),
+        Label('Ginevra Gherardini', LanguageCode('de_DE'))
+    ]
+    # Alias labels for entity
+    artwork_alias: List[LocalizedContent] = [
+        Label("Ginevra", LanguageCode('en_US')),
+        Label("Ginevra", LanguageCode('de_DE'))
+    ]
+    # Topic description
+    artwork_description: List[LocalizedContent] = [
+        Description('Oil painting of Mona Lisa\' sister', LanguageCode('en_US')),
+        Description('Ölgemälde von Mona Lisa\' Schwester', LanguageCode('de_DE'))
+    ]
+    # Topic
+    artwork_object: ThingObject = ThingObject(label=artwork_labels, concept_type=ARTWORK_CLASS,
+                                              description=artwork_alias)
+    artwork_object.alias = artwork_alias
+    print(f' Create: {artwork_object}')
+    # Create artwork
+    artwork_entity_uri: str = knowledge_client.create_entity(user_token, artwork_object)
+    print(f' Entity URI: {artwork_entity_uri}')
+
+    # Create relation between Leonardo da Vinci and artwork
+    knowledge_client.create_relation(auth_key=user_token, source=leo.uri, relation=IS_CREATOR,
+                                     target=artwork_entity_uri)
+
+    relations_dict = knowledge_client.relations(auth_key=user_token, uri=artwork_entity_uri)
+    for ontology_property, object_property in relations_dict.items():
+        print(f'  {object_property}')
+    # You will see that wacom:core#isCreatedBy is automatically inferred as relation as it is the inverse property of
+    # wacom:core#created.
+
+    # Now, more search options
+    res_entities, next_search_page = knowledge_client.search_description(user_token, 'Michelangelo\'s Sistine Chapel',
+                                                                         LanguageCode('en_US'), limit=1000)
+    print('-----------------------------------------------------------------------------------------------------------')
+    print(' Search results.  Description: "Michelangelo\'s Sistine Chapel"')
+    print('-----------------------------------------------------------------------------------------------------------')
+    s_idx: int = 1
+    for e in res_entities:
+        print_entity(e, s_idx, user_token, knowledge_client)
+
+    # Now, let's search all artwork that has the art style self-portrait
+    res_entities, next_search_page = knowledge_client.search_relation(auth_key=user_token,
+                                                                      subject_uri=None,
+                                                                      relation=HAS_ART_STYLE,
+                                                                      object_uri=SELF_PORTRAIT_STYLE,
+                                                                      language_code=LanguageCode('en_US'))
+    print('-----------------------------------------------------------------------------------------------------------')
+    print(' Search results.  Relation: relation:=has_topic  object_uri:= unknown')
+    print('-----------------------------------------------------------------------------------------------------------')
+    s_idx: int = 1
+    for e in res_entities:
+        print_entity(e, s_idx, user_token, knowledge_client, short=True)
+        s_idx += 1
+
+    # Finally, the activation function retrieving the related identities to a pre-defined depth.
+    entities, relations = knowledge_client.activations(auth_key=user_token,
+                                                       uris=[leo.uri],
+                                                       depth=1)
+    print('-----------------------------------------------------------------------------------------------------------')
+    print(f'Activation.  URI: {leo.uri}')
+    print('-----------------------------------------------------------------------------------------------------------')
+    s_idx: int = 1
+    for e in res_entities:
+        print_entity(e, s_idx, user_token, knowledge_client)
+        s_idx += 1
+    # All relations
+    print('-----------------------------------------------------------------------------------------------------------')
+    for r in relations:
+        print(f'Subject: {r[0]} Predicate: {r[1]} Object: {r[2]}')
+    print('-----------------------------------------------------------------------------------------------------------')
+    page_id = None
+
+    # Listing all entities which have the type
+    idx: int = 1
+    while True:
+        # pull
+        entities, total_number, next_page_id = knowledge_client.listing(user_token, ART_STYLE_CLASS, page_id=page_id,
+                                                                        limit=100)
+        pulled_entities: int = len(entities)
+        entity_count += pulled_entities
+        print('-------------------------------------------------------------------------------------------------------')
+        print(f' Page: {page_number} Number of entities: {len(entities)}  ({entity_count}/{total_number}) '
+              f'Next page id: {next_page_id}')
+        print('-------------------------------------------------------------------------------------------------------')
+        for e in entities:
+            print_entity(e, idx, user_token, knowledge_client)
+            idx += 1
+        if pulled_entities == 0:
+            break
+        page_number += 1
+        page_id = next_page_id
+    print()
+    # Delete all personal entities for this user
+    while True:
+        # pull
+        entities, total_number, next_page_id = knowledge_client.listing(user_token, THING_OBJECT, page_id=page_id,
+                                                                        limit=100)
+        pulled_entities: int = len(entities)
+        if pulled_entities == 0:
+            break
+        delete_uris: List[str] = [e.uri for e in entities]
+        print(f'Cleanup. Delete entities: {delete_uris}')
+        knowledge_client.delete_entities(auth_key=user_token, uris=delete_uris, force=True)
+        page_number += 1
+        page_id = next_page_id
+    print('-----------------------------------------------------------------------------------------------------------')
+
+```
+
+### Named Entity Linking 
+
+Performing Named Entity Linking (NEL) on text and Universal Ink Model.
+
+```python
+from typing import List, Dict
+
+import urllib3
+
+from knowledge.base.ontology import OntologyPropertyReference
+from knowledge.services.graph import WacomKnowledgeService
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+from knowledge.base.entity import LanguageCode, ThingObject, ObjectProperty
+from knowledge.nel.base import KnowledgeGraphEntity
+from knowledge.nel.engine import WacomEntityLinkingEngine
+
+if __name__ == '__main__':
+    # Wacom personal knowledge REST API Client
+    knowledge_client: WacomKnowledgeService = WacomKnowledgeService(
+        application_name="Wacom Knowledge Listing",
+        service_url='https://semantic-ink-private.wacom.com')
+    knowledge_client.verify_calls = False  # TODO: Remove if it is officially deployed
+
+    #  Wacom Named Entity Linking
+    nel_client: WacomEntityLinkingEngine = WacomEntityLinkingEngine(
+        service_url='https://semantic-ink-private.wacom.com')
+    nel_client.verify_calls = False  # TODO: Remove if it is officially deployed
+    # Use special tenant for testing:  Unit-test tenant
+    user_token: str = nel_client.request_user_token('<USER-ID>', '<TENANT-ID>')
+    entities: List[KnowledgeGraphEntity] = nel_client.
+    link_personal_entities(user_token=user_token, text="John Doe is used,  if a name is unknown.",
+                           language=LanguageCode("en_US"))
+idx: int = 1
+
+# Iterate over the resulting entities
+for e in entities:
+    thing: ThingObject = knowledge_client.entity(auth_key=user_token, uri=e.entity_source.uri)
+    idx += 1
+
+```
+
+Now, for the Universal Ink Model.
+
+```python
+
+import urllib3
+
+from knowledge.base.ontology import OntologyPropertyReference
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+from uim.codec.parser.uim import UIMParser
+from uim.model.helpers.text_extractor import uim_extract_text_and_semantics_from
+from uim.model.ink import InkModel
+from uim.model.semantics.syntax import CommonViews, SEMANTIC_HAS_URI, SEMANTIC_HAS_LABEL
+
+from knowledge.base.entity import LanguageCode, ThingObject, ObjectProperty
+from knowledge.nel.engine import WacomEntityLinkingEngine
+from knowledge.nel.uim import UIMEntityLinkerEngine
+from knowledge.services.graph import WacomKnowledgeService
+
+if __name__ == '__main__':
+    # Wacom personal knowledge REST API Client
+    knowledge_client: WacomKnowledgeService = WacomKnowledgeService(
+        application_name="Wacom Knowledge Listing",
+        service_url='https://semantic-ink-private.wacom.com')
+    knowledge_client.verify_calls = False  # TODO: Remove if it is officially deployed
+
+    # Location of ink file
+    uim_ink: Path = Path('../ink/unknown.uim')
+    uim_parser: UIMParser = UIMParser()
+    ink_model: InkModel = uim_parser.parse(uim_ink)
+
+    # Implementation of personal knowledge
+    personal_knowledge: WacomEntityLinkingEngine = WacomEntityLinkingEngine(
+        service_url='https://semantic-ink-private.wacom.com')
+    personal_knowledge.verify_calls = False  # TODO: Remove if it is officially deployed
+
+    # Wacom personal knowledge REST API Client
+    wacom_client: WacomKnowledgeService = WacomKnowledgeService(
+        application_name="Wacom Knowledge Listing",
+        service_url='https://semantic-ink-private.wacom.com')
+
+    # Use UIM linking
+    uim_client: UIMEntityLinkerEngine = UIMEntityLinkerEngine()
+
+    # Use personal knowledge
+    uim_client.personal_entity_linking_engine = personal_knowledge
+
+    # Use special tenant for testing:  Unit-test tenant
+    user_token: str = personal_knowledge.request_user_token('<USER-ID>', '<TENANT-ID>')
+    enriched_model: InkModel = uim_client.nel(ink_model=ink_model, user_token=user_token,
+                                              language_code=LanguageCode('en_US'))
+
+    text_lines, entities = uim_extract_text_and_semantics_from(enriched_model, hwr_view=CommonViews.HWR_VIEW.value,
+                                                               ner_view=CommonViews.NER_VIEW.value)
+
+    idx: int = 1
+    for e in entities:
+        if 'statements' in e:
+            thing: ThingObject = knowledge_client.entity(auth_key=user_token, uri=e["statements"][SEMANTIC_HAS_URI])
+            print_entity(thing, idx, user_token, knowledge_client)
+            idx += 1
+```
+
+## Tools
+
+The following samples show how to utilize the library to work with Wacom's Personal Knowledge.
+
+### Listing script
+
+Listing the entities for tenant. 
+
+```bash
+>> python listing.py [-h] [-u USER] [-t TENANT] [-r]
+```
+
+**Parameters:**
+
+  - _-u USER, --user USER_ - External ID to identify user of the Wacom Personal Knowledge 
+  - _-t TENANT, --tenant TENANT_ - Tenant key to identify tenant
+  - _-r, --relations (optional)_ -  Requesting the relations for each entity
+
+### Dump script
+
+Dump all entities of a user to a ndjson file. 
+
+```bash
+>> python  dump.py [-h] [-u USER] [-t TENANT] [-r] [-d DUMP]
+```
+
+**Parameters:**
+
+  - _-u USER, --user USER_ - External ID to identify user of the Wacom Personal Knowledge 
+  - _-t TENANT, --tenant TENANT_ - Tenant key to identify tenant
+  - _-r, --relations (optional)_ -  Requesting the relations for each entity
+  - _-d DUMP, --dump DUMP_ -  Defines the location of an ndjson file
+ 
+### Push entities script
+
+Pushing entities to knowledge graph.
+
+```bash
+>> python push_entities.py [-h] [-u USER] [-t TENANT] [-r]
+```
+
+**Parameters:**
+
+- _-u USER, --user USER_ - External ID to identify user of the Wacom Personal Knowledge 
+- _-t TENANT, --tenant TENANT_ - Tenant key to identify tenant
+- _-i CACHE, --cache CACHE_ - Path to entities that must be imported.
+  
+# Documentation
+
+You can find more detailed technical documentation, [here](https://developer-docs.wacom.com/preview/semantic-ink/).
+API documentation is available [here](./docs/).
+
+## Contributing
+Contribution guidelines are still work in progress.
+
+## License
+[Apache License 2.0](LICENSE)
