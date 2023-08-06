@@ -1,0 +1,14 @@
+LICENSE
+NOTICE.md
+README.rst
+pyproject.toml
+setup.py
+src/DOMObjects/__init__.py
+src/DOMObjects/flags.py
+src/DOMObjects/leaf.py
+src/DOMObjects/schema.py
+src/DOMObjects.egg-info/PKG-INFO
+src/DOMObjects.egg-info/SOURCES.txt
+src/DOMObjects.egg-info/dependency_links.txt
+src/DOMObjects.egg-info/requires.txt
+src/DOMObjects.egg-info/top_level.txt
