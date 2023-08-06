@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: low-code-dags
+Version: 0.0.1
+Summary: Making Airflow simple.
+Home-page: UNKNOWN
+Author: Autodesk
+Author-email: chad.pollard@autodesk.com
+License: MIT
+Description: low-code-dags
+        =============
+        
+        .. image:: https://img.shields.io/pypi/v/low-code-dags.svg
+            :target: https://pypi.python.org/pypi/low-code-dags
+            :alt: Latest PyPI version
+        
+        .. image:: https://travis-ci.org/kragniz/cookiecutter-pypackage-minimal.png
+           :target: https://travis-ci.org/kragniz/cookiecutter-pypackage-minimal
+           :alt: Latest Travis CI build status
+        
+        Making Airflow simple.
+        
+        Usage
+        -----
+        
+        Installation
+        ------------
+        
+        Requirements
+        ^^^^^^^^^^^^
+        
+        Compatibility
+        -------------
+        
+        Licence
+        -------
+        
+        Authors
+        -------
+        
+        `low-code-dags` was written by `Autodesk <chad.pollard@autodesk.com>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
