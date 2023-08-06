@@ -1,0 +1,17 @@
+#-*-coding:utf-8-*-
+时间字符串按照本身格式转为时间戳strToTimeStamp(timeStr, timeFmt):
+   
+时间戳转为一定格式的时间字符串timeStampToStr(timeStamp, timeFmt):
+   
+计算两个时间字符串之间的差值，可以按照秒(s)、分(m)、小时(h)返回，默认返回秒timeMinusStr(start_time_str, end_time_str, time_fmt, timeType):
+   
+计算两个时间戳之间的差值，可以按照秒(s)、分(m)、小时(h)返回，默认返回秒timeMinusStamp(start_time, end_time, timeType):
+   
+将时间戳转为世界时间字符串timeStrToUTCStr(time_str, timeFmt):
+
+时间字符串添加分钟和小时后返回时间字符串strTimeAddMinHour(str_p, mins, hours):
+
+时间字符串添加分钟和小时后返回时间字符串strTimeAddMinHourByFmt(str_p, mins, hours, fmt):
+
+获取两个时间字符串之间，所有的日期getDatesByTimes(sDateStr, eDateStr):
+  
