@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: cdk-cloudformation-awsqs-kubernetes-resource
+Version: 1.15.0a1
+Summary: Applys a YAML manifest to the specified Kubernetes cluster
+Home-page: https://github.com/aws-quickstart/quickstart-kubernetes-resource-provider/blob/main/README.md
+Author: Amazon Web Services
+License: Apache-2.0
+Project-URL: Source, https://github.com/cdklabs/cdk-cloudformation.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AWS CDK CloudFormation Constructs for AWSQS::Kubernetes::Resource
+
+Applys a YAML manifest to the specified Kubernetes cluster
+
+## References
+
+* [Documentation](https://github.com/aws-quickstart/quickstart-kubernetes-resource-provider/blob/main/README.md)
+* [Source](https://github.com/aws-quickstart/quickstart-amazon-eks.git)
+
+## License
+
+Distributed under the Apache-2.0 License.
+
+
