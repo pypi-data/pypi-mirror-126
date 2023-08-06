@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+dimetadata_api/__init__.py
+dimetadata_api/catalog.py
+dimetadata_api/container.py
+dimetadata_api/dcat_ap2_read.py
+dimetadata_api/glossary.py
+dimetadata_api.egg-info/PKG-INFO
+dimetadata_api.egg-info/SOURCES.txt
+dimetadata_api.egg-info/dependency_links.txt
+dimetadata_api.egg-info/requires.txt
+dimetadata_api.egg-info/top_level.txt
