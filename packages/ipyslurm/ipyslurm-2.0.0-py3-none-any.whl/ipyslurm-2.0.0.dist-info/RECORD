@@ -1,0 +1,12 @@
+ipyslurm/__init__.py,sha256=EAwP4AAuF6gQcwHyYW43jDjCyb8ekxTtebXmRpYpRdM,215
+ipyslurm/ipyslurm.py,sha256=gIX_L55oMwlaAPJPFBq926u1Gv8im9cLYWeEkvbYp_k,4685
+ipyslurm/sftp.py,sha256=n3oP3pk4L5R_133YGCuH2fUHPWBgcEtBwLDeq84z-UE,11686
+ipyslurm/slurm.py,sha256=aFAjp_pihA3Uv2nQa8yDIesxKjtYgV-TNvzGgroHoA4,6882
+ipyslurm/ssh.py,sha256=J3bLH3K5GtmyqQs_1sh9BOL_INMDZjsbgBnB2WjSNWc,3008
+ipyslurm/util.py,sha256=N8xAGe5NpDQf2IqQ2XHt3uK9udAzCtayxb36oQCxl9A,259
+ipyslurm/version.py,sha256=LyM9mUVOg4-7GD_QQ0739y9k8ltWGfteqZDP06qDXR8,23
+ipyslurm-2.0.0.dist-info/LICENSE.md,sha256=L0F_NplHTDrh1pchQL7HTuMRHSdtkc1r_XijXy-KV_s,1099
+ipyslurm-2.0.0.dist-info/METADATA,sha256=4-Unx-xiSLjd6S322BLRQTMpErrSZ7ylTlY8ArVSXUM,1756
+ipyslurm-2.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ipyslurm-2.0.0.dist-info/top_level.txt,sha256=GVbkzgieShAmyRAIIQ3VlTn10K36LTyoaoPtMCUkApQ,9
+ipyslurm-2.0.0.dist-info/RECORD,,
