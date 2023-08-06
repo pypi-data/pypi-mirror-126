@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: randvars
+Version: 0.0.3
+Summary: A library of random variate generation routines
+Home-page: https://github.com/jgoodie/randomvariates
+Author: John Goodman
+Author-email: john.goodman@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/randvars/
+Keywords: Random,Random Generator,Random Variates,Random Variables
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+RandomVariates is a library of random variate generation routines.
+The purpose behind this library was purely for educational purposes as 
+a way to learn how to generate random variates using such methods as 
+inverse transform, convolution, acceptance-rejection and composition 
+methods. Additionally, this project was an excuse to get familiar with 
+random number generators such as linear congruential generators, 
+Tausworthe Generators and Widynski's "Squares: A Fast Counter-Based RNG"
+
+
+# Release History
+
+2021-11-06: Initial creation of pip package
+
+2021-11-06: Added Tausworthe Generator and a uniform generator based off the 
+Tausworthe generator.
+
