@@ -1,0 +1,8 @@
+justpid/__init__.py,sha256=uMJPJkLYsvZBZrYtXbe_LtQDqzK_gTf2ZKFixa3iyl4,4653
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/context.py,sha256=vDclNtYFOxv3OWCk0TJ9PhJmh7Arhuvl29tzT_NlIC4,148
+tests/test_simple_pid.py,sha256=7MWM9JPIH4RUVGBTZwyLSsKenNnIUtAnciyHX3wWXdw,4901
+justpid-1.1.0.dist-info/METADATA,sha256=5FhqD7DAYvjNANJkFAeVgg6RX4tw0AG8SwnhWXIjYA0,3111
+justpid-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+justpid-1.1.0.dist-info/top_level.txt,sha256=VZGJvZlPzSSZq8B9Iu2ElpuT6Obwu11CvKr0GGBk9dI,14
+justpid-1.1.0.dist-info/RECORD,,

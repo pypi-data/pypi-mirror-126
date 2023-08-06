@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: justpid
+Version: 1.1.0
+Summary: A simple library for pidfiles support.
+Home-page: https://github.com
+Author: Szymon Lipiński
+Author-email: mabewlun@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/szymonlipinski/justpid/issues
+Project-URL: Source, https://github.com/szymonlipinski/justpid/
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: psutil (==5.8.0)
+Provides-Extra: test
+Requires-Dist: black (==21.9b0) ; extra == 'test'
+Requires-Dist: flake8 (==4.0.1) ; extra == 'test'
+Requires-Dist: isort (==5.10.0) ; extra == 'test'
+Requires-Dist: pyflakes (==2.4.0) ; extra == 'test'
+Requires-Dist: pytest (==6.2.5) ; extra == 'test'
+Requires-Dist: cohesion (==1.0.0) ; extra == 'test'
+Requires-Dist: flake8-functions (==0.0.6) ; extra == 'test'
+Requires-Dist: flake8-expression-complexity (==0.0.9) ; extra == 'test'
+Requires-Dist: flake8-alphabetize (==0.0.16) ; extra == 'test'
+Requires-Dist: flake8-bugbear (==21.9.2) ; extra == 'test'
+Requires-Dist: flake8-builtins (==1.5.3) ; extra == 'test'
+Requires-Dist: flake8-pytest-style (==1.5.1) ; extra == 'test'
+Requires-Dist: flake8-return (==1.1.3) ; extra == 'test'
+Requires-Dist: flake8-simplify (==0.14.2) ; extra == 'test'
+
+
+Introduction
+====================
+
+The JustPidFile libraray is a very simple, yet functional, pid file implementation.
+
+This way the first process accessing the pid file, is able to write there its
+PID (Process ID). The next one will check the file, the pid inside, and will
+check if the process with the PID exists. If it exists, then an exception is thrown.
+
+If the pid file doesn't exist, or contains garbage data, or an integer with a PID
+of a not running process, then the directory can be "locked".
+
+"Locking" a directory is done by creating a ".pid" file in the directory
+with the locking process ID inside.
+
+Gotchas
+--------------------
+
+Locking a directory with a simple file works as long as everybody uses the same
+mechanism.
+There is nothing that forbids any other process to change files in the "locked"
+directory. The purpose of this library is to avoid having two processes writing
+to the same files at the same time.
+
+Example
+--------------------
+
+Lock a directory using the simple functional API
+
+.. code-block:: python
+
+    import justpid as jp
+    directory = "abc"
+
+    try:
+        jp.lock(directory)
+        # some logic
+        jp.unlock(directory)
+    except jp.LockException:
+        print("Cannot lock a directory")
+
+
+
+Use a context manager to automatically unlock the directory at the end
+
+.. code-block:: python
+
+    import justpid as jp
+
+    with jp.Lock(directory):
+        # do something here
+        # the directory is exlusively locked
+    # and here is unlocked
+
+Implementation Details
+-----------------------
+
+There are some hardcoded things like:
+
+* The pid file is in side the locked directory and is named `.pid`
+* The main api is made of functions.
+* There is also a context manager, just to make life a little bit simpler.
+
+
+
+Do You Need this?
+----------------------
+
+Maybe? Who knows. I need.
+
+
+
+
