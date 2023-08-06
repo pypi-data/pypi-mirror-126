@@ -1,0 +1,14 @@
+apache/__init__.py,sha256=hqelHEkA-X32diUZeUyLpEsAFRfljOiw-OGre62P6Vc,1502
+apache/airflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apache/airflow/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apache/airflow/providers/clickhouse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apache/airflow/providers/clickhouse/hooks/ClickhouseHook.py,sha256=Z7Djg5z_kfbKiHzbaBHdjM3M3gcusVdQrTzolWadpYE,2236
+apache/airflow/providers/clickhouse/hooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apache/airflow/providers/clickhouse/operators/ClickhouseOperator.py,sha256=q9WQUAxTGBGBEpYyvqat0VvqY0s6yFLdK3Yq4E_FLBk,1507
+apache/airflow/providers/clickhouse/operators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_providers_clickhouse-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+airflow_providers_clickhouse-0.0.1.dist-info/METADATA,sha256=dB7E4PBzktJlNjgkBSHGz2-srwjrtw_SXRqJiNv4fFM,944
+airflow_providers_clickhouse-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+airflow_providers_clickhouse-0.0.1.dist-info/entry_points.txt,sha256=nDbQIBnlJ5B-SYXW0gWbtBHIRPcL7p6OAmLnQi_7GjY,77
+airflow_providers_clickhouse-0.0.1.dist-info/top_level.txt,sha256=zInfEGmxdVW4fzPOzlsc2VQRbXDYic9kVX02chvGMfY,7
+airflow_providers_clickhouse-0.0.1.dist-info/RECORD,,
