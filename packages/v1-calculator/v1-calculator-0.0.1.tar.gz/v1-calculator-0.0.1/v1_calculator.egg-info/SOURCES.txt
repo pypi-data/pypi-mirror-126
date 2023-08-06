@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+v1_calculator.egg-info/PKG-INFO
+v1_calculator.egg-info/SOURCES.txt
+v1_calculator.egg-info/dependency_links.txt
+v1_calculator.egg-info/top_level.txt
+visionbasiccalculator/__init__.py
