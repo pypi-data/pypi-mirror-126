@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+kholodov_interpolate/__init__.py
+kholodov_interpolate/interpolate.py
+kholodov_interpolate.egg-info/PKG-INFO
+kholodov_interpolate.egg-info/SOURCES.txt
+kholodov_interpolate.egg-info/dependency_links.txt
+kholodov_interpolate.egg-info/not-zip-safe
+kholodov_interpolate.egg-info/requires.txt
+kholodov_interpolate.egg-info/top_level.txt
