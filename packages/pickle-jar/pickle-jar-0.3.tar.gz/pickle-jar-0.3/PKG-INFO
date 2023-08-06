@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pickle-jar
+Version: 0.3
+Summary: A container for pickle slices.
+Home-page: https://github.com/jkvc/pickle-jar
+Author: jkvc
+Author-email: kevinehc@gmail.com
+License: MIT
+Download-URL: https://github.com/jkvc/pickle-jar/archive/refs/tags/v_03.tar.gz
+Description: # pickle-jar
+        
+        A container of pickle slices. 
+        
+        Use this to serialize/read objects to/from disk, but instead of a single pickle file, split into multiple slices of smaller, separate files. This is useful to get around github single-file size restriction. 
+        
+Keywords: pickle,jar,container,serialization
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
