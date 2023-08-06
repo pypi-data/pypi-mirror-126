@@ -1,0 +1,2 @@
+include fpx/alembic.ini
+recursive-include fpx/migrations *.py
