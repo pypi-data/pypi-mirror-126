@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: TournamentAPI
+Version: 0.1
+Summary: A Challonge and smash.gg API wrapper with pandas support.
+Home-page: UNKNOWN
+Author: Impasse52
+License: UNKNOWN
+Description: # Example Package
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

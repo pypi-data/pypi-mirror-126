@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+TournamentAPI.egg-info/PKG-INFO
+TournamentAPI.egg-info/SOURCES.txt
+TournamentAPI.egg-info/dependency_links.txt
+TournamentAPI.egg-info/top_level.txt
+src/Tournament.py
+src/TournamentAPI.py
+src/TournamentMatch.py
+src/TournamentParticipant.py
+src/__init__.py
