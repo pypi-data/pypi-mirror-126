@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: pdCIFplotter
+Version: 0.0.2
+Summary: A program for visualising diffraction data in pdCIF format.
+Home-page: https://github.com/rowlesmr/pdCIFplotter
+Author: Matthew Rowles
+Author-email: rowlesmr@gmail.com
+License: Apache-2.0
+Project-URL: Documentation, https://pdcifplotter.readthedocs.io/en/latest/
+Project-URL: Changelog, https://pdCIFplotter.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/rowlesmr/pdCIFplotter/issues
+Keywords: diffraction,X-ray,neutron,synchrotron,powder diffraction,CIF,crystallography
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Requires-Dist: cycler (>=0.11)
+Requires-Dist: kiwisolver (>=1.3)
+Requires-Dist: matplotlib (>=3.4)
+Requires-Dist: mplcursors (>=0.5)
+Requires-Dist: numpy (>=1.21)
+Requires-Dist: Pillow (>=8.4)
+Requires-Dist: PyCifRW (>=4.4.3)
+Requires-Dist: pyparsing (>=3.0)
+Requires-Dist: PySimpleGUI (>=4.53.0)
+Requires-Dist: python-dateutil (>=2.8)
+Requires-Dist: six (>=1.16)
+
+========
+Overview
+========
+
+
+
+A program for the visualisation of diffraction data in pdCIF format.
+
+Crystallographic Information Framework (CIF; https://www.iucr.org/resources/cif) files are a way of storing 
+crystallographic information in a standard human- and machine-readable format. This particular program is focussed
+on visualising powder diffraction data stored in CIF format, and, in particular, serial or in situ/operando data.
+
+* Free software: Apache Software License 2.0
+
+Installation
+============
+
+::
+
+    pip install pdCIFplotter
+
+You can also install the in-development version from GitHub with::
+
+    pip install https://github.com/rowlesmr/pdCIFplotter/archive/master.zip
+
+
+Documentation
+=============
+
+
+https://pdCIFplotter.readthedocs.io/en/latest/
+
+
+Development
+===========
+
+This isn't fully implemented yet.
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.0.2 (2021-11-07)
+------------------
+
+* Update install requirements - mplcursors 0.5 is now available, rather than installing from git.
+* Can now launch from command line with just ``> pdcifplotter``
+
+0.0.1 (2021-11-06)
+------------------
+
+* Update install requirements and provided prompting to user on installing packages not available on PyPi.
+
+0.0.0 (2021-11-05)
+------------------
+
+* First release on PyPI.
+
+
