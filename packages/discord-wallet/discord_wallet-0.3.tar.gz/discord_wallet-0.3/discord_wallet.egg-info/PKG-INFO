@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: discord-wallet
+Version: 0.3
+Summary: Connect your bot to Discord Wallet.
+Home-page: https://github.com/user/panicakr
+Author: Panicakr
+License: UNKNOWN
+Download-URL: https://github.com/panicakr/discord_wallet/archive/v_01.tar.gz
+Description: # Welcome to Wallet!
+        ### Wallet is a project designed to connect Discord's economy bots. With a simple installation and set-up, any dev can add their bot to the Wallet economy!
+        
+        > Questions? Comments? Concerns? Join the Discord server!<br/>
+        > **https://discord.gg/aKGv9z2g8B**
+        
+        <br/>
+        
+        ## Getting Started
+        ```py
+        import wallet
+        
+        # currency_symbol is optional, and can be added in any call to update the bot's symbol in Wallet (defaults to $)
+        
+        wallet.add_to_wallet(bot_id, user_id, amount_of_currency, currency_symbol);
+        
+        wallet.remove_from_wallet(bot_id, user_id, amount_of_currency, currency_symbol);
+        
+        Wallet.check_balance(bot_id, user_id, currency_symbol);
+        ```
+        <br/>
+        
+        ## Example
+        ```py
+        import discord
+        import wallet
+        from discord.ext import commands
+        
+        bot = commands.Bot(command_prefix = '!')
+        
+        @bot.command(name='wallet')
+        async def _wallet(ctx, type_input, amount_input):
+            if type_input == 'add':
+                wallet.add_to_wallet(bot.user.id, ctx.message.author.id, int(amount_input))
+        
+                # remove the money from your database to match
+        ```
+        
+        Warning: Abuse of any of Wallet's features will have your bot banned. Think you've found an exploit? Let us know in the Discord server.
+Keywords: discord,discord.py,economy
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Description-Content-Type: text/markdown
