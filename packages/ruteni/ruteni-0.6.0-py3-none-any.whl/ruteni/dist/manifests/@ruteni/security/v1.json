@@ -1,0 +1,1 @@
+{"name":"@ruteni/security/v1","version":"1.0.0","license":"EUPL-1.2","dependencies":["@ruteni/logging/v1"],"base":"/static/@ruteni/security/v1","select":[],"resources":{},"module":{"url":"index.js","revision":"8dc3ae385911c410fcd12dc39770bb09","size":19568,"type":"script"}}
