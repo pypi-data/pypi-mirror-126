@@ -1,0 +1,3 @@
+[console_scripts]
+p21octmmr_filler = src.p21octmmr_filler:main
+
