@@ -1,0 +1,7 @@
+setup.py
+Lee_math/Lee_math.py
+Lee_math/__init__.py
+Lee_math.egg-info/PKG-INFO
+Lee_math.egg-info/SOURCES.txt
+Lee_math.egg-info/dependency_links.txt
+Lee_math.egg-info/top_level.txt
