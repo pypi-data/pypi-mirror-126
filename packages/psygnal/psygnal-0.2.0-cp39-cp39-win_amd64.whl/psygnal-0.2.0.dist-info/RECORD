@@ -1,0 +1,10 @@
+psygnal/__init__.py,sha256=guiIo4K5Z6qdGua39v1c-lCu28p3x26marXsKbqD160,1520
+psygnal/_signal.cp39-win_amd64.pyd,sha256=IjiugfXkdPod-bil9_FQjoMzidHeP6xr656PHcl8Dkw,311296
+psygnal/_signal.py,sha256=Lk2o_-z7LS__Tnx61uJCnAcHUrvlCTavsN5Hdop1pQo,37853
+psygnal/_version.py,sha256=bWpd1HVv248UTIkgJCk8hXhO-z1PW6qpNifJH8dqhP4,147
+psygnal/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psygnal-0.2.0.dist-info/LICENSE,sha256=1OkeCM9Twf0WZe8iwfa_ZYIp1D-PoO5NyasIKYYSngY,1544
+psygnal-0.2.0.dist-info/METADATA,sha256=nX-6oRvRGWkDzsxcuCq8cFnRJiUcdv5CZwwDgjypLQw,14024
+psygnal-0.2.0.dist-info/WHEEL,sha256=MRZ_p7RU4olp1XL4U2EYLkuYikriaVRqXBoKVLH_OSE,100
+psygnal-0.2.0.dist-info/top_level.txt,sha256=WYSfWuaSgSarH4remUGlBDSZyIZZqOZhxjWMAGxpCAE,8
+psygnal-0.2.0.dist-info/RECORD,,
