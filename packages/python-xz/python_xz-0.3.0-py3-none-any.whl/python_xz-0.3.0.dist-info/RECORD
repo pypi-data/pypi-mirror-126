@@ -1,0 +1,16 @@
+xz/__init__.py,sha256=cXogPXgU7FznSi7VunG7tfXtSPlRK3Beg5wzDVViL3s,1398
+xz/_version.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+xz/block.py,sha256=eWy7uLb00yHI8APXjfcJZVwSv6vqzEeFl0fNWmj8Bg4,5683
+xz/common.py,sha256=ecGX2AlhrO8g-llGNKDSem_oFNOfOp5BuBopJzYaNZ4,4021
+xz/file.py,sha256=mGzBVje82zy6qd6v009tZI8sBywWTJMhBROymETOADk,5965
+xz/io.py,sha256=ZMe9w50w_TUOrMeoHxxVW7Mp741yjO1QItrGjFnANfU,11521
+xz/open.py,sha256=_k0jNAX5DY4QncES_T9ConmrWLnU6xdpHZ26hUuVNto,4537
+xz/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xz/stream.py,sha256=gM5C59kL6gCaZROa1KRhC-PKNxFYZeoASXvGnzjE2ck,3952
+xz/typing.py,sha256=b7ygT2M682z3pwHSXskP2ejeG-Xzp3P9ueuwb-Twdvk,1105
+xz/utils.py,sha256=306wHhlG-D67qql1H9C87z6Zl_48Vi-iLX3vqFbSYKk,4336
+python_xz-0.3.0.dist-info/LICENSE.txt,sha256=c4bgarJmqrbV_Q3jYaW2_7wji8kUjs0BepyP8r-DMpY,1074
+python_xz-0.3.0.dist-info/METADATA,sha256=vLYAuRmXzTELVf7Lii9OIhOyPPrEWKbfEyh5BkwSDkA,7355
+python_xz-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+python_xz-0.3.0.dist-info/top_level.txt,sha256=tE99a1KDpE7l8r2Y-ECHoEgQCSEi116Pv4rYX48pgfE,3
+python_xz-0.3.0.dist-info/RECORD,,
