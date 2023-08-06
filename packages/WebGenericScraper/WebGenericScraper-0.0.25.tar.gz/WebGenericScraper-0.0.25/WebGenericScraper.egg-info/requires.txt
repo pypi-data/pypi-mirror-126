@@ -1,0 +1,7 @@
+WLO
+selenium
+webdriver-manager
+pandas
+colorama
+bs4
+pyyaml
