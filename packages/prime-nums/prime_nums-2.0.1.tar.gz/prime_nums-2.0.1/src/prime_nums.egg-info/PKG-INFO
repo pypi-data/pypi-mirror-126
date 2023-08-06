@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: prime-nums
+Version: 2.0.1
+Summary: prime numbers generator and checker
+Home-page: https://github.com/pypa/sampleproject
+Author: silaspdj
+Author-email: silsilinhas@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Números primos
+
+```
+from prime_nums import get_prime_nums, is_prime
+
+get_prime_nums(qt_primes=10)
+# 2, 3, 5...
+
+is_prime(10)
+# False
+```
+
+
