@@ -1,0 +1,6 @@
+BuiltInResources.py
+setup.py
+lzy_BuiltInResources.egg-info/PKG-INFO
+lzy_BuiltInResources.egg-info/SOURCES.txt
+lzy_BuiltInResources.egg-info/dependency_links.txt
+lzy_BuiltInResources.egg-info/top_level.txt
