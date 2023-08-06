@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/etherunit.egg-info/PKG-INFO
+src/etherunit.egg-info/SOURCES.txt
+src/etherunit.egg-info/dependency_links.txt
+src/etherunit.egg-info/top_level.txt
