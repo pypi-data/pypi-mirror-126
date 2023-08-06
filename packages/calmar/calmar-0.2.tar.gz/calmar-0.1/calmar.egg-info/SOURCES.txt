@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+calmar.egg-info/PKG-INFO
+calmar.egg-info/SOURCES.txt
+calmar.egg-info/dependency_links.txt
+calmar.egg-info/top_level.txt
