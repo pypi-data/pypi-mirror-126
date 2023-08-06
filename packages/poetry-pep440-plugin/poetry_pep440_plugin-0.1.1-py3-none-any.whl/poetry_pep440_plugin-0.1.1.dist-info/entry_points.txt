@@ -1,0 +1,3 @@
+[poetry.application.plugin]
+poetry-pep440-plugin=poetry_pep440_plugin.plugin:WorkspacePlugin
+
