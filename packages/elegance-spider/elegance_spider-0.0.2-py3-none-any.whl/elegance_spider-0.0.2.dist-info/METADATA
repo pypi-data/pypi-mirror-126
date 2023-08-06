@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: elegance-spider
+Version: 0.0.2
+Summary: A spider framework
+Home-page: https://kirintang.github.io
+Author: kirintang
+Author-email: 215936564@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: charset-normalizer (==2.0.7)
+Requires-Dist: gevent (==21.8.0)
+Requires-Dist: greenlet (==1.1.2)
+Requires-Dist: idna (==3.3)
+Requires-Dist: importlib (==1.0.4)
+Requires-Dist: lxml (==4.6.4)
+Requires-Dist: redis (==3.5.3)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: urllib3 (==1.26.7)
+Requires-Dist: w3lib (==1.22.0)
+Requires-Dist: zope.event (==4.5.0)
+Requires-Dist: zope.interface (==5.4.0)
+
+UNKNOWN
+
