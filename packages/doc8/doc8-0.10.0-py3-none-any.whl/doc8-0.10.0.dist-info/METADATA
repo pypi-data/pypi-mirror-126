@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: doc8
+Version: 0.10.0
+Summary: Style checker for Sphinx (or other) RST documentation
+Home-page: https://github.com/pycqa/doc8
+Author: OpenStack
+Author-email: openstack-discuss@lists.openstack.org
+Maintainer: PyCQA
+Maintainer-email: code-quality@python.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: docutils
+Requires-Dist: restructuredtext-lint (>=0.7)
+Requires-Dist: stevedore
+Requires-Dist: Pygments
+
+UNKNOWN
+
