@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: django_unittest_helper
+Version: 0.1
+Summary: Helper package for django unittest
+Home-page: https://github.com/masudurHimel/django_unittest_helper
+Author: Md. Masudur Rahman
+Author-email: masudurhimel@gmail.com
+License: MIT
+Download-URL: https://github.com/masudurHimel/django_unittest_helper/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: django,unittest
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
