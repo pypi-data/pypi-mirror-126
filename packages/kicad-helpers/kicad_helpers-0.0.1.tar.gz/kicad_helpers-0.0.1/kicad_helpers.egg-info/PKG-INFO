@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: kicad-helpers
+Version: 0.0.1
+Summary: Scripts, templates, and examples for managing KiCad projects.
+Home-page: https://github.com/ryanfobel/kicad_helpers/tree/main/
+Author: Ryan Fobel
+Author-email: ryan@fobel.net
+License: BSD License
+Keywords: kicad continuous-integration
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# kicad-helpers
+
+This project contains some examples and utility scripts for managing [KiCad] projects.
+
+## Github actions
+
+### Auto-generate manufacturing outputs
+
+* Generate manufacturer-specific assets (configured in `.kicad_helpers_config/manufacturing`)
+
+```      
+.
+├── manufacturing
+    ├── default
+    └── $MANUFACTURER_NAME
+        ├── assembly_photos
+        |   ├── front.png
+        |   └── back.png
+        ├── gerbers
+        |   ├── $PROJECT_NAME.drl
+        |   ├── $PROJECT_NAME.gbl
+        ... ...
+        |   └── $PROJECT_NAME-NPTH.drl
+        ├── position
+            ├── bottom_pos.pos
+            └── top_pos.pos
+        └── $PROJECT_NAME-BOM.csv
+```
+
+* Generate PCBWay assets
+* Add assembly photos
+* Add git commit hash to asset names
+* Add position files
+* Generate Github release on tag push
+
+## Notebooks
+
+* sync BOM/KiCad schematic file
+* update stock levels from Octopart, kitspace
+
+[KiCad]: https://www.kicad.org/
+
+
