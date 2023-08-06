@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bvx-network
+Version: 0.0.9
+Summary: Network utils.
+Home-page: https://github.com/kotsutsumi/bvx-network
+Author: Kazuhiro Kotsutsumi
+License: The MIT License
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: psutil (~=5.8.0)
+
+UNKNOWN
+
