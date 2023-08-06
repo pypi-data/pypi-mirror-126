@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: TwentyOneCardGame
+Version: 1.2
+Summary: Basic game of Black Jack/21
+Home-page: UNKNOWN
+Author: Patrick Löwe
+Author-email: patricklowe33@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: GAME,21,BLACK JACK
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
