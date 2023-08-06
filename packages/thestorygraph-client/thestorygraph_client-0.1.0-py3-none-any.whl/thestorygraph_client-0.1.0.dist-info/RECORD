@@ -1,0 +1,13 @@
+tsg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tsg/client.py,sha256=9ZoZFr6hqcdcK3ijSi--Pjs9KSWA-Agu130fhm5gwss,1720
+tsg/models.py,sha256=m0ftXOCkA6eW_3YoUloyiwfj7j8Wd8ew_1sL2oHt-rk,890
+tsg/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tsg/handlers/base.py,sha256=nflihL878KLMhGPjEHX8LMwtybIfAiuz2NDYuqxOk3o,534
+tsg/handlers/book.py,sha256=OOMPZqPr0VC8OnZGEqmIXK96mkV5HVViTVQjZcpHGoQ,1190
+tsg/handlers/book_common.py,sha256=aGmE2Ey2JCH3avb8ojevdmxL-F26UXkE6fgdL8x6PVE,2637
+tsg/handlers/browse.py,sha256=xxQPP22TZk9XzI9ptUaReV-o0uB6xGaH3WE0f8-JeDM,962
+thestorygraph_client-0.1.0.dist-info/LICENSE,sha256=pyhqjIsFfdNPFpJ1MJiWHqi2BjMGr8fxS-FF9oRbiHM,1074
+thestorygraph_client-0.1.0.dist-info/METADATA,sha256=UPrFg5a9PYpRsns-En21YAXEBdsZCcy_pnoohonqjuE,3324
+thestorygraph_client-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+thestorygraph_client-0.1.0.dist-info/top_level.txt,sha256=zZ9Vnb_x5l0k8RHbv4rH5vuqbB8pl5oXIFn_JjPTDk0,4
+thestorygraph_client-0.1.0.dist-info/RECORD,,
