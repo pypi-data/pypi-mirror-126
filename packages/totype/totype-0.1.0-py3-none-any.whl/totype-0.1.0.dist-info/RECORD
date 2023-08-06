@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LICENSE,sha256=zyriBUHmFhtndjy-JMSvEbbPJ4H1nTpaiSNl-9bgicI,11507
+README.md,sha256=VOUWA79HwwEK2I9azkxWUnfMf_oR-5GbABSFMNnwZQU,1046
+totype/__init__.py,sha256=u8KE8z4mSF7rA4WcfEEZGeIZ841HPtEFvqEyxUR9-ts,78
+totype/annotation_types.py,sha256=6tm5zsv5PRzns18Q9mMCqsUNigIGV4ZahQgEp1oEQfk,296
+totype/exceptions.py,sha256=IRhycB-_VDCdlabGnMn1805d4Xk7ftaZPRlA9m2vCZA,450
+totype/fields.py,sha256=gRSmOPa-7bGz8hypwafQONbKBRWFu7LhEU9upK238aY,12087
+totype/func.py,sha256=n4RzE7mkT-863yKr2C-h1Yt-BGoMfWy-UXMn5jQELz0,7847
+totype/transform.py,sha256=5KB6_61PLRJeSRRBspot1Qz_d4vFOqzWjWD4ZLhUGXA,3698
+totype-0.1.0.dist-info/LICENSE,sha256=zyriBUHmFhtndjy-JMSvEbbPJ4H1nTpaiSNl-9bgicI,11507
+totype-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+totype-0.1.0.dist-info/METADATA,sha256=qh6wa_HrRbIRCordu8OhnBVFtAeKoi6ObNUedfWEILU,1749
+totype-0.1.0.dist-info/RECORD,,
