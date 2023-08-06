@@ -1,0 +1,14 @@
+stylebase/__init__.py,sha256=4IF0BVDcmPK-ZNykEBoI5VU8W-ZGIjnKBteJxvPLdZI,18441
+stylebase/__main__.py,sha256=lruanKLDvEoIbQ2f_vAjGaxfHpa0aEm9EYgJHwJqUnA,103
+stylebase/pyrustic_data/backstage/data/build_report.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+stylebase/pyrustic_data/backstage/hooking/build.json,sha256=Q4cOYGpl8OF-ECRvpxgIhtj1Vxv2qGhEXyOQ_JoER3g,75
+stylebase/pyrustic_data/backstage/hooking/init.json,sha256=sjZW3XAItXtCJ9RWX-cXWs5EYRO_YtfaJG404iN8q14,39
+stylebase/pyrustic_data/backstage/hooking/release.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__main__.py,sha256=DwT4JiIjApz2pTebGeAXVXHvn765g8dAU5PBcb5sMmo,365
+stylebase-0.0.12.dist-info/LICENSE,sha256=qa7R_AbaR83ZfoUV_42NLm1y03WIzvfz5kcIrGwX-UY,1075
+stylebase-0.0.12.dist-info/METADATA,sha256=xDT0-fRfig84dvqBd_2_4-7OMEdCbWVypIpp_eirGjY,623
+stylebase-0.0.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+stylebase-0.0.12.dist-info/entry_points.txt,sha256=RJL1WCIFmQHQWe5oQtZt_8LrOSy4Xdexf4YDkwMBRaU,55
+stylebase-0.0.12.dist-info/top_level.txt,sha256=rmWx-6PwIs-q0QqQRe0SpQljpZiRiLzcbziMV6bJgW0,16
+stylebase-0.0.12.dist-info/RECORD,,
