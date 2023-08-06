@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: Casabourselib
+Version: 0.0.15
+Summary: Like yfinance but for Moroccan stocks
+Home-page: UNKNOWN
+Author: Yassine Rhzif & Ahmed Ouaboune
+Author-email: Rhzif@hotmail.com
+License: UNKNOWN
+Keywords: python,Bourse de casa,stocks,actions,actions maroc
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# Bourse2casa
+
+Under construction! Not ready for use yet! Currently experimenting and planning!
+
+Developed by Yassine Rhzif and Ahmed Ouaboune from Traders & Analysts club (c) 2021
+
+## Examples of How To Use (Buggy Alpha Version)
+
+Getting a stock price data 
+```python
+import Casabourselib as cbl
+stock = cbl.get_stock_price('CIH','01/01/2020','01/10/2021')
+```
+
+
+
