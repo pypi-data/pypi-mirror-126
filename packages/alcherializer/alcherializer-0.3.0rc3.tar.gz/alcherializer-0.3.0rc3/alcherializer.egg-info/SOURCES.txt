@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+alcherializer/__init__.py
+alcherializer/exceptions.py
+alcherializer/fields.py
+alcherializer/serializer.py
+alcherializer.egg-info/PKG-INFO
+alcherializer.egg-info/SOURCES.txt
+alcherializer.egg-info/dependency_links.txt
+alcherializer.egg-info/requires.txt
+alcherializer.egg-info/top_level.txt
