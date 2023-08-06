@@ -1,0 +1,9 @@
+osm2pgsql_tuner/__init__.py,sha256=FwF7L-4n12ErCWuZ48GL6R5koKs_wevHx4OWaDcFTP4,541
+osm2pgsql_tuner/config.py,sha256=pA8JDqsSffMtm8gPjfhG2-ychCy69MmiC4fXab7jpWo,1757
+osm2pgsql_tuner/forms.py,sha256=aevOwuPQFntlQCtHiZSk0FzVA9bBThOgkBu7wzLClhI,1211
+osm2pgsql_tuner/osm2pgsql.py,sha256=aWsnV-O65gxlvNGKi-sqPRcMafAVwVv4thRdJFLT9Po,7814
+osm2pgsql_tuner/routes.py,sha256=pKrgpxJZyR0yhz-F0uCyGsBuA3sgb5TUFE-Bov595Xk,3466
+osm2pgsql_tuner-0.0.2.dist-info/METADATA,sha256=D3EL65tQQhxtZxbDU9WG3yci6HFpwV2zO8K97JJ6Izw,248
+osm2pgsql_tuner-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+osm2pgsql_tuner-0.0.2.dist-info/top_level.txt,sha256=1DJACo-OSwpwAZ-4l08Zn3jtzp1l8w8XbbN_0EV-PlU,16
+osm2pgsql_tuner-0.0.2.dist-info/RECORD,,
