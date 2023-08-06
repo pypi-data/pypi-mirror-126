@@ -1,0 +1,1 @@
+This is a simple and bad calculator I made to learn how to make Python packages

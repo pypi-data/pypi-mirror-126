@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+LogatCalculator.egg-info/PKG-INFO
+LogatCalculator.egg-info/SOURCES.txt
+LogatCalculator.egg-info/dependency_links.txt
+LogatCalculator.egg-info/top_level.txt
