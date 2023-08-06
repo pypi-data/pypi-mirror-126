@@ -1,0 +1,14 @@
+optimaldesign/__init__.py,sha256=r4tw-spQmNjm6sBzTY9DT1ekaidVASPHC1j26VWZD5o,534
+optimaldesign/adaptive_grid_optimal_design.py,sha256=QzWOjSJt4nXpNi0ZM-_6GLdOI4vHp5Qq7VJ1mwNOXOI,9922
+optimaldesign/design_measure.py,sha256=GuVeAbHCDT-kwC9H0ujXy5KupRsPKOB8vjno3DdEU5Y,3375
+optimaldesign/interior_point_method.py,sha256=uUfZIIqGzHSlGLrymTDI9X_edwermxBTYJQurS3G9jg,12309
+optimaldesign/linear_model.py,sha256=eYayj7rB1ejV7Yoo7J_BfLEOOOIPhlf3-7XB94IUc-M,4884
+optimaldesign/optimal_design.py,sha256=gAejN5cL3RkkEs7CTSu6ffMRCgm7P18KEk2aYcF8fo8,2206
+optimaldesign/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optimaldesign/tests/test_linear_model.py,sha256=H4m6mQQLh8rK-mTJRVaSRCGdmXbvHtaT-sXg9rdqrvc,3210
+optimaldesign/tests/test_optimal_design.py,sha256=qeR2wZQWw9C0oG5GtkggayZtOjKV6AC9qYEhTx3ncI4,1800
+optimaldesign-0.1.2.dist-info/LICENSE,sha256=UaBvLmh_eXJbVyUw0ovmdr0Te7pjp3aNJ-JkrovjXR8,1069
+optimaldesign-0.1.2.dist-info/METADATA,sha256=dREPPWM1ncp_3uuOoLrt_4wIZ_PHoD7ahlRKE5UsBLA,987
+optimaldesign-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+optimaldesign-0.1.2.dist-info/top_level.txt,sha256=CT6ts-coBS0kUY1TAbHDClEu47119cuYq5evHBorlYM,14
+optimaldesign-0.1.2.dist-info/RECORD,,
