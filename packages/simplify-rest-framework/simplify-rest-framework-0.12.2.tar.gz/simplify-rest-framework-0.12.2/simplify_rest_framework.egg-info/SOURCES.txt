@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+simplify_rest_framework/__init__.py
+simplify_rest_framework/apps.py
+simplify_rest_framework/model_factory.py
+simplify_rest_framework/permissions.py
+simplify_rest_framework/serializer.py
+simplify_rest_framework/view_set.py
+simplify_rest_framework/views.py
+simplify_rest_framework.egg-info/PKG-INFO
+simplify_rest_framework.egg-info/SOURCES.txt
+simplify_rest_framework.egg-info/dependency_links.txt
+simplify_rest_framework.egg-info/requires.txt
+simplify_rest_framework.egg-info/top_level.txt
