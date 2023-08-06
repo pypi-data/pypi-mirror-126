@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: singular-launcher
+Version: 1.0.1
+Summary: Singular API For Launching Experiments Using Singularity On Slurm
+Home-page: https://github.com/brandontrabucco/singular
+Author: Brandon Trabucco
+Author-email: brandon@btrabucco.com
+License: MIT
+Download-URL: https://github.com/brandontrabucco/singular/archive/v1_0_1.tar.gz
+Keywords: Deep Learning,Research,Management
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# A Singular Experiment Launcher
+
+Singular is a quality of life package that enables rapid deployment of code on a slurm cluster with singularity installed and password enabled login. Running experiments on your cluster is as simple as a single command in the terminal using singular. See below for an example and install instructions.
+
+## Installation
+
+Singular can be installed using pip.
+
+```bash
+pip install singular-launcher
+```
+
+## Usage
+
+You may configure singular to remember the ssh credentials to your remote cluster using the following example in the terminal.
+
+```bash
+singular set --ssh-username username --ssh-password password --ssh-host compute.example.com
+```
+
+Running your first command on your cluster is then as simple as one line in the terminal.
+
+```bash
+singular remote echo "my first command"
+```
+

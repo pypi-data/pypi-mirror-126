@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+singular/__init__.py
+singular/experiment_config.py
+singular_launcher.egg-info/PKG-INFO
+singular_launcher.egg-info/SOURCES.txt
+singular_launcher.egg-info/dependency_links.txt
+singular_launcher.egg-info/entry_points.txt
+singular_launcher.egg-info/requires.txt
+singular_launcher.egg-info/top_level.txt
