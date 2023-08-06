@@ -1,0 +1,11 @@
+importlib-metadata
+python_version>="3.9"
+sphinx
+myst-parser
+sphinxcontrib-plantuml
+sphinxcontrib-mermaid
+
+[testing]
+setuptools
+pytest
+pytest-cov
