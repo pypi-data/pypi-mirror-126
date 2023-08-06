@@ -1,0 +1,5 @@
+Jinja2
+chardet
+toml
+click
+winney>=0.5.6
