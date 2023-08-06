@@ -1,0 +1,9 @@
+gaomi/__init__.py,sha256=bIOkM0IUPD4kCIcMaquAekjszg7bLW3FUcOwDUrrcXA,125
+gaomi/dcm2nii.py,sha256=cWH664sm9kkAVK5hpUgsOWQPKGulD1LY2-KZTp1AND0,1423
+gaomi/getparams.py,sha256=_xt1HwAo2T2AyTtnHMwW_srfpcw8hL6Wo4rvc6EwajY,1438
+gaomi/nrrd2nii.py,sha256=LlmZdHztxHaO6p4pexuWsutihgTwsfDFNSuvTwss75I,4229
+gaomi-0.0.1.dist-info/LICENSE,sha256=A1xN3p9Xwi9uQdXaHwHRKMyK3oTqwZh6zQhVH8J4s28,1092
+gaomi-0.0.1.dist-info/METADATA,sha256=wPGgVD_hq8DAUXd0UOrS-yPDcnWJe5-nqeHObk3D-Lw,623
+gaomi-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gaomi-0.0.1.dist-info/top_level.txt,sha256=wmT1X-Ngt7Nx8JHv86zMdg-pCsdLbJAUgLZ_KZ4FH_M,6
+gaomi-0.0.1.dist-info/RECORD,,
