@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cytosim-reader
+Version: 0.3.1
+Summary: Read data from cytosim simulations to pandas DataFrames arrays.
+Home-page: UNKNOWN
+Author: Ilyas Kuhlemann
+Author-email: ilyasp.ku@gmail.com
+License: GNU GPLv3
+Platform: UNKNOWN
+
+UNKNOWN
+
