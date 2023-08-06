@@ -1,0 +1,13 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/kansuji2digit/__init__.py
+src/kansuji2digit/__main__.py
+src/kansuji2digit/_kansuji2digit.pyd
+src/kansuji2digit/kansuji2digit.py
+src/kansuji2digit.egg-info/PKG-INFO
+src/kansuji2digit.egg-info/SOURCES.txt
+src/kansuji2digit.egg-info/dependency_links.txt
+src/kansuji2digit.egg-info/top_level.txt
