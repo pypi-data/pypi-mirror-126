@@ -1,0 +1,14 @@
+pymultimonitor/PyMultiMonitor.py,sha256=W9o4TTfzqNxHdUst8J1BjmTAn2eiZlvlzcEhTuKcFtk,6306
+pymultimonitor/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pymultimonitor/constants/DisplayConfigDeviceInfo.py,sha256=OVGHywUoFIin9w8i4Wy4uHBXciYWuCPx1bkQiMa7UnM,733
+pymultimonitor/constants/DisplayConfigTopology.py,sha256=WOu-jo4tJVU379nXkzP9lFCTOHy_BSuZrjTO08Z236U,340
+pymultimonitor/constants/DisplayModeInfo.py,sha256=Rp9B94gk5X8_nsYxSVbpGzlGqtClIx4JVv4qmZ67VqA,241
+pymultimonitor/constants/QueryDisplayConfigFlag.py,sha256=RY0u7xd0CCJKh4zsfe0zNJHi1dcmMNLAqjHL8x5OEDs,284
+pymultimonitor/constants/SetDisplayConfigFlag.py,sha256=B7LPhrsgeaWsQzXwZ6RjESA39vLlpShBx6DOMccG_T0,843
+pymultimonitor/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymultimonitor/structures/DisplayConfigStructures.py,sha256=QJArrR5rqzuUfP8zWFRl_Pp3m4DPwAgWDBzoVJSZ-bo,4393
+pymultimonitor/structures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymultimonitor-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pymultimonitor-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pymultimonitor-0.1.0.dist-info/METADATA,sha256=ooDqHn52d1ienk0yzRGGu1qp3a-xOkPwOlUhgHKsbJk,348
+pymultimonitor-0.1.0.dist-info/RECORD,,
